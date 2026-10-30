@@ -824,20 +824,20 @@
         "scenario_prompt": "You are preparing to crawl beneath a vehicle to inspect the exhaust and suspension for Automotive Maintenance Requirement 1. Which safety procedure is strictly required before anyone goes under the car?",
         "question": "You are preparing to crawl beneath a vehicle to inspect the exhaust and suspension for Automotive Maintenance Requirement 1. Which safety procedure is strictly required before anyone goes under the car?",
         "options": [
-          "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral, and crawl underneath immediately.",
+          "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral.",
           "B. Keep the engine running inside a closed garage to warm the fluids while supporting the frame on hollow concrete cinder blocks.",
-          "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points, and lower it onto rated mechanical jack stands before going underneath.",
+          "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points.",
           "D. Stack wooden two-by-fours on top of a hydraulic floor jack saddle and rely on the hydraulic cylinder pressure alone to hold the vehicle up."
         ],
         "choices": [
-          "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral, and crawl underneath immediately.",
+          "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral.",
           "B. Keep the engine running inside a closed garage to warm the fluids while supporting the frame on hollow concrete cinder blocks.",
-          "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points, and lower it onto rated mechanical jack stands before going underneath.",
+          "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points.",
           "D. Stack wooden two-by-fours on top of a hydraulic floor jack saddle and rely on the hydraulic cylinder pressure alone to hold the vehicle up."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points, and lower it onto rated mechanical jack stands before going underneath.",
+        "correct_answer": "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points.",
         "explanation": "Correct Answer (C): Hydraulic jacks can fail or leak pressure without warning; a vehicle must always be supported on properly rated mechanical jack stands on level ground with wheels chocked before anyone works beneath it.",
         "pamphlet_page_ref": "p. 20, p. 21"
       },
@@ -903,8 +903,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "In Automotive Maintenance Requirement 2a(1), many Scouts assume brake fluid only requires a general overview rather than specific details on brake fluid.",
-                "fact": "The official Automotive Maintenance pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document brake fluid and explain brake fluid during counselor review."
+                "misconception": "Opening the brake fluid reservoir cap frequently is a harmless habit for visual fluid checks.",
+                "fact": "Brake fluid is hygroscopic and readily absorbs water vapor from outside air, which lowers its boiling point and causes brake fade under heavy use."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -930,14 +930,17 @@
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
               "sub_req_text": "Brake fluid.",
-              "topic_title": "Req 2a(1): Brake Fluid",
-              "pamphlet_summary": "Brake Fluid: The Automotive Maintenance pamphlet for Requirement 2a(1) details brake fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(1): Brake Fluid Reservoir Inspection",
+              "pamphlet_summary": "Brake Fluid Reservoir Inspection: Inspect the translucent master cylinder reservoir to verify that fluid rests between the minimum and maximum indicator lines without removing the cap unnecessarily. Check for dark amber or black discoloration that indicates contamination or moisture absorption requiring a system flush (p. 25).",
               "pamphlet_excerpts": [
-                "Brake Fluid: The Automotive Maintenance pamphlet for Requirement 2a(1) details brake fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Brake Fluid Reservoir Inspection: Inspect the translucent master cylinder reservoir to verify that fluid rests between the minimum and maximum indicator lines without removing the cap unnecessarily. Check for dark amber or black discoloration that indicates contamination or moisture absorption requiring a system flush (p. 25)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "Why is the brake fluid reservoir made of see-through plastic rather than solid metal?"
+              ]
             },
             {
               "sub_id": "2a(2)",
@@ -969,8 +972,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "When preparing Automotive Maintenance Requirement 2a(2) (Engine Oil), Scouts sometimes overlook the concrete pamphlet benchmarks covering engine oil.",
-                "fact": "Counselor verification for Automotive Maintenance Requirement 2a(2) requires concrete workbook evidence on engine oil, specifically addressing engine oil."
+                "misconception": "Engine oil turns black exclusively because the engine has suffered internal mechanical damage.",
+                "fact": "Detergent additives intentionally suspend microscopic soot and combustion byproducts in the oil to keep internal engine passages clean between scheduled oil changes."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -996,14 +999,17 @@
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
               "sub_req_text": "Engine oil.",
-              "topic_title": "Req 2a(2): Engine Oil",
-              "pamphlet_summary": "Engine Oil: The Automotive Maintenance pamphlet for Requirement 2a(2) details engine oil, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(2): Engine Oil Level Dipstick Inspection",
+              "pamphlet_summary": "Engine Oil Level Dipstick Inspection: Park the vehicle on level ground and withdraw the dipstick, wiping it clean before reinserting it fully to obtain an accurate reading. Confirm that the oil level registers between the add and full hash marks while observing the oil clarity and viscosity (p. 21).",
               "pamphlet_excerpts": [
-                "Engine Oil: The Automotive Maintenance pamphlet for Requirement 2a(2) details engine oil, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Engine Oil Level Dipstick Inspection: Park the vehicle on level ground and withdraw the dipstick, wiping it clean before reinserting it fully to obtain an accurate reading. Confirm that the oil level registers between the add and full hash marks while observing the oil clarity and viscosity (p. 21)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "What does wiping the dipstick with a clean rag before taking a reading prevent?"
+              ]
             },
             {
               "sub_id": "2a(3)",
@@ -1035,8 +1041,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "For Automotive Maintenance Requirement 2a(3), a common mistake in automotive maintenance coolant principles is treating automotive maintenance coolant principles as optional background reading.",
-                "fact": "Mastering Automotive Maintenance Requirement 2a(3) means following the pamphlet standard for automotive maintenance coolant principles and recording accurate notes on automotive maintenance coolant principles."
+                "misconception": "Adding pure tap water to a low cooling system provides the exact same protection as premixed antifreeze.",
+                "fact": "Engines require a balanced mixture of distilled water and ethylene glycol coolant to inhibit internal corrosion and prevent both boiling over in summer and freezing solid in winter."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1062,14 +1068,17 @@
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
               "sub_req_text": "Coolant.",
-              "topic_title": "Req 2a(3): Automotive Maintenance Coolant Principles",
-              "pamphlet_summary": "Automotive Maintenance Coolant Principles: The Automotive Maintenance pamphlet for Requirement 2a(3) details core principles and practical standards for automotive maintenance coolant principles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(3): Coolant Expansion Tank Level Verification",
+              "pamphlet_summary": "Coolant Expansion Tank Level Verification: Observe the coolant level through the transparent overflow recovery tank to ensure it aligns with the cold fill mark while the engine remains unheated. Never loosen or remove a pressurized radiator cap on a hot cooling system due to the extreme risk of scalding steam eruption (p. 29).",
               "pamphlet_excerpts": [
-                "Automotive Maintenance Coolant Principles: The Automotive Maintenance pamphlet for Requirement 2a(3) details core principles and practical standards for automotive maintenance coolant principles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Coolant Expansion Tank Level Verification: Observe the coolant level through the transparent overflow recovery tank to ensure it aligns with the cold fill mark while the engine remains unheated. Never loosen or remove a pressurized radiator cap on a hot cooling system due to the extreme risk of scalding steam eruption (p. 29)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "How does an expansion tank allow you to check engine coolant safely without exposing yourself to pressurized boiling liquid?"
+              ]
             },
             {
               "sub_id": "2a(4)",
@@ -1101,8 +1110,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "During Automotive Maintenance Requirement 2a(4), Scouts can underestimate how directly mastery of power steering fluid depends on understanding power steering fluid.",
-                "fact": "Scouting America standards for Automotive Maintenance Requirement 2a(4) require complete workbook entries on power steering fluid to demonstrate full understanding of power steering fluid."
+                "misconception": "Every modern passenger car contains a hydraulic power steering reservoir that drivers must check regularly.",
+                "fact": "Many modern passenger vehicles use fully electric power steering systems that operate with an electric motor instead of hydraulic fluid."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1128,14 +1137,17 @@
               "id": "2a(4)",
               "sub_req_label": "2a(4)",
               "sub_req_text": "Power steering fluid.",
-              "topic_title": "Req 2a(4): Power Steering Fluid",
-              "pamphlet_summary": "Power Steering Fluid: The Automotive Maintenance pamphlet for Requirement 2a(4) details power steering fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(4): Power Steering Fluid Reservoir Assessment",
+              "pamphlet_summary": "Power Steering Fluid Reservoir Assessment: Locate the hydraulic power steering reservoir and read the hot or cold level indicators on the built-in cap dipstick. Modern vehicles with electric power steering assist lack hydraulic pumps and reservoirs entirely, requiring no fluid inspection (p. 31).",
               "pamphlet_excerpts": [
-                "Power Steering Fluid: The Automotive Maintenance pamphlet for Requirement 2a(4) details power steering fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Power Steering Fluid Reservoir Assessment: Locate the hydraulic power steering reservoir and read the hot or cold level indicators on the built-in cap dipstick. Modern vehicles with electric power steering assist lack hydraulic pumps and reservoirs entirely, requiring no fluid inspection (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "Why do some vehicles have both hot and cold measurement marks on the power steering dipstick?"
+              ]
             },
             {
               "sub_id": "2a(5)",
@@ -1167,8 +1179,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "In Automotive Maintenance Requirement 2a(5), many Scouts assume windshield washer fluid only requires a general overview rather than specific details on windshield washer fluid.",
-                "fact": "The official Automotive Maintenance pamphlet for Requirement 2a(5) specifies that Scouts must thoroughly document windshield washer fluid and explain windshield washer fluid during counselor review."
+                "misconception": "Ordinary tap water mixed with dish soap works as an effective substitute for commercial windshield washer fluid.",
+                "fact": "Dish soap leaves a gummy film that clogs fine washer spray nozzles and strips protective wax coatings off vehicle paint."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1194,14 +1206,17 @@
               "id": "2a(5)",
               "sub_req_label": "2a(5)",
               "sub_req_text": "Windshield washer fluid.",
-              "topic_title": "Req 2a(5): Windshield Washer Fluid",
-              "pamphlet_summary": "Windshield Washer Fluid: The Automotive Maintenance pamphlet for Requirement 2a(5) details windshield washer fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(5): Windshield Washer Solvent Reservoir Service",
+              "pamphlet_summary": "Windshield Washer Solvent Reservoir Service: Identify the windshield washer reservoir by the windshield spray icon stamped on its cap and top off the reservoir with seasonal washer solvent. Plain water should never replace commercial washer fluid because water freezes inside the lines and lacks glass cleaners (p. 19).",
               "pamphlet_excerpts": [
-                "Windshield Washer Fluid: The Automotive Maintenance pamphlet for Requirement 2a(5) details windshield washer fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Windshield Washer Solvent Reservoir Service: Identify the windshield washer reservoir by the windshield spray icon stamped on its cap and top off the reservoir with seasonal washer solvent. Plain water should never replace commercial washer fluid because water freezes inside the lines and lacks glass cleaners (p. 19)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "What could happen to the washer reservoir and pump if plain water is left in the tank during subfreezing winter temperatures?"
+              ]
             },
             {
               "sub_id": "2a(6)",
@@ -1233,8 +1248,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "When preparing Automotive Maintenance Requirement 2a(6) (Transmission Fluid), Scouts sometimes overlook the concrete pamphlet benchmarks covering transmission fluid.",
-                "fact": "Counselor verification for Automotive Maintenance Requirement 2a(6) requires concrete workbook evidence on transmission fluid, specifically addressing transmission fluid."
+                "misconception": "Automatic transmission fluid must always be inspected with the engine completely shut off just like engine oil.",
+                "fact": "Most automatic transmissions require the engine to idle in park so the internal hydraulic pump fills the torque converter and valve passages during dipstick measurement."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1260,14 +1275,17 @@
               "id": "2a(6)",
               "sub_req_label": "2a(6)",
               "sub_req_text": "Transmission fluid.",
-              "topic_title": "Req 2a(6): Transmission Fluid",
-              "pamphlet_summary": "Transmission Fluid: The Automotive Maintenance pamphlet for Requirement 2a(6) details transmission fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(6): Automatic Transmission Fluid Level Inspection",
+              "pamphlet_summary": "Automatic Transmission Fluid Level Inspection: Check automatic transmission fluid on a level surface with the engine running at idle and the transmission in park after the fluid reaches operating temperature. Pull the brightly colored transmission dipstick to confirm proper fluid level and inspect the fluid for a healthy translucent red color free of burnt odors (p. 23).",
               "pamphlet_excerpts": [
-                "Transmission Fluid: The Automotive Maintenance pamphlet for Requirement 2a(6) details transmission fluid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Automatic Transmission Fluid Level Inspection: Check automatic transmission fluid on a level surface with the engine running at idle and the transmission in park after the fluid reaches operating temperature. Pull the brightly colored transmission dipstick to confirm proper fluid level and inspect the fluid for a healthy translucent red color free of burnt odors (p. 23)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "What does a dark brown color accompanied by an acrid burnt smell indicate when examining transmission fluid on a paper towel?"
+              ]
             },
             {
               "sub_id": "2a(7)",
@@ -1308,8 +1326,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)",
               "common_misconception_pair": {
-                "misconception": "For Automotive Maintenance Requirement 2a(7), a common mistake in battery fluid (if possible) and condition is treating battery fluid (if possible) and condition of the battery terminals as optional background reading.",
-                "fact": "Mastering Automotive Maintenance Requirement 2a(7) means following the pamphlet standard for battery fluid (if possible) and condition and recording accurate notes on battery fluid (if possible) and condition of the battery terminals."
+                "misconception": "Low battery electrolyte in an unsealed battery cell should be refilled with sulfuric battery acid or municipal tap water.",
+                "fact": "Only pure distilled water should be added to low battery cells because minerals in tap water contaminate the plates and the sulfuric acid itself does not evaporate."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1335,15 +1353,18 @@
               "id": "2a(7)",
               "sub_req_label": "2a(7)",
               "sub_req_text": "Battery fluid (if possible) and condition of the battery terminals.",
-              "topic_title": "Req 2a(7): Battery Fluid (if Possible) and Condition",
-              "pamphlet_summary": "Battery Fluid (if Possible) and Condition: The Automotive Maintenance pamphlet for Requirement 2a(7) details battery fluid (if possible) and condition of the battery terminals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 2a(7): Battery Electrolyte and Terminal Maintenance",
+              "pamphlet_summary": "Battery Electrolyte and Terminal Maintenance: Examine unsealed battery vent caps to confirm electrolyte covers the lead plates, adding only distilled water if plates are exposed. Inspect terminals for white or blue powdery corrosion, cleaning dirty posts with a wire brush and a neutralized baking soda solution while wearing eye protection (p. 34).",
               "pamphlet_excerpts": [
-                "Battery Fluid (if Possible) and Condition: The Automotive Maintenance pamphlet for Requirement 2a(7) details battery fluid (if possible) and condition of the battery terminals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Battery Electrolyte and Terminal Maintenance: Examine unsealed battery vent caps to confirm electrolyte covers the lead plates, adding only distilled water if plates are exposed. Inspect terminals for white or blue powdery corrosion, cleaning dirty posts with a wire brush and a neutralized baking soda solution while wearing eye protection (p. 34)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p016_img1.png",
-              "title": "Req 2a(7): Battery Fluid (if Possible) and Condition",
+              "title": "Req 2a(7): Battery Electrolyte and Terminal Maintenance",
               "workbook_diagram_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
-              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle."
+              "workbook_visual_caption": "A young person cleans a car dashboard with a rag and cleaning supplies to maintain the vehicle.",
+              "socratic_questions": [
+                "How can powdery terminal corrosion prevent a vehicle from starting even when the battery holds a full internal charge?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2821,7 +2842,7 @@
       ],
       "gear_checklist": [
         "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 4",
-        "Reference diagrams, inspection checklist, and field notebook for Req 4: Tire Pressure, Alignment, and Wear",
+        "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Tire Maintenance and Alignment Specifications",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 4"
       ],
@@ -4019,8 +4040,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
-                "misconception": "In Automotive Maintenance Requirement 8a(1), many Scouts assume starting/charging system only requires a general overview rather than specific details on starting/charging system.",
-                "fact": "The official Automotive Maintenance pamphlet for Requirement 8a(1) specifies that Scouts must thoroughly document starting/charging system and explain starting/charging system during counselor review."
+                "misconception": "A vehicle battery continuously supplies all electrical power to the spark plugs, lights, and electronics while driving down the highway.",
+                "fact": "The alternator generates all electrical current for the vehicle once the engine runs, while also replenishing energy that the starter motor drew from the battery."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4046,14 +4067,17 @@
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
               "sub_req_text": "Starting/charging system.",
-              "topic_title": "Req 8a(1): Starting/charging System",
-              "pamphlet_summary": "Starting/charging System: The Automotive Maintenance pamphlet for Requirement 8a(1) details starting/charging system, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69).",
+              "topic_title": "Req 8a(1): Starting and Charging System Diagnostics",
+              "pamphlet_summary": "Starting and Charging System Diagnostics: Test the battery, starter motor, alternator, and drive belt to verify that the charging system produces roughly 13.5 to 14.5 volts while the engine runs. Inspect the starter solenoid wiring and verify that the alternator belt retains proper tension without glazing or cracking (p. 59).",
               "pamphlet_excerpts": [
-                "Starting/charging System: The Automotive Maintenance pamphlet for Requirement 8a(1) details starting/charging system, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69)."
+                "Starting and Charging System Diagnostics: Test the battery, starter motor, alternator, and drive belt to verify that the charging system produces roughly 13.5 to 14.5 volts while the engine runs. Inspect the starter solenoid wiring and verify that the alternator belt retains proper tension without glazing or cracking (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
               "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+              "socratic_questions": [
+                "If the dashboard battery warning light illuminates while driving, which component has likely stopped functioning?"
+              ]
             },
             {
               "sub_id": "8a(2)",
@@ -4090,8 +4114,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
-                "misconception": "When preparing Automotive Maintenance Requirement 8a(2) (Hybrid or Electric Vehicle Inverter), Scouts sometimes overlook the concrete pamphlet benchmarks covering hybrid or electric vehicle inverter.",
-                "fact": "Counselor verification for Automotive Maintenance Requirement 8a(2) requires concrete workbook evidence on hybrid or electric vehicle inverter, specifically addressing hybrid or electric vehicle inverter."
+                "misconception": "An automotive inverter functions only as an interior power outlet adapter to run standard household appliances from the cigarette lighter.",
+                "fact": "The propulsion inverter in a hybrid or electric vehicle manages hundreds of volts by converting direct current from the high-voltage battery into alternating current to spin the electric traction motors."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4117,14 +4141,17 @@
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
               "sub_req_text": "Hybrid or electric vehicle inverter.",
-              "topic_title": "Req 8a(2): Hybrid or Electric Vehicle Inverter",
-              "pamphlet_summary": "Hybrid or Electric Vehicle Inverter: The Automotive Maintenance pamphlet for Requirement 8a(2) details hybrid or electric vehicle inverter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69).",
+              "topic_title": "Req 8a(2): High Voltage Inverter Safety Protocols",
+              "pamphlet_summary": "High Voltage Inverter Safety Protocols: Identify the electric drive inverter by its dedicated cooling lines and high-voltage orange insulated cabling, understanding that it transforms direct current from the traction pack into multiphase alternating current. Never touch or probe orange high-voltage cables or inverter terminals because traction batteries carry lethal electrical potential (p. 65).",
               "pamphlet_excerpts": [
-                "Hybrid or Electric Vehicle Inverter: The Automotive Maintenance pamphlet for Requirement 8a(2) details hybrid or electric vehicle inverter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 69)."
+                "High Voltage Inverter Safety Protocols: Identify the electric drive inverter by its dedicated cooling lines and high-voltage orange insulated cabling, understanding that it transforms direct current from the traction pack into multiphase alternating current. Never touch or probe orange high-voltage cables or inverter terminals because traction batteries carry lethal electrical potential (p. 65)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
               "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+              "socratic_questions": [
+                "Why are all high-voltage cables and connections in hybrid and electric vehicles color-coded bright orange?"
+              ]
             },
             {
               "sub_id": "8a(3)",
@@ -4161,8 +4188,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)",
               "common_misconception_pair": {
-                "misconception": "For Automotive Maintenance Requirement 8a(3), a common mistake in lighting system is treating lighting system as optional background reading.",
-                "fact": "Mastering Automotive Maintenance Requirement 8a(3) means following the pamphlet standard for lighting system and recording accurate notes on lighting system."
+                "misconception": "Touching the glass bulb of a halogen headlight with bare fingers during installation causes no physical harm to the lamp.",
+                "fact": "Skin oils deposited onto quartz halogen glass create concentrated hot spots that cause the bulb envelope to blister and burn out prematurely."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4188,14 +4215,17 @@
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
               "sub_req_text": "Lighting system.",
-              "topic_title": "Req 8a(3): Lighting System",
-              "pamphlet_summary": "Lighting System: The lighting system includes the interior overhead lights, instrument lights, headlights, taillights, turn signals, warning lights, hazard lights (p. 69).",
+              "topic_title": "Req 8a(3): Automotive Lighting System Component Inspection",
+              "pamphlet_summary": "Automotive Lighting System Component Inspection: Conduct a complete walkaround inspection checking headlights, taillights, brake lights, turn signals, and hazard flashers for proper illumination and clean lenses. When replacing halogen headlight bulbs, hold the replacement unit strictly by its base to prevent natural skin oils from overheating and shattering the quartz glass capsule (p. 63).",
               "pamphlet_excerpts": [
-                "Lighting System: The lighting system includes the interior overhead lights, instrument lights, headlights, taillights, turn signals, warning lights, hazard lights (p. 69)."
+                "Automotive Lighting System Component Inspection: Conduct a complete walkaround inspection checking headlights, taillights, brake lights, turn signals, and hazard flashers for proper illumination and clean lenses. When replacing halogen headlight bulbs, hold the replacement unit strictly by its base to prevent natural skin oils from overheating and shattering the quartz glass capsule (p. 63)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/automotive_maintenance_p071_img1.png",
               "workbook_diagram_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
-              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road."
+              "workbook_visual_caption": "A modern luxury sport utility vehicle displays front lighting and body styling on the road.",
+              "socratic_questions": [
+                "Why is having an assistant press the brake pedal necessary when performing a complete lighting check on a vehicle?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -5731,7 +5761,7 @@
       ],
       "gear_checklist": [
         "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 10",
-        "Reference diagrams, inspection checklist, and field notebook for Req 10: Disc, Drum, and Antilock Brakes",
+        "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Automotive Braking System Operation",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 10"
       ],
@@ -6228,7 +6258,7 @@
       ],
       "gear_checklist": [
         "Official Automotive Maintenance merit badge pamphlet and workbook organizer for Req 11",
-        "Reference diagrams, inspection checklist, and field notebook for Req 11: Hands-On Service and Vehicle Ownership",
+        "Automotive Maintenance field toolkit, inspection gauge, and protective eyewear for Practical Automotive Maintenance Operations",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 11"
       ],
@@ -6500,15 +6530,15 @@
       "scenario_prompt": "You are preparing to crawl beneath a vehicle to inspect the exhaust and suspension for Automotive Maintenance Requirement 1. Which safety procedure is strictly required before anyone goes under the car?",
       "question": "You are preparing to crawl beneath a vehicle to inspect the exhaust and suspension for Automotive Maintenance Requirement 1. Which safety procedure is strictly required before anyone goes under the car?",
       "options": [
-        "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral, and crawl underneath immediately.",
+        "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral.",
         "B. Keep the engine running inside a closed garage to warm the fluids while supporting the frame on hollow concrete cinder blocks.",
-        "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points, and lower it onto rated mechanical jack stands before going underneath.",
+        "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points.",
         "D. Stack wooden two-by-fours on top of a hydraulic floor jack saddle and rely on the hydraulic cylinder pressure alone to hold the vehicle up."
       ],
       "choices": [
-        "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral, and crawl underneath immediately.",
+        "A. Raise one corner of the bumper with the emergency scissor jack from the trunk, leave the transmission in neutral.",
         "B. Keep the engine running inside a closed garage to warm the fluids while supporting the frame on hollow concrete cinder blocks.",
-        "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points, and lower it onto rated mechanical jack stands before going underneath.",
+        "C. Park on a firm level surface, set the parking brake, chock the wheels, lift the vehicle at manufacturer-specified jack points.",
         "D. Stack wooden two-by-fours on top of a hydraulic floor jack saddle and rely on the hydraulic cylinder pressure alone to hold the vehicle up."
       ],
       "correct_index": 2,

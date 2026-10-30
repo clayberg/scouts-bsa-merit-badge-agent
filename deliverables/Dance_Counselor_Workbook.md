@@ -334,7 +334,7 @@
 - **Common Myth:** Most popular dance styles originated spontaneously within the modern United States media landscape.
 - **Pamphlet Fact:** Dance styles migrate across international borders through human travel, trade, and cultural preservation.
 
-![Practical Dance field visual showing proper setup, measurement, and technique for dance historical origins and evolution reference figure in Requirement 4.](/assets/pamphlet_images/dance_p004_img1.png)
+![Dance Requirement 4 figure showing tracing dance migration reveals how cultural traditions evolved across new global.](/assets/pamphlet_images/dance_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -443,7 +443,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Learn and Perform a Dance
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Dance technical diagram of dance learn and perform a dance reference figure for Requirement 5 field execution.](/assets/pamphlet_images/dance_p005_img1.png)
+![Dance Requirement 5 figure showing breaking choreography into small musical counts ensures accurate technical memory retention.](/assets/pamphlet_images/dance_p005_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

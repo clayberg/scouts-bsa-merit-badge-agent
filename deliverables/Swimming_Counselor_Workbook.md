@@ -63,7 +63,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Practical Swimming field visual showing proper setup, measurement, and technique for safe swim defense and health in Requirement 1.](/assets/pamphlet_images/swimming_p003_img1.png)
+![Swimming Requirement 1 figure showing every activity requires an adult supervisor trained in Safe Swim Defense standards.](/assets/pamphlet_images/swimming_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.** | `____________________________________` | `____________________________________` |
+| **1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Continuous Distance: Candidates must complete one hundred yards continuously without touching bottom or resting.
@@ -132,7 +132,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Detailed Swimming reference illustration comparing key components and stages of five fundamental swimming strokes for Requirement 3.](/assets/pamphlet_images/swimming_p012_img1.png)
+![Swimming Requirement 3 figure showing alternate arm pulls combine with rhythmic flutter kicking and smooth bilateral head turns.](/assets/pamphlet_images/swimming_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -160,7 +160,7 @@
 - **Common Myth:** The top and bottom legs must both kick backward simultaneously during sidestroke.
 - **Pamphlet Fact:** The top leg steps forward while the bottom leg steps backward before snapping.
 
-![Illustrated Swimming technical diagram of scouting america swimmer classification test for Requirement 2 field execution.](/assets/pamphlet_images/swimming_p007_img1.png)
+![Swimming Requirement 2 figure showing candidates must complete one hundred yards continuously without touching bottom or resting.](/assets/pamphlet_images/swimming_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -483,7 +483,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness and therapeutic exercise.** | `____________________________________` | `____________________________________` |
+| **1. Explain the health benefits of regular aerobic exercise, and discuss why swimming is favored as both fitness and therapeutic exercise** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Cardiovascular Health: Sustained lap swimming increases heart stroke volume and expands total lung aerobic capacity.

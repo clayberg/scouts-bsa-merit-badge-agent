@@ -51,7 +51,7 @@
 - **Common Myth:** Novices think hazards exist only within terrain features rather than in traffic flow and perimeter obstacles.
 - **Pamphlet Fact:** Collisions with other park users, erratic spectators, and fixed boundary fencing represent primary sources of severe injury.
 
-![Step-by-step Action Sports visual guide highlighting hazards, first aid, and protective gear positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/action_sports_p003_img1.png)
+![Action Sports Requirement 1 figure showing multi-impact helmets absorb direct kinetic forces to protect vulnerable skull plates.](/assets/pamphlet_images/action_sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -65,7 +65,7 @@
 - **Common Myth:** Scouts believe vigorous rubbing of frostbitten fingers effectively restores capillary blood circulation in freezing weather.
 - **Pamphlet Fact:** Friction damages frozen epidermal tissue, requiring passive skin-to-skin contact or warm water immersion without mechanical rubbing.
 
-![Practical Action Sports field visual showing proper setup, measurement, and technique for board anatomy and routine maintenance in Requirement 3.](/assets/pamphlet_images/action_sports_p012_img1.png)
+![Action Sports Requirement 3 figure showing adjusting the central kingpin nut alters truck turning resistance and high-speed.](/assets/pamphlet_images/action_sports_p012_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -111,7 +111,7 @@
 - **Common Myth:** Skatepark users believe that standing on the transition flat bottom is acceptable if they are resting briefly.
 - **Pamphlet Fact:** The flat bottom and transition walls must remain completely clear for athletes actively completing drop-in lines.
 
-![Detailed Action Sports reference illustration comparing key components and stages of rider etiquette and physical conditioning for Requirement 2.](/assets/pamphlet_images/action_sports_p007_img1.png)
+![Action Sports Requirement 2 figure showing downhill riders possess primary clearance, requiring trailing individuals to navigate.](/assets/pamphlet_images/action_sports_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard (nose, tail, edges, base, camber/rocker, bindings, leash) and demonstrate routine inspection, cleaning** | `____________________________________` | `____________________________________` |
+| **1. Identify the parts of your skateboard (deck, grip tape, trucks, kingpin, bushings, wheels, bearings) or snowboard** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Adjusting the central kingpin nut alters truck turning resistance and high-speed directional stability.

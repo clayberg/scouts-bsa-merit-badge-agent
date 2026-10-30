@@ -54,7 +54,7 @@
 - **Common Myth:** Laws exist merely to generate governmental fine revenue through arbitrary public behavioral restrictions.
 - **Pamphlet Fact:** Criminal statutes protect society by establishing standard rules of conduct and deterring dangerous behavior.
 
-![Detailed Crime Prevention reference illustration comparing key components and stages of criminal laws and social order for Requirement 1.](/assets/pamphlet_images/crime_prevention_p003_img1.png)
+![Crime Prevention Requirement 1 figure showing criminal statutes preserve orderly civilization by defining clear behavioral standards.](/assets/pamphlet_images/crime_prevention_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -137,7 +137,7 @@
 - **Common Myth:** Individual residents lack meaningful authority to alter localized crime patterns without personal enforcement powers.
 - **Pamphlet Fact:** Observant citizens who promptly report suspicious activity deter neighborhood property offenses without confronting suspects.
 
-![Practical Crime Prevention field visual showing proper setup, measurement, and technique for community groups preventing crime in Requirement 2.](/assets/pamphlet_images/crime_prevention_p007_img1.png)
+![Crime Prevention Requirement 2 figure showing active neighborhood surveillance and prompt reporting eliminate opportunistic burglary.](/assets/pamphlet_images/crime_prevention_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -250,7 +250,7 @@
 - **Common Myth:** Local television headlines accurately mirror the true statistical proportions of community crime types.
 - **Pamphlet Fact:** Public crime dashboards provide objective geographic crime counts that counter sensationalized commercial headline bias.
 
-![Practical Crime Prevention field visual showing proper setup, measurement, and technique for analyzing local and national crime in Requirement 3.](/assets/pamphlet_images/crime_prevention_p012_img1.png)
+![Crime Prevention Requirement 3 figure showing commercial news outlets prioritize sensational violent offenses over statistically.](/assets/pamphlet_images/crime_prevention_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -300,11 +300,11 @@
 - Community engagement through civic clubs, churches, and athletic teams builds social bonds that resist neighborhood disorder. Cohesive social networks notice unfamiliar activities and quickly intervene through official reporting channels.
 - Req 4a Standard (Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)): Discuss the following with your counselor: (1) How participation in activities of families, churches, sports teams, and clubs prevents crime (2) How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.
 
-#### Req 4a(1): Participation in Activities of Families
+#### Req 4a(1): Community Organizations and Crime Prevention
 **Official Requirement 4a(1):** How participation in activities of families, churches, sports teams, and clubs prevents crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a(1) Structured Technical Study & Explanation Matrix (Participation in Activities of Families)
-- **Common Myth:** In Crime Prevention Requirement 4a(1), many Scouts assume participation in activities of families only requires a general overview rather than specific details on how participation in activities of families, churches, sports teams, and clubs prevents crime.
-- **Pamphlet Fact:** The official Crime Prevention pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document participation in activities of families and explain how participation in activities of families, churches, sports teams, and clubs prevents crime during counselor review.
+- **Common Myth:** Youth clubs and sports teams reduce crime solely by filling up free time on the calendar.
+- **Pamphlet Fact:** Group participation builds lasting ethical values, adult mentorship, and mutual social responsibility that guide positive choices even when youths are unsupervised.
 
 ![Residents paint over wall graffiti to maintain pride and prevent neighborhood decay.](/assets/pamphlet_images/crime_prevention_p014_img1.png)
 
@@ -314,11 +314,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): Houses Neighborhoods Public Buildings Stores
+#### Req 4a(2): Crime Prevention Through Environmental Design
 **Official Requirement 4a(2):** How designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Houses Neighborhoods Public Buildings Stores)
-- **Common Myth:** When preparing Crime Prevention Requirement 4a(2) (Houses Neighborhoods Public Buildings Stores), Scouts sometimes overlook the concrete pamphlet benchmarks covering how designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.
-- **Pamphlet Fact:** Counselor verification for Crime Prevention Requirement 4a(2) requires concrete workbook evidence on houses neighborhoods public buildings stores, specifically addressing how designs of houses, neighborhoods, public buildings, stores, streets, and parks prevent crime.
+- **Common Myth:** Tall privacy fences and overgrown perimeter hedges provide the best defense against residential burglary.
+- **Pamphlet Fact:** Concealing barriers and high shrubbery actually aid burglars by blocking sightlines from the street and providing hidden areas to force entry undetected.
 
 ![A colorful cartoon poster warns youth against illicit substance abuse dangers.](/assets/pamphlet_images/crime_prevention_p054_img1.png)
 

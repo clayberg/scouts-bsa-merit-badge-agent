@@ -58,7 +58,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Family Might Want to Purchase
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Personal Management visual guide highlighting planning major family purchases positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/personal_management_p003_img1.png)
+![Personal Management Requirement 1 figure showing family purchases require evaluating initial retail pricing against ongoing operational.](/assets/pamphlet_images/personal_management_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,11 +92,11 @@
 - A disciplined shopping strategy incorporates independent laboratory ratings, warranty analysis, and competitive price matching. Comparing merchant return policies guards against financial losses from defective merchandise.
 - Req 1c Standard (Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)): Develop a written shopping strategy for the purchase identified in requirement 1(a). (1) Determine the quality of the item or service (using consumer publications or rating systems). (2) Comparison shop for the item. Find out where you can buy the item for the best price. (Provide prices from at least two different price sources.) Call around; study ads. Look for a sale or discount coupon. Consider alternatives. Can you buy the item used? Should you wait for a sale.
 
-#### Req 1c(1): Determine the quality of the item
+#### Req 1c(1): Independent Consumer Product Quality Evaluation
 **Official Requirement 1c(1):** Determine the quality of the item or service (using consumer publications or rating systems)
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c(1) Structured Technical Study & Explanation Matrix (Quality of The Item or)
-- **Common Myth:** In Personal Management Requirement 1c(1), many Scouts assume determine the quality of the item only requires a general overview rather than specific details on the quality of the item or service (using consumer publications or rating systems).
-- **Pamphlet Fact:** The official Personal Management pamphlet for Requirement 1c(1) specifies that Scouts must thoroughly document determine the quality of the item and explain the quality of the item or service (using consumer publications or rating systems) during counselor review.
+- **Common Myth:** Manufacturer advertisements and promotional website testimonials provide objective evaluations of product quality and reliability.
+- **Pamphlet Fact:** Independent consumer reporting agencies and standardized rating systems provide unbiased quality testing free from commercial marketing motives.
 
 ![A Scout and parent research purchase options together on a laptop computer.](/assets/pamphlet_images/personal_management_p015_img1.png)
 
@@ -106,11 +106,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1c(2): Comparison Shop
+#### Req 1c(2): Multiple Source Price Comparison Strategy
 **Official Requirement 1c(2):** Comparison shop for the item. Find out where you can buy the item for the best price. (Provide prices from at least two different price sources.) Call around; study ads. Look for a sale or discount coupon. Consider alternatives. Can you buy the item used? Should you wait for a sale.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Organizer (Concept & Examples Notes):** Req 1c(2) Structured Technical Study & Explanation Matrix (Comparison Shop)
-- **Common Myth:** When preparing Personal Management Requirement 1c(2) (Comparison Shop), Scouts sometimes overlook the concrete pamphlet benchmarks covering comparison shop for the item.
-- **Pamphlet Fact:** Counselor verification for Personal Management Requirement 1c(2) requires concrete workbook evidence on comparison shop, specifically addressing comparison shop for the item.
+- **Common Myth:** Comparison shopping requires only identifying the lowest advertised shelf price between two stores regardless of shipping costs, warranty coverage, or return policies.
+- **Pamphlet Fact:** True comparison shopping evaluates the total purchase cost including taxes, shipping, accessories, and replacement guarantees across competing retailers.
 
 ![A boy writes down financial entries by hand to track his personal savings.](/assets/pamphlet_images/personal_management_p024_img1.png)
 
@@ -147,7 +147,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Budget Reflecting Your Expected Income
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Personal Management reference illustration comparing key components and stages of thirteen week personal budgeting for Requirement 2.](/assets/pamphlet_images/personal_management_p007_img1.png)
+![Personal Management Requirement 2 figure showing tracking projected earnings against scheduled commitments prevents overdraft fees.](/assets/pamphlet_images/personal_management_p007_img1.png)
 
 | 13-Week Budget Period / Category | Projected Income & Allowance ($) | Actual Expenses: Needs vs. Wants ($) | Net Savings & Budget Variance ($) |
 | :--- | :--- | :--- | :--- |
@@ -168,11 +168,11 @@
 - Comparing projected income against anticipated outflows identifies upcoming deficits before obligations come due. Reallocating discretionary dollars into emergency reserves keeps personal finances stable.
 - Req 2b Standard (Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)): Compare expected income with expected expenses. (1) If expenses exceed budget income, determine steps to balance your budget. (2) If income exceeds budget expenses, state how you would use the excess money (new goal, savings)
 
-#### Req 2b(1): Expenses Exceed Budget Income
+#### Req 2b(1): Budget Deficit Remediation Action Plan
 **Official Requirement 2b(1):** If expenses exceed budget income, determine steps to balance your budget.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Activity & Observation Log):** Req 2b(1) Quantitative Field Observation & Activity Log (Expenses Exceed Budget Income)
-- **Common Myth:** In Personal Management Requirement 2b(1), many Scouts assume expenses exceed budget income only requires a general overview rather than specific details on if expenses exceed budget income, determine steps to balance your budget.
-- **Pamphlet Fact:** The official Personal Management pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document expenses exceed budget income and explain if expenses exceed budget income, determine steps to balance your budget during counselor review.
+- **Common Myth:** Balancing a deficit budget requires immediate radical cuts across every spending category equally rather than prioritizing essential obligations.
+- **Pamphlet Fact:** Effective budget adjustments protect nonnegotiable fixed necessities while targeting variable discretionary expenses for immediate reduction.
 
 ![A youth tracks weekly income and expenses using a digital budget spreadsheet.](/assets/pamphlet_images/personal_management_p022_img1.png)
 
@@ -182,11 +182,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Income Exceeds Budget Expenses State
+#### Req 2b(2): Surplus Income Allocation Strategy
 **Official Requirement 2b(2):** If income exceeds budget expenses, state how you would use the excess money (new goal, savings)
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Organizer (Activity & Observation Log):** Req 2b(2) Quantitative Field Observation & Activity Log (Income Exceeds Budget Expenses State)
-- **Common Myth:** When preparing Personal Management Requirement 2b(2) (Income Exceeds Budget Expenses State), Scouts sometimes overlook the concrete pamphlet benchmarks covering if income exceeds budget expenses, state how you would use the excess money (new goal, savings).
-- **Pamphlet Fact:** Counselor verification for Personal Management Requirement 2b(2) requires concrete workbook evidence on income exceeds budget expenses state, specifically addressing if income exceeds budget expenses, state how you would use the excess money (new goal, savings).
+- **Common Myth:** Surplus funds left over at the end of a budgeting period represent pocket money intended for spontaneous impulse purchases.
+- **Pamphlet Fact:** Financial management requires directing surplus funds into dedicated savings accounts or toward designated long-term financial goals.
 
 ![A customer inserts a debit card into an ATM to manage bank account funds.](/assets/pamphlet_images/personal_management_p025_img1.png)
 

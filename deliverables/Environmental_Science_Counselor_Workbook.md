@@ -84,7 +84,7 @@
 - [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
 - [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
 
-![Practical Environmental Science field visual showing proper setup, measurement, and technique for observing local ecosystem interactions in Requirement 2.](/assets/pamphlet_images/environmental_science_p007_img1.png)
+![Environmental Science Requirement 2 figure showing soil mineral chemistry and solar radiation regulate plant growth across terrestrial.](/assets/pamphlet_images/environmental_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -126,7 +126,7 @@
 - **Common Myth:** Scouts often think airborne dust particles always fall harmlessly to the ground immediately.
 - **Pamphlet Fact:** Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation.
 
-![Practical Environmental Science field visual showing proper setup, measurement, and technique for air pollution sources and controls in Requirement 3.](/assets/pamphlet_images/environmental_science_p012_img1.png)
+![Environmental Science Requirement 3 figure showing microscopic airborne particles smaller than ten microns penetrate deep into bronchial.](/assets/pamphlet_images/environmental_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -157,7 +157,7 @@
 - **Common Myth:** Scouts often assume federal air pollution laws immediately halted all industrial emissions nationwide.
 - **Pamphlet Fact:** The Clean Air Act has drastically lowered criteria pollutants while the national economy grew.
 
-![Detailed Environmental Science reference illustration comparing key components and stages of foundations of environmental science for Requirement 1.](/assets/pamphlet_images/environmental_science_p003_img1.png)
+![Environmental Science Requirement 1 figure showing physical sciences collaborate with biological principles to explain interactions.](/assets/pamphlet_images/environmental_science_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

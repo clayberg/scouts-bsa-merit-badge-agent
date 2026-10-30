@@ -595,19 +595,19 @@
         "question": "How do safe drinking water treatment, sanitary sewage disposal, hand washing, and vector control work together in public health?",
         "options": [
           "A. They treat genetic disorders by altering human DNA after symptoms appear.",
-          "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral, and insect-borne transmission pathways before pathogens can spread across a community.",
+          "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral.",
           "C. They replace the need for childhood vaccinations against airborne viruses like measles and influenza.",
           "D. They increase antibiotic resistance in bacteria by sterilizing outdoor soil ecosystems."
         ],
         "choices": [
           "A. They treat genetic disorders by altering human DNA after symptoms appear.",
-          "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral, and insect-borne transmission pathways before pathogens can spread across a community.",
+          "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral.",
           "C. They replace the need for childhood vaccinations against airborne viruses like measles and influenza.",
           "D. They increase antibiotic resistance in bacteria by sterilizing outdoor soil ecosystems."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral, and insect-borne transmission pathways before pathogens can spread across a community.",
+        "correct_answer": "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral.",
         "explanation": "Correct Answer (B): Public health sanitation, clean water, hygiene, and mosquito/tick vector control prevent epidemics by interrupting disease transmission routes between reservoirs and susceptible hosts.",
         "pamphlet_page_ref": "p. 18, p. 26"
       },
@@ -1432,8 +1432,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "In Public Health Requirement 5a(1), many Scouts assume facility safely treats and disposes only requires a general overview rather than specific details on how the facility safely treats and disposes of sewage or solid waste.",
-                "fact": "The official Public Health pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document facility safely treats and disposes and explain how the facility safely treats and disposes of sewage or solid waste during counselor review."
+                "misconception": "Primary sedimentation tanks remove all dissolved toxins and pathogenic microbes from municipal wastewater.",
+                "fact": "Primary treatment only settles out large suspended solids, requiring secondary microbial aeration and tertiary chemical or ultraviolet disinfection to neutralize dissolved organic matter and disease pathogens."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1459,14 +1459,17 @@
               "id": "5a(1)",
               "sub_req_label": "5a(1)",
               "sub_req_text": "Describe how the facility safely treats and disposes of sewage or solid waste.",
-              "topic_title": "Req 5a(1): Facility Safely Treats and Disposes",
-              "pamphlet_summary": "Facility Safely Treats and Disposes: The Public Health pamphlet for Requirement 5a(1) details how the facility safely treats and disposes of sewage or solid waste, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5a(1): Municipal Wastewater Treatment and Disposal",
+              "pamphlet_summary": "Municipal Wastewater Treatment and Disposal: Facilities use physical screening and sedimentation tanks for primary treatment, biological aeration basins for secondary digestion, and chemical disinfection before discharging effluent. Solid sludge is stabilized in anaerobic digesters and dried for landfill disposal or agricultural application (p. 34).",
               "pamphlet_excerpts": [
-                "Facility Safely Treats and Disposes: The Public Health pamphlet for Requirement 5a(1) details how the facility safely treats and disposes of sewage or solid waste, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Municipal Wastewater Treatment and Disposal: Facilities use physical screening and sedimentation tanks for primary treatment, biological aeration basins for secondary digestion, and chemical disinfection before discharging effluent. Solid sludge is stabilized in anaerobic digesters and dried for landfill disposal or agricultural application (p. 34)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "What physical and biological stages must dirty wastewater pass through before the outflow is safe enough to release back into local rivers?"
+              ]
             },
             {
               "sub_id": "5a(2)",
@@ -1498,8 +1501,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "When preparing Public Health Requirement 5a(2) (Your visit and what you learned), Scouts sometimes overlook the concrete pamphlet benchmarks covering your visit and what you learned with your counselor.",
-                "fact": "Counselor verification for Public Health Requirement 5a(2) requires concrete workbook evidence on your visit and what you learned, specifically addressing your visit and what you learned with your counselor."
+                "misconception": "Touring a wastewater facility only requires observing physical machinery rather than understanding the biological breakdown of hazardous waste.",
+                "fact": "Counselors require Scouts to explain how microorganisms digest organic waste and how operators verify effluent safety through chemical monitoring."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1525,14 +1528,17 @@
               "id": "5a(2)",
               "sub_req_label": "5a(2)",
               "sub_req_text": "Discuss your visit and what you learned with your counselor.",
-              "topic_title": "Req 5a(2): Your visit and what you learned",
-              "pamphlet_summary": "Your visit and what you learned: The Public Health pamphlet for Requirement 5a(2) details your visit and what you learned with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5a(2): Wastewater Facility Field Tour Review",
+              "pamphlet_summary": "Wastewater Facility Field Tour Review: Scouts present their field observations regarding plant flow capacity, chemical treatment stages, and bio-solid safety protocols to their merit badge counselor. This review confirms understanding of how wastewater infrastructure protects community water supplies from waterborne epidemics (p. 36).",
               "pamphlet_excerpts": [
-                "Your visit and what you learned: The Public Health pamphlet for Requirement 5a(2) details your visit and what you learned with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Wastewater Facility Field Tour Review: Scouts present their field observations regarding plant flow capacity, chemical treatment stages, and bio-solid safety protocols to their merit badge counselor. This review confirms understanding of how wastewater infrastructure protects community water supplies from waterborne epidemics (p. 36)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "How did the technical processes you observed during the plant tour directly safeguard your neighborhood against waterborne illness outbreaks?"
+              ]
             },
             {
               "sub_id": "5a(3)",
@@ -1564,8 +1570,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "For Public Health Requirement 5a(3), a common mistake in sewage and solid waste is treating how sewage and solid waste should be disposed of under wilderness camping conditions as optional background reading.",
-                "fact": "Mastering Public Health Requirement 5a(3) means following the pamphlet standard for sewage and solid waste and recording accurate notes on how sewage and solid waste should be disposed of under wilderness camping conditions."
+                "misconception": "Burying leftover food scraps alongside human waste in a backcountry cathole is safe because organic food decomposes naturally in soil.",
+                "fact": "Food waste buried in catholes attracts scavenging animals, unearths pathogens, and pollutes campsites, which is why Leave No Trace guidelines mandate packing out all solid waste."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1591,14 +1597,17 @@
               "id": "5a(3)",
               "sub_req_label": "5a(3)",
               "sub_req_text": "Describe how sewage and solid waste should be disposed of under wilderness camping conditions.",
-              "topic_title": "Req 5a(3): Sewage and Solid Waste",
-              "pamphlet_summary": "Sewage and Solid Waste: The Public Health pamphlet for Requirement 5a(3) details how sewage and solid waste should be disposed of under wilderness camping conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5a(3): Wilderness Sanitation and Waste Disposal",
+              "pamphlet_summary": "Wilderness Sanitation and Waste Disposal: Backcountry travelers must deposit human waste in catholes dug six to eight inches deep at least two hundred feet from water sources, trails, and campsites. All solid trash, food scraps, and non-biodegradable refuse must be packed out completely to prevent wildlife contamination (p. 39).",
               "pamphlet_excerpts": [
-                "Sewage and Solid Waste: The Public Health pamphlet for Requirement 5a(3) details how sewage and solid waste should be disposed of under wilderness camping conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Wilderness Sanitation and Waste Disposal: Backcountry travelers must deposit human waste in catholes dug six to eight inches deep at least two hundred feet from water sources, trails, and campsites. All solid trash, food scraps, and non-biodegradable refuse must be packed out completely to prevent wildlife contamination (p. 39)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "Why does the handbook require digging catholes at least two hundred feet from any water source and packing out all food trash instead of burying it?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1705,8 +1714,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "In Public Health Requirement 5b(1), many Scouts assume food preparation handling and storage only requires a general overview rather than specific details on observe food preparation, handling, and storage.",
-                "fact": "The official Public Health pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document food preparation handling and storage and explain observe food preparation, handling, and storage during counselor review."
+                "misconception": "Storing raw poultry on shelves above fresh produce is safe as long as the meat is wrapped in plastic film.",
+                "fact": "Raw poultry must always be stored on the lowest refrigerator shelves so juices cannot drip onto ready to eat foods and cause dangerous cross contamination."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1732,14 +1741,17 @@
               "id": "5b(1)",
               "sub_req_label": "5b(1)",
               "sub_req_text": "Observe food preparation, handling, and storage. Learn how the facility keeps food from becoming contaminated.",
-              "topic_title": "Req 5b(1): Food Preparation Handling and Storage",
-              "pamphlet_summary": "Food Preparation Handling and Storage: The Public Health pamphlet for Requirement 5b(1) details observe food preparation, handling, and storage, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5b(1): Commercial Food Storage and Handling",
+              "pamphlet_summary": "Commercial Food Storage and Handling: Food service facilities separate raw meats from ready to eat ingredients and store items off the floor in sealed containers arranged by cooking temperature thresholds. Kitchen workers maintain sanitary prep areas through frequent handwashing, surface sanitizing solutions, and protective hair restraints (p. 44).",
               "pamphlet_excerpts": [
-                "Food Preparation Handling and Storage: The Public Health pamphlet for Requirement 5b(1) details observe food preparation, handling, and storage, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Commercial Food Storage and Handling: Food service facilities separate raw meats from ready to eat ingredients and store items off the floor in sealed containers arranged by cooking temperature thresholds. Kitchen workers maintain sanitary prep areas through frequent handwashing, surface sanitizing solutions, and protective hair restraints (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "What physical barriers and storage arrangements did the restaurant staff use to keep raw animal juices from contaminating ready to eat ingredients?"
+              ]
             },
             {
               "sub_id": "5b(2)",
@@ -1776,8 +1788,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "When preparing Public Health Requirement 5b(2) (Out What Conditions Allow Microorganisms), Scouts sometimes overlook the concrete pamphlet benchmarks covering what conditions allow microorganisms to multiply in food, what can be done to help prevent them.",
-                "fact": "Counselor verification for Public Health Requirement 5b(2) requires concrete workbook evidence on out what conditions allow microorganisms, specifically addressing what conditions allow microorganisms to multiply in food, what can be done to help prevent them."
+                "misconception": "Freezing contaminated food kills all resident bacteria and eliminates the risk of foodborne poisoning.",
+                "fact": "Freezing merely puts bacteria into a dormant state without destroying them, allowing rapid multiplication once the food thaws back into the danger zone."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1803,14 +1815,17 @@
               "id": "5b(2)",
               "sub_req_label": "5b(2)",
               "sub_req_text": "Find out what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, and how to kill them.",
-              "topic_title": "Req 5b(2): Out What Conditions Allow Microorganisms",
-              "pamphlet_summary": "Out What Conditions Allow Microorganisms: The Public Health pamphlet for Requirement 5b(2) details what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5b(2): Foodborne Microbial Growth and Control",
+              "pamphlet_summary": "Foodborne Microbial Growth and Control: Microorganisms multiply rapidly when temperatures between 40 and 140 degrees Fahrenheit combine with adequate moisture, neutral acidity, and protein sources. Growth halts through rapid chilling below 40 degrees, whereas thorough cooking to specific internal temperatures destroys harmful bacterial pathogens (p. 47).",
               "pamphlet_excerpts": [
-                "Out What Conditions Allow Microorganisms: The Public Health pamphlet for Requirement 5b(2) details what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Foodborne Microbial Growth and Control: Microorganisms multiply rapidly when temperatures between 40 and 140 degrees Fahrenheit combine with adequate moisture, neutral acidity, and protein sources. Growth halts through rapid chilling below 40 degrees, whereas thorough cooking to specific internal temperatures destroys harmful bacterial pathogens (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "Which environmental factors provide the ideal breeding ground for harmful kitchen bacteria, and why does chilling food only pause their reproduction rather than destroy them?"
+              ]
             },
             {
               "sub_id": "5b(3)",
@@ -1847,8 +1862,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "For Public Health Requirement 5b(3), a common mistake in the importance of using a thermometer is treating the importance of using a thermometer to check food temperatures as optional background reading.",
-                "fact": "Mastering Public Health Requirement 5b(3) means following the pamphlet standard for the importance of using a thermometer and recording accurate notes on the importance of using a thermometer to check food temperatures."
+                "misconception": "Checking the surface color or internal pinkness of cooked meat reliably determines whether harmful pathogens have been killed.",
+                "fact": "Visual signs like browning can occur before food reaches required internal pathogen destruction thresholds, making a calibrated probe thermometer the only reliable safety verification tool."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1874,14 +1889,17 @@
               "id": "5b(3)",
               "sub_req_label": "5b(3)",
               "sub_req_text": "Discuss the importance of using a thermometer to check food temperatures.",
-              "topic_title": "Req 5b(3): The importance of using a thermometer",
-              "pamphlet_summary": "The importance of using a thermometer: The Public Health pamphlet for Requirement 5b(3) details the importance of using a thermometer to check food temperatures, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5b(3): Internal Food Temperature Verification Standards",
+              "pamphlet_summary": "Internal Food Temperature Verification Standards: Calibrated food thermometers must be inserted into the thickest part of meat dishes away from bone and gristle to verify that minimum internal safety thresholds are achieved. Visual inspections of color or texture fail to guarantee that lethal internal temperatures have neutralized bacteria such as Salmonella and Escherichia coli (p. 49).",
               "pamphlet_excerpts": [
-                "The importance of using a thermometer: The Public Health pamphlet for Requirement 5b(3) details the importance of using a thermometer to check food temperatures, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Internal Food Temperature Verification Standards: Calibrated food thermometers must be inserted into the thickest part of meat dishes away from bone and gristle to verify that minimum internal safety thresholds are achieved. Visual inspections of color or texture fail to guarantee that lethal internal temperatures have neutralized bacteria such as Salmonella and Escherichia coli (p. 49)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "Why is inspecting the color or firmness of cooked poultry insufficient to prove that internal foodborne pathogens have been eliminated?"
+              ]
             },
             {
               "sub_id": "5b(4)",
@@ -1913,8 +1931,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)",
               "common_misconception_pair": {
-                "misconception": "During Public Health Requirement 5b(4), Scouts can underestimate how directly mastery of your visit and what you learned depends on understanding your visit and what you learned with your counselor.",
-                "fact": "Scouting America standards for Public Health Requirement 5b(4) require complete workbook entries on your visit and what you learned to demonstrate full understanding of your visit and what you learned with your counselor."
+                "misconception": "Commercial food safety depends primarily on routine local health department audits rather than continuous internal employee monitoring logs.",
+                "fact": "Daily operational logging of refrigerator temperatures, hot holding units, and sanitizer concentration levels is essential to prevent food poisoning between official government inspections."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1940,14 +1958,17 @@
               "id": "5b(4)",
               "sub_req_label": "5b(4)",
               "sub_req_text": "Discuss your visit and what you learned with your counselor.",
-              "topic_title": "Req 5b(4): Your visit and what you learned",
-              "pamphlet_summary": "Your visit and what you learned: The Public Health pamphlet for Requirement 5b(4) details your visit and what you learned with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44).",
+              "topic_title": "Req 5b(4): Food Service Inspection Tour Review",
+              "pamphlet_summary": "Food Service Inspection Tour Review: Scouts present their commercial kitchen observations to their counselor by detailing critical control points, employee hygiene compliance, and temperature logging procedures. The conversation demonstrates how health inspection regulations protect the public against large-scale foodborne illness outbreaks (p. 51).",
               "pamphlet_excerpts": [
-                "Your visit and what you learned: The Public Health pamphlet for Requirement 5b(4) details your visit and what you learned with your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 44)."
+                "Food Service Inspection Tour Review: Scouts present their commercial kitchen observations to their counselor by detailing critical control points, employee hygiene compliance, and temperature logging procedures. The conversation demonstrates how health inspection regulations protect the public against large-scale foodborne illness outbreaks (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p033_img1.png",
               "workbook_diagram_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
-              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella."
+              "workbook_visual_caption": "A boy holds a reptile requiring hand washing to avoid salmonella.",
+              "socratic_questions": [
+                "How did the daily sanitation checklists and temperature logs you observed during your kitchen tour ensure consistent diner safety between official government inspections?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2662,8 +2683,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Public Health Requirement 7a(1), many Scouts assume city county state or federal only requires a general overview rather than specific details on visit your city, county, state, or federal public health agency.",
-                "fact": "The official Public Health pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document city county state or federal and explain visit your city, county, state, or federal public health agency during counselor review."
+                "misconception": "Public health agencies operate primarily as emergency medical clinics that provide acute bedside patient treatment.",
+                "fact": "Public health agencies focus on population wide disease prevention, environmental health inspections, and community education rather than acute individual hospital care."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2689,14 +2710,17 @@
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
               "sub_req_text": "Visit your city, county, state, or federal public health agency.",
-              "topic_title": "Req 7a(1): City County State or Federal",
-              "pamphlet_summary": "City County State or Federal: One of the responsibilities of public health professionals is to become familiar with diseases, their causes, and their cures to help protect (p. 18).",
+              "topic_title": "Req 7a(1): Government Public Health Agency Visit",
+              "pamphlet_summary": "Government Public Health Agency Visit: Visiting a municipal or county health department enables Scouts to observe how environmental health specialists, epidemiologists, and public health nurses coordinate community wellness initiatives. Scouts interview personnel to learn how the agency regulates sanitation, delivers immunizations, and tracks disease vectors across the jurisdiction (p. 54).",
               "pamphlet_excerpts": [
-                "City County State or Federal: One of the responsibilities of public health professionals is to become familiar with diseases, their causes, and their cures to help protect (p. 18)."
+                "Government Public Health Agency Visit: Visiting a municipal or county health department enables Scouts to observe how environmental health specialists, epidemiologists, and public health nurses coordinate community wellness initiatives. Scouts interview personnel to learn how the agency regulates sanitation, delivers immunizations, and tracks disease vectors across the jurisdiction (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p020_img1.png",
               "workbook_diagram_caption": "A nurse administers an arm vaccination to protect against disease.",
-              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease."
+              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease.",
+              "socratic_questions": [
+                "How does the daily mission of a local government public health office differ from the emergency medical treatment delivered inside a hospital?"
+              ]
             },
             {
               "sub_id": "7a(2)",
@@ -2728,8 +2752,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Public Health Requirement 7a(2) (Familiarize Yourself With Your City), Scouts sometimes overlook the concrete pamphlet benchmarks covering familiarize yourself with your city, county, state, or a federal health agency's website.",
-                "fact": "Counselor verification for Public Health Requirement 7a(2) requires concrete workbook evidence on familiarize yourself with your city, specifically addressing familiarize yourself with your city, county, state, or a federal health agency's website."
+                "misconception": "Government public health websites publish only administrative contact directories rather than active disease tracking and sanitation inspection data.",
+                "fact": "Official health agency portals deliver active epidemiological surveillance data, restaurant sanitation grades, environmental hazard notices, and vital statistics directly to the public."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2755,14 +2779,17 @@
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
               "sub_req_text": "Familiarize yourself with your city, county, state, or a federal health agency's website.",
-              "topic_title": "Req 7a(2): Familiarize Yourself With Your City",
-              "pamphlet_summary": "Familiarize Yourself With Your City: The Public Health pamphlet for Requirement 7a(2) details familiarize yourself with your city, county, state, or a federal health agency's website, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+              "topic_title": "Req 7a(2): Public Health Agency Website Analysis",
+              "pamphlet_summary": "Public Health Agency Website Analysis: Official public health websites provide vital statistics, epidemiological dashboards, health inspection records, and community vaccination schedules. Reviewing these portals teaches Scouts how public agencies communicate health alerts and preventative advisories during emerging community risks (p. 56).",
               "pamphlet_excerpts": [
-                "Familiarize Yourself With Your City: The Public Health pamphlet for Requirement 7a(2) details familiarize yourself with your city, county, state, or a federal health agency's website, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+                "Public Health Agency Website Analysis: Official public health websites provide vital statistics, epidemiological dashboards, health inspection records, and community vaccination schedules. Reviewing these portals teaches Scouts how public agencies communicate health alerts and preventative advisories during emerging community risks (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p020_img1.png",
               "workbook_diagram_caption": "A nurse administers an arm vaccination to protect against disease.",
-              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease."
+              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease.",
+              "socratic_questions": [
+                "What types of real time health alerts, inspection records, and disease surveillance data does your local public health agency publish online for citizen protection?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2872,8 +2899,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Public Health Requirement 7b(1), many Scouts assume leading causes of mortality death only requires a general overview rather than specific details on compare the four leading causes of mortality (death) in your community for any of the past five years.",
-                "fact": "The official Public Health pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document leading causes of mortality death and explain compare the four leading causes of mortality (death) in your community for any of the past five years during counselor review."
+                "misconception": "The illnesses that produce the highest number of deaths in a community are identical to the diseases that make the most people sick each year.",
+                "fact": "Mortality measures the rate of death while morbidity measures the incidence of illness or disability, meaning highly contagious illnesses often produce high morbidity despite low mortality rates."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2899,14 +2926,17 @@
               "id": "7b(1)",
               "sub_req_label": "7b(1)",
               "sub_req_text": "Compare the four leading causes of mortality (death) in your community for any of the past five years with the four leading causes of disease in your community. Explain how the public health agency you visited is trying to reduce the mortality and morbidity rates of these leading causes of illness and death.",
-              "topic_title": "Req 7b(1): Leading Causes of Mortality Death",
-              "pamphlet_summary": "Leading Causes of Mortality Death: One of the responsibilities of public health professionals is to become familiar with diseases, their causes, and their cures to help protect (p. 18).",
+              "topic_title": "Req 7b(1): Community Mortality and Morbidity Analysis",
+              "pamphlet_summary": "Community Mortality and Morbidity Analysis: Scouts examine vital statistics reports to contrast mortality figures with morbidity rates for major chronic and infectious diseases within their jurisdiction. Health agencies reduce these numbers through targeted education campaigns, free preventive health screenings, early clinical interventions, and environmental regulations (p. 58).",
               "pamphlet_excerpts": [
-                "Leading Causes of Mortality Death: One of the responsibilities of public health professionals is to become familiar with diseases, their causes, and their cures to help protect (p. 18)."
+                "Community Mortality and Morbidity Analysis: Scouts examine vital statistics reports to contrast mortality figures with morbidity rates for major chronic and infectious diseases within their jurisdiction. Health agencies reduce these numbers through targeted education campaigns, free preventive health screenings, early clinical interventions, and environmental regulations (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p020_img1.png",
               "workbook_diagram_caption": "A nurse administers an arm vaccination to protect against disease.",
-              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease."
+              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease.",
+              "socratic_questions": [
+                "Why might a widespread respiratory illness have an extremely high morbidity rate while chronic illnesses like heart disease cause far higher mortality rates in your community?"
+              ]
             },
             {
               "sub_id": "7b(2)",
@@ -2943,8 +2973,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Public Health Requirement 7b(2) (Role of Your Health Agency), Scouts sometimes overlook the concrete pamphlet benchmarks covering the role of your health agency as it relates to the outbreak of diseases.",
-                "fact": "Counselor verification for Public Health Requirement 7b(2) requires concrete workbook evidence on role of your health agency, specifically addressing the role of your health agency as it relates to the outbreak of diseases."
+                "misconception": "Public health departments begin tracking disease outbreaks only after local hospitals report overcrowded emergency rooms.",
+                "fact": "Health departments use mandatory laboratory reporting of designated infectious diseases to detect statistical anomalies and intervene before community transmission accelerates."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2970,14 +3000,17 @@
               "id": "7b(2)",
               "sub_req_label": "7b(2)",
               "sub_req_text": "Explain the role of your health agency as it relates to the outbreak of diseases.",
-              "topic_title": "Req 7b(2): Role of Your Health Agency",
-              "pamphlet_summary": "Role of Your Health Agency: But individuals also can help maintain public health, and their own health, by learning about diseases (p. 18).",
+              "topic_title": "Req 7b(2): Disease Outbreak Surveillance and Response",
+              "pamphlet_summary": "Disease Outbreak Surveillance and Response: Public health agencies monitor reportable illness data, conduct contact tracing interviews, and dispatch epidemiologists to isolate index cases and determine infection sources. Staff coordinate quarantine orders, distribute targeted prophylactic treatments, and issue public advisories to prevent local clusters from escalating into widespread epidemics (p. 61).",
               "pamphlet_excerpts": [
-                "Role of Your Health Agency: But individuals also can help maintain public health, and their own health, by learning about diseases (p. 18)."
+                "Disease Outbreak Surveillance and Response: Public health agencies monitor reportable illness data, conduct contact tracing interviews, and dispatch epidemiologists to isolate index cases and determine infection sources. Staff coordinate quarantine orders, distribute targeted prophylactic treatments, and issue public advisories to prevent local clusters from escalating into widespread epidemics (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p020_img1.png",
               "workbook_diagram_caption": "A nurse administers an arm vaccination to protect against disease.",
-              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease."
+              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease.",
+              "socratic_questions": [
+                "How do disease detectives in a local health agency identify and stop an infectious outbreak before the general public is even aware of a danger?"
+              ]
             },
             {
               "sub_id": "7b(3)",
@@ -3016,8 +3049,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)",
               "common_misconception_pair": {
-                "misconception": "For Public Health Requirement 7b(3), a common mistake in the kinds of public assistance is treating the kinds of public assistance the agency is able to provide in case of disasters such as floods as optional background reading.",
-                "fact": "Mastering Public Health Requirement 7b(3) means following the pamphlet standard for the kinds of public assistance and recording accurate notes on the kinds of public assistance the agency is able to provide in case of disasters such as floods."
+                "misconception": "Disaster relief from public health agencies focuses entirely on physical search and rescue rather than environmental sanitization and water safety.",
+                "fact": "Public health agencies safeguard disaster survivors against deadly secondary hazards like contaminated drinking water, toxic mold proliferation, and foodborne illness during post disaster cleanup."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3043,14 +3076,17 @@
               "id": "7b(3)",
               "sub_req_label": "7b(3)",
               "sub_req_text": "Discuss the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, earthquakes, and other acts of destruction. Your discussion can include the cleanup necessary after the disaster.",
-              "topic_title": "Req 7b(3): The kinds of public assistance",
-              "pamphlet_summary": "The kinds of public assistance: The Public Health pamphlet for Requirement 7b(3) details the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18).",
+              "topic_title": "Req 7b(3): Disaster Response and Environmental Cleanup",
+              "pamphlet_summary": "Disaster Response and Environmental Cleanup: Following natural catastrophes, health agencies distribute safe drinking water, establish sanitary conditions in mass emergency shelters, and test compromised municipal water systems. Sanitarians oversee contaminated food destruction, safe mold remediation, hazardous debris disposal, and disease vector control during recovery efforts (p. 63).",
               "pamphlet_excerpts": [
-                "The kinds of public assistance: The Public Health pamphlet for Requirement 7b(3) details the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 18)."
+                "Disaster Response and Environmental Cleanup: Following natural catastrophes, health agencies distribute safe drinking water, establish sanitary conditions in mass emergency shelters, and test compromised municipal water systems. Sanitarians oversee contaminated food destruction, safe mold remediation, hazardous debris disposal, and disease vector control during recovery efforts (p. 63)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/public_health_p020_img1.png",
               "workbook_diagram_caption": "A nurse administers an arm vaccination to protect against disease.",
-              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease."
+              "workbook_visual_caption": "A nurse administers an arm vaccination to protect against disease.",
+              "socratic_questions": [
+                "What invisible health threats emerge after severe floodwaters recede, and how does the public health agency help families sanitize their drinking water and homes safely?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3492,13 +3528,13 @@
       "question": "How do safe drinking water treatment, sanitary sewage disposal, hand washing, and vector control work together in public health?",
       "options": [
         "A. They treat genetic disorders by altering human DNA after symptoms appear.",
-        "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral, and insect-borne transmission pathways before pathogens can spread across a community.",
+        "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral.",
         "C. They replace the need for childhood vaccinations against airborne viruses like measles and influenza.",
         "D. They increase antibiotic resistance in bacteria by sterilizing outdoor soil ecosystems."
       ],
       "choices": [
         "A. They treat genetic disorders by altering human DNA after symptoms appear.",
-        "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral, and insect-borne transmission pathways before pathogens can spread across a community.",
+        "B. They break the chain of infection by eliminating reservoirs and blocking water borne, fecal-oral.",
         "C. They replace the need for childhood vaccinations against airborne viruses like measles and influenza.",
         "D. They increase antibiotic resistance in bacteria by sterilizing outdoor soil ecosystems."
       ],

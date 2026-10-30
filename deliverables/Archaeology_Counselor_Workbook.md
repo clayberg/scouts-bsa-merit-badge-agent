@@ -69,7 +69,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe the following steps of the archaeological process: site location, development of background research and a research design, site survey and fieldwork, artifact identification and examination, interpretation** | `____________________________________` | `____________________________________` |
+| **1. Describe the following steps of the archaeological process: site location, development of background research and a research design, site survey and fieldwork** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Clear research questions guide field collection methods and prevent unnecessary destructive excavation.
@@ -145,7 +145,7 @@
 - **Common Myth:** An archaeological presentation should only consist of a dry list of unprovenienced artifact photos.
 - **Pamphlet Fact:** Engaging presentations connect material culture to everyday human problems like securing food, shelter, and trade relationships.
 
-![Step-by-step Archaeology visual guide highlighting foundations of scientific archaeology positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/archaeology_p003_img1.png)
+![Archaeology Requirement 1 figure showing systematic recovery of human artifacts reveals daily domestic activities across ancient.](/assets/pamphlet_images/archaeology_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -192,7 +192,7 @@
 - **Common Myth:** Government agencies are the sole entities responsible for rescuing and protecting endangered cultural sites.
 - **Pamphlet Fact:** Private conservancies and volunteer archaeological societies frequently buy private parcels to save threatened ruins from real estate demolition.
 
-![Detailed Archaeology reference illustration comparing key components and stages of steps of the archaeological process for Requirement 2.](/assets/pamphlet_images/archaeology_p007_img1.png)
+![Archaeology Requirement 2 figure showing clear research questions guide field collection methods and prevent unnecessary.](/assets/pamphlet_images/archaeology_p007_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -233,7 +233,7 @@
 - **Common Myth:** Washing an artifact with clean tap water and soap helps archaeologists inspect its fine details.
 - **Pamphlet Fact:** Scrubbing or washing artifacts removes microscopic residues, blood protein residues, and botanical phytoliths essential for scientific testing.
 
-![Detailed Archaeology reference illustration comparing key components and stages of relative and absolute dating methods for Requirement 3.](/assets/pamphlet_images/archaeology_p012_img1.png)
+![Archaeology Requirement 3 figure showing undisturbed sedimentary layers position the oldest cultural deposits underneath younger.](/assets/pamphlet_images/archaeology_p012_img1.png)
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

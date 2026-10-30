@@ -81,7 +81,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for With your counselor's and parent
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated American Labor technical diagram of local unions and labor organizations for Requirement 2 field execution.](/assets/pamphlet_images/american_labor_p007_img1.png)
+![American Labor Requirement 2 figure showing local union headquarters coordinate member dispatch schedules, apprenticeship courses.](/assets/pamphlet_images/american_labor_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -110,7 +110,7 @@
 - **Common Myth:** Many individuals assume national labor leaders dictate all decisions to local union halls.
 - **Pamphlet Fact:** Local unions operate autonomously under specific bylaws, electing their own officers and voting on contracts.
 
-![Practical American Labor field visual showing proper setup, measurement, and technique for core concerns of american workers in Requirement 1.](/assets/pamphlet_images/american_labor_p003_img1.png)
+![American Labor Requirement 1 figure showing base compensation rates must adjust periodically to match regional consumer price index.](/assets/pamphlet_images/american_labor_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -159,7 +159,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain what is meant by the adversarial model of labor-management relations, compared with a cooperative-bargaining style.** | `____________________________________` | `____________________________________` |
+| **1. Explain what is meant by the adversarial model of labor-management relations, compared with a cooperative-bargaining style** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Adversarial bargaining treats labor management contract negotiations as competitive battles over fixed resources.

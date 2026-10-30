@@ -56,7 +56,7 @@
 - **Common Myth:** Digital safety videos are strictly intended for adults rather than active youth users.
 - **Pamphlet Fact:** Viewing mandatory youth protection modules provides baseline rules for identifying suspicious digital interactions.
 
-![Practical Cybersecurity field visual showing proper setup, measurement, and technique for digital safety and personal health in Requirement 1.](/assets/pamphlet_images/cybersecurity_p003_img1.png)
+![Cybersecurity Requirement 1 figure showing search engines index public profiles permanently even after local file deletion occurs.](/assets/pamphlet_images/cybersecurity_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -109,7 +109,7 @@
 - **Common Myth:** Online anonymity removes personal accountability for hurtful commentary posted on public message boards.
 - **Pamphlet Fact:** Kindness and courtesy online require treating remote users with dignity and constructive speech.
 
-![Illustrated Cybersecurity technical diagram of cyber ethics and scout law for Requirement 2 field execution.](/assets/pamphlet_images/cybersecurity_p007_img1.png)
+![Cybersecurity Requirement 2 figure showing operating online honorably builds lasting trust between network administrators.](/assets/pamphlet_images/cybersecurity_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,7 +152,7 @@
 - **Common Myth:** Automobiles run entirely on mechanical linkages without containing exploitable internal digital networks.
 - **Pamphlet Fact:** Modern vehicle engine management units and navigation clusters represent vulnerable networked computer systems.
 
-![Step-by-step Cybersecurity visual guide highlighting core cybersecurity principles and systems positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/cybersecurity_p012_img1.png)
+![Cybersecurity Requirement 3 figure showing municipal water treatment networks require continuous defenses against remote adversary.](/assets/pamphlet_images/cybersecurity_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -196,7 +196,7 @@
 - **Common Myth:** Software flaws become active threats automatically before any attacker writes functional exploit code.
 - **Pamphlet Fact:** A vulnerability is an unpatched flaw, whereas an exploit is code triggering it.
 
-![Illustrated Cybersecurity technical diagram of cybersecurity cyber threats, vulnerabilities, and attacks reference figure for Requirement 4 field execution.](/assets/pamphlet_images/cybersecurity_p004_img1.png)
+![Cybersecurity Requirement 4 figure showing attackers leverage unpatched software bugs to execute unauthorized malicious computer.](/assets/pamphlet_images/cybersecurity_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -253,11 +253,11 @@
 - Analyzing recent security incidents reveals how common configuration errors permit extensive unauthorized access. Examining historical breaches provides practical lessons for hardening modern network perimeters.
 - Req 4e Standard (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)): Current Events. Do ONE of the following: (1) Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim. (2) With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.
 
-#### Req 4e(1): Read an article or a news
+#### Req 4e(1): Cybersecurity Incident Root Cause Analysis
 **Official Requirement 4e(1):** Read an article or a news report about a recent cybersecurity incident, such as a data breach or malware infection. Explain how the incident happened (to the best of your ability based on the information available) and what the consequences are or might be to the victim.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4e(1) Structured Technical Study & Explanation Matrix (Article or A News)
-- **Common Myth:** In Cybersecurity Requirement 4e(1), many Scouts assume read an article or a news only requires a general overview rather than specific details on read an article or a news report about a recent cybersecurity incident, such as a data breach or malware.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 4e(1) specifies that Scouts must thoroughly document read an article or a news and explain read an article or a news report about a recent cybersecurity incident, such as a data breach or malware during counselor review.
+- **Common Myth:** Data breaches occur almost exclusively through rogue hackers writing custom exploit code to bypass firewalls.
+- **Pamphlet Fact:** Most real-world breaches succeed because of common misconfigurations, phishing lures, or delayed software patches rather than zero-day exploit code.
 
 | Req 4e(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -266,12 +266,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4e(2): Watch a movie or read
+#### Req 4e(2): Media Depictions of Cybersecurity Realism
 **Official Requirement 4e(2):** With your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays a significant role. Discuss how cybersecurity topics were depicted and how realistic you think.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4e(2) Structured Technical Study & Explanation Matrix (Movie or Read A Book)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Cybersecurity Req 4e(2) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** When preparing Cybersecurity Requirement 4e(2) (Watch a movie or read), Scouts sometimes overlook the concrete pamphlet benchmarks covering with your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays.
-- **Pamphlet Fact:** Counselor verification for Cybersecurity Requirement 4e(2) requires concrete workbook evidence on watch a movie or read, specifically addressing with your parent or guardian's permission, watch a movie or read a book in which cybersecurity plays.
+- **Common Myth:** Cinematic depictions of hacking where individuals break into military mainframes within seconds by mashing keys represent actual cybersecurity attacks.
+- **Pamphlet Fact:** Genuine network intrusions require days or months of methodical reconnaissance, vulnerability scanning, and credential harvesting rather than instantaneous keystroke guessing.
 
 | Req 4e(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -313,7 +313,7 @@
 - **Common Myth:** Installing antivirus software eliminates the operational need for running network boundary firewalls.
 - **Pamphlet Fact:** Firewalls inspect incoming traffic packets against defined rule sets to filter unauthorized connections.
 
-![Step-by-step Cybersecurity visual guide highlighting cybersecurity cyber defenses reference figure positioning and inspection checkpoints for Requirement 5.](/assets/pamphlet_images/cybersecurity_p005_img1.png)
+![Cybersecurity Requirement 5 figure showing network firewalls inspect incoming transmission packets to block unauthorized external.](/assets/pamphlet_images/cybersecurity_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -331,11 +331,11 @@
 - Vendors distribute security patches to remediate logic flaws discovered by security researchers. Operating unpatched legacy software exposes systems to known automated exploit kits.
 - Req 5b Standard (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)): Installing updates. Do the following: (1) Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent. (2) Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date.
 
-#### Req 5b(1): Installing The Latest Updates
+#### Req 5b(1): Operating System Security Patch Value
 **Official Requirement 5b(1):** Explain to your counselor the importance of installing the latest updates on your computer, why they are needed, and what kinds of problems they can prevent.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Installing The Latest Updates)
-- **Common Myth:** In Cybersecurity Requirement 5b(1), many Scouts assume installing the latest updates only requires a general overview rather than specific details on the importance of installing the latest updates on your computer, why they are needed, and what kinds.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document installing the latest updates and explain the importance of installing the latest updates on your computer, why they are needed, and what kinds during counselor review.
+- **Common Myth:** Operating system updates exist primarily to change user interfaces and add cosmetic features rather than protect systems from intrusion.
+- **Pamphlet Fact:** Vendors publish system updates primarily to resolve newly discovered security flaws that attackers actively target to execute malicious code.
 
 | Req 5b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -343,11 +343,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(2): Download and Install The Latest
+#### Req 5b(2): Device Update Verification and Installation
 **Official Requirement 5b(2):** Demonstrate to your counselor how to check for, download, and install the latest updates for your computer or mobile device, or another computer you have permission to use. (If you are unable to do this on your computer, you may use an online guide with screenshots to demonstrate this.) Show your counselor how to verify that your computer or mobile device is up-to-date.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5b(2) Hands-On Skill Station & EDGE Verification Checklist (Download and Install The Latest)
-- **Common Myth:** When preparing Cybersecurity Requirement 5b(2) (Download and Install The Latest), Scouts sometimes overlook the concrete pamphlet benchmarks covering how to check for, download, and install the latest updates for your computer or mobile device.
-- **Pamphlet Fact:** Counselor verification for Cybersecurity Requirement 5b(2) requires concrete workbook evidence on download and install the latest, specifically addressing how to check for, download, and install the latest updates for your computer or mobile device.
+- **Common Myth:** A computer stays fully protected against new threats as long as it has received a single software update during initial setup.
+- **Pamphlet Fact:** Software maintenance is an ongoing cycle because developers discover new vulnerabilities continuously, requiring regular update checks and installations.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -367,11 +367,11 @@
 - Hardening endpoint devices involves establishing strong credential policies, enabling multi-factor authentication, and restricting administrative privileges. Hands-on configuration reinforces practical defensive safeguards across personal workstations.
 - Req 5c Standard (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)): System security. With your parent or guardian's permission, do THREE of the following using a computer or mobile device, and discuss with your counselor: (1) Describe what makes a good password and why. Set or change an account password to one that is "strong." (2) Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function. (3) Install and set up a password manager. Demonstrate how it works to your counselor. (4) Run a virus scan. Show the results to your counselor. (5) Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises you. (6) Use a command line interface to view your computer's open network connections. Discuss the results with your counselor. (7) Demonstrate how to back up your data from a mobile device to a local computer or the cloud. (8) Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure. (9) Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.
 
-#### Req 5c(1): Makes a good password
+#### Req 5c(1): Strong Password Composition and Entropy
 **Official Requirement 5c(1):** Describe what makes a good password and why. Set or change an account password to one that is "strong.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (Password and Why Set or)
-- **Common Myth:** In Cybersecurity Requirement 5c(1), many Scouts assume makes a good password only requires a general overview rather than specific details on what makes a good password.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document makes a good password and explain what makes a good password during counselor review.
+- **Common Myth:** Substituting symbols like dollar signs or exclamation points for common letters in dictionary words produces an uncrackable password.
+- **Pamphlet Fact:** Automated cracking programs test predictable symbol substitutions in fractions of a second, making longer multi-word passphrases significantly stronger than short words with numbers.
 
 | Req 5c(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -380,11 +380,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(2): Multi-factor Authentication MFA
+#### Req 5c(2): Multi-Factor Authentication Implementation
 **Official Requirement 5c(2):** Describe multi-factor authentication (MFA) and how it can be used to improve security. Demonstrate how to use an authenticator app or other MFA function.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5c(2) Hands-On Skill Station & EDGE Verification Checklist (Multi-factor Authentication MFA)
-- **Common Myth:** When preparing Cybersecurity Requirement 5c(2) (Multi-factor Authentication MFA), Scouts sometimes overlook the concrete pamphlet benchmarks covering multi-factor authentication (mfa) and how it can be used to improve security.
-- **Pamphlet Fact:** Counselor verification for Cybersecurity Requirement 5c(2) requires concrete workbook evidence on multi-factor authentication mfa, specifically addressing multi-factor authentication (mfa) and how it can be used to improve security.
+- **Common Myth:** Multifactor authentication is unnecessary if a user creates an exceptionally long and complex primary password.
+- **Pamphlet Fact:** Even complex passwords become useless if stolen through phishing or a remote database breach, whereas a second factor prevents unauthorized account access.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -393,11 +393,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(3): Install and set up a password
+#### Req 5c(3): Password Manager Vault Deployment
 **Official Requirement 5c(3):** Install and set up a password manager. Demonstrate how it works to your counselor.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5c(3) Hands-On Skill Station & EDGE Verification Checklist (Install and Set Up A)
-- **Common Myth:** For Cybersecurity Requirement 5c(3), a common mistake in install and set up a password is treating install and set up a password manager as optional background reading.
-- **Pamphlet Fact:** Mastering Cybersecurity Requirement 5c(3) means following the pamphlet standard for install and set up a password and recording accurate notes on install and set up a password manager.
+- **Common Myth:** Storing all account credentials inside a digital password manager is less safe than writing passwords on physical paper or reusing one memorable phrase.
+- **Pamphlet Fact:** Dedicated password vaults employ strong local encryption that protects credentials from online interception while eliminating the catastrophic risks of password reuse across websites.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -406,11 +406,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(4): Run a virus scan
+#### Req 5c(4): Antivirus Scanning and Malware Detection
 **Official Requirement 5c(4):** Run a virus scan. Show the results to your counselor.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5c(4) Structured Technical Study & Explanation Matrix (Run A Virus Scan)
-- **Common Myth:** During Cybersecurity Requirement 5c(4), Scouts can underestimate how directly mastery of run a virus scan depends on understanding run a virus scan.
-- **Pamphlet Fact:** Scouting America standards for Cybersecurity Requirement 5c(4) require complete workbook entries on run a virus scan to demonstrate full understanding of run a virus scan.
+- **Common Myth:** Modern computers running modern operating systems cannot contract malware and therefore never require antivirus utility scans.
+- **Pamphlet Fact:** Every operating system has security vulnerabilities that trojans, spyware, and worms can target through malicious downloads or software supply chain compromises.
 
 | Req 5c(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -419,11 +419,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(5): Command Line or Other Built
+#### Req 5c(5): System Process Enumeration and Inspection
 **Official Requirement 5c(5):** Using a command line or other built-in tool, see what programs or processes are running on your computer. Discuss with your counselor what you see and what surprises.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5c(5) Structured Technical Study & Explanation Matrix (Command Line or Other Built-in)
-- **Common Myth:** In Cybersecurity Requirement 5c(5), many Scouts assume command line or other built only requires a general overview rather than specific details on using a command line or other built-in tool, see what programs or processes are running on your computer.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 5c(5) specifies that Scouts must thoroughly document command line or other built and explain using a command line or other built-in tool, see what programs or processes are running on your computer during counselor review.
+- **Common Myth:** A computer only executes programs that currently display an open application window on the desktop.
+- **Pamphlet Fact:** Computers run dozens of hidden background services and system processes at all times to handle hardware coordination, networking, and scheduled tasks.
 
 | Req 5c(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -432,11 +432,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(6): Command Line Interface to View
+#### Req 5c(6): Network Socket and Port Auditing
 **Official Requirement 5c(6):** Use a command line interface to view your computer's open network connections. Discuss the results with your counselor.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5c(6) Structured Technical Study & Explanation Matrix (Command Line Interface to View)
-- **Common Myth:** When preparing Cybersecurity Requirement 5c(6) (Command Line Interface to View), Scouts sometimes overlook the concrete pamphlet benchmarks covering use a command line interface to view your computer's open network connections.
-- **Pamphlet Fact:** Counselor verification for Cybersecurity Requirement 5c(6) requires concrete workbook evidence on command line interface to view, specifically addressing use a command line interface to view your computer's open network connections.
+- **Common Myth:** A computer only sends or receives network packets when a user actively clicks links in a web browser.
+- **Pamphlet Fact:** Background processes constantly maintain active network sockets to synchronize cloud services, check email inboxes, and receive software update notices.
 
 | Req 5c(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -445,11 +445,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(7): Back Up Your Data
+#### Req 5c(7): Mobile Device Data Backup Strategies
 **Official Requirement 5c(7):** Demonstrate how to back up your data from a mobile device to a local computer or the cloud.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5c(7) Hands-On Skill Station & EDGE Verification Checklist (Back Up Your Data)
-- **Common Myth:** For Cybersecurity Requirement 5c(7), a common mistake in back up your data is treating how to back up your data from a mobile device to a local computer or the cloud as optional background reading.
-- **Pamphlet Fact:** Mastering Cybersecurity Requirement 5c(7) means following the pamphlet standard for back up your data and recording accurate notes on how to back up your data from a mobile device to a local computer or the cloud.
+- **Common Myth:** Syncing files to a single cloud service provides an infallible backup that eliminates all risk of data loss.
+- **Pamphlet Fact:** Cloud synchronization mirrors deletions and accidental file corruptions across devices immediately, which differs from true versioned backups that archive historical snapshots.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -457,11 +457,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(8): Best practices for protecting a home
+#### Req 5c(8): Home Network Defense and Hardening
 **Official Requirement 5c(8):** Research best practices for protecting a home computer or network, and make a checklist of FIVE things you and your family can do to stay secure.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 5c(8) Hands-On Skill Station & EDGE Verification Checklist (Protecting A Home Computer or)
-- **Common Myth:** During Cybersecurity Requirement 5c(8), Scouts can underestimate how directly mastery of best practices for protecting a home depends on understanding research best practices for protecting a home computer or network, and make a checklist of five things.
-- **Pamphlet Fact:** Scouting America standards for Cybersecurity Requirement 5c(8) require complete workbook entries on best practices for protecting a home to demonstrate full understanding of research best practices for protecting a home computer or network, and make a checklist of five things.
+- **Common Myth:** Leaving factory default administrative passwords on a home Wi-Fi router is safe because neighbors cannot access the administration settings.
+- **Pamphlet Fact:** Default router passwords are published online in public databases, allowing anyone on the network to compromise settings or intercept traffic.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -469,11 +469,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(9): One or More Other Vulnerabilities
+#### Req 5c(9): Vulnerability Assessment and Remediation
 **Official Requirement 5c(9):** Identify one or more other vulnerabilities on your home computer or network or another computer or network you have permission to use and discuss with your counselor. With permission from the system owner, take the necessary actions to fix.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 5c(9) Structured Technical Study & Explanation Matrix (More Other Vulnerabilities on Your)
-- **Common Myth:** In Cybersecurity Requirement 5c(9), many Scouts assume one or more other vulnerabilities only requires a general overview rather than specific details on one or more other vulnerabilities on your home computer or network or another computer or network you.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 5c(9) specifies that Scouts must thoroughly document one or more other vulnerabilities and explain one or more other vulnerabilities on your home computer or network or another computer or network you during counselor review.
+- **Common Myth:** Fixing security flaws on a computer or network is acceptable to perform without consulting or obtaining permission from the device owner.
+- **Pamphlet Fact:** Modifying system configurations without explicit permission violates ethical computing standards and risks disabling critical functionality or corrupting services.
 
 | Req 5c(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -501,7 +501,7 @@
 - **Common Myth:** Symmetric encryption algorithms require two separate keys for encryption and decryption procedures.
 - **Pamphlet Fact:** End-to-end messaging encryption ensures only communicating endpoints possess keys to read transmitted text.
 
-![Detailed Cybersecurity reference illustration comparing key components and stages of cybersecurity cryptography reference figure for Requirement 6.](/assets/pamphlet_images/cybersecurity_p006_img1.png)
+![Cybersecurity Requirement 6 figure showing public key infrastructure exchanges encryption keys safely across insecure public.](/assets/pamphlet_images/cybersecurity_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -532,11 +532,11 @@
 - Creating custom ciphers demonstrates fundamental concepts of character transposition and mathematical substitution. Exploring classical encryption models highlights the necessity of modern high-entropy mathematical algorithms.
 - Req 6c Standard (Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)): Do ONE of the following: (1) Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message. Describe the strengths and weaknesses of your code. (2) Download and set up an app (from an official app store) that uses end-to-end encryption. Explain to your counselor what this means, how it works, and why it is more secure than other forms of communication (e. g. SMS). (3) Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text. Have a fellow Scout or your counselor make a change to it, then recreate the checksum and compare the new checksum to the original as a demonstration of file integrity checking. (4) Create your own PGP (pretty good privacy) email key. Share your public key with others (and your counselor). Also, get their public keys and add them to your computer's key ring. Send a message that has been digitally encrypted.
 
-#### Req 6c(1): Own Encryption
+#### Req 6c(1): Custom Cipher Design and Cryptanalysis
 **Official Requirement 6c(1):** Create your own encryption code, such as a substitution cipher or code book, and demonstrate using it to encrypt and decrypt a message. Describe the strengths and weaknesses of your code.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Skill Demonstration Checklist):** Req 6c(1) Hands-On Skill Station & EDGE Verification Checklist (Own Encryption)
-- **Common Myth:** In Cybersecurity Requirement 6c(1), many Scouts assume own encryption only requires a general overview rather than specific details on create your own encryption code, such as a substitution cipher or code book, and demonstrate using it.
-- **Pamphlet Fact:** The official Cybersecurity pamphlet for Requirement 6c(1) specifies that Scouts must thoroughly document own encryption and explain create your own encryption code, such as a substitution cipher or code book, and demonstrate using it during counselor review.
+- **Common Myth:** A custom cipher created by an individual is secure simply because the algorithm is kept secret from others.
+- **Pamphlet Fact:** Security through obscurity fails quickly because statistical patterns like letter frequencies reveal the underlying structure of simple substitution codes without knowledge of the secret key.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -545,11 +545,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(2): Download and Set Up an App
+#### Req 6c(2): End-to-End Encrypted Messaging Protocols
 **Official Requirement 6c(2):** Download and set up an app (from an official app store) that uses end-to-end encryption. Explain to your counselor what this means, how it works, and why it is more secure than other forms of communication (e. g. SMS)
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 6c(2) Structured Technical Study & Explanation Matrix (Download and Set Up An)
-- **Common Myth:** When preparing Cybersecurity Requirement 6c(2) (Download and Set Up an App), Scouts sometimes overlook the concrete pamphlet benchmarks covering download and set up an app (from an official app store) that uses end-to-end encryption.
-- **Pamphlet Fact:** Counselor verification for Cybersecurity Requirement 6c(2) requires concrete workbook evidence on download and set up an app, specifically addressing download and set up an app (from an official app store) that uses end-to-end encryption.
+- **Common Myth:** Standard cellular text messages sent through SMS provide complete privacy because cellular providers operate private networks.
+- **Pamphlet Fact:** SMS messages travel in plaintext across carrier networks and can be intercepted by telecom employees, rogue cellular towers, or attackers exploiting cellular signaling protocols.
 
 | Req 6c(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -560,11 +560,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(3): Hashing Tool for Example
+#### Req 6c(3): Cryptographic Checksums and File Integrity
 **Official Requirement 6c(3):** Use a hashing tool (for example, using SHA or MD5) to create a checksum for a file, document, or piece of text. Have a fellow Scout or your counselor make a change to it, then recreate the checksum and compare the new checksum to the original as a demonstration of file integrity checking.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (2-Column Comparison Table):** Req 6c(3) Technical Comparison Matrix (Hashing Tool for Example Using)
-- **Common Myth:** For Cybersecurity Requirement 6c(3), a common mistake in hashing tool for example is treating use a hashing tool (for example, using sha or md5) to create a checksum for a file, document, or piece as optional background reading.
-- **Pamphlet Fact:** Mastering Cybersecurity Requirement 6c(3) means following the pamphlet standard for hashing tool for example and recording accurate notes on use a hashing tool (for example, using sha or md5) to create a checksum for a file, document, or piece.
+- **Common Myth:** Making a tiny edit to a large text file changes only a couple of characters in the calculated checksum.
+- **Pamphlet Fact:** Cryptographic hash algorithms exhibit the avalanche effect, causing even a single modified bit in the input to completely randomize the entire resulting digest.
 
 | Comparison Dimension | Symmetric Single-Key Secret Encryption | Asymmetric Public-Private Key Cryptography |
 | :--- | :--- | :--- |
@@ -573,11 +573,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(4): Own PGP Pretty Good Privacy
+#### Req 6c(4): PGP Key Pairs and Encrypted Messaging
 **Official Requirement 6c(4):** Create your own PGP (pretty good privacy) email key. Share your public key with others (and your counselor). Also, get their public keys and add them to your computer's key ring. Send a message that has been digitally encrypted.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Organizer (Concept & Examples Notes):** Req 6c(4) Structured Technical Study & Explanation Matrix (Own PGP Pretty Good Privacy)
-- **Common Myth:** During Cybersecurity Requirement 6c(4), Scouts can underestimate how directly mastery of own pgp pretty good privacy depends on understanding create your own pgp (pretty good privacy) email key.
-- **Pamphlet Fact:** Scouting America standards for Cybersecurity Requirement 6c(4) require complete workbook entries on own pgp pretty good privacy to demonstrate full understanding of create your own pgp (pretty good privacy) email key.
+- **Common Myth:** Encrypting an email requires sending your private key to the recipient so they can unlock the message.
+- **Pamphlet Fact:** You encrypt messages using the recipient's public key, and only the recipient's secret private key can decrypt and read the contents.
 
 | Req 6c(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

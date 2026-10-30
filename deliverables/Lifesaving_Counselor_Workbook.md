@@ -65,7 +65,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense.** | `____________________________________` | `____________________________________` |
+| **1. Before doing requirements 3 through 15, review with your counselor the principles of Safe Swim Defense** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Qualified Leadership: Adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.
@@ -96,7 +96,7 @@
 - **Common Myth:** Recreational swimming experience substitutes for formal Swimming merit badge completion records.
 - **Pamphlet Fact:** Swimming merit badge requirements validate survival floating and deep water surface entry skills.
 
-![Illustrated Lifesaving technical diagram of prerequisite swimming endurance and strokes for Requirement 2 field execution.](/assets/pamphlet_images/lifesaving_p007_img1.png)
+![Lifesaving Requirement 2 figure showing candidates must complete every requirement for the Swimming merit badge first.](/assets/pamphlet_images/lifesaving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -137,7 +137,7 @@
 - **Common Myth:** Residential swimming pools present fewer drowning hazards than uncontrolled open water lakes.
 - **Pamphlet Fact:** Drop offs cause sudden immersion panic in nonswimmers who step off underwater ledges.
 
-![Practical Lifesaving field visual showing proper setup, measurement, and technique for drowning recognition and rescue order in Requirement 3.](/assets/pamphlet_images/lifesaving_p012_img1.png)
+![Lifesaving Requirement 3 figure showing victims often struggle upright without forward propulsion or effective distress calls.](/assets/pamphlet_images/lifesaving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -165,7 +165,7 @@
 - **Common Myth:** Entering the water immediately demonstrates superior bravery and faster emergency rescue resolution.
 - **Pamphlet Fact:** The reach, throw, row, go sequence minimizes rescuer peril by exploiting distance.
 
-![Practical Lifesaving field visual showing proper setup, measurement, and technique for safe swim defense principles in Requirement 1.](/assets/pamphlet_images/lifesaving_p003_img1.png)
+![Lifesaving Requirement 1 figure showing adult supervisors must hold current certifications in Safe Swim Defense and basic CPR.](/assets/pamphlet_images/lifesaving_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -218,7 +218,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Demonstrate "reaching" rescues using various items such as arm, leg, towels, shirts, paddles, poles.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate "reaching" rescues using various items such as arm, leg, towels, shirts, paddles, poles** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Rescuer Stance Anchoring: Rescuers must lie flat or stay low before extending any reaching aid.
@@ -382,7 +382,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and-wait techniques.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor the importance of avoiding contact with an active subject and demonstrate lead-and-wait techniques** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Defensive Stop Distance: Halt swimming approaches six to eight feet away from active panicking subjects.

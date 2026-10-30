@@ -162,19 +162,19 @@
         "question": "According to Family Life Requirement 1, why is a strong family unit important both to its individual members and to the wider community?",
         "options": [
           "A. Because families exist solely to isolate members from neighborhood schools, civic groups, and extended relatives.",
-          "B. Because families provide emotional support, shared responsibility, ethical values, and daily care for members while modeling cooperation, respect, and civic stewardship that strengthen the surrounding community.",
+          "B. Because families provide emotional support, shared responsibility, ethical values.",
           "C. Because family life requires one person to perform every household chore while all other members avoid communication.",
           "D. Because communities function best when families refuse to discuss budgets, schedules, or household duties together."
         ],
         "choices": [
           "A. Because families exist solely to isolate members from neighborhood schools, civic groups, and extended relatives.",
-          "B. Because families provide emotional support, shared responsibility, ethical values, and daily care for members while modeling cooperation, respect, and civic stewardship that strengthen the surrounding community.",
+          "B. Because families provide emotional support, shared responsibility, ethical values.",
           "C. Because family life requires one person to perform every household chore while all other members avoid communication.",
           "D. Because communities function best when families refuse to discuss budgets, schedules, or household duties together."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Because families provide emotional support, shared responsibility, ethical values, and daily care for members while modeling cooperation, respect, and civic stewardship that strengthen the surrounding community.",
+        "correct_answer": "B. Because families provide emotional support, shared responsibility, ethical values.",
         "explanation": "Correct Answer (B): Family Life Requirement 1 highlights how mutual respect, open communication, and shared household responsibilities nurture responsible citizens and anchor healthy, supportive communities.",
         "pamphlet_page_ref": "p. 9, p. 10"
       },
@@ -235,14 +235,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor",
-          "2. Practical execution and real-world examples for Your Personal Value to Family"
+          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor"
         ],
         "rows": [
-          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor",
-          "2. Practical execution and real-world examples for Your Personal Value to Family"
+          "1. List several reasons why you are important to your family and discuss this with your parent or guardian and with your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Children only contribute to a family when they earn income or drive cars.",
@@ -1246,8 +1244,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "In Family Life Requirement 6b(1), many Scouts assume living the principles only requires a general overview rather than specific details on how living the principles of the scout oath and scout law contributes to your family life.",
-                "fact": "The official Family Life pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document living the principles and explain how living the principles of the scout oath and scout law contributes to your family life during counselor review."
+                "misconception": "The Scout Oath and Scout Law apply only to uniformed troop meetings, outdoor campouts, and community service projects rather than everyday interactions with family members.",
+                "fact": "Living the Scout Oath and Law begins inside the home because practicing daily duties to family, helping others without complaint, and treating relatives with courtesy form the foundation of a Scout's character."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1273,14 +1271,17 @@
               "id": "6b(1)",
               "sub_req_label": "6b(1)",
               "sub_req_text": "How living the principles of the Scout Oath and Scout Law contributes to your family life.",
-              "topic_title": "Req 6b(1): Living The Principles",
-              "pamphlet_summary": "Living The Principles: The Family Life pamphlet for Requirement 6b(1) details how living the principles of the Scout Oath and Scout Law contributes to your family life, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(1): Scout Values In Family Living",
+              "pamphlet_summary": "Scout Values In Family Living: Practicing the Scout Oath and Scout Law at home means actively demonstrating virtues such as helpfulness, courtesy, and trustworthiness with parents and siblings rather than reserving them only for troop activities. Applying these core values during everyday domestic interactions establishes mutual trust, reduces sibling conflict, and strengthens the entire household (p. 42).",
               "pamphlet_excerpts": [
-                "Living The Principles: The Family Life pamphlet for Requirement 6b(1) details how living the principles of the Scout Oath and Scout Law contributes to your family life, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Scout Values In Family Living: Practicing the Scout Oath and Scout Law at home means actively demonstrating virtues such as helpfulness, courtesy, and trustworthiness with parents and siblings rather than reserving them only for troop activities. Applying these core values during everyday domestic interactions establishes mutual trust, reduces sibling conflict, and strengthens the entire household (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "Which specific point of the Scout Law is the hardest for you to practice when dealing with your brothers, sisters, or parents at home, and why?"
+              ]
             },
             {
               "sub_id": "6b(2)",
@@ -1341,8 +1342,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "When preparing Family Life Requirement 6b(2) (Greatest Dangers and Addictions Facing), Scouts sometimes overlook the concrete pamphlet benchmarks covering the greatest dangers and addictions facing youth in today's society.",
-                "fact": "Counselor verification for Family Life Requirement 6b(2) requires concrete workbook evidence on greatest dangers and addictions facing, specifically addressing the greatest dangers and addictions facing youth in today's society."
+                "misconception": "Addiction involves only physical substances like illicit drugs and alcohol, excluding digital activities, social media compulsion, or excessive spending habits.",
+                "fact": "Compulsive behaviors involving social media, video games, and reckless spending trigger psychological dependencies that disrupt adolescent brain development and undermine family relationships just as severely as chemical substances."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1368,14 +1369,17 @@
               "id": "6b(2)",
               "sub_req_label": "6b(2)",
               "sub_req_text": "The greatest dangers and addictions facing youth in today's society (examples include mental health challenges, use of tobacco products, alcohol, or drugs and other items such as debts, social media, etc.)",
-              "topic_title": "Req 6b(2): Greatest Dangers and Addictions Facing",
-              "pamphlet_summary": "Greatest Dangers and Addictions Facing: The Family Life pamphlet for Requirement 6b(2) details the greatest dangers and addictions facing youth in today's society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(2): Youth Dangers And Modern Addictions",
+              "pamphlet_summary": "Youth Dangers And Modern Addictions: Youth face complex risks spanning substance abuse with tobacco, alcohol, and drugs, alongside behavioral addictions including excessive social media use, gaming, and mounting personal debt. Openly evaluating these hazards during a family discussion helps establish clear household boundaries, identify behavioral warning signs early, and build mutual accountability (p. 44).",
               "pamphlet_excerpts": [
-                "Greatest Dangers and Addictions Facing: The Family Life pamphlet for Requirement 6b(2) details the greatest dangers and addictions facing youth in today's society, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Youth Dangers And Modern Addictions: Youth face complex risks spanning substance abuse with tobacco, alcohol, and drugs, alongside behavioral addictions including excessive social media use, gaming, and mounting personal debt. Openly evaluating these hazards during a family discussion helps establish clear household boundaries, identify behavioral warning signs early, and build mutual accountability (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "How can excessive phone screen time or social media use slowly develop into a behavioral habit that hurts your real-world family relationships?"
+              ]
             },
             {
               "sub_id": "6b(3)",
@@ -1407,8 +1411,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "For Family Life Requirement 6b(3), a common mistake in with a parent or guardian is treating with a parent or guardian how bodily changes can affect the choices you make as you physically as optional background reading.",
-                "fact": "Mastering Family Life Requirement 6b(3) means following the pamphlet standard for with a parent or guardian and recording accurate notes on with a parent or guardian how bodily changes can affect the choices you make as you physically."
+                "misconception": "Bodily changes during puberty affect only physical appearance and height rather than influencing emotional reactions, risk assessment, and behavioral choices.",
+                "fact": "Surging hormones and ongoing adolescent brain development directly alter emotional responses and impulse control, requiring youth to pause and evaluate the long-term consequences of their actions before making impulsive choices."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -1439,14 +1443,17 @@
               "id": "6b(3)",
               "sub_req_label": "6b(3)",
               "sub_req_text": "Discuss with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature.",
-              "topic_title": "Req 6b(3): With a parent or guardian",
-              "pamphlet_summary": "With a parent or guardian: The Family Life pamphlet for Requirement 6b(3) details with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(3): Adolescent Maturation And Responsible Choices",
+              "pamphlet_summary": "Adolescent Maturation And Responsible Choices: The handbook emphasizes holding a candid conversation with parents about hormonal shifts, physical development, emotional volatility, and responsible decision-making regarding personal boundaries and sexuality. Understanding these natural biological transformations equips adolescents to manage mood swings constructively and make ethical choices guided by family values (p. 47).",
               "pamphlet_excerpts": [
-                "With a parent or guardian: The Family Life pamphlet for Requirement 6b(3) details with a parent or guardian how bodily changes can affect the choices you make as you physically and mentally mature, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Adolescent Maturation And Responsible Choices: The handbook emphasizes holding a candid conversation with parents about hormonal shifts, physical development, emotional volatility, and responsible decision-making regarding personal boundaries and sexuality. Understanding these natural biological transformations equips adolescents to manage mood swings constructively and make ethical choices guided by family values (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "How do the rapid physical and hormonal changes of adolescence influence the way you react to stressful situations or peer pressure?"
+              ]
             },
             {
               "sub_id": "6b(4)",
@@ -1487,8 +1494,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "During Family Life Requirement 6b(4), Scouts can underestimate how directly mastery of personal and family finances depends on understanding personal and family finances.",
-                "fact": "Scouting America standards for Family Life Requirement 6b(4) require complete workbook entries on personal and family finances to demonstrate full understanding of personal and family finances."
+                "misconception": "Household budgeting and financial management are strictly adult concerns that do not involve or depend on the daily spending habits and resource use of youth.",
+                "fact": "Every family member directly impacts the household budget through electricity, water, grocery consumption, and personal discretionary spending, making cooperative financial planning essential for family security."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1514,14 +1521,17 @@
               "id": "6b(4)",
               "sub_req_label": "6b(4)",
               "sub_req_text": "Personal and family finances.",
-              "topic_title": "Req 6b(4): Personal and Family Finances",
-              "pamphlet_summary": "Personal and Family Finances: The Family Life pamphlet for Requirement 6b(4) details personal and family finances, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(4): Personal And Family Financial Management",
+              "pamphlet_summary": "Personal And Family Financial Management: The handbook instructs families to review the distinction between essential needs and discretionary wants while examining household budgeting, regular savings habits, and prudent debt management. Involving youth in transparent financial discussions teaches how unpredictable expenses arise and how responsible spending sustains family stability (p. 50).",
               "pamphlet_excerpts": [
-                "Personal and Family Finances: The Family Life pamphlet for Requirement 6b(4) details personal and family finances, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Personal And Family Financial Management: The handbook instructs families to review the distinction between essential needs and discretionary wants while examining household budgeting, regular savings habits, and prudent debt management. Involving youth in transparent financial discussions teaches how unpredictable expenses arise and how responsible spending sustains family stability (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "How does distinguishing between a genuine family need and an optional personal want help protect your household budget during tough financial times?"
+              ]
             },
             {
               "sub_id": "6b(5)",
@@ -1558,8 +1568,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "In Family Life Requirement 6b(5), many Scouts assume crisis situation within your family only requires a general overview rather than specific details on a crisis situation within your family and whom you can turn to for support during these situations.",
-                "fact": "The official Family Life pamphlet for Requirement 6b(5) specifies that Scouts must thoroughly document crisis situation within your family and explain a crisis situation within your family and whom you can turn to for support during these situations during counselor review."
+                "misconception": "Families must handle all emergencies, grief, or financial crises entirely on their own behind closed doors to avoid showing vulnerability or burdening others.",
+                "fact": "Healthy families actively prepare support networks ahead of time and seek outside guidance from professionals, counselors, clergy, or community agencies whenever facing overwhelming hardships."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1585,14 +1595,17 @@
               "id": "6b(5)",
               "sub_req_label": "6b(5)",
               "sub_req_text": "A crisis situation within your family and whom you can turn to for support during these situations.",
-              "topic_title": "Req 6b(5): Crisis Situation Within Your Family",
-              "pamphlet_summary": "Crisis Situation Within Your Family: The Family Life pamphlet for Requirement 6b(5) details a crisis situation within your family and whom you can turn to for support during these situations, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(5): Family Crisis Response And Support Systems",
+              "pamphlet_summary": "Family Crisis Response And Support Systems: The handbook advises families to formulate response plans for major emergencies such as serious illness, job loss, natural disasters, or family bereavement. Discussions must identify trusted external resources including extended relatives, school counselors, religious leaders, community agencies, and emergency service providers who can provide professional assistance during difficult times (p. 52).",
               "pamphlet_excerpts": [
-                "Crisis Situation Within Your Family: The Family Life pamphlet for Requirement 6b(5) details a crisis situation within your family and whom you can turn to for support during these situations, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Family Crisis Response And Support Systems: The handbook advises families to formulate response plans for major emergencies such as serious illness, job loss, natural disasters, or family bereavement. Discussions must identify trusted external resources including extended relatives, school counselors, religious leaders, community agencies, and emergency service providers who can provide professional assistance during difficult times (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "Why is it vital to identify trusted community counselors, medical professionals, and emergency contacts before an unexpected family crisis occurs?"
+              ]
             },
             {
               "sub_id": "6b(6)",
@@ -1629,8 +1642,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "When preparing Family Life Requirement 6b(6) (Technology on Your Family), Scouts sometimes overlook the concrete pamphlet benchmarks covering the effect of technology on your family.",
-                "fact": "Counselor verification for Family Life Requirement 6b(6) requires concrete workbook evidence on technology on your family, specifically addressing the effect of technology on your family."
+                "misconception": "Smartphones and digital media disrupt family life only when someone accesses inappropriate content or encounters online predators.",
+                "fact": "Even harmless digital browsing and regular messaging quietly degrade family bonds by replacing face-to-face dinner conversations and active shared listening with silent screen time."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1656,14 +1669,17 @@
               "id": "6b(6)",
               "sub_req_label": "6b(6)",
               "sub_req_text": "The effect of technology on your family.",
-              "topic_title": "Req 6b(6): Technology on Your Family",
-              "pamphlet_summary": "Technology on Your Family: Many topics may be addressed in a family meeting (p. 33).",
+              "topic_title": "Req 6b(6): Technology Impact On Family Communication",
+              "pamphlet_summary": "Technology Impact On Family Communication: The handbook highlights how digital devices, streaming entertainment, and social media can facilitate connection while also causing interpersonal alienation, poor sleep, and dinner-table distractions. Families are encouraged to establish collaborative device-free zones, screen-time curfews, and clear digital safety rules that foster face-to-face interaction (p. 54).",
               "pamphlet_excerpts": [
-                "Technology on Your Family: Many topics may be addressed in a family meeting (p. 33)."
+                "Technology Impact On Family Communication: The handbook highlights how digital devices, streaming entertainment, and social media can facilitate connection while also causing interpersonal alienation, poor sleep, and dinner-table distractions. Families are encouraged to establish collaborative device-free zones, screen-time curfews, and clear digital safety rules that foster face-to-face interaction (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "What practical rules can your family establish to keep smartphones and screens from interrupting important meals and personal conversations?"
+              ]
             },
             {
               "sub_id": "6b(7)",
@@ -1700,8 +1716,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)",
               "common_misconception_pair": {
-                "misconception": "For Family Life Requirement 6b(7), a common mistake in etiquette and manners is treating good etiquette and manners as optional background reading.",
-                "fact": "Mastering Family Life Requirement 6b(7) means following the pamphlet standard for etiquette and manners and recording accurate notes on good etiquette and manners."
+                "misconception": "Good manners and etiquette are rigid, formal rules meant only for special social events, fancy dinners, and public ceremonies rather than daily interactions at home.",
+                "fact": "Etiquette fundamentally demonstrates basic kindness, attentive listening, and mutual respect, which make daily family life pleasant and prevent unnecessary friction between relatives."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1727,14 +1743,17 @@
               "id": "6b(7)",
               "sub_req_label": "6b(7)",
               "sub_req_text": "Good etiquette and manners.",
-              "topic_title": "Req 6b(7): Etiquette and Manners",
-              "pamphlet_summary": "Etiquette and Manners: The Family Life pamphlet for Requirement 6b(7) details good etiquette and manners, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33).",
+              "topic_title": "Req 6b(7): Everyday Etiquette And Family Manners",
+              "pamphlet_summary": "Everyday Etiquette And Family Manners: The handbook explains that good manners are practical expressions of mutual respect, gratitude, and consideration rather than outdated formal rituals. Practicing courteous table manners, expressing appreciation, listening without interruption, and observing polite digital etiquette create a peaceful, supportive home environment (p. 56).",
               "pamphlet_excerpts": [
-                "Etiquette and Manners: The Family Life pamphlet for Requirement 6b(7) details good etiquette and manners, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 33)."
+                "Everyday Etiquette And Family Manners: The handbook explains that good manners are practical expressions of mutual respect, gratitude, and consideration rather than outdated formal rituals. Practicing courteous table manners, expressing appreciation, listening without interruption, and observing polite digital etiquette create a peaceful, supportive home environment (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/family_life_p036_img1.png",
               "workbook_diagram_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
-              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting."
+              "workbook_visual_caption": "A father discusses plans and concerns with his two daughters during a family meeting.",
+              "socratic_questions": [
+                "Why do simple daily courtesies such as saying thank you, knocking before entering a bedroom, and putting down a phone while someone speaks make such a big difference in how family members get along?"
+              ]
             }
           ],
           "syllabus_bucket": "Post-Class Home-Troop Follow-Up",
@@ -2090,14 +2109,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family",
-          "2. Practical execution and real-world examples for Effective Parenting Roles and Responsibilities"
+          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family"
         ],
         "rows": [
-          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family",
-          "2. Practical execution and real-world examples for Effective Parenting Roles and Responsibilities"
+          "1. Discuss with your counselor your understanding of what makes an effective parent or guardian and why, and your thoughts on the parent or guardian's role and responsibilities in the family"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Being an effective parent simply means giving children everything they want without rules.",
@@ -2235,13 +2252,13 @@
       "question": "According to Family Life Requirement 1, why is a strong family unit important both to its individual members and to the wider community?",
       "options": [
         "A. Because families exist solely to isolate members from neighborhood schools, civic groups, and extended relatives.",
-        "B. Because families provide emotional support, shared responsibility, ethical values, and daily care for members while modeling cooperation, respect, and civic stewardship that strengthen the surrounding community.",
+        "B. Because families provide emotional support, shared responsibility, ethical values.",
         "C. Because family life requires one person to perform every household chore while all other members avoid communication.",
         "D. Because communities function best when families refuse to discuss budgets, schedules, or household duties together."
       ],
       "choices": [
         "A. Because families exist solely to isolate members from neighborhood schools, civic groups, and extended relatives.",
-        "B. Because families provide emotional support, shared responsibility, ethical values, and daily care for members while modeling cooperation, respect, and civic stewardship that strengthen the surrounding community.",
+        "B. Because families provide emotional support, shared responsibility, ethical values.",
         "C. Because family life requires one person to perform every household chore while all other members avoid communication.",
         "D. Because communities function best when families refuse to discuss budgets, schedules, or household duties together."
       ],

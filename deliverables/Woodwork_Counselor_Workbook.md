@@ -50,7 +50,7 @@
 - **Common Myth:** Standard prescription eyeglasses provide sufficient impact protection against flying wooden debris.
 - **Pamphlet Fact:** Only ANSI Z87 approved safety spectacles with side shields withstand direct projectile strikes in the woodshop.
 
-![Practical Woodwork field visual showing proper setup, measurement, and technique for workshop safety and first aid in Requirement 1.](/assets/pamphlet_images/woodwork_p003_img1.png)
+![Woodwork Requirement 1 figure showing impact rated safety glasses shield eyes from airborne sawdust and splintering workpieces.](/assets/pamphlet_images/woodwork_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -157,7 +157,7 @@
 - [ ] Inspected hand and power tools with intact guards and ventilation setup for Woodwork
 - [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
 
-![Detailed Woodwork reference illustration comparing key components and stages of hand tool care and sharpening for Requirement 3.](/assets/pamphlet_images/woodwork_p012_img1.png)
+![Woodwork Requirement 3 figure showing bench chisels maintain a primary cutting bevel between twenty five and thirty degrees.](/assets/pamphlet_images/woodwork_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -146,19 +146,19 @@
         "question": "Your patrol rolls two solid spheres of the exact same size and shape down an inclined ramp from rest: one made of aluminum and one made of heavy brass. Neglecting air resistance, how do their accelerations down the ramp compare?",
         "options": [
           "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
-          "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+          "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally.",
           "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
           "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees."
         ],
         "choices": [
           "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
-          "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+          "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally.",
           "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
           "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+        "correct_answer": "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally.",
         "explanation": "Correct Answer (B): Since both gravitational force and moment of inertia are proportional to mass (I = 2/5 m r^2), mass cancels out of the equation of motion on an incline.",
         "pamphlet_page_ref": "p. 4"
       },
@@ -1939,8 +1939,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "In Physics Requirement 6A(a), many Scouts assume dark matter dark energy scientists only requires a general overview rather than specific details on dark matter & dark energy.",
-                "fact": "The official Physics pamphlet for Requirement 6A(a) specifies that Scouts must thoroughly document dark matter dark energy scientists and explain dark matter & dark energy during counselor review."
+                "misconception": "Dark matter and dark energy represent the same mysterious substance observed in different regions of space.",
+                "fact": "Dark matter acts as an attractive gravitational glue pulling galaxies together, while dark energy exerts a repulsive pressure accelerating cosmic expansion."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1966,14 +1966,17 @@
               "id": "6A(a)",
               "sub_req_label": "6A(a)",
               "sub_req_text": "Dark Matter & Dark Energy. Scientists know it exists.",
-              "topic_title": "Req 6A(a): Dark Matter Dark Energy Scientists",
-              "pamphlet_summary": "Dark Matter Dark Energy Scientists: Dark Matter & Dark Energy. Scientists know it exists (p. 34).",
+              "topic_title": "Req 6A(a): Dark Matter And Dark Energy",
+              "pamphlet_summary": "Dark Matter And Dark Energy: Astronomers infer dark matter through its gravitational influence on galactic rotation curves and dark energy by the observed accelerating expansion of the universe (p. 68).",
               "pamphlet_excerpts": [
-                "Dark Matter Dark Energy Scientists: Dark Matter & Dark Energy. Scientists know it exists (p. 34)."
+                "Dark Matter And Dark Energy: Astronomers infer dark matter through its gravitational influence on galactic rotation curves and dark energy by the observed accelerating expansion of the universe (p. 68)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "How can astrophysicists be confident that invisible matter exists throughout galaxies if telescopes cannot detect any light coming from it?"
+              ]
             },
             {
               "sub_id": "6A(b)",
@@ -2011,8 +2014,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "When preparing Physics Requirement 6A(b) (Black Holes & Wormholes), Scouts sometimes overlook the concrete pamphlet benchmarks covering black holes & wormholes.",
-                "fact": "Counselor verification for Physics Requirement 6A(b) requires concrete workbook evidence on black holes & wormholes, specifically addressing black holes & wormholes."
+                "misconception": "A black hole acts like a giant cosmic vacuum cleaner actively roaming space to suck in distant planets.",
+                "fact": "An object orbiting a black hole experiences normal Newtonian gravity unless it crosses within the event horizon where escape velocity exceeds the speed of light."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2038,14 +2041,17 @@
               "id": "6A(b)",
               "sub_req_label": "6A(b)",
               "sub_req_text": "Black Holes & Wormholes. Can we harness their energy or travel through them.",
-              "topic_title": "Req 6A(b): Black Holes & Wormholes",
-              "pamphlet_summary": "Black Holes & Wormholes: Black Holes & Wormholes. Can we harness their energy or travel through them (p. 34).",
+              "topic_title": "Req 6A(b): Black Holes And Traversable Wormholes",
+              "pamphlet_summary": "Black Holes And Traversable Wormholes: General relativity models black holes as regions where mass curves spacetime so intensely that light cannot escape beyond an event horizon, while theoretical wormholes require exotic matter to stabilize (p. 70).",
               "pamphlet_excerpts": [
-                "Black Holes & Wormholes: Black Holes & Wormholes. Can we harness their energy or travel through them (p. 34)."
+                "Black Holes And Traversable Wormholes: General relativity models black holes as regions where mass curves spacetime so intensely that light cannot escape beyond an event horizon, while theoretical wormholes require exotic matter to stabilize (p. 70)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "What would happen to Earth's orbit if our Sun were instantly replaced by a black hole of the exact same mass?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2158,8 +2164,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "In Physics Requirement 6B(a), many Scouts assume quantum computers how can super only requires a general overview rather than specific details on quantum computers.",
-                "fact": "The official Physics pamphlet for Requirement 6B(a) specifies that Scouts must thoroughly document quantum computers how can super and explain quantum computers during counselor review."
+                "misconception": "Quantum computers are simply faster desktop computers that run everyday programs and games at hyper speeds.",
+                "fact": "Quantum processors excel only at specialized mathematical tasks such as prime factorization and quantum physical simulations by taking advantage of interference among computational paths."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2185,14 +2191,17 @@
               "id": "6B(a)",
               "sub_req_label": "6B(a)",
               "sub_req_text": "Quantum Computers. How can super fast computers be made of atoms instead of microchips.",
-              "topic_title": "Req 6B(a): Quantum Computers How Can Super",
-              "pamphlet_summary": "Quantum Computers How Can Super: The Physics pamphlet for Requirement 6B(a) details quantum Computers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6B(a): Principles Of Quantum Computing Systems",
+              "pamphlet_summary": "Principles Of Quantum Computing Systems: Quantum computing relies on quantum bits that leverage superposition and entanglement to evaluate complex combinatorial states simultaneously (p. 72).",
               "pamphlet_excerpts": [
-                "Quantum Computers How Can Super: The Physics pamphlet for Requirement 6B(a) details quantum Computers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Principles Of Quantum Computing Systems: Quantum computing relies on quantum bits that leverage superposition and entanglement to evaluate complex combinatorial states simultaneously (p. 72)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "How does a quantum bit differing from a classical digital bit allow a processor to explore multiple calculation pathways at once?"
+              ]
             },
             {
               "sub_id": "6B(b)",
@@ -2230,8 +2239,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "When preparing Physics Requirement 6B(b) (Quantum Entanglement Can We Communicate), Scouts sometimes overlook the concrete pamphlet benchmarks covering quantum entanglement.",
-                "fact": "Counselor verification for Physics Requirement 6B(b) requires concrete workbook evidence on quantum entanglement can we communicate, specifically addressing quantum entanglement."
+                "misconception": "Entangled particles allow observers to transmit instant telegraph messages or voice communications across interstellar distances.",
+                "fact": "Measuring one entangled particle instantly determines its partner state, but retrieving meaningful information still requires a classical speed of light communication channel."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2257,14 +2266,17 @@
               "id": "6B(b)",
               "sub_req_label": "6B(b)",
               "sub_req_text": "Quantum Entanglement. Can we communicate instantly across space.",
-              "topic_title": "Req 6B(b): Quantum Entanglement Can We Communicate",
-              "pamphlet_summary": "Quantum Entanglement Can We Communicate: The Physics pamphlet for Requirement 6B(b) details quantum Entanglement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6B(b): Quantum Entanglement And Information Transfer",
+              "pamphlet_summary": "Quantum Entanglement And Information Transfer: Correlated quantum states allow two separated particles to exhibit synchronized measurement outcomes without transmitting usable signals faster than light (p. 73).",
               "pamphlet_excerpts": [
-                "Quantum Entanglement Can We Communicate: The Physics pamphlet for Requirement 6B(b) details quantum Entanglement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Quantum Entanglement And Information Transfer: Correlated quantum states allow two separated particles to exhibit synchronized measurement outcomes without transmitting usable signals faster than light (p. 73)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "Why does instant correlation between two separated particles fail to let us send a Morse code message across the galaxy without waiting for light to travel?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2373,8 +2385,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "In Physics Requirement 6C(a), many Scouts assume colonizing mars how can physics only requires a general overview rather than specific details on colonizing mars.",
-                "fact": "The official Physics pamphlet for Requirement 6C(a) specifies that Scouts must thoroughly document colonizing mars how can physics and explain colonizing mars during counselor review."
+                "misconception": "Astronauts on Mars can breathe outdoors simply by wearing warm coats because the planet holds a thick carbon dioxide atmosphere.",
+                "fact": "Surface atmospheric pressure on Mars is less than one percent of Earth atmospheric pressure, requiring pressurized habitats and active shielding against solar radiation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2400,14 +2412,17 @@
               "id": "6C(a)",
               "sub_req_label": "6C(a)",
               "sub_req_text": "Colonizing Mars. How can physics help humans live on other planets.",
-              "topic_title": "Req 6C(a): Colonizing Mars How Can Physics",
-              "pamphlet_summary": "Colonizing Mars How Can Physics: The Physics pamphlet for Requirement 6C(a) details colonizing Mars, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6C(a): Physics Of Martian Planetary Habitation",
+              "pamphlet_summary": "Physics Of Martian Planetary Habitation: Establishing human habitats on Mars requires engineering solutions for thin atmospheric pressure, severe cosmic radiation shielding, and lower surface gravity (p. 74).",
               "pamphlet_excerpts": [
-                "Colonizing Mars How Can Physics: The Physics pamphlet for Requirement 6C(a) details colonizing Mars, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Physics Of Martian Planetary Habitation: Establishing human habitats on Mars requires engineering solutions for thin atmospheric pressure, severe cosmic radiation shielding, and lower surface gravity (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "Which physical conditions on Mars pose the greatest challenge for human survival compared to the environment on Earth?"
+              ]
             },
             {
               "sub_id": "6C(b)",
@@ -2449,8 +2464,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "When preparing Physics Requirement 6C(b) (Interstellar Travel Can We Reach), Scouts sometimes overlook the concrete pamphlet benchmarks covering interstellar travel.",
-                "fact": "Counselor verification for Physics Requirement 6C(b) requires concrete workbook evidence on interstellar travel can we reach, specifically addressing interstellar travel."
+                "misconception": "Solar sails move through space by catching the physical solar wind of charged gas particles blowing from stars.",
+                "fact": "Solar sails generate thrust primarily from the radiation pressure of photons bouncing off highly reflective surfaces rather than ionized gas."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2476,14 +2491,17 @@
               "id": "6C(b)",
               "sub_req_label": "6C(b)",
               "sub_req_text": "Interstellar Travel. Can we reach other stars with warp drives or solar sails.",
-              "topic_title": "Req 6C(b): Interstellar Travel Can We Reach",
-              "pamphlet_summary": "Interstellar Travel Can We Reach: The Physics pamphlet for Requirement 6C(b) details interstellar Travel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6C(b): Mechanics Of Deep Interstellar Travel",
+              "pamphlet_summary": "Mechanics Of Deep Interstellar Travel: Interstellar transit concepts evaluate propellantless photon momentum transfer using solar sails alongside theoretical relativistic propulsion architectures (p. 75).",
               "pamphlet_excerpts": [
-                "Interstellar Travel Can We Reach: The Physics pamphlet for Requirement 6C(b) details interstellar Travel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Mechanics Of Deep Interstellar Travel: Interstellar transit concepts evaluate propellantless photon momentum transfer using solar sails alongside theoretical relativistic propulsion architectures (p. 75)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "How can massless particles like light photons exert physical force on a giant reflective mirror in deep space?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2592,8 +2610,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "In Physics Requirement 6D(a), many Scouts assume time travel is it possible only requires a general overview rather than specific details on time travel.",
-                "fact": "The official Physics pamphlet for Requirement 6D(a) specifies that Scouts must thoroughly document time travel is it possible and explain time travel during counselor review."
+                "misconception": "Time travel backward into the past is an engineering problem that humans will solve with faster spaceships.",
+                "fact": "Relativity allows forward time travel through kinematic time dilation, but traveling backward into the past produces causality paradoxes unsupported by physics evidence."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2619,14 +2637,17 @@
               "id": "6D(a)",
               "sub_req_label": "6D(a)",
               "sub_req_text": "Time Travel. Is it possible under extreme conditions.",
-              "topic_title": "Req 6D(a): Time Travel Is It Possible",
-              "pamphlet_summary": "Time Travel Is It Possible: The Physics pamphlet for Requirement 6D(a) details time Travel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6D(a): Relativistic Time Dilation And Spacetime",
+              "pamphlet_summary": "Relativistic Time Dilation And Spacetime: Einstein theory of relativity demonstrates that time passes at different rates depending on relative velocity and proximity to massive gravitational bodies (p. 76).",
               "pamphlet_excerpts": [
-                "Time Travel Is It Possible: The Physics pamphlet for Requirement 6D(a) details time Travel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Relativistic Time Dilation And Spacetime: Einstein theory of relativity demonstrates that time passes at different rates depending on relative velocity and proximity to massive gravitational bodies (p. 76)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "Why do synchronized atomic clocks placed on orbiting GPS satellites tick at a slightly different rate than identical clocks remaining on the ground?"
+              ]
             },
             {
               "sub_id": "6D(b)",
@@ -2664,8 +2685,8 @@
               },
               "pamphlet_page_citation": "Physics Test Lab Resource Guide, pp. 34-39",
               "common_misconception_pair": {
-                "misconception": "When preparing Physics Requirement 6D(b) (Artificial Gravity Can We Create), Scouts sometimes overlook the concrete pamphlet benchmarks covering artificial gravity.",
-                "fact": "Counselor verification for Physics Requirement 6D(b) requires concrete workbook evidence on artificial gravity can we create, specifically addressing artificial gravity."
+                "misconception": "Science fiction anti-gravity plating exists as a known physical field that engineers can install beneath floors in space stations.",
+                "fact": "Physics knows no mechanism to generate true gravitational fields without mass, so space stations must rely on rotational inertia and normal forces to simulate gravity."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2691,14 +2712,17 @@
               "id": "6D(b)",
               "sub_req_label": "6D(b)",
               "sub_req_text": "Artificial Gravity. Can we create Earth-like gravity in space stations.",
-              "topic_title": "Req 6D(b): Artificial Gravity Can We Create",
-              "pamphlet_summary": "Artificial Gravity Can We Create: The Physics pamphlet for Requirement 6D(b) details artificial Gravity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34).",
+              "topic_title": "Req 6D(b): Centripetal Acceleration In Space Stations",
+              "pamphlet_summary": "Centripetal Acceleration In Space Stations: Generating simulated gravity in spacecraft relies on rotating cylindrical structures where centripetal acceleration produces normal contact force on astronauts (p. 77).",
               "pamphlet_excerpts": [
-                "Artificial Gravity Can We Create: The Physics pamphlet for Requirement 6D(b) details artificial Gravity, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 34)."
+                "Centripetal Acceleration In Space Stations: Generating simulated gravity in spacecraft relies on rotating cylindrical structures where centripetal acceleration produces normal contact force on astronauts (p. 77)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/physics_p015_img1.png",
               "workbook_diagram_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
-              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench."
+              "workbook_visual_caption": "Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.",
+              "socratic_questions": [
+                "How does spinning a circular space habitat create an artificial sensation of weight for an astronaut standing inside against the outer hull?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3880,14 +3904,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Practical execution and real-world examples for Test Lab Feedback and Evaluation"
+          "1. Complete the survey below to complete the test lab requirements"
         ],
         "rows": [
-          "1. Complete the survey below to complete the test lab requirements",
-          "2. Practical execution and real-world examples for Test Lab Feedback and Evaluation"
+          "1. Complete the survey below to complete the test lab requirements"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Submitting curriculum survey responses is an optional administrative step with no connection to badge completion.",
@@ -4024,13 +4046,13 @@
       "question": "Your patrol rolls two solid spheres of the exact same size and shape down an inclined ramp from rest: one made of aluminum and one made of heavy brass. Neglecting air resistance, how do their accelerations down the ramp compare?",
       "options": [
         "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
-        "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+        "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally.",
         "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
         "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees."
       ],
       "choices": [
         "A. The heavier brass sphere accelerates twice as fast because it has more gravitational mass.",
-        "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally with mass for identical solid spheres.",
+        "B. Both spheres accelerate down the ramp at the same rate because gravitational acceleration and rotational inertia scale proportionally.",
         "C. The lighter aluminum sphere reaches the bottom first because it has less friction.",
         "D. Neither sphere rolls unless the ramp angle exceeds 45 degrees."
       ],

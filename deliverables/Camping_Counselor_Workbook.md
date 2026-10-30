@@ -585,11 +585,11 @@
 - Completing two outdoor adventure options involves undertaking strenuous backcountry treks like mountain summits, canoe voyages, or snowshoe hikes. Proper physical training, route reconnaissance, and qualified adult leadership ensure safe execution of high-adventure elements.
 - Req 9b Standard (Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)): On any of these camping experiences, you must do TWO of the following, only with proper preparation and under qualified supervision. (1) Hike up a mountain, gaining at least 1,000 vertical feet. (2) Backpack, snowshoe, or cross-country ski for at least 4 miles. (3) Take a bike trip of at least 15 miles or at least four hours. (4) Take a nonmotorized trip on the water of at least four hours or 5 miles. (5) Plan and carry out an overnight snow camping experience. (6) Rappel down a rappel route of 30 feet.
 
-#### Req 9b(1): Hike up a mountain, gaining
+#### Req 9b(1): Mountain Summit Elevation Gain Hike
 **Official Requirement 9b(1):** Hike up a mountain, gaining at least 1,000 vertical feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(1) Structured Technical Study & Explanation Matrix (Hike Up A Mountain Gaining)
-- **Common Myth:** In Camping Requirement 9b(1), many Scouts assume hike up a mountain, gaining only requires a general overview rather than specific details on hike up a mountain, gaining at least 1,000 vertical feet.
-- **Pamphlet Fact:** The official Camping pamphlet for Requirement 9b(1) specifies that Scouts must thoroughly document hike up a mountain, gaining and explain hike up a mountain, gaining at least 1,000 vertical feet during counselor review.
+- **Common Myth:** Hiking four miles along a rolling mountain ridge fulfills the vertical gain requirement as long as the trail sits at high altitude.
+- **Pamphlet Fact:** The requirement demands climbing at least one thousand net vertical feet from the trailhead to the summit or turnaround point.
 
 | Req 9b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -597,11 +597,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b(2): Backpack Snowshoe or Cross-country Ski
+#### Req 9b(2): Four Mile Backcountry Trek Options
 **Official Requirement 9b(2):** Backpack, snowshoe, or cross-country ski for at least 4 miles.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(2) Structured Technical Study & Explanation Matrix (Backpack Snowshoe or Cross-country Ski)
-- **Common Myth:** When preparing Camping Requirement 9b(2) (Backpack Snowshoe or Cross-country Ski), Scouts sometimes overlook the concrete pamphlet benchmarks covering backpack, snowshoe, or cross-country ski for at least 4 miles.
-- **Pamphlet Fact:** Counselor verification for Camping Requirement 9b(2) requires concrete workbook evidence on backpack snowshoe or cross-country ski, specifically addressing backpack, snowshoe, or cross-country ski for at least 4 miles.
+- **Common Myth:** Dividing four miles across short day strolls over several campouts satisfies this backcountry trek requirement.
+- **Pamphlet Fact:** The trek must occur as a continuous four-mile journey across wilderness terrain while carrying trail gear.
 
 | Req 9b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -609,11 +609,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b(3): Take a bike trip
+#### Req 9b(3): Fifteen Mile Bicycle Touring Journey
 **Official Requirement 9b(3):** Take a bike trip of at least 15 miles or at least four hours.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(3) Structured Technical Study & Explanation Matrix (Bike Trip of At Least)
-- **Common Myth:** For Camping Requirement 9b(3), a common mistake in take a bike trip is treating take a bike trip of at least 15 miles or at least four hours as optional background reading.
-- **Pamphlet Fact:** Mastering Camping Requirement 9b(3) means following the pamphlet standard for take a bike trip and recording accurate notes on take a bike trip of at least 15 miles or at least four hours.
+- **Common Myth:** Riding a bicycle around a paved campground loop for several short intervals counts toward the touring trip requirement.
+- **Pamphlet Fact:** The bicycle trip requires a planned touring route covering fifteen continuous miles or four active hours with appropriate route navigation and trail tools.
 
 | Req 9b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -621,11 +621,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b(4): Nonmotorized Trip on The Water
+#### Req 9b(4): Five Mile Nonmotorized Water Trek
 **Official Requirement 9b(4):** Take a nonmotorized trip on the water of at least four hours or 5 miles.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(4) Structured Technical Study & Explanation Matrix (Nonmotorized Trip on The Water)
-- **Common Myth:** During Camping Requirement 9b(4), Scouts can underestimate how directly mastery of nonmotorized trip on the water depends on understanding take a nonmotorized trip on the water of at least four hours or 5 miles.
-- **Pamphlet Fact:** Scouting America standards for Camping Requirement 9b(4) require complete workbook entries on nonmotorized trip on the water to demonstrate full understanding of take a nonmotorized trip on the water of at least four hours or 5 miles.
+- **Common Myth:** Sitting inside a canoe or kayak without fastening a life jacket is acceptable on calm lakes during mild summer weather.
+- **Pamphlet Fact:** BSA Safety Afloat rules require every person aboard a nonmotorized craft to wear a securely fastened life jacket at all times on the water.
 
 | Req 9b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -633,11 +633,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b(5): Out An Overnight Snow Camping
+#### Req 9b(5): Overnight Snow Camping Winter Expedition
 **Official Requirement 9b(5):** Plan and carry out an overnight snow camping experience.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(5) Structured Technical Study & Explanation Matrix (Out An Overnight Snow Camping)
-- **Common Myth:** In Camping Requirement 9b(5), many Scouts assume out an overnight snow camping only requires a general overview rather than specific details on plan and carry out an overnight snow camping experience.
-- **Pamphlet Fact:** The official Camping pamphlet for Requirement 9b(5) specifies that Scouts must thoroughly document out an overnight snow camping and explain plan and carry out an overnight snow camping experience during counselor review.
+- **Common Myth:** Wearing all available daytime clothing inside a sleeping bag keeps a camper warmest during subfreezing nights.
+- **Pamphlet Fact:** Wearing tight, damp layers restricts blood circulation and traps perspiration, which causes rapid body cooling inside a sleeping bag.
 
 | Req 9b(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -645,11 +645,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 9b(6): Rappel down a rappel route
+#### Req 9b(6): Thirty Foot Supervised Backcountry Rappel
 **Official Requirement 9b(6):** Rappel down a rappel route of 30 feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Organizer (Concept & Examples Notes):** Req 9b(6) Structured Technical Study & Explanation Matrix (Rappel Down A Rappel Route)
-- **Common Myth:** When preparing Camping Requirement 9b(6) (Rappel down a rappel route), Scouts sometimes overlook the concrete pamphlet benchmarks covering rappel down a rappel route of 30 feet.
-- **Pamphlet Fact:** Counselor verification for Camping Requirement 9b(6) requires concrete workbook evidence on rappel down a rappel route, specifically addressing rappel down a rappel route of 30 feet.
+- **Common Myth:** Holding the rappel brake line tightly eliminates the need for an independent safety belay line during a descent.
+- **Pamphlet Fact:** Scouting America climbing standards mandate a separate belay system managed by a qualified instructor to arrest any uncontrolled fall.
 
 | Req 9b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

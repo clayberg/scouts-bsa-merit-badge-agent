@@ -48,7 +48,7 @@
 - **Common Myth:** Severe weather delays are optional if light rain does not impair ground footing.
 - **Pamphlet Fact:** Lightning detectors and wet bulb globe temperature monitors dictate immediate suspension of field activities.
 
-![Practical Sports field visual showing proper setup, measurement, and technique for sports injury prevention and first aid in Requirement 1.](/assets/pamphlet_images/sports_p003_img1.png)
+![Sports Requirement 1 figure showing coaches must monitor wet bulb globe temperature readings during hot outdoor athletic.](/assets/pamphlet_images/sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** A medical examination only checks basic height, weight, and vision for school forms.
 - **Pamphlet Fact:** Physicians evaluate family cardiac history, blood pressure, and joint stability to prevent sudden collapse.
 
-![Illustrated Sports technical diagram of physical exams and healthy athletic habits for Requirement 2 field execution.](/assets/pamphlet_images/sports_p007_img1.png)
+![Sports Requirement 2 figure showing preparticipation examinations identify silent cardiac structural abnormalities.](/assets/pamphlet_images/sports_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Static stretching before cold muscles are warm prevents acute athletic joint sprain injuries.
 - **Pamphlet Fact:** Gradual cool-downs prevent venous blood pooling in extremities and assist rapid lactic acid clearance.
 
-![Practical Sports field visual showing proper setup, measurement, and technique for conditioning, amateur status, and sportsmanship in Requirement 3.](/assets/pamphlet_images/sports_p012_img1.png)
+![Sports Requirement 3 figure showing dynamic movements elevate core muscle temperature and lubricate synovial joint capsules.](/assets/pamphlet_images/sports_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

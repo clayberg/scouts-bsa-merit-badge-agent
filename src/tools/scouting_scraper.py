@@ -178,6 +178,10 @@ class RequirementPoint(BaseModel):
         None,
         description="Misconception vs. Fact pair grounded in the pamphlet."
     )
+    socratic_questions: List[str] = Field(
+        default_factory=list,
+        description="Pre-computed Socratic check-for-understanding questions for this requirement."
+    )
     starting_requirement_gate: Optional[Dict[str, Any]] = Field(
         None,
         description="Prerequisite or safety gate required before starting or signing off."
@@ -5441,6 +5445,8 @@ def _unroll_multi_option_requirements(
                             "req_text": f"{opt_title}: {joined_txt}",
                             "pamphlet_excerpts": u_excerpts,
                             "sub_requirements": u_subs,
+                            "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
+                            "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
                         })
                 else:
                     unrolled.append({
@@ -5450,6 +5456,8 @@ def _unroll_multi_option_requirements(
                         "topic_title": f"{opt_title}: Rules, Equipment & Course Play",
                         "req_text": txt,
                         "sub_requirements": list(children),
+                        "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
+                        "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
                     })
             continue
 
@@ -5524,6 +5532,8 @@ def _unroll_multi_option_requirements(
                         "req_text": f"{opt_title}: {joined_txt}",
                         "pamphlet_excerpts": chunk_excerpts,
                         "sub_requirements": chunk,
+                        "socratic_questions": list(first_ch.get("socratic_questions") or sr.get("socratic_questions") or r.get("socratic_questions") or []),
+                        "common_misconception_pair": first_ch.get("common_misconception_pair") or sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
                     })
             else:
                 full_req_text = txt
@@ -5539,6 +5549,8 @@ def _unroll_multi_option_requirements(
                     "req_text": full_req_text,
                     "pamphlet_excerpts": expanded_excerpts[:12] if expanded_excerpts else [],
                     "sub_requirements": list(children),
+                    "socratic_questions": list(sr.get("socratic_questions") or r.get("socratic_questions") or []),
+                    "common_misconception_pair": sr.get("common_misconception_pair") or r.get("common_misconception_pair"),
                 })
 
     return unrolled

@@ -485,20 +485,20 @@
         "scenario_prompt": "While preparing a dilute acid solution in a laboratory for Chemistry Requirement 1, what is the correct safety procedure and why must you consult the Safety Data Sheet (SDS) first?",
         "question": "While preparing a dilute acid solution in a laboratory for Chemistry Requirement 1, what is the correct safety procedure and why must you consult the Safety Data Sheet (SDS) first?",
         "options": [
-          "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses, then check the SDS only if smoke appears.",
+          "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses.",
           "B. Mix concentrated acid and household bleach in a sealed glass bottle to neutralize the fumes before opening the SDS binder.",
           "C. Smell the open reagent bottle directly by inhaling deeply over the rim to verify concentration instead of reading the SDS hazard section.",
-          "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles, and always add acid slowly to water (never water to concentrated acid) so the exothermic heat of dilution dissipates safely."
+          "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles."
         ],
         "choices": [
-          "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses, then check the SDS only if smoke appears.",
+          "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses.",
           "B. Mix concentrated acid and household bleach in a sealed glass bottle to neutralize the fumes before opening the SDS binder.",
           "C. Smell the open reagent bottle directly by inhaling deeply over the rim to verify concentration instead of reading the SDS hazard section.",
-          "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles, and always add acid slowly to water (never water to concentrated acid) so the exothermic heat of dilution dissipates safely."
+          "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles, and always add acid slowly to water (never water to concentrated acid) so the exothermic heat of dilution dissipates safely.",
+        "correct_answer": "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles.",
         "explanation": "Correct Answer (D): Pouring water into concentrated acid causes localized boiling and violent spattering of corrosive acid; always wear splash goggles, consult the SDS first, and add acid slowly to a larger volume of water.",
         "pamphlet_page_ref": "p. 22, p. 23"
       },
@@ -1832,14 +1832,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries",
-          "2. Practical execution and real-world examples for Reducing Single-Use Environmental Impacts"
+          "1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries"
         ],
         "rows": [
-          "1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries",
-          "2. Practical execution and real-world examples for Reducing Single-Use Environmental Impacts"
+          "1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "People often believe all plastics labeled biodegradable will decompose rapidly in standard municipal landfills.",
@@ -2184,14 +2182,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify three government agencies that oversee or provide guidance on the use of chemicals for personal, pharmaceutical, commercial, or industrial use",
-          "2. Practical execution and real-world examples for Government Chemical Oversight Agencies"
+          "1. Identify three government agencies that oversee or provide guidance on the use of chemicals for personal, pharmaceutical, commercial, or industrial use"
         ],
         "rows": [
-          "1. Identify three government agencies that oversee or provide guidance on the use of chemicals for personal, pharmaceutical, commercial, or industrial use",
-          "2. Practical execution and real-world examples for Government Chemical Oversight Agencies"
+          "1. Identify three government agencies that oversee or provide guidance on the use of chemicals for personal, pharmaceutical, commercial, or industrial use"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Beginners often think a single federal agency monitors all chemicals from manufacture through disposal.",
@@ -2732,16 +2728,16 @@
       "scenario_prompt": "While preparing a dilute acid solution in a laboratory for Chemistry Requirement 1, what is the correct safety procedure and why must you consult the Safety Data Sheet (SDS) first?",
       "question": "While preparing a dilute acid solution in a laboratory for Chemistry Requirement 1, what is the correct safety procedure and why must you consult the Safety Data Sheet (SDS) first?",
       "options": [
-        "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses, then check the SDS only if smoke appears.",
+        "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses.",
         "B. Mix concentrated acid and household bleach in a sealed glass bottle to neutralize the fumes before opening the SDS binder.",
         "C. Smell the open reagent bottle directly by inhaling deeply over the rim to verify concentration instead of reading the SDS hazard section.",
-        "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles, and always add acid slowly to water (never water to concentrated acid) so the exothermic heat of dilution dissipates safely."
+        "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles."
       ],
       "choices": [
-        "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses, then check the SDS only if smoke appears.",
+        "A. Pour a small stream of cold water into a beaker of concentrated sulfuric acid while wearing reading glasses.",
         "B. Mix concentrated acid and household bleach in a sealed glass bottle to neutralize the fumes before opening the SDS binder.",
         "C. Smell the open reagent bottle directly by inhaling deeply over the rim to verify concentration instead of reading the SDS hazard section.",
-        "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles, and always add acid slowly to water (never water to concentrated acid) so the exothermic heat of dilution dissipates safely."
+        "D. Review the SDS for chemical hazards, PPE, and spill response, wear ANSI-rated chemical splash goggles."
       ],
       "correct_index": 3,
       "correct_letter": "D",

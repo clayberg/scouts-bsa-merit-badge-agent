@@ -48,7 +48,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate to the Scout Oath and Scout Law: identities, diversity, equality** | `____________________________________` | `____________________________________` |
+| **1. Before beginning work on other requirements for this merit badge, research the following terms and explain to your counselor how you feel they relate** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Personal identity encompasses family heritage, cultural traditions, personal talents, and individual core values.
@@ -302,11 +302,11 @@
 - Scouts exchange stories about navigating exclusion or isolation within school, neighborhood, or athletic settings. Recognizing shared emotional responses deepens mutual understanding and solidarity.
 - Req 6b Standard (Official BSA Citizenship in Society Pamphlet, pp. 34-39): Share with each other ONE of the following options: (1) Option 1, A time you felt excluded from a group: What was the situation? How did it make you feel? What did you do? Did anyone stand up for you? What did you learn? Would you do anything differently today? (2) Option 2, This imaginary situation: You're attending a new school and don't know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you'll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. Discuss: How would that make you feel? What could the students have done? If that happened at your school.
 
-#### Req 6b(1): Time You Felt Excluded
+#### Req 6b(1): Personal Reflections on Social Exclusion
 **Official Requirement 6b(1):** Option 1, A time you felt excluded from a group: What was the situation? How did it make you feel? What did you do? Did anyone stand up for you? What did you learn? Would you do anything differently today.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Time You Felt Excluded)
-- **Common Myth:** In Citizenship in Society Requirement 6b(1), many Scouts assume time you felt excluded only requires a general overview rather than specific details on option 1, a time you felt excluded from a group, what was the situation.
-- **Pamphlet Fact:** The official Citizenship in Society pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document time you felt excluded and explain option 1, a time you felt excluded from a group, what was the situation during counselor review.
+- **Common Myth:** Scouts must share a traumatic crisis or severe bullying event rather than an everyday occurrence like being excluded from a team or game.
+- **Pamphlet Fact:** Scouting America guidance affirms that any real experience of feeling separated from peers provides valid material for thoughtful discussion and growth.
 
 ![A smiling Scout presents a framed historical document to fellow patrol members and an adult leader among tall trees.](/assets/ai_illustrations/citizenship_in_society_req_6_nano_hero.png)
 
@@ -320,11 +320,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(2): This Imaginary Situation You're Attending
+#### Req 6b(2): Imaginary Scenario of Lunchroom Exclusion
 **Official Requirement 6b(2):** Option 2, This imaginary situation: You're attending a new school and don't know anyone there yet. You notice they dress very differently than you do. At lunchtime, you decide you'll try to sit with a group to get to know other students. People at two tables tell you there is someone sitting at the currently empty seat at their table, so you end up eating by yourself. Discuss: How would that make you feel? What could the students have done? If that happened at your school.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6b(2) Structured Technical Study & Explanation Matrix (This Imaginary Situation You're Attending)
-- **Common Myth:** When preparing Citizenship in Society Requirement 6b(2) (This Imaginary Situation You're Attending), Scouts sometimes overlook the concrete pamphlet benchmarks covering option 2, this imaginary situation, you're attending a new school and don't know anyone there.
-- **Pamphlet Fact:** Counselor verification for Citizenship in Society Requirement 6b(2) requires concrete workbook evidence on this imaginary situation you're attending, specifically addressing option 2, this imaginary situation, you're attending a new school and don't know anyone there.
+- **Common Myth:** Scouts may only choose the hypothetical scenario if they have never experienced exclusion in their personal lives.
+- **Pamphlet Fact:** Scouting America provides the hypothetical scenario as an equal option so any youth can explore exclusion dynamics without feeling compelled to disclose private personal experiences.
 
 | Req 6b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -57,7 +57,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Minerals Product Mineral Used
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Mining in Society visual guide highlighting everyday minerals and global supply positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/mining_in_society_p003_img1.png)
+![Mining in Society Requirement 1 figure showing halite provides table salt and essential chemical feedstocks for household soap.](/assets/pamphlet_images/mining_in_society_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -86,7 +86,7 @@
 - **Common Myth:** Every continent contains equal commercial concentrations of precious and industrial metals.
 - **Pamphlet Fact:** Geological crustal processes concentrate specific economic minerals within distinct geographic regions across different sovereign nations.
 
-![Detailed Mining in Society reference illustration comparing key components and stages of regional mining maps and operations for Requirement 2.](/assets/pamphlet_images/mining_in_society_p007_img1.png)
+![Mining in Society Requirement 2 figure showing rail lines and inland waterways carry heavy bulk aggregates from quarry sites.](/assets/pamphlet_images/mining_in_society_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,7 +152,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Mining in Society Hazards and First Aid
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Mining in Society reference illustration comparing key components and stages of mine safety hazards and protection for Requirement 3.](/assets/pamphlet_images/mining_in_society_p012_img1.png)
+![Mining in Society Requirement 3 figure showing self-contained self-rescuer canisters supply emergency breathable oxygen.](/assets/pamphlet_images/mining_in_society_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -199,7 +199,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the dangers someone might encounter at an abandoned mine or quarry.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor the dangers someone might encounter at an abandoned mine or quarry** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Unmarked vertical winzes drop hundreds of feet into flooded, decaying timbered caverns.

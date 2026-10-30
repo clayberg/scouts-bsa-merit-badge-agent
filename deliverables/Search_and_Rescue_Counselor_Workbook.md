@@ -55,7 +55,7 @@
 - **Common Myth:** Giving cold water to an unconscious heat casualty safely lowers internal core body temperature.
 - **Pamphlet Fact:** Immersion or drenching with cool water while fanning the skin is the primary field treatment for heatstroke.
 
-![Step-by-step Search and Rescue visual guide highlighting field hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/search_and_rescue_p003_img1.png)
+![Search and Rescue Requirement 1 figure showing searchers drink water and balanced electrolytes before thirst indicates deep cellular.](/assets/pamphlet_images/search_and_rescue_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -122,7 +122,7 @@
 - **Common Myth:** Notifying a family member verbally about a general park destination provides sufficient search direction.
 - **Pamphlet Fact:** A documented trip plan establishes search containment boundaries and narrows initial route-and-ridge search tasks.
 
-![Detailed Search and Rescue reference illustration comparing key components and stages of staying found and emergency signaling for Requirement 2.](/assets/pamphlet_images/search_and_rescue_p007_img1.png)
+![Search and Rescue Requirement 2 figure showing filing precise route coordinates and expected return times triggers prompt SAR team.](/assets/pamphlet_images/search_and_rescue_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -207,7 +207,7 @@
 - **Common Myth:** The map date only matters for historical research and does not impact wilderness navigation.
 - **Pamphlet Fact:** The five Ds verify map freshness, landscape features, legend symbols, magnetic variance, and travel measurements.
 
-![Illustrated Search and Rescue technical diagram of topographic maps and coordinate systems for Requirement 3 field execution.](/assets/pamphlet_images/search_and_rescue_p012_img1.png)
+![Search and Rescue Requirement 3 figure showing closely spaced brown lines reveal steep cliffs requiring specialized technical rope.](/assets/pamphlet_images/search_and_rescue_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

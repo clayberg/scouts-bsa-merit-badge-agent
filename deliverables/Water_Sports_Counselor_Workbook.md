@@ -52,7 +52,7 @@
 - **Common Myth:** Water provides a completely soft surface that prevents physical impact injuries during falls.
 - **Pamphlet Fact:** Hitting water at thirty miles per hour causes severe contusions and concussion trauma.
 
-![Practical Water Sports field visual showing proper setup, measurement, and technique for water sports hazards and first aid in Requirement 1.](/assets/pamphlet_images/water_sports_p003_img1.png)
+![Water Sports Requirement 1 figure showing turn off the boat motor completely before any skier approaches the boarding ladder.](/assets/pamphlet_images/water_sports_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -116,7 +116,7 @@
 - **Common Myth:** A loose life jacket is safer because it allows freer arm movement while turning.
 - **Pamphlet Fact:** Loose life jackets can ride up over the face and obstruct breathing during falls.
 
-![Illustrated Water Sports technical diagram of life jackets and safety code for Requirement 2 field execution.](/assets/pamphlet_images/water_sports_p007_img1.png)
+![Water Sports Requirement 2 figure showing select life jackets constructed with heavy-duty foam designed to withstand.](/assets/pamphlet_images/water_sports_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -181,7 +181,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water.** | `____________________________________` | `____________________________________` |
+| **1. Show the following skier signals to the safety observer in the boat: skier safe, faster, slower, turns, back to dock, cut motor, skier in water** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Speed Increase Gesture: Extend one hand forward with thumb pointed distinctly upward toward the tow boat.
@@ -230,7 +230,7 @@
 - **Common Myth:** Skiing directly parallel across wake rollers prevents the ski tips from catching water.
 - **Pamphlet Fact:** Hitting wakes parallel causes skis to slide sideways and triggers violent rotational falls.
 
-![Illustrated Water Sports technical diagram of swimmer test and boating prerequisites for Requirement 3 field execution.](/assets/pamphlet_images/water_sports_p012_img1.png)
+![Water Sports Requirement 3 figure showing swim seventy-five yards using a strong, well-executed forward crawl or trudgen stroke.](/assets/pamphlet_images/water_sports_p012_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

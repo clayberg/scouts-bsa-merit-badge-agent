@@ -42,7 +42,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe the meaning and purposes of fish and wildlife conservation and management.** | `____________________________________` | `____________________________________` |
+| **1. Describe the meaning and purposes of fish and wildlife conservation and management** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Conservation Definition: Wise resource use maintains ecological balance while providing sustainable recreational harvest opportunities.
@@ -63,7 +63,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. List and discuss at least three major problems that continue to threaten your state's fish and wildlife resources.** | `____________________________________` | `____________________________________` |
+| **1. List and discuss at least three major problems that continue to threaten your state's fish and wildlife resources** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Habitat Fragmentation: Roads and housing developments divide continuous home ranges into isolated migration fragments.
@@ -84,7 +84,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe some ways in which everyone can help with fish and wildlife conservation.** | `____________________________________` | `____________________________________` |
+| **1. Describe some ways in which everyone can help with fish and wildlife conservation** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Sportsperson Funding: Excise taxes on sporting arms directly finance state wildlife restoration programs.
@@ -105,7 +105,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. List and describe five major fish and wildlife management practices used by managers in your state.** | `____________________________________` | `____________________________________` |
+| **1. List and describe five major fish and wildlife management practices used by managers in your state** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Prescribed Burning: Controlled fires consume accumulated forest litter and stimulate herbaceous browse seed germination.
@@ -134,7 +134,7 @@
 - **Common Myth:** Nest boxes should have wooden perches beneath the entrance hole to help adult birds enter.
 - **Pamphlet Fact:** Perches provide handholds for predatory English sparrows and snakes to raid eggs and young birds.
 
-![Detailed Fish and Wildlife Management reference illustration comparing key components and stages of fish and wildlife management construct, erect.](/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png)
+![Fish and Wildlife Management Requirement 5 figure showing mounting artificial nest boxes facing southeast protects fledglings from driving.](/assets/pamphlet_images/fish_and_wildlife_management_p005_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Any standard wild bird seed blend attracts the same species of native woodland birds.
 - **Pamphlet Fact:** Different feeder styles and specific seeds like black oil sunflower or nyjer attract distinct avian guilds.
 
-![Step-by-step Fish and Wildlife Management visual guide highlighting conservation and management purpose positioning and inspection checkpoints for Requirement.](/assets/pamphlet_images/fish_and_wildlife_management_p003_img1.png)
+![Fish and Wildlife Management Requirement 1 figure showing wise resource use maintains ecological balance while providing sustainable recreational.](/assets/pamphlet_images/fish_and_wildlife_management_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -162,7 +162,7 @@
 - **Common Myth:** Dumping random yard debris in a heap creates ideal habitat for all local small mammals.
 - **Pamphlet Fact:** Constructed brush piles require a sturdy crisscross foundation of heavy logs to maintain interior escape tunnels.
 
-![Step-by-step Fish and Wildlife Management visual guide highlighting fish and wildlife management five major fish and wildlife reference figure positioning.](/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png)
+![Fish and Wildlife Management Requirement 4 figure showing controlled fires consume accumulated forest litter and stimulate herbaceous browse seed.](/assets/pamphlet_images/fish_and_wildlife_management_p004_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -177,7 +177,7 @@
 - **Common Myth:** Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.
 - **Pamphlet Fact:** Natural vegetation woven into a burlap framework provides superior concealment and avoids startling wary animals.
 
-![Detailed Fish and Wildlife Management reference illustration comparing key components and stages of major threats to wildlife resources for Requirement 2.](/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png)
+![Fish and Wildlife Management Requirement 2 figure showing roads and housing developments divide continuous home ranges into isolated migration.](/assets/pamphlet_images/fish_and_wildlife_management_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -216,7 +216,7 @@
 - **Common Myth:** Domestic pets, farm livestock, and zoo animals count toward the wild species observation tally.
 - **Pamphlet Fact:** Field logs must document free-ranging, wild native or naturalized species observed in natural habitats.
 
-![Practical Fish and Wildlife Management field visual showing proper setup, measurement.](/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png)
+![Fish and Wildlife Management Requirement 6 figure showing recording date, time, weather, and specific microhabitat details validates wild animal.](/assets/pamphlet_images/fish_and_wildlife_management_p006_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -232,7 +232,7 @@
 - **Common Myth:** Classifying an animal as a game species means hunters can harvest unlimited numbers year-round.
 - **Pamphlet Fact:** Game designations allow state biologists to enforce strict seasonal limits and protect breeding female populations.
 
-![Practical Fish and Wildlife Management field visual showing proper setup, measurement.](/assets/pamphlet_images/fish_and_wildlife_management_p012_img1.png)
+![Fish and Wildlife Management Requirement 3 figure showing excise taxes on sporting arms directly finance state wildlife restoration programs.](/assets/pamphlet_images/fish_and_wildlife_management_p012_img1.png)
 
 | Req 6b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

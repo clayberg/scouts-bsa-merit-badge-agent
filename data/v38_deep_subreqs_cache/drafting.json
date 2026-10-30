@@ -1,0 +1,50 @@
+{
+  "7a(1)": {
+    "fact": "Professional drafters still rely on manual pencil sketching to explore preliminary ideas, solve spatial problems, and make quick field revisions before modeling in software.",
+    "misconception": "Modern commercial drafting firms have completely eliminated manual pencil drawing from their workflow.",
+    "pamphlet_summary": "During a facility tour, drafters explain whether manual drafting remains for preliminary sketches while computer software handles production drawings. Facilities select software suites such as AutoCAD, SolidWorks, or Revit based on industry standards, client file compatibility, and specialized modeling capabilities (p. 58).",
+    "socratic_question": "Why might an engineer or architect still sketch an initial design by hand before opening CAD software?",
+    "sub_id": "7a(1)",
+    "topic_title": "Commercial Drafting Software and Workflows"
+  },
+  "7a(2)": {
+    "fact": "Drafters coordinate constantly with manufacturing technicians, engineers, and site contractors to verify that technical drawings match fabrication tolerances and installation requirements.",
+    "misconception": "Drafters work in isolation to produce finished prints without needing input from manufacturing or construction crews.",
+    "pamphlet_summary": "Drafting departments supply dimensioned technical drawings to fabricators, contractors, assembly technicians, and purchasing agents across the business. Drafters collaborate daily with design engineers, project managers, and quality inspectors to review engineering change orders and refine production specifications (p. 60).",
+    "socratic_question": "Who outside the drafting department depends on a completed working drawing, and what could happen if the drafter never talks to them?",
+    "sub_id": "7a(2)",
+    "topic_title": "Drafting Services and Team Collaboration"
+  },
+  "7a(3)": {
+    "fact": "Drafting determines exact part tolerances and fabrication sequences, meaning that errors on a drawing directly increase scrap rates, project delays, and production expenses.",
+    "misconception": "Drafting is merely clerical illustration that has no direct influence on the safety or profitability of a company's final product.",
+    "pamphlet_summary": "Drafting converts abstract concepts and engineering calculations into clear geometric instructions that guide manufacturing and construction. Accurate drawings prevent material waste, ensure structural safety, and control manufacturing costs throughout the product life cycle (p. 61).",
+    "socratic_question": "How can a single dimensional mistake on a drafter's blueprint halt an entire factory production line?",
+    "sub_id": "7a(3)",
+    "topic_title": "Drafting Contributions to Final Products"
+  },
+  "7b(1)": {
+    "fact": "Drafters and engineers still use manual triangular scales and compasses to verify printed full-size drawings and take quick field measurements on construction sites.",
+    "misconception": "Computer drafting has made physical measuring scales and hand compasses completely useless for modern drafters.",
+    "pamphlet_summary": "Traditional drafting relied on T-squares, parallel bars, drafting machines, bow compasses, and ruling pens to produce accurate manual projections on vellum. While CAD software has made ruling pens and lettering guides obsolete, manual instruments like scales, compasses, and mechanical pencils remain standard in field sketches and technical education (p. 62).",
+    "socratic_question": "Which traditional drafting tool do you think lost its role first once computers entered the drafting studio, and why?",
+    "sub_id": "7b(1)",
+    "topic_title": "Evolution of Traditional Drafting Tools"
+  },
+  "7b(2)": {
+    "fact": "Blueprints were photographic contact prints made by exposing translucent vellum drawings over chemically coated paper to light, turning unexposed background areas deep Prussian blue.",
+    "misconception": "Traditional blueprints were produced by drawing directly onto sheets of blue paper.",
+    "pamphlet_summary": "Early drafting relied on linen, tracing vellum, and Mylar film reproduced through diazo blueline machines or photographic microfilm and stored in large flat-file drawer cabinets. CAD stores drawings as digital vector files in databases and cloud servers, enabling instant wide-format plotting and electronic file transfers without chemical exposure or paper degradation (p. 64).",
+    "socratic_question": "How did engineers duplicate a hand-drawn tracing before digital plotters and copiers existed?",
+    "sub_id": "7b(2)",
+    "topic_title": "Drafting Media Reproduction and Storage"
+  },
+  "7b(3)": {
+    "fact": "Modern CAD files contain parametric data that directly drives automated CNC machine tools, 3D printers, and dynamic structural simulations without generating physical paper drawings.",
+    "misconception": "Modern computer-aided drafting files serve only as digital pictures meant for printing onto paper.",
+    "pamphlet_summary": "Digital CAD media now generates 3D solid models, computer numerical control machining files, and building information modeling data streams rather than static two-dimensional paper sheets. These digital models feed directly into 3D printers, structural stress simulators, automated laser cutters, and virtual reality walkthroughs on job sites (p. 65).",
+    "socratic_question": "How can a manufacturing machine build a physical part directly from a drafter's computer file without anyone printing a paper drawing?",
+    "sub_id": "7b(3)",
+    "topic_title": "Digital Drafting Outputs and Applications"
+  }
+}

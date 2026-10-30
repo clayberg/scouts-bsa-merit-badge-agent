@@ -138,7 +138,7 @@
 - **Common Myth:** A lead project engineer oversees every single detailed calculation without specialized team delegation.
 - **Pamphlet Fact:** Engineers contribute as subsystem leads, materials analysts, or quality specialists within a larger structured project hierarchy.
 
-![Detailed Engineering reference illustration comparing key components and stages of investigating manufactured household items for Requirement 1.](/assets/pamphlet_images/engineering_p003_img1.png)
+![Engineering Requirement 1 figure showing unplug electrical appliances completely before loosening any external housing screws.](/assets/pamphlet_images/engineering_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,7 +152,7 @@
 - **Common Myth:** Engineering outcomes are proven solely through intuition and trial error without rigorous documentation.
 - **Pamphlet Fact:** Engineers validate results by comparing experimental empirical data against predictive mathematical models and established codes.
 
-![Practical Engineering field visual showing proper setup, measurement, and technique for landmark engineering achievements and impact in Requirement 2.](/assets/pamphlet_images/engineering_p007_img1.png)
+![Engineering Requirement 2 figure showing large municipal water treatment grids transformed modern human sanitation and disease.](/assets/pamphlet_images/engineering_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -166,7 +166,7 @@
 - **Common Myth:** Engineering reports are informal personal notes that only the original author needs to read.
 - **Pamphlet Fact:** Formal engineering documentation represents legally binding technical records subjected to peer audits and regulatory reviews.
 
-![Step-by-step Engineering visual guide highlighting six major engineering disciplines positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/engineering_p012_img1.png)
+![Engineering Requirement 3 figure showing mechanical engineers design physical machines, thermal management systems, and dynamic.](/assets/pamphlet_images/engineering_p012_img1.png)
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -199,7 +199,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage.** | `____________________________________` | `____________________________________` |
+| **1. Use the systems engineering approach to design an original piece of patrol equipment, a toy, or a useful device for the home, office, or garage** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Problem Definition: Define operational constraints, target users, functional requirements, and performance objectives before sketching.

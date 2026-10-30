@@ -55,7 +55,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Tour Your Community
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Architecture technical diagram of architectural styles and historical achievements for Requirement 1 field execution.](/assets/pamphlet_images/architecture_p003_img1.png)
+![Architecture Requirement 1 figure showing exterior moldings and window pediments reveal specific construction eras in regional.](/assets/pamphlet_images/architecture_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -107,7 +107,7 @@
 - **Common Myth:** Sustainable buildings cost drastically more to operate throughout their useful structural lifespan.
 - **Pamphlet Fact:** Reduced utility consumption and durable envelopes significantly lower long-term operating and maintenance expenses.
 
-![Step-by-step Architecture visual guide highlighting sustainable architecture and adaptive reuse positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/architecture_p007_img1.png)
+![Architecture Requirement 2 figure showing placing large glazed openings along southern walls maximizes natural winter daytime heating.](/assets/pamphlet_images/architecture_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -173,7 +173,7 @@
 - **Common Myth:** Architects spend all their workdays drawing pretty pictures by hand.
 - **Pamphlet Fact:** Professional architects coordinate engineering calculations, local zoning codes, contractor submittals, and material budgets.
 
-![Detailed Architecture reference illustration comparing key components and stages of architect visits and client interviews for Requirement 3.](/assets/pamphlet_images/architecture_p012_img1.png)
+![Architecture Requirement 3 figure showing working drawings detail dimensions, wall cross-sections, and finish schedules for trade.](/assets/pamphlet_images/architecture_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

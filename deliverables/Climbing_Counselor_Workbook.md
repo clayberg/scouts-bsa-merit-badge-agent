@@ -65,7 +65,7 @@
 - **Common Myth:** Sunny mornings guarantee stable climbing conditions throughout the entire afternoon outdoor session.
 - **Pamphlet Fact:** Weather shifts produce slick rock, requiring descent before rain saturates holds and ropes.
 
-![Detailed Climbing reference illustration comparing key components and stages of climbing hazards and first aid for Requirement 1.](/assets/pamphlet_images/climbing_p003_img1.png)
+![Climbing Requirement 1 figure showing climbers and belayers must wear approved helmets within active crag rockfall zones.](/assets/pamphlet_images/climbing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** Agonal gasping indicates adequate breathing and means emergency chest compressions are unnecessary.
 - **Pamphlet Fact:** CPR begins immediately when an unresponsive victim has no pulse and stopped normal breathing.
 
-![Practical Climbing field visual showing proper setup, measurement, and technique for leave no trace and ethics in Requirement 2.](/assets/pamphlet_images/climbing_p007_img1.png)
+![Climbing Requirement 2 figure showing travel on established trails to preserve sensitive vegetation growing around cliff bases.](/assets/pamphlet_images/climbing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -112,7 +112,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean.** | `____________________________________` | `____________________________________` |
+| **1. Learn the Leave No Trace Seven Principles and the Outdoor Code and explain what they mean** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Durable Surfaces: Travel on established trails to preserve sensitive vegetation growing around cliff bases.
@@ -177,7 +177,7 @@
 - **Common Myth:** Top-rope climbing and lead climbing create identical forces on the belay anchor system.
 - **Pamphlet Fact:** Bouldering focuses on short unroped climbs over pads, whereas lead climbers trail their rope upwards.
 
-![Step-by-step Climbing visual guide highlighting proper climbing clothing and attire positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/climbing_p012_img1.png)
+![Climbing Requirement 3 figure showing wear form-fitting athletic layers that cannot catch inside active belay friction hardware.](/assets/pamphlet_images/climbing_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -525,7 +525,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Identify the elements of the CHECK system and describe the meaning of each one to your counselor.** | `____________________________________` | `____________________________________` |
+| **1. Identify the elements of the CHECK system and describe the meaning of each one to your counselor** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Check that loose clothing drawstrings and hair are safely tucked away.
@@ -734,7 +734,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate ways to store rope, hardware, and other gear used for climbing, rappelling, and belaying** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Store ropes in well-ventilated dry areas away from damp concrete ground surfaces.

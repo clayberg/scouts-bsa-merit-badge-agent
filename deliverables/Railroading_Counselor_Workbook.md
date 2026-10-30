@@ -50,7 +50,7 @@
 - **Common Myth:** Mixed manifest freight trains move faster than unit trains because they carry diverse, higher-priority consumer goods.
 - **Pamphlet Fact:** Unit trains maintain higher average speeds and efficiency by avoiding time-consuming classification yard sorting operations entirely.
 
-![Practical Railroading field visual showing proper setup, measurement, and technique for freight operations and locomotive power in Requirement 1.](/assets/pamphlet_images/railroading_p003_img1.png)
+![Railroading Requirement 1 figure showing unit trains bypass classification yards because every car carries identical bulk cargo.](/assets/pamphlet_images/railroading_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -123,7 +123,7 @@
 - **Common Myth:** Amtrak has operated national passenger trains under continuous private corporate ownership since the nineteenth century.
 - **Pamphlet Fact:** Amtrak was chartered by the federal government in 1970 and began official passenger operations on May 1, 1971.
 
-![Illustrated Railroading technical diagram of amtrak and passenger rail transit for Requirement 2 field execution.](/assets/pamphlet_images/railroading_p007_img1.png)
+![Railroading Requirement 2 figure showing the Rail Passenger Service Act relieved private freight carriers of unprofitable.](/assets/pamphlet_images/railroading_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -168,7 +168,7 @@
 - **Common Myth:** The engineering department is responsible for driving and operating locomotives across the railroad network.
 - **Pamphlet Fact:** The engineering department designs, builds, and inspects track, bridges, and signals, while the transportation department operates the trains.
 
-![Practical Railroading field visual showing proper setup, measurement, and technique for railroad departments and industry careers in Requirement 3.](/assets/pamphlet_images/railroading_p012_img1.png)
+![Railroading Requirement 3 figure showing dispatchers and train crews manage train movements, yard switching, and mainline.](/assets/pamphlet_images/railroading_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -482,11 +482,11 @@
 - Model railroading requires designing scale track plans, laying track to precise gauge tolerances, and wiring electrical power districts. Modelers build scenic terrain, detail scale structures, and simulate prototype switching operations.
 - Req 7a Standard (Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)): Option A, Model Railroading. With your parent or guardian's and counselor's approval, do TWO of the following: (1) Draw a layout of your own model railroad or one that could be built in your home. Design a point-to-point track or loop with different routings. Include one of the following: turnaround or terminal or yard or siding. (2) Build one model railroad car kit or one locomotive kit. (3) Name the scale of four popular model railroad gauges. Identify the scale of four model cars or locomotives. (4) Locate the websites of four model railroad-related manufacturers or magazine publishers. Print information about their products and services, and discuss the information with your counselor. (5) Build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout or diorama, and make the surrounding area on the diorama scenic. (6) Alone or with others, build a model railroad or modular layout including ballast and scenery. Make electrical connections and operate a train. Describe what you enjoyed most. (7) Participate in a switching contest on a timesaver layout and record your time. (8) Explain the difference between powering and controlling a model railroad by using direct current, and powering and controlling a model railroad using digital command control.
 
-#### Req 7a(1): Layout of Your Own Model
+#### Req 7a(1): Model Railroad Track Layout Design
 **Official Requirement 7a(1):** Draw a layout of your own model railroad or one that could be built in your home. Design a point-to-point track or loop with different routings. Include one of the following: turnaround or terminal or yard or siding.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7a(1) Quantitative Field Observation & Activity Log (Layout of Your Own Model)
-- **Common Myth:** In Railroading Requirement 7a(1), many Scouts assume layout of your own model only requires a general overview rather than specific details on draw a layout of your own model railroad or one that could be built in your home.
-- **Pamphlet Fact:** The official Railroading pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document layout of your own model and explain draw a layout of your own model railroad or one that could be built in your home during counselor review.
+- **Common Myth:** A successful track plan requires filling every available square foot of benchwork with continuous concentric loops.
+- **Pamphlet Fact:** Purposeful layouts balance running tracks with dedicated operational elements like sidings or yards to simulate real freight sorting and point to point operations.
 
 ![Schematic diagrams outline various track layout designs for model trains.](/assets/pamphlet_images/railroading_p055_img1.png)
 
@@ -506,11 +506,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(2): Model Railroad Car Kit
+#### Req 7a(2): Rolling Stock Scale Kit Construction
 **Official Requirement 7a(2):** Build one model railroad car kit or one locomotive kit.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 7a(2) Hands-On Skill Station & EDGE Verification Checklist (Model Railroad Car Kit)
-- **Common Myth:** When preparing Railroading Requirement 7a(2) (Model Railroad Car Kit), Scouts sometimes overlook the concrete pamphlet benchmarks covering build one model railroad car kit or one locomotive kit.
-- **Pamphlet Fact:** Counselor verification for Railroading Requirement 7a(2) requires concrete workbook evidence on model railroad car kit, specifically addressing build one model railroad car kit or one locomotive kit.
+- **Common Myth:** Rolling stock kits assemble properly right out of the box without checking wheel alignment or chassis weight.
+- **Pamphlet Fact:** Builders must inspect wheelsets with an NMRA standards gauge and add internal weights to ensure cars track smoothly through turnouts without derailing.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -518,11 +518,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(3): Scale of Four Popular Model
+#### Req 7a(3): Model Railroad Scale And Gauge Standards
 **Official Requirement 7a(3):** Name the scale of four popular model railroad gauges. Identify the scale of four model cars or locomotives.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7a(3) Structured Technical Study & Explanation Matrix (Scale of Four Popular Model)
-- **Common Myth:** For Railroading Requirement 7a(3), a common mistake in scale of four popular model is treating the scale of four popular model railroad gauges as optional background reading.
-- **Pamphlet Fact:** Mastering Railroading Requirement 7a(3) means following the pamphlet standard for scale of four popular model and recording accurate notes on the scale of four popular model railroad gauges.
+- **Common Myth:** Scale and gauge mean the exact same thing in model railroading.
+- **Pamphlet Fact:** Scale is the proportional ratio of the model to the prototype, while gauge is the physical distance between the rails.
 
 | Req 7a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -531,11 +531,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(4): Websites of Four Model Railroad-related
+#### Req 7a(4): Model Railroading Industry Information Resources
 **Official Requirement 7a(4):** Locate the websites of four model railroad-related manufacturers or magazine publishers. Print information about their products and services, and discuss the information with your counselor.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7a(4) Structured Technical Study & Explanation Matrix (Websites of Four Model Railroad-related)
-- **Common Myth:** During Railroading Requirement 7a(4), Scouts can underestimate how directly mastery of websites of four model railroad-related depends on understanding locate the websites of four model railroad-related manufacturers or magazine publishers.
-- **Pamphlet Fact:** Scouting America standards for Railroading Requirement 7a(4) require complete workbook entries on websites of four model railroad-related to demonstrate full understanding of locate the websites of four model railroad-related manufacturers or magazine publishers.
+- **Common Myth:** Model railroad manufacturers produce interchangeable parts that fit any brand without standard mounting guidelines.
+- **Pamphlet Fact:** Manufacturers adhere to voluntary National Model Railroad Association standards to ensure mechanical and electrical compatibility across different brands.
 
 | Req 7a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -544,11 +544,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(5): Railroad Structure From Scratch
+#### Req 7a(5): Railroad Structure Assembly And Weathering
 **Official Requirement 7a(5):** Build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout or diorama, and make the surrounding area on the diorama scenic.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 7a(5) Hands-On Skill Station & EDGE Verification Checklist (Railroad Structure From Scratch)
-- **Common Myth:** In Railroading Requirement 7a(5), many Scouts assume railroad structure from scratch only requires a general overview rather than specific details on build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it.
-- **Pamphlet Fact:** The official Railroading pamphlet for Requirement 7a(5) specifies that Scouts must thoroughly document railroad structure from scratch and explain build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it during counselor review.
+- **Common Myth:** Factory plastic structures look realistic on a layout without painting or weathering.
+- **Pamphlet Fact:** Unpainted molded plastic reflects artificial glare and requires dulling coats, washes, and dry brush weathering to resemble prototype industrial materials.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -556,11 +556,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(6): Alone Model Railroad Modular
+#### Req 7a(6): Complete Modular Layout Construction
 **Official Requirement 7a(6):** Alone or with others, build a model railroad or modular layout including ballast and scenery. Make electrical connections and operate a train. Describe what you enjoyed.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Skill Demonstration Checklist):** Req 7a(6) Hands-On Skill Station & EDGE Verification Checklist (Alone Model Railroad Modular)
-- **Common Myth:** When preparing Railroading Requirement 7a(6) (Alone Model Railroad Modular), Scouts sometimes overlook the concrete pamphlet benchmarks covering alone or with others, build a model railroad or modular layout including ballast and scenery.
-- **Pamphlet Fact:** Counselor verification for Railroading Requirement 7a(6) requires concrete workbook evidence on alone model railroad modular, specifically addressing alone or with others, build a model railroad or modular layout including ballast and scenery.
+- **Common Myth:** Track rail joiners supply enough permanent electrical conductivity to power an entire layout without separate feeder wires.
+- **Pamphlet Fact:** Metal rail joiners loosen and oxidize over time, making soldered wire feeders to a track power bus essential for consistent train operation.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -570,11 +570,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(7): Participate in a switching contest
+#### Req 7a(7): Timesaver Track Switching Operations
 **Official Requirement 7a(7):** Participate in a switching contest on a timesaver layout and record your time.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Activity & Observation Log):** Req 7a(7) Quantitative Field Observation & Activity Log (Switching Contest on A Timesaver)
-- **Common Myth:** For Railroading Requirement 7a(7), a common mistake in participate in a switching contest is treating participate in a switching contest on a timesaver layout and record your time as optional background reading.
-- **Pamphlet Fact:** Mastering Railroading Requirement 7a(7) means following the pamphlet standard for participate in a switching contest and recording accurate notes on participate in a switching contest on a timesaver layout and record your time.
+- **Common Myth:** Finishing a Timesaver switching puzzle quickly just requires running the throttle at high speed.
+- **Pamphlet Fact:** Speed causes derailments and missed uncoupling spots, so success depends on logical routing strategy and minimizing the total number of moves.
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -582,11 +582,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(8): The difference between powering and controlling
+#### Req 7a(8): Direct Current And Command Control
 **Official Requirement 7a(8):** Explain the difference between powering and controlling a model railroad by using direct current, and powering and controlling a model railroad using digital command control.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (2-Column Comparison Table):** Req 7a(8) Technical Comparison Matrix (Powering and Controlling A Model)
-- **Common Myth:** During Railroading Requirement 7a(8), Scouts can underestimate how directly mastery of the difference between powering and controlling depends on understanding the difference between powering and controlling a model railroad by using direct current, and powering.
-- **Pamphlet Fact:** Scouting America standards for Railroading Requirement 7a(8) require complete workbook entries on the difference between powering and controlling to demonstrate full understanding of the difference between powering and controlling a model railroad by using direct current, and powering.
+- **Common Myth:** Digital command control runs multiple trains by varying separate DC voltages along the rails.
+- **Pamphlet Fact:** Digital command control supplies a constant track voltage carrying digital data packets that tell specific onboard decoders how fast to spin the motor.
 
 | Comparison Dimension | Scale Model Railroad Layout Building | Prototype Railfanning and Train Watching |
 | :--- | :--- | :--- |
@@ -605,11 +605,11 @@
 - Railfanning involves studying full-scale railroad operations, photographing rolling stock, and visiting railway museums or historical depots. Participants practice strict safety by observing train operations from public vantage points away from track ballast.
 - Req 7b Standard (Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)): Option B, Railfanning. With your parent or guardian's and counselor's approval, do TWO of the following: (1) Visit a railroad museum, historical display, or a prototype railroad-sponsored public event. With permission, photograph, digitally record, or sketch items of interest. Explain what you saw and describe your photos, sketches, or video. (2) Purchase tickets and ride a scenic or historic railroad. Under supervision, photograph the equipment and discuss with your counselor the historic significance of the operation. (3) Locate the websites of four rail historical groups, then find information on the history of the rail preservation operations and purpose of each group. Talk with a member of one of the groups and find out how you might help. (4) Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.
 
-#### Req 7b(1): Railroad Museum Historical Display
+#### Req 7b(1): Railroad Museum And Equipment Documentation
 **Official Requirement 7b(1):** Visit a railroad museum, historical display, or a prototype railroad-sponsored public event. With permission, photograph, digitally record, or sketch items of interest. Explain what you saw and describe your photos, sketches, or video.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Field Sketch & Diagram Canvas):** Req 7b(1) Quantitative Field Observation & Activity Log (Railroad Museum Historical Display)
-- **Common Myth:** In Railroading Requirement 7b(1), many Scouts assume railroad museum historical display only requires a general overview rather than specific details on visit a railroad museum, historical display, or a prototype railroad-sponsored public event.
-- **Pamphlet Fact:** The official Railroading pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document railroad museum historical display and explain visit a railroad museum, historical display, or a prototype railroad-sponsored public event during counselor review.
+- **Common Myth:** Railroad museum exhibits only display decorative antique steam engines rather than operational industrial freight technology.
+- **Pamphlet Fact:** Rail museums preserve working technological history spanning diesel motive power, signaling systems, maintenance equipment, and rolling stock that built modern supply chains.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -627,11 +627,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(2): Purchase tickets and ride a scenic
+#### Req 7b(2): Historic Railroad Excursion Analysis
 **Official Requirement 7b(2):** Purchase tickets and ride a scenic or historic railroad. Under supervision, photograph the equipment and discuss with your counselor the historic significance of the operation.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7b(2) Structured Technical Study & Explanation Matrix (Purchase Tickets and Ride A)
-- **Common Myth:** When preparing Railroading Requirement 7b(2) (Purchase tickets and ride a scenic), Scouts sometimes overlook the concrete pamphlet benchmarks covering purchase tickets and ride a scenic or historic railroad.
-- **Pamphlet Fact:** Counselor verification for Railroading Requirement 7b(2) requires concrete workbook evidence on purchase tickets and ride a scenic, specifically addressing purchase tickets and ride a scenic or historic railroad.
+- **Common Myth:** Historic tourist railroads operate modern trains purely for amusement rides without genuine historic rights-of-way.
+- **Pamphlet Fact:** Heritage railroads preserve authentic historical track routes and vintage rolling stock that demonstrate early American civil engineering and transportation commerce.
 
 | Req 7b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -640,11 +640,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(3): Websites of Four Rail Historical
+#### Req 7b(3): Rail Preservation Organization Engagement
 **Official Requirement 7b(3):** Locate the websites of four rail historical groups, then find information on the history of the rail preservation operations and purpose of each group. Talk with a member of one of the groups and find out how you might help.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Websites of Four Rail Historical)
-- **Common Myth:** For Railroading Requirement 7b(3), a common mistake in websites of four rail historical is treating locate the websites of four rail historical groups, then find information on the history of the rail as optional background reading.
-- **Pamphlet Fact:** Mastering Railroading Requirement 7b(3) means following the pamphlet standard for websites of four rail historical and recording accurate notes on locate the websites of four rail historical groups, then find information on the history of the rail.
+- **Common Myth:** Rail preservation groups only accept licensed professional railroaders as volunteers.
+- **Pamphlet Fact:** Historical societies rely heavily on volunteers of all skill levels for archiving, track maintenance, cosmetic restoration, and museum operations.
 
 | Req 7b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -653,11 +653,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(4): Trip By Rail
+#### Req 7b(4): Passenger Rail Travel Route Planning
 **Official Requirement 7b(4):** Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)* • **Organizer (Concept & Examples Notes):** Req 7b(4) Structured Technical Study & Explanation Matrix (Trip By Rail)
-- **Common Myth:** During Railroading Requirement 7b(4), Scouts can underestimate how directly mastery of trip by rail depends on understanding plan a trip by rail between two points.
-- **Pamphlet Fact:** Scouting America standards for Railroading Requirement 7b(4) require complete workbook entries on trip by rail to demonstrate full understanding of plan a trip by rail between two points.
+- **Common Myth:** Passenger train timetables list only the departure from the initial terminal and arrival at the final destination.
+- **Pamphlet Fact:** Timetables detail scheduled arrivals and departures at intermediate stations, conditional flag stops, and connecting transfer points along the route.
 
 | Req 7b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

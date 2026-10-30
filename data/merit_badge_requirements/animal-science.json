@@ -173,20 +173,20 @@
         "scenario_prompt": "When identifying major livestock breeds for Requirement 1, how do Holstein and Jersey cattle differ in primary agricultural purpose from Angus and Hereford cattle?",
         "question": "When identifying major livestock breeds for Requirement 1, how do Holstein and Jersey cattle differ in primary agricultural purpose from Angus and Hereford cattle?",
         "options": [
-          "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production, whereas Angus and Herefords are beef breeds selected for muscle marbling and meat yield.",
-          "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements, whereas Angus and Herefords are raised exclusively for fine wool and mohair.",
+          "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production.",
+          "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements.",
           "C. Holsteins and Jerseys are arid-climate beef cattle from Texas, whereas Angus and Herefords are tropical dairy breeds imported from India.",
           "D. All four breeds are dual-purpose poultry and swine hybrids developed for small urban backyard farms."
         ],
         "choices": [
-          "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production, whereas Angus and Herefords are beef breeds selected for muscle marbling and meat yield.",
-          "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements, whereas Angus and Herefords are raised exclusively for fine wool and mohair.",
+          "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production.",
+          "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements.",
           "C. Holsteins and Jerseys are arid-climate beef cattle from Texas, whereas Angus and Herefords are tropical dairy breeds imported from India.",
           "D. All four breeds are dual-purpose poultry and swine hybrids developed for small urban backyard farms."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production, whereas Angus and Herefords are beef breeds selected for muscle marbling and meat yield.",
+        "correct_answer": "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production.",
         "explanation": "Correct Answer (A): In Animal Science Requirement 1, Holstein and Jersey are classic dairy cattle breeds known for milk volume and butterfat content, while Angus and Hereford are major beef cattle breeds.",
         "pamphlet_page_ref": "p. 14, p. 15"
       },
@@ -1230,8 +1230,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6a(1), many Scouts assume farm or ranch where beef only requires a general overview rather than specific details on visit a farm or ranch where beef cattle are produced under any of these systems, feeding market cattle.",
-                "fact": "The official Animal Science pamphlet for Requirement 6a(1) specifies that Scouts must thoroughly document farm or ranch where beef and explain visit a farm or ranch where beef cattle are produced under any of these systems, feeding market cattle during counselor review."
+                "misconception": "Every beef ranch raises market cattle from birth through finishing on the same property.",
+                "fact": "Commercial beef production divides into distinct operations including cow and calf ranches, backgrounding stocker systems, feedlots, and purebred seedstock breeding farms."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -1262,14 +1262,17 @@
               "id": "6a(1)",
               "sub_req_label": "6a(1)",
               "sub_req_text": "Visit a farm or ranch where beef cattle are produced under any of these systems: feeding market cattle for harvest, cow/calf operation (producing cattle for sale to commercial feeders), or producing purebred cattle for sale as breeding stock to others. Talk with the operator to learn how the cattle were handled, fed, weighed, and shipped. Describe what you saw and explain what you learned. If you cannot visit a cattle ranch or farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on beef cattle production. Tell about your findings.",
-              "topic_title": "Req 6a(1): Farm or Ranch Where Beef",
-              "pamphlet_summary": "Farm or Ranch Where Beef: Beef cattle are raised throughout the United States in all kinds of climates (p. 14).",
+              "topic_title": "Req 6a(1): Beef Cattle Production Facility Visit",
+              "pamphlet_summary": "Beef Cattle Production Facility Visit: Touring a beef enterprise involves interviewing the manager about herd health protocols, forage budgeting, and business records across cow and calf, feedlot, or seedstock phases. Observers examine how handling facilities and feeding programs align with the specific commercial production goals of the operation (p. 38).",
               "pamphlet_excerpts": [
-                "Farm or Ranch Where Beef: Beef cattle are raised throughout the United States in all kinds of climates (p. 14)."
+                "Beef Cattle Production Facility Visit: Touring a beef enterprise involves interviewing the manager about herd health protocols, forage budgeting, and business records across cow and calf, feedlot, or seedstock phases. Observers examine how handling facilities and feeding programs align with the specific commercial production goals of the operation (p. 38)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p016_img1.png",
               "workbook_diagram_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
-              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding."
+              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
+              "socratic_questions": [
+                "Why do most ranchers choose to specialize in breeding calves or feeding market steers rather than managing every stage from birth to harvest?"
+              ]
             },
             {
               "sub_id": "6a(2)",
@@ -1312,8 +1315,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6a(2) (Feedlot to Include Its Forage), Scouts sometimes overlook the concrete pamphlet benchmarks covering sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30.",
-                "fact": "Counselor verification for Animal Science Requirement 6a(2) requires concrete workbook evidence on feedlot to include its forage, specifically addressing sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30."
+                "misconception": "Straight chutes with open barred fences move cattle more efficiently than curved chutes with solid sides.",
+                "fact": "Curved chutes with solid sides prevent cattle from seeing outside distractions and utilize their natural instinct to circle back toward their entrance."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1339,14 +1342,17 @@
               "id": "6a(2)",
               "sub_req_label": "6a(2)",
               "sub_req_text": "Sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30 or more fattening steers; or sketch a corral plan with cutting and loading chutes for handling 50 or more beef cows and their calves at one time.",
-              "topic_title": "Req 6a(2): Feedlot to Include Its Forage",
-              "pamphlet_summary": "Feedlot to Include Its Forage: The Animal Science pamphlet for Requirement 6a(2) details sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30 or more fattening steers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6a(2): Cattle Feedlot and Corral Layout",
+              "pamphlet_summary": "Cattle Feedlot and Corral Layout: Functional livestock layouts require curved working chutes with solid walls to utilize natural cattle flight zones and prevent balking during sorting or loading. Plans must incorporate well drained pen mounds, secure feed bunks, feed storage bins, and dedicated loading ramps built to handle animal volume safely (p. 41).",
               "pamphlet_excerpts": [
-                "Feedlot to Include Its Forage: The Animal Science pamphlet for Requirement 6a(2) details sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30 or more fattening steers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Cattle Feedlot and Corral Layout: Functional livestock layouts require curved working chutes with solid walls to utilize natural cattle flight zones and prevent balking during sorting or loading. Plans must incorporate well drained pen mounds, secure feed bunks, feed storage bins, and dedicated loading ramps built to handle animal volume safely (p. 41)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p016_img1.png",
               "workbook_diagram_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
-              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding."
+              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
+              "socratic_questions": [
+                "How does designing a livestock handling chute with curved walls help keep cattle calm and moving forward during sorting?"
+              ]
             },
             {
               "sub_id": "6a(3)",
@@ -1399,8 +1405,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6a(3), a common mistake in sketch showing the principal wholesale and retail is treating a sketch showing the principal wholesale and retail cuts of beef as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6a(3) means following the pamphlet standard for sketch showing the principal wholesale and retail and recording accurate notes on a sketch showing the principal wholesale and retail cuts of beef."
+                "misconception": "USDA beef quality grades and yield grades measure the exact same traits on a beef carcass.",
+                "fact": "Quality grades estimate palatability and tenderness based on intramuscular marbling and animal maturity, while yield grades predict the percentage of boneless retail meat yield."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1426,15 +1432,18 @@
               "id": "6a(3)",
               "sub_req_label": "6a(3)",
               "sub_req_text": "Make a sketch showing the principal wholesale and retail cuts of beef. Tell about the U. S. Department of Agriculture (USDA) dual grading system of beef. Tell the basis of each grade in each system.",
-              "topic_title": "Req 6a(3): Sketch Showing the Principal Wholesale and Retail",
-              "pamphlet_summary": "Sketch Showing the Principal Wholesale and Retail: The Animal Science pamphlet for Requirement 6a(3) details a sketch showing the principal wholesale and retail cuts of beef, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6a(3): Beef Cuts and USDA Grading",
+              "pamphlet_summary": "Beef Cuts and USDA Grading: Wholesale primal beef cuts such as the chuck, rib, loin, and round yield distinct retail steaks and roasts based on muscle tenderness and connective tissue. The USDA dual grading system evaluates carcasses separately for quality grade based on marbling and physiological maturity, and yield grade numbered 1 through 5 based on expected cutability of boneless retail cuts (p. 44).",
               "pamphlet_excerpts": [
-                "Sketch Showing the Principal Wholesale and Retail: The Animal Science pamphlet for Requirement 6a(3) details a sketch showing the principal wholesale and retail cuts of beef, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Beef Cuts and USDA Grading: Wholesale primal beef cuts such as the chuck, rib, loin, and round yield distinct retail steaks and roasts based on muscle tenderness and connective tissue. The USDA dual grading system evaluates carcasses separately for quality grade based on marbling and physiological maturity, and yield grade numbered 1 through 5 based on expected cutability of boneless retail cuts (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p016_img1.png",
-              "title": "Req 6a(3): Sketch Showing the Principal Wholesale and Retail",
+              "title": "Req 6a(3): Beef Cuts and USDA Grading",
               "workbook_diagram_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
-              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding."
+              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
+              "socratic_questions": [
+                "What physical qualities determine whether a beef ribeye qualifies as USDA Prime instead of USDA Choice or Select?"
+              ]
             },
             {
               "sub_id": "6a(4)",
@@ -1475,8 +1484,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6a(4), Scouts can underestimate how directly mastery of bull steer bullock cow heifer depends on understanding define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.",
-                "fact": "Scouting America standards for Animal Science Requirement 6a(4) require complete workbook entries on bull steer bullock cow heifer to demonstrate full understanding of define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf."
+                "misconception": "Any female bovine regardless of age or calving history is accurately called a cow.",
+                "fact": "A female bovine is a heifer until she delivers her first calf, at which point she is classified as a cow."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1502,14 +1511,17 @@
               "id": "6a(4)",
               "sub_req_label": "6a(4)",
               "sub_req_text": "Define the following terms: bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.",
-              "topic_title": "Req 6a(4): Bull Steer Bullock Cow Heifer",
-              "pamphlet_summary": "Bull Steer Bullock Cow Heifer: The Animal Science pamphlet for Requirement 6a(4) details define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6a(4): Beef Cattle Classification Terminology",
+              "pamphlet_summary": "Beef Cattle Classification Terminology: Cattle classifications specify gender, sexual maturity, reproductive history, and castration status across the production cycle. Precise industry vocabulary distinguishes intact breeding males, castrated market steers, young heifers, and sterile heifers born twin to bulls (p. 36).",
               "pamphlet_excerpts": [
-                "Bull Steer Bullock Cow Heifer: The Animal Science pamphlet for Requirement 6a(4) details define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Beef Cattle Classification Terminology: Cattle classifications specify gender, sexual maturity, reproductive history, and castration status across the production cycle. Precise industry vocabulary distinguishes intact breeding males, castrated market steers, young heifers, and sterile heifers born twin to bulls (p. 36)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p016_img1.png",
               "workbook_diagram_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
-              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding."
+              "workbook_visual_caption": "A muscular black beef bull displays conformation traits valued in cattle breeding.",
+              "socratic_questions": [
+                "How does the reproductive and developmental history of a female bovine determine whether producers classify her as a heifer, a heiferette, or a cow?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1636,8 +1648,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6b(1), many Scouts assume tell how a cow only requires a general overview rather than specific details on how a cow or a goat converts forage and grain into milk.",
-                "fact": "The official Animal Science pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document tell how a cow and explain how a cow or a goat converts forage and grain into milk during counselor review."
+                "misconception": "Cows and goats synthesize milk directly from digested liquids without relying on microbial stomach fermentation.",
+                "fact": "Rumen bacteria and protozoa ferment plant fiber into volatile fatty acids that the bloodstream transports to the mammary gland for lactose and butterfat synthesis."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1663,14 +1675,17 @@
               "id": "6b(1)",
               "sub_req_label": "6b(1)",
               "sub_req_text": "Tell how a cow or a goat converts forage and grain into milk. Explain the differences in feeds typically used for dairy cows versus those fed to beef cows.",
-              "topic_title": "Req 6b(1): Tell how a cow",
-              "pamphlet_summary": "Tell how a cow: The Animal Science pamphlet for Requirement 6b(1) details how a cow or a goat converts forage and grain into milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(1): Ruminant Digestion and Milk Synthesis",
+              "pamphlet_summary": "Ruminant Digestion and Milk Synthesis: Microbes within the rumen ferment fibrous roughages and grains into volatile fatty acids that the animal absorbs and converts into blood glucose and milk components in the mammary gland. High producing dairy rations require carefully balanced total mixed rations with energy dense concentrates and premium alfalfa silage, whereas beef cattle diets rely more extensively on lower energy pasture forage or finishing grains (p. 50).",
               "pamphlet_excerpts": [
-                "Tell how a cow: The Animal Science pamphlet for Requirement 6b(1) details how a cow or a goat converts forage and grain into milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Ruminant Digestion and Milk Synthesis: Microbes within the rumen ferment fibrous roughages and grains into volatile fatty acids that the animal absorbs and converts into blood glucose and milk components in the mammary gland. High producing dairy rations require carefully balanced total mixed rations with energy dense concentrates and premium alfalfa silage, whereas beef cattle diets rely more extensively on lower energy pasture forage or finishing grains (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "How do microorganisms in the first stomach compartment allow a dairy cow to produce gallons of nutrient-rich milk from rough alfalfa grass?"
+              ]
             },
             {
               "sub_id": "6b(2)",
@@ -1717,8 +1732,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6b(2) (Showing The Components in Cow's), Scouts sometimes overlook the concrete pamphlet benchmarks covering a chart showing the components in cow's milk or goat's milk.",
-                "fact": "Counselor verification for Animal Science Requirement 6b(2) requires concrete workbook evidence on showing the components in cow's, specifically addressing a chart showing the components in cow's milk or goat's milk."
+                "misconception": "Whole milk consists almost entirely of fat and protein with only a small fraction of water.",
+                "fact": "Water accounts for approximately 87 percent of whole milk, while milk solids like butterfat, protein, and lactose make up the remaining 13 percent."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1744,14 +1759,17 @@
               "id": "6b(2)",
               "sub_req_label": "6b(2)",
               "sub_req_text": "Make a chart showing the components in cow's milk or goat's milk. Chart the amount of each component.",
-              "topic_title": "Req 6b(2): Showing The Components in Cow's",
-              "pamphlet_summary": "Showing The Components in Cow's: The Animal Science pamphlet for Requirement 6b(2) details a chart showing the components in cow's milk or goat's milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(2): Dairy Milk Composition and Components",
+              "pamphlet_summary": "Dairy Milk Composition and Components: Standard whole cow milk averages roughly 87 percent water, 4.8 percent lactose carbohydrate, 3.7 percent butterfat, 3.2 percent protein including casein, and 0.7 percent minerals and vitamins. Goat milk displays a comparable moisture balance with smaller fat globules that naturally resist cream separation and offer distinct digestibility profiles (p. 52).",
               "pamphlet_excerpts": [
-                "Showing The Components in Cow's: The Animal Science pamphlet for Requirement 6b(2) details a chart showing the components in cow's milk or goat's milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Dairy Milk Composition and Components: Standard whole cow milk averages roughly 87 percent water, 4.8 percent lactose carbohydrate, 3.7 percent butterfat, 3.2 percent protein including casein, and 0.7 percent minerals and vitamins. Goat milk displays a comparable moisture balance with smaller fat globules that naturally resist cream separation and offer distinct digestibility profiles (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "If you separated every chemical component in a gallon of fresh cow milk, what substance would make up nearly nine tenths of the total weight?"
+              ]
             },
             {
               "sub_id": "6b(3)",
@@ -1790,8 +1808,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6b(3), a common mistake in the requirements for producing grade is treating the requirements for producing grade a milk as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6b(3) means following the pamphlet standard for the requirements for producing grade and recording accurate notes on the requirements for producing grade a milk."
+                "misconception": "Pasteurization boils milk to sterilize it completely, eliminating all nutritional value.",
+                "fact": "Pasteurization rapidly heats milk to controlled sub-boiling temperatures to eliminate pathogenic bacteria while preserving flavor, proteins, and vitamins."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1817,14 +1835,17 @@
               "id": "6b(3)",
               "sub_req_label": "6b(3)",
               "sub_req_text": "Explain the requirements for producing grade A milk. Tell how and why milk is pasteurized.",
-              "topic_title": "Req 6b(3): The requirements for producing grade",
-              "pamphlet_summary": "The requirements for producing grade: The Animal Science pamphlet for Requirement 6b(3) details the requirements for producing grade A milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(3): Grade A Standards and Pasteurization",
+              "pamphlet_summary": "Grade A Standards and Pasteurization: Grade A milk production mandates strict dairy farm inspection standards, sanitized stainless steel pipeline facilities, rapid chilling to 45 degrees Fahrenheit or below within two hours of milking, and low somatic cell counts. Pasteurization heats milk to at least 161 degrees Fahrenheit for 15 seconds to destroy harmful pathogenic bacteria and extend shelf life without compromising nutritional value (p. 54).",
               "pamphlet_excerpts": [
-                "The requirements for producing grade: The Animal Science pamphlet for Requirement 6b(3) details the requirements for producing grade A milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Grade A Standards and Pasteurization: Grade A milk production mandates strict dairy farm inspection standards, sanitized stainless steel pipeline facilities, rapid chilling to 45 degrees Fahrenheit or below within two hours of milking, and low somatic cell counts. Pasteurization heats milk to at least 161 degrees Fahrenheit for 15 seconds to destroy harmful pathogenic bacteria and extend shelf life without compromising nutritional value (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "Why must Grade A raw milk be cooled to 45 degrees Fahrenheit within two hours of harvest before it travels to the pasteurization facility?"
+              ]
             },
             {
               "sub_id": "6b(4)",
@@ -1861,8 +1882,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6b(4), Scouts can underestimate how directly mastery of equipment used for milking depends on understanding about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms.",
-                "fact": "Scouting America standards for Animal Science Requirement 6b(4) require complete workbook entries on equipment used for milking to demonstrate full understanding of about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms."
+                "misconception": "Milking machines squeeze the teat downward using mechanical rollers similar to manual hand milking.",
+                "fact": "Mechanical milkers utilize pulsating vacuum pressure inside a flexible teat cup liner to gently draw milk into a sanitary closed pipeline."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1888,14 +1909,17 @@
               "id": "6b(4)",
               "sub_req_label": "6b(4)",
               "sub_req_text": "Tell about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms.",
-              "topic_title": "Req 6b(4): Equipment Used for Milking",
-              "pamphlet_summary": "Equipment Used for Milking: The Animal Science pamphlet for Requirement 6b(4) details about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(4): Milking Equipment and Farm Sanitation",
+              "pamphlet_summary": "Milking Equipment and Farm Sanitation: Modern milking systems use automated vacuum pulsators, silicone teat claw assemblies, and clean in place closed stainless steel pipelines to draw and transfer milk without ambient contamination. Farm sanitation protocols require thorough pre-milking teat sanitization, post-milking germicidal dips, and acid-detergent wash cycles after every milking session (p. 56).",
               "pamphlet_excerpts": [
-                "Equipment Used for Milking: The Animal Science pamphlet for Requirement 6b(4) details about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Milking Equipment and Farm Sanitation: Modern milking systems use automated vacuum pulsators, silicone teat claw assemblies, and clean in place closed stainless steel pipelines to draw and transfer milk without ambient contamination. Farm sanitation protocols require thorough pre-milking teat sanitization, post-milking germicidal dips, and acid-detergent wash cycles after every milking session (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "How do clean in place pipeline systems and automated vacuum claws prevent bacterial contamination during commercial milking?"
+              ]
             },
             {
               "sub_id": "6b(5)",
@@ -1932,8 +1956,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6b(5), many Scouts assume bull cow steer heifer springer only requires a general overview rather than specific details on define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid.",
-                "fact": "The official Animal Science pamphlet for Requirement 6b(5) specifies that Scouts must thoroughly document bull cow steer heifer springer and explain define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid during counselor review."
+                "misconception": "The term springer refers to a young dairy calf born during the spring calving season.",
+                "fact": "A springer is a mature cow or heifer that is within a few weeks of giving birth and showing physical udder enlargement."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1959,14 +1983,17 @@
               "id": "6b(5)",
               "sub_req_label": "6b(5)",
               "sub_req_text": "Define the following terms: bull, cow, steer, heifer, springer, buck, doe, and kid.",
-              "topic_title": "Req 6b(5): Bull Cow Steer Heifer Springer",
-              "pamphlet_summary": "Bull Cow Steer Heifer Springer: The Animal Science pamphlet for Requirement 6b(5) details define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(5): Dairy Cattle and Goat Classification",
+              "pamphlet_summary": "Dairy Cattle and Goat Classification: Dairy management relies on exact life stage and sex terminology for both bovine and caprine herds. Definitions differentiate mature milking females, replacement heifers, pregnant cows near calving called springers, and intact or young breeding goats (p. 48).",
               "pamphlet_excerpts": [
-                "Bull Cow Steer Heifer Springer: The Animal Science pamphlet for Requirement 6b(5) details define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Dairy Cattle and Goat Classification: Dairy management relies on exact life stage and sex terminology for both bovine and caprine herds. Definitions differentiate mature milking females, replacement heifers, pregnant cows near calving called springers, and intact or young breeding goats (p. 48)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "What physical changes indicate that a dairy heifer has transitioned into being classified as a springer?"
+              ]
             },
             {
               "sub_id": "6b(6)",
@@ -2017,8 +2044,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6b(6) (Visit a dairy farm), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit a dairy farm or a milk processing plant.",
-                "fact": "Counselor verification for Animal Science Requirement 6b(6) requires concrete workbook evidence on visit a dairy farm, specifically addressing visit a dairy farm or a milk processing plant."
+                "misconception": "Dairy cows remain standing inside milking stalls around the clock to maintain steady milk production.",
+                "fact": "Dairy cows spend most of their day resting in comfortable free stall barns or pastures and only enter specialized milking parlors two to three times daily."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -2049,14 +2076,17 @@
               "id": "6b(6)",
               "sub_req_label": "6b(6)",
               "sub_req_text": "Visit a dairy farm or a milk processing plant. Describe what you saw and explain what you learned. If you cannot visit a dairy farm or processing plant, view a video from a breed or dairy association, or research the internet (with your parent or guardian's permission) for information on dairying. Tell about your findings.",
-              "topic_title": "Req 6b(6): Visit a dairy farm",
-              "pamphlet_summary": "Visit a dairy farm: The Animal Science pamphlet for Requirement 6b(6) details visit a dairy farm or a milk processing plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6b(6): Dairy Facility Operation and Fieldwork",
+              "pamphlet_summary": "Dairy Facility Operation and Fieldwork: Observing a dairy operation reveals the workflow from parlor milking and bulk tank milk storage through computerized herd health tracking and biosecurity protocols. Scouts document how facility design, automated waste flushing, and cow comfort bedding directly support milk yield and herd longevity (p. 58).",
               "pamphlet_excerpts": [
-                "Visit a dairy farm: The Animal Science pamphlet for Requirement 6b(6) details visit a dairy farm or a milk processing plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Dairy Facility Operation and Fieldwork: Observing a dairy operation reveals the workflow from parlor milking and bulk tank milk storage through computerized herd health tracking and biosecurity protocols. Scouts document how facility design, automated waste flushing, and cow comfort bedding directly support milk yield and herd longevity (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p012_img2.png",
               "workbook_diagram_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
-              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd."
+              "workbook_visual_caption": "An identification ear tag marks a brown dairy cow managed in a livestock herd.",
+              "socratic_questions": [
+                "How does the physical design of free stall barns and automated parlors protect cow comfort while maintaining milk sanitation?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2172,8 +2202,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6c(1), many Scouts assume sketch of a useful saddle horse only requires a general overview rather than specific details on a sketch of a useful saddle horse barn and exercise yard.",
-                "fact": "The official Animal Science pamphlet for Requirement 6c(1) specifies that Scouts must thoroughly document sketch of a useful saddle horse and explain a sketch of a useful saddle horse barn and exercise yard during counselor review."
+                "misconception": "Barbed wire fencing is an acceptable and safe containment option for horse paddocks and exercise yards.",
+                "fact": "Barbed wire must never be used for horses because their flight response and thin skin make them exceptionally vulnerable to severe lacerations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2199,15 +2229,18 @@
               "id": "6c(1)",
               "sub_req_label": "6c(1)",
               "sub_req_text": "Make a sketch of a useful saddle horse barn and exercise yard.",
-              "topic_title": "Req 6c(1): Sketch of a useful saddle horse",
-              "pamphlet_summary": "Sketch of a useful saddle horse: The Animal Science pamphlet for Requirement 6c(1) details a sketch of a useful saddle horse barn and exercise yard, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6c(1): Equine Barn and Paddock Design",
+              "pamphlet_summary": "Equine Barn and Paddock Design: A practical saddle horse facility features well ventilated box stalls of at least 10 by 10 or 12 by 12 feet, durable kick resistant stall walls, a secure tack room, and a dry feed room with rodent proof grain bins. The adjoining exercise paddock requires sturdy post and board or smooth vinyl fencing, well drained footing, and safe gate latches free of sharp hazards (p. 66).",
               "pamphlet_excerpts": [
-                "Sketch of a useful saddle horse: The Animal Science pamphlet for Requirement 6c(1) details a sketch of a useful saddle horse barn and exercise yard, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Equine Barn and Paddock Design: A practical saddle horse facility features well ventilated box stalls of at least 10 by 10 or 12 by 12 feet, durable kick resistant stall walls, a secure tack room, and a dry feed room with rodent proof grain bins. The adjoining exercise paddock requires sturdy post and board or smooth vinyl fencing, well drained footing, and safe gate latches free of sharp hazards (p. 66)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p050_img1.png",
-              "title": "Req 6c(1): Sketch of a useful saddle horse",
+              "title": "Req 6c(1): Equine Barn and Paddock Design",
               "workbook_diagram_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
-              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn."
+              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
+              "socratic_questions": [
+                "Why do equine architects require box stalls to be at least 10 feet wide with non-slip flooring and kick-proof walls?"
+              ]
             },
             {
               "sub_id": "6c(2)",
@@ -2254,8 +2287,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6c(2) (History of The Horse), Scouts sometimes overlook the concrete pamphlet benchmarks covering about the history of the horse and the benefits it has brought to people.",
-                "fact": "Counselor verification for Animal Science Requirement 6c(2) requires concrete workbook evidence on history of the horse, specifically addressing about the history of the horse and the benefits it has brought to people."
+                "misconception": "All modern horse breeds were developed for the single general purpose of fast riding across long distances.",
+                "fact": "Breeds were selectively developed over centuries for distinct functions such as heavy agricultural draft work, quick cattle sorting, sprinting speed, or smooth gaited travel."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2281,14 +2314,17 @@
               "id": "6c(2)",
               "sub_req_label": "6c(2)",
               "sub_req_text": "Tell about the history of the horse and the benefits it has brought to people. Using the four breeds of horses you chose in requirement 1, discuss the different special uses of each breed.",
-              "topic_title": "Req 6c(2): History of The Horse",
-              "pamphlet_summary": "History of The Horse: The Animal Science pamphlet for Requirement 6c(2) details about the history of the horse and the benefits it has brought to people, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6c(2): Equine Domestication History and Utility",
+              "pamphlet_summary": "Equine Domestication History and Utility: From prehistoric multi toed ancestors through domestication on the Eurasian steppes, horses transformed human agriculture, transportation, military strategy, and livestock handling. Modern breeds feature specialized conformations adapted to specific working disciplines, ranging from heavy draft plowing to sprint racing, ranch cutting, and endurance riding (p. 64).",
               "pamphlet_excerpts": [
-                "History of The Horse: The Animal Science pamphlet for Requirement 6c(2) details about the history of the horse and the benefits it has brought to people, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Equine Domestication History and Utility: From prehistoric multi toed ancestors through domestication on the Eurasian steppes, horses transformed human agriculture, transportation, military strategy, and livestock handling. Modern breeds feature specialized conformations adapted to specific working disciplines, ranging from heavy draft plowing to sprint racing, ranch cutting, and endurance riding (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p050_img1.png",
               "workbook_diagram_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
-              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn."
+              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
+              "socratic_questions": [
+                "How did selective breeding shape the physical differences between a heavy Belgian draft horse and an agile American Quarter Horse?"
+              ]
             },
             {
               "sub_id": "6c(3)",
@@ -2345,8 +2381,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6c(3), a common mistake in mare stallion gelding foal colt is treating define the following terms, mare, stallion, gelding, foal, colt, filly as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6c(3) means following the pamphlet standard for mare stallion gelding foal colt and recording accurate notes on define the following terms, mare, stallion, gelding, foal, colt, filly."
+                "misconception": "A gelding and a stallion have the identical reproductive capability and temperament in a stable.",
+                "fact": "A stallion is an intact adult male horse kept for breeding, whereas a gelding is a castrated male horse valued for a calm and predictable disposition."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2372,14 +2408,17 @@
               "id": "6c(3)",
               "sub_req_label": "6c(3)",
               "sub_req_text": "Define the following terms: mare, stallion, gelding, foal, colt, filly; mustang, quarter horse, draft horse, pacer, trotter; pinto, calico, palomino, roan, overo, and tobiano.",
-              "topic_title": "Req 6c(3): Mare Stallion Gelding Foal Colt",
-              "pamphlet_summary": "Mare Stallion Gelding Foal Colt: The Animal Science pamphlet for Requirement 6c(3) details define the following terms, mare, stallion, gelding, foal, colt, filly, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6c(3): Equine Terminology Breeds and Markings",
+              "pamphlet_summary": "Equine Terminology Breeds and Markings: Equine identification employs specific terms for reproductive status, breed lineages, standard racing gaits, and coat color genetics. Classifications differentiate intact and castrated horses, gaited pacing or trotting gaits, and distinct white over dark pinto pattern variations such as tobiano and overo (p. 68).",
               "pamphlet_excerpts": [
-                "Mare Stallion Gelding Foal Colt: The Animal Science pamphlet for Requirement 6c(3) details define the following terms, mare, stallion, gelding, foal, colt, filly, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Equine Terminology Breeds and Markings: Equine identification employs specific terms for reproductive status, breed lineages, standard racing gaits, and coat color genetics. Classifications differentiate intact and castrated horses, gaited pacing or trotting gaits, and distinct white over dark pinto pattern variations such as tobiano and overo (p. 68)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p050_img1.png",
               "workbook_diagram_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
-              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn."
+              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
+              "socratic_questions": [
+                "What visual pattern differences on the spine and legs distinguish a tobiano coat pattern from an overo coat pattern?"
+              ]
             },
             {
               "sub_id": "6c(4)",
@@ -2422,8 +2461,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6c(4), Scouts can underestimate how directly mastery of visit a horse farm depends on understanding visit a horse farm.",
-                "fact": "Scouting America standards for Animal Science Requirement 6c(4) require complete workbook entries on visit a horse farm to demonstrate full understanding of visit a horse farm."
+                "misconception": "Pastured horses require no daily management or hoof inspection as long as green pasture grass is available.",
+                "fact": "Equine operations require daily wellness checks, clean water provision, regular manure removal, and routine hoof trimming every six to eight weeks."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -2454,14 +2493,17 @@
               "id": "6c(4)",
               "sub_req_label": "6c(4)",
               "sub_req_text": "Visit a horse farm. Describe what you saw and explain what you learned. If you cannot visit a horse farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on horses. Tell about your findings.",
-              "topic_title": "Req 6c(4): Visit a horse farm",
-              "pamphlet_summary": "Visit a horse farm: The Animal Science pamphlet for Requirement 6c(4) details visit a horse farm, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6c(4): Equine Farm Operations and Management",
+              "pamphlet_summary": "Equine Farm Operations and Management: Visiting an active equine facility provides firsthand insight into daily turnout schedules, hoof care routines by farriers, pasture weed management, and biosecurity sanitation. Observers examine how handling facilities, arena footing, and individual stall care contribute to horse physical soundness and wellbeing (p. 72).",
               "pamphlet_excerpts": [
-                "Visit a horse farm: The Animal Science pamphlet for Requirement 6c(4) details visit a horse farm, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Equine Farm Operations and Management: Visiting an active equine facility provides firsthand insight into daily turnout schedules, hoof care routines by farriers, pasture weed management, and biosecurity sanitation. Observers examine how handling facilities, arena footing, and individual stall care contribute to horse physical soundness and wellbeing (p. 72)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p050_img1.png",
               "workbook_diagram_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
-              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn."
+              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
+              "socratic_questions": [
+                "What daily management practices prevent parasitic infection and maintain sound hooves in stabled horses?"
+              ]
             },
             {
               "sub_id": "6c(5)",
@@ -2506,8 +2548,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6c(5), many Scouts assume outline the proper feeding only requires a general overview rather than specific details on outline the proper feeding of a horse doing light work.",
-                "fact": "The official Animal Science pamphlet for Requirement 6c(5) specifies that Scouts must thoroughly document outline the proper feeding and explain outline the proper feeding of a horse doing light work during counselor review."
+                "misconception": "Horses doing light riding should receive equal parts concentrated grain and hay to stay healthy.",
+                "fact": "Forage like hay or pasture must form the primary foundation of the equine diet, while concentrated grain should only supplement specific caloric deficits from heavy labor."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2533,14 +2575,17 @@
               "id": "6c(5)",
               "sub_req_label": "6c(5)",
               "sub_req_text": "Outline the proper feeding of a horse doing light work. Explain why the amount and kind of feed will change according to the kind of horse and the work it does. Describe what colic is, what can cause it, and its symptoms.",
-              "topic_title": "Req 6c(5): Outline The Proper Feeding",
-              "pamphlet_summary": "Outline The Proper Feeding: The Animal Science pamphlet for Requirement 6c(5) details outline the proper feeding of a horse doing light work, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6c(5): Equine Nutrition and Colic Prevention",
+              "pamphlet_summary": "Equine Nutrition and Colic Prevention: A horse performing light work requires a forage-first diet supplying roughly 1.5 to 2.0 percent of its body weight daily in clean, dust free grass or legume hay, with grain supplements added only if work levels exceed energy maintenance. Colic refers to acute abdominal pain often triggered by sudden dietary shifts, moldy feed, or dehydration, displaying symptoms like pawing, flank biting, and repeated rolling (p. 70).",
               "pamphlet_excerpts": [
-                "Outline The Proper Feeding: The Animal Science pamphlet for Requirement 6c(5) details outline the proper feeding of a horse doing light work, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Equine Nutrition and Colic Prevention: A horse performing light work requires a forage-first diet supplying roughly 1.5 to 2.0 percent of its body weight daily in clean, dust free grass or legume hay, with grain supplements added only if work levels exceed energy maintenance. Colic refers to acute abdominal pain often triggered by sudden dietary shifts, moldy feed, or dehydration, displaying symptoms like pawing, flank biting, and repeated rolling (p. 70)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p050_img1.png",
               "workbook_diagram_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
-              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn."
+              "workbook_visual_caption": "A young handler feeds fresh green forage to a horse outside a wooden barn.",
+              "socratic_questions": [
+                "Why can an abrupt shift in hay type or a sudden increase in grain cause fatal digestive colic in a horse?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2665,8 +2710,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6d(1), many Scouts assume live lamb or goat only requires a general overview rather than specific details on a sketch of a live lamb or goat.",
-                "fact": "The official Animal Science pamphlet for Requirement 6d(1) specifies that Scouts must thoroughly document live lamb or goat and explain a sketch of a live lamb or goat during counselor review."
+                "misconception": "Retail cuts of lamb come directly from the carcass without first being divided into major wholesale primal cuts.",
+                "fact": "Meat processors first separate the carcass into major wholesale cuts before fabricating smaller retail cuts like chops, roasts, and stew meat."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2692,14 +2737,17 @@
               "id": "6d(1)",
               "sub_req_label": "6d(1)",
               "sub_req_text": "Make a sketch of a live lamb or goat. Show the location of the various wholesale and retail cuts.",
-              "topic_title": "Req 6d(1): Live Lamb or Goat",
-              "pamphlet_summary": "Live Lamb or Goat: The Animal Science pamphlet for Requirement 6d(1) details a sketch of a live lamb or goat, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6d(1): Lamb And Goat Meat Cuts",
+              "pamphlet_summary": "Lamb And Goat Meat Cuts: Wholesale cuts divide a small ruminant carcass into primary commercial sections including the leg, loin, rack, shoulder, breast, and foreshank. Retail cuts such as loin chops and crown roasts derive from these wholesale regions to match consumer cooking methods (p. 60).",
               "pamphlet_excerpts": [
-                "Live Lamb or Goat: The Animal Science pamphlet for Requirement 6d(1) details a sketch of a live lamb or goat, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Lamb And Goat Meat Cuts: Wholesale cuts divide a small ruminant carcass into primary commercial sections including the leg, loin, rack, shoulder, breast, and foreshank. Retail cuts such as loin chops and crown roasts derive from these wholesale regions to match consumer cooking methods (p. 60)."
               ],
               "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
               "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+              "socratic_questions": [
+                "If you look at a living lamb in a pasture, where on its body do the most valuable chops and roasts come from?"
+              ]
             },
             {
               "sub_id": "6d(2)",
@@ -2740,8 +2788,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6d(2) (How wools are sorted and graded), Scouts sometimes overlook the concrete pamphlet benchmarks covering how wools are sorted and graded.",
-                "fact": "Counselor verification for Animal Science Requirement 6d(2) requires concrete workbook evidence on how wools are sorted and graded, specifically addressing how wools are sorted and graded."
+                "misconception": "Wool grading depends entirely on fleece weight rather than individual fiber diameter or clean yield.",
+                "fact": "Wool value depends primarily on fiber fineness measured in microns alongside staple length and cleanliness rather than raw grease fleece weight."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2767,14 +2815,17 @@
               "id": "6d(2)",
               "sub_req_label": "6d(2)",
               "sub_req_text": "Discuss how wools are sorted and graded.",
-              "topic_title": "Req 6d(2): How wools are sorted and graded",
-              "pamphlet_summary": "How wools are sorted and graded: The Animal Science pamphlet for Requirement 6d(2) details how wools are sorted and graded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6d(2): Wool Fleece Sorting And Grading",
+              "pamphlet_summary": "Wool Fleece Sorting And Grading: Fleece evaluation relies on fiber diameter using the micron system, spinning count, and the blood system alongside staple length, crimp, and clean fleece yield. Fleeces must be skirted to remove tags, belly wool, and sweat locks before commercial processing (p. 62).",
               "pamphlet_excerpts": [
-                "How wools are sorted and graded: The Animal Science pamphlet for Requirement 6d(2) details how wools are sorted and graded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Wool Fleece Sorting And Grading: Fleece evaluation relies on fiber diameter using the micron system, spinning count, and the blood system alongside staple length, crimp, and clean fleece yield. Fleeces must be skirted to remove tags, belly wool, and sweat locks before commercial processing (p. 62)."
               ],
               "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
               "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+              "socratic_questions": [
+                "Why would a lightweight, fine-wool fleece from a Merino sheep sell for a higher price than a coarse fleece twice its weight?"
+              ]
             },
             {
               "sub_id": "6d(3)",
@@ -2811,8 +2862,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6d(3), a common mistake in products that can be made is treating products that can be made from the milk as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6d(3) means following the pamphlet standard for products that can be made and recording accurate notes on products that can be made from the milk."
+                "misconception": "Goat milk and sheep milk produce only fluid drinking milk and cannot be processed into hard cheeses or cosmetics.",
+                "fact": "Dairy sheep and goat milk serves as the primary base for world-renowned artisanal cheeses, yogurt, and specialty skin care soaps."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2838,14 +2889,17 @@
               "id": "6d(3)",
               "sub_req_label": "6d(3)",
               "sub_req_text": "List products that can be made from the milk.",
-              "topic_title": "Req 6d(3): Products That Can Be Made",
-              "pamphlet_summary": "Products That Can Be Made: The Animal Science pamphlet for Requirement 6d(3) details products that can be made from the milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6d(3): Dairy Sheep And Goat Products",
+              "pamphlet_summary": "Dairy Sheep And Goat Products: Dairy goat and sheep milk features smaller fat globules that form smooth curds for gourmet cheeses like chevre, feta, pecorino, and roquefort. Producers also process small ruminant milk into yogurt, ice cream, fluid milk, and moisturizing soaps (p. 64).",
               "pamphlet_excerpts": [
-                "Products That Can Be Made: The Animal Science pamphlet for Requirement 6d(3) details products that can be made from the milk, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Dairy Sheep And Goat Products: Dairy goat and sheep milk features smaller fat globules that form smooth curds for gourmet cheeses like chevre, feta, pecorino, and roquefort. Producers also process small ruminant milk into yogurt, ice cream, fluid milk, and moisturizing soaps (p. 64)."
               ],
               "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
               "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+              "socratic_questions": [
+                "What physical differences in goat milk fat make it easier to digest and especially suited for making creamy cheeses?"
+              ]
             },
             {
               "sub_id": "6d(4)",
@@ -2881,15 +2935,15 @@
                   "id": "6d(4)(a)",
                   "sub_req_label": "6d(4)(a)",
                   "sub_req_text": "Raise a lamb or goat from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review.",
-                  "topic_title": "Req 6d(4)(a): Raise a lamb or goat",
+                  "topic_title": "Req 6d(4)(a): Market Lamb And Goat Husbandry",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Raise a lamb or goat: The Animal Science pamphlet for Requirement 6d(4)(a) details raise a lamb or goat from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Market Lamb And Goat Husbandry: Raising market lambs or kids demands daily tracking of feed conversion ratios, average daily gain, and adherence to withdrawal times for all medications. Effective management pairs balanced creep rations with clostridial enterotoxemia vaccinations and regular parasite checks (p. 66).",
                   "pamphlet_excerpts": [
-                    "Raise a lamb or goat: The Animal Science pamphlet for Requirement 6d(4)(a) details raise a lamb or goat from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Market Lamb And Goat Husbandry: Raising market lambs or kids demands daily tracking of feed conversion ratios, average daily gain, and adherence to withdrawal times for all medications. Effective management pairs balanced creep rations with clostridial enterotoxemia vaccinations and regular parasite checks (p. 66)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Animal Science Requirement 6d(4)(a), many Scouts assume raise a lamb or goat only requires a general overview rather than specific details on raise a lamb or goat from weaning to market weight.",
-                    "fact": "The official Animal Science pamphlet for Requirement 6d(4)(a) specifies that Scouts must thoroughly document raise a lamb or goat and explain raise a lamb or goat from weaning to market weight during counselor review."
+                    "misconception": "Weaned lambs and goat kids will reach market weight on pasture grass alone without energy-dense supplemental grain rations.",
+                    "fact": "Growing market small ruminants require balanced concentrates alongside quality forage to sustain the daily gain needed for desirable market finish."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2926,7 +2980,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "Why must a livestock producer keep precise records of medication dates and dosages before selling a market lamb for meat?"
+                  ]
                 },
                 {
                   "sub_id": "6d(4)(b)",
@@ -2952,15 +3009,15 @@
                   "id": "6d(4)(b)",
                   "sub_req_label": "6d(4)(b)",
                   "sub_req_text": "Visit a farm or ranch where sheep or goats are raised. Describe what you saw and explain what you learned. If you cannot visit a sheep or goat farm or ranch, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on sheep or goats. Tell about your findings.",
-                  "topic_title": "Req 6d(4)(b): Farm or Ranch Where Sheep",
+                  "topic_title": "Req 6d(4)(b): Sheep And Goat Facility Observation",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Farm or Ranch Where Sheep: The Animal Science pamphlet for Requirement 6d(4)(b) details visit a farm or ranch where sheep or goats are raised, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Sheep And Goat Facility Observation: Observing an active flock or herd illustrates working sorting pens, predator fencing, pasture rotation, and seasonal lambing or kidding barns. Scouts analyze how facility layouts minimize livestock stress and support sanitation routines (p. 67).",
                   "pamphlet_excerpts": [
-                    "Farm or Ranch Where Sheep: The Animal Science pamphlet for Requirement 6d(4)(b) details visit a farm or ranch where sheep or goats are raised, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Sheep And Goat Facility Observation: Observing an active flock or herd illustrates working sorting pens, predator fencing, pasture rotation, and seasonal lambing or kidding barns. Scouts analyze how facility layouts minimize livestock stress and support sanitation routines (p. 67)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Animal Science Requirement 6d(4)(b) (Farm or Ranch Where Sheep), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit a farm or ranch where sheep or goats are raised.",
-                    "fact": "Counselor verification for Animal Science Requirement 6d(4)(b) requires concrete workbook evidence on farm or ranch where sheep, specifically addressing visit a farm or ranch where sheep or goats are raised."
+                    "misconception": "Sheep and goat farms require minimal predator protection because guardian animals and fences are only optional conveniences.",
+                    "fact": "Small ruminant operations depend heavily on secure perimeter fencing and livestock guardian animals to prevent severe losses from predators like coyotes and domestic dogs."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2999,7 +3056,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "What specific facility features did you notice that keep sheep calm and flowing smoothly through working chutes and gates?"
+                  ]
                 }
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3028,8 +3088,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6d(4), Scouts can underestimate how directly mastery of based on your choice depends on understanding based on your choice, do one of the following, (a) raise a lamb or goat from weaning to market weight.",
-                "fact": "Scouting America standards for Animal Science Requirement 6d(4) require complete workbook entries on based on your choice to demonstrate full understanding of based on your choice, do one of the following, (a) raise a lamb or goat from weaning to market weight."
+                "misconception": "Completing the small ruminant option requires owning livestock even if a Scout lacks pasture or barn facilities.",
+                "fact": "Scouts who cannot raise a market animal may fulfill this requirement by touring an active sheep or goat operation or studying approved educational industry resources."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -3060,14 +3120,17 @@
               "id": "6d(4)",
               "sub_req_label": "6d(4)",
               "sub_req_text": "Based on your choice, do ONE of the following: (a) Raise a lamb or goat from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm or ranch where sheep or goats are raised. Describe what you saw and explain what you learned. If you cannot visit a sheep or goat farm or ranch, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on sheep or goats. Tell about your findings.",
-              "topic_title": "Req 6d(4): Based on Your Choice",
-              "pamphlet_summary": "Based on Your Choice: The Animal Science pamphlet for Requirement 6d(4) details based on your choice, do ONE of the following, (a) Raise a lamb or goat from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6d(4): Small Ruminant Production Recordkeeping Options",
+              "pamphlet_summary": "Small Ruminant Production Recordkeeping Options: Scouts complete practical small ruminant management either through hands-on animal feeding trials tracking average daily gain or through guided on-site ranch visits. Both tracks require documenting herd biosecurity, daily nutritional requirements, and health intervention protocols (p. 65).",
               "pamphlet_excerpts": [
-                "Based on Your Choice: The Animal Science pamphlet for Requirement 6d(4) details based on your choice, do ONE of the following, (a) Raise a lamb or goat from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Small Ruminant Production Recordkeeping Options: Scouts complete practical small ruminant management either through hands-on animal feeding trials tracking average daily gain or through guided on-site ranch visits. Both tracks require documenting herd biosecurity, daily nutritional requirements, and health intervention protocols (p. 65)."
               ],
               "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
               "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+              "socratic_questions": [
+                "How do written logs of feed intake and weight gain help a livestock producer spot health issues before visible symptoms appear?"
+              ]
             },
             {
               "sub_id": "6d(5)",
@@ -3108,8 +3171,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6d(5), many Scouts assume for a sheep or a goat only requires a general overview rather than specific details on define the following terms for a sheep (wether, ewe, ram, and lamb) or a goat.",
-                "fact": "The official Animal Science pamphlet for Requirement 6d(5) specifies that Scouts must thoroughly document for a sheep or a goat and explain define the following terms for a sheep (wether, ewe, ram, and lamb) or a goat during counselor review."
+                "misconception": "The term wether refers to a female sheep or goat that has never given birth.",
+                "fact": "A wether is a male sheep or goat that was castrated before reaching sexual maturity."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3135,15 +3198,18 @@
               "id": "6d(5)",
               "sub_req_label": "6d(5)",
               "sub_req_text": "Define the following terms for a sheep (wether, ewe, ram, and lamb) OR a goat (doe, nanny, kid, buck, and billy)",
-              "topic_title": "Req 6d(5): For a sheep OR a goat",
-              "pamphlet_summary": "For a sheep OR a goat: The Animal Science pamphlet for Requirement 6d(5) details define the following terms for a sheep (wether, ewe, ram, and lamb) OR a goat (doe, nanny, kid, buck, and billy), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6d(5): Ovine And Caprine Herd Terminology",
+              "pamphlet_summary": "Ovine And Caprine Herd Terminology: Precise livestock vocabulary distinguishes sex and reproductive status across age categories for ovine and caprine animals. A wether indicates a castrated male sheep or goat, whereas rams and bucks are intact breeding males (p. 68).",
               "pamphlet_excerpts": [
-                "For a sheep OR a goat: The Animal Science pamphlet for Requirement 6d(5) details define the following terms for a sheep (wether, ewe, ram, and lamb) OR a goat (doe, nanny, kid, buck, and billy), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Ovine And Caprine Herd Terminology: Precise livestock vocabulary distinguishes sex and reproductive status across age categories for ovine and caprine animals. A wether indicates a castrated male sheep or goat, whereas rams and bucks are intact breeding males (p. 68)."
               ],
               "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
-              "title": "Req 6d(5): For a sheep OR a goat",
+              "title": "Req 6d(5): Ovine And Caprine Herd Terminology",
               "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+              "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+              "socratic_questions": [
+                "Why do sheep and goat ranchers use distinct terms for castrated males versus intact breeding males in their herd records?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3270,8 +3336,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6e(1), many Scouts assume sketch showing the principal wholesale and retail only requires a general overview rather than specific details on a sketch showing the principal wholesale and retail cuts of pork.",
-                "fact": "The official Animal Science pamphlet for Requirement 6e(1) specifies that Scouts must thoroughly document sketch showing the principal wholesale and retail and explain a sketch showing the principal wholesale and retail cuts of pork during counselor review."
+                "misconception": "USDA pork grades evaluate marbling and maturity the exact same way beef quality grades evaluate carcasses.",
+                "fact": "Pork grading focuses on expected cutability and lean meat yields determined by backfat thickness over the last rib rather than beef-style quality marbling scores."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3297,15 +3363,18 @@
               "id": "6e(1)",
               "sub_req_label": "6e(1)",
               "sub_req_text": "Make a sketch showing the principal wholesale and retail cuts of pork. Tell about the recommended USDA grades of pork. Tell the basis for each grade.",
-              "topic_title": "Req 6e(1): Sketch Showing the Principal Wholesale and Retail",
-              "pamphlet_summary": "Sketch Showing the Principal Wholesale and Retail: The Animal Science pamphlet for Requirement 6e(1) details a sketch showing the principal wholesale and retail cuts of pork, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6e(1): Pork Cuts And Quality Grading",
+              "pamphlet_summary": "Pork Cuts And Quality Grading: Pork wholesale cuts comprise the ham, loin, Boston butt, picnic shoulder, and pork belly, which butchers divide into retail chops, ribs, and roasts. Official USDA swine grades from U.S. Number 1 through 4 rely on backfat thickness and expected yield of lean cuts (p. 70).",
               "pamphlet_excerpts": [
-                "Sketch Showing the Principal Wholesale and Retail: The Animal Science pamphlet for Requirement 6e(1) details a sketch showing the principal wholesale and retail cuts of pork, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Pork Cuts And Quality Grading: Pork wholesale cuts comprise the ham, loin, Boston butt, picnic shoulder, and pork belly, which butchers divide into retail chops, ribs, and roasts. Official USDA swine grades from U.S. Number 1 through 4 rely on backfat thickness and expected yield of lean cuts (p. 70)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p089_img1.png",
-              "title": "Req 6e(1): Sketch Showing the Principal Wholesale and Retail",
+              "title": "Req 6e(1): Pork Cuts And Quality Grading",
               "workbook_diagram_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
-              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening."
+              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
+              "socratic_questions": [
+                "How does measuring backfat thickness over the last rib help a meat grader determine whether a hog carcass grades as U.S. Number 1 or Number 4?"
+              ]
             },
             {
               "sub_id": "6e(2)",
@@ -3348,8 +3417,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6e(2) (Outline in Writing The Proper), Scouts sometimes overlook the concrete pamphlet benchmarks covering outline in writing the proper feeding programs used from the breeding of a gilt or sow.",
-                "fact": "Counselor verification for Animal Science Requirement 6e(2) requires concrete workbook evidence on outline in writing the proper, specifically addressing outline in writing the proper feeding programs used from the breeding of a gilt or sow."
+                "misconception": "Pregnant sows should have unlimited free-choice access to high-energy feed throughout their entire gestation period.",
+                "fact": "Producers strictly limit sow feed intake during gestation because overweight females suffer high embryonic mortality and difficult farrowing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3375,14 +3444,17 @@
               "id": "6e(2)",
               "sub_req_label": "6e(2)",
               "sub_req_text": "Outline in writing the proper feeding programs used from the breeding of a gilt or sow through the weaning of the litter. Discuss the feeding programs for the growth and finishing periods.",
-              "topic_title": "Req 6e(2): Outline in Writing The Proper",
-              "pamphlet_summary": "Outline in Writing The Proper: The Animal Science pamphlet for Requirement 6e(2) details outline in writing the proper feeding programs used from the breeding of a gilt or sow through the weaning of the litter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6e(2): Swine Lifecycle Nutrition And Rations",
+              "pamphlet_summary": "Swine Lifecycle Nutrition And Rations: Gestation diets restrict energy intake to prevent breeding females from becoming overly fat, while lactation rations require dense energy and protein to support nursing piglets. Growing pigs transition from high-protein starter diets down to thirteen percent protein finishing rations (p. 72).",
               "pamphlet_excerpts": [
-                "Outline in Writing The Proper: The Animal Science pamphlet for Requirement 6e(2) details outline in writing the proper feeding programs used from the breeding of a gilt or sow through the weaning of the litter, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Swine Lifecycle Nutrition And Rations: Gestation diets restrict energy intake to prevent breeding females from becoming overly fat, while lactation rations require dense energy and protein to support nursing piglets. Growing pigs transition from high-protein starter diets down to thirteen percent protein finishing rations (p. 72)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p089_img1.png",
               "workbook_diagram_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
-              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening."
+              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
+              "socratic_questions": [
+                "Why does the protein percentage in a pig diet decrease as the animal grows from a weaned feeder pig into a finished market hog?"
+              ]
             },
             {
               "sub_id": "6e(3)",
@@ -3406,15 +3478,15 @@
                   "id": "6e(3)(a)",
                   "sub_req_label": "6e(3)(a)",
                   "sub_req_text": "Raise a feeder pig from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review.",
-                  "topic_title": "Req 6e(3)(a): Raise a feeder pig from weaning",
+                  "topic_title": "Req 6e(3)(a): Feeder Pig Growth And Management",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Raise a feeder pig from weaning: The Animal Science pamphlet for Requirement 6e(3)(a) details raise a feeder pig from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Feeder Pig Growth And Management: Feeding a weaned pig from forty pounds to market weight of approximately two hundred eighty pounds requires logging daily rations, water intake, and growth milestones. Health records must document preventive vaccinations such as erysipelas alongside required drug withdrawal periods (p. 75).",
                   "pamphlet_excerpts": [
-                    "Raise a feeder pig from weaning: The Animal Science pamphlet for Requirement 6e(3)(a) details raise a feeder pig from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Feeder Pig Growth And Management: Feeding a weaned pig from forty pounds to market weight of approximately two hundred eighty pounds requires logging daily rations, water intake, and growth milestones. Health records must document preventive vaccinations such as erysipelas alongside required drug withdrawal periods (p. 75)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Animal Science Requirement 6e(3)(a), many Scouts assume raise a feeder pig from weaning only requires a general overview rather than specific details on raise a feeder pig from weaning to market weight.",
-                    "fact": "The official Animal Science pamphlet for Requirement 6e(3)(a) specifies that Scouts must thoroughly document raise a feeder pig from weaning and explain raise a feeder pig from weaning to market weight during counselor review."
+                    "misconception": "A feeder pig can drink water irregularly without negatively impacting its daily feed consumption or rate of gain.",
+                    "fact": "Pigs consume about two to three pounds of clean water for every pound of dry feed eaten, and water restriction immediately halts growth."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3449,10 +3521,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 6e(3)(a): Raise a feeder pig from weaning",
+                  "title": "Req 6e(3)(a): Feeder Pig Growth And Management",
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "If your feeder pig gained forty pounds over twenty days while consuming one hundred twenty pounds of feed, what was its feed conversion ratio?"
+                  ]
                 },
                 {
                   "sub_id": "6e(3)(b)",
@@ -3470,15 +3545,15 @@
                   "id": "6e(3)(b)",
                   "sub_req_label": "6e(3)(b)",
                   "sub_req_text": "Visit a farm where hogs are produced, or visit a packing plant handling hogs. Describe what you saw and explain what you learned. If you cannot visit a hog production unit or packing plant, view a video from a packer or processor, or research the internet (with your parent or guardian's permission) for information on hogs. Tell about your findings.",
-                  "topic_title": "Req 6e(3)(b): Farm Where Hogs Are Produced",
+                  "topic_title": "Req 6e(3)(b): Swine Facility And Processing Operations",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Farm Where Hogs Are Produced: The Animal Science pamphlet for Requirement 6e(3)(b) details visit a farm where hogs are produced, or visit a packing plant handling hogs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Swine Facility And Processing Operations: Modern swine operations utilize slatted flooring, automated climate ventilation, and strict biosecurity protocols to prevent infectious pathogen entry. Packing plants emphasize humane handling systems, sanitary carcass dressing, and rapid chilling to ensure food safety (p. 76).",
                   "pamphlet_excerpts": [
-                    "Farm Where Hogs Are Produced: The Animal Science pamphlet for Requirement 6e(3)(b) details visit a farm where hogs are produced, or visit a packing plant handling hogs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Swine Facility And Processing Operations: Modern swine operations utilize slatted flooring, automated climate ventilation, and strict biosecurity protocols to prevent infectious pathogen entry. Packing plants emphasize humane handling systems, sanitary carcass dressing, and rapid chilling to ensure food safety (p. 76)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "Horses can be kept locked in small dark stalls indefinitely without exercise yards or hoof maintenance.",
-                    "fact": "Saddle horse barns and exercise yards require safe fencing, clean stall bedding, good ventilation, and daily grooming and hoof care to prevent lameness and colic (p. 30)."
+                    "misconception": "Hog barns are designed with slatted floors simply for human cleaning convenience rather than animal biosecurity and hygiene.",
+                    "fact": "Slatted flooring separates pigs immediately from manure and urine, breaking parasite cycles and significantly lowering enteric disease transmission."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3517,7 +3592,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "Why do modern commercial hog farms require visitors to shower in and change into clean clothing before entering the barns?"
+                  ]
                 }
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3552,8 +3630,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6e(3), a common mistake in raise a feeder pig from weaning is treating do one of the following, (a) raise a feeder pig from weaning to market weight as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6e(3) means following the pamphlet standard for raise a feeder pig from weaning and recording accurate notes on do one of the following, (a) raise a feeder pig from weaning to market weight."
+                "misconception": "Scouts can only satisfy the swine management requirement by purchasing and housing a live feeder pig.",
+                "fact": "Scouts without livestock facilities can complete the requirement by visiting an active hog farm, touring a packing plant, or reviewing approved virtual industry operations."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -3584,15 +3662,18 @@
               "id": "6e(3)",
               "sub_req_label": "6e(3)",
               "sub_req_text": "Do ONE of the following: (a) Raise a feeder pig from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm where hogs are produced, or visit a packing plant handling hogs. Describe what you saw and explain what you learned. If you cannot visit a hog production unit or packing plant, view a video from a packer or processor, or research the internet (with your parent or guardian's permission) for information on hogs. Tell about your findings.",
-              "topic_title": "Req 6e(3): Raise a feeder pig from weaning",
-              "pamphlet_summary": "Raise a feeder pig from weaning: The Animal Science pamphlet for Requirement 6e(3) details do ONE of the following, (a) Raise a feeder pig from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6e(3): Feeder Pig Production Experience Options",
+              "pamphlet_summary": "Feeder Pig Production Experience Options: Scouts gain practical insight into commercial pork production by either executing a feeder pig feeding project or conducting an on-site operational tour. Documenting daily inputs, herd health, and biosecurity measures demonstrates commercial swine economic principles (p. 74).",
               "pamphlet_excerpts": [
-                "Raise a feeder pig from weaning: The Animal Science pamphlet for Requirement 6e(3) details do ONE of the following, (a) Raise a feeder pig from weaning to market weight, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Feeder Pig Production Experience Options: Scouts gain practical insight into commercial pork production by either executing a feeder pig feeding project or conducting an on-site operational tour. Documenting daily inputs, herd health, and biosecurity measures demonstrates commercial swine economic principles (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p089_img1.png",
-              "title": "Req 6e(3): Raise a feeder pig from weaning",
+              "title": "Req 6e(3): Feeder Pig Production Experience Options",
               "workbook_diagram_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
-              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening."
+              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
+              "socratic_questions": [
+                "What key indicators allow a hog producer to determine whether a pen of pigs is converting grain into muscle efficiently?"
+              ]
             },
             {
               "sub_id": "6e(4)",
@@ -3629,8 +3710,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6e(4), Scouts can underestimate how directly mastery of gilt sow barrow and boar depends on understanding define the following terms, gilt, sow, barrow, and boar.",
-                "fact": "Scouting America standards for Animal Science Requirement 6e(4) require complete workbook entries on gilt sow barrow and boar to demonstrate full understanding of define the following terms, gilt, sow, barrow, and boar."
+                "misconception": "A gilt and a sow are interchangeable terms for any adult female pig on a farm.",
+                "fact": "A gilt is a young female that has not yet given birth to a litter, whereas a sow has farrowed at least once."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3656,14 +3737,17 @@
               "id": "6e(4)",
               "sub_req_label": "6e(4)",
               "sub_req_text": "Define the following terms: gilt, sow, barrow, and boar.",
-              "topic_title": "Req 6e(4): Gilt Sow Barrow and Boar",
-              "pamphlet_summary": "Gilt Sow Barrow and Boar: The Animal Science pamphlet for Requirement 6e(4) details define the following terms, gilt, sow, barrow, and boar, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6e(4): Porcine Reproductive And Gender Terminology",
+              "pamphlet_summary": "Porcine Reproductive And Gender Terminology: Swine producers use specific terms to categorize breeding stock and market animals based on sex and parity. A gilt is a young female pig that has not farrowed, a sow is a mature mother, a barrow is a castrated male, and a boar is an intact male (p. 77).",
               "pamphlet_excerpts": [
-                "Gilt Sow Barrow and Boar: The Animal Science pamphlet for Requirement 6e(4) details define the following terms, gilt, sow, barrow, and boar, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Porcine Reproductive And Gender Terminology: Swine producers use specific terms to categorize breeding stock and market animals based on sex and parity. A gilt is a young female pig that has not farrowed, a sow is a mature mother, a barrow is a castrated male, and a boar is an intact male (p. 77)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p089_img1.png",
               "workbook_diagram_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
-              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening."
+              "workbook_visual_caption": "Veterinarians examine a young piglet on an exam table during clinical health screening.",
+              "socratic_questions": [
+                "How does knowing whether a market pen holds barrows or gilts affect how a producer formulates their nutritional rations?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3788,8 +3872,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6f(1), many Scouts assume layer house or broiler house only requires a general overview rather than specific details on a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation.",
-                "fact": "The official Animal Science pamphlet for Requirement 6f(1) specifies that Scouts must thoroughly document layer house or broiler house and explain a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation during counselor review."
+                "misconception": "Ventilation in a modern commercial poultry house is used only to cool the birds when outside summer temperatures rise.",
+                "fact": "Ventilation operates continuously year-round to remove moisture, toxic ammonia fumes, and carbon dioxide from the building."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3815,14 +3899,17 @@
               "id": "6f(1)",
               "sub_req_label": "6f(1)",
               "sub_req_text": "Make a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation. Explain how insulation, ventilation, temperature controls, automatic lights, and other environmental controls are used to protect birds from heat, cold, and bad weather. Explain the importance of light for egg production.",
-              "topic_title": "Req 6f(1): Layer House or Broiler House",
-              "pamphlet_summary": "Layer House or Broiler House: The Animal Science pamphlet for Requirement 6f(1) details a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6f(1): Poultry House Environmental Control Systems",
+              "pamphlet_summary": "Poultry House Environmental Control Systems: Poultry houses use negative-pressure tunnel ventilation, evaporative cooling pads, and heavy ceiling insulation to maintain optimal ambient temperatures and humidity. Automated photoperiod timers control daily light exposure to stimulate consistent egg production in layers and steady feeding in broilers (p. 79).",
               "pamphlet_excerpts": [
-                "Layer House or Broiler House: The Animal Science pamphlet for Requirement 6f(1) details a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Poultry House Environmental Control Systems: Poultry houses use negative-pressure tunnel ventilation, evaporative cooling pads, and heavy ceiling insulation to maintain optimal ambient temperatures and humidity. Automated photoperiod timers control daily light exposure to stimulate consistent egg production in layers and steady feeding in broilers (p. 79)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p075_img1.png",
               "workbook_diagram_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
-              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management."
+              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
+              "socratic_questions": [
+                "Why do egg producers use automated timers to provide sixteen hours of light daily even during short winter days?"
+              ]
             },
             {
               "sub_id": "6f(2)",
@@ -3859,8 +3946,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Animal Science Requirement 6f(2) (Overcrowding Is Dangerous for Poultry), Scouts sometimes overlook the concrete pamphlet benchmarks covering why overcrowding is dangerous for poultry flocks.",
-                "fact": "Counselor verification for Animal Science Requirement 6f(2) requires concrete workbook evidence on overcrowding is dangerous for poultry, specifically addressing why overcrowding is dangerous for poultry flocks."
+                "misconception": "Adding extra birds into a poultry pen only reduces their individual physical movement without affecting flock health or mortality.",
+                "fact": "Overcrowding creates severe social stress that leads to flock cannibalism, poor air quality, and rapid transmission of deadly respiratory and intestinal diseases."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3886,14 +3973,17 @@
               "id": "6f(2)",
               "sub_req_label": "6f(2)",
               "sub_req_text": "Explain why overcrowding is dangerous for poultry flocks.",
-              "topic_title": "Req 6f(2): Overcrowding Is Dangerous for Poultry",
-              "pamphlet_summary": "Overcrowding Is Dangerous for Poultry: The Animal Science pamphlet for Requirement 6f(2) details why overcrowding is dangerous for poultry flocks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6f(2): Poultry Flock Density Health Hazards",
+              "pamphlet_summary": "Poultry Flock Density Health Hazards: Excess bird density triggers feather pecking, cannibalism, and severe stress that impairs immune function and feed conversion. Crowding also accumulates litter moisture, fostering pathogenic bacterial growth and causing footpad dermatitis (p. 82).",
               "pamphlet_excerpts": [
-                "Overcrowding Is Dangerous for Poultry: The Animal Science pamphlet for Requirement 6f(2) details why overcrowding is dangerous for poultry flocks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Poultry Flock Density Health Hazards: Excess bird density triggers feather pecking, cannibalism, and severe stress that impairs immune function and feed conversion. Crowding also accumulates litter moisture, fostering pathogenic bacterial growth and causing footpad dermatitis (p. 82)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p075_img1.png",
               "workbook_diagram_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
-              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management."
+              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
+              "socratic_questions": [
+                "What physical signs in the birds or condition of the floor litter would warn you that a flock has exceeded its safe stocking density?"
+              ]
             },
             {
               "sub_id": "6f(3)",
@@ -3936,8 +4026,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Animal Science Requirement 6f(3), a common mistake in about the grading of eggs is treating about the grading of eggs as optional background reading.",
-                "fact": "Mastering Animal Science Requirement 6f(3) means following the pamphlet standard for about the grading of eggs and recording accurate notes on about the grading of eggs."
+                "misconception": "Brown eggs have higher nutritional value and receive higher USDA consumer quality grades than white eggs.",
+                "fact": "Egg shell color is determined entirely by hen breed genetics and has no relationship to USDA quality grades or interior nutritional content."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3963,15 +4053,18 @@
               "id": "6f(3)",
               "sub_req_label": "6f(3)",
               "sub_req_text": "Tell about the grading of eggs. Describe the classes of chicken meat.",
-              "topic_title": "Req 6f(3): About the Grading of Eggs",
-              "pamphlet_summary": "About the Grading of Eggs: The Animal Science pamphlet for Requirement 6f(3) details about the grading of eggs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6f(3): Egg Grades And Meat Classes",
+              "pamphlet_summary": "Egg Grades And Meat Classes: Eggs are evaluated by weight and interior quality into consumer grades AA, A, and B, while dressed chicken carcasses are classified by age and sex from young broilers to mature stewing hens (pp. 85-86).",
               "pamphlet_excerpts": [
-                "About the Grading of Eggs: The Animal Science pamphlet for Requirement 6f(3) details about the grading of eggs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Egg Grades And Meat Classes: Eggs are evaluated by weight and interior quality into consumer grades AA, A, and B, while dressed chicken carcasses are classified by age and sex from young broilers to mature stewing hens (pp. 85-86)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p075_img1.png",
-              "title": "Req 6f(3): About the Grading of Eggs",
+              "title": "Req 6f(3): Egg Grades And Meat Classes",
               "workbook_diagram_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
-              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management."
+              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
+              "socratic_questions": [
+                "How does a candling light reveal an unbroken egg's interior quality grade, and why would an older hen be sold as a stewing chicken rather than a broiler?"
+              ]
             },
             {
               "sub_id": "6f(4)",
@@ -3995,15 +4088,15 @@
                   "id": "6f(4)(a)",
                   "sub_req_label": "6f(4)(a)",
                   "sub_req_text": "Manage an egg-producing flock for five months. Keep records of feed purchased, eggs sold, medication, vaccination, and mortality. Present your records to your counselor for review.",
-                  "topic_title": "Req 6f(4)(a): Manage An Egg-producing Flock",
+                  "topic_title": "Req 6f(4)(a): Egg Flock Management Record Keeping",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Manage An Egg-producing Flock: The Animal Science pamphlet for Requirement 6f(4)(a) details manage an egg-producing flock for five months, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Egg Flock Management Record Keeping: Managing a laying flock requires maintaining detailed five-month logs tracking feed purchases, daily egg production, vaccination schedules, and mortality rates (p. 85). Successful managers maintain high flock productivity by keeping feed consumption under four and a half pounds of feed per dozen eggs laid (p. 85).",
                   "pamphlet_excerpts": [
-                    "Manage An Egg-producing Flock: The Animal Science pamphlet for Requirement 6f(4)(a) details manage an egg-producing flock for five months, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Egg Flock Management Record Keeping: Managing a laying flock requires maintaining detailed five-month logs tracking feed purchases, daily egg production, vaccination schedules, and mortality rates (p. 85). Successful managers maintain high flock productivity by keeping feed consumption under four and a half pounds of feed per dozen eggs laid (p. 85)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Animal Science Requirement 6f(4)(a), many Scouts assume manage an egg-producing flock only requires a general overview rather than specific details on manage an egg-producing flock for five months.",
-                    "fact": "The official Animal Science pamphlet for Requirement 6f(4)(a) specifies that Scouts must thoroughly document manage an egg-producing flock and explain manage an egg-producing flock for five months during counselor review."
+                    "misconception": "Flock managers only need to record the daily count of collected eggs rather than tracking purchased feed weights, medication dates, and bird mortality.",
+                    "fact": "Accurate records of feed purchases, vaccinations, medication, and mortality allow flock managers to monitor health and confirm that hens consume less than four and a half pounds of feed per dozen eggs produced."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -4040,7 +4133,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "Why must an egg producer track both daily egg collection and total feed purchased to calculate whether a laying flock is operating efficiently?"
+                  ]
                 },
                 {
                   "sub_id": "6f(4)(b)",
@@ -4058,15 +4154,15 @@
                   "id": "6f(4)(b)",
                   "sub_req_label": "6f(4)(b)",
                   "sub_req_text": "Raise five chickens from hatching. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review.",
-                  "topic_title": "Req 6f(4)(b): Raise Five Chickens From Hatching",
+                  "topic_title": "Req 6f(4)(b): Hatchling Chicken Growth Record Keeping",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Raise Five Chickens From Hatching: The Animal Science pamphlet for Requirement 6f(4)(b) details raise five chickens from hatching, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Hatchling Chicken Growth Record Keeping: Raising chicks from hatching involves brooding under controlled heat, monitoring starter feed intake, and logging weekly weight gains alongside mortality records (pp. 57, 85). Efficient meat bird management targets a feed conversion ratio of approximately two pounds of feed or less per pound of body weight gain (p. 85).",
                   "pamphlet_excerpts": [
-                    "Raise Five Chickens From Hatching: The Animal Science pamphlet for Requirement 6f(4)(b) details raise five chickens from hatching, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Hatchling Chicken Growth Record Keeping: Raising chicks from hatching involves brooding under controlled heat, monitoring starter feed intake, and logging weekly weight gains alongside mortality records (pp. 57, 85). Efficient meat bird management targets a feed conversion ratio of approximately two pounds of feed or less per pound of body weight gain (p. 85)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Animal Science Requirement 6f(4)(b) (Raise Five Chickens From Hatching), Scouts sometimes overlook the concrete pamphlet benchmarks covering raise five chickens from hatching.",
-                    "fact": "Counselor verification for Animal Science Requirement 6f(4)(b) requires concrete workbook evidence on raise five chickens from hatching, specifically addressing raise five chickens from hatching."
+                    "misconception": "Newly hatched chicks can regulate their own body temperature and thrive on adult scratch grains without supplemental brooder heat or starter crumbles.",
+                    "fact": "Chicks require an artificial heat source starting at ninety-five degrees Fahrenheit alongside balanced starter feed to maintain growth and achieve a feed conversion ratio of two pounds of feed per pound of gain."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -4103,7 +4199,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "Why do poultry farmers weigh growing chicks each week and compare that weight gain against total feed consumed?"
+                  ]
                 },
                 {
                   "sub_id": "6f(4)(c)",
@@ -4121,15 +4220,15 @@
                   "id": "6f(4)(c)",
                   "sub_req_label": "6f(4)(c)",
                   "sub_req_text": "Visit a commercial avian production facility. Describe what you saw and explain what you learned. If you cannot visit a commercial facility, view a video from a poultry association, or research the internet (with your parent or guardian's permission) for information on poultry production. Tell about your findings.",
-                  "topic_title": "Req 6f(4)(c): Commercial Avian Production Facility",
+                  "topic_title": "Req 6f(4)(c): Commercial Avian Facility Production Study",
                   "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
-                  "pamphlet_summary": "Commercial Avian Production Facility: The Animal Science pamphlet for Requirement 6f(4)(c) details visit a commercial avian production facility, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+                  "pamphlet_summary": "Commercial Avian Facility Production Study: Touring a commercial broiler house, egg facility, or turkey farm demonstrates how automated climate controls, biosecure entrances, and mechanical feeders maintain flock health on an industrial scale (pp. 57, 85). Scouts unable to visit in person may substitute approved poultry association educational videos or supervised online research to investigate modern avian housing systems (pp. 57, 85).",
                   "pamphlet_excerpts": [
-                    "Commercial Avian Production Facility: The Animal Science pamphlet for Requirement 6f(4)(c) details visit a commercial avian production facility, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                    "Commercial Avian Facility Production Study: Touring a commercial broiler house, egg facility, or turkey farm demonstrates how automated climate controls, biosecure entrances, and mechanical feeders maintain flock health on an industrial scale (pp. 57, 85). Scouts unable to visit in person may substitute approved poultry association educational videos or supervised online research to investigate modern avian housing systems (pp. 57, 85)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Animal Science Requirement 6f(4)(c), a common mistake in commercial avian production facility is treating visit a commercial avian production facility as optional background reading.",
-                    "fact": "Mastering Animal Science Requirement 6f(4)(c) means following the pamphlet standard for commercial avian production facility and recording accurate notes on visit a commercial avian production facility."
+                    "misconception": "Visitors can tour commercial poultry houses without footwear disinfection or protective clothing because avian pathogens cannot travel on human footwear or apparel.",
+                    "fact": "Commercial poultry operations enforce strict biosecurity protocols including footbaths and sanitized outerwear because pathogens like avian influenza and infectious bronchitis spread easily on clothing and footwear."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -4168,7 +4267,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/animal_science_req_6_nano_hero.png",
                   "workbook_diagram_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
-                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture."
+                  "workbook_visual_caption": "Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.",
+                  "socratic_questions": [
+                    "When entering a modern commercial poultry house, what environmental controls and biosecurity measures protect thousands of birds from extreme weather and infectious disease?"
+                  ]
                 }
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
@@ -4199,8 +4301,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Animal Science Requirement 6f(4), Scouts can underestimate how directly mastery of manage an egg-producing flock depends on understanding do one of the following, (a) manage an egg-producing flock for five months.",
-                "fact": "Scouting America standards for Animal Science Requirement 6f(4) require complete workbook entries on manage an egg-producing flock to demonstrate full understanding of do one of the following, (a) manage an egg-producing flock for five months."
+                "misconception": "Flock management projects only require counting daily collected eggs or surviving birds without recording feed expenses and medical treatments.",
+                "fact": "Official handbook standards require comprehensive logs documenting feed purchases, medication, vaccination dates, sales, and mortality to evaluate flock profitability and health."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -4231,14 +4333,17 @@
               "id": "6f(4)",
               "sub_req_label": "6f(4)",
               "sub_req_text": "Do ONE of the following: (a) Manage an egg-producing flock for five months. Keep records of feed purchased, eggs sold, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Raise five chickens from hatching. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (c) Visit a commercial avian production facility. Describe what you saw and explain what you learned. If you cannot visit a commercial facility, view a video from a poultry association, or research the internet (with your parent or guardian's permission) for information on poultry production. Tell about your findings.",
-              "topic_title": "Req 6f(4): Manage An Egg-producing Flock",
-              "pamphlet_summary": "Manage An Egg-producing Flock: The Animal Science pamphlet for Requirement 6f(4) details do ONE of the following, (a) Manage an egg-producing flock for five months, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6f(4): Practical Avian Flock Management Options",
+              "pamphlet_summary": "Practical Avian Flock Management Options: Scouts complete one practical avian track by either managing a laying flock for five months, raising five hatchlings to maturity, or analyzing commercial production systems through a facility tour or guided research (pp. 57, 85). Each option requires comprehensive documentation of feeding efficiency, healthcare interventions, and flock mortality rates (p. 85).",
               "pamphlet_excerpts": [
-                "Manage An Egg-producing Flock: The Animal Science pamphlet for Requirement 6f(4) details do ONE of the following, (a) Manage an egg-producing flock for five months, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Practical Avian Flock Management Options: Scouts complete one practical avian track by either managing a laying flock for five months, raising five hatchlings to maturity, or analyzing commercial production systems through a facility tour or guided research (pp. 57, 85). Each option requires comprehensive documentation of feeding efficiency, healthcare interventions, and flock mortality rates (p. 85)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p075_img1.png",
               "workbook_diagram_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
-              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management."
+              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
+              "socratic_questions": [
+                "Whether you manage laying hens, raise young chicks, or tour a commercial poultry barn, what financial and health records reveal if the flock is thriving?"
+              ]
             },
             {
               "sub_id": "6f(5)",
@@ -4275,8 +4380,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Animal Science Requirement 6f(5), many Scouts assume chick pullet hen cockerel cock only requires a general overview rather than specific details on define the following terms, chick, pullet, hen, cockerel, cock, and capon.",
-                "fact": "The official Animal Science pamphlet for Requirement 6f(5) specifies that Scouts must thoroughly document chick pullet hen cockerel cock and explain define the following terms, chick, pullet, hen, cockerel, cock, and capon during counselor review."
+                "misconception": "The terms pullet and cockerel refer to distinct chicken breeds rather than immature female and male birds.",
+                "fact": "A pullet is a female chicken under one year of age before her laying cycle begins, while a cockerel is an immature male chicken under one year old."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4302,14 +4407,17 @@
               "id": "6f(5)",
               "sub_req_label": "6f(5)",
               "sub_req_text": "Define the following terms: chick, pullet, hen, cockerel, cock, and capon.",
-              "topic_title": "Req 6f(5): Chick Pullet Hen Cockerel Cock",
-              "pamphlet_summary": "Chick Pullet Hen Cockerel Cock: The Animal Science pamphlet for Requirement 6f(5) details define the following terms, chick, pullet, hen, cockerel, cock, and capon, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 6f(5): Standard Poultry Classification And Terminology",
+              "pamphlet_summary": "Standard Poultry Classification And Terminology: Poultry vocabulary distinguishes birds by biological age, reproductive sex, and surgical status, defining female chickens as pullets before maturity and mature layers as hens (pp. 41, 86). Intact males are identified as cockerels when young and cocks or roosters when mature, while capons designate castrated males raised for tender meat (p. 86).",
               "pamphlet_excerpts": [
-                "Chick Pullet Hen Cockerel Cock: The Animal Science pamphlet for Requirement 6f(5) details define the following terms, chick, pullet, hen, cockerel, cock, and capon, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Standard Poultry Classification And Terminology: Poultry vocabulary distinguishes birds by biological age, reproductive sex, and surgical status, defining female chickens as pullets before maturity and mature layers as hens (pp. 41, 86). Intact males are identified as cockerels when young and cocks or roosters when mature, while capons designate castrated males raised for tender meat (p. 86)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/animal_science_p075_img1.png",
               "workbook_diagram_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
-              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management."
+              "workbook_visual_caption": "A young domestic chick demonstrates early growth stages in poultry management.",
+              "socratic_questions": [
+                "How do age, sex, and reproductive maturity distinguish a pullet from a hen, or a cockerel from a mature cock and a capon?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -4968,14 +5076,14 @@
       "scenario_prompt": "When identifying major livestock breeds for Requirement 1, how do Holstein and Jersey cattle differ in primary agricultural purpose from Angus and Hereford cattle?",
       "question": "When identifying major livestock breeds for Requirement 1, how do Holstein and Jersey cattle differ in primary agricultural purpose from Angus and Hereford cattle?",
       "options": [
-        "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production, whereas Angus and Herefords are beef breeds selected for muscle marbling and meat yield.",
-        "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements, whereas Angus and Herefords are raised exclusively for fine wool and mohair.",
+        "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production.",
+        "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements.",
         "C. Holsteins and Jerseys are arid-climate beef cattle from Texas, whereas Angus and Herefords are tropical dairy breeds imported from India.",
         "D. All four breeds are dual-purpose poultry and swine hybrids developed for small urban backyard farms."
       ],
       "choices": [
-        "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production, whereas Angus and Herefords are beef breeds selected for muscle marbling and meat yield.",
-        "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements, whereas Angus and Herefords are raised exclusively for fine wool and mohair.",
+        "A. Holsteins and Jerseys are dairy breeds selected for high milk volume and butterfat production.",
+        "B. Holsteins and Jerseys are draft breeds raised to pull heavy farm implements.",
         "C. Holsteins and Jerseys are arid-climate beef cattle from Texas, whereas Angus and Herefords are tropical dairy breeds imported from India.",
         "D. All four breeds are dual-purpose poultry and swine hybrids developed for small urban backyard farms."
       ],

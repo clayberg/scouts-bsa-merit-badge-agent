@@ -303,17 +303,17 @@
           "A. It shows only a single artistic watercolor painting of the building with no measurements, using dotted lines for all outer walls.",
           "B. It places the right-side view above the top view and uses thick wavy freehand lines for invisible interior cavities.",
           "C. It stretches all vertical edges at a forty-five degree angle without a scale ratio and draws centerlines with solid heavy ink.",
-          "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions, using thick solid lines for visible edges and medium dashed lines for hidden internal features."
+          "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions."
         ],
         "choices": [
           "A. It shows only a single artistic watercolor painting of the building with no measurements, using dotted lines for all outer walls.",
           "B. It places the right-side view above the top view and uses thick wavy freehand lines for invisible interior cavities.",
           "C. It stretches all vertical edges at a forty-five degree angle without a scale ratio and draws centerlines with solid heavy ink.",
-          "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions, using thick solid lines for visible edges and medium dashed lines for hidden internal features."
+          "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions, using thick solid lines for visible edges and medium dashed lines for hidden internal features.",
+        "correct_answer": "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions.",
         "explanation": "Correct Answer (D): Orthographic projection aligns multiple 2D views (typically front, top, and right side) to convey exact geometry to scale, using a standardized alphabet of lines where visible edges are thick solid lines and hidden edges are dashed.",
         "pamphlet_page_ref": "p. 30, p. 32"
       },
@@ -1849,8 +1849,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "In Drafting Requirement 7a(1), many Scouts assume much of the drafting done there only requires a general overview rather than specific details on how much of the drafting done there is manual and how much is done using cad.",
-                "fact": "The official Drafting pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document much of the drafting done there and explain how much of the drafting done there is manual and how much is done using cad during counselor review."
+                "misconception": "Modern commercial drafting firms have completely eliminated manual pencil drawing from their workflow.",
+                "fact": "Professional drafters still rely on manual pencil sketching to explore preliminary ideas, solve spatial problems, and make quick field revisions before modeling in software."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1876,15 +1876,18 @@
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
               "sub_req_text": "Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen.",
-              "topic_title": "Req 7a(1): Much of the Drafting Done There",
-              "pamphlet_summary": "Much of the Drafting Done There: Computers take up less space than the drafting boards needed for manual drafting (p. 16).",
+              "topic_title": "Req 7a(1): Commercial Drafting Software and Workflows",
+              "pamphlet_summary": "Commercial Drafting Software and Workflows: During a facility tour, drafters explain whether manual drafting remains for preliminary sketches while computer software handles production drawings. Facilities select software suites such as AutoCAD, SolidWorks, or Revit based on industry standards, client file compatibility, and specialized modeling capabilities (p. 58).",
               "pamphlet_excerpts": [
-                "Much of the Drafting Done There: Computers take up less space than the drafting boards needed for manual drafting (p. 16)."
+                "Commercial Drafting Software and Workflows: During a facility tour, drafters explain whether manual drafting remains for preliminary sketches while computer software handles production drawings. Facilities select software suites such as AutoCAD, SolidWorks, or Revit based on industry standards, client file compatibility, and specialized modeling capabilities (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
-              "title": "Req 7a(1): Much of the Drafting Done There",
+              "title": "Req 7a(1): Commercial Drafting Software and Workflows",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "Why might an engineer or architect still sketch an initial design by hand before opening CAD software?"
+              ]
             },
             {
               "sub_id": "7a(2)",
@@ -1920,8 +1923,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "When preparing Drafting Requirement 7a(2) (Drafting Careers and Pathways), Scouts sometimes overlook the concrete pamphlet benchmarks covering ask about the drafting services provided.",
-                "fact": "Counselor verification for Drafting Requirement 7a(2) requires concrete workbook evidence on drafting careers and pathways, specifically addressing ask about the drafting services provided."
+                "misconception": "Drafters work in isolation to produce finished prints without needing input from manufacturing or construction crews.",
+                "fact": "Drafters coordinate constantly with manufacturing technicians, engineers, and site contractors to verify that technical drawings match fabrication tolerances and installation requirements."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1947,14 +1950,17 @@
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
               "sub_req_text": "Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business.",
-              "topic_title": "Req 7a(2): Drafting Careers and Pathways",
-              "pamphlet_summary": "Drafting Careers and Pathways: The Drafting pamphlet for Requirement 7a(2) details ask about the drafting services provided, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 7a(2): Drafting Services and Team Collaboration",
+              "pamphlet_summary": "Drafting Services and Team Collaboration: Drafting departments supply dimensioned technical drawings to fabricators, contractors, assembly technicians, and purchasing agents across the business. Drafters collaborate daily with design engineers, project managers, and quality inspectors to review engineering change orders and refine production specifications (p. 60).",
               "pamphlet_excerpts": [
-                "Drafting Careers and Pathways: The Drafting pamphlet for Requirement 7a(2) details ask about the drafting services provided, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Drafting Services and Team Collaboration: Drafting departments supply dimensioned technical drawings to fabricators, contractors, assembly technicians, and purchasing agents across the business. Drafters collaborate daily with design engineers, project managers, and quality inspectors to review engineering change orders and refine production specifications (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "Who outside the drafting department depends on a completed working drawing, and what could happen if the drafter never talks to them?"
+              ]
             },
             {
               "sub_id": "7a(3)",
@@ -1988,8 +1994,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "For Drafting Requirement 7a(3), a common mistake in ask how important the role is treating ask how important the role of drafting is to producing the end product or service that this business supplies as optional background reading.",
-                "fact": "Mastering Drafting Requirement 7a(3) means following the pamphlet standard for ask how important the role and recording accurate notes on ask how important the role of drafting is to producing the end product or service that this business supplies."
+                "misconception": "Drafting is merely clerical illustration that has no direct influence on the safety or profitability of a company's final product.",
+                "fact": "Drafting determines exact part tolerances and fabrication sequences, meaning that errors on a drawing directly increase scrap rates, project delays, and production expenses."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2015,14 +2021,17 @@
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
               "sub_req_text": "Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.",
-              "topic_title": "Req 7a(3): Ask How Important The Role",
-              "pamphlet_summary": "Ask How Important The Role: The Drafting pamphlet for Requirement 7a(3) details ask how important the role of drafting is to producing the end product or service that this business supplies, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 7a(3): Drafting Contributions to Final Products",
+              "pamphlet_summary": "Drafting Contributions to Final Products: Drafting converts abstract concepts and engineering calculations into clear geometric instructions that guide manufacturing and construction. Accurate drawings prevent material waste, ensure structural safety, and control manufacturing costs throughout the product life cycle (p. 61).",
               "pamphlet_excerpts": [
-                "Ask How Important The Role: The Drafting pamphlet for Requirement 7a(3) details ask how important the role of drafting is to producing the end product or service that this business supplies, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Drafting Contributions to Final Products: Drafting converts abstract concepts and engineering calculations into clear geometric instructions that guide manufacturing and construction. Accurate drawings prevent material waste, ensure structural safety, and control manufacturing costs throughout the product life cycle (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "How can a single dimensional mistake on a drafter's blueprint halt an entire factory production line?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2144,8 +2153,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "In Drafting Requirement 7b(1), many Scouts assume drafting tools used in the past only requires a general overview rather than specific details on the drafting tools used in the past, why and how they were used.",
-                "fact": "The official Drafting pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document drafting tools used in the past and explain the drafting tools used in the past, why and how they were used during counselor review."
+                "misconception": "Computer drafting has made physical measuring scales and hand compasses completely useless for modern drafters.",
+                "fact": "Drafters and engineers still use manual triangular scales and compasses to verify printed full-size drawings and take quick field measurements on construction sites."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2171,15 +2180,18 @@
               "id": "7b(1)",
               "sub_req_label": "7b(1)",
               "sub_req_text": "The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry.",
-              "topic_title": "Req 7b(1): Drafting Tools Used in the Past",
-              "pamphlet_summary": "Drafting Tools Used in the Past: The Drafting pamphlet for Requirement 7b(1) details the drafting tools used in the past, why and how they were used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 7b(1): Evolution of Traditional Drafting Tools",
+              "pamphlet_summary": "Evolution of Traditional Drafting Tools: Traditional drafting relied on T-squares, parallel bars, drafting machines, bow compasses, and ruling pens to produce accurate manual projections on vellum. While CAD software has made ruling pens and lettering guides obsolete, manual instruments like scales, compasses, and mechanical pencils remain standard in field sketches and technical education (p. 62).",
               "pamphlet_excerpts": [
-                "Drafting Tools Used in the Past: The Drafting pamphlet for Requirement 7b(1) details the drafting tools used in the past, why and how they were used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Evolution of Traditional Drafting Tools: Traditional drafting relied on T-squares, parallel bars, drafting machines, bow compasses, and ruling pens to produce accurate manual projections on vellum. While CAD software has made ruling pens and lettering guides obsolete, manual instruments like scales, compasses, and mechanical pencils remain standard in field sketches and technical education (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
-              "title": "Req 7b(1): Drafting Tools Used in the Past",
+              "title": "Req 7b(1): Evolution of Traditional Drafting Tools",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "Which traditional drafting tool do you think lost its role first once computers entered the drafting studio, and why?"
+              ]
             },
             {
               "sub_id": "7b(2)",
@@ -2213,8 +2225,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "When preparing Drafting Requirement 7b(2) (Media Were Used Past), Scouts sometimes overlook the concrete pamphlet benchmarks covering what media types were used in the past and how drawings were used, stored, and reproduced.",
-                "fact": "Counselor verification for Drafting Requirement 7b(2) requires concrete workbook evidence on media were used past, specifically addressing what media types were used in the past and how drawings were used, stored, and reproduced."
+                "misconception": "Traditional blueprints were produced by drawing directly onto sheets of blue paper.",
+                "fact": "Blueprints were photographic contact prints made by exposing translucent vellum drawings over chemically coated paper to light, turning unexposed background areas deep Prussian blue."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2240,14 +2252,17 @@
               "id": "7b(2)",
               "sub_req_label": "7b(2)",
               "sub_req_text": "Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings.",
-              "topic_title": "Req 7b(2): Media Were Used Past",
-              "pamphlet_summary": "Media Were Used Past: The Drafting pamphlet for Requirement 7b(2) details what media types were used in the past and how drawings were used, stored, and reproduced, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16).",
+              "topic_title": "Req 7b(2): Drafting Media Reproduction and Storage",
+              "pamphlet_summary": "Drafting Media Reproduction and Storage: Early drafting relied on linen, tracing vellum, and Mylar film reproduced through diazo blueline machines or photographic microfilm and stored in large flat-file drawer cabinets. CAD stores drawings as digital vector files in databases and cloud servers, enabling instant wide-format plotting and electronic file transfers without chemical exposure or paper degradation (p. 64).",
               "pamphlet_excerpts": [
-                "Media Were Used Past: The Drafting pamphlet for Requirement 7b(2) details what media types were used in the past and how drawings were used, stored, and reproduced, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 16)."
+                "Drafting Media Reproduction and Storage: Early drafting relied on linen, tracing vellum, and Mylar film reproduced through diazo blueline machines or photographic microfilm and stored in large flat-file drawer cabinets. CAD stores drawings as digital vector files in databases and cloud servers, enabling instant wide-format plotting and electronic file transfers without chemical exposure or paper degradation (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "How did engineers duplicate a hand-drawn tracing before digital plotters and copiers existed?"
+              ]
             },
             {
               "sub_id": "7b(3)",
@@ -2281,8 +2296,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)",
               "common_misconception_pair": {
-                "misconception": "For Drafting Requirement 7b(3), a common mistake in whether the types of media is treating whether the types of media have changed such that there are new uses the drawings, or other outputs as optional background reading.",
-                "fact": "Mastering Drafting Requirement 7b(3) means following the pamphlet standard for whether the types of media and recording accurate notes on whether the types of media have changed such that there are new uses the drawings, or other outputs."
+                "misconception": "Modern computer-aided drafting files serve only as digital pictures meant for printing onto paper.",
+                "fact": "Modern CAD files contain parametric data that directly drives automated CNC machine tools, 3D printers, and dynamic structural simulations without generating physical paper drawings."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2308,15 +2323,18 @@
               "id": "7b(3)",
               "sub_req_label": "7b(3)",
               "sub_req_text": "Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.",
-              "topic_title": "Req 7b(3): Whether the types of media",
-              "pamphlet_summary": "Whether the types of media: With CAD, all designers in the same company can produce drawings with the same style of lettering and drawing (p. 16).",
+              "topic_title": "Req 7b(3): Digital Drafting Outputs and Applications",
+              "pamphlet_summary": "Digital Drafting Outputs and Applications: Digital CAD media now generates 3D solid models, computer numerical control machining files, and building information modeling data streams rather than static two-dimensional paper sheets. These digital models feed directly into 3D printers, structural stress simulators, automated laser cutters, and virtual reality walkthroughs on job sites (p. 65).",
               "pamphlet_excerpts": [
-                "Whether the types of media: With CAD, all designers in the same company can produce drawings with the same style of lettering and drawing (p. 16)."
+                "Digital Drafting Outputs and Applications: Digital CAD media now generates 3D solid models, computer numerical control machining files, and building information modeling data streams rather than static two-dimensional paper sheets. These digital models feed directly into 3D printers, structural stress simulators, automated laser cutters, and virtual reality walkthroughs on job sites (p. 65)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/drafting_p016_img1.png",
-              "title": "Req 7b(3): Whether the types of media",
+              "title": "Req 7b(3): Digital Drafting Outputs and Applications",
               "workbook_diagram_caption": "A large format engineering plotter prints architectural plans on paper.",
-              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper."
+              "workbook_visual_caption": "A large format engineering plotter prints architectural plans on paper.",
+              "socratic_questions": [
+                "How can a manufacturing machine build a physical part directly from a drafter's computer file without anyone printing a paper drawing?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2763,13 +2781,13 @@
         "A. It shows only a single artistic watercolor painting of the building with no measurements, using dotted lines for all outer walls.",
         "B. It places the right-side view above the top view and uses thick wavy freehand lines for invisible interior cavities.",
         "C. It stretches all vertical edges at a forty-five degree angle without a scale ratio and draws centerlines with solid heavy ink.",
-        "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions, using thick solid lines for visible edges and medium dashed lines for hidden internal features."
+        "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions."
       ],
       "choices": [
         "A. It shows only a single artistic watercolor painting of the building with no measurements, using dotted lines for all outer walls.",
         "B. It places the right-side view above the top view and uses thick wavy freehand lines for invisible interior cavities.",
         "C. It stretches all vertical edges at a forty-five degree angle without a scale ratio and draws centerlines with solid heavy ink.",
-        "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions, using thick solid lines for visible edges and medium dashed lines for hidden internal features."
+        "D. It aligns the front, top, and right-side views at 90-degree projection angles to show exact scaled dimensions."
       ],
       "correct_index": 3,
       "correct_letter": "D",

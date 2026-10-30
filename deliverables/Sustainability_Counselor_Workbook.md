@@ -74,7 +74,7 @@
 - **Common Myth:** Indoor showering accounts for almost all seasonal spikes in household water utility bills.
 - **Pamphlet Fact:** Outdoor lawn sprinkler irrigation typically causes the greatest summer water consumption surges.
 
-![Detailed Sustainability reference illustration comparing key components and stages of household water use and supply for Requirement 2.](/assets/pamphlet_images/sustainability_p007_img1.png)
+![Sustainability Requirement 2 figure showing withdrawing groundwater faster than seasonal recharge causes permanent sub-surface.](/assets/pamphlet_images/sustainability_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -114,7 +114,7 @@
 - **Common Myth:** Building concrete drainage channels solves regional flooding without harming downstream river environments.
 - **Pamphlet Fact:** Concrete channels accelerate runoff velocity and worsen catastrophic flooding for downstream communities.
 
-![Step-by-step Sustainability visual guide highlighting core principles of global sustainability positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/sustainability_p003_img1.png)
+![Sustainability Requirement 1 figure showing meeting current needs without compromising future generational resources defines true.](/assets/pamphlet_images/sustainability_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -143,7 +143,7 @@
 - **Common Myth:** Open ocean aquaculture fish farming has zero impact on surrounding wild marine populations.
 - **Pamphlet Fact:** Poorly managed fish farms can spread parasites, diseases, and excess concentrated nutrient waste to wild fish.
 
-![Step-by-step Sustainability visual guide highlighting sustainable food production and waste positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/sustainability_p012_img1.png)
+![Sustainability Requirement 3 figure showing feeding crops to livestock loses ninety percent of base food energy.](/assets/pamphlet_images/sustainability_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

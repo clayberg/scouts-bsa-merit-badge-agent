@@ -42,7 +42,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen.** | `____________________________________` | `____________________________________` |
+| **1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Universal Human Rights: World citizens respect fundamental individual liberties across diverse national and cultural borders.
@@ -98,7 +98,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Current World Event In Relation
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Citizenship in the World technical diagram of national interest and geography for Requirement 3 field execution.](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
+![Citizenship in the World Requirement 3 figure showing national military readiness safeguards maritime transit corridors and continental.](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -158,7 +158,7 @@
 - **Common Myth:** Import tariffs are paid directly by exporting foreign governments rather than domestic importing companies.
 - **Pamphlet Fact:** Domestic buyers pay import tariffs directly to national customs agencies when foreign goods cross borders.
 
-![Illustrated Citizenship in the World technical diagram of meaning of global citizenship for Requirement 1 field execution.](/assets/pamphlet_images/citizenship_in_the_world_p003_img1.png)
+![Citizenship in the World Requirement 1 figure showing world citizens respect fundamental individual liberties across diverse national.](/assets/pamphlet_images/citizenship_in_the_world_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@
 - **Common Myth:** The United Nations exercises direct governmental command over the military forces of member nations.
 - **Pamphlet Fact:** Member states voluntarily assign national troops to United Nations peacekeeping operations under specific mandates.
 
-![Step-by-step Citizenship in the World visual guide highlighting rights and duties across nations positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/citizenship_in_the_world_p007_img1.png)
+![Citizenship in the World Requirement 2 figure showing foreign nationals complete lawful residency periods, pass civics evaluations, and swear.](/assets/pamphlet_images/citizenship_in_the_world_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -98,7 +98,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Live Performance
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Music technical diagram of musical styles history and ensembles for Requirement 3 field execution.](/assets/pamphlet_images/music_p012_img1.png)
+![Music Requirement 3 figure showing specific chord progressions and rhythm patterns define traditional genres like blues.](/assets/pamphlet_images/music_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -116,7 +116,7 @@
 - **Common Myth:** Young scouts often imagine older generations only listened to traditional folk music during youth.
 - **Pamphlet Fact:** Older family members frequently grew up with revolutionary rock, soul, or pop musical movements.
 
-![Detailed Music reference illustration comparing key components and stages of musical performance and score reading for Requirement 1.](/assets/pamphlet_images/music_p003_img1.png)
+![Music Requirement 1 figure showing diaphragmatic breathing stabilizes airflow to maintain pitch center across long vocal.](/assets/pamphlet_images/music_p003_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@
 - **Common Myth:** Scouts sometimes think ensemble members only need to listen to their own individual instrument.
 - **Pamphlet Fact:** Skilled ensemble players actively adjust volume and pitch to match surrounding section players continuously.
 
-![Practical Music field visual showing proper setup, measurement, and technique for instrument families and sound production in Requirement 2.](/assets/pamphlet_images/music_p007_img1.png)
+![Music Requirement 2 figure showing vibrating strings, reeds, or air columns create longitudinal compression waves inside.](/assets/pamphlet_images/music_p007_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@
 - **Common Myth:** Beginner song leaders often think loud shouting helps a singing group stay in tune.
 - **Pamphlet Fact:** Clear vocal pitch demonstration and calm, steady hand gestures produce much tighter group harmony.
 
-![Step-by-step Music visual guide highlighting music teach three songs to a group reference figure positioning and inspection checkpoints for Requirement 4.](/assets/pamphlet_images/music_p004_img1.png)
+![Music Requirement 4 figure showing confident downbeats and clear preparatory gestures keep vocal groups synchronized in tempo.](/assets/pamphlet_images/music_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

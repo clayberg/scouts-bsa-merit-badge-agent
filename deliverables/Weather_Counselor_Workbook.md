@@ -43,7 +43,7 @@
 - **Common Myth:** Weather and climate mean the exact same atmospheric condition over short durations.
 - **Pamphlet Fact:** Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions.
 
-![Detailed Weather reference illustration comparing key components and stages of severe weather hazards and alerts for Requirement 2.](/assets/pamphlet_images/weather_p007_img1.png)
+![Weather Requirement 2 figure showing severe weather watches indicate atmospheric parameters support rapid severe convective.](/assets/pamphlet_images/weather_p007_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -147,7 +147,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell what causes wind, why it rains, and how lightning and hail are formed.** | `____________________________________` | `____________________________________` |
+| **1. Tell what causes wind, why it rains, and how lightning and hail are formed** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Horizontal air movement originates from atmospheric pressure differentials driving flow toward low pressure.
@@ -218,7 +218,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Identify some human activities that can alter the environment, and describe how they affect the climate and people.** | `____________________________________` | `____________________________________` |
+| **1. Identify some human activities that can alter the environment, and describe how they affect the climate and people** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Urban Island Effects: Asphalt and concrete pavements absorb solar heat creating elevated nocturnal urban heat islands.
@@ -276,7 +276,7 @@
 - [ ] NOAA synoptic weather charts, cloud identification chart, and ruler
 - [ ] Completed weather data table and forecast notes for Weather Instruments and Professional Visits
 
-![Step-by-step Weather visual guide highlighting meteorology, climate, and industry forecasts positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/weather_p003_img1.png)
+![Weather Requirement 1 figure showing meteorology examines physical atmospheric dynamics across short and medium temporal horizons.](/assets/pamphlet_images/weather_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -294,7 +294,7 @@
 - **Common Myth:** Television weathercasters create every weather prediction independently without utilizing federal National Weather Service data.
 - **Pamphlet Fact:** National Weather Service stations launch automated weather balloons twice daily to gather upper atmospheric profiles.
 
-![Step-by-step Weather visual guide highlighting forecast sources and emergency warnings positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/weather_p012_img1.png)
+![Weather Requirement 3 figure showing nOAA weather radio broadcasts continuous local forecasts across seven dedicated VHF.](/assets/pamphlet_images/weather_p012_img1.png)
 
 | Req 10b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

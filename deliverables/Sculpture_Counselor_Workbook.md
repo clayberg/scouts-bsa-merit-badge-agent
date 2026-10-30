@@ -38,7 +38,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain to your counselor the precautions that must be followed for the safe use and operation of a sculptor's tools, equipment, and other materials.** | `____________________________________` | `____________________________________` |
+| **1. Explain to your counselor the precautions that must be followed for the safe use and operation of a sculptor's tools, equipment, and other materials** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Chisel Sharpness: Dull gouges slip easily across material surfaces and cause severe hand puncture lacerations.
@@ -69,7 +69,7 @@
 - **Common Myth:** Sculptors assume human eyes rest near the top of the forehead rather than halfway down the head.
 - **Pamphlet Fact:** Standard adult cranial anatomy places the horizontal eye line precisely midway between the chin and the crown of the skull.
 
-![Illustrated Sculpture technical diagram of modeling, casting, and museum visits for Requirement 2 field execution.](/assets/pamphlet_images/sculpture_p007_img1.png)
+![Sculpture Requirement 2 figure showing sturdy internal wire supports prevent heavy wet clay figures from sagging downward.](/assets/pamphlet_images/sculpture_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -102,7 +102,7 @@
 - **Common Myth:** Three dimensional sculptures are meant to be viewed from only a single direct frontal vantage point.
 - **Pamphlet Fact:** Sculpture operates in the round, requiring deliberate composition, continuous sightline balance, and textural interest from all three hundred sixty degrees.
 
-![Practical Sculpture field visual showing proper setup, measurement, and technique for safe use of sculpting tools in Requirement 1.](/assets/pamphlet_images/sculpture_p003_img1.png)
+![Sculpture Requirement 1 figure showing dull gouges slip easily across material surfaces and cause severe hand puncture lacerations.](/assets/pamphlet_images/sculpture_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -133,7 +133,7 @@
 - **Common Myth:** Artistic talent alone secures employment in commercial sculpture fields without requiring technical portfolio preparation.
 - **Pamphlet Fact:** Commercial employers evaluate demonstrated technical mastery of material science, digital modeling software, and rigorous collaborative portfolio samples.
 
-![Practical Sculpture field visual showing proper setup, measurement, and technique for sculpting careers and creative hobbies in Requirement 3.](/assets/pamphlet_images/sculpture_p012_img1.png)
+![Sculpture Requirement 3 figure showing entertainment prop builders sculpt detailed biological creatures using digital software.](/assets/pamphlet_images/sculpture_p012_img1.png)
 
 | Career Research Dimension | Pamphlet & Industry Findings | Professional Interview / Source Notes |
 | :--- | :--- | :--- |

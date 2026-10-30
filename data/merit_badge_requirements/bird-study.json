@@ -157,18 +157,18 @@
         "options": [
           "A. Because birds never migrate outside a single square mile, making them immune to weather or habitat changes elsewhere.",
           "B. Because birds feed exclusively on inorganic soil minerals and are unaffected by agricultural pesticides or wetland loss.",
-          "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines, and chemical pollutants (such as DDT thinning eggshells), and perform critical seed dispersal and pest control.",
+          "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines.",
           "D. Because wild birds can survive indefinitely in polluted industrial zones without clean water or native plant cover."
         ],
         "choices": [
           "A. Because birds never migrate outside a single square mile, making them immune to weather or habitat changes elsewhere.",
           "B. Because birds feed exclusively on inorganic soil minerals and are unaffected by agricultural pesticides or wetland loss.",
-          "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines, and chemical pollutants (such as DDT thinning eggshells), and perform critical seed dispersal and pest control.",
+          "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines.",
           "D. Because wild birds can survive indefinitely in polluted industrial zones without clean water or native plant cover."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines, and chemical pollutants (such as DDT thinning eggshells), and perform critical seed dispersal and pest control.",
+        "correct_answer": "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines.",
         "explanation": "Correct Answer (C): Birds are sensitive to changes in insect abundance, water quality, climate, and chemical contaminants across ecosystems, making population trends a reliable early warning of environmental stress.",
         "pamphlet_page_ref": "p. 10, p. 61"
       },
@@ -2782,8 +2782,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Bird Study Requirement 8a(1), many Scouts assume keep a list or fill only requires a general overview rather than specific details on keep a list or fill out a checklist of all the birds your group observed during the field trip.",
-                "fact": "The official Bird Study pamphlet for Requirement 8a(1) specifies that Scouts must thoroughly document keep a list or fill and explain keep a list or fill out a checklist of all the birds your group observed during the field trip during counselor review."
+                "misconception": "Scouts only need to record birds they personally spotted with their own eyes rather than species identified by the group guide.",
+                "fact": "Group field trip checklists record all species accurately confirmed by sight or sound by any member of the expedition."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2809,14 +2809,17 @@
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
               "sub_req_text": "Keep a list or fill out a checklist of all the birds your group observed during the field trip.",
-              "topic_title": "Req 8a(1): Keep a list or fill",
-              "pamphlet_summary": "Keep a list or fill: The Bird Study pamphlet for Requirement 8a(1) details keep a list or fill out a checklist of all the birds your group observed during the field trip, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8a(1): Field Trip Observational Bird Checklist",
+              "pamphlet_summary": "Field Trip Observational Bird Checklist: Field trip participants record every identified species on a printed field card or digital checklist such as eBird immediately upon positive identification. Accurate field lists note the date, location, weather conditions, and tally of individual birds seen or heard (p. 49).",
               "pamphlet_excerpts": [
-                "Keep a list or fill: The Bird Study pamphlet for Requirement 8a(1) details keep a list or fill out a checklist of all the birds your group observed during the field trip, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Field Trip Observational Bird Checklist: Field trip participants record every identified species on a printed field card or digital checklist such as eBird immediately upon positive identification. Accurate field lists note the date, location, weather conditions, and tally of individual birds seen or heard (p. 49)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "Why is it valuable to tally the exact count of each species rather than merely checking off its name on a trip list?"
+              ]
             },
             {
               "sub_id": "8a(2)",
@@ -2848,8 +2851,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Bird Study Requirement 8a(2) (Birds Species Were Common), Scouts sometimes overlook the concrete pamphlet benchmarks covering your counselor which birds your group saw and why some species were common and some were present.",
-                "fact": "Counselor verification for Bird Study Requirement 8a(2) requires concrete workbook evidence on birds species were common, specifically addressing your counselor which birds your group saw and why some species were common and some were present."
+                "misconception": "Rarely observed birds on an outing are always endangered or facing nationwide population collapse.",
+                "fact": "A bird may simply be uncommon locally due to specialized habitat requirements, secretive behavior, large territory sizes, or seasonal timing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2875,14 +2878,17 @@
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
               "sub_req_text": "Tell your counselor which birds your group saw and why some species were common and some were present in small numbers.",
-              "topic_title": "Req 8a(2): Birds Species Were Common",
-              "pamphlet_summary": "Birds Species Were Common: The Bird Study pamphlet for Requirement 8a(2) details your counselor which birds your group saw and why some species were common and some were present in small numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8a(2): Species Abundance and Scarcity Factors",
+              "pamphlet_summary": "Species Abundance and Scarcity Factors: Generalist birds with adaptable diets often thrive in high numbers, whereas habitat specialists, top predators, or species near the edge of their seasonal range appear in much smaller counts. Comparing tallies reveals how local food availability, territorial boundaries, and nesting site availability dictate relative abundance (p. 51).",
               "pamphlet_excerpts": [
-                "Birds Species Were Common: The Bird Study pamphlet for Requirement 8a(2) details your counselor which birds your group saw and why some species were common and some were present in small numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Species Abundance and Scarcity Factors: Generalist birds with adaptable diets often thrive in high numbers, whereas habitat specialists, top predators, or species near the edge of their seasonal range appear in much smaller counts. Comparing tallies reveals how local food availability, territorial boundaries, and nesting site availability dictate relative abundance (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "Why might your group spot fifty American robins in an afternoon but only encounter a single red-tailed hawk?"
+              ]
             },
             {
               "sub_id": "8a(3)",
@@ -2914,8 +2920,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "For Bird Study Requirement 8a(3), a common mistake in tell your counselor what makes is treating your counselor what makes the area you visited good for finding birds as optional background reading.",
-                "fact": "Mastering Bird Study Requirement 8a(3) means following the pamphlet standard for tell your counselor what makes and recording accurate notes on your counselor what makes the area you visited good for finding birds."
+                "misconception": "Dense forest interiors always produce more bird species than open edges where different landscapes meet.",
+                "fact": "Edge habitats where two distinct ecosystems overlap typically support the greatest diversity of bird life because resources from both habitats are accessible."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2941,15 +2947,18 @@
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
               "sub_req_text": "Tell your counselor what makes the area you visited good for finding birds.",
-              "topic_title": "Req 8a(3): Tell your counselor what makes",
-              "pamphlet_summary": "Tell your counselor what makes: The Bird Study pamphlet for Requirement 8a(3) details your counselor what makes the area you visited good for finding birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8a(3): Habitat Diversity and Ecotone Value",
+              "pamphlet_summary": "Habitat Diversity and Ecotone Value: Prime birding locations provide varied vegetation layers, reliable water sources, shelter from harsh weather, and abundant forage across adjacent ecological zones. Transition areas known as ecotones offer especially rich feeding and nesting opportunities where distinct habitats like woodland and wetland meet (p. 52).",
               "pamphlet_excerpts": [
-                "Tell your counselor what makes: The Bird Study pamphlet for Requirement 8a(3) details your counselor what makes the area you visited good for finding birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Habitat Diversity and Ecotone Value: Prime birding locations provide varied vegetation layers, reliable water sources, shelter from harsh weather, and abundant forage across adjacent ecological zones. Transition areas known as ecotones offer especially rich feeding and nesting opportunities where distinct habitats like woodland and wetland meet (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
-              "title": "Req 8a(3): Tell your counselor what makes",
+              "title": "Req 8a(3): Habitat Diversity and Ecotone Value",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "What environmental features made your field trip destination more attractive to diverse bird species than a typical mowed lawn?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3065,8 +3074,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Bird Study Requirement 8b(1), many Scouts assume kinds of information are collected only requires a general overview rather than specific details on what kinds of information are collected during the annual event.",
-                "fact": "The official Bird Study pamphlet for Requirement 8b(1) specifies that Scouts must thoroughly document kinds of information are collected and explain what kinds of information are collected during the annual event during counselor review."
+                "misconception": "Christmas Bird Count teams record only unusual or rare birds and ignore familiar backyard species.",
+                "fact": "Every individual bird of every species detected must be counted along with detailed records of observer hours and miles covered."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3092,15 +3101,18 @@
               "id": "8b(1)",
               "sub_req_label": "8b(1)",
               "sub_req_text": "Explain what kinds of information are collected during the annual event.",
-              "topic_title": "Req 8b(1): Kinds of Information Are Collected",
-              "pamphlet_summary": "Kinds of Information Are Collected: The Bird Study pamphlet for Requirement 8b(1) details what kinds of information are collected during the annual event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8b(1): Christmas Bird Count Data Collection",
+              "pamphlet_summary": "Christmas Bird Count Data Collection: The National Audubon Society Christmas Bird Count requires observers within a standardized 15-mile-diameter circle to record every species seen or heard, the total number of individuals, and the observation hours and miles traveled. Compilers also document weather conditions, party hours on foot or by vehicle, and feeder-watching effort to standardize observer participation across years (p. 54).",
               "pamphlet_excerpts": [
-                "Kinds of Information Are Collected: The Bird Study pamphlet for Requirement 8b(1) details what kinds of information are collected during the annual event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Christmas Bird Count Data Collection: The National Audubon Society Christmas Bird Count requires observers within a standardized 15-mile-diameter circle to record every species seen or heard, the total number of individuals, and the observation hours and miles traveled. Compilers also document weather conditions, party hours on foot or by vehicle, and feeder-watching effort to standardize observer participation across years (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
-              "title": "Req 8b(1): Kinds of Information Are Collected",
+              "title": "Req 8b(1): Christmas Bird Count Data Collection",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "How does tracking observer hours and miles traveled help scientists evaluate whether a bird population is truly changing?"
+              ]
             },
             {
               "sub_id": "8b(2)",
@@ -3132,8 +3144,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Bird Study Requirement 8b(2) (Species Are Most Common), Scouts sometimes overlook the concrete pamphlet benchmarks covering your counselor which species are most common, and explain why these birds are abundant.",
-                "fact": "Counselor verification for Bird Study Requirement 8b(2) requires concrete workbook evidence on species are most common, specifically addressing your counselor which species are most common, and explain why these birds are abundant."
+                "misconception": "Common winter birds thrive simply because cold temperatures kill off their natural predators.",
+                "fact": "Abundant winter species succeed primarily through dietary opportunism, efficient flock foraging, and exploitation of suburban feeders or seed-bearing vegetation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3159,14 +3171,17 @@
               "id": "8b(2)",
               "sub_req_label": "8b(2)",
               "sub_req_text": "Tell your counselor which species are most common, and explain why these birds are abundant.",
-              "topic_title": "Req 8b(2): Species Are Most Common",
-              "pamphlet_summary": "Species Are Most Common: The Bird Study pamphlet for Requirement 8b(2) details your counselor which species are most common, and explain why these birds are abundant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8b(2): Abundant Winter Bird Population Dynamics",
+              "pamphlet_summary": "Abundant Winter Bird Population Dynamics: Abundant winter birds typically possess flexible diets, strong flocking behaviors, and tolerance for human-altered suburban environments with artificial feeders. Resident seed-eaters and adaptable flocking species find reliable cold-weather caloric sources that sustain large local populations through freezing temperatures (p. 55).",
               "pamphlet_excerpts": [
-                "Species Are Most Common: The Bird Study pamphlet for Requirement 8b(2) details your counselor which species are most common, and explain why these birds are abundant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Abundant Winter Bird Population Dynamics: Abundant winter birds typically possess flexible diets, strong flocking behaviors, and tolerance for human-altered suburban environments with artificial feeders. Resident seed-eaters and adaptable flocking species find reliable cold-weather caloric sources that sustain large local populations through freezing temperatures (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "What physical adaptations or behavioral habits allow common winter residents like starlings or chickadees to survive northern freezes?"
+              ]
             },
             {
               "sub_id": "8b(3)",
@@ -3200,8 +3215,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "For Bird Study Requirement 8b(3), a common mistake in species are uncommon is treating your counselor which species are uncommon, and explain why these were present in small numbers as optional background reading.",
-                "fact": "Mastering Bird Study Requirement 8b(3) means following the pamphlet standard for species are uncommon and recording accurate notes on your counselor which species are uncommon, and explain why these were present in small numbers."
+                "misconception": "Setting out commercial birdseed in local backyards is sufficient to rescue declining migratory bird species.",
+                "fact": "Declining birds generally require large tracts of intact native breeding habitat and stopover wetlands rather than backyard feeding stations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3227,14 +3242,17 @@
               "id": "8b(3)",
               "sub_req_label": "8b(3)",
               "sub_req_text": "Tell your counselor which species are uncommon, and explain why these were present in small numbers. If the number of birds of these species is decreasing, explain why, and what, if anything, could be done to reverse their decline.",
-              "topic_title": "Req 8b(3): Species Are Uncommon",
-              "pamphlet_summary": "Species Are Uncommon: The Bird Study pamphlet for Requirement 8b(3) details your counselor which species are uncommon, and explain why these were present in small numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8b(3): Uncommon Bird Species Decline Mitigation",
+              "pamphlet_summary": "Uncommon Bird Species Decline Mitigation: Species recorded in sparse counts often suffer from specialized habitat loss, fragmentation along migration flyways, pesticide runoff, or climate-induced winter range shifts. Reversing declines requires targeted land conservation, wetland restoration, native plant re-establishment, and reduced pesticide usage across breeding and wintering grounds (p. 56).",
               "pamphlet_excerpts": [
-                "Species Are Uncommon: The Bird Study pamphlet for Requirement 8b(3) details your counselor which species are uncommon, and explain why these were present in small numbers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Uncommon Bird Species Decline Mitigation: Species recorded in sparse counts often suffer from specialized habitat loss, fragmentation along migration flyways, pesticide runoff, or climate-induced winter range shifts. Reversing declines requires targeted land conservation, wetland restoration, native plant re-establishment, and reduced pesticide usage across breeding and wintering grounds (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "If a local count circle shows a twenty-year decline in grassland birds, what landscape changes might be driving that trend?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3345,8 +3363,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Bird Study Requirement 8c(1), many Scouts assume band birds only requires a general overview rather than specific details on who is able to band birds.",
-                "fact": "The official Bird Study pamphlet for Requirement 8c(1) specifies that Scouts must thoroughly document band birds and explain who is able to band birds during counselor review."
+                "misconception": "Anyone with a hunting license or biology degree can buy bird bands and tag birds in their backyard.",
+                "fact": "Only licensed banders holding specific permits from the federal government and state wildlife agencies may capture and tag wild birds."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3372,14 +3390,17 @@
               "id": "8c(1)",
               "sub_req_label": "8c(1)",
               "sub_req_text": "Explain who is able to band birds.",
-              "topic_title": "Req 8c(1): Band Birds",
-              "pamphlet_summary": "Band Birds: The Bird Study pamphlet for Requirement 8c(1) details who is able to band birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8c(1): Bird Banding Licensure and Qualifications",
+              "pamphlet_summary": "Bird Banding Licensure and Qualifications: Only individuals possessing valid federal permits issued by the U.S. Geological Survey Bird Banding Laboratory and complementary state wildlife permits may legally capture and band wild birds. Banders must demonstrate extensive field training, master safe avian handling and extraction techniques, and prove rigorous scientific research objectives (p. 57).",
               "pamphlet_excerpts": [
-                "Band Birds: The Bird Study pamphlet for Requirement 8c(1) details who is able to band birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Bird Banding Licensure and Qualifications: Only individuals possessing valid federal permits issued by the U.S. Geological Survey Bird Banding Laboratory and complementary state wildlife permits may legally capture and band wild birds. Banders must demonstrate extensive field training, master safe avian handling and extraction techniques, and prove rigorous scientific research objectives (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "Why do wildlife agencies impose strict licensing standards and extensive apprenticeships before issuing bird banding permits?"
+              ]
             },
             {
               "sub_id": "8c(2)",
@@ -3411,8 +3432,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Bird Study Requirement 8c(2) (Birds Get Banded), Scouts sometimes overlook the concrete pamphlet benchmarks covering why birds get banded.",
-                "fact": "Counselor verification for Bird Study Requirement 8c(2) requires concrete workbook evidence on birds get banded, specifically addressing why birds get banded."
+                "misconception": "Standard metal bird bands contain electronic GPS transmitters that beam live coordinates to satellites.",
+                "fact": "Most bird bands are lightweight numbered metal or color-coded plastic rings that yield data only when the bird is recaptured or found."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3438,14 +3459,17 @@
               "id": "8c(2)",
               "sub_req_label": "8c(2)",
               "sub_req_text": "Explain why birds get banded.",
-              "topic_title": "Req 8c(2): Birds Get Banded",
-              "pamphlet_summary": "Birds Get Banded: The Bird Study pamphlet for Requirement 8c(2) details why birds get banded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8c(2): Scientific Purposes of Bird Banding",
+              "pamphlet_summary": "Scientific Purposes of Bird Banding: Banding birds with uniquely numbered metal rings allows researchers to track individual migration pathways, determine accurate lifespans, and calculate annual survival and reproduction rates. When a previously banded bird is recaptured or recovered, its individual history provides vital empirical data for international flyway conservation management (p. 58).",
               "pamphlet_excerpts": [
-                "Birds Get Banded: The Bird Study pamphlet for Requirement 8c(2) details why birds get banded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Scientific Purposes of Bird Banding: Banding birds with uniquely numbered metal rings allows researchers to track individual migration pathways, determine accurate lifespans, and calculate annual survival and reproduction rates. When a previously banded bird is recaptured or recovered, its individual history provides vital empirical data for international flyway conservation management (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "How can a simple numbered band on a songbird leg help researchers map international migration routes?"
+              ]
             },
             {
               "sub_id": "8c(3)",
@@ -3477,8 +3501,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "For Bird Study Requirement 8c(3), a common mistake in birds get banded is treating what kinds of birds get banded as optional background reading.",
-                "fact": "Mastering Bird Study Requirement 8c(3) means following the pamphlet standard for birds get banded and recording accurate notes on what kinds of birds get banded."
+                "misconception": "Banders place identically sized bands on all birds from tiny hummingbirds to large hawks.",
+                "fact": "Bands are manufactured in dozens of carefully calibrated gauge sizes engineered specifically for each species leg diameter."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3504,14 +3528,17 @@
               "id": "8c(3)",
               "sub_req_label": "8c(3)",
               "sub_req_text": "Explain what kinds of birds get banded.",
-              "topic_title": "Req 8c(3): Birds Get Banded",
-              "pamphlet_summary": "Birds Get Banded: The Bird Study pamphlet for Requirement 8c(3) details what kinds of birds get banded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8c(3): Target Species for Banding Operations",
+              "pamphlet_summary": "Target Species for Banding Operations: Banding programs study a diverse spectrum of avian families including songbirds, raptors, waterfowl, shorebirds, and colonial seabirds. Each bird group requires precisely sized aluminum or alloy bands, specialized auxiliary markers, and distinct capture apparatus to prevent physical injury (p. 59).",
               "pamphlet_excerpts": [
-                "Birds Get Banded: The Bird Study pamphlet for Requirement 8c(3) details what kinds of birds get banded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Target Species for Banding Operations: Banding programs study a diverse spectrum of avian families including songbirds, raptors, waterfowl, shorebirds, and colonial seabirds. Each bird group requires precisely sized aluminum or alloy bands, specialized auxiliary markers, and distinct capture apparatus to prevent physical injury (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "Why must a bander measure a bird species leg carefully instead of using a one-size-fits-all band?"
+              ]
             },
             {
               "sub_id": "8c(4)",
@@ -3543,8 +3570,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Bird Study Merit Badge Pamphlet (p. 57, p. 60)",
               "common_misconception_pair": {
-                "misconception": "During Bird Study Requirement 8c(4), Scouts can underestimate how directly mastery of birds were captured the number depends on understanding how the birds were captured, the number of bird species recorded during your visit, and your role.",
-                "fact": "Scouting America standards for Bird Study Requirement 8c(4) require complete workbook entries on birds were captured the number to demonstrate full understanding of how the birds were captured, the number of bird species recorded during your visit, and your role."
+                "misconception": "Scouts visiting a banding station are permitted to independently untangle birds from delicate mist nets.",
+                "fact": "Trained licensed banders must extract birds from nets to prevent injury, while visiting Scouts typically assist with data logging, carrying holding bags, or observation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3570,14 +3597,17 @@
               "id": "8c(4)",
               "sub_req_label": "8c(4)",
               "sub_req_text": "Tell how the birds were captured, the number of bird species recorded during your visit, and your role in the program.",
-              "topic_title": "Req 8c(4): Birds Were Captured The Number",
-              "pamphlet_summary": "Birds Were Captured The Number: The Christmas Bird Count has shown some species, like house finches, expanding their range, whereas others, like loggerhead shrikes, have become (p. 57).",
+              "topic_title": "Req 8c(4): Banding Station Operations and Fieldwork",
+              "pamphlet_summary": "Banding Station Operations and Fieldwork: Stations safely capture birds using fine mesh mist nets, funnel ground traps, or corral nets, checking them frequently to avoid stress. Observers assist by recording morphological measurements, feather wear, fat scores, and species tallies on standardized data sheets while licensed banders handle the birds (p. 60).",
               "pamphlet_excerpts": [
-                "Birds Were Captured The Number: The Christmas Bird Count has shown some species, like house finches, expanding their range, whereas others, like loggerhead shrikes, have become (p. 57)."
+                "Banding Station Operations and Fieldwork: Stations safely capture birds using fine mesh mist nets, funnel ground traps, or corral nets, checking them frequently to avoid stress. Observers assist by recording morphological measurements, feather wear, fat scores, and species tallies on standardized data sheets while licensed banders handle the birds (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/bird_study_p057_img1.png",
               "workbook_diagram_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
-              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet."
+              "workbook_visual_caption": "A birder marks sightings with a pen inside a printed species checklist booklet.",
+              "socratic_questions": [
+                "What safety precautions ensure that mist netting and handling do not harm wild birds during research?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -5553,13 +5583,13 @@
       "options": [
         "A. Because birds never migrate outside a single square mile, making them immune to weather or habitat changes elsewhere.",
         "B. Because birds feed exclusively on inorganic soil minerals and are unaffected by agricultural pesticides or wetland loss.",
-        "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines, and chemical pollutants (such as DDT thinning eggshells), and perform critical seed dispersal and pest control.",
+        "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines.",
         "D. Because wild birds can survive indefinitely in polluted industrial zones without clean water or native plant cover."
       ],
       "choices": [
         "A. Because birds never migrate outside a single square mile, making them immune to weather or habitat changes elsewhere.",
         "B. Because birds feed exclusively on inorganic soil minerals and are unaffected by agricultural pesticides or wetland loss.",
-        "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines, and chemical pollutants (such as DDT thinning eggshells), and perform critical seed dispersal and pest control.",
+        "C. Because birds occupy diverse trophic levels, respond rapidly to habitat fragmentation, insect declines.",
         "D. Because wild birds can survive indefinitely in polluted industrial zones without clean water or native plant cover."
       ],
       "correct_index": 2,

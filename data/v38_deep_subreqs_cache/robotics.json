@@ -1,0 +1,18 @@
+{
+  "4d(1)": {
+    "fact": "Scouting America accepts visual block diagrams and text-based code equally as long as the printed sample includes clear annotations explaining the logic.",
+    "misconception": "Graphical block programming languages do not qualify as legitimate source code for the engineering notebook.",
+    "pamphlet_summary": "Write and upload well-commented control logic to the embedded microcontroller so the robot executes its assigned autonomous sequence reliably. Document the routine by pasting printed code extracts with clear variable descriptions and functional annotations directly into the engineering notebook (p. 57).",
+    "socratic_question": "If another team member had to troubleshoot your robot tomorrow, how would your documented code guide them through each action?",
+    "sub_id": "4d(1)",
+    "topic_title": "Robot Program Source Code Implementation"
+  },
+  "4d(2)": {
+    "fact": "Standard programming flowcharts require diamond decision blocks that branch into alternate actions based on live sensor readings.",
+    "misconception": "Program flowcharts follow a single linear sequence without decision branches for sensor feedback.",
+    "pamphlet_summary": "Standard flowchart symbols map program flow, using ovals for terminals, rectangles for processes, and diamonds for decision branches triggered by sensor data. Mapping out these logic branches before writing code ensures the robot responds predictably to environmental inputs like bumper contacts or ultrasonic distance thresholds (p. 55).",
+    "socratic_question": "If your robot encounters a wall while driving forward, how does your flowchart show the decision it must make?",
+    "sub_id": "4d(2)",
+    "topic_title": "Sensor Logic Program Flowchart Development"
+  }
+}

@@ -52,7 +52,7 @@
 - **Common Myth:** Using a speakerphone allows a driver to maintain complete attention on the road ahead.
 - **Pamphlet Fact:** Hands-free calling produces inattention blindness, causing drivers to miss half of visual roadway cues.
 
-![Step-by-step Traffic Safety visual guide highlighting preventing distracted and impaired driving positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/traffic_safety_p003_img1.png)
+![Traffic Safety Requirement 1 figure showing taking eyes off the roadway for two seconds doubles vehicle crash risk.](/assets/pamphlet_images/traffic_safety_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -131,7 +131,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Vehicle Safety
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Traffic Safety reference illustration comparing key components and stages of seat belts and vehicle safety features for Requirement 2.](/assets/pamphlet_images/traffic_safety_p007_img1.png)
+![Traffic Safety Requirement 2 figure showing lap belts must cross strong hip bones to prevent catastrophic abdominal crush injuries.](/assets/pamphlet_images/traffic_safety_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -176,7 +176,7 @@
 - **Common Myth:** Fog lights provide superior illumination during ordinary nighttime highway travel in clear conditions.
 - **Pamphlet Fact:** Amber hazard lamps indicate stationary road obstructions and warning conditions rather than turning intentions.
 
-![Step-by-step Traffic Safety visual guide highlighting vehicle maintenance and stopping distances positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/traffic_safety_p012_img1.png)
+![Traffic Safety Requirement 3 figure showing roadway grime on headlamp covers diminishes nighttime forward vision by over ninety percent.](/assets/pamphlet_images/traffic_safety_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

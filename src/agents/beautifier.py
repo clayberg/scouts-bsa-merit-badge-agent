@@ -549,6 +549,8 @@ def beautify_slide_storyboard(
     used_diagram_md5s: Dict[str, int] = {}
     seen_visual_captions: set = set()
     req_slide_counts: Dict[str, int] = {}
+    used_myths_in_deck: set = set()
+    used_asks_in_deck: set = set()
 
     # Build a lookup map from research_artifact.get("requirements", []) indexing both top-level req_id/req_number
     # and nested sub_requirements (sr["req_id"] / sr["sub_id"]).
@@ -1076,6 +1078,9 @@ def beautify_slide_storyboard(
                 or req_lookup_map.get(base_req_num)
                 or req_lookup_map.get(base_req_num.lower())
             )
+            slide_for_notes = dict(slide)
+            slide_for_notes["_used_myths_in_deck"] = used_myths_in_deck
+            slide_for_notes["_used_asks_in_deck"] = used_asks_in_deck
             slide["presenter_notes"] = _build_slide_teaching_notes(
                 badge_name=badge_name,
                 req_num=req_num,
@@ -1094,7 +1099,7 @@ def beautify_slide_storyboard(
                 safety_callout=slide.get("safety_warning"),
                 audience_level=str(audience_level or "All Scouts (Ages 11-17)"),
                 local_grounding_callout=str(slide.get("local_grounding_callout") or ""),
-                slide_dict=slide,
+                slide_dict=slide_for_notes,
                 slide_idx_in_req=cur_slide_idx_in_req,
             )
         else:

@@ -158,19 +158,19 @@
         "question": "In Geology Requirement 1, how does James Hutton's principle of uniformitarianism ('the present is the key to the past') help geologists interpret the rock cycle?",
         "options": [
           "A. It states that all rocks on Earth formed simultaneously during a single afternoon and have never changed since.",
-          "B. It explains that the physical, chemical, and biological geological processes observable today (such as volcanic cooling forming igneous rock, weathering and deposition forming sedimentary rock, and heat and pressure forming metamorphic rock) operated by the same natural laws throughout Earth's history.",
+          "B. It explains that the physical, chemical, and biological geological processes observable today.",
           "C. It proves that sedimentary sandstone only forms deep inside the molten outer core of the planet.",
           "D. It states that fossils found in upper rock layers are always millions of years older than undisturbed rock layers buried far beneath them."
         ],
         "choices": [
           "A. It states that all rocks on Earth formed simultaneously during a single afternoon and have never changed since.",
-          "B. It explains that the physical, chemical, and biological geological processes observable today (such as volcanic cooling forming igneous rock, weathering and deposition forming sedimentary rock, and heat and pressure forming metamorphic rock) operated by the same natural laws throughout Earth's history.",
+          "B. It explains that the physical, chemical, and biological geological processes observable today.",
           "C. It proves that sedimentary sandstone only forms deep inside the molten outer core of the planet.",
           "D. It states that fossils found in upper rock layers are always millions of years older than undisturbed rock layers buried far beneath them."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. It explains that the physical, chemical, and biological geological processes observable today (such as volcanic cooling forming igneous rock, weathering and deposition forming sedimentary rock, and heat and pressure forming metamorphic rock) operated by the same natural laws throughout Earth's history.",
+        "correct_answer": "B. It explains that the physical, chemical, and biological geological processes observable today.",
         "explanation": "Correct Answer (B): Uniformitarianism holds that ongoing geologic processes (magma crystallization, erosion, sedimentation, lithification, and metamorphism) explain the rock structures and stratigraphic record formed over geologic time.",
         "pamphlet_page_ref": "p. 79, p. 81"
       },
@@ -593,8 +593,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4a(1), many Scouts assume experiment approved only requires a general overview rather than specific details on conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension.",
-                "fact": "The official Geology pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document experiment approved and explain conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension during counselor review."
+                "misconception": "Sediment particles settle out of agitated water at identical rates regardless of their grain diameter.",
+                "fact": "Heavier and coarser particles settle first due to gravity, while microscopic clay particles remain suspended until the water becomes completely still."
               },
               "starting_requirement_gate": {
                 "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -625,14 +625,17 @@
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
               "sub_req_text": "Conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension in water. Explain to your counselor what the exercise shows and why it is important.",
-              "topic_title": "Req 4a(1): Experiment Approved",
-              "pamphlet_summary": "Experiment Approved: The Geology pamphlet for Requirement 4a(1) details conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension in water, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4a(1): Sediment Settling Velocity in Water",
+              "pamphlet_summary": "Sediment Settling Velocity in Water: Agitating mixed sediment sizes in a clear water column reveals that coarse, dense gravel and sand deposit immediately, whereas fine silts and clays remain suspended for hours. This graded bedding sequence demonstrates how energy decreases in natural depositional basins to form sorted sedimentary strata (p. 22).",
               "pamphlet_excerpts": [
-                "Experiment Approved: The Geology pamphlet for Requirement 4a(1) details conduct an experiment approved by your counselor that demonstrates how sediments settle from suspension in water, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Sediment Settling Velocity in Water: Agitating mixed sediment sizes in a clear water column reveals that coarse, dense gravel and sand deposit immediately, whereas fine silts and clays remain suspended for hours. This graded bedding sequence demonstrates how energy decreases in natural depositional basins to form sorted sedimentary strata (p. 22)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img1.png",
               "workbook_diagram_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
-              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure."
+              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
+              "socratic_questions": [
+                "When you shake a jar filled with dirt, sand, and gravel in water, which particles drop to the bottom first and why?"
+              ]
             },
             {
               "sub_id": "4a(2)",
@@ -671,8 +674,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "When preparing Geology Requirement 4a(2) (Topographical Maps Provided), Scouts sometimes overlook the concrete pamphlet benchmarks covering using topographical maps provided by your counselor, plot the stream gradients.",
-                "fact": "Counselor verification for Geology Requirement 4a(2) requires concrete workbook evidence on topographical maps provided, specifically addressing using topographical maps provided by your counselor, plot the stream gradients."
+                "misconception": "Meandering rivers with sweeping loops flow faster and move larger rocks than steep straight mountain streams.",
+                "fact": "Steep straight streams possess much higher gradients that generate rapid velocities capable of rolling heavy cobbles and boulders."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -698,14 +701,17 @@
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
               "sub_req_text": "Using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance) for four different stream types (straight, meandering, dendritic, trellis). Explain which ones flow fastest and why, and which ones will carry larger grains of sediment.",
-              "topic_title": "Req 4a(2): Topographical Maps Provided",
-              "pamphlet_summary": "Topographical Maps Provided: The Geology pamphlet for Requirement 4a(2) details using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4a(2): Stream Gradient and Drainage Patterns",
+              "pamphlet_summary": "Stream Gradient and Drainage Patterns: Calculating stream gradient requires dividing the change in contour elevation between two points by the stream channel length measured with a map ruler or string. High-gradient mountain streams possess greater kinetic energy to transport coarse cobbles, whereas low-gradient meandering networks carry only fine sand, silt, and mud (p. 25).",
               "pamphlet_excerpts": [
-                "Topographical Maps Provided: The Geology pamphlet for Requirement 4a(2) details using topographical maps provided by your counselor, plot the stream gradients (different elevations divided by distance), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Stream Gradient and Drainage Patterns: Calculating stream gradient requires dividing the change in contour elevation between two points by the stream channel length measured with a map ruler or string. High-gradient mountain streams possess greater kinetic energy to transport coarse cobbles, whereas low-gradient meandering networks carry only fine sand, silt, and mud (p. 25)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img1.png",
               "workbook_diagram_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
-              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure."
+              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
+              "socratic_questions": [
+                "How does the drop in elevation over distance determine whether a riverbed is filled with giant boulders or fine mud?"
+              ]
             },
             {
               "sub_id": "4a(3)",
@@ -744,8 +750,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "For Geology Requirement 4a(3), a common mistake in on a stream diagram, show areas is treating on a stream diagram, show areas where you will find the following features, cut bank, fill bank, point as optional background reading.",
-                "fact": "Mastering Geology Requirement 4a(3) means following the pamphlet standard for on a stream diagram, show areas and recording accurate notes on on a stream diagram, show areas where you will find the following features, cut bank, fill bank, point."
+                "misconception": "River water travels at a uniform speed across the entire width of a bend so sediment deposits evenly on both riverbanks.",
+                "fact": "Centrifugal momentum accelerates water against the outer bank to cause erosion, while decelerating flow on the inside bend drops sediment to build a point bar."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -771,15 +777,18 @@
               "id": "4a(3)",
               "sub_req_label": "4a(3)",
               "sub_req_text": "On a stream diagram, show areas where you will find the following features: cut bank, fill bank, point bar, medial channel bars, and lake delta. Describe the relative sediment grain size found in each feature.",
-              "topic_title": "Req 4a(3): On a stream diagram, show areas",
-              "pamphlet_summary": "On a stream diagram, show areas: The Geology pamphlet for Requirement 4a(3) details on a stream diagram, show areas where you will find the following features, cut bank, fill bank, point bar, medial channel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4a(3): Stream Channel Features and Sediment Distribution",
+              "pamphlet_summary": "Stream Channel Features and Sediment Distribution: Water velocity reaches its maximum along the outer bend of a river bend to scour steep cut banks, while slower water along inner bends deposits coarse point bar sands. Broad deltas and mid-channel bars form where currents decelerate abruptly, dropping gravels first and washing clays into quiet standing water (p. 27).",
               "pamphlet_excerpts": [
-                "On a stream diagram, show areas: The Geology pamphlet for Requirement 4a(3) details on a stream diagram, show areas where you will find the following features, cut bank, fill bank, point bar, medial channel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Stream Channel Features and Sediment Distribution: Water velocity reaches its maximum along the outer bend of a river bend to scour steep cut banks, while slower water along inner bends deposits coarse point bar sands. Broad deltas and mid-channel bars form where currents decelerate abruptly, dropping gravels first and washing clays into quiet standing water (p. 27)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img1.png",
-              "title": "Req 4a(3): On a stream diagram, show areas",
+              "title": "Req 4a(3): Stream Channel Features and Sediment Distribution",
               "workbook_diagram_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
-              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure."
+              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
+              "socratic_questions": [
+                "If you wade into the inside bend of a river versus the outside bend, why does your foot sink into soft sand on one side but hit solid eroded rock on the other?"
+              ]
             },
             {
               "sub_id": "4a(4)",
@@ -816,8 +825,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "During Geology Requirement 4a(4), Scouts can underestimate how directly mastery of experiment approved depends on understanding conduct an experiment approved by your counselor that shows how some sedimentary material carried.",
-                "fact": "Scouting America standards for Geology Requirement 4a(4) require complete workbook entries on experiment approved to demonstrate full understanding of conduct an experiment approved by your counselor that shows how some sedimentary material carried."
+                "misconception": "Water that looks clear to the naked eye contains zero solid sediment particles in suspension.",
+                "fact": "Colloidal clays and dissolved mineral salts remain suspended in clear water and only become visible under magnification, high-intensity light beams, or after evaporation."
               },
               "starting_requirement_gate": {
                 "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -848,14 +857,17 @@
               "id": "4a(4)",
               "sub_req_label": "4a(4)",
               "sub_req_text": "Conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small for you to see without a magnifier.",
-              "topic_title": "Req 4a(4): Experiment Approved",
-              "pamphlet_summary": "Experiment Approved: The Geology pamphlet for Requirement 4a(4) details conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4a(4): Microscopic Suspended Sediments in Water",
+              "pamphlet_summary": "Microscopic Suspended Sediments in Water: Pouring murky stream runoff through laboratory filter paper or shining a focused flashlight beam through the liquid isolates colloidal particles that evade unaided eyesight. When the water evaporates from a clean glass dish, it leaves behind mineral residues and clay particulates that were carried in suspension (p. 29).",
               "pamphlet_excerpts": [
-                "Experiment Approved: The Geology pamphlet for Requirement 4a(4) details conduct an experiment approved by your counselor that shows how some sedimentary material carried by water may be too small, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Microscopic Suspended Sediments in Water: Pouring murky stream runoff through laboratory filter paper or shining a focused flashlight beam through the liquid isolates colloidal particles that evade unaided eyesight. When the water evaporates from a clean glass dish, it leaves behind mineral residues and clay particulates that were carried in suspension (p. 29)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img1.png",
               "workbook_diagram_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
-              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure."
+              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
+              "socratic_questions": [
+                "How can water that appears crystal clear in a glass still deposit a muddy crust once it evaporates?"
+              ]
             },
             {
               "sub_id": "4a(5)",
@@ -898,8 +910,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4a(5), many Scouts assume visit a nearby stream only requires a general overview rather than specific details on visit a nearby stream.",
-                "fact": "The official Geology pamphlet for Requirement 4a(5) specifies that Scouts must thoroughly document visit a nearby stream and explain visit a nearby stream during counselor review."
+                "misconception": "A dry streambed leaves no physical evidence of which direction water flowed without active current.",
+                "fact": "Pebbles shingled against one another lean upstream, sediment piles on the downstream sides of obstacles, and current ripples record flow direction indefinitely."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -925,14 +937,17 @@
               "id": "4a(5)",
               "sub_req_label": "4a(5)",
               "sub_req_text": "Visit a nearby stream. Find clues that show the direction of water flow, even if the water is missing. Record your observations in a notebook, and sketch those clues you observe. Discuss your observations with your counselor.",
-              "topic_title": "Req 4a(5): Visit a nearby stream",
-              "pamphlet_summary": "Visit a nearby stream: The Geology pamphlet for Requirement 4a(5) details visit a nearby stream, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4a(5): Field Indicators of Stream Flow Direction",
+              "pamphlet_summary": "Field Indicators of Stream Flow Direction: Geologists establish past flow direction in dry arroyos by examining imbricated pebbles that tilt upstream, asymmetric current ripples, and debris caught on the upstream sides of boulders. Documenting these directional sedimentary structures in a field notebook preserves physical records of peak flood energy (p. 31).",
               "pamphlet_excerpts": [
-                "Visit a nearby stream: The Geology pamphlet for Requirement 4a(5) details visit a nearby stream, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Field Indicators of Stream Flow Direction: Geologists establish past flow direction in dry arroyos by examining imbricated pebbles that tilt upstream, asymmetric current ripples, and debris caught on the upstream sides of boulders. Documenting these directional sedimentary structures in a field notebook preserves physical records of peak flood energy (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p069_img1.png",
               "workbook_diagram_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
-              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure."
+              "workbook_visual_caption": "Distinct layered sedimentary strata display folding from tectonic pressure.",
+              "socratic_questions": [
+                "If you stand in an empty desert wash with no water in sight, what physical clues tell you which way the flash flood ran?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -1051,8 +1066,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4b(1), many Scouts assume top five earth resources only requires a general overview rather than specific details on the top five earth resources used to generate electricity in the united states.",
-                "fact": "The official Geology pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document top five earth resources and explain the top five earth resources used to generate electricity in the united states during counselor review."
+                "misconception": "Crude oil pumped from underground wells supplies most of the electricity used in United States power plants.",
+                "fact": "Natural gas and coal generate the vast majority of fossil-fueled electricity in the nation, while petroleum products account for less than one percent of utility-scale power generation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1078,14 +1093,17 @@
               "id": "4b(1)",
               "sub_req_label": "4b(1)",
               "sub_req_text": "List the top five Earth resources used to generate electricity in the United States.",
-              "topic_title": "Req 4b(1): Top Five Earth Resources",
-              "pamphlet_summary": "Top Five Earth Resources: The Geology pamphlet for Requirement 4b(1) details the top five Earth resources used to generate electricity in the United States, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4b(1): United States Electricity Generation Resources",
+              "pamphlet_summary": "United States Electricity Generation Resources: Domestic power generation relies primarily on natural gas, coal, uranium, water, and non-hydroelectric renewables like wind and solar to drive electrical turbines. Evaluating these five resources illustrates how subsurface geological fuels supply the majority of baseload power across the electrical grid (p. 38).",
               "pamphlet_excerpts": [
-                "Top Five Earth Resources: The Geology pamphlet for Requirement 4b(1) details the top five Earth resources used to generate electricity in the United States, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "United States Electricity Generation Resources: Domestic power generation relies primarily on natural gas, coal, uranium, water, and non-hydroelectric renewables like wind and solar to drive electrical turbines. Evaluating these five resources illustrates how subsurface geological fuels supply the majority of baseload power across the electrical grid (p. 38)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
               "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+              "socratic_questions": [
+                "Which subsurface natural resource pulled from the ground powers the largest share of power plants across the country?"
+              ]
             },
             {
               "sub_id": "4b(2)",
@@ -1122,8 +1140,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "When preparing Geology Requirement 4b(2) (Source Rock Trap and Reservoir Rock), Scouts sometimes overlook the concrete pamphlet benchmarks covering source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas.",
-                "fact": "Counselor verification for Geology Requirement 4b(2) requires concrete workbook evidence on source rock trap and reservoir rock, specifically addressing source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas."
+                "misconception": "Oil and natural gas collect underground in giant open caverns shaped like underground lakes.",
+                "fact": "Hydrocarbons reside inside microscopic pore spaces between sand grains or in tiny rock fractures within solid reservoir rocks resembling a dense sponge."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1149,15 +1167,18 @@
               "id": "4b(2)",
               "sub_req_label": "4b(2)",
               "sub_req_text": "Discuss source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas underground.",
-              "topic_title": "Req 4b(2): Source Rock Trap and Reservoir Rock",
-              "pamphlet_summary": "Source Rock Trap and Reservoir Rock: The Geology pamphlet for Requirement 4b(2) details source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas underground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4b(2): Petroleum Geological System Essential Components",
+              "pamphlet_summary": "Petroleum Geological System Essential Components: Commercial hydrocarbon accumulations require an organic-rich source rock to generate oil, a porous and permeable reservoir rock to store fluids, and a structural or stratigraphic trap sealed by impermeable caprock. Without an impermeable seal like shale or salt, buoyant oil and gas migrate upward and dissipate at the surface (p. 41).",
               "pamphlet_excerpts": [
-                "Source Rock Trap and Reservoir Rock: The Geology pamphlet for Requirement 4b(2) details source rock, trap, and reservoir rock, the three components necessary for the occurrence of oil and gas underground, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Petroleum Geological System Essential Components: Commercial hydrocarbon accumulations require an organic-rich source rock to generate oil, a porous and permeable reservoir rock to store fluids, and a structural or stratigraphic trap sealed by impermeable caprock. Without an impermeable seal like shale or salt, buoyant oil and gas migrate upward and dissipate at the surface (p. 41)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
-              "title": "Req 4b(2): Source Rock Trap and Reservoir Rock",
+              "title": "Req 4b(2): Petroleum Geological System Essential Components",
               "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+              "socratic_questions": [
+                "Why does oil need both a porous rock to live in and a completely solid rock sitting right above it to form an oilfield?"
+              ]
             },
             {
               "sub_id": "4b(3)",
@@ -1194,8 +1215,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "For Geology Requirement 4b(3), a common mistake in used in subsurface exploration is treating how each of the following items is used in subsurface exploration to locate oil or gas, reflection as optional background reading.",
-                "fact": "Mastering Geology Requirement 4b(3) means following the pamphlet standard for used in subsurface exploration and recording accurate notes on how each of the following items is used in subsurface exploration to locate oil or gas, reflection."
+                "misconception": "Geologists find oil by drilling randomly until drill bits strike liquid fuel underground.",
+                "fact": "Exploration teams analyze sound wave reflections, electrical borehole readings, and microscopic rock chips to map prospective formations thousands of feet beneath the surface before drilling production wells."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1221,14 +1242,17 @@
               "id": "4b(3)",
               "sub_req_label": "4b(3)",
               "sub_req_text": "Explain how each of the following items is used in subsurface exploration to locate oil or gas: reflection seismic, electric well logs, stratigraphic correlation, offshore platform, geologic map, subsurface structure map, subsurface isopach map, and core samples and cutting samples.",
-              "topic_title": "Req 4b(3): Used in Subsurface Exploration",
-              "pamphlet_summary": "Used in Subsurface Exploration: The Geology pamphlet for Requirement 4b(3) details how each of the following items is used in subsurface exploration to locate oil or gas, reflection seismic, electric well, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4b(3): Subsurface Geophysical and Geological Exploration Tools",
+              "pamphlet_summary": "Subsurface Geophysical and Geological Exploration Tools: Locating buried petroleum requires integrating seismic acoustic reflections, wireline electrical resistivity logs, and regional stratigraphic correlation diagrams to map hidden structures. Geologists examine rock cuttings from drilling mud and extract solid core cylinders to verify reservoir porosity before installing offshore production platforms (p. 44).",
               "pamphlet_excerpts": [
-                "Used in Subsurface Exploration: The Geology pamphlet for Requirement 4b(3) details how each of the following items is used in subsurface exploration to locate oil or gas, reflection seismic, electric well, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Subsurface Geophysical and Geological Exploration Tools: Locating buried petroleum requires integrating seismic acoustic reflections, wireline electrical resistivity logs, and regional stratigraphic correlation diagrams to map hidden structures. Geologists examine rock cuttings from drilling mud and extract solid core cylinders to verify reservoir porosity before installing offshore production platforms (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
               "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+              "socratic_questions": [
+                "How can geologists map the shape of rock layers miles beneath the ground without digging up all the dirt in between?"
+              ]
             },
             {
               "sub_id": "4b(4)",
@@ -1260,8 +1284,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "During Geology Requirement 4b(4), Scouts can underestimate how directly mastery of data points provided depends on understanding using at least 20 data points provided by your counselor, create a subsurface structure map and use it.",
-                "fact": "Scouting America standards for Geology Requirement 4b(4) require complete workbook entries on data points provided to demonstrate full understanding of using at least 20 data points provided by your counselor, create a subsurface structure map and use it."
+                "misconception": "Subsurface geological maps show hills and valleys visible on the surface of the Earth.",
+                "fact": "Subsurface structure maps show the elevation and folded shape of a specific buried rock layer below sea level rather than the surface topography."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1287,14 +1311,17 @@
               "id": "4b(4)",
               "sub_req_label": "4b(4)",
               "sub_req_text": "Using at least 20 data points provided by your counselor, create a subsurface structure map and use it to explain how subsurface geology maps are used to find oil, gas, or coal resources.",
-              "topic_title": "Req 4b(4): Data Points Provided",
-              "pamphlet_summary": "Data Points Provided: The Geology pamphlet for Requirement 4b(4) details using at least 20 data points provided by your counselor, create a subsurface structure map and use it, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4b(4): Subsurface Structural Contour Mapping",
+              "pamphlet_summary": "Subsurface Structural Contour Mapping: Constructing a subsurface structure map involves connecting borehole elevation points with structural contour lines that depict the three-dimensional depth and geometry of a target rock layer. Identifying closed concentric high contours reveals subterranean anticlines and fault traps that concentrate migrating hydrocarbons (p. 47).",
               "pamphlet_excerpts": [
-                "Data Points Provided: The Geology pamphlet for Requirement 4b(4) details using at least 20 data points provided by your counselor, create a subsurface structure map and use it, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Subsurface Structural Contour Mapping: Constructing a subsurface structure map involves connecting borehole elevation points with structural contour lines that depict the three-dimensional depth and geometry of a target rock layer. Identifying closed concentric high contours reveals subterranean anticlines and fault traps that concentrate migrating hydrocarbons (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
               "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+              "socratic_questions": [
+                "If you have elevation numbers for a limestone layer from twenty different drill holes, how do you turn those numbers into a treasure map for trapped oil?"
+              ]
             },
             {
               "sub_id": "4b(5)",
@@ -1313,15 +1340,15 @@
                   "id": "4b(5)(a)",
                   "sub_req_label": "4b(5)(a)",
                   "sub_req_text": "Make a display or presentation showing how oil and gas or coal is found, extracted, and processed. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school) in a five-minute presentation.",
-                  "topic_title": "Req 4b(5)(a): Display or Presentation Showing How Oil",
+                  "topic_title": "Req 4b(5)(a): Energy Resource Presentation and Display Design",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Display or Presentation Showing How Oil: The Geology pamphlet for Requirement 4b(5)(a) details a display or presentation showing how oil and gas or coal is found, extracted, and processed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Energy Resource Presentation and Display Design: Designing an energy resource exhibit entails synthesizing research from geological maps, industry literature, and vetted energy statistics into an organized visual sequence. The display must clearly guide an audience through exploration surveying, well drilling, extraction pumping, and refinery fractionation (p. 50).",
                   "pamphlet_excerpts": [
-                    "Display or Presentation Showing How Oil: The Geology pamphlet for Requirement 4b(5)(a) details a display or presentation showing how oil and gas or coal is found, extracted, and processed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Energy Resource Presentation and Display Design: Designing an energy resource exhibit entails synthesizing research from geological maps, industry literature, and vetted energy statistics into an organized visual sequence. The display must clearly guide an audience through exploration surveying, well drilling, extraction pumping, and refinery fractionation (p. 50)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Geology Requirement 4b(5)(a), many Scouts assume display or presentation showing how oil only requires a general overview rather than specific details on a display or presentation showing how oil and gas or coal is found, extracted, and processed.",
-                    "fact": "The official Geology pamphlet for Requirement 4b(5)(a) specifies that Scouts must thoroughly document display or presentation showing how oil and explain a display or presentation showing how oil and gas or coal is found, extracted, and processed during counselor review."
+                    "misconception": "A science display requires only decorative pictures rather than clear technical steps describing how resources are discovered and refined.",
+                    "fact": "An effective geological display communicates the sequential life cycle from subsurface exploration through refining and environmental management."
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
@@ -1356,10 +1383,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 4b(5)(a): Display or Presentation Showing How Oil",
+                  "title": "Req 4b(5)(a): Energy Resource Presentation and Display Design",
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "How would you lay out a poster so that someone who knows nothing about coal or oil can follow the journey from buried rock to household energy?"
+                  ]
                 },
                 {
                   "sub_id": "4b(5)(b)",
@@ -1372,15 +1402,15 @@
                   "id": "4b(5)(b)",
                   "sub_req_label": "4b(5)(b)",
                   "sub_req_text": "With your parent or guardian's and counselor's permission and assistance, arrange for a visit to an operating drilling rig. While there, talk with a geologist and ask to see what the geologist does onsite. Ask to see cutting samples taken at the site.",
-                  "topic_title": "Req 4b(5)(b): With your parent or guardian's",
+                  "topic_title": "Req 4b(5)(b): Drilling Rig Operation and Wellsite Geology",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "With your parent or guardian's: The Geology pamphlet for Requirement 4b(5)(b) details with your parent or guardian's and counselor's permission and assistance, arrange for a visit to an operating drilling rig, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Drilling Rig Operation and Wellsite Geology: Visiting an active drilling rig with personal protective equipment introduces Scouts to rotary drill machinery, blowout preventers, and circulating drilling mud systems. Wellsite geologists catch rock cuttings from the shale shaker screens to log lithology, identify target formations, and detect hydrocarbon shows in real time (p. 52).",
                   "pamphlet_excerpts": [
-                    "With your parent or guardian's: The Geology pamphlet for Requirement 4b(5)(b) details with your parent or guardian's and counselor's permission and assistance, arrange for a visit to an operating drilling rig, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Drilling Rig Operation and Wellsite Geology: Visiting an active drilling rig with personal protective equipment introduces Scouts to rotary drill machinery, blowout preventers, and circulating drilling mud systems. Wellsite geologists catch rock cuttings from the shale shaker screens to log lithology, identify target formations, and detect hydrocarbon shows in real time (p. 52)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "Coral reefs are piles of non-living volcanic rocks rather than structures built by benthic animals.",
-                    "fact": "Corals are colonial benthic animals that build rigid skeletons in community structures called coral reefs (p. 70)."
+                    "misconception": "Wellsite geologists sit in an office far from the drill floor and wait for oil to gush into the air.",
+                    "fact": "Onsite geologists monitor drilling fluid and inspect rock chips under microscopes and ultraviolet light 24 hours a day to guide drilling decisions."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1417,7 +1447,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "Why do geologists on a drilling rig sift through wet muddy rock chips vibrating off a shaker screen?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -1452,8 +1485,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4b(5), many Scouts assume display or presentation showing how oil only requires a general overview rather than specific details on do one of the following, (a) make a display or presentation showing how oil and gas or coal is found.",
-                "fact": "The official Geology pamphlet for Requirement 4b(5) specifies that Scouts must thoroughly document display or presentation showing how oil and explain do one of the following, (a) make a display or presentation showing how oil and gas or coal is found during counselor review."
+                "misconception": "Crude petroleum pumped out of the ground goes directly into vehicle fuel tanks without chemical processing.",
+                "fact": "Raw petroleum contains complex mixtures of hydrocarbons that refineries must distill, crack, and treat to produce usable fuels like gasoline, diesel, and aviation kerosene."
               },
               "starting_requirement_gate": {
                 "gate_type": "PARENT_CONSENT_GATE",
@@ -1484,15 +1517,18 @@
               "id": "4b(5)",
               "sub_req_label": "4b(5)",
               "sub_req_text": "Do ONE of the following: (a) Make a display or presentation showing how oil and gas or coal is found, extracted, and processed. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school) in a five-minute presentation. (b) With your parent or guardian's and counselor's permission and assistance, arrange for a visit to an operating drilling rig. While there, talk with a geologist and ask to see what the geologist does onsite. Ask to see cutting samples taken at the site.",
-              "topic_title": "Req 4b(5): Display or presentation showing how oil",
-              "pamphlet_summary": "Display or presentation showing how oil: The Geology pamphlet for Requirement 4b(5) details do ONE of the following, (a) Make a display or presentation showing how oil and gas or coal is found, extracted, and processed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4b(5): Fossil Fuel Extraction and Processing Systems",
+              "pamphlet_summary": "Fossil Fuel Extraction and Processing Systems: Preparing a fossil fuel educational presentation demands outlining how geological exploration discovers deposits, how drilling or mining extracts raw resources, and how refineries separate crude hydrocarbons into fuels. Visual charts and flow diagrams help illustrate environmental safeguards and industrial pipelines that transport processed commodities to consumers (p. 49).",
               "pamphlet_excerpts": [
-                "Display or presentation showing how oil: The Geology pamphlet for Requirement 4b(5) details do ONE of the following, (a) Make a display or presentation showing how oil and gas or coal is found, extracted, and processed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Fossil Fuel Extraction and Processing Systems: Preparing a fossil fuel educational presentation demands outlining how geological exploration discovers deposits, how drilling or mining extracts raw resources, and how refineries separate crude hydrocarbons into fuels. Visual charts and flow diagrams help illustrate environmental safeguards and industrial pipelines that transport processed commodities to consumers (p. 49)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p043_img1.png",
-              "title": "Req 4b(5): Display or presentation showing how oil",
+              "title": "Req 4b(5): Fossil Fuel Extraction and Processing Systems",
               "workbook_diagram_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
-              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals."
+              "workbook_visual_caption": "Nuclear power plants generate electricity using mined uranium minerals.",
+              "socratic_questions": [
+                "What physical and chemical steps turn thick, black sludge from an underground reservoir into clear gasoline at a fuel pump?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1617,8 +1653,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4c(1), many Scouts assume define rock only requires a general overview rather than specific details on define rock.",
-                "fact": "The official Geology pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document define rock and explain define rock during counselor review."
+                "misconception": "Any hard chunk of rock found on the ground consists of only a single pure chemical compound.",
+                "fact": "Most rocks are composite mixtures of multiple different mineral grains locked together by crystalline interlocking or sedimentary cements."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1644,14 +1680,17 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "Define rock. Discuss the three classes of rocks including their origin and characteristics.",
-              "topic_title": "Req 4c(1): Define rock",
-              "pamphlet_summary": "Define rock: The Geology pamphlet for Requirement 4c(1) details define rock, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4c(1): Rock Definition and Genetic Classes",
+              "pamphlet_summary": "Rock Definition and Genetic Classes: A rock is a naturally occurring, coherent aggregate of one or more minerals or mineraloids formed through Earth processes. Handbooks classify all rocks into igneous rocks formed from cooling magma or lava, sedimentary rocks formed from weathered fragments or chemical precipitates, and metamorphic rocks altered by heat and pressure (p. 56).",
               "pamphlet_excerpts": [
-                "Define rock: The Geology pamphlet for Requirement 4c(1) details define rock, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Rock Definition and Genetic Classes: A rock is a naturally occurring, coherent aggregate of one or more minerals or mineraloids formed through Earth processes. Handbooks classify all rocks into igneous rocks formed from cooling magma or lava, sedimentary rocks formed from weathered fragments or chemical precipitates, and metamorphic rocks altered by heat and pressure (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+              "socratic_questions": [
+                "What makes granite a rock rather than a mineral, and how does the way it cooled give it speckles?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -1694,8 +1733,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "When preparing Geology Requirement 4c(2) (Geology Field Standard (4c(2))), Scouts sometimes overlook the concrete pamphlet benchmarks covering define mineral.",
-                "fact": "Counselor verification for Geology Requirement 4c(2) requires concrete workbook evidence on geology field standard (4c(2)), specifically addressing define mineral."
+                "misconception": "Color is the most reliable and foolproof property for identifying an unknown mineral specimen.",
+                "fact": "Trace chemical impurities alter surface colors dramatically, making scratch hardness, streak color on unglazed porcelain, and cleavage patterns much more reliable diagnostic tests."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1721,15 +1760,18 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "Define mineral. Discuss the origin of minerals and their chemical composition and identification properties, including hardness, specific gravity, color, streak, cleavage, luster, and crystal form.",
-              "topic_title": "Req 4c(2): Geology Field Standard (4c(2))",
-              "pamphlet_summary": "Geology Field Standard (4c(2)): The Geology pamphlet for Requirement 4c(2) details define mineral, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4c(2): Mineral Identification Properties and Testing",
+              "pamphlet_summary": "Mineral Identification Properties and Testing: Minerals are naturally occurring, inorganic solids characterized by a definite chemical composition and an ordered internal crystalline structure. Identification requires systematic diagnostic testing of physical properties, including Mohs scratch hardness, streak powder color, cleavage planes, fracture, specific gravity, and luster (p. 59).",
               "pamphlet_excerpts": [
-                "Geology Field Standard (4c(2)): The Geology pamphlet for Requirement 4c(2) details define mineral, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Mineral Identification Properties and Testing: Minerals are naturally occurring, inorganic solids characterized by a definite chemical composition and an ordered internal crystalline structure. Identification requires systematic diagnostic testing of physical properties, including Mohs scratch hardness, streak powder color, cleavage planes, fracture, specific gravity, and luster (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
-              "title": "Req 4c(2): Geology Field Standard (4c(2))",
+              "title": "Req 4c(2): Mineral Identification Properties and Testing",
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+              "socratic_questions": [
+                "If quartz can be purple, pink, white, yellow, or smoky black, how can you prove a mystery crystal is actually quartz without relying on color?"
+              ]
             },
             {
               "sub_id": "4c(3)",
@@ -1748,15 +1790,15 @@
                   "id": "4c(3)(a)",
                   "sub_req_label": "4c(3)(a)",
                   "sub_req_text": "Collect 10 different rocks or minerals. Record in a notebook where you obtained (found, bought, traded) each one. Label each specimen, identify its class and origin, determine its chemical composition, and list its physical properties. Share your collection with your counselor.",
-                  "topic_title": "Req 4c(3)(a): Rocks or Minerals",
+                  "topic_title": "Req 4c(3)(a): Ten Specimen Rock Collection Notebook",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Rocks or Minerals: The Geology pamphlet for Requirement 4c(3)(a) details collect 10 different rocks or minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Ten Specimen Rock Collection Notebook: Curating a personal geological collection requires logging field acquisition coordinates, labeling specimens securely, and classifying each sample by rock family or mineral chemistry. Scouts evaluate diagnostic physical characteristics including hardness, streak, and cleavage before presenting the organized set for inspection (p. 54).",
                   "pamphlet_excerpts": [
-                    "Rocks or Minerals: The Geology pamphlet for Requirement 4c(3)(a) details collect 10 different rocks or minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Ten Specimen Rock Collection Notebook: Curating a personal geological collection requires logging field acquisition coordinates, labeling specimens securely, and classifying each sample by rock family or mineral chemistry. Scouts evaluate diagnostic physical characteristics including hardness, streak, and cleavage before presenting the organized set for inspection (p. 54)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Geology Requirement 4c(3)(a), many Scouts assume rocks or minerals only requires a general overview rather than specific details on collect 10 different rocks or minerals.",
-                    "fact": "The official Geology pamphlet for Requirement 4c(3)(a) specifies that Scouts must thoroughly document rocks or minerals and explain collect 10 different rocks or minerals during counselor review."
+                    "misconception": "Collecting attractive geological specimens from outdoor trails eliminates the necessity of recording geographic discovery data and testing chemical compositions.",
+                    "fact": "Scientific rock collections lose diagnostic value without field acquisition notes, source bedrock locations, and systematic physical property testing."
                   },
                   "workbook_organizer": {
                     "organizer_type": "TIME_SERIES_LOG_TABLE",
@@ -1797,7 +1839,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "Why does a field geologist place greater scientific value on an accurate location log than on the visual beauty of a mineral specimen?"
+                  ]
                 },
                 {
                   "sub_id": "4c(3)(b)",
@@ -1810,15 +1855,15 @@
                   "id": "4c(3)(b)",
                   "sub_req_label": "4c(3)(b)",
                   "sub_req_text": "With your counselor's assistance, identify 15 different rocks and minerals. List the name of each specimen, tell whether it is a rock or mineral, and give the name of its class (if it is a rock) or list its identifying physical properties (if it is a mineral)",
-                  "topic_title": "Req 4c(3)(b): With your counselor's assistance, identify 15",
+                  "topic_title": "Req 4c(3)(b): Guided Fifteen Specimen Identification Session",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "With your counselor's assistance, identify 15: The Geology pamphlet for Requirement 4c(3)(b) details with your counselor's assistance, identify 15 different rocks and minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Guided Fifteen Specimen Identification Session: Guided specimen identification relies on distinguishing homogeneous mineral compounds from composite rock aggregates through systematic physical property tests. Counselors guide Scouts through diagnostic scratch tests, cleavage plane analysis, and rock classification into igneous, sedimentary, or metamorphic families (p. 55).",
                   "pamphlet_excerpts": [
-                    "With your counselor's assistance, identify 15: The Geology pamphlet for Requirement 4c(3)(b) details with your counselor's assistance, identify 15 different rocks and minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Guided Fifteen Specimen Identification Session: Guided specimen identification relies on distinguishing homogeneous mineral compounds from composite rock aggregates through systematic physical property tests. Counselors guide Scouts through diagnostic scratch tests, cleavage plane analysis, and rock classification into igneous, sedimentary, or metamorphic families (p. 55)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Geology Requirement 4c(3)(b) (With your counselor's assistance, identify 15), Scouts sometimes overlook the concrete pamphlet benchmarks covering with your counselor's assistance, identify 15 different rocks and minerals.",
-                    "fact": "Counselor verification for Geology Requirement 4c(3)(b) requires concrete workbook evidence on with your counselor's assistance, identify 15, specifically addressing with your counselor's assistance, identify 15 different rocks and minerals."
+                    "misconception": "Rocks and minerals share identical classification systems and can be identified solely by external surface coloration.",
+                    "fact": "Minerals are pure chemical compounds with definite crystal structures classified by physical properties, whereas rocks are aggregates composed of one or more minerals classified by geological origin."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -1851,10 +1896,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 4c(3)(b): With your counselor's assistance, identify 15",
+                  "title": "Req 4c(3)(b): Guided Fifteen Specimen Identification Session",
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "If two unknown earth samples both display a dark gray color, what physical tests can determine whether they are single mineral crystals or composite rocks?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -1891,8 +1939,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "For Geology Requirement 4c(3), a common mistake in rocks or minerals is treating do one of the following, (a) collect 10 different rocks or minerals as optional background reading.",
-                "fact": "Mastering Geology Requirement 4c(3) means following the pamphlet standard for rocks or minerals and recording accurate notes on do one of the following, (a) collect 10 different rocks or minerals."
+                "misconception": "A rock collection only needs specimens placed in a box without recording where they were found or what physical tests were performed.",
+                "fact": "Unlabeled geological specimens lose scientific value because their discovery location, geologic rock unit, and verified physical properties provide essential context."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1918,14 +1966,17 @@
               "id": "4c(3)",
               "sub_req_label": "4c(3)",
               "sub_req_text": "Do ONE of the following: (a) Collect 10 different rocks or minerals. Record in a notebook where you obtained (found, bought, traded) each one. Label each specimen, identify its class and origin, determine its chemical composition, and list its physical properties. Share your collection with your counselor. (b) With your counselor's assistance, identify 15 different rocks and minerals. List the name of each specimen, tell whether it is a rock or mineral, and give the name of its class (if it is a rock) or list its identifying physical properties (if it is a mineral)",
-              "topic_title": "Req 4c(3): Rocks or Minerals",
-              "pamphlet_summary": "Rocks or Minerals: The Geology pamphlet for Requirement 4c(3) details do ONE of the following, (a) Collect 10 different rocks or minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4c(3): Specimen Collection and Mineralogical Cataloging",
+              "pamphlet_summary": "Specimen Collection and Mineralogical Cataloging: Building a geological field collection requires recording accurate field locality data, geographic coordinates, and collection dates in a permanent bound notebook. Each specimen must have an affixed catalog label corresponding to documented testing data, including mineral class, chemical formula, hardness, and crystal habit (p. 63).",
               "pamphlet_excerpts": [
-                "Rocks or Minerals: The Geology pamphlet for Requirement 4c(3) details do ONE of the following, (a) Collect 10 different rocks or minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Specimen Collection and Mineralogical Cataloging: Building a geological field collection requires recording accurate field locality data, geographic coordinates, and collection dates in a permanent bound notebook. Each specimen must have an affixed catalog label corresponding to documented testing data, including mineral class, chemical formula, hardness, and crystal habit (p. 63)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+              "socratic_questions": [
+                "Why does a geologist care more about the notebook entry describing where a rock was dug up than the rock itself?"
+              ]
             },
             {
               "sub_id": "4c(4)",
@@ -1964,8 +2015,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "During Geology Requirement 4c(4), Scouts can underestimate how directly mastery of common road-building materials depends on understanding three of the most common road-building materials used in your area.",
-                "fact": "Scouting America standards for Geology Requirement 4c(4) require complete workbook entries on common road-building materials to demonstrate full understanding of three of the most common road-building materials used in your area."
+                "misconception": "Road pavement consists entirely of synthetic tar poured directly over ordinary local topsoil.",
+                "fact": "Durable roadways require engineered layers of graded crushed stone base courses, sand subbases, and binders derived from quarried limestone or petroleum asphalt."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1991,14 +2042,17 @@
               "id": "4c(4)",
               "sub_req_label": "4c(4)",
               "sub_req_text": "List three of the most common road-building materials used in your area. Explain how each material is produced and how each is used in road building.",
-              "topic_title": "Req 4c(4): Common Road-building Materials",
-              "pamphlet_summary": "Common Road-building Materials: The Geology pamphlet for Requirement 4c(4) details three of the most common road-building materials used in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4c(4): Local Road Construction Geological Materials",
+              "pamphlet_summary": "Local Road Construction Geological Materials: Modern roadways depend on crushed stone aggregate, washed sand, and petroleum asphalt binder or portland cement manufactured from mined limestone. Geologists analyze aggregate hardness and drainage characteristics to ensure highway roadbeds withstand vehicular load stress and frost heave (p. 57).",
               "pamphlet_excerpts": [
-                "Common Road-building Materials: The Geology pamphlet for Requirement 4c(4) details three of the most common road-building materials used in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Local Road Construction Geological Materials: Modern roadways depend on crushed stone aggregate, washed sand, and petroleum asphalt binder or portland cement manufactured from mined limestone. Geologists analyze aggregate hardness and drainage characteristics to ensure highway roadbeds withstand vehicular load stress and frost heave (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+              "socratic_questions": [
+                "Why must highway construction crews place thick layers of crushed stone aggregate beneath road asphalt instead of pouring pavement directly on soil?"
+              ]
             },
             {
               "sub_id": "4c(5)",
@@ -2017,15 +2071,15 @@
                   "id": "4c(5)(a)",
                   "sub_req_label": "4c(5)(a)",
                   "sub_req_text": "With your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit. Tell your counselor what you learned about the resources extracted from this location and how these resources are used by society.",
-                  "topic_title": "Req 4c(5)(a): Active Mining Site Quarry",
+                  "topic_title": "Req 4c(5)(a): Active Quarry Field Site Investigation",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Active Mining Site Quarry: The Geology pamphlet for Requirement 4c(5)(a) details with your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Active Quarry Field Site Investigation: Field visits to active quarries or gravel pits observe heavy mechanical extraction, primary sorting screens, and aggregate crushing plants under certified industrial safety protocols. Scouts evaluate how extracted stone supports regional concrete production, asphalt paving, and erosion prevention projects (p. 59).",
                   "pamphlet_excerpts": [
-                    "Active Mining Site Quarry: The Geology pamphlet for Requirement 4c(5)(a) details with your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Active Quarry Field Site Investigation: Field visits to active quarries or gravel pits observe heavy mechanical extraction, primary sorting screens, and aggregate crushing plants under certified industrial safety protocols. Scouts evaluate how extracted stone supports regional concrete production, asphalt paving, and erosion prevention projects (p. 59)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Geology Requirement 4c(5)(a), many Scouts assume active mining site quarry only requires a general overview rather than specific details on with your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand.",
-                    "fact": "The official Geology pamphlet for Requirement 4c(5)(a) specifies that Scouts must thoroughly document active mining site quarry and explain with your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand during counselor review."
+                    "misconception": "Quarries merely scoop loose dirt from surface pits without requiring specialized mechanical sorting, crushing, or safety regulations.",
+                    "fact": "Active quarries use blasting, heavy excavators, tiered sorting screens, and multi-stage crushers to grade aggregate sizes while enforcing strict personal protective equipment standards."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2060,7 +2114,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "What environmental protections and safety measures did you observe the quarry operators using to protect workers and neighboring land?"
+                  ]
                 },
                 {
                   "sub_id": "4c(5)(b)",
@@ -2073,15 +2130,15 @@
                   "id": "4c(5)(b)",
                   "sub_req_label": "4c(5)(b)",
                   "sub_req_text": "With your counselor, choose two examples of rocks and two examples of minerals. Discuss the mining of these materials and describe how each is used by society.",
-                  "topic_title": "Req 4c(5)(b): Two Examples of Rocks and Two Examples",
+                  "topic_title": "Req 4c(5)(b): Industrial Rock And Mineral Extraction",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Two Examples of Rocks and Two Examples: The Geology pamphlet for Requirement 4c(5)(b) details with your counselor, choose two examples of rocks and two examples of minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Industrial Rock And Mineral Extraction: Evaluating selected rocks such as granite and limestone alongside minerals like halite and quartz reveals distinct extraction techniques ranging from open-pit quarrying to underground shaft mining. Scouts trace these extracted commodities from raw earth materials to concrete aggregate, glass manufacturing, chemical feedstocks, and agriculture (p. 60).",
                   "pamphlet_excerpts": [
-                    "Two Examples of Rocks and Two Examples: The Geology pamphlet for Requirement 4c(5)(b) details with your counselor, choose two examples of rocks and two examples of minerals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Industrial Rock And Mineral Extraction: Evaluating selected rocks such as granite and limestone alongside minerals like halite and quartz reveals distinct extraction techniques ranging from open-pit quarrying to underground shaft mining. Scouts trace these extracted commodities from raw earth materials to concrete aggregate, glass manufacturing, chemical feedstocks, and agriculture (p. 60)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Geology Requirement 4c(5)(b) (Two Examples of Rocks and Two Examples), Scouts sometimes overlook the concrete pamphlet benchmarks covering with your counselor, choose two examples of rocks and two examples of minerals.",
-                    "fact": "Counselor verification for Geology Requirement 4c(5)(b) requires concrete workbook evidence on two examples of rocks and two examples, specifically addressing with your counselor, choose two examples of rocks and two examples of minerals."
+                    "misconception": "Raw quarried rocks and mined minerals enter commercial manufacturing without undergoing chemical processing or mechanical refining.",
+                    "fact": "Extracted earth materials require crushing, chemical separation, thermal smelting, or dissolution before manufacturers can convert them into usable consumer products."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2114,10 +2171,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 4c(5)(b): Two Examples of Rocks and Two Examples",
+                  "title": "Req 4c(5)(b): Industrial Rock And Mineral Extraction",
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "How does the extraction method for a surface rock like limestone differ from the mining method used to harvest underground halite salt beds?"
+                  ]
                 },
                 {
                   "sub_id": "4c(5)(c)",
@@ -2130,15 +2190,15 @@
                   "id": "4c(5)(c)",
                   "sub_req_label": "4c(5)(c)",
                   "sub_req_text": "With your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used in construction. Discuss what you learned with your counselor.",
-                  "topic_title": "Req 4c(5)(c): With your parent or guardian's",
+                  "topic_title": "Req 4c(5)(c): Civil Engineering Geological Consultation",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "With your parent or guardian's: The Geology pamphlet for Requirement 4c(5)(c) details with your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Civil Engineering Geological Consultation: Consulting a licensed civil engineer illustrates how bedrock stability, groundwater depth, and soil bearing capacity dictate structural foundation design. Geotechnical borehole data and soil compaction testing guide highway routing, retaining wall design, and foundation safety (p. 61).",
                   "pamphlet_excerpts": [
-                    "With your parent or guardian's: The Geology pamphlet for Requirement 4c(5)(c) details with your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Civil Engineering Geological Consultation: Consulting a licensed civil engineer illustrates how bedrock stability, groundwater depth, and soil bearing capacity dictate structural foundation design. Geotechnical borehole data and soil compaction testing guide highway routing, retaining wall design, and foundation safety (p. 61)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Geology Requirement 4c(5)(c), a common mistake in with your parent or guardian's is treating with your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn as optional background reading.",
-                    "fact": "Mastering Geology Requirement 4c(5)(c) means following the pamphlet standard for with your parent or guardian's and recording accurate notes on with your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn."
+                    "misconception": "Civil engineers design structures based solely on architectural plans without analyzing subterranean rock formations or groundwater tables.",
+                    "fact": "Engineers must test soil compaction, sample underlying bedrock cores, and evaluate groundwater movement to prevent structural settling, sinkholes, and landslide failures."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2173,7 +2233,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "How could a civil engineer use subterranean core samples to prevent a multi-story building from cracking or sinking unevenly?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -2208,8 +2271,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4c(5), many Scouts assume active mining site quarry only requires a general overview rather than specific details on do one of the following, (a) with your parent or guardian's and counselor's approval, visit an active.",
-                "fact": "The official Geology pamphlet for Requirement 4c(5) specifies that Scouts must thoroughly document active mining site quarry and explain do one of the following, (a) with your parent or guardian's and counselor's approval, visit an active during counselor review."
+                "misconception": "Mining operations only extract precious metals like gold and silver rather than common bulk geological commodities.",
+                "fact": "Crushed aggregate, sand, gravel, and industrial limestone represent the largest volume of mined mineral resources essential for community construction projects."
               },
               "starting_requirement_gate": {
                 "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2240,14 +2303,17 @@
               "id": "4c(5)",
               "sub_req_label": "4c(5)",
               "sub_req_text": "Do ONE of the following: (a) With your parent or guardian's and counselor's approval, visit an active mining site, quarry, or sand and gravel pit. Tell your counselor what you learned about the resources extracted from this location and how these resources are used by society. (b) With your counselor, choose two examples of rocks and two examples of minerals. Discuss the mining of these materials and describe how each is used by society. (c) With your parent or guardian's and counselor's approval, visit the office of a civil engineer and learn how geology is used in construction. Discuss what you learned with your counselor.",
-              "topic_title": "Req 4c(5): Active Mining Site Quarry",
-              "pamphlet_summary": "Active Mining Site Quarry: The Geology pamphlet for Requirement 4c(5) details do ONE of the following, (a) With your parent or guardian's and counselor's approval, visit an active mining site, quarry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4c(5): Mineral Extraction Field Study Options",
+              "pamphlet_summary": "Mineral Extraction Field Study Options: Scouts investigate practical resource extraction by selecting either an active quarry site visit, an in-depth rock and mineral utilization analysis, or a civil engineering consultation. Each elective path demonstrates how raw industrial minerals and aggregates transform into modern infrastructure and consumer products (p. 58).",
               "pamphlet_excerpts": [
-                "Active Mining Site Quarry: The Geology pamphlet for Requirement 4c(5) details do ONE of the following, (a) With your parent or guardian's and counselor's approval, visit an active mining site, quarry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Mineral Extraction Field Study Options: Scouts investigate practical resource extraction by selecting either an active quarry site visit, an in-depth rock and mineral utilization analysis, or a civil engineering consultation. Each elective path demonstrates how raw industrial minerals and aggregates transform into modern infrastructure and consumer products (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p066_img1.png",
               "workbook_diagram_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
-              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops."
+              "workbook_visual_caption": "Intruding mineral veins crosscut ancient rock formations in geological outcrops.",
+              "socratic_questions": [
+                "How do everyday materials quarried from the earth support the buildings, roads, and utilities in your local town?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2370,8 +2436,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4d(1), many Scouts assume create a chart showing suggested geological only requires a general overview rather than specific details on create a chart showing suggested geological eras and periods.",
-                "fact": "The official Geology pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document create a chart showing suggested geological and explain create a chart showing suggested geological eras and periods during counselor review."
+                "misconception": "All rock layers visible on the surface of a state or county formed simultaneously during the same geological period.",
+                "fact": "Surface geology features bedrock formed across diverse geological periods separated by millions of years of deposition, mountain building, and erosional unconformities."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2397,15 +2463,18 @@
               "id": "4d(1)",
               "sub_req_label": "4d(1)",
               "sub_req_text": "Create a chart showing suggested geological eras and periods. Determine which period the rocks in your region might have been formed.",
-              "topic_title": "Req 4d(1): Create a chart showing suggested geological",
-              "pamphlet_summary": "Create a chart showing suggested geological: The Geology pamphlet for Requirement 4d(1) details create a chart showing suggested geological eras and periods, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(1): Geological Time Scale Regional Mapping",
+              "pamphlet_summary": "Geological Time Scale Regional Mapping: Drafting a geologic time chart illustrates the sequential division of earth history into eons, eras, periods, and epochs based on major evolutionary and stratigraphic markers. Cross-referencing local geologic survey maps identifies the specific periods during which regional bedrock formations originated (p. 66).",
               "pamphlet_excerpts": [
-                "Create a chart showing suggested geological: The Geology pamphlet for Requirement 4d(1) details create a chart showing suggested geological eras and periods, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Geological Time Scale Regional Mapping: Drafting a geologic time chart illustrates the sequential division of earth history into eons, eras, periods, and epochs based on major evolutionary and stratigraphic markers. Cross-referencing local geologic survey maps identifies the specific periods during which regional bedrock formations originated (p. 66)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
-              "title": "Req 4d(1): Create a chart showing suggested geological",
+              "title": "Req 4d(1): Geological Time Scale Regional Mapping",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "How do state geological survey maps allow us to discover which prehistoric era created the bedrock beneath our hometown?"
+              ]
             },
             {
               "sub_id": "4d(2)",
@@ -2446,8 +2515,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "When preparing Geology Requirement 4d(2) (Theory of Plate Tectonics), Scouts sometimes overlook the concrete pamphlet benchmarks covering the theory of plate tectonics.",
-                "fact": "Counselor verification for Geology Requirement 4d(2) requires concrete workbook evidence on theory of plate tectonics, specifically addressing the theory of plate tectonics."
+                "misconception": "Earthquakes and volcanic eruptions occur at completely random locations across the continental interior rather than along plate margins.",
+                "fact": "The vast majority of terrestrial earthquakes and volcanoes concentrate along oceanic ridges, subduction zones, and transform fault lines where tectonic plates interact."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2473,14 +2542,17 @@
               "id": "4d(2)",
               "sub_req_label": "4d(2)",
               "sub_req_text": "Explain the theory of plate tectonics. Make a chart explaining, or discuss with your counselor, how the processes of plate tectonics work. Discuss how plate tectonics determines the distribution of most of the Earth's volcanoes, earthquakes, and mountain belts.",
-              "topic_title": "Req 4d(2): Theory of Plate Tectonics",
-              "pamphlet_summary": "Theory of Plate Tectonics: The Geology pamphlet for Requirement 4d(2) details the theory of plate tectonics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(2): Global Plate Tectonics Dynamic Processes",
+              "pamphlet_summary": "Global Plate Tectonics Dynamic Processes: The theory of plate tectonics describes how lithospheric plates glide across the ductile asthenosphere driven by mantle convection currents. Charts must demonstrate divergent, convergent, and transform boundaries, linking crustal collisions to deep ocean trenches, volcanic arcs, seismic fault zones, and folded mountain chains (p. 69).",
               "pamphlet_excerpts": [
-                "Theory of Plate Tectonics: The Geology pamphlet for Requirement 4d(2) details the theory of plate tectonics, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Global Plate Tectonics Dynamic Processes: The theory of plate tectonics describes how lithospheric plates glide across the ductile asthenosphere driven by mantle convection currents. Charts must demonstrate divergent, convergent, and transform boundaries, linking crustal collisions to deep ocean trenches, volcanic arcs, seismic fault zones, and folded mountain chains (p. 69)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "Why do the world map locations of high mountain belts, major earthquakes, and active volcanoes match the boundary lines of tectonic plates?"
+              ]
             },
             {
               "sub_id": "4d(3)",
@@ -2525,8 +2597,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "For Geology Requirement 4d(3), a common mistake in processes of burial and fossilization is treating the processes of burial and fossilization, and discuss the concept of extinction as optional background reading.",
-                "fact": "Mastering Geology Requirement 4d(3) means following the pamphlet standard for processes of burial and fossilization and recording accurate notes on the processes of burial and fossilization, and discuss the concept of extinction."
+                "misconception": "Every dead prehistoric organism eventually turns into a fossil regardless of scavengers, oxygen exposure, or burial speed.",
+                "fact": "Fossilization is an exceptionally rare event requiring rapid burial in fine sediment to shield organic remains from bacterial decomposition and physical weathering."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2552,14 +2624,17 @@
               "id": "4d(3)",
               "sub_req_label": "4d(3)",
               "sub_req_text": "Explain to your counselor the processes of burial and fossilization, and discuss the concept of extinction.",
-              "topic_title": "Req 4d(3): Processes of Burial and Fossilization",
-              "pamphlet_summary": "Processes of Burial and Fossilization: The Geology pamphlet for Requirement 4d(3) details the processes of burial and fossilization, and discuss the concept of extinction, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(3): Burial Fossilization And Extinction Dynamics",
+              "pamphlet_summary": "Burial Fossilization And Extinction Dynamics: Fossil formation requires rapid burial in anoxic sediment to prevent scavenger decay, followed by mineral replacement, permineralization, or carbonization over geological time. Discussions of extinction address both background species turnover and catastrophic mass extinction pulses that permanently eliminate entire taxonomic lineages from the fossil record (p. 71).",
               "pamphlet_excerpts": [
-                "Processes of Burial and Fossilization: The Geology pamphlet for Requirement 4d(3) details the processes of burial and fossilization, and discuss the concept of extinction, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Burial Fossilization And Extinction Dynamics: Fossil formation requires rapid burial in anoxic sediment to prevent scavenger decay, followed by mineral replacement, permineralization, or carbonization over geological time. Discussions of extinction address both background species turnover and catastrophic mass extinction pulses that permanently eliminate entire taxonomic lineages from the fossil record (p. 71)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "Why must an organism be buried rapidly in an environment without oxygen for its bones or shells to fossilize?"
+              ]
             },
             {
               "sub_id": "4d(4)",
@@ -2646,8 +2721,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "During Geology Requirement 4d(4), Scouts can underestimate how directly mastery of fossils provide information about ancient depends on understanding how fossils provide information about ancient life, environment, climate, and geography.",
-                "fact": "Scouting America standards for Geology Requirement 4d(4) require complete workbook entries on fossils provide information about ancient to demonstrate full understanding of how fossils provide information about ancient life, environment, climate, and geography."
+                "misconception": "Finding fossilized marine seashells on high mountain ridges indicates that ocean clams once crawled uphill to live on dry alpine ground.",
+                "fact": "Marine fossils discovered in high mountain strata prove that ancient tectonic uplift elevated sediment layers that originally formed on prehistoric ocean floors."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2673,14 +2748,17 @@
               "id": "4d(4)",
               "sub_req_label": "4d(4)",
               "sub_req_text": "Explain to your counselor how fossils provide information about ancient life, environment, climate, and geography. Discuss the following terms and explain how animals from each habitat obtain food: benthonic, pelagic, littoral, lacustrine, open marine, brackish, fluvial, eolian, and protected reef.",
-              "topic_title": "Req 4d(4): Fossils Provide Information About Ancient",
-              "pamphlet_summary": "Fossils Provide Information About Ancient: The Geology pamphlet for Requirement 4d(4) details how fossils provide information about ancient life, environment, climate, and geography, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(4): Paleoenvironmental Habitats And Feeding Adaptations",
+              "pamphlet_summary": "Paleoenvironmental Habitats And Feeding Adaptations: Fossil assemblages act as environmental indicators, revealing prehistoric water salinity, regional precipitation, ambient temperature, and paleo-bathymetry. Scouts explain trophic feeding adaptations across habitats, contrasting filter-feeding benthos, predatory pelagic swimmers, littoral grazers, lacustrine deposit feeders, and terrestrial herbivores (p. 74).",
               "pamphlet_excerpts": [
-                "Fossils Provide Information About Ancient: The Geology pamphlet for Requirement 4d(4) details how fossils provide information about ancient life, environment, climate, and geography, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Paleoenvironmental Habitats And Feeding Adaptations: Fossil assemblages act as environmental indicators, revealing prehistoric water salinity, regional precipitation, ambient temperature, and paleo-bathymetry. Scouts explain trophic feeding adaptations across habitats, contrasting filter-feeding benthos, predatory pelagic swimmers, littoral grazers, lacustrine deposit feeders, and terrestrial herbivores (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "How does observing the mouthparts and shell shapes of fossil creatures reveal whether an ancient area was a deep ocean floor or a shallow tidal zone?"
+              ]
             },
             {
               "sub_id": "4d(5)",
@@ -2720,8 +2798,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "In Geology Requirement 4d(5), many Scouts assume fossil plants or animals only requires a general overview rather than specific details on collect 10 different fossil plants or animals or (with your counselor's assistance) identify 15.",
-                "fact": "The official Geology pamphlet for Requirement 4d(5) specifies that Scouts must thoroughly document fossil plants or animals and explain collect 10 different fossil plants or animals or (with your counselor's assistance) identify 15 during counselor review."
+                "misconception": "A fossil specimen only retains scientific value if it contains unaltered original biological bone or petrified wood tissue.",
+                "fact": "External molds, internal casts, carbon films, and trace fossil tracks provide critical scientific evidence regarding organism anatomy, motion, and behavior."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2747,14 +2825,17 @@
               "id": "4d(5)",
               "sub_req_label": "4d(5)",
               "sub_req_text": "Collect 10 different fossil plants or animals OR (with your counselor's assistance) identify 15 different fossil plants or animals. Record in a notebook where you obtained (found, bought, traded) each one. Classify each specimen to the best of your ability, and explain how each one might have survived and obtained food. Tell what else you can learn from these fossils.",
-              "topic_title": "Req 4d(5): Fossil Plants or Animals",
-              "pamphlet_summary": "Fossil Plants or Animals: The Geology pamphlet for Requirement 4d(5) details collect 10 different fossil plants or animals OR (with your counselor's assistance) identify 15 different fossil plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(5): Systematic Fossil Specimen Classification Study",
+              "pamphlet_summary": "Systematic Fossil Specimen Classification Study: Fossil study options require compiling ten field-collected specimens or identifying fifteen curated catalog samples in an annotated research notebook. Scouts record acquisition coordinates, taxonomic groups, preservation modes like molds or casts, and original depositional environments for each specimen (p. 76).",
               "pamphlet_excerpts": [
-                "Fossil Plants or Animals: The Geology pamphlet for Requirement 4d(5) details collect 10 different fossil plants or animals OR (with your counselor's assistance) identify 15 different fossil plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Systematic Fossil Specimen Classification Study: Fossil study options require compiling ten field-collected specimens or identifying fifteen curated catalog samples in an annotated research notebook. Scouts record acquisition coordinates, taxonomic groups, preservation modes like molds or casts, and original depositional environments for each specimen (p. 76)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "How can an empty hollow impression left in ancient shale tell geologists as much about an extinct animal as a mineralized bone?"
+              ]
             },
             {
               "sub_id": "4d(6)",
@@ -2778,15 +2859,15 @@
                   "id": "4d(6)(a)",
                   "sub_req_label": "4d(6)(a)",
                   "sub_req_text": "Visit a science museum or the geology department of a local university that has fossils on display. With your parent or guardian's and counselor's approval, before you go, make an appointment with a curator or guide who can show you how the fossils are preserved and prepared for display.",
-                  "topic_title": "Req 4d(6)(a): Science Museum or The Geology",
+                  "topic_title": "Req 4d(6)(a): University Museum Fossil Preparation Tour",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Science Museum or The Geology: The Geology pamphlet for Requirement 4d(6)(a) details visit a science museum or the geology department of a local university that has fossils on display, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "University Museum Fossil Preparation Tour: Touring a museum paleontology laboratory with a curator demonstrates mechanical air scribes, chemical matrix dissolution, and archival consolidant resins. Scouts observe how field-collected field jackets are opened, stabilized, and cataloged for academic research and public educational displays (p. 79).",
                   "pamphlet_excerpts": [
-                    "Science Museum or The Geology: The Geology pamphlet for Requirement 4d(6)(a) details visit a science museum or the geology department of a local university that has fossils on display, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "University Museum Fossil Preparation Tour: Touring a museum paleontology laboratory with a curator demonstrates mechanical air scribes, chemical matrix dissolution, and archival consolidant resins. Scouts observe how field-collected field jackets are opened, stabilized, and cataloged for academic research and public educational displays (p. 79)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Geology Requirement 4d(6)(a), many Scouts assume science museum or the geology only requires a general overview rather than specific details on visit a science museum or the geology department of a local university that has fossils on display.",
-                    "fact": "The official Geology pamphlet for Requirement 4d(6)(a) specifies that Scouts must thoroughly document science museum or the geology and explain visit a science museum or the geology department of a local university that has fossils on display during counselor review."
+                    "misconception": "Curators extract complete fossils from surrounding matrix rock using ordinary metal hammers and masonry chisels.",
+                    "fact": "Paleontological preparators utilize precision pneumatic micro-air scribes, miniature abrasive blasters, binocular microscopes, and chemical solvents to extract delicate fossil structures without damage."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2821,7 +2902,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "What delicate tools and chemical stabilizers did the museum curator demonstrate to free ancient fossil bones from hardened rock encasements?"
+                  ]
                 },
                 {
                   "sub_id": "4d(6)(b)",
@@ -2834,15 +2918,15 @@
                   "id": "4d(6)(b)",
                   "sub_req_label": "4d(6)(b)",
                   "sub_req_text": "Visit a structure in your area that was built using fossiliferous rocks. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there.",
-                  "topic_title": "Req 4d(6)(b): Structure in Your Area That Was Built",
+                  "topic_title": "Req 4d(6)(b): Fossiliferous Architectural Building Stone Survey",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Structure in Your Area That Was Built: The Geology pamphlet for Requirement 4d(6)(b) details visit a structure in your area that was built using fossiliferous rocks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Fossiliferous Architectural Building Stone Survey: Inspecting civic monuments, historic facades, or limestone government buildings reveals cross-sections of ancient marine life preserved in polished dimensional stone. Scouts identify host rock types such as fossiliferous limestone or coquina and document embedded crinoid stems, bryozoans, corals, and brachiopods (p. 80).",
                   "pamphlet_excerpts": [
-                    "Structure in Your Area That Was Built: The Geology pamphlet for Requirement 4d(6)(b) details visit a structure in your area that was built using fossiliferous rocks, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Fossiliferous Architectural Building Stone Survey: Inspecting civic monuments, historic facades, or limestone government buildings reveals cross-sections of ancient marine life preserved in polished dimensional stone. Scouts identify host rock types such as fossiliferous limestone or coquina and document embedded crinoid stems, bryozoans, corals, and brachiopods (p. 80)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Geology Requirement 4d(6)(b) (Structure in Your Area That Was Built), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit a structure in your area that was built using fossiliferous rocks.",
-                    "fact": "Counselor verification for Geology Requirement 4d(6)(b) requires concrete workbook evidence on structure in your area that was built, specifically addressing visit a structure in your area that was built using fossiliferous rocks."
+                    "misconception": "Polished building stones in downtown city halls and monuments never contain genuine prehistoric biological fossils.",
+                    "fact": "Commercial dimensional stones like Indiana limestone and decorative travertine frequently display intact prehistoric fossil shells, corals, and crinoid stems cut across polished surfaces."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2875,10 +2959,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 4d(6)(b): Structure in Your Area That Was Built",
+                  "title": "Req 4d(6)(b): Fossiliferous Architectural Building Stone Survey",
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "What types of prehistoric marine creatures can you spot embedded in the polished stone walls or steps of our local government buildings?"
+                  ]
                 },
                 {
                   "sub_id": "4d(6)(c)",
@@ -2891,15 +2978,15 @@
                   "id": "4d(6)(c)",
                   "sub_req_label": "4d(6)(c)",
                   "sub_req_text": "Visit a rock outcrop that contains fossils. Determine what kind of rock contains the fossils, and tell your counselor the kinds of fossil evidence you found at the outcrop.",
-                  "topic_title": "Req 4d(6)(c): Rock Outcrop That Contains Fossils",
+                  "topic_title": "Req 4d(6)(c): Fossiliferous Rock Outcrop Field Study",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Rock Outcrop That Contains Fossils: The Geology pamphlet for Requirement 4d(6)(c) details visit a rock outcrop that contains fossils, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "Fossiliferous Rock Outcrop Field Study: Scouts locate an exposed sedimentary rock exposure such as limestone, shale, or siltstone to record bedding characteristics and catalog fossil evidence ranging from intact shells and permineralized structures to molds and trace burrows. Field observations must distinguish the host rock matrix from embedded body or trace fossils and document the preservation style for counselor review (p. 70).",
                   "pamphlet_excerpts": [
-                    "Rock Outcrop That Contains Fossils: The Geology pamphlet for Requirement 4d(6)(c) details visit a rock outcrop that contains fossils, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "Fossiliferous Rock Outcrop Field Study: Scouts locate an exposed sedimentary rock exposure such as limestone, shale, or siltstone to record bedding characteristics and catalog fossil evidence ranging from intact shells and permineralized structures to molds and trace burrows. Field observations must distinguish the host rock matrix from embedded body or trace fossils and document the preservation style for counselor review (p. 70)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Geology Requirement 4d(6)(c), a common mistake in rock outcrop that contains fossils is treating visit a rock outcrop that contains fossils as optional background reading.",
-                    "fact": "Mastering Geology Requirement 4d(6)(c) means following the pamphlet standard for rock outcrop that contains fossils and recording accurate notes on visit a rock outcrop that contains fossils."
+                    "misconception": "Fossils can occur naturally inside igneous rock outcrops like granite or basalt.",
+                    "fact": "Intense volcanic heat and molten magma destroy organic material, so fossils are preserved almost exclusively in layered sedimentary rocks like limestone, shale, and sandstone."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2934,7 +3021,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "When you inspect a fossil-bearing rock ledge outdoors, what characteristics of the rock layer help you identify the stone and determine whether the specimen is a true body fossil or a trace impression?"
+                  ]
                 },
                 {
                   "sub_id": "4d(6)(d)",
@@ -2947,15 +3037,15 @@
                   "id": "4d(6)(d)",
                   "sub_req_label": "4d(6)(d)",
                   "sub_req_text": "Prepare a display or presentation on your state fossil. Include an image of the fossil, the age of the fossil, and its classification. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school). If your state does not have a state fossil, you may select a state fossil from a neighboring state.",
-                  "topic_title": "Req 4d(6)(d): Display or Presentation on Your State Fossil",
+                  "topic_title": "Req 4d(6)(d): State Fossil Presentation and Display",
                   "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
-                  "pamphlet_summary": "Display or Presentation on Your State Fossil: The Geology pamphlet for Requirement 4d(6)(d) details a display or presentation on your state fossil, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+                  "pamphlet_summary": "State Fossil Presentation and Display: Scouts create an informative poster, physical exhibit, or slide presentation highlighting their official state fossil or a designated fossil from an adjacent state. The finished project must feature clear visual illustrations, the geological period and numeric age, and full taxonomic classification from kingdom down through genus or species (p. 70).",
                   "pamphlet_excerpts": [
-                    "Display or Presentation on Your State Fossil: The Geology pamphlet for Requirement 4d(6)(d) details a display or presentation on your state fossil, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                    "State Fossil Presentation and Display: Scouts create an informative poster, physical exhibit, or slide presentation highlighting their official state fossil or a designated fossil from an adjacent state. The finished project must feature clear visual illustrations, the geological period and numeric age, and full taxonomic classification from kingdom down through genus or species (p. 70)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "During Geology Requirement 4d(6)(d), Scouts can underestimate how directly mastery of display or presentation on your state fossil depends on understanding a display or presentation on your state fossil.",
-                    "fact": "Scouting America standards for Geology Requirement 4d(6)(d) require complete workbook entries on display or presentation on your state fossil to demonstrate full understanding of a display or presentation on your state fossil."
+                    "misconception": "Official state fossils must be vertebrate dinosaur skeletons.",
+                    "fact": "State fossils represent diverse prehistoric life forms including marine invertebrates like trilobites, Ice Age mammals like mastodons, and ancient plants like petrified wood."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2992,10 +3082,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 4d(6)(d): Display or Presentation on Your State Fossil",
+                  "title": "Req 4d(6)(d): State Fossil Presentation and Display",
                   "workbook_diagram_url": "assets/images/geology_req_4_nano_hero.png",
                   "workbook_diagram_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
-                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors."
+                  "workbook_visual_caption": "A gloved Scout uses a magnifying lens to inspect fine crystal textures on a rough rock specimen outdoors.",
+                  "socratic_questions": [
+                    "When you investigate the age and habitat of your state fossil, what does that prehistoric organism reveal about how your region's environment looked millions of years ago?"
+                  ]
                 }
               ],
               "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3030,8 +3123,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Geology Merit Badge Pamphlet (p. 70, p. 86)",
               "common_misconception_pair": {
-                "misconception": "When preparing Geology Requirement 4d(6) (Science Museum or The Geology), Scouts sometimes overlook the concrete pamphlet benchmarks covering do one of the following, (a) visit a science museum or the geology department of a local university.",
-                "fact": "Counselor verification for Geology Requirement 4d(6) requires concrete workbook evidence on science museum or the geology, specifically addressing do one of the following, (a) visit a science museum or the geology department of a local university."
+                "misconception": "Museum fossil skeletons on public display are mounted directly from dirt trenches without mechanical cleaning, stabilization, or synthetic replicas.",
+                "fact": "Museum paleontology displays require laboratory matrix removal, structural armature engineering, consolidant stabilization, and casts to protect fragile authentic fossils."
               },
               "starting_requirement_gate": {
                 "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -3062,14 +3155,17 @@
               "id": "4d(6)",
               "sub_req_label": "4d(6)",
               "sub_req_text": "Do ONE of the following: (a) Visit a science museum or the geology department of a local university that has fossils on display. With your parent or guardian's and counselor's approval, before you go, make an appointment with a curator or guide who can show you how the fossils are preserved and prepared for display. (b) Visit a structure in your area that was built using fossiliferous rocks. Determine what kind of rock was used and tell your counselor the kinds of fossil evidence you found there. (c) Visit a rock outcrop that contains fossils. Determine what kind of rock contains the fossils, and tell your counselor the kinds of fossil evidence you found at the outcrop. (d) Prepare a display or presentation on your state fossil. Include an image of the fossil, the age of the fossil, and its classification. You may use maps, books, articles from periodicals, and research found on the internet (with your parent or guardian's permission). Share the display with your counselor or a small group (such as your class at school). If your state does not have a state fossil, you may select a state fossil from a neighboring state.",
-              "topic_title": "Req 4d(6): Science Museum or The Geology",
-              "pamphlet_summary": "Science Museum or The Geology: The Geology pamphlet for Requirement 4d(6) details do ONE of the following, (a) Visit a science museum or the geology department of a local university that has fossils on display, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70).",
+              "topic_title": "Req 4d(6): Fossil Exhibition And Architectural Investigation",
+              "pamphlet_summary": "Fossil Exhibition And Architectural Investigation: Scouts fulfill the capstone paleontology requirement through either an institutional museum preparation tour or an urban architectural survey of fossiliferous building stones. Both activities connect classroom fossil concepts with professional specimen curation or practical structural stone applications (p. 78).",
               "pamphlet_excerpts": [
-                "Science Museum or The Geology: The Geology pamphlet for Requirement 4d(6) details do ONE of the following, (a) Visit a science museum or the geology department of a local university that has fossils on display, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 70)."
+                "Fossil Exhibition And Architectural Investigation: Scouts fulfill the capstone paleontology requirement through either an institutional museum preparation tour or an urban architectural survey of fossiliferous building stones. Both activities connect classroom fossil concepts with professional specimen curation or practical structural stone applications (p. 78)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/geology_p079_img1.png",
               "workbook_diagram_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
-              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone."
+              "workbook_visual_caption": "A geologist examines fossilized plant and shell remains embedded in stone.",
+              "socratic_questions": [
+                "Why do professional museums rely on skilled preparators and specialized tools before placing excavated fossils into public viewing galleries?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -3693,29 +3789,24 @@
         "Sun protection, drinking water, first-aid kit, and Leave No Trace field card"
       ],
       "comparison_data": {
-        "left_header": "Req 5a: Outdoor Code Conservation Principl",
-        "right_header": "Req 5b: Field Practice and Specimen Etique",
-        "left_points": [
-          "(5a) Outdoor Code Conservation Principles: The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park."
-        ],
-        "right_points": [
-          "(5b) Field Practice and Specimen Etiquette: Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples."
-        ],
+        "title": "Outdoor Code vs. Rock & Mineral Collecting Ethics",
+        "left_header": "Scouting Outdoor Code Tenets",
+        "right_header": "Responsible Geological Specimen Collecting",
         "rows": [
           {
-            "attribute": "Leave No Trace in Geology",
-            "left": "(5a) Leave No Trace in Geology: Metamorphic rocks can be formed by contact with magma, by heat and pressure associated with burial of sediments, or by squeezing forces (p. 68).",
-            "right": "(5b) Practicing Outdoor Ethics in Fieldwork: Foliated, or layered, metamorphic rocks generally form from existing rocks that have many different mineral grains (p. 68)."
+            "attribute": "Site Permission & Legal Protection",
+            "left_value": "Be considerate in the outdoors and respect public and private land boundaries.",
+            "right_value": "Never collect rocks, fossils, or minerals in National/State Parks without a permit; obtain landowner permission on private property."
           },
           {
-            "attribute": "Practical Field Application",
-            "left": "Hydrothermal Ore Deposit Formation: Hydrothermal solutions often associated with metamorphic processes penetrate surrounding rocks forming many of the ore deposits found in the world (p. 68).",
-            "right": "Step 2 - Check Multi Mineral Foliated Layers: Foliated, or layered, metamorphic rocks generally form from existing rocks that have many different mineral grains (p. 68)."
+            "attribute": "Minimizing Outcrop & Trail Impact",
+            "left_value": "Be conservation-minded and leave natural features undisturbed for future visitors.",
+            "right_value": "Take only one small representative hand sample from loose talus when possible rather than hammering prominent trailside outcrops."
           },
           {
-            "attribute": "Safety & Verification Standard",
-            "left": "Magma Heat and Burial Pressure: Metamorphic rocks can be formed by contact with magma, by heat and pressure associated with burial of sediments, or by squeezing forces (p. 68).",
-            "right": "Step 3 - Trace Shale to Gneiss Progression: Depending on the degree of metamorphism, shale may be altered to form slate, schist, or gneiss, all of which exhibit foliation but varying grain sizes (p. 68)."
+            "attribute": "Safety & Site Restoration",
+            "left_value": "Be clean in outdoor manners and prevent erosion or hazard creation.",
+            "right_value": "Wear ANSI Z87.1 safety goggles with rock hammers, fill in any small test pits, and never undercut unstable quarry walls."
           }
         ]
       },
@@ -4154,13 +4245,13 @@
       "question": "In Geology Requirement 1, how does James Hutton's principle of uniformitarianism ('the present is the key to the past') help geologists interpret the rock cycle?",
       "options": [
         "A. It states that all rocks on Earth formed simultaneously during a single afternoon and have never changed since.",
-        "B. It explains that the physical, chemical, and biological geological processes observable today (such as volcanic cooling forming igneous rock, weathering and deposition forming sedimentary rock, and heat and pressure forming metamorphic rock) operated by the same natural laws throughout Earth's history.",
+        "B. It explains that the physical, chemical, and biological geological processes observable today.",
         "C. It proves that sedimentary sandstone only forms deep inside the molten outer core of the planet.",
         "D. It states that fossils found in upper rock layers are always millions of years older than undisturbed rock layers buried far beneath them."
       ],
       "choices": [
         "A. It states that all rocks on Earth formed simultaneously during a single afternoon and have never changed since.",
-        "B. It explains that the physical, chemical, and biological geological processes observable today (such as volcanic cooling forming igneous rock, weathering and deposition forming sedimentary rock, and heat and pressure forming metamorphic rock) operated by the same natural laws throughout Earth's history.",
+        "B. It explains that the physical, chemical, and biological geological processes observable today.",
         "C. It proves that sedimentary sandstone only forms deep inside the molten outer core of the planet.",
         "D. It states that fossils found in upper rock layers are always millions of years older than undisturbed rock layers buried far beneath them."
       ],

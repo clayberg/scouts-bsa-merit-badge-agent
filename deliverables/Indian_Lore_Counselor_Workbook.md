@@ -96,7 +96,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Indian Lore technical diagram of native languages, places, and leaders for Requirement 3 field execution.](/assets/pamphlet_images/indian_lore_p012_img1.png)
+![Indian Lore Requirement 3 figure showing sequoyah developed eighty-five written symbols representing every distinct syllable.](/assets/pamphlet_images/indian_lore_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 - **Common Myth:** Beginners frequently assume notable Native American leaders were exclusively historic nineteenth century war chiefs.
 - **Pamphlet Fact:** Distinguished indigenous leaders include contemporary governors, Supreme Court advocates, scientists, writers, and medal recipients.
 
-![Detailed Indian Lore reference illustration comparing key components and stages of american indian cultural areas for Requirement 1.](/assets/pamphlet_images/indian_lore_p003_img1.png)
+![Indian Lore Requirement 1 figure showing bison herds provided portable skin lodge covers, winter clothing, tools, and staple.](/assets/pamphlet_images/indian_lore_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

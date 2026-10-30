@@ -302,18 +302,18 @@
         "options": [
           "A. To pressure the buyer into purchasing the highest-priced item in stock regardless of whether it fits their situation.",
           "B. To memorize a rigid script so you can talk continuously without letting the customer raise objections.",
-          "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value and builds long-term trust.",
+          "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value.",
           "D. To exaggerate product performance claims during the pitch and clarify limitations only after payment is completed."
         ],
         "choices": [
           "A. To pressure the buyer into purchasing the highest-priced item in stock regardless of whether it fits their situation.",
           "B. To memorize a rigid script so you can talk continuously without letting the customer raise objections.",
-          "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value and builds long-term trust.",
+          "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value.",
           "D. To exaggerate product performance claims during the pitch and clarify limitations only after payment is completed."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value and builds long-term trust.",
+        "correct_answer": "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value.",
         "explanation": "Correct Answer (C): Successful salesmanship is built on integrity and helping the customer solve a problem by discovering their needs, presenting honest facts, and answering objections respectfully.",
         "pamphlet_page_ref": "p. 18, p. 20"
       },
@@ -849,14 +849,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Write and present a sales plan for a product and a sales territory assigned by your counselor",
-          "2. Practical execution and real-world examples for Developing a Territory Sales Plan"
+          "1. Write and present a sales plan for a product and a sales territory assigned by your counselor"
         ],
         "rows": [
-          "1. Write and present a sales plan for a product and a sales territory assigned by your counselor",
-          "2. Practical execution and real-world examples for Developing a Territory Sales Plan"
+          "1. Write and present a sales plan for a product and a sales territory assigned by your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Territory sales planning simply involves wandering door-to-door without advance scheduling or customer qualification.",
@@ -1019,14 +1017,12 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Make a sales presentation of a product assigned by your counselor",
-          "2. Practical execution and real-world examples for Delivering a Winning Sales Presentation"
+          "1. Make a sales presentation of a product assigned by your counselor"
         ],
         "rows": [
-          "1. Make a sales presentation of a product assigned by your counselor",
-          "2. Practical execution and real-world examples for Delivering a Winning Sales Presentation"
+          "1. Make a sales presentation of a product assigned by your counselor"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "A successful presentation is a memorized monologue delivered without interruption from the buyer.",
@@ -1565,8 +1561,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Salesmanship Requirement 6a(1), many Scouts assume salesmanship careers and pathways only requires a general overview rather than specific details on what made the person choose sales as a profession.",
-                "fact": "The official Salesmanship pamphlet for Requirement 6a(1) specifies that Scouts must thoroughly document salesmanship careers and pathways and explain what made the person choose sales as a profession during counselor review."
+                "misconception": "Sales representatives enter the industry only because they could not secure employment in their preferred academic or corporate field.",
+                "fact": "Successful sales representatives intentionally enter the profession to achieve financial independence, run autonomous territories, and build long-term business partnerships."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1592,14 +1588,17 @@
               "id": "6a(1)",
               "sub_req_label": "6a(1)",
               "sub_req_text": "What made the person choose sales as a profession.",
-              "topic_title": "Req 6a(1): Salesmanship Careers and Pathways",
-              "pamphlet_summary": "Salesmanship Careers and Pathways: The Salesmanship pamphlet for Requirement 6a(1) details what made the person choose sales as a profession, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6a(1): Motivations for Entering Sales Careers",
+              "pamphlet_summary": "Motivations for Entering Sales Careers: Sales professionals select this career path because of performance-based compensation, schedule flexibility, and opportunities to solve client problems (p. 48).",
               "pamphlet_excerpts": [
-                "Salesmanship Careers and Pathways: The Salesmanship pamphlet for Requirement 6a(1) details what made the person choose sales as a profession, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Motivations for Entering Sales Careers: Sales professionals select this career path because of performance-based compensation, schedule flexibility, and opportunities to solve client problems (p. 48)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "Why might someone with diverse career choices actively decide to build a lifelong career in sales?"
+              ]
             },
             {
               "sub_id": "6a(2)",
@@ -1631,8 +1630,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Salesmanship Requirement 6a(2) (Are The Most Important), Scouts sometimes overlook the concrete pamphlet benchmarks covering what are the most important things to remember when talking to customers.",
-                "fact": "Counselor verification for Salesmanship Requirement 6a(2) requires concrete workbook evidence on are the most important, specifically addressing what are the most important things to remember when talking to customers."
+                "misconception": "Rapid and continuous talking is the most effective way to persuade an undecided buyer to make a purchase.",
+                "fact": "Effective customer communication relies on active listening and diagnostic questions to identify exact needs before recommending a product."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1658,14 +1657,17 @@
               "id": "6a(2)",
               "sub_req_label": "6a(2)",
               "sub_req_text": "What are the most important things to remember when talking to customers.",
-              "topic_title": "Req 6a(2): Are The Most Important",
-              "pamphlet_summary": "Are The Most Important: The Salesmanship pamphlet for Requirement 6a(2) details what are the most important things to remember when talking to customers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6a(2): Core Customer Communication Principles",
+              "pamphlet_summary": "Core Customer Communication Principles: Sales representatives must practice attentive listening and ask open-ended questions to identify buyer needs before presenting product solutions (p. 50).",
               "pamphlet_excerpts": [
-                "Are The Most Important: The Salesmanship pamphlet for Requirement 6a(2) details what are the most important things to remember when talking to customers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Core Customer Communication Principles: Sales representatives must practice attentive listening and ask open-ended questions to identify buyer needs before presenting product solutions (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "What customer cues and statements should a salesperson listen for before recommending a specific product?"
+              ]
             },
             {
               "sub_id": "6a(3)",
@@ -1697,8 +1699,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Salesmanship Requirement 6a(3), a common mistake in product sold is treating how is the product sold as optional background reading.",
-                "fact": "Mastering Salesmanship Requirement 6a(3) means following the pamphlet standard for product sold and recording accurate notes on how is the product sold."
+                "misconception": "Every manufactured product is sold directly to individual shoppers through standard retail storefronts.",
+                "fact": "Products move through multiple channels such as business-to-business contracts, wholesale distributors, independent brokers, and retail stores."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1724,14 +1726,17 @@
               "id": "6a(3)",
               "sub_req_label": "6a(3)",
               "sub_req_text": "How is the product sold.",
-              "topic_title": "Req 6a(3): Product Sold",
-              "pamphlet_summary": "Product Sold: The Salesmanship pamphlet for Requirement 6a(3) details how is the product sold, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6a(3): Product Sales and Distribution Methods",
+              "pamphlet_summary": "Product Sales and Distribution Methods: Representatives explain how products travel through wholesale distribution networks, direct corporate contracts, or retail channels to reach buyers (p. 51).",
               "pamphlet_excerpts": [
-                "Product Sold: The Salesmanship pamphlet for Requirement 6a(3) details how is the product sold, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Product Sales and Distribution Methods: Representatives explain how products travel through wholesale distribution networks, direct corporate contracts, or retail channels to reach buyers (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "How does the sales process for supplying bulk parts to a factory differ from selling goods to a retail store shopper?"
+              ]
             },
             {
               "sub_id": "6a(4)",
@@ -1763,8 +1768,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Salesmanship Requirement 6a(4), Scouts can underestimate how directly mastery of include your own questions depends on understanding include your own questions.",
-                "fact": "Scouting America standards for Salesmanship Requirement 6a(4) require complete workbook entries on include your own questions to demonstrate full understanding of include your own questions."
+                "misconception": "Student interview questions should focus strictly on how much money the salesperson earns in a typical week.",
+                "fact": "Scouts gain deeper insight by formulating questions about handling customer objections, daily routines, ethical decisions, and necessary career preparation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1790,14 +1795,17 @@
               "id": "6a(4)",
               "sub_req_label": "6a(4)",
               "sub_req_text": "Include your own questions.",
-              "topic_title": "Req 6a(4): Include Your Own Questions",
-              "pamphlet_summary": "Include Your Own Questions: The Salesmanship pamphlet for Requirement 6a(4) details include your own questions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6a(4): Independent Sales Interview Inquiries",
+              "pamphlet_summary": "Independent Sales Interview Inquiries: Scouts develop original questions about daily challenges, rejection management, required training, and ethical practices before conducting the interview (p. 52).",
               "pamphlet_excerpts": [
-                "Include Your Own Questions: The Salesmanship pamphlet for Requirement 6a(4) details include your own questions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Independent Sales Interview Inquiries: Scouts develop original questions about daily challenges, rejection management, required training, and ethical practices before conducting the interview (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "What interview question could you ask a salesperson to discover how they handle difficult days when no one buys?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1904,8 +1912,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Salesmanship Requirement 6b(1), many Scouts assume often is the owner approached only requires a general overview rather than specific details on how often is the owner approached by a sales representative.",
-                "fact": "The official Salesmanship pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document often is the owner approached and explain how often is the owner approached by a sales representative during counselor review."
+                "misconception": "Store owners only interact with sales representatives after submitting a formal request for new inventory.",
+                "fact": "Retail merchants encounter continuous weekly sales solicitations from competitive suppliers trying to secure limited shelf space."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1931,14 +1939,17 @@
               "id": "6b(1)",
               "sub_req_label": "6b(1)",
               "sub_req_text": "How often is the owner approached by a sales representative.",
-              "topic_title": "Req 6b(1): Often Is The Owner Approached",
-              "pamphlet_summary": "Often Is The Owner Approached: What is it like working with sales representatives in your business? representative (p. 39).",
+              "topic_title": "Req 6b(1): Frequency of Vendor Sales Pitches",
+              "pamphlet_summary": "Frequency of Vendor Sales Pitches: Retail business owners routinely receive dozens of sales solicitations each week through unannounced visits, phone calls, and wholesale catalogs (p. 53).",
               "pamphlet_excerpts": [
-                "Often Is The Owner Approached: What is it like working with sales representatives in your business? representative (p. 39)."
+                "Frequency of Vendor Sales Pitches: Retail business owners routinely receive dozens of sales solicitations each week through unannounced visits, phone calls, and wholesale catalogs (p. 53)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "How do you think a busy store manager balances running daily operations with listening to dozens of visiting sales representatives?"
+              ]
             },
             {
               "sub_id": "6b(2)",
@@ -1977,8 +1988,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Salesmanship Requirement 6b(2) (What good traits should a sales), Scouts sometimes overlook the concrete pamphlet benchmarks covering what good traits should a sales representative.",
-                "fact": "Counselor verification for Salesmanship Requirement 6b(2) requires concrete workbook evidence on what good traits should a sales, specifically addressing what good traits should a sales representative."
+                "misconception": "High-pressure tactics and stubborn persistence are traits that retail buyers respect in vendor representatives.",
+                "fact": "Retail managers prefer representatives who show dependability, honesty, and respect for store operating hours rather than aggressive sales tactics."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2004,14 +2015,17 @@
               "id": "6b(2)",
               "sub_req_label": "6b(2)",
               "sub_req_text": "What good traits should a sales representative have? What habits should the sales representative avoid.",
-              "topic_title": "Req 6b(2): What good traits should a sales",
-              "pamphlet_summary": "What good traits should a sales: The Salesmanship pamphlet for Requirement 6b(2) details what good traits should a sales representative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6b(2): Professional Sales Traits and Habits",
+              "pamphlet_summary": "Professional Sales Traits and Habits: Retail buyers value punctuality, integrity, and product expertise, while avoiding representatives who pressure buyers or interrupt busy floor hours (p. 54).",
               "pamphlet_excerpts": [
-                "What good traits should a sales: The Salesmanship pamphlet for Requirement 6b(2) details what good traits should a sales representative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Professional Sales Traits and Habits: Retail buyers value punctuality, integrity, and product expertise, while avoiding representatives who pressure buyers or interrupt busy floor hours (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "What bad habits might a sales representative display that would prompt a retail owner to cancel their vendor relationship?"
+              ]
             },
             {
               "sub_id": "6b(3)",
@@ -2043,8 +2057,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Salesmanship Requirement 6b(3), a common mistake in what does the owner consider is treating what does the owner consider when deciding whether to establish an account with a sales representative as optional background reading.",
-                "fact": "Mastering Salesmanship Requirement 6b(3) means following the pamphlet standard for what does the owner consider and recording accurate notes on what does the owner consider when deciding whether to establish an account with a sales representative."
+                "misconception": "Merchants open accounts with sales representatives solely because the representative is friendly and likeable.",
+                "fact": "Store owners decide to establish accounts based on profit margins, reliable shipping timelines, return allowances for damaged goods, and proven customer demand."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2070,15 +2084,18 @@
               "id": "6b(3)",
               "sub_req_label": "6b(3)",
               "sub_req_text": "What does the owner consider when deciding whether to establish an account with a sales representative.",
-              "topic_title": "Req 6b(3): What does the owner consider",
-              "pamphlet_summary": "What does the owner consider: The Salesmanship pamphlet for Requirement 6b(3) details what does the owner consider when deciding whether to establish an account with a sales representative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6b(3): Retail Vendor Account Evaluation Criteria",
+              "pamphlet_summary": "Retail Vendor Account Evaluation Criteria: Store owners review wholesale profit margins, payment terms, return policies for unsold items, and local consumer demand before opening an account (p. 55).",
               "pamphlet_excerpts": [
-                "What does the owner consider: The Salesmanship pamphlet for Requirement 6b(3) details what does the owner consider when deciding whether to establish an account with a sales representative, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Retail Vendor Account Evaluation Criteria: Store owners review wholesale profit margins, payment terms, return policies for unsold items, and local consumer demand before opening an account (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
-              "title": "Req 6b(3): What does the owner consider",
+              "title": "Req 6b(3): Retail Vendor Account Evaluation Criteria",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "What business factors must a shop owner evaluate before agreeing to stock a new product on store shelves?"
+              ]
             },
             {
               "sub_id": "6b(4)",
@@ -2110,8 +2127,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Salesmanship Requirement 6b(4), Scouts can underestimate how directly mastery of include questions depends on understanding include at least two of your own questions.",
-                "fact": "Scouting America standards for Salesmanship Requirement 6b(4) require complete workbook entries on include questions to demonstrate full understanding of include at least two of your own questions."
+                "misconception": "Asking store owners two basic questions about item prices fulfills the requirement to explore retail management.",
+                "fact": "Scouts must design thoughtful inquiries investigating inventory shrinkage, supplier disputes, pricing markups, or community buying trends."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2137,14 +2154,17 @@
               "id": "6b(4)",
               "sub_req_label": "6b(4)",
               "sub_req_text": "Include at least two of your own questions.",
-              "topic_title": "Req 6b(4): Include Questions",
-              "pamphlet_summary": "Include Questions: The Salesmanship pamphlet for Requirement 6b(4) details include at least two of your own questions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39).",
+              "topic_title": "Req 6b(4): Custom Retailer Management Interview Questions",
+              "pamphlet_summary": "Custom Retailer Management Interview Questions: Scouts create at least two targeted questions addressing inventory management, local store competition, or seasonal merchandise planning (p. 55).",
               "pamphlet_excerpts": [
-                "Include Questions: The Salesmanship pamphlet for Requirement 6b(4) details include at least two of your own questions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 39)."
+                "Custom Retailer Management Interview Questions: Scouts create at least two targeted questions addressing inventory management, local store competition, or seasonal merchandise planning (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/salesmanship_p009_img1.png",
               "workbook_diagram_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
-              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship."
+              "workbook_visual_caption": "A Scout presents a fundraising product to a homeowner at the front door to practice salesmanship.",
+              "socratic_questions": [
+                "What two questions would give you the clearest picture of how a store owner decides which items get prime display space?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2729,13 +2749,13 @@
       "options": [
         "A. To pressure the buyer into purchasing the highest-priced item in stock regardless of whether it fits their situation.",
         "B. To memorize a rigid script so you can talk continuously without letting the customer raise objections.",
-        "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value and builds long-term trust.",
+        "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value.",
         "D. To exaggerate product performance claims during the pitch and clarify limitations only after payment is completed."
       ],
       "choices": [
         "A. To pressure the buyer into purchasing the highest-priced item in stock regardless of whether it fits their situation.",
         "B. To memorize a rigid script so you can talk continuously without letting the customer raise objections.",
-        "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value and builds long-term trust.",
+        "C. To understand the customer's actual needs and budget so you can honestly recommend a product or service that provides genuine value.",
         "D. To exaggerate product performance claims during the pitch and clarify limitations only after payment is completed."
       ],
       "correct_index": 2,

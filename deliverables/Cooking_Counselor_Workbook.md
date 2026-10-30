@@ -49,7 +49,7 @@
 - **Common Myth:** Beginners believe dull knives are safer than sharp knives because dull edges cut less.
 - **Pamphlet Fact:** Dull knives slip off food surfaces under excessive pressure and cause deep puncture wounds.
 
-![Illustrated Cooking technical diagram of kitchen safety and food sanitation for Requirement 1 field execution.](/assets/pamphlet_images/cooking_p003_img1.png)
+![Cooking Requirement 1 figure showing perishable foods spoil rapidly between forty degrees and one hundred forty degrees.](/assets/pamphlet_images/cooking_p003_img1.png)
 
 | Hazard / Risk Factor | How to Anticipate & Spot Early | Preventive Controls & PPE | Acute First-Aid Response |
 | :--- | :--- | :--- | :--- |
@@ -141,7 +141,7 @@
 - **Common Myth:** Beginners assume potato chips count toward the vegetable group on MyPlate.
 - **Pamphlet Fact:** Fried snack chips contain excess sodium and fats, excluding them from vegetable serving counts.
 
-![Step-by-step Cooking visual guide highlighting daily nutrition and myplate guidelines positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/cooking_p007_img1.png)
+![Cooking Requirement 2 figure showing fill half your plate with colorful fruits and vegetables at every meal.](/assets/pamphlet_images/cooking_p007_img1.png)
 
 | USDA MyPlate Food Group | Two Examples of Foods in Group | Recommended Daily Servings (Youth) & Nutritional Benefit |
 | :--- | :--- | :--- |
@@ -234,7 +234,7 @@
 - **Common Myth:** Scouts believe boiling and simmering foods occur at the exact same liquid temperature.
 - **Pamphlet Fact:** Boiling occurs at two hundred twelve degrees Fahrenheit, whereas simmering remains between one hundred eighty-five and two hundred.
 
-![Detailed Cooking reference illustration comparing key components and stages of fundamental cooking methods and equipment for Requirement 3.](/assets/pamphlet_images/cooking_p012_img1.png)
+![Cooking Requirement 3 figure showing enclose baked items within Dutch ovens banked with charcoal on top and bottom.](/assets/pamphlet_images/cooking_p012_img1.png)
 
 | Cooking Method | How Heat Transfers & Equipment Used | Temperature Control & Example Camp/Home Dish |
 | :--- | :--- | :--- |

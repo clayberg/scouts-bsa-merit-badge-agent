@@ -75,7 +75,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Three- or Four-paragraph Treatment
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Moviemaking reference illustration comparing key components and stages of treatments, storyboards, and shooting techniques for Requirement 2.](/assets/pamphlet_images/moviemaking_p007_img1.png)
+![Moviemaking Requirement 2 figure showing narrative prose outlines character motives and visual story progression.](/assets/pamphlet_images/moviemaking_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -112,7 +112,7 @@
 - **Common Myth:** Novices assume panning should be performed rapidly to capture entire scenic vistas in one sweep.
 - **Pamphlet Fact:** Smooth camera pans must move slowly enough for viewer eyes to track details comfortably without blurring.
 
-![Step-by-step Moviemaking visual guide highlighting visual storytelling and camera composition positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/moviemaking_p003_img1.png)
+![Moviemaking Requirement 1 figure showing positioning cameras on one side of action maintains consistent screen direction across cuts.](/assets/pamphlet_images/moviemaking_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -135,11 +135,11 @@
 - Producing a presentation for a pack or troop requires executing a treatment through filming and editing into a final video. Scouts demonstrate technical craftsmanship by screening the finished motion picture before a live audience.
 - Req 2d Standard (Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)): Using motion picture shooting techniques, plan ONE of the following programs. Start with a treatment and complete the requirement by presenting this program to a pack or your troop, patrol, or class. (1) Film a court of honor and show it to an audience. (2) Create a short feature of your own design, using the techniques you learned. (3) Shoot a vignette that could be used to train a new Scout in a Scouting skill.
 
-#### Req 2d(1): Court of Honor
+#### Req 2d(1): Court of Honor Event Production
 **Official Requirement 2d(1):** Film a court of honor and show it to an audience.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)* • **Organizer (Concept & Examples Notes):** Req 2d(1) Structured Technical Study & Explanation Matrix (Court of Honor)
-- **Common Myth:** In Moviemaking Requirement 2d(1), many Scouts assume court of honor only requires a general overview rather than specific details on film a court of honor and show it to an audience.
-- **Pamphlet Fact:** The official Moviemaking pamphlet for Requirement 2d(1) specifies that Scouts must thoroughly document court of honor and explain film a court of honor and show it to an audience during counselor review.
+- **Common Myth:** Recording an entire ceremony from one fixed wide shot at the back of the room yields an engaging documentary.
+- **Pamphlet Fact:** Single-camera wide coverage produces distant audio and repetitive visuals that quickly lose audience attention.
 
 ![Riders on horseback traverse a mountain meadow illustrating scenic location scouting.](/assets/pamphlet_images/moviemaking_p032_img2.png)
 
@@ -149,11 +149,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2d(2): Short Feature
+#### Req 2d(2): Original Narrative Short Feature Production
 **Official Requirement 2d(2):** Create a short feature of your own design, using the techniques you learned.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)* • **Organizer (Concept & Examples Notes):** Req 2d(2) Structured Technical Study & Explanation Matrix (Short Feature of Your Own)
-- **Common Myth:** When preparing Moviemaking Requirement 2d(2) (Short Feature), Scouts sometimes overlook the concrete pamphlet benchmarks covering create a short feature of your own design, using the techniques you learned.
-- **Pamphlet Fact:** Counselor verification for Moviemaking Requirement 2d(2) requires concrete workbook evidence on short feature, specifically addressing create a short feature of your own design, using the techniques you learned.
+- **Common Myth:** Improvising scenes on location without a script or shot list allows for greater cinematic creativity and spontaneity.
+- **Pamphlet Fact:** Shooting without a prepared shot list leads to continuity errors, missing plot coverage, and unworkable footage in the editing suite.
 
 ![A uniformed scout uses a laptop computer and digital media to edit an independent film project.](/assets/pamphlet_images/moviemaking_p033_img1.png)
 
@@ -163,11 +163,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2d(3): Vignette Could Used Train
+#### Req 2d(3): Scout Skill Instructional Video Vignette
 **Official Requirement 2d(3):** Shoot a vignette that could be used to train a new Scout in a Scouting skill.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)* • **Organizer (Concept & Examples Notes):** Req 2d(3) Structured Technical Study & Explanation Matrix (Vignette Could Used Train)
-- **Common Myth:** For Moviemaking Requirement 2d(3), a common mistake in vignette could used train is treating shoot a vignette that could be used to train a new scout in a scouting skill as optional background reading.
-- **Pamphlet Fact:** Mastering Moviemaking Requirement 2d(3) means following the pamphlet standard for vignette could used train and recording accurate notes on shoot a vignette that could be used to train a new scout in a scouting skill.
+- **Common Myth:** Showing an experienced Scout performing a skill at normal real-time speed is sufficient for a beginner to learn the technique.
+- **Pamphlet Fact:** Effective instructional videos require tight close-up angles, deliberate step-by-step pacing, and clear verbal callouts so novices can follow each movement.
 
 ![A scout in uniform grips a compact digital video camera to capture dynamic footage.](/assets/pamphlet_images/moviemaking_p036_img1.png)
 
@@ -198,7 +198,7 @@
 - **Common Myth:** Visitors expect studio sets to be quiet, leisurely work environments with minimal equipment coordination.
 - **Pamphlet Fact:** Professional soundstages operate on demanding schedules coordinated by assistant directors and meticulous safety protocols.
 
-![Practical Moviemaking field visual showing proper setup, measurement, and technique for studio production sets and zoom lenses in Requirement 3.](/assets/pamphlet_images/moviemaking_p012_img1.png)
+![Moviemaking Requirement 3 figure showing studio environments operate under strict safety guidelines, departmental hierarchy.](/assets/pamphlet_images/moviemaking_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

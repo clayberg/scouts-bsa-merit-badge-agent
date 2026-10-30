@@ -152,19 +152,19 @@
         "question": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
         "options": [
           "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
-          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires.",
           "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
           "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
         ],
         "choices": [
           "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
-          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+          "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires.",
           "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
           "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "correct_answer": "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires.",
         "explanation": "Correct Answer (B): Three of anything (three whistle blasts, three fires or smoke columns, three light flashes) and Morse code SOS (three dots, three dashes, three dots) are universally recognized emergency distress signals.",
         "pamphlet_page_ref": "p. 7, p. 8"
       },
@@ -913,8 +913,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
-                "misconception": "In Signs, Signals, and Codes Requirement 4c(1), many Scouts assume spell your first name using semaphore only requires a general overview rather than specific details on spell your first name using semaphore.",
-                "fact": "The official Signs, Signals, and Codes pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document spell your first name using semaphore and explain spell your first name using semaphore during counselor review."
+                "misconception": "Signalers can transmit a complete sentence continuously without pausing or resetting their flags between individual words.",
+                "fact": "Senders must return both flags downward to the rest position after each word so the receiver can distinguish word boundaries."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -940,14 +940,17 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "Spell your first name using semaphore. Send or receive a message of six to 10 words using semaphore.",
-              "topic_title": "Req 4c(1): Spell your first name using semaphore",
-              "pamphlet_summary": "Spell your first name using semaphore: By sight or touch, decode a braille message at least six words long (p. 6).",
+              "topic_title": "Req 4c(1): Semaphore Name And Message Transmission",
+              "pamphlet_summary": "Semaphore Name And Message Transmission: Signaling requires holding two flags with arms fully extended along precise clock angles while facing the receiver directly. Senders must drop both flags to the rest position across the lower body to mark the completion of each word (p. 21).",
               "pamphlet_excerpts": [
-                "Spell your first name using semaphore: By sight or touch, decode a braille message at least six words long (p. 6)."
+                "Semaphore Name And Message Transmission: Signaling requires holding two flags with arms fully extended along precise clock angles while facing the receiver directly. Senders must drop both flags to the rest position across the lower body to mark the completion of each word (p. 21)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
               "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
-              "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4."
+              "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
+              "socratic_questions": [
+                "If you are watching a sender transmit a ten-word sentence across an open field, how would you distinguish where one word ends and the next begins?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -979,8 +982,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)",
               "common_misconception_pair": {
-                "misconception": "When preparing Signs, Signals, and Codes Requirement 4c(2) (Using illustrations or photographs, identify 10), Scouts sometimes overlook the concrete pamphlet benchmarks covering using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.",
-                "fact": "Counselor verification for Signs, Signals, and Codes Requirement 4c(2) requires concrete workbook evidence on using illustrations or photographs, identify 10, specifically addressing using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance."
+                "misconception": "Nautical flags function solely as an alphabet to spell out written words letter by letter.",
+                "fact": "Individual nautical flags have standardized international meanings that convey immediate navigational status and emergency warnings without spelling words."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1006,14 +1009,17 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.",
-              "topic_title": "Req 4c(2): Using illustrations or photographs, identify 10",
-              "pamphlet_summary": "Using illustrations or photographs, identify 10: The Signs, Signals, and Codes pamphlet for Requirement 4c(2) details using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 6).",
+              "topic_title": "Req 4c(2): Nautical Flag Identification And Significance",
+              "pamphlet_summary": "Nautical Flag Identification And Significance: The International Code of Signals uses standardized geometric patterns and high-contrast colors across forty distinct flags, including letters, numerals, and pennants. Ships hoist these flags individually for urgent safety warnings, such as notifying nearby vessels of divers in the water or hazardous cargo, or in combinations to transmit complex navigational messages (p. 26).",
               "pamphlet_excerpts": [
-                "Using illustrations or photographs, identify 10: The Signs, Signals, and Codes pamphlet for Requirement 4c(2) details using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 6)."
+                "Nautical Flag Identification And Significance: The International Code of Signals uses standardized geometric patterns and high-contrast colors across forty distinct flags, including letters, numerals, and pennants. Ships hoist these flags individually for urgent safety warnings, such as notifying nearby vessels of divers in the water or hazardous cargo, or in combinations to transmit complex navigational messages (p. 26)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/signs_signals_and_codes_p004_img1.png",
               "workbook_diagram_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
-              "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4."
+              "workbook_visual_caption": "Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals, and codes give your counselor a brief reference figure positioning and inspection checkpoints for Requirement 4.",
+              "socratic_questions": [
+                "Why does international maritime law assign complete emergency meanings to single flags rather than requiring crews to spell out every warning letter by letter?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3281,13 +3287,13 @@
       "question": "What is the universal international distress call in Morse code, and what pattern of audible or visual signals is recognized worldwide as an emergency call for help?",
       "options": [
         "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
-        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires.",
         "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
         "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
       ],
       "choices": [
         "A. Four short flashes followed by two long whistle blasts, repeated once every hour.",
-        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires, or three flashes of light.",
+        "B. SOS in Morse code (three dots, three dashes, three dots), or three of any signal such as three whistle blasts, three signal fires.",
         "C. A single continuous horn blast lasting ten seconds or waving a green flag overhead.",
         "D. Two short whistle blasts repeated every thirty seconds, which means all clear in wilderness navigation."
       ],

@@ -63,7 +63,7 @@
 - **Common Myth:** Branches along the outer bank create convenient handholds for pausing in heavy current.
 - **Pamphlet Fact:** Submerged trees sweep water through branches that snare equipment, clothing, and paddlers under continuous river pressure.
 
-![Step-by-step Whitewater visual guide highlighting whitewater hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/whitewater_p003_img1.png)
+![Whitewater Requirement 1 figure showing fallen river trees allow water passage while trapping boats against branches.](/assets/pamphlet_images/whitewater_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 - **Common Myth:** Lifejackets are optional on calm river pools between major whitewater rapid sections.
 - **Pamphlet Fact:** Safety Afloat mandates trained adult supervision, continuous lifejacket wear, and designated safety kayakers for moving water trips.
 
-![Practical Whitewater field visual showing proper setup, measurement, and technique for prerequisite canoe and kayak skills in Requirement 3.](/assets/pamphlet_images/whitewater_p012_img1.png)
+![Whitewater Requirement 3 figure showing mastery of basic flatwater strokes provides the mechanical foundation for moving water.](/assets/pamphlet_images/whitewater_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Detailed Whitewater reference illustration comparing key components and stages of river features and boat control for Requirement 2.](/assets/pamphlet_images/whitewater_p007_img1.png)
+![Whitewater Requirement 2 figure showing smooth water pointing downstream indicates the deepest unobstructed path.](/assets/pamphlet_images/whitewater_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -250,11 +250,11 @@
 - Tandem canoeists master bow draws, prys, cross forward strokes, and sculling draws to coordinate boat direction precisely. Both paddlers coordinate cadence and balance to execute synchronized pivots on calm water.
 - Req 4a Standard (Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)): Option A, Tandem Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw. (2) Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry. (3) Demonstrate a high brace, low brace, and righting pry.
 
-#### Req 4a(1): Strokes in The Bow Cross
+#### Req 4a(1): Tandem Canoe Bow Steering Strokes
 **Official Requirement 4a(1):** Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes in The Bow Cross)
-- **Common Myth:** In Whitewater Requirement 4a(1), many Scouts assume strokes in the bow cross only requires a general overview rather than specific details on the following strokes in the bow, cross forward, bow draw, cross bow draw, bow pry, and sculling draw.
-- **Pamphlet Fact:** The official Whitewater pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document strokes in the bow cross and explain the following strokes in the bow, cross forward, bow draw, cross bow draw, bow pry, and sculling draw during counselor review.
+- **Common Myth:** Switching to an offside cross bow draw requires swapping top and bottom hand positions on the paddle shaft.
+- **Pamphlet Fact:** Bow paddlers perform the cross bow draw by rotating the torso across the opposite gunwale while keeping their original paddle grip unchanged.
 
 ![Curved arrows show paddle rotation around the canoe hull during a sweep turn.](/assets/pamphlet_images/whitewater_p050_img1.png)
 
@@ -272,11 +272,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): Strokes in The Stern Stern
+#### Req 4a(2): Tandem Canoe Stern Control Strokes
 **Official Requirement 4a(2):** Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4a(2) Hands-On Skill Station & EDGE Verification Checklist (Strokes in The Stern Stern)
-- **Common Myth:** When preparing Whitewater Requirement 4a(2) (Strokes in The Stern Stern), Scouts sometimes overlook the concrete pamphlet benchmarks covering the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry.
-- **Pamphlet Fact:** Counselor verification for Whitewater Requirement 4a(2) requires concrete workbook evidence on strokes in the stern stern, specifically addressing the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry.
+- **Common Myth:** Dragging the paddle blade passively behind the canoe like a rudder controls river maneuvers better than applying active stern pry strokes.
+- **Pamphlet Fact:** Active forward strokes ending in a stern pry maintain boat speed and provide far greater directional control than passive dragging rudders in moving current.
 
 ![An arrow indicates the backward movement of a paddle during a reverse stroke.](/assets/pamphlet_images/whitewater_p050_img3.png)
 
@@ -294,11 +294,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(3): High Brace Low Brace and Righting Pry
+#### Req 4a(3): Tandem Canoe Braces and Recovery
 **Official Requirement 4a(3):** Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)
-- **Common Myth:** For Whitewater Requirement 4a(3), a common mistake in high brace low brace and righting pry is treating a high brace, low brace, and righting pry as optional background reading.
-- **Pamphlet Fact:** Mastering Whitewater Requirement 4a(3) means following the pamphlet standard for high brace low brace and righting pry and recording accurate notes on a high brace, low brace, and righting pry.
+- **Common Myth:** Raising elbows high above the paddle shaft provides the greatest leverage when performing an emergency high brace.
+- **Pamphlet Fact:** Keeping elbows low and pointing downward protects the shoulder joint from dislocation while applying downward pressure to right the canoe.
 
 ![A paddler sits inside the cockpit of a whitewater kayak along the river shore.](/assets/pamphlet_images/whitewater_p055_img1.png)
 
@@ -318,11 +318,11 @@
 - Solo canoeists demonstrate cross forward strokes, prys, stern draws, and sculling draws to maintain total hull authority. Centering body weight over the middle thwart allows clean directional tracking without bow drag.
 - Req 4b Standard (Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)): Option B, Solo Canoeist. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry. (2) Demonstrate a high brace, low brace, and righting pry.
 
-#### Req 4b(1): Strokes Cross Forward Bow Draw
+#### Req 4b(1): Solo Canoe Whitewater Maneuvering Strokes
 **Official Requirement 4b(1):** Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Field Sketch & Diagram Canvas):** Req 4b(1) Hands-On Skill Station & EDGE Verification Checklist (Strokes Cross Forward Bow Draw)
-- **Common Myth:** In Whitewater Requirement 4b(1), many Scouts assume strokes cross forward bow draw only requires a general overview rather than specific details on the following strokes, cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling.
-- **Pamphlet Fact:** The official Whitewater pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document strokes cross forward bow draw and explain the following strokes, cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling during counselor review.
+- **Common Myth:** Solo canoeists must swap their hand grip across the paddle when transitioning between onside draws and offside cross strokes.
+- **Pamphlet Fact:** Solo paddlers maintain their standard hand grip and rotate their torso across the gunwale to execute efficient offside cross forward and cross draw strokes.
 
 ![A paddler demonstrates correct body positioning during a forward canoe stroke.](/assets/pamphlet_images/whitewater_p048_img1.png)
 
@@ -340,11 +340,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b(2): High Brace Low Brace and Righting Pry
+#### Req 4b(2): Solo Canoe Bracing and Righting
 **Official Requirement 4b(2):** Demonstrate a high brace, low brace, and righting pry.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Organizer (Skill Demonstration Checklist):** Req 4b(2) Hands-On Skill Station & EDGE Verification Checklist (High Brace Low Brace and)
-- **Common Myth:** When preparing Whitewater Requirement 4b(2) (High Brace Low Brace and Righting Pry), Scouts sometimes overlook the concrete pamphlet benchmarks covering a high brace, low brace, and righting pry.
-- **Pamphlet Fact:** Counselor verification for Whitewater Requirement 4b(2) requires concrete workbook evidence on high brace low brace and righting pry, specifically addressing a high brace, low brace, and righting pry.
+- **Common Myth:** Pushing down on the water surface with the paddle blade can right a heavily tilted canoe without moving the lower body.
+- **Pamphlet Fact:** Righting a canoe requires an active hip snap to roll the hull upright while the paddle blade provides only momentary surface support.
 
 ![Pointing a paddle toward a specific river channel directs downstream paddlers safely.](/assets/pamphlet_images/whitewater_p064_img2.png)
 
@@ -502,7 +502,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used.** | `____________________________________` | `____________________________________` |
+| **1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Flotation Device Rating: A Coast Guard approved Type III or Type V lifejacket provides essential rapid buoyancy.

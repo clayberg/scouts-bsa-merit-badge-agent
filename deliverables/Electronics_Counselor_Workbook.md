@@ -42,7 +42,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices.** | `____________________________________` | `____________________________________` |
+| **1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Capacitor Charge Storage: Large filter capacitors can store lethal electrical energy even after power is removed.
@@ -71,7 +71,7 @@
 - **Common Myth:** Schematics can use arbitrary handmade shapes as long as connections are drawn neatly.
 - **Pamphlet Fact:** Standard schematics use reference designators like R1 and C1 beside universally accepted IEEE graphic symbols.
 
-![Step-by-step Electronics visual guide highlighting schematic diagrams and component functions positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/electronics_p007_img1.png)
+![Electronics Requirement 2 figure showing zigzag lines indicate fixed resistors that limit electrical current through connected.](/assets/pamphlet_images/electronics_p007_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - [ ] Lockout/de-energization verification checklist and fire extinguisher reference
 - [ ] Engineering logbook and technical specification sheet for Electronics Requirement 3
 
-![Practical Electronics field visual showing proper setup, measurement, and technique for soldering techniques and circuit boards in Requirement 3.](/assets/pamphlet_images/electronics_p012_img1.png)
+![Electronics Requirement 3 figure showing heating both joint leads allows molten solder to flow freely across metal surfaces.](/assets/pamphlet_images/electronics_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -157,7 +157,7 @@
 - **Common Myth:** Circuit board traces are solid wire cables embedded inside plastic sheets.
 - **Pamphlet Fact:** Printed circuit boards mechanically support components while routing signals across etched laminated copper pathways.
 
-![Illustrated Electronics technical diagram of electronic device safety precautions for Requirement 1 field execution.](/assets/pamphlet_images/electronics_p003_img1.png)
+![Electronics Requirement 1 figure showing large filter capacitors can store lethal electrical energy even after power is removed.](/assets/pamphlet_images/electronics_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

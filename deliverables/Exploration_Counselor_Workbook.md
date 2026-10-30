@@ -54,7 +54,7 @@
 - **Common Myth:** Hiking an unmarked wilderness trail counts as exploration because the route feels completely new to you.
 - **Pamphlet Fact:** True exploration generates documented scientific findings that inform the broader global scientific community.
 
-![Illustrated Exploration technical diagram of defining scientific exploration and environments for Requirement 1 field execution.](/assets/pamphlet_images/exploration_p003_img1.png)
+![Exploration Requirement 1 figure showing explorers pursue systematic data collection rather than personal recreation.](/assets/pamphlet_images/exploration_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -118,7 +118,7 @@
 - **Common Myth:** Gathering interesting physical souvenirs during an outdoor trip provides a valid scientific basis.
 - **Pamphlet Fact:** Scientific exploration requires formal hypotheses, standardized control measures, and calibrated measurement instruments.
 
-![Illustrated Exploration technical diagram of scientific purpose and explorer mind set for Requirement 3 field execution.](/assets/pamphlet_images/exploration_p012_img1.png)
+![Exploration Requirement 3 figure showing rigorous scientific foundations ensure exploration gathers verifiable evidence rather.](/assets/pamphlet_images/exploration_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -146,7 +146,7 @@
 - **Common Myth:** Successful explorers work best as solitary renegades who make daring decisions without team consultation.
 - **Pamphlet Fact:** Modern exploration relies upon cooperative crew dynamics, mutual accountability, and shared operational leadership.
 
-![Step-by-step Exploration visual guide highlighting historical milestones across scientific fields positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/exploration_p007_img1.png)
+![Exploration Requirement 2 figure showing early aerial explorers established transcontinental flight routes through rigorous.](/assets/pamphlet_images/exploration_p007_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

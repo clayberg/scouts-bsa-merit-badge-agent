@@ -64,7 +64,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Detailed Canoeing reference illustration comparing key components and stages of canoeing hazards and first aid for Requirement 1.](/assets/pamphlet_images/canoeing_p003_img1.png)
+![Canoeing Requirement 1 figure showing check local forecasts for wind velocity and approaching squalls before launching any craft.](/assets/pamphlet_images/canoeing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -98,7 +98,7 @@
 - **Common Myth:** Safety Afloat guidelines apply only to moving whitewater trips and unorganized open lake crossings.
 - **Pamphlet Fact:** Scouting America Safety Afloat policy requires trained adult supervision and dedicated rescue craft for youth trips.
 
-![Practical Canoeing field visual showing proper setup, measurement, and technique for swimmer test and health screening in Requirement 2.](/assets/pamphlet_images/canoeing_p007_img1.png)
+![Canoeing Requirement 2 figure showing enter water feet first over the head to prove recovery and orientation.](/assets/pamphlet_images/canoeing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -119,7 +119,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet.** | `____________________________________` | `____________________________________` |
+| **1. Before doing the following requirements, successfully complete the Scouting America swimmer test, found in the Swimming merit badge pamphlet** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Jump Entry: Enter water feet first over the head to prove recovery and orientation.
@@ -283,7 +283,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment.** | `____________________________________` | `____________________________________` |
+| **1. Review with your counselor the general care and maintenance of canoes, paddles, and other canoeing equipment** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Wash dirt and grit from hull surfaces with fresh water after paddling.

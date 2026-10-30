@@ -1,0 +1,298 @@
+{
+  "2a(1)": {
+    "fact": "All radio waves travel through space at the constant speed of light regardless of frequency.",
+    "misconception": "Radio waves travel at different speeds depending on their frequency.",
+    "pamphlet_summary": "Scouts sketch a continuous frequency scale spanning from 300 kHz up to 3,000 MHz while plotting frequency and wavelength inversely along the horizontal axis. This drawing illustrates how radio waves fit into the broader electromagnetic radiation spectrum (p. 15).",
+    "socratic_question": "If the speed of radio waves is fixed, what must happen to the physical wavelength as the frequency increases?",
+    "sub_id": "2a(1)",
+    "topic_title": "Electromagnetic Spectrum Chart Construction"
+  },
+  "2a(2)": {
+    "fact": "Microwaves are simply high-frequency radio waves with wavelengths shorter than one meter.",
+    "misconception": "Microwaves represent an entirely separate type of radiation that exists outside the radio spectrum.",
+    "pamphlet_summary": "Band labels designate specific decade ranges including Medium Frequency from 300 kHz to 3 MHz, High Frequency up to 30 MHz, Very High Frequency up to 300 MHz, and Ultra High Frequency up to 3,000 MHz. Frequencies starting at 1,000 MHz within the UHF band and extending upward are designated as microwaves (p. 17).",
+    "socratic_question": "Why do international radio standards group frequencies into distinct bands using factors of ten?",
+    "sub_id": "2a(2)",
+    "topic_title": "Radio Frequency Band Designations"
+  },
+  "2a(3)": {
+    "fact": "Wi-Fi and Bluetooth operate using standard UHF and microwave radio signals centered in the 2.4 gigahertz band.",
+    "misconception": "Wi-Fi and Bluetooth use audio sound waves rather than standard radio frequency signals.",
+    "pamphlet_summary": "Scouts plot distinct operational allocations across the chart including AM broadcast in the MF band, FM broadcast and television in VHF and UHF, and digital technologies like Wi-Fi and Bluetooth near 2.4 GHz. The chart must also feature public safety channels, citizens band near 27 MHz, and four designated amateur bands like 80, 40, 20, and 2 meters (p. 20).",
+    "socratic_question": "Why do long-distance AM broadcasts use the lower MF band while high-data signals like Wi-Fi use microwaves?",
+    "sub_id": "2a(3)",
+    "topic_title": "Radio Spectrum Service Allocations"
+  },
+  "2b(1)": {
+    "fact": "Radio waves are electromagnetic energy fields composed of oscillating electric and magnetic waves traveling through the vacuum of space.",
+    "misconception": "Radio waves are acoustic pressure vibrations identical to the audible sound waves produced by human vocal cords.",
+    "pamphlet_summary": "Radio is defined as the transmission and reception of electrical signals through space by means of electromagnetic waves without connecting wires. An electrical current oscillating in a transmitting antenna radiates energy that induces a corresponding signal in a receiving antenna (p. 9).",
+    "socratic_question": "How does a radio station send music across miles of empty air when sound waves cannot travel that far?",
+    "sub_id": "2b(1)",
+    "topic_title": "Fundamental Definition of Radio"
+  },
+  "2b(2)": {
+    "fact": "Standard broadcast radios contain only receiver circuits, while two-way radios combine both a transmitter and a receiver in a single transceiver.",
+    "misconception": "A car radio and a police walkie-talkie operate with the exact same transmission circuitry.",
+    "pamphlet_summary": "Broadcast systems feature high-powered transmitters sending one-way programming to unlimited anonymous listeners who cannot reply over the air. In contrast, two-way systems use transceivers allowing specific operators to alternate between sending and receiving messages on a shared frequency (p. 12).",
+    "socratic_question": "What equipment change is needed when switching from simply listening to a signal to having a two-way conversation?",
+    "sub_id": "2b(2)",
+    "topic_title": "Broadcast and Two-Way Systems"
+  },
+  "2b(3)": {
+    "fact": "Federal regulations strictly prohibit amateur radio operators from broadcasting commercial advertisements or earning compensation for on-air operations.",
+    "misconception": "Amateur radio operators can legally sell commercial products and broadcast advertisements over their personal stations.",
+    "pamphlet_summary": "Commercial broadcasting operates as a business enterprise funded by advertisements to entertain and inform general public audiences on fixed licensed frequencies. Hobby radio encompasses personal communications, technical experimentation, and community emergency support without monetary compensation or commercial advertising (p. 14).",
+    "socratic_question": "Why does the government forbid advertising and business transactions on frequencies reserved for amateur radio?",
+    "sub_id": "2b(3)",
+    "topic_title": "Commercial Versus Hobby Radio"
+  },
+  "8a(1)": {
+    "fact": "The FCC establishes clear statutory objectives in Part 97 rules to maintain amateur radio as a trained public service and technical reserve.",
+    "misconception": "Amateur radio exists merely as an unregulated playground for casual chatters without formal rules.",
+    "pamphlet_summary": "The Federal Communications Commission created the Amateur Radio Service to advance radio technology, develop trained electronics technicians, foster international goodwill, and supply emergency communications during disasters. Licensed operators participate in worldwide contacts, high-speed contests, satellite communications, digital messaging, and direction-finding fox hunts (p. 47).",
+    "socratic_question": "When standard cell towers and internet lines fail during a hurricane, how can licensed amateur radio volunteers step in?",
+    "sub_id": "8a(1)",
+    "topic_title": "Amateur Radio Purpose and Activities"
+  },
+  "8a(2)": {
+    "fact": "The FCC completely eliminated the Morse code testing requirement for all amateur license classes in 2007.",
+    "misconception": "Scouts must pass a mandatory Morse code speed test before earning an entry-level amateur radio license.",
+    "pamphlet_summary": "The progressive license structure begins with the Technician license covering basic theory for VHF and UHF privileges, followed by General which unlocks worldwide HF communications, and culminates in Amateur Extra granting all authorized frequencies. Accredited Volunteer Examiners administer these exams in local sessions under the oversight of a certified Volunteer Examiner Coordinator (p. 50).",
+    "socratic_question": "Who evaluates your exam answers at an amateur radio test session, and why does the FCC rely on them?",
+    "sub_id": "8a(2)",
+    "topic_title": "Amateur Radio Licensing Structure"
+  },
+  "8a(3)": {
+    "fact": "Q codes are universal shorthand abbreviations designed to speed up communication and overcome language barriers across international operators.",
+    "misconception": "Q codes are secret encryptions used to hide message content from unauthorized listeners on the air.",
+    "pamphlet_summary": "Scouts master standard three-letter Q codes that function as concise questions when followed by a question mark or statements when sent alone, such as QTH for location, QSL for confirmation, and QRM for interference. Additional core terms include CQ for general calling and the traditional closing salutation 73 for best regards (p. 55).",
+    "socratic_question": "How do standardized three-letter abbreviations help two operators communicate when they do not speak the same native language?",
+    "sub_id": "8a(3)",
+    "topic_title": "Amateur Radio Operating Terminology"
+  },
+  "8a(4)": {
+    "fact": "Effective emergency procedures require transmitting on established emergency frequencies and pausing regularly to listen for responding stations.",
+    "misconception": "An operator should send distress calls on every available frequency at once without pausing to listen for responses.",
+    "pamphlet_summary": "Voice distress calls use the word Mayday repeated three times for life-threatening situations on maritime or aviation channels, while ham operators state Emergency or Break Break followed by call sign, exact coordinates, nature of distress, and required assistance. On Morse code, operators send the continuous prosign SOS without spacing between letters before transmitting vital station details (p. 59).",
+    "socratic_question": "What essential pieces of information must you transmit during a distress call to help rescuers locate you quickly?",
+    "sub_id": "8a(4)",
+    "topic_title": "Emergency Radio Distress Procedures"
+  },
+  "8a(5)": {
+    "fact": "Handheld transceivers are limited by compact antennas and low battery power, requiring repeaters on elevated terrain to bridge long distances.",
+    "misconception": "A handheld radio can achieve the same direct transmission range over mountain ranges as a high-powered base station.",
+    "pamphlet_summary": "Handheld units are portable low-power transceivers running on batteries, mobile units operate from vehicles using 12-volt systems with moderate power, and base stations provide high power and permanent desktop setups for long-distance operation. Repeaters located on high towers or peaks listen on an input frequency and simultaneously retransmit on an output frequency to extend local communications over terrain obstacles (p. 64).",
+    "socratic_question": "How does placing an automated relay station on top of a mountain help two Scouts with small handheld radios talk across a valley?",
+    "sub_id": "8a(5)",
+    "topic_title": "Transceiver Categories and Repeaters"
+  },
+  "8a(6)": {
+    "fact": "FCC rules require stations to identify using their officially assigned call signs at the end of each communication and at regular intervals.",
+    "misconception": "Amateur radio operators can invent their own informal station nicknames instead of transmitting their government-assigned call signs.",
+    "pamphlet_summary": "Scouts conduct a structured 10-minute contact by identifying with proper call signs, exchanging names, locations, and RST signal reports using phonetic letters or Q signals. Every entry must be recorded in an official station log book noting date, UTC time, frequency band, operating mode, and exchange data (p. 70).",
+    "socratic_question": "What key information belongs in a radio logbook to prove a valid two-way contact occurred?",
+    "sub_id": "8a(6)",
+    "topic_title": "On-Air Contact and Logging Protocol"
+  },
+  "8b(1)": {
+    "fact": "The FCC strictly mandates licensing and sets stringent power limits on all transmitters to prevent interference with authorized broadcasts.",
+    "misconception": "Anyone can set up an FM radio transmitter in their backyard at any power level without government approval.",
+    "pamphlet_summary": "Commercial AM and FM stations operate under strict FCC licenses regulating carrier frequency, directional antennas, and effective radiated power up to 50,000 watts for AM or 100,000 watts for FM. Low-power FM stations operate at 100 watts or less for non-commercial educational communities, while Part 15 unlicensed devices must stay below minute milliwatt thresholds without creating interference (p. 75).",
+    "socratic_question": "What would happen to your favorite local radio station if anyone in town could broadcast at any frequency and power level they wanted?",
+    "sub_id": "8b(1)",
+    "topic_title": "Federal Broadcast Station Regulations"
+  },
+  "8b(2)": {
+    "fact": "Professional broadcast schedules must match exact broadcast clocks so network news feeds and commercials air at precise coordinated seconds.",
+    "misconception": "Broadcast radio hosts can casually estimate program segment lengths without tracking seconds on a studio clock.",
+    "pamphlet_summary": "Scouts construct a precise 30-minute broadcast clock allocating exact seconds to songs, news summaries, commercials, public service announcements, and required legal station identification at the top of the hour. The production is recorded digitally using consistent microphone distance, clean audio levels, and smooth transitions between audio segments (p. 78).",
+    "socratic_question": "Why must a radio broadcast schedule be planned down to the exact second rather than just roughly estimated?",
+    "sub_id": "8b(2)",
+    "topic_title": "Half-Hour Broadcast Production Schedule"
+  },
+  "8b(3)": {
+    "fact": "Commercial stations tailor their music and talk formats to attract specific listener age brackets and consumer demographics for advertisers.",
+    "misconception": "Every commercial radio station designs its programming to appeal equally to all age groups and demographics.",
+    "pamphlet_summary": "Scouts monitor the dial to log 15 separate broadcast stations, noting call signs, dial frequency, received signal clarity, and city of origin. For five selected stations, Scouts analyze programming style like country, talk, or classical and identify the demographic audience advertisers seek to reach (p. 82).",
+    "socratic_question": "How does the type of commercials played on a radio station give clues about the specific audience listening to that broadcast?",
+    "sub_id": "8b(3)",
+    "topic_title": "Broadcast Monitoring and Demographic Analysis"
+  },
+  "8b(4)": {
+    "fact": "Dead air is an accidental, unintended silence caused by operator error or technical failure that broadcast engineers work diligently to avoid.",
+    "misconception": "Dead air is simply any planned pause between songs or spoken station identifications.",
+    "pamphlet_summary": "Commercial broadcast personnel rely on standard control room jargon to direct on-air timing, music transitions, and regulatory alerts without hesitation. Operators track program continuity and playlists while avoiding dead air to keep audio moving smoothly between studio segments and field remotes (p. 54).",
+    "socratic_question": "Why do commercial station operators treat unplanned silence on the air as an urgent emergency rather than a casual pause?",
+    "sub_id": "8b(4)",
+    "topic_title": "Commercial Radio Broadcasting Terminology"
+  },
+  "8b(5)": {
+    "fact": "Satellite radio uses dedicated digital microwave downlinks from geostationary or geosynchronous satellites directly to specialized subscriber decoders.",
+    "misconception": "Satellite radio receivers pick up standard terrestrial AM and FM broadcasts boosted by orbital repeaters.",
+    "pamphlet_summary": "Digital audio platforms expand listening options beyond traditional terrestrial towers through internet streams, direct satellite downlinks, and on-demand podcasts. Each delivery method uses distinct data compression codecs and network infrastructures to distribute audio content to listeners (p. 57).",
+    "socratic_question": "How does receiving a show through an on-demand podcast differ technically from listening to a real-time broadcast over the air?",
+    "sub_id": "8b(5)",
+    "topic_title": "Alternative Audio Broadcasting Platforms"
+  },
+  "8c(1)": {
+    "fact": "International radio logging requires recording Universal Coordinated Time along with exact frequency, signal quality, and transmitter coordinates to accurately track global propagation.",
+    "misconception": "A shortwave radio log only requires recording local clock time and station call letters.",
+    "pamphlet_summary": "Shortwave listeners tune across high frequency bands between 3 and 30 megahertz to capture distant domestic and international transmissions. Complete station log entries must capture the date, Universal Coordinated Time, tuned frequency, program details, and transmitter location (p. 60).",
+    "socratic_question": "Why do international shortwave monitors log reception times in Universal Coordinated Time instead of local wall-clock time?",
+    "sub_id": "8c(1)",
+    "topic_title": "Shortwave Band Monitoring and Logging"
+  },
+  "8c(2)": {
+    "fact": "Daytime solar radiation creates an ionospheric D layer that absorbs medium-wave signals, severely limiting reception to local ground waves until nightfall.",
+    "misconception": "AM broadcast stations transmit further during the day because direct solar energy energizes the radio waves.",
+    "pamphlet_summary": "Medium-wave monitoring focuses on standard AM broadcast frequencies between 530 and 1710 kilohertz during contrasting solar conditions. Scouts document call signs, carrier frequencies, signal strengths, and geographic origins to observe terrestrial versus atmospheric reception patterns (p. 62).",
+    "socratic_question": "What differences do you expect to hear on the standard AM dial at noon compared to midnight?",
+    "sub_id": "8c(2)",
+    "topic_title": "Medium Wave Broadcast Station Logging"
+  },
+  "8c(3)": {
+    "fact": "Higher shortwave frequencies escape into space at night without sufficient solar ionization to refract them back to Earth.",
+    "misconception": "All shortwave frequencies propagate best at night because the atmosphere cools down.",
+    "pamphlet_summary": "Solar radiation alters ionospheric electron density throughout the day, directly affecting which high-frequency bands reflect or absorb radio energy. Higher shortwave frequencies generally support long-distance paths in daytime sunlight, while lower frequencies become effective after dark (p. 63).",
+    "socratic_question": "Why might a twenty-meter shortwave frequency boom with international signals at midday but fall silent after sunset?",
+    "sub_id": "8c(3)",
+    "topic_title": "Diurnal Signal Strength Variations"
+  },
+  "8c(4)": {
+    "fact": "Many AM stations actually reduce their power or use directional antenna patterns at sunset to prevent interference from nighttime skywave propagation.",
+    "misconception": "Distant AM stations increase their transmitter output wattage late at night to cover larger listening territories.",
+    "pamphlet_summary": "Medium-wave signals travel strictly as ground waves in daylight because the low-altitude ionospheric D layer absorbs them. At sunset the D layer dissipates, allowing AM signals to reach the higher E and F layers and refract back to Earth hundreds of miles away (p. 64).",
+    "socratic_question": "Why can your car radio pick up an AM station from several states away at night that cannot be heard at noon?",
+    "sub_id": "8c(4)",
+    "topic_title": "Nighttime Skywave Propagation Mechanisms"
+  },
+  "8c(5)": {
+    "fact": "Most smartphones receive radio stations as digitized internet protocol audio packets routed over cellular data or Wi-Fi rather than through over-the-air radio frequency tuners.",
+    "misconception": "Listening to a radio station on a smartphone always relies on an internal radio antenna catching radio waves directly through the air.",
+    "pamphlet_summary": "Smartphones access global radio programming by receiving digital audio streams transmitted across cellular data networks and local wireless connections. Scouts demonstrate tuning in to overseas broadcasters through station websites, media aggregator applications, or integrated FM receiver chips (p. 66).",
+    "socratic_question": "How does receiving a foreign radio station on a phone using cellular data differ from receiving it through a shortwave antenna?",
+    "sub_id": "8c(5)",
+    "topic_title": "Cellular Radio Streaming Demonstration"
+  },
+  "8d(1)": {
+    "fact": "Direction finding techniques are identical to those employed by search and rescue teams tracking emergency locator transmitters from missing aircraft or boaters.",
+    "misconception": "Radio direction finding is only an outdoor sporting game with no practical utility in emergency situations.",
+    "pamphlet_summary": "Amateur radio direction finding combines orienteering navigation with directional signal tracking to locate concealed radio transmitters. The technique serves vital real-world roles in locating downed aircraft emergency beacons, hunting radio interference sources, and staging competitive athletic events (p. 68).",
+    "socratic_question": "How could the skills used in a weekend transmitter hunt help emergency personnel locate a lost hiker or downed airplane?",
+    "sub_id": "8d(1)",
+    "topic_title": "Amateur Radio Direction Finding Applications"
+  },
+  "8d(2)": {
+    "fact": "Omnidirectional antennas receive signals equally from all horizontal directions, requiring specialized directional antennas like Yagis or loops to find a transmitter bearing.",
+    "misconception": "Standard omnidirectional walkie-talkie whip antennas indicate signal direction if the operator points the radio tip forward.",
+    "pamphlet_summary": "ARDF events predominantly utilize the 80-meter high-frequency band near 3.5 megahertz and the 2-meter very-high-frequency band near 144 megahertz. Participants employ sensitive portable receivers paired with directional antennas such as ferrite loops, shielded loops, or handheld Yagi arrays equipped with signal attenuators (p. 70).",
+    "socratic_question": "What happens to the audio tone in your receiver when you rotate a directional antenna toward a hidden transmitter?",
+    "sub_id": "8d(2)",
+    "topic_title": "Direction Finding Equipment and Frequencies"
+  },
+  "8d(3)": {
+    "fact": "A simple passive arrangement of wire or steel tape cut into reflector, driven element, and director lengths focuses reception along a single forward direction.",
+    "misconception": "A directional antenna requires motorized electronics or parabolic dishes to focus two-meter VHF signals.",
+    "pamphlet_summary": "Scouts construct functional directional antennas by assembling resonant conductive elements onto nonmetallic booms using wood or PVC conduit. A popular design uses steel measuring tape sections to form a rugged, flexible two-meter three-element Yagi antenna (p. 71).",
+    "socratic_question": "Why are flexible steel measuring tapes popular for building handheld two-meter fox hunting antennas?",
+    "sub_id": "8d(3)",
+    "topic_title": "Directional Tracking Antenna Construction"
+  },
+  "8d(4)": {
+    "fact": "Volume controls only adjust audio output to the speaker or headphones, whereas an RF attenuator reduces the actual radio frequency signal entering the receiver circuitry.",
+    "misconception": "When searching for a hidden transmitter, the receiver volume control functions as a signal attenuator.",
+    "pamphlet_summary": "Field fox hunting requires navigating terrain while reading signal strength peaks and nulls to home in on an automated beacon. Operators adjust receiver attenuators as they approach the source to keep the strong nearby signal from saturating the detector (p. 73).",
+    "socratic_question": "Why does an operator need an RF attenuator when getting within twenty yards of a transmitting fox?",
+    "sub_id": "8d(4)",
+    "topic_title": "Transmitter Hunt Field Participation"
+  },
+  "8d(5)": {
+    "fact": "A single bearing indicates only a line of direction, requiring at least two or three intersecting bearings from different locations to pinpoint the transmitter position.",
+    "misconception": "A single directional bearing line plotted on a map reveals the exact location of the hidden transmitter.",
+    "pamphlet_summary": "Plotting multiple compass bearings from distinct vantage points onto a topographic map creates intersecting line vectors known as triangulation. The hidden transmitter sits within the convergence polygon formed by these plotted directional lines (p. 74).",
+    "socratic_question": "How does drawing compass lines from two separate hilltops pinpoint where a hidden radio transmitter is located?",
+    "sub_id": "8d(5)",
+    "topic_title": "Map Triangulation and Bearing Plotting"
+  },
+  "8e(1)": {
+    "fact": "Each radio service operates under distinct FCC rules, with FRS requiring no license, GMRS requiring an application fee without a test, and amateur radio demanding an examination.",
+    "misconception": "FRS, GMRS, CB, and amateur radio all share the same operating rules and license requirements.",
+    "pamphlet_summary": "Personal radio services offer accessible two-way communications governed by specific FCC rules on power, frequency, and operating privilege. While FRS operates license-free with low-power fixed-antenna handhelds, GMRS allows higher wattage, repeaters, and external antennas under a family license, whereas amateur radio requires technical testing for extensive spectrum privileges (p. 76).",
+    "socratic_question": "How does the legal purpose and licensing of a Family Radio Service walkie-talkie differ from an amateur radio transceiver?",
+    "sub_id": "8e(1)",
+    "topic_title": "Personal Radio Service Classifications"
+  },
+  "8e(2)": {
+    "fact": "FCC regulations restrict transmission power to half a watt on channels eight through fourteen and mandate fixed antennas on all dedicated FRS units.",
+    "misconception": "Any handheld walkie-talkie purchased in a store can legally transmit at maximum power on all twenty-two channels.",
+    "pamphlet_summary": "Personal walkie-talkie rules govern licensing protocols, operating frequencies, voice modulation methods, transmitter power limits, and antenna configurations. FRS and GMRS share twenty-two channels in the 462 and 467 megahertz UHF band using frequency modulation, but GMRS permits up to fifty watts and external antennas on certain channels (p. 78).",
+    "socratic_question": "What technical factors determine whether a walkie-talkie transmission can reach a mile or several miles across open country?",
+    "sub_id": "8e(2)",
+    "topic_title": "Personal Radio Technical Specifications"
+  },
+  "8e(2)(a)": {
+    "fact": "An FCC GMRS license requires only an application and fee payment, with no technical examination required, and extends coverage to the licensee's entire immediate family.",
+    "misconception": "Operating a GMRS walkie-talkie requires passing a written technical Morse code or radio theory exam.",
+    "pamphlet_summary": "The Federal Communications Commission licenses FRS by rule, allowing anyone to operate certified units without an individual license or application. Conversely, operating a GMRS station requires an FCC license that covers the primary licensee and their immediate family members without requiring an examination (p. 79).",
+    "socratic_question": "Why did the FCC decide to exempt Family Radio Service users from needing an individual license document?",
+    "sub_id": "8e(2)(a)",
+    "topic_title": "Personal Radio Licensing Requirements"
+  },
+  "8e(2)(b)": {
+    "fact": "FRS and GMRS handheld units operate in the 462 to 467 megahertz UHF spectrum using narrowband frequency modulation to transmit audio.",
+    "misconception": "Handheld walkie-talkies encode voice conversations using amplitude modulation across open citizens band AM channels.",
+    "pamphlet_summary": "FRS and GMRS walkie-talkies transmit in the UHF band between 462 MHz and 467 MHz across 22 designated channels. These radios encode voice audio onto the carrier frequency using narrowband frequency modulation (p. 76).",
+    "socratic_question": "Why do handheld walkie-talkies rely on frequency modulation in the UHF band rather than AM waves when you speak into the microphone?",
+    "sub_id": "8e(2)(b)",
+    "topic_title": "UHF Frequencies and Voice Modulation"
+  },
+  "8e(2)(c)": {
+    "fact": "FCC rules cap license-free FRS radios at two watts on primary channels and one-half watt on interstitial channels to prevent interference.",
+    "misconception": "Users can legally boost handheld walkie-talkie transmit power to twenty watts to reach further across backcountry terrain.",
+    "pamphlet_summary": "Federal regulations restrict license-free FRS radios to a maximum of two watts on main channels and one-half watt on channels 8 through 14. Licensed GMRS operators may transmit up to five watts on handheld units and up to fifty watts on base stations (p. 77).",
+    "socratic_question": "Why does the FCC strictly cap handheld FRS radio output power at two watts instead of allowing units to broadcast at fifty watts?",
+    "sub_id": "8e(2)(c)",
+    "topic_title": "Transmitter Output Power Regulatory Limits"
+  },
+  "8e(2)(d)": {
+    "fact": "Federal regulations mandate that FRS antennas must remain permanently attached, while GMRS equipment permits detachable external antennas.",
+    "misconception": "Any handheld radio antenna can be unscrewed and replaced with an external high-gain whip to boost transmission distance.",
+    "pamphlet_summary": "FRS devices must use a permanently attached, non-detachable antenna supplied by the manufacturer to limit radiated signal strength. GMRS radios permit external or aftermarket detachable antennas mounted on vehicles or elevated masts to improve reception (p. 78).",
+    "socratic_question": "What prevents an FRS walkie-talkie owner from legally unscrewing the factory antenna and attaching a high-gain rooftop antenna?",
+    "sub_id": "8e(2)(d)",
+    "topic_title": "Permissible Walkie Talkie Antenna Types"
+  },
+  "8e(2)(e)": {
+    "fact": "Realistic walkie-talkie range at ground level is usually under two miles because terrain, foliage, and structures block line-of-sight UHF signals.",
+    "misconception": "Walkie-talkies advertised with a thirty-six-mile range reliably communicate across that distance anywhere in wilderness or city parks.",
+    "pamphlet_summary": "Handheld UHF radios operate on line-of-sight propagation, providing typical ground-level communication ranges between one and two miles. Hills, dense tree canopies, buildings, and ground curvature absorb or block the signals and prevent the optimistic thirty-mile claims printed on retail packaging (p. 79).",
+    "socratic_question": "If a walkie-talkie box claims a 35-mile range, what physical obstacles and scientific principles reduce that range to just one or two miles on a Scout hike?",
+    "sub_id": "8e(2)(e)",
+    "topic_title": "Effective Operating Range and Limitations"
+  },
+  "8e(2)(f)": {
+    "fact": "Families and community groups routinely use personal radios for short-range voice communication at campgrounds, hiking trails, and community events.",
+    "misconception": "Walkie-talkies are only useful for specialized military combat units or licensed commercial security guards.",
+    "pamphlet_summary": "Personal radio services provide instant, license-free group communication for families and organizations without consuming cellular data. Typical everyday applications include campsite coordination, hiking check-ins, sporting event operations, and youth activities across neighborhood parks (p. 80).",
+    "socratic_question": "What makes handheld walkie-talkies more practical than mobile phones for coordinating a patrol during a troop hike in a state park?",
+    "sub_id": "8e(2)(f)",
+    "topic_title": "Routine Everyday Radio Communication Applications"
+  },
+  "8e(2)(g)": {
+    "fact": "Personal radios communicate directly from unit to unit without needing cell towers or internet infrastructure, making them dependable when commercial networks crash.",
+    "misconception": "Handheld walkie-talkies become useless during severe natural disasters because local cell towers and commercial internet services are offline.",
+    "pamphlet_summary": "Walkie-talkies function independently of commercial power grids and cellular towers, enabling immediate direct communication during disasters. Scouts can use them to report injuries, coordinate search teams, and maintain safety links when local phone networks fail (p. 81).",
+    "socratic_question": "When a storm knocks out electricity and mobile phone towers in your town, how can personal radios still save lives?",
+    "sub_id": "8e(2)(g)",
+    "topic_title": "Emergency Response Personal Radio Utility"
+  },
+  "8e(3)": {
+    "fact": "Effective field communication requires pausing for a moment after pressing the transmit button and speaking in a calm, clear voice.",
+    "misconception": "Field radio communication requires shouting loudly into the microphone while immediately pressing and releasing the talk switch.",
+    "pamphlet_summary": "Scouts practice radio protocol, microphone technique, and channel etiquette while completing an active field exercise with peers or family. Afterward, the Scout reviews signal clarity, terrain dead zones, battery life, and operational lessons with the counselor (p. 82).",
+    "socratic_question": "What did your field exercise teach you about the delay between pressing the push-to-talk switch and speaking into the microphone?",
+    "sub_id": "8e(3)",
+    "topic_title": "Practical Field Radio Operating Experience"
+  }
+}

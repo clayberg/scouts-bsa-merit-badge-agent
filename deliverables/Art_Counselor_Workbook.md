@@ -50,7 +50,7 @@
 - **Common Myth:** Beginners often think visual art is limited entirely to framed oil paintings and bronze statues.
 - **Pamphlet Fact:** Art encompasses diverse commercial, decorative, industrial, and digital formats alongside traditional gallery media.
 
-![Step-by-step Art visual guide highlighting meaning and forms of art positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/art_p003_img1.png)
+![Art Requirement 1 figure showing creative human expression communicates complex ideas across cultural boundaries.](/assets/pamphlet_images/art_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -78,7 +78,7 @@
 - **Common Myth:** A common belief is that every viewer must experience identical emotions when viewing a specific painting.
 - **Pamphlet Fact:** Individual background, lived experiences, and personal memories shape unique emotional responses to identical visual works.
 
-![Detailed Art reference illustration comparing key components and stages of core elements of visual art for Requirement 2.](/assets/pamphlet_images/art_p007_img1.png)
+![Art Requirement 2 figure showing marks moving through space define boundaries and create directional movement across canvases.](/assets/pamphlet_images/art_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -119,7 +119,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the six principles of design: rhythm, balance, proportion, variety, emphasis, and unity.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor the six principles of design: rhythm, balance, proportion, variety, emphasis, and unity** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Repetition of visual elements creates a sense of organized movement across the composition.
@@ -162,7 +162,7 @@
 - **Common Myth:** Painters sometimes believe white watercolor pigment should be added to lighten transparent paint mixtures.
 - **Pamphlet Fact:** Traditional watercolor technique preserves unpainted white paper or dilutes pigment with water to create highlights.
 
-![Illustrated Art technical diagram of six principles of artistic design for Requirement 3 field execution.](/assets/pamphlet_images/art_p012_img1.png)
+![Art Requirement 3 figure showing repetition of visual elements creates a sense of organized movement across the composition.](/assets/pamphlet_images/art_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

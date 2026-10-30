@@ -163,20 +163,20 @@
         "scenario_prompt": "In Citizenship in the Community Requirement 1, what distinguishes mandatory legal duties of a citizen from voluntary civic responsibilities that strengthen a local town or neighborhood?",
         "question": "In Citizenship in the Community Requirement 1, what distinguishes mandatory legal duties of a citizen from voluntary civic responsibilities that strengthen a local town or neighborhood?",
         "options": [
-          "A. Paying local taxes and obeying laws are optional suggestions, whereas running for mayor is legally required of every resident at age eighteen.",
+          "A. Paying local taxes and obeying laws are optional suggestions.",
           "B. Serving on a jury when summoned is voluntary, whereas attending every weekly city council meeting is enforced by fine.",
-          "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues, voting in municipal elections, and volunteering for community service are essential civic responsibilities.",
+          "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues.",
           "D. Good citizenship requires avoiding all interaction with school boards, county commissioners, or neighborhood improvement groups."
         ],
         "choices": [
-          "A. Paying local taxes and obeying laws are optional suggestions, whereas running for mayor is legally required of every resident at age eighteen.",
+          "A. Paying local taxes and obeying laws are optional suggestions.",
           "B. Serving on a jury when summoned is voluntary, whereas attending every weekly city council meeting is enforced by fine.",
-          "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues, voting in municipal elections, and volunteering for community service are essential civic responsibilities.",
+          "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues.",
           "D. Good citizenship requires avoiding all interaction with school boards, county commissioners, or neighborhood improvement groups."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues, voting in municipal elections, and volunteering for community service are essential civic responsibilities.",
+        "correct_answer": "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues.",
         "explanation": "Correct Answer (C): Legal obligations such as obeying laws, paying taxes, and answering jury summonses are enforced by law, while voting, staying informed, and volunteering are vital civic responsibilities that sustain local self-government.",
         "pamphlet_page_ref": "p. 10, p. 11"
       },
@@ -254,8 +254,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "In Citizenship in the Community Requirement 2a(1), many Scouts assume chief government buildings only requires a general overview rather than specific details on chief government buildings such as your city hall, county courthouse, and public works/services facilities.",
-                "fact": "The official Citizenship in the Community pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document chief government buildings and explain chief government buildings such as your city hall, county courthouse, and public works/services facilities during counselor review."
+                "misconception": "All municipal administrative offices and public service operations are housed under one roof at city hall.",
+                "fact": "City halls primarily house elected officials and administrative clerks, while county courthouses handle judicial proceedings and public works departments manage physical utilities from separate specialized facilities."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -281,14 +281,17 @@
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
               "sub_req_text": "Chief government buildings such as your city hall, county courthouse, and public works/services facilities.",
-              "topic_title": "Req 2a(1): Chief Government Buildings",
-              "pamphlet_summary": "Chief Government Buildings: Organization of one typical county government Municipalities A charter is aformal, legal document that defines the boundaries of acity (p. 14).",
+              "topic_title": "Req 2a(1): Municipal Government and Service Facilities",
+              "pamphlet_summary": "Municipal Government and Service Facilities: Scouts locate administrative structures on a physical or digital map to understand where executive leadership, courts, and infrastructure operations coordinate daily public services. Identifying public works sites reveals where utility maintenance, water treatment, and road crews operate relative to residential neighborhoods (p. 14).",
               "pamphlet_excerpts": [
-                "Chief Government Buildings: Organization of one typical county government Municipalities A charter is aformal, legal document that defines the boundaries of acity (p. 14)."
+                "Municipal Government and Service Facilities: Scouts locate administrative structures on a physical or digital map to understand where executive leadership, courts, and infrastructure operations coordinate daily public services. Identifying public works sites reveals where utility maintenance, water treatment, and road crews operate relative to residential neighborhoods (p. 14)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p015_img1.png",
               "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+              "socratic_questions": [
+                "If water lines broke or roads needed plowing during a winter storm, which local government facility coordinates the trucks and repair crews?"
+              ]
             },
             {
               "sub_id": "2a(2)",
@@ -320,8 +323,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "When preparing Citizenship in the Community Requirement 2a(2) (Fire Station Police Station and Hospital Nearest), Scouts sometimes overlook the concrete pamphlet benchmarks covering fire station, police station, and hospital nearest your home.",
-                "fact": "Counselor verification for Citizenship in the Community Requirement 2a(2) requires concrete workbook evidence on fire station police station and hospital nearest, specifically addressing fire station, police station, and hospital nearest your home."
+                "misconception": "The closest hospital facility always includes a fully staffed emergency room equipped to handle severe pediatric trauma.",
+                "fact": "Neighborhood medical centers and urgent care clinics provide non-trauma outpatient treatment, requiring residents to verify which regional hospital operates a dedicated emergency department."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -347,15 +350,18 @@
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
               "sub_req_text": "Fire station, police station, and hospital nearest your home.",
-              "topic_title": "Req 2a(2): Fire Station Police Station and Hospital Nearest",
-              "pamphlet_summary": "Fire Station Police Station and Hospital Nearest: The Citizenship in the Community pamphlet for Requirement 2a(2) details fire station, police station, and hospital nearest your home, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 2a(2): Nearest Emergency and Medical Facilities",
+              "pamphlet_summary": "Nearest Emergency and Medical Facilities: Mapping the nearest first responder stations and acute medical facilities establishes essential geographic awareness for family emergency planning. Scouts trace direct travel corridors from their residences to determine primary response zones and emergency room access routes (p. 16).",
               "pamphlet_excerpts": [
-                "Fire Station Police Station and Hospital Nearest: The Citizenship in the Community pamphlet for Requirement 2a(2) details fire station, police station, and hospital nearest your home, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Nearest Emergency and Medical Facilities: Mapping the nearest first responder stations and acute medical facilities establishes essential geographic awareness for family emergency planning. Scouts trace direct travel corridors from their residences to determine primary response zones and emergency room access routes (p. 16)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p015_img1.png",
-              "title": "Req 2a(2): Fire Station Police Station and Hospital Nearest",
+              "title": "Req 2a(2): Nearest Emergency and Medical Facilities",
               "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+              "socratic_questions": [
+                "Why is knowing the exact street route to your nearest hospital emergency department different from relying on a standard navigation app during a home crisis?"
+              ]
             },
             {
               "sub_id": "2a(3)",
@@ -387,8 +393,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "For Citizenship in the Community Requirement 2a(3), a common mistake in parks playgrounds recreation areas and trails is treating parks, playgrounds, recreation areas, and trails as optional background reading.",
-                "fact": "Mastering Citizenship in the Community Requirement 2a(3) means following the pamphlet standard for parks playgrounds recreation areas and trails and recording accurate notes on parks, playgrounds, recreation areas, and trails."
+                "misconception": "Public parks and recreational trails are funded and managed exclusively by municipal city governments.",
+                "fact": "Public green spaces are frequently maintained through independent county conservation districts, regional trail authorities, or nonprofit trust partnerships rather than municipal city hall staff alone."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -414,15 +420,18 @@
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
               "sub_req_text": "Parks, playgrounds, recreation areas, and trails.",
-              "topic_title": "Req 2a(3): Parks Playgrounds Recreation Areas and Trails",
-              "pamphlet_summary": "Parks Playgrounds Recreation Areas and Trails: The Citizenship in the Community pamphlet for Requirement 2a(3) details parks, playgrounds, recreation areas, and trails, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 2a(3): Public Parks and Recreational Trails",
+              "pamphlet_summary": "Public Parks and Recreational Trails: Scouts pinpoint municipal park boundaries, sports fields, playgrounds, and shared multi-use trails to assess community access to green infrastructure. These locations demonstrate how local government budgets allocate public land for leisure, fitness, and environmental conservation (p. 18).",
               "pamphlet_excerpts": [
-                "Parks Playgrounds Recreation Areas and Trails: The Citizenship in the Community pamphlet for Requirement 2a(3) details parks, playgrounds, recreation areas, and trails, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Public Parks and Recreational Trails: Scouts pinpoint municipal park boundaries, sports fields, playgrounds, and shared multi-use trails to assess community access to green infrastructure. These locations demonstrate how local government budgets allocate public land for leisure, fitness, and environmental conservation (p. 18)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p015_img1.png",
-              "title": "Req 2a(3): Parks Playgrounds Recreation Areas and Trails",
+              "title": "Req 2a(3): Public Parks and Recreational Trails",
               "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+              "socratic_questions": [
+                "What differences do you notice in how a neighborhood pocket playground and a regional nature trail system serve the recreational needs of your town?"
+              ]
             },
             {
               "sub_id": "2a(4)",
@@ -454,8 +463,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)",
               "common_misconception_pair": {
-                "misconception": "During Citizenship in the Community Requirement 2a(4), Scouts can underestimate how directly mastery of historical or other interesting depends on understanding historical or other interesting points of interest.",
-                "fact": "Scouting America standards for Citizenship in the Community Requirement 2a(4) require complete workbook entries on historical or other interesting to demonstrate full understanding of historical or other interesting points of interest."
+                "misconception": "A community landmark must be an ancient building or official museum to qualify as a point of historical interest.",
+                "fact": "Historical points of interest include historic bridges, public monuments, veteran memorials, indigenous heritage sites, or significant cultural gathering places recognized by local preservation boards."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -481,14 +490,17 @@
               "id": "2a(4)",
               "sub_req_label": "2a(4)",
               "sub_req_text": "Historical or other interesting points of interest.",
-              "topic_title": "Req 2a(4): Historical or Other Interesting",
-              "pamphlet_summary": "Historical or Other Interesting: The Citizenship in the Community pamphlet for Requirement 2a(4) details historical or other interesting points of interest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14).",
+              "topic_title": "Req 2a(4): Local Historical and Cultural Landmarks",
+              "pamphlet_summary": "Local Historical and Cultural Landmarks: Identifying historic markers, heritage structures, and notable cultural landmarks connects current community identity to its founding origins and civic milestones. Documenting these sites on a map highlights local preservation efforts and civic landmarks that define community character (p. 21).",
               "pamphlet_excerpts": [
-                "Historical or Other Interesting: The Citizenship in the Community pamphlet for Requirement 2a(4) details historical or other interesting points of interest, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 14)."
+                "Local Historical and Cultural Landmarks: Identifying historic markers, heritage structures, and notable cultural landmarks connects current community identity to its founding origins and civic milestones. Documenting these sites on a map highlights local preservation efforts and civic landmarks that define community character (p. 21)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_community_p015_img1.png",
               "workbook_diagram_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
-              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks."
+              "workbook_visual_caption": "A municipal courthouse sign marks local government services and judicial landmarks.",
+              "socratic_questions": [
+                "How does locating a historic site or monument on your community map help explain why your town was originally settled in this location?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2608,15 +2620,15 @@
       "scenario_prompt": "In Citizenship in the Community Requirement 1, what distinguishes mandatory legal duties of a citizen from voluntary civic responsibilities that strengthen a local town or neighborhood?",
       "question": "In Citizenship in the Community Requirement 1, what distinguishes mandatory legal duties of a citizen from voluntary civic responsibilities that strengthen a local town or neighborhood?",
       "options": [
-        "A. Paying local taxes and obeying laws are optional suggestions, whereas running for mayor is legally required of every resident at age eighteen.",
+        "A. Paying local taxes and obeying laws are optional suggestions.",
         "B. Serving on a jury when summoned is voluntary, whereas attending every weekly city council meeting is enforced by fine.",
-        "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues, voting in municipal elections, and volunteering for community service are essential civic responsibilities.",
+        "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues.",
         "D. Good citizenship requires avoiding all interaction with school boards, county commissioners, or neighborhood improvement groups."
       ],
       "choices": [
-        "A. Paying local taxes and obeying laws are optional suggestions, whereas running for mayor is legally required of every resident at age eighteen.",
+        "A. Paying local taxes and obeying laws are optional suggestions.",
         "B. Serving on a jury when summoned is voluntary, whereas attending every weekly city council meeting is enforced by fine.",
-        "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues, voting in municipal elections, and volunteering for community service are essential civic responsibilities.",
+        "C. Obeying laws, paying taxes, and serving on a jury when summoned are legal duties, while staying informed on local issues.",
         "D. Good citizenship requires avoiding all interaction with school boards, county commissioners, or neighborhood improvement groups."
       ],
       "correct_index": 2,

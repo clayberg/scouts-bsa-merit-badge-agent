@@ -55,7 +55,7 @@
 - **Common Myth:** Solid firewood burns directly on its surface without first decomposing into combustible hydrocarbon vapor.
 - **Pamphlet Fact:** Fire is an exothermic oxidation reaction occurring between vaporized fuel molecules and atmospheric oxygen.
 
-![Detailed Fire Safety reference illustration comparing key components and stages of science and hazards of fire for Requirement 1.](/assets/pamphlet_images/fire_safety_p003_img1.png)
+![Fire Safety Requirement 1 figure showing rapid oxidation releases heat and light energy through sustained chemical molecular.](/assets/pamphlet_images/fire_safety_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -118,7 +118,7 @@
 - **Common Myth:** Commercial cooking oil fires behave exactly like ordinary flammable petroleum liquids in Class B.
 - **Pamphlet Fact:** Class K fires involve commercial cooking oils that require wet chemical saponification to extinguish.
 
-![Practical Fire Safety field visual showing proper setup, measurement, and technique for fire classes and portable extinguishers in Requirement 2.](/assets/pamphlet_images/fire_safety_p007_img1.png)
+![Fire Safety Requirement 2 figure showing fuel properties determine specific fire classifications designated by lettered.](/assets/pamphlet_images/fire_safety_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -169,7 +169,7 @@
 - **Common Myth:** Slapping burning clothing with bare hands extinguishes burning synthetic fabrics faster than rolling.
 - **Pamphlet Fact:** Covering the face with hands during rolling prevents upward flame spread across delicate facial tissue.
 
-![Illustrated Fire Safety technical diagram of preventing and treating burn injuries for Requirement 3 field execution.](/assets/pamphlet_images/fire_safety_p012_img1.png)
+![Fire Safety Requirement 3 figure showing dropping immediately to the ground eliminates the upward chimney effect on clothing.](/assets/pamphlet_images/fire_safety_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -232,7 +232,7 @@
 - **Common Myth:** Fire investigators always find definitive physical evidence identifying the exact cause of every blaze.
 - **Pamphlet Fact:** An undetermined fire classification indicates that evidence is insufficient to prove a single specific origin hypothesis.
 
-![Step-by-step Fire Safety visual guide highlighting fire safety origins of fires reference figure positioning and inspection checkpoints for Requirement 4.](/assets/pamphlet_images/fire_safety_p004_img1.png)
+![Fire Safety Requirement 4 figure showing v-shaped charring patterns along interior walls point downward toward initial origin points.](/assets/pamphlet_images/fire_safety_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -273,7 +273,7 @@
 - **Common Myth:** Power strips can supply unlimited multi-plug splitters as long as breakers do not trip immediately.
 - **Pamphlet Fact:** Lint accumulation inside dryer exhaust ducts restricts airflow and ignites from heating element heat.
 
-![Detailed Fire Safety reference illustration comparing key components and stages of fire safety fire safety at home reference figure for Requirement 5.](/assets/pamphlet_images/fire_safety_p005_img1.png)
+![Fire Safety Requirement 5 figure showing unattended frying pans ignite rapidly when cooking grease reaches autoignition.](/assets/pamphlet_images/fire_safety_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -408,7 +408,7 @@
 - **Common Myth:** Flammable liquids and combustible liquids ignite with equal ease at normal winter room temperatures.
 - **Pamphlet Fact:** Flammable liquids have flash points below one hundred degrees Fahrenheit, while combustible liquids flash higher.
 
-![Practical Fire Safety field visual showing proper setup, measurement.](/assets/pamphlet_images/fire_safety_p006_img1.png)
+![Fire Safety Requirement 6 figure showing heavy petroleum vapors creep along floors toward low-lying remote pilot light ignition.](/assets/pamphlet_images/fire_safety_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -512,7 +512,7 @@
 - **Common Myth:** Building new rock campfire rings across pristine backcountry meadows leaves no lasting environmental impact.
 - **Pamphlet Fact:** Leave No Trace principles emphasize using established fire rings or portable camp stoves to minimize ground scarring.
 
-![Illustrated Fire Safety technical diagram of fire safety leave no trace & outdoor ethics reference figure for Requirement 8 field execution.](/assets/pamphlet_images/fire_safety_p008_img1.png)
+![Fire Safety Requirement 8 figure showing clear leaf litter and duff down to bare mineral soil ten feet.](/assets/pamphlet_images/fire_safety_p008_img1.png)
 
 | Req 8a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

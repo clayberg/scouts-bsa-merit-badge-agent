@@ -50,7 +50,7 @@
 - **Common Myth:** Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.
 - **Pamphlet Fact:** Sparks and molten slag can travel up to thirty-five feet across open shop floors.
 
-![Practical Welding field visual showing proper setup, measurement, and technique for welding hazards and first aid in Requirement 1.](/assets/pamphlet_images/welding_p003_img1.png)
+![Welding Requirement 1 figure showing arc flash creates ultraviolet radiation that causes painful corneal burns.](/assets/pamphlet_images/welding_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - [ ] Inspected hand and power tools with intact guards and ventilation setup for Welding
 - [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
 
-![Illustrated Welding technical diagram of safety data sheets and protective gear for Requirement 2 field execution.](/assets/pamphlet_images/welding_p007_img1.png)
+![Welding Requirement 2 figure showing safety Data Sheets document hazardous decomposition products generated during thermal.](/assets/pamphlet_images/welding_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -127,7 +127,7 @@
 - **Common Myth:** Leaving welding cables strewn across wet shop floors causes no long-term insulation damage.
 - **Pamphlet Fact:** Foot traffic and oil exposure degrade rubber cable jackets, causing hazardous electrical leaks.
 
-![Detailed Welding reference illustration comparing key components and stages of core welding terms and principles for Requirement 3.](/assets/pamphlet_images/welding_p012_img1.png)
+![Welding Requirement 3 figure showing welding fuses metallic parts together through atomic bonding across liquid or solid.](/assets/pamphlet_images/welding_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

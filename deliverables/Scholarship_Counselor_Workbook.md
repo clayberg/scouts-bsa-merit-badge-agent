@@ -52,7 +52,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for That you have had an average
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Scholarship visual guide highlighting academic achievement and study habits positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/scholarship_p003_img1.png)
+![Scholarship Requirement 1 figure showing official school report cards substantiate academic achievement across a complete.](/assets/pamphlet_images/scholarship_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -100,7 +100,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Scholarship Careers and Pathways
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Scholarship reference illustration comparing key components and stages of community resources and research tools for Requirement 2.](/assets/pamphlet_images/scholarship_p007_img1.png)
+![Scholarship Requirement 2 figure showing community museums and public planetariums provide interactive resources for self.](/assets/pamphlet_images/scholarship_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -132,7 +132,7 @@
 - **Common Myth:** Planners only need to list exam dates rather than daily assignment steps and activity blocks.
 - **Pamphlet Fact:** Effective time management requires logging regular assignments, personal commitments, and dedicated study windows daily.
 
-![Illustrated Scholarship technical diagram of school behavior, leadership, and service for Requirement 3 field execution.](/assets/pamphlet_images/scholarship_p012_img1.png)
+![Scholarship Requirement 3 figure showing school principals certify that student character, leadership, and conduct meet.](/assets/pamphlet_images/scholarship_p012_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |

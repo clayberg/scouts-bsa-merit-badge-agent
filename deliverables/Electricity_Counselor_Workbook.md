@@ -56,7 +56,7 @@
 - **Common Myth:** Beginners often believe switching off a wall switch completely de-energizes the underlying service panel wiring.
 - **Pamphlet Fact:** Branch breakers isolate targeted circuits while the primary breaker disconnects power to the entire panel enclosure.
 
-![Detailed Electricity reference illustration comparing key components and stages of responding to electrical emergencies for Requirement 1.](/assets/pamphlet_images/electricity_p003_img1.png)
+![Electricity Requirement 1 figure showing main circuit breakers disconnect service entrance conductors from entire residential.](/assets/pamphlet_images/electricity_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -84,7 +84,7 @@
 - **Common Myth:** Beginners often believe stepping out one foot at a time safely grounds an occupant leaving an energized vehicle.
 - **Pamphlet Fact:** Jumping clear with feet bound together prevents step potential from driving current across separate legs.
 
-![Practical Electricity field visual showing proper setup, measurement, and technique for home electrical safety inspection in Requirement 2.](/assets/pamphlet_images/electricity_p007_img1.png)
+![Electricity Requirement 2 figure showing flexible appliance cords with cracked outer jackets expose copper conductors.](/assets/pamphlet_images/electricity_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -98,7 +98,7 @@
 - **Common Myth:** Beginners often believe electrical shock victims retain an electrical charge that harms medical first responders.
 - **Pamphlet Fact:** High voltage exposure can cause cardiac ventricular fibrillation requiring immediate chest compressions and automated external defibrillation.
 
-![Detailed Electricity reference illustration comparing key components and stages of building a simple electromagnet for Requirement 3.](/assets/pamphlet_images/electricity_p012_img1.png)
+![Electricity Requirement 3 figure showing soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.](/assets/pamphlet_images/electricity_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -180,7 +180,7 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 3
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 3: Building a Simple Electromagnet
+- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electromagnet Construction and Polarity
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 3
 
@@ -188,7 +188,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Make a simple electromagnet and use it to show magnetic attraction and repulsion.** | `____________________________________` | `____________________________________` |
+| **1. Make a simple electromagnet and use it to show magnetic attraction and repulsion** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Soft iron cores concentrate lines of magnetic flux produced by surrounding wire coils.
@@ -383,7 +383,7 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Electricity merit badge pamphlet and workbook organizer for Req 8
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 8: Reading Meters and Conserving Energy
+- [ ] Electricity field toolkit, inspection gauge, and protective eyewear for Electrical Consumption and Metering
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 8
 

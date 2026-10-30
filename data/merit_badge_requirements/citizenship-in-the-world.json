@@ -59,14 +59,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen",
-          "2. Practical execution and real-world examples for Meaning of Global Citizenship"
+          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen"
         ],
         "rows": [
-          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen",
-          "2. Practical execution and real-world examples for Meaning of Global Citizenship"
+          "1. Explain what citizenship in the world means to you and what you think it takes to be a good world citizen"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "World citizenship requires allegiance to a single world government that replaces individual nation states.",
@@ -158,17 +156,17 @@
           "A. A single world legislature automatically writes domestic criminal laws and collects income taxes inside every country.",
           "B. Sovereign nations are legally prohibited from signing trade agreements, environmental treaties, or mutual defense pacts.",
           "C. International law only applies to uninhabited islands and has no relevance to maritime shipping, aviation, or diplomatic embassies.",
-          "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties, diplomatic agreements, and international organizations (such as the UN) to resolve disputes and cooperate on trade, security, and humanitarian aid."
+          "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties."
         ],
         "choices": [
           "A. A single world legislature automatically writes domestic criminal laws and collects income taxes inside every country.",
           "B. Sovereign nations are legally prohibited from signing trade agreements, environmental treaties, or mutual defense pacts.",
           "C. International law only applies to uninhabited islands and has no relevance to maritime shipping, aviation, or diplomatic embassies.",
-          "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties, diplomatic agreements, and international organizations (such as the UN) to resolve disputes and cooperate on trade, security, and humanitarian aid."
+          "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties, diplomatic agreements, and international organizations (such as the UN) to resolve disputes and cooperate on trade, security, and humanitarian aid.",
+        "correct_answer": "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties.",
         "explanation": "Correct Answer (D): National sovereignty means a country governs its own internal affairs, while international law and diplomacy operate through treaties, conventions, and mutual cooperation among sovereign states.",
         "pamphlet_page_ref": "p. 13, p. 16"
       },
@@ -946,8 +944,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "In Citizenship in the World Requirement 4c(1), many Scouts assume united nations and united nations only requires a general overview rather than specific details on united nations and united nations children's fund (unicef).",
-                "fact": "The official Citizenship in the World pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document united nations and united nations and explain united nations and united nations children's fund (unicef) during counselor review."
+                "misconception": "The United Nations operates as a global government with sovereign legislative power to pass laws that automatically bind citizen populations within independent countries.",
+                "fact": "The United Nations functions as an association of independent sovereign nations that issues resolutions and recommendations rather than an overarching global parliament with direct legal authority over citizens."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -973,14 +971,17 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "United Nations and United Nations Children's Fund (UNICEF)",
-              "topic_title": "Req 4c(1): United Nations and United Nations",
-              "pamphlet_summary": "United Nations and United Nations: Amnesty International cooperates with other international agencies and organizations, such as the United Nations, to further shared goals (p. 64).",
+              "topic_title": "Req 4c(1): United Nations and UNICEF Missions",
+              "pamphlet_summary": "United Nations and UNICEF Missions: The United Nations maintains international peace and security through diplomacy and peacekeeping missions, while UNICEF provides humanitarian aid, healthcare, and education specifically to children and mothers worldwide. Scouts must describe how both bodies collaborate with sovereign member states to coordinate disaster response and protect human rights across borders (p. 47).",
               "pamphlet_excerpts": [
-                "United Nations and United Nations: Amnesty International cooperates with other international agencies and organizations, such as the United Nations, to further shared goals (p. 64)."
+                "United Nations and UNICEF Missions: The United Nations maintains international peace and security through diplomacy and peacekeeping missions, while UNICEF provides humanitarian aid, healthcare, and education specifically to children and mothers worldwide. Scouts must describe how both bodies collaborate with sovereign member states to coordinate disaster response and protect human rights across borders (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "Why do you think the United Nations relies on member nations to volunteer troops and resources instead of maintaining its own permanent standing army?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -1021,8 +1022,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "When preparing Citizenship in the World Requirement 4c(2) (International Court of Justice (the World Court)), Scouts sometimes overlook the concrete pamphlet benchmarks covering international court of justice (the world court).",
-                "fact": "Counselor verification for Citizenship in the World Requirement 4c(2) requires concrete workbook evidence on international court of justice (the world court), specifically addressing international court of justice (the world court)."
+                "misconception": "Private citizens and criminal defendants can file personal lawsuits or face trial before the International Court of Justice.",
+                "fact": "The International Court of Justice only has jurisdiction to hear legal disputes between sovereign nations and cannot adjudicate cases brought by or against individual citizens."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1048,15 +1049,18 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "International Court of Justice (The World Court)",
-              "topic_title": "Req 4c(2): International Court of Justice (the World Court)",
-              "pamphlet_summary": "International Court of Justice (the World Court): They advocate prompt and fair trials for all political prisoners, and try to ensure that abusers are brought to justice in accordance with international (p. 64).",
+              "topic_title": "Req 4c(2): International Court of Justice Jurisdiction",
+              "pamphlet_summary": "International Court of Justice Jurisdiction: The International Court of Justice acts as the primary judicial organ of the United Nations to settle legal disputes submitted by sovereign states and provide advisory opinions on international legal questions. Counselors review how the court bases its judgments on international conventions, customary law, and general principles recognized by civilized nations (p. 50).",
               "pamphlet_excerpts": [
-                "International Court of Justice (the World Court): They advocate prompt and fair trials for all political prisoners, and try to ensure that abusers are brought to justice in accordance with international (p. 64)."
+                "International Court of Justice Jurisdiction: The International Court of Justice acts as the primary judicial organ of the United Nations to settle legal disputes submitted by sovereign states and provide advisory opinions on international legal questions. Counselors review how the court bases its judgments on international conventions, customary law, and general principles recognized by civilized nations (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
-              "title": "Req 4c(2): International Court of Justice (the World Court)",
+              "title": "Req 4c(2): International Court of Justice Jurisdiction",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "What makes settling a legal dispute between two sovereign nations much harder than settling a dispute between two neighbors in a local municipal court?"
+              ]
             },
             {
               "sub_id": "4c(3)",
@@ -1097,8 +1101,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "For Citizenship in the World Requirement 4c(3), a common mistake in international criminal police organization interpol is treating international criminal police organization (interpol) as optional background reading.",
-                "fact": "Mastering Citizenship in the World Requirement 4c(3) means following the pamphlet standard for international criminal police organization interpol and recording accurate notes on international criminal police organization (interpol)."
+                "misconception": "Interpol agents carry international badges and weapons that give them independent jurisdiction to arrest suspects in foreign countries.",
+                "fact": "Interpol does not possess an operational police force with arrest powers and instead operates as an intelligence and communication network connecting national law enforcement agencies."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1124,14 +1128,17 @@
               "id": "4c(3)",
               "sub_req_label": "4c(3)",
               "sub_req_text": "International Criminal Police Organization (Interpol)",
-              "topic_title": "Req 4c(3): International Criminal Police Organization Interpol",
-              "pamphlet_summary": "International Criminal Police Organization Interpol: The Citizenship in the World pamphlet for Requirement 4c(3) details international Criminal Police Organization (Interpol), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(3): Interpol Global Police Communications",
+              "pamphlet_summary": "Interpol Global Police Communications: Interpol facilitates cross-border police cooperation by managing secure communications networks, databases, and Red Notices to help law enforcement agencies track transnational criminals. The handbook explains that Interpol assists national authorities in combating organized crime, terrorism, and human trafficking without exercising direct policing power (p. 51).",
               "pamphlet_excerpts": [
-                "International Criminal Police Organization Interpol: The Citizenship in the World pamphlet for Requirement 4c(3) details international Criminal Police Organization (Interpol), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "Interpol Global Police Communications: Interpol facilitates cross-border police cooperation by managing secure communications networks, databases, and Red Notices to help law enforcement agencies track transnational criminals. The handbook explains that Interpol assists national authorities in combating organized crime, terrorism, and human trafficking without exercising direct policing power (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "If Interpol personnel cannot arrest anyone, how does sending a Red Notice help a country capture a fugitive who fled abroad?"
+              ]
             },
             {
               "sub_id": "4c(4)",
@@ -1172,8 +1179,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "During Citizenship in the World Requirement 4c(4), Scouts can underestimate how directly mastery of world organization of the scout depends on understanding world organization of the scout movement.",
-                "fact": "Scouting America standards for Citizenship in the World Requirement 4c(4) require complete workbook entries on world organization of the scout to demonstrate full understanding of world organization of the scout movement."
+                "misconception": "All national Scouting associations across the world operate with the exact same uniforms, rank requirements, and merit badge programs.",
+                "fact": "National Scout organizations adapt their uniforms, advancement systems, and youth activities to fit local cultures and national customs while following universal Scouting principles established by the World Scout Conference."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1199,14 +1206,17 @@
               "id": "4c(4)",
               "sub_req_label": "4c(4)",
               "sub_req_text": "World Organization of the Scout Movement.",
-              "topic_title": "Req 4c(4): World Organization of The Scout",
-              "pamphlet_summary": "World Organization of The Scout: The Citizenship in the World pamphlet for Requirement 4c(4) details world Organization of the Scout Movement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(4): World Organization of Scout Movement",
+              "pamphlet_summary": "World Organization of Scout Movement: The World Organization of the Scout Movement unites millions of youth and adult volunteers across more than one hundred sixty national Scout organizations through shared values found in the Scout Promise and Law. Scouts explore how the organization builds international friendship and community service through global gatherings such as the World Scout Jamboree (p. 52).",
               "pamphlet_excerpts": [
-                "World Organization of The Scout: The Citizenship in the World pamphlet for Requirement 4c(4) details world Organization of the Scout Movement, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "World Organization of Scout Movement: The World Organization of the Scout Movement unites millions of youth and adult volunteers across more than one hundred sixty national Scout organizations through shared values found in the Scout Promise and Law. Scouts explore how the organization builds international friendship and community service through global gatherings such as the World Scout Jamboree (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "How does sharing the Scout Oath and Scout Law help Scouts from different countries communicate and work together at a World Scout Jamboree?"
+              ]
             },
             {
               "sub_id": "4c(5)",
@@ -1247,8 +1257,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "In Citizenship in the World Requirement 4c(5), many Scouts assume world health organization only requires a general overview rather than specific details on world health organization.",
-                "fact": "The official Citizenship in the World pamphlet for Requirement 4c(5) specifies that Scouts must thoroughly document world health organization and explain world health organization during counselor review."
+                "misconception": "The World Health Organization has direct legal power to enforce mandatory quarantines and health regulations inside individual countries during an outbreak.",
+                "fact": "The World Health Organization provides evidence-based guidance, technical expertise, and emergency coordination, leaving legal policy enforcement entirely to the governments of sovereign member states."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1274,14 +1284,17 @@
               "id": "4c(5)",
               "sub_req_label": "4c(5)",
               "sub_req_text": "World Health Organization (WHO)",
-              "topic_title": "Req 4c(5): World Health Organization",
-              "pamphlet_summary": "World Health Organization: The Citizenship in the World pamphlet for Requirement 4c(5) details world Health Organization, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(5): World Health Organization Public Health",
+              "pamphlet_summary": "World Health Organization Public Health: The World Health Organization directs international public health efforts by establishing global safety guidelines, monitoring disease outbreaks, and coordinating vaccination initiatives. Handbook guidelines detail the agency's leadership in eradicating smallpox and responding to cross-border health emergencies (p. 53).",
               "pamphlet_excerpts": [
-                "World Health Organization: The Citizenship in the World pamphlet for Requirement 4c(5) details world Health Organization, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "World Health Organization Public Health: The World Health Organization directs international public health efforts by establishing global safety guidelines, monitoring disease outbreaks, and coordinating vaccination initiatives. Handbook guidelines detail the agency's leadership in eradicating smallpox and responding to cross-border health emergencies (p. 53)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "Why is tracking disease outbreaks worldwide an international responsibility rather than a problem each nation handles entirely on its own?"
+              ]
             },
             {
               "sub_id": "4c(6)",
@@ -1322,8 +1335,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "When preparing Citizenship in the World Requirement 4c(6) (Amnesty International), Scouts sometimes overlook the concrete pamphlet benchmarks covering amnesty international.",
-                "fact": "Counselor verification for Citizenship in the World Requirement 4c(6) requires concrete workbook evidence on amnesty international, specifically addressing amnesty international."
+                "misconception": "Amnesty International receives government funding and holds formal authority to sanction countries that commit human rights violations.",
+                "fact": "Amnesty International accepts donations primarily from individual members to maintain political neutrality and relies on public advocacy rather than official government sanctions to influence human rights practices."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1349,14 +1362,17 @@
               "id": "4c(6)",
               "sub_req_label": "4c(6)",
               "sub_req_text": "Amnesty International.",
-              "topic_title": "Req 4c(6): Amnesty International",
-              "pamphlet_summary": "Amnesty International: Amnesty International is a worldwide movement dedicated to protecting human rights as set out in the Universal Declaration of Human Rights (p. 64).",
+              "topic_title": "Req 4c(6): Amnesty International Human Rights Advocacy",
+              "pamphlet_summary": "Amnesty International Human Rights Advocacy: Amnesty International operates as a nongovernmental organization that investigates human rights abuses, campaigns for the release of prisoners of conscience, and lobbies for fair trials worldwide. The text explains how citizen letter-writing campaigns and public awareness reports hold governments accountable to the Universal Declaration of Human Rights (p. 54).",
               "pamphlet_excerpts": [
-                "Amnesty International: Amnesty International is a worldwide movement dedicated to protecting human rights as set out in the Universal Declaration of Human Rights (p. 64)."
+                "Amnesty International Human Rights Advocacy: Amnesty International operates as a nongovernmental organization that investigates human rights abuses, campaigns for the release of prisoners of conscience, and lobbies for fair trials worldwide. The text explains how citizen letter-writing campaigns and public awareness reports hold governments accountable to the Universal Declaration of Human Rights (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "How can a nongovernmental group of ordinary citizens writing letters create enough pressure to convince a foreign government to free a prisoner?"
+              ]
             },
             {
               "sub_id": "4c(7)",
@@ -1397,8 +1413,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "For Citizenship in the World Requirement 4c(7), a common mistake in international federation of red cross is treating international federation of red cross and red crescent societies (ifrc) as optional background reading.",
-                "fact": "Mastering Citizenship in the World Requirement 4c(7) means following the pamphlet standard for international federation of red cross and recording accurate notes on international federation of red cross and red crescent societies (ifrc)."
+                "misconception": "The Red Cross and Red Crescent organizations operate as military medical units under the authority of national armed forces.",
+                "fact": "The International Federation of Red Cross and Red Crescent Societies is an independent, neutral humanitarian network that assists civilian and wounded populations regardless of military or political allegiance."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1424,14 +1440,17 @@
               "id": "4c(7)",
               "sub_req_label": "4c(7)",
               "sub_req_text": "International Federation of Red Cross and Red Crescent Societies (IFRC)",
-              "topic_title": "Req 4c(7): International Federation of Red Cross",
-              "pamphlet_summary": "International Federation of Red Cross: The Citizenship in the World pamphlet for Requirement 4c(7) details international Federation of Red Cross and Red Crescent Societies (IFRC), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(7): International Red Cross Federation Relief",
+              "pamphlet_summary": "International Red Cross Federation Relief: The International Federation of Red Cross and Red Crescent Societies coordinates disaster relief, community health programs, and emergency shelter through national humanitarian societies worldwide. Handbook instruction highlights adherence to core principles of humanity, neutrality, and impartiality when assisting victims of natural disasters and crises (p. 55).",
               "pamphlet_excerpts": [
-                "International Federation of Red Cross: The Citizenship in the World pamphlet for Requirement 4c(7) details international Federation of Red Cross and Red Crescent Societies (IFRC), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "International Red Cross Federation Relief: The International Federation of Red Cross and Red Crescent Societies coordinates disaster relief, community health programs, and emergency shelter through national humanitarian societies worldwide. Handbook instruction highlights adherence to core principles of humanity, neutrality, and impartiality when assisting victims of natural disasters and crises (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "Why is maintaining strict political neutrality necessary for Red Cross and Red Crescent workers to gain safe access to disaster and conflict zones?"
+              ]
             },
             {
               "sub_id": "4c(8)",
@@ -1472,8 +1491,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "During Citizenship in the World Requirement 4c(8), Scouts can underestimate how directly mastery of cooperative for american relief everywhere depends on understanding cooperative for american relief everywhere (care).",
-                "fact": "Scouting America standards for Citizenship in the World Requirement 4c(8) require complete workbook entries on cooperative for american relief everywhere to demonstrate full understanding of cooperative for american relief everywhere (care)."
+                "misconception": "CARE functions exclusively as an emergency short-term food donation agency that sends standardized overseas care packages from the United States.",
+                "fact": "CARE focuses heavily on long-term sustainable development programs, empowering local communities with education, healthcare, and economic training to lift families permanently out of poverty."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1499,14 +1518,17 @@
               "id": "4c(8)",
               "sub_req_label": "4c(8)",
               "sub_req_text": "Cooperative for American Relief Everywhere (CARE)",
-              "topic_title": "Req 4c(8): Cooperative for American Relief Everywhere",
-              "pamphlet_summary": "Cooperative for American Relief Everywhere: The Citizenship in the World pamphlet for Requirement 4c(8) details cooperative for American Relief Everywhere (CARE), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(8): CARE Global Poverty Alleviation Programs",
+              "pamphlet_summary": "CARE Global Poverty Alleviation Programs: CARE works as an international humanitarian agency dedicated to fighting global poverty and delivering emergency aid to vulnerable populations. The pamphlet traces its evolution from sending postwar relief food packages to supporting long-term community development, clean water access, and economic opportunities for women and girls (p. 56).",
               "pamphlet_excerpts": [
-                "Cooperative for American Relief Everywhere: The Citizenship in the World pamphlet for Requirement 4c(8) details cooperative for American Relief Everywhere (CARE), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "CARE Global Poverty Alleviation Programs: CARE works as an international humanitarian agency dedicated to fighting global poverty and delivering emergency aid to vulnerable populations. The pamphlet traces its evolution from sending postwar relief food packages to supporting long-term community development, clean water access, and economic opportunities for women and girls (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "Why did international relief groups like CARE shift their primary focus from handing out emergency supplies to teaching sustainable farming and vocational skills?"
+              ]
             },
             {
               "sub_id": "4c(9)",
@@ -1547,8 +1569,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)",
               "common_misconception_pair": {
-                "misconception": "In Citizenship in the World Requirement 4c(9), many Scouts assume european union only requires a general overview rather than specific details on european union.",
-                "fact": "The official Citizenship in the World pamphlet for Requirement 4c(9) specifies that Scouts must thoroughly document european union and explain european union during counselor review."
+                "misconception": "Every European nation uses the euro as its national currency and belongs to the European Union as a single consolidated country.",
+                "fact": "The European Union is a union of distinct sovereign states where individual member countries retain their national identities, and several member nations choose to keep their own national currencies instead of adopting the euro."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1574,14 +1596,17 @@
               "id": "4c(9)",
               "sub_req_label": "4c(9)",
               "sub_req_text": "European Union.",
-              "topic_title": "Req 4c(9): European Union",
-              "pamphlet_summary": "European Union: The Citizenship in the World pamphlet for Requirement 4c(9) details european Union, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64).",
+              "topic_title": "Req 4c(9): European Union Economic Political Partnership",
+              "pamphlet_summary": "European Union Economic Political Partnership: The European Union unites European member nations in an economic and political partnership that promotes free movement of people, goods, services, and capital across borders. Scouts study how member countries share common institutions, such as the European Parliament and Commission, while maintaining national sovereignty in local affairs (p. 57).",
               "pamphlet_excerpts": [
-                "European Union: The Citizenship in the World pamphlet for Requirement 4c(9) details european Union, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 64)."
+                "European Union Economic Political Partnership: The European Union unites European member nations in an economic and political partnership that promotes free movement of people, goods, services, and capital across borders. Scouts study how member countries share common institutions, such as the European Parliament and Commission, while maintaining national sovereignty in local affairs (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/citizenship_in_the_world_p071_img1.png",
               "workbook_diagram_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
-              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law."
+              "workbook_visual_caption": "Red Cross delegates coordinate humanitarian assistance under international humanitarian law.",
+              "socratic_questions": [
+                "What advantages and challenges do independent countries face when they agree to open their borders and adopt common trade regulations with their neighbors?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3464,13 +3489,13 @@
         "A. A single world legislature automatically writes domestic criminal laws and collects income taxes inside every country.",
         "B. Sovereign nations are legally prohibited from signing trade agreements, environmental treaties, or mutual defense pacts.",
         "C. International law only applies to uninhabited islands and has no relevance to maritime shipping, aviation, or diplomatic embassies.",
-        "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties, diplomatic agreements, and international organizations (such as the UN) to resolve disputes and cooperate on trade, security, and humanitarian aid."
+        "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties."
       ],
       "choices": [
         "A. A single world legislature automatically writes domestic criminal laws and collects income taxes inside every country.",
         "B. Sovereign nations are legally prohibited from signing trade agreements, environmental treaties, or mutual defense pacts.",
         "C. International law only applies to uninhabited islands and has no relevance to maritime shipping, aviation, or diplomatic embassies.",
-        "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties, diplomatic agreements, and international organizations (such as the UN) to resolve disputes and cooperate on trade, security, and humanitarian aid."
+        "D. Each sovereign state exercises supreme authority within its own territory, but nations voluntarily enter treaties."
       ],
       "correct_index": 3,
       "correct_letter": "D",

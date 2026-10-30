@@ -97,7 +97,7 @@
 - **Common Myth:** Scouts frequently assume that tidal waves are simply unusually large storm surges.
 - **Pamphlet Fact:** A storm surge is driven by low pressure and wind, while tsunamis stem from seismic displacement.
 
-![Practical Oceanography field visual showing proper setup, measurement, and technique for ocean waves and rip currents in Requirement 3.](/assets/pamphlet_images/oceanography_p012_img1.png)
+![Oceanography Requirement 3 figure showing wavelength measures horizontal distance between wave crests while wave height measures.](/assets/pamphlet_images/oceanography_p012_img1.png)
 
 | Comparison Dimension | Seismic Tsunami and Storm Surge | Gravitational Tidal Wave and Bore |
 | :--- | :--- | :--- |
@@ -125,7 +125,7 @@
 - **Common Myth:** Scouts think waves break because surface winds push the crest forward faster than normal.
 - **Pamphlet Fact:** A breaker forms when water depth decreases to approximately 1.3 times the wave height.
 
-![Step-by-step Oceanography visual guide highlighting branches and importance of oceanography positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/oceanography_p003_img1.png)
+![Oceanography Requirement 1 figure showing geological chemical physical and biological branches examine different marine basin.](/assets/pamphlet_images/oceanography_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -139,7 +139,7 @@
 - **Common Myth:** Scouts frequently believe rip currents act as undertows that drag swimmers beneath the surface.
 - **Pamphlet Fact:** Rip currents flow horizontally away from shore through gaps in sandbars and do not pull swimmers under.
 
-![Detailed Oceanography reference illustration comparing key components and stages of seawater properties and ocean currents for Requirement 2.](/assets/pamphlet_images/oceanography_p007_img1.png)
+![Oceanography Requirement 2 figure showing salinity quantifies dissolved mineral salts and oceanographers measure it.](/assets/pamphlet_images/oceanography_p007_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -444,7 +444,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water.** | `____________________________________` | `____________________________________` |
+| **1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Acoustic Mapping: Multibeam sonar systems transmit sound pulses through seawater to map detailed seafloor bathymetry.

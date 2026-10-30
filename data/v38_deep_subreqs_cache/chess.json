@@ -1,0 +1,42 @@
+{
+  "5c(1)": {
+    "fact": "Two rooks provide sufficient power to strip all escape squares and finish the checkmate without any assistance from their king.",
+    "misconception": "The attacking king must leave the first rank and actively help the two rooks trap the enemy king.",
+    "pamphlet_summary": "Scouts execute the roller or lawnmower technique by having two rooks alternate ranks or files to steadily push the enemy king to the edge of the board. One rook cuts off escape while the other delivers check until delivering checkmate on the perimeter (p. 40).",
+    "socratic_question": "If you have two rooks on the board, how can you work them together like a set of stairs to push the other king to the wall without ever moving your own king?",
+    "sub_id": "5c(1)",
+    "topic_title": "Two Rooks Roller Checkmate Technique"
+  },
+  "5c(2)": {
+    "fact": "A queen cannot deliver checkmate alone because the lone king can always capture an unprotected adjacent queen or flee along an open diagonal.",
+    "misconception": "The queen can deliver checkmate on her own without help from the attacking king.",
+    "pamphlet_summary": "Scouts use the queen to establish a knight's move barrier that confines the lone king into a shrinking box against the board edge. Once the enemy king is trapped on the boundary, the attacking king advances to protect the queen as she delivers checkmate without allowing stalemate (p. 42).",
+    "socratic_question": "Why do you need your king to march across the board to finish the game when the queen is already the most powerful piece in chess?",
+    "sub_id": "5c(2)",
+    "topic_title": "King and Queen Checkmate Technique"
+  },
+  "5c(3)": {
+    "fact": "Checkmate with a single rook requires the attacking king to stand in direct opposition to take away the defending king's forward escape squares.",
+    "misconception": "A lone rook can drive the defending king to the edge of the board by delivering repeated checks without the attacking king nearby.",
+    "pamphlet_summary": "Scouts coordinate the king and rook together to restrict the enemy king and drive it back to an outside rank or file. Checkmate occurs along the rim when the attacking king faces the opposing king in direct opposition and the rook checks along the edge (p. 43).",
+    "socratic_question": "How do your king and rook have to stand relative to the enemy king so that a single rook check leaves no open squares?",
+    "sub_id": "5c(3)",
+    "topic_title": "King and Rook Checkmate Technique"
+  },
+  "5d(1)": {
+    "fact": "The attacking king must march ahead of the pawn to secure key squares and gain the opposition before pushing the pawn forward.",
+    "misconception": "Pushing the passed pawn forward as quickly as possible is the fastest way to guarantee promotion.",
+    "pamphlet_summary": "White advances the king ahead of the passed pawn onto key control squares to establish the opposition and force Black out of the path. This positional advantage escorts the pawn safely to the eighth rank for queen promotion without allowing a block or stalemate (p. 44).",
+    "socratic_question": "Why does leading with your king instead of pushing your pawn forward help you force the opposing king out of the way?",
+    "sub_id": "5d(1)",
+    "topic_title": "King and Pawn Winning Promotion"
+  },
+  "5d(2)": {
+    "fact": "The defending king must retreat straight back along the promotion file to seize the opposition when the attacking king steps forward.",
+    "misconception": "The defending king should step diagonally sideways to escape checks instead of staying on the pawn file.",
+    "pamphlet_summary": "Black takes direct opposition whenever White advances the king and retreats straight backward along the pawn's file when checked. Keeping the defensive king directly in front of the passed pawn blocks promotion and forces a draw by stalemate or repetition (p. 45).",
+    "socratic_question": "Where should your king retreat after being checked on the file so that White cannot gain the opposition on the next turn?",
+    "sub_id": "5d(2)",
+    "topic_title": "King and Pawn Defensive Draw"
+  }
+}

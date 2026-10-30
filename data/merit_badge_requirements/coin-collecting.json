@@ -157,20 +157,20 @@
         "scenario_prompt": "When examining and storing collectible coins for Coin Collecting Requirement 1, how should you hold a coin to preserve its numismatic grade, and what do the mint marks 'P', 'D', 'S', and 'W' indicate?",
         "question": "When examining and storing collectible coins for Coin Collecting Requirement 1, how should you hold a coin to preserve its numismatic grade, and what do the mint marks 'P', 'D', 'S', and 'W' indicate?",
         "options": [
-          "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste; the letters indicate purity grades of platinum, diamond, silver, and tungsten.",
+          "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste.",
           "B. Hold coins with serrated steel pliers and store them loose in PVC vinyl pouches; the letters indicate the four quarters of the fiscal year.",
-          "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S', and 'W' as the U.S. Mint facilities in Philadelphia, Denver, San Francisco, and West Point.",
-          "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album; the letters indicate the last initial of the President."
+          "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S'.",
+          "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album."
         ],
         "choices": [
-          "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste; the letters indicate purity grades of platinum, diamond, silver, and tungsten.",
+          "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste.",
           "B. Hold coins with serrated steel pliers and store them loose in PVC vinyl pouches; the letters indicate the four quarters of the fiscal year.",
-          "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S', and 'W' as the U.S. Mint facilities in Philadelphia, Denver, San Francisco, and West Point.",
-          "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album; the letters indicate the last initial of the President."
+          "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S'.",
+          "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S', and 'W' as the U.S. Mint facilities in Philadelphia, Denver, San Francisco, and West Point.",
+        "correct_answer": "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S'.",
         "explanation": "Correct Answer (C): Skin acids and oils permanently damage a coin's surface luster and lower its grade, so collectors hold coins only by their edges and store them in inert, PVC-free holders; P, D, S, and W identify the Philadelphia, Denver, San Francisco, and West Point Mints.",
         "pamphlet_page_ref": "p. 11, p. 15"
       },
@@ -235,14 +235,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set",
-          "2. Practical execution and real-world examples for Essential Numismatic Terms and Sets"
+          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set"
         ],
         "rows": [
-          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set",
-          "2. Practical execution and real-world examples for Essential Numismatic Terms and Sets"
+          "1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Novice collectors frequently confuse type sets with complete date sets across long series runs.",
@@ -405,14 +403,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method",
-          "2. Practical execution and real-world examples for Coin Storage Methods and Trade offs"
+          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method"
         ],
         "rows": [
-          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method",
-          "2. Practical execution and real-world examples for Coin Storage Methods and Trade offs"
+          "1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Soft plastic vinyl sleeves protect coins better than stiff archival cardboard and mylar holders.",
@@ -1797,8 +1793,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "In Coin Collecting Requirement 7d(1), many Scouts assume coin collecting coin principles only requires a general overview rather than specific details on attend a coin show.",
-                "fact": "The official Coin Collecting pamphlet for Requirement 7d(1) specifies that Scouts must thoroughly document coin collecting coin principles and explain attend a coin show during counselor review."
+                "misconception": "Dealers at coin shows permit attendees to pick up bare coins directly by their obverse and reverse faces to inspect fine details.",
+                "fact": "Proper bourse etiquette requires asking permission before touching any specimen and holding unslabbed coins solely by their rims to prevent corrosion from skin oils."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1824,14 +1820,17 @@
               "id": "7d(1)",
               "sub_req_label": "7d(1)",
               "sub_req_text": "Attend a coin show.",
-              "topic_title": "Req 7d(1): Coin Collecting Coin Principles",
-              "pamphlet_summary": "Coin Collecting Coin Principles: The Coin Collecting pamphlet for Requirement 7d(1) details attend a coin show, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 7d(1): Coin Show Attendance and Etiquette",
+              "pamphlet_summary": "Coin Show Attendance and Etiquette: Visiting a commercial coin bourse allows collectors to observe trading etiquette, inspect dealer inventories, and examine certified coins displayed under specialized lighting. Scouts should always ask permission before handling items and hold raw pieces strictly by their edges (p. 45).",
               "pamphlet_excerpts": [
-                "Coin Collecting Coin Principles: The Coin Collecting pamphlet for Requirement 7d(1) details attend a coin show, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Coin Show Attendance and Etiquette: Visiting a commercial coin bourse allows collectors to observe trading etiquette, inspect dealer inventories, and examine certified coins displayed under specialized lighting. Scouts should always ask permission before handling items and hold raw pieces strictly by their edges (p. 45)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
               "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+              "socratic_questions": [
+                "When you approach a dealer table at a coin show, why is it necessary to ask before touching a coin and hold it only by its outer rim?"
+              ]
             },
             {
               "sub_id": "7d(2)",
@@ -1868,8 +1867,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "When preparing Coin Collecting Requirement 7d(2) (Coin Club Meeting), Scouts sometimes overlook the concrete pamphlet benchmarks covering attend a coin club meeting.",
-                "fact": "Counselor verification for Coin Collecting Requirement 7d(2) requires concrete workbook evidence on coin club meeting, specifically addressing attend a coin club meeting."
+                "misconception": "Coin club meetings are formal sales events restricted to professional dealers and adults with large financial investments.",
+                "fact": "Local coin clubs welcome hobbyists of all ages and focus primarily on educational presentations, collector fellowship, and modest member auctions."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1895,14 +1894,17 @@
               "id": "7d(2)",
               "sub_req_label": "7d(2)",
               "sub_req_text": "Attend a coin club meeting.",
-              "topic_title": "Req 7d(2): Coin Club Meeting",
-              "pamphlet_summary": "Coin Club Meeting: The Coin Collecting pamphlet for Requirement 7d(2) details attend a coin club meeting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 7d(2): Local Coin Club Meeting Participation",
+              "pamphlet_summary": "Local Coin Club Meeting Participation: Local numismatic clubs offer educational presentations, member auctions, and show-and-tell sessions that introduce collectors to specialized collecting fields. Participating in a meeting gives Scouts direct access to knowledgeable mentors who share preservation advice and grading insights (p. 44).",
               "pamphlet_excerpts": [
-                "Coin Club Meeting: The Coin Collecting pamphlet for Requirement 7d(2) details attend a coin club meeting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Local Coin Club Meeting Participation: Local numismatic clubs offer educational presentations, member auctions, and show-and-tell sessions that introduce collectors to specialized collecting fields. Participating in a meeting gives Scouts direct access to knowledgeable mentors who share preservation advice and grading insights (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
               "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+              "socratic_questions": [
+                "How can attending a local coin club meeting help you discover new collecting specialties that you might never encounter on your own?"
+              ]
             },
             {
               "sub_id": "7d(3)",
@@ -1943,8 +1945,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "For Coin Collecting Requirement 7d(3), a common mistake in core principles and practical standards for coin shows and numismatic fieldwork is treating tour a u.s. mint facility or museum as optional background reading.",
-                "fact": "Mastering Coin Collecting Requirement 7d(3) means following the pamphlet standard for core principles and practical standards for coin shows and numismatic fieldwork and recording accurate notes on tour a u.s. mint facility or museum."
+                "misconception": "All United States Mint facilities strike both circulating coins and collector proof sets on identical high-speed production presses.",
+                "fact": "Circulating coins are struck once at high speed on standard presses, whereas proof coins are individually fed and struck multiple times at lower speeds with specially polished dies."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1970,14 +1972,17 @@
               "id": "7d(3)",
               "sub_req_label": "7d(3)",
               "sub_req_text": "Tour a U. S. Mint facility or museum.",
-              "topic_title": "Req 7d(3): Core principles and practical standards for Coin Shows and Numismatic Fieldwork",
-              "pamphlet_summary": "Core principles and practical standards for Coin Shows and Numismatic Fieldwork: The Coin Collecting pamphlet for Requirement 7d(3) details tour a U.S. Mint facility or museum, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 7d(3): United States Mint Facility Tour",
+              "pamphlet_summary": "United States Mint Facility Tour: Touring an active production facility in Philadelphia or Denver shows how blank metal coils are punched into planchets, upset with raised rims, and struck by coining presses. Visitors observe high-speed automated sorting, proof striking, and stringent quality control inspections firsthand (p. 47).",
               "pamphlet_excerpts": [
-                "Core principles and practical standards for Coin Shows and Numismatic Fieldwork: The Coin Collecting pamphlet for Requirement 7d(3) details tour a U.S. Mint facility or museum, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "United States Mint Facility Tour: Touring an active production facility in Philadelphia or Denver shows how blank metal coils are punched into planchets, upset with raised rims, and struck by coining presses. Visitors observe high-speed automated sorting, proof striking, and stringent quality control inspections firsthand (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
               "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+              "socratic_questions": [
+                "What mechanical steps must a flat metal disk undergo inside a mint facility before it becomes a finished circulating coin?"
+              ]
             },
             {
               "sub_id": "7d(4)",
@@ -2022,8 +2027,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "During Coin Collecting Requirement 7d(4), Scouts can underestimate how directly mastery of tour a virtual exhibit approved depends on understanding tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.",
-                "fact": "Scouting America standards for Coin Collecting Requirement 7d(4) require complete workbook entries on tour a virtual exhibit approved to demonstrate full understanding of tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor."
+                "misconception": "Browsing coin sales websites or commercial auction listings satisfies the requirement for an approved virtual museum tour.",
+                "fact": "A virtual tour must explore curated educational exhibits from recognized institutions such as the Smithsonian National Numismatic Collection or the American Numismatic Association Money Museum."
               },
               "starting_requirement_gate": {
                 "gate_type": "COUNSELOR_PRE_APPROVAL",
@@ -2054,14 +2059,17 @@
               "id": "7d(4)",
               "sub_req_label": "7d(4)",
               "sub_req_text": "Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.",
-              "topic_title": "Req 7d(4): Tour a virtual exhibit approved",
-              "pamphlet_summary": "Tour a virtual exhibit approved: The Coin Collecting pamphlet for Requirement 7d(4) details tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 7d(4): Approved Virtual Numismatic Exhibit Tour",
+              "pamphlet_summary": "Approved Virtual Numismatic Exhibit Tour: Online museum galleries provide interactive access to high-resolution images of legendary numismatic rarities, ancient currency, and historic dies that are not on physical display. Scouts must secure parent permission and counselor approval before examining curated digital collections from institutions like the Smithsonian or the American Numismatic Association (p. 48).",
               "pamphlet_excerpts": [
-                "Tour a virtual exhibit approved: The Coin Collecting pamphlet for Requirement 7d(4) details tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Approved Virtual Numismatic Exhibit Tour: Online museum galleries provide interactive access to high-resolution images of legendary numismatic rarities, ancient currency, and historic dies that are not on physical display. Scouts must secure parent permission and counselor approval before examining curated digital collections from institutions like the Smithsonian or the American Numismatic Association (p. 48)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/coin_collecting_p045_img1.png",
               "workbook_diagram_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
-              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities."
+              "workbook_visual_caption": "A map highlights the twelve Federal Reserve districts and issuing bank cities.",
+              "socratic_questions": [
+                "What makes a curated museum exhibit online different from browsing commercial auction listings when studying the historical significance of money?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -2348,16 +2356,16 @@
       "scenario_prompt": "When examining and storing collectible coins for Coin Collecting Requirement 1, how should you hold a coin to preserve its numismatic grade, and what do the mint marks 'P', 'D', 'S', and 'W' indicate?",
       "question": "When examining and storing collectible coins for Coin Collecting Requirement 1, how should you hold a coin to preserve its numismatic grade, and what do the mint marks 'P', 'D', 'S', and 'W' indicate?",
       "options": [
-        "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste; the letters indicate purity grades of platinum, diamond, silver, and tungsten.",
+        "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste.",
         "B. Hold coins with serrated steel pliers and store them loose in PVC vinyl pouches; the letters indicate the four quarters of the fiscal year.",
-        "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S', and 'W' as the U.S. Mint facilities in Philadelphia, Denver, San Francisco, and West Point.",
-        "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album; the letters indicate the last initial of the President."
+        "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S'.",
+        "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album."
       ],
       "choices": [
-        "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste; the letters indicate purity grades of platinum, diamond, silver, and tungsten.",
+        "A. Pinch the flat obverse and reverse faces firmly between bare thumbs and scrub tarnished coins with baking soda paste.",
         "B. Hold coins with serrated steel pliers and store them loose in PVC vinyl pouches; the letters indicate the four quarters of the fiscal year.",
-        "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S', and 'W' as the U.S. Mint facilities in Philadelphia, Denver, San Francisco, and West Point.",
-        "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album; the letters indicate the last initial of the President."
+        "C. Hold a coin only by its outer rim/edge over a soft pad so skin oils do not etch the flat surfaces, and recognize 'P', 'D', 'S'.",
+        "D. Polish every coin with steel wool to make it shine before gluing it into a cardboard album."
       ],
       "correct_index": 2,
       "correct_letter": "C",

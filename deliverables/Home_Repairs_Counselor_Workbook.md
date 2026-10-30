@@ -50,7 +50,7 @@
 - **Common Myth:** Sunken work areas eliminate the need for heavy footwear during basic room demolition.
 - **Pamphlet Fact:** Impact rated safety goggles with z87 certification prevent high velocity particles from blinding workers.
 
-![Detailed Home Repairs reference illustration comparing key components and stages of home repair safety and hazard prevention for Requirement 1.](/assets/pamphlet_images/home_repairs_p003_img1.png)
+![Home Repairs Requirement 1 figure showing aNSI approved impact goggles prevent corneal punctures from flying wood or metal chips.](/assets/pamphlet_images/home_repairs_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** Washing metal digging tools with water without drying prevents rust formation during storage.
 - **Pamphlet Fact:** Mineral spirits dissolve oxidized plant sap while boiled linseed oil seals ash wood handles against rot.
 
-![Practical Home Repairs field visual showing proper setup, measurement, and technique for exterior maintenance and weatherproofing projects in Requirement 2.](/assets/pamphlet_images/home_repairs_p007_img1.png)
+![Home Repairs Requirement 2 figure showing mill bastard files stroked along factory bevels restore crisp cutting edges smoothly.](/assets/pamphlet_images/home_repairs_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

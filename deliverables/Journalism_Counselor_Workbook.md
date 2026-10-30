@@ -79,11 +79,11 @@
 - Print and digital journalism contrast spatial layout constraints against fluid real time publishing updates. Readers analyze headline hierarchy and hyperlink provenance to evaluate source transparency.
 - Req 2a Standard (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)): Option A, Newspaper, Magazine, and Online Journalism. (Ask your parent or guardian's permission for the online option.) Do ALL of the following: (1) On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story. (2) Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a "good" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )
 
-#### Req 2a(1): On the same day, read
+#### Req 2a(1): Multiplatform Same Day News Comparison
 **Official Requirement 2a(1):** On the same day, read a local news source or newspaper, a national news source or newspaper, a news magazine (online or printed), and a social media news feed. From each source, clip, read, and compare a story about the same event. Tell your counselor how long each story is and how fair and accurate the stories are in presenting different points of view. Tell how each source handled the story.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (2-Column Comparison Table):** Req 2a(1) Technical Comparison Matrix (Same Day Read A Local)
-- **Common Myth:** In Journalism Requirement 2a(1), many Scouts assume on the same day, read only requires a general overview rather than specific details on on the same day, read a local news source or newspaper, a national news source or newspaper, a news.
-- **Pamphlet Fact:** The official Journalism pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document on the same day, read and explain on the same day, read a local news source or newspaper, a national news source or newspaper, a news during counselor review.
+- **Common Myth:** Social media news feeds provide the same depth of verified factual reporting as traditional newspapers because user posts appear instantly from eyewitnesses.
+- **Pamphlet Fact:** Professional newspapers and magazines verify claims with multiple credible sources and provide investigative context that uncurated social media feeds lack.
 
 ![A youth writes digital stories on a laptop for online media publication formats.](/assets/pamphlet_images/journalism_p030_img1.png)
 
@@ -96,13 +96,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Visit the office of a newspaper
+#### Req 2a(2): Newsroom Editorial And Business Independence
 **Official Requirement 2a(2):** Visit the office of a newspaper, magazine, or internet news site. Ask for a tour of the various divisions (editorial, business, and printing). During your tour, talk to an executive from the business side about management's relations with reporters, editors, and photographers, and what makes a "good" newspaper, magazine, or internet news site. Note: If there are no opportunities for in-person visits in your community, a virtual visit is acceptable with the news site of your choice, provided your counselor approves this option in advance. (You can request a virtual visit with Scout Life magazine )
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2a(2) Structured Technical Study & Explanation Matrix (Office of A Newspaper Magazine)
-- **Common Myth:** When preparing Journalism Requirement 2a(2) (Visit the office of a newspaper), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit the office of a newspaper, magazine, or internet news site.
-- **Pamphlet Fact:** Counselor verification for Journalism Requirement 2a(2) requires concrete workbook evidence on visit the office of a newspaper, specifically addressing visit the office of a newspaper, magazine, or internet news site.
+- **Common Myth:** Commercial advertisers who purchase ads in a newspaper or on a news website have the power to approve news articles and suppress unfavorable stories.
+- **Pamphlet Fact:** Ethical news organizations enforce an absolute separation between the business office and the newsroom so that advertising dollars never dictate editorial decisions.
 
-![Practical Journalism field visual showing proper setup, measurement, and technique for press freedom, media law, and ethics in Requirement 1.](/assets/pamphlet_images/journalism_p003_img1.png)
+![Journalism Requirement 1 figure showing the First Amendment shields independent reporting from government prior restraint.](/assets/pamphlet_images/journalism_p003_img1.png)
 
 | Req 2a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -125,12 +125,12 @@
 - Radio and television journalism compress complex civic events into brief spoken sound bites paired with compelling audio or video footage. Broadcasters structure scripts for spoken clarity, immediate listener comprehension, and strict broadcast clock timing.
 - Req 2b Standard (Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)): Option B, Radio and Television Journalism. Do ALL of the following: (1) All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view. (2) Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a "good" station. If possible, go with a reporter to cover a news event.
 
-#### Req 2b(1): All on the same day, watch
+#### Req 2b(1): Broadcast News Multiplatform Content Comparison
 **Official Requirement 2b(1):** All on the same day, watch a local and national network newscast, listen to a radio newscast, and (with your parent or guardian's permission) view a national broadcast news source online. List the different news items and features presented, the different elements used, and the time in minutes and seconds and the online space devoted to each story. Compare the story lists and discuss whether the stories are fair and accurate. Explain why different news outlets treated the stories differently and/or presented a different point of view.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (2-Column Comparison Table):** Req 2b(1) Technical Comparison Matrix (Same Day Watch A Local)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Journalism Req 2b(1) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** In Journalism Requirement 2b(1), many Scouts assume all on the same day, watch only requires a general overview rather than specific details on all on the same day, watch a local and national network newscast, listen to a radio newscast.
-- **Pamphlet Fact:** The official Journalism pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document all on the same day, watch and explain all on the same day, watch a local and national network newscast, listen to a radio newscast during counselor review.
+- **Common Myth:** Radio newscasts contain far less news information than television broadcasts because audio reporting lacks on-screen graphics and video footage.
+- **Pamphlet Fact:** Radio news updates focus on tight sentences packed with facts that often deliver more individual news stories in five minutes than a half hour television broadcast filled with anchor banter, video transitions, and commercials.
 
 ![A broadcast journalist presents stories from behind a television studio news desk.](/assets/pamphlet_images/journalism_p028_img1.png)
 
@@ -143,11 +143,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Radio or Television Station Ask
+#### Req 2b(2): Broadcast Station Newsroom Operations Tour
 **Official Requirement 2b(2):** Visit a radio or television station. Ask for a tour of the various departments, concentrating on those related to news broadcasts. During your tour, talk to the station manager or other station management executive about station operations, particularly how management and the news staff work together, and what makes a "good" station. If possible, go with a reporter to cover a news event.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 27, p. 37)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Radio or Television Station Ask)
-- **Common Myth:** When preparing Journalism Requirement 2b(2) (Radio or Television Station Ask), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit a radio or television station.
-- **Pamphlet Fact:** Counselor verification for Journalism Requirement 2b(2) requires concrete workbook evidence on radio or television station ask, specifically addressing visit a radio or television station.
+- **Common Myth:** A broadcast station manager directs news reporters on how to cover stories and can censor factual reports that might offend local businesses.
+- **Pamphlet Fact:** Professional broadcast stations abide by strict ethical guidelines and federal licensing principles that require news directors to operate independently from commercial sales and station management pressure.
 
 ![A journalist prepares investigative news stories while exercising press freedoms.](/assets/pamphlet_images/journalism_p021_img1.png)
 
@@ -181,7 +181,7 @@
 - **Common Myth:** A reporter can write one generic draft that works identically across print, online, and audio channels.
 - **Pamphlet Fact:** Print requires formal attribution structure, whereas audio requires brief conversational sentences that sound natural when read aloud.
 
-![Practical Journalism field visual showing proper setup, measurement, and technique for hard news, features, and reporting practice in Requirement 3.](/assets/pamphlet_images/journalism_p012_img1.png)
+![Journalism Requirement 3 figure showing urgent reports deliver vital public interest facts without flowery description.](/assets/pamphlet_images/journalism_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

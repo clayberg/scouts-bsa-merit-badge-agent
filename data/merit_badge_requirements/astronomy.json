@@ -479,20 +479,20 @@
         "scenario_prompt": "During a troop star party and daytime solar observation session for Astronomy Requirement 1, which safety and field practice is mandatory?",
         "question": "During a troop star party and daytime solar observation session for Astronomy Requirement 1, which safety and field practice is mandatory?",
         "options": [
-          "A. View the Sun directly through binoculars while wearing polarized sunglasses, and use a bright white LED lantern at night to read star charts.",
-          "B. Never look at the Sun through any telescope, binoculars, or camera without a certified front-aperture solar filter or indirect pinhole projection, and use a dim red flashlight at night to preserve dark adaptation.",
-          "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots, and shine a green laser pointer into the eyes of observers to line up constellations.",
+          "A. View the Sun directly through binoculars while wearing polarized sunglasses.",
+          "B. Never look at the Sun through any telescope, binoculars.",
+          "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots.",
           "D. Wipe morning dew off telescope objective lenses with a dry paper towel and warm frozen eyepieces over an open camp stove flame."
         ],
         "choices": [
-          "A. View the Sun directly through binoculars while wearing polarized sunglasses, and use a bright white LED lantern at night to read star charts.",
-          "B. Never look at the Sun through any telescope, binoculars, or camera without a certified front-aperture solar filter or indirect pinhole projection, and use a dim red flashlight at night to preserve dark adaptation.",
-          "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots, and shine a green laser pointer into the eyes of observers to line up constellations.",
+          "A. View the Sun directly through binoculars while wearing polarized sunglasses.",
+          "B. Never look at the Sun through any telescope, binoculars.",
+          "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots.",
           "D. Wipe morning dew off telescope objective lenses with a dry paper towel and warm frozen eyepieces over an open camp stove flame."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Never look at the Sun through any telescope, binoculars, or camera without a certified front-aperture solar filter or indirect pinhole projection, and use a dim red flashlight at night to preserve dark adaptation.",
+        "correct_answer": "B. Never look at the Sun through any telescope, binoculars.",
         "explanation": "Correct Answer (B): Looking at the Sun through unfiltered optics concentrates solar energy onto the retina and causes instant, permanent blindness; certified front-aperture solar filters or indirect projection are required, and red light preserves night vision.",
         "pamphlet_page_ref": "p. 11, p. 13"
       },
@@ -565,14 +565,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain what light pollution is and how it and air pollution affect astronomy",
-          "2. Practical execution and real-world examples for Light Pollution and Atmospheric Seeing"
+          "1. Explain what light pollution is and how it and air pollution affect astronomy"
         ],
         "rows": [
-          "1. Explain what light pollution is and how it and air pollution affect astronomy",
-          "2. Practical execution and real-world examples for Light Pollution and Atmospheric Seeing"
+          "1. Explain what light pollution is and how it and air pollution affect astronomy"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Light pollution only obscures dim stars without altering the visibility of bright constellations.",
@@ -4403,15 +4401,15 @@
       "scenario_prompt": "During a troop star party and daytime solar observation session for Astronomy Requirement 1, which safety and field practice is mandatory?",
       "question": "During a troop star party and daytime solar observation session for Astronomy Requirement 1, which safety and field practice is mandatory?",
       "options": [
-        "A. View the Sun directly through binoculars while wearing polarized sunglasses, and use a bright white LED lantern at night to read star charts.",
-        "B. Never look at the Sun through any telescope, binoculars, or camera without a certified front-aperture solar filter or indirect pinhole projection, and use a dim red flashlight at night to preserve dark adaptation.",
-        "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots, and shine a green laser pointer into the eyes of observers to line up constellations.",
+        "A. View the Sun directly through binoculars while wearing polarized sunglasses.",
+        "B. Never look at the Sun through any telescope, binoculars.",
+        "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots.",
         "D. Wipe morning dew off telescope objective lenses with a dry paper towel and warm frozen eyepieces over an open camp stove flame."
       ],
       "choices": [
-        "A. View the Sun directly through binoculars while wearing polarized sunglasses, and use a bright white LED lantern at night to read star charts.",
-        "B. Never look at the Sun through any telescope, binoculars, or camera without a certified front-aperture solar filter or indirect pinhole projection, and use a dim red flashlight at night to preserve dark adaptation.",
-        "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots, and shine a green laser pointer into the eyes of observers to line up constellations.",
+        "A. View the Sun directly through binoculars while wearing polarized sunglasses.",
+        "B. Never look at the Sun through any telescope, binoculars.",
+        "C. Thread a dark glass eyepiece filter onto the back of a large reflector telescope to view sunspots.",
         "D. Wipe morning dew off telescope objective lenses with a dry paper towel and warm frozen eyepieces over an open camp stove flame."
       ],
       "correct_index": 1,

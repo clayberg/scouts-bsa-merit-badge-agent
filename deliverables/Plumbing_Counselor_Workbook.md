@@ -49,7 +49,7 @@
 - **Common Myth:** Clean supply water and black drain water run through separate chambers within the same pipe.
 - **Pamphlet Fact:** Potable supply and sanitary drainage are physically isolated networks with dedicated air gaps preventing cross-contamination.
 
-![Step-by-step Plumbing visual guide highlighting plumbing health codes and repair safety positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/plumbing_p003_img1.png)
+![Plumbing Requirement 1 figure showing pressurized incoming pipes deliver clean water while preventing contaminated waste.](/assets/pamphlet_images/plumbing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@
 - **Common Myth:** Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.
 - **Pamphlet Fact:** Upstream isolation at the fixture stop or main shutoff valve is required before cutting lines.
 
-![Illustrated Plumbing technical diagram of selecting and using essential plumbing tools for Requirement 3 field execution.](/assets/pamphlet_images/plumbing_p012_img1.png)
+![Plumbing Requirement 3 figure showing align jaw opening towards the direction of pull so serrated teeth grip firmly.](/assets/pamphlet_images/plumbing_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -167,7 +167,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Show how to use five important plumber's tools.** | `____________________________________` | `____________________________________` |
+| **1. Show how to use five important plumber's tools** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Align jaw opening towards the direction of pull so serrated teeth grip firmly.
@@ -188,7 +188,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter.** | `____________________________________` | `____________________________________` |
+| **1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Short lengths of male threaded pipe connect closely positioned valves and female fittings.

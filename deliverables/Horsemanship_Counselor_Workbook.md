@@ -56,7 +56,7 @@
 - **Common Myth:** Walking quietly without vocal cues keeps a resting horse calm during stall entry.
 - **Pamphlet Fact:** Speaking before entering equine space engages auditory tracking and eliminates sudden physical panic reactions.
 
-![Illustrated Horsemanship technical diagram of ground handling and barn fire safety for Requirement 1 field execution.](/assets/pamphlet_images/horsemanship_p003_img1.png)
+![Horsemanship Requirement 1 figure showing handlers must approach near the shoulder where equine peripheral vision remains clear.](/assets/pamphlet_images/horsemanship_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -89,7 +89,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Name 15 parts of a horse and discuss the function of each with your counselor.** | `____________________________________` | `____________________________________` |
+| **1. Name 15 parts of a horse and discuss the function of each with your counselor** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Withers Ridge Function: Prominent dorsal vertebrae anchor critical saddle trees and back muscle stabilization systems.
@@ -176,7 +176,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the importance of hoof care and why a horse might need to wear shoes.** | `____________________________________` | `____________________________________` |
+| **1. Explain the importance of hoof care and why a horse might need to wear shoes** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Domestic hooves require balanced trimming every six to eight weeks without fail.
@@ -203,7 +203,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Demonstrate how to groom a horse, including picking hooves and caring for a horse after a ride.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate how to groom a horse, including picking hooves and caring for a horse after a ride** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Rubber curry combs loosen caked mud and deep hair dirt using circular motions.
@@ -224,7 +224,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain how to determine what and how much to feed a horse and why the amount and kind of feed are changed according to the activity level and the breed of horse.** | `____________________________________` | `____________________________________` |
+| **1. Explain how to determine what and how much to feed a horse and why the amount and kind of feed are changed according to the activity level and the breed of horse** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Forage Foundation Requirement: Horses must consume at least one to two percent body weight in forage daily.
@@ -267,7 +267,7 @@
 - **Common Myth:** Girths should be yanked to maximum tightness immediately upon setting the saddle on back.
 - **Pamphlet Fact:** Dropping a heavy western saddle tree abruptly onto a horse causes immediate back soreness.
 
-![Step-by-step Horsemanship visual guide highlighting external equine anatomy and function positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/horsemanship_p007_img1.png)
+![Horsemanship Requirement 2 figure showing prominent dorsal vertebrae anchor critical saddle trees and back muscle stabilization.](/assets/pamphlet_images/horsemanship_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -300,7 +300,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Explain and demonstrate how to approach and lead a horse safely from a stall, corral, or field and how to tie the horse securely.** | `____________________________________` | `____________________________________` |
+| **1. Explain and demonstrate how to approach and lead a horse safely from a stall, corral, or field and how to tie the horse securely** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Walk toward the left shoulder at a forty five degree angle while talking.

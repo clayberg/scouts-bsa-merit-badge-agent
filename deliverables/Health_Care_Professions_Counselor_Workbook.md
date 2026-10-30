@@ -52,7 +52,7 @@
 - **Common Myth:** Chiropractors perform invasive surgical corrections on spinal vertebrae during routine clinic visits.
 - **Pamphlet Fact:** Chiropractic scope focuses strictly on non-invasive spinal adjustments, manual therapy, and rehabilitative exercise.
 
-![Detailed Health Care Professions reference illustration comparing key components and stages of primary diagnosing and prescribing clinicians for Requirement 1.](/assets/pamphlet_images/health_care_professions_p003_img1.png)
+![Health Care Professions Requirement 1 figure showing licensed medical doctors diagnose complex pathologies and manage comprehensive systemic.](/assets/pamphlet_images/health_care_professions_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** Certified nursing assistants can adjust intravenous medication infusion rates during routine bed checks.
 - **Pamphlet Fact:** Intravenous medication adjustments are legally restricted to licensed registered nurses and credentialed medical providers.
 
-![Practical Health Care Professions field visual showing proper setup, measurement, and technique for nursing and physician assistant careers in Requirement 2.](/assets/pamphlet_images/health_care_professions_p007_img1.png)
+![Health Care Professions Requirement 2 figure showing physician assistants examine patients, prescribe medications, and assist during complex.](/assets/pamphlet_images/health_care_professions_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -311,7 +311,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor your understanding of the meaning of the Physician's Oath.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor your understanding of the meaning of the Physician's Oath** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - The Hippocratic Oath established ethical standards prioritizing patient beneficence and non-maleficence above personal gain.

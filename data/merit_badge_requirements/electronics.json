@@ -55,14 +55,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices",
-          "2. Practical execution and real-world examples for Electronic Device Safety Precautions"
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices"
         ],
         "rows": [
-          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices",
-          "2. Practical execution and real-world examples for Electronic Device Safety Precautions"
+          "1. Describe the safety precautions you must exercise when using, building, altering, or repairing electronic devices"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Low voltage circuits can never cause severe electric shocks or fires.",
@@ -152,19 +150,19 @@
         "question": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
         "options": [
           "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
-          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
-          "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist.",
+          "C. Wear ANSI safety glasses to guard against solder splashes.",
           "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
         ],
         "choices": [
           "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
-          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
-          "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+          "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist.",
+          "C. Wear ANSI safety glasses to guard against solder splashes.",
           "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "correct_answer": "C. Wear ANSI safety glasses to guard against solder splashes.",
         "explanation": "Correct Answer (C): Electronics safety requires eye protection, fume ventilation, always placing the hot iron in its stand, using electrostatic discharge (ESD) protection for sensitive semiconductors, and washing hands after handling solder.",
         "pamphlet_page_ref": "p. 9, p. 54"
       },
@@ -983,8 +981,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "In Electronics Requirement 4a(1), many Scouts assume how to use electronics only requires a general overview rather than specific details on how to use electronics for a control purpose.",
-                "fact": "The official Electronics pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document how to use electronics and explain how to use electronics for a control purpose during counselor review."
+                "misconception": "A sensor like a photocell or thermistor directly supplies the heavy electrical current required to power large output devices like motors or high wattage lamps.",
+                "fact": "Sensors provide minute electrical signals that drive transistor switches or electromechanical relays, which in turn manage the heavy current loads demanded by external hardware."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1010,14 +1008,17 @@
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
               "sub_req_text": "How to use electronics for a control purpose.",
-              "topic_title": "Req 4a(1): How to use electronics",
-              "pamphlet_summary": "How to use electronics: The Electronics pamphlet for Requirement 4a(1) details how to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4a(1): Electronic Systems for Automated Control",
+              "pamphlet_summary": "Electronic Systems for Automated Control: Control circuits monitor physical environmental inputs through sensors like thermistors or photoresistors to regulate an output device such as a relay, motor, or heating element. A small control signal switches or adjusts a much larger electrical load to automate mechanical tasks safely (p. 42).",
               "pamphlet_excerpts": [
-                "How to use electronics: The Electronics pamphlet for Requirement 4a(1) details how to use electronics for a control purpose, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Electronic Systems for Automated Control: Control circuits monitor physical environmental inputs through sensors like thermistors or photoresistors to regulate an output device such as a relay, motor, or heating element. A small control signal switches or adjusts a much larger electrical load to automate mechanical tasks safely (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "How can a tiny sensor detecting changes in room temperature safely switch on a heavy air conditioner without burning out?"
+              ]
             },
             {
               "sub_id": "4a(2)",
@@ -1054,8 +1055,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "When preparing Electronics Requirement 4a(2) (Basic Principles of Digital Logic), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic principles of digital logic.",
-                "fact": "Counselor verification for Electronics Requirement 4a(2) requires concrete workbook evidence on basic principles of digital logic, specifically addressing the basic principles of digital logic."
+                "misconception": "Digital circuits measure continuously varying voltage levels along a smooth infinite spectrum to determine numerical values.",
+                "fact": "Digital logic circuits categorize input voltages strictly into two distinct high or low binary states representing true or false."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1081,14 +1082,17 @@
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
               "sub_req_text": "Explain the basic principles of digital logic.",
-              "topic_title": "Req 4a(2): Basic Principles of Digital Logic",
-              "pamphlet_summary": "Basic Principles of Digital Logic: The Electronics pamphlet for Requirement 4a(2) details the basic principles of digital logic, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4a(2): Fundamental Principles of Digital Logic",
+              "pamphlet_summary": "Fundamental Principles of Digital Logic: Digital logic processes information using two distinct voltage states representing binary one and binary zero to perform deterministic decisions. Fundamental logic gates including AND, OR, and NOT combine binary inputs according to strict mathematical rules defined on truth tables (p. 50).",
               "pamphlet_excerpts": [
-                "Basic Principles of Digital Logic: The Electronics pamphlet for Requirement 4a(2) details the basic principles of digital logic, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Fundamental Principles of Digital Logic: Digital logic processes information using two distinct voltage states representing binary one and binary zero to perform deterministic decisions. Fundamental logic gates including AND, OR, and NOT combine binary inputs according to strict mathematical rules defined on truth tables (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "Why do digital computers rely exclusively on two discrete voltage states instead of measuring every possible voltage level in between?"
+              ]
             },
             {
               "sub_id": "4a(3)",
@@ -1120,8 +1124,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "For Electronics Requirement 4a(3), a common mistake in electronics for three different analog is treating how to use electronics for three different analog applications as optional background reading.",
-                "fact": "Mastering Electronics Requirement 4a(3) means following the pamphlet standard for electronics for three different analog and recording accurate notes on how to use electronics for three different analog applications."
+                "misconception": "Analog circuits must convert environmental sound and temperature signals into binary numbers before they can boost or filter them.",
+                "fact": "Analog systems manipulate continuously varying electrical waveforms directly through linear amplification and passive frequency filtering without any digital conversion."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1147,14 +1151,17 @@
               "id": "4a(3)",
               "sub_req_label": "4a(3)",
               "sub_req_text": "How to use electronics for three different analog applications.",
-              "topic_title": "Req 4a(3): Electronics for Three Different Analog",
-              "pamphlet_summary": "Electronics for Three Different Analog: The Electronics pamphlet for Requirement 4a(3) details how to use electronics for three different analog applications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4a(3): Analog Electronics for Signal Processing",
+              "pamphlet_summary": "Analog Electronics for Signal Processing: Analog circuits continuously manipulate smoothly varying physical quantities to achieve amplification, audio reproduction, and radio frequency modulation. Components like operational amplifiers and tuned filter networks process these proportional electrical signals without converting them into numerical steps (p. 36).",
               "pamphlet_excerpts": [
-                "Electronics for Three Different Analog: The Electronics pamphlet for Requirement 4a(3) details how to use electronics for three different analog applications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Analog Electronics for Signal Processing: Analog circuits continuously manipulate smoothly varying physical quantities to achieve amplification, audio reproduction, and radio frequency modulation. Components like operational amplifiers and tuned filter networks process these proportional electrical signals without converting them into numerical steps (p. 36)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "What happens to the electrical wave generated by a microphone as it travels through an analog guitar amplifier to a loudspeaker?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1342,8 +1349,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "In Electronics Requirement 4c(1), many Scouts assume control device only requires a general overview rather than specific details on a control device.",
-                "fact": "The official Electronics pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document control device and explain a control device during counselor review."
+                "misconception": "Electronic control devices operate purely on mechanical contact switches without using semiconductor components to trigger output responses.",
+                "fact": "A solid state control project uses active semiconductor devices such as transistors or integrated circuits to automate switching in response to environmental sensor changes."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1369,14 +1376,17 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "A control device.",
-              "topic_title": "Req 4c(1): Control Device",
-              "pamphlet_summary": "Control Device: The Electronics pamphlet for Requirement 4c(1) details a control device, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4c(1): Assembly of Electronic Control Devices",
+              "pamphlet_summary": "Assembly of Electronic Control Devices: Building a control device project involves assembling an input sensor network that drives a switching transistor or relay to govern an output. The project must be carefully soldered or wire wrapped on a circuit board and tested under varying environmental conditions to verify dependable switching (p. 61).",
               "pamphlet_excerpts": [
-                "Control Device: The Electronics pamphlet for Requirement 4c(1) details a control device, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Assembly of Electronic Control Devices: Building a control device project involves assembling an input sensor network that drives a switching transistor or relay to govern an output. The project must be carefully soldered or wire wrapped on a circuit board and tested under varying environmental conditions to verify dependable switching (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "When you build an automatic nightlight project, how does the circuit decide exactly when room darkness requires turning on the indicator lamp?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -1408,8 +1418,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "When preparing Electronics Requirement 4c(2) (Digital Circuit), Scouts sometimes overlook the concrete pamphlet benchmarks covering a digital circuit.",
-                "fact": "Counselor verification for Electronics Requirement 4c(2) requires concrete workbook evidence on digital circuit, specifically addressing a digital circuit."
+                "misconception": "Unconnected logic gate input pins on a digital integrated circuit automatically default to a reliable low or off state during operation.",
+                "fact": "Floating inputs on digital integrated circuits pick up ambient electrical noise and cause unpredictable erratic outputs unless tied to ground or supply voltage through pull resistors."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1435,14 +1445,17 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "A digital circuit.",
-              "topic_title": "Req 4c(2): Digital Circuit",
-              "pamphlet_summary": "Digital Circuit: The Electronics pamphlet for Requirement 4c(2) details a digital circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4c(2): Construction of Functional Digital Circuits",
+              "pamphlet_summary": "Construction of Functional Digital Circuits: Constructing a digital circuit involves wiring integrated circuit chips, logic gates, or pulse generating timers to manipulate discrete binary states. Builders must ensure proper power decoupling and follow pinout diagrams carefully to prevent floating inputs from causing spurious logic transitions (p. 68).",
               "pamphlet_excerpts": [
-                "Digital Circuit: The Electronics pamphlet for Requirement 4c(2) details a digital circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Construction of Functional Digital Circuits: Constructing a digital circuit involves wiring integrated circuit chips, logic gates, or pulse generating timers to manipulate discrete binary states. Builders must ensure proper power decoupling and follow pinout diagrams carefully to prevent floating inputs from causing spurious logic transitions (p. 68)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "If you are assembling a digital counter kit, what might cause the readout display to skip numbers rapidly when you touch the circuit board?"
+              ]
             },
             {
               "sub_id": "4c(3)",
@@ -1474,8 +1487,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)",
               "common_misconception_pair": {
-                "misconception": "For Electronics Requirement 4c(3), a common mistake in analog circuit is treating an analog circuit as optional background reading.",
-                "fact": "Mastering Electronics Requirement 4c(3) means following the pamphlet standard for analog circuit and recording accurate notes on an analog circuit."
+                "misconception": "Orientation does not matter when installing capacitors into an analog circuit project because all capacitors conduct current identically in either direction.",
+                "fact": "Electrolytic capacitors commonly found in analog power and audio circuits are polarized components that can fail or short circuit if installed backwards."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1501,14 +1514,17 @@
               "id": "4c(3)",
               "sub_req_label": "4c(3)",
               "sub_req_text": "An analog circuit.",
-              "topic_title": "Req 4c(3): Analog Circuit",
-              "pamphlet_summary": "Analog Circuit: The Electronics pamphlet for Requirement 4c(3) details an analog circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10).",
+              "topic_title": "Req 4c(3): Fabrication of Functional Analog Circuits",
+              "pamphlet_summary": "Fabrication of Functional Analog Circuits: Assembling an analog circuit project requires connecting discrete components such as resistors, capacitors, and transistors to shape continuous waveforms. Careful component placement and clean solder joints minimize stray capacitance, parasitic oscillation, and unwanted acoustic hum in sensitive audio stages (p. 76).",
               "pamphlet_excerpts": [
-                "Analog Circuit: The Electronics pamphlet for Requirement 4c(3) details an analog circuit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 10)."
+                "Fabrication of Functional Analog Circuits: Assembling an analog circuit project requires connecting discrete components such as resistors, capacitors, and transistors to shape continuous waveforms. Careful component placement and clean solder joints minimize stray capacitance, parasitic oscillation, and unwanted acoustic hum in sensitive audio stages (p. 76)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/electronics_p056_img1.png",
               "workbook_diagram_caption": "A drilling template indicates hole locations for mounting electronic controls.",
-              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls."
+              "workbook_visual_caption": "A drilling template indicates hole locations for mounting electronic controls.",
+              "socratic_questions": [
+                "Why can a messy solder joint or misplaced lead introduce a loud buzzing hum into an audio amplifier project?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2440,14 +2456,14 @@
       "question": "When soldering electronic components onto a printed circuit board for Electronics Requirement 1, which safety practices protect your eyes, lungs, and static-sensitive integrated circuits?",
       "options": [
         "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
-        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
-        "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist.",
+        "C. Wear ANSI safety glasses to guard against solder splashes.",
         "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
       ],
       "choices": [
         "A. Hold extra solder wire in your mouth while working, lean directly over the rising flux smoke, and rest the hot iron on the workbench mat.",
-        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist, and touch capacitor terminals immediately after unplugging a power supply.",
-        "C. Wear ANSI safety glasses to guard against solder splashes, use lead-free rosin-core solder in a well-ventilated area (avoiding flux fumes), return the iron to its heat-resistant stand, wear a grounded ESD wrist strap for static-sensitive chips, and wash hands after working.",
+        "B. Wear wool sweaters to build up static charge, flick excess molten solder off the tip with your wrist.",
+        "C. Wear ANSI safety glasses to guard against solder splashes.",
         "D. Dip the hot soldering iron tip into a cup of cold water between joints and test whether the tip is hot by touching it with a fingertip."
       ],
       "correct_index": 2,

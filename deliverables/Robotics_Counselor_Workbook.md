@@ -50,7 +50,7 @@
 - **Common Myth:** Robotic hazards only exist while electric drive motors receive active operational current.
 - **Pamphlet Fact:** Stored kinetic energy in mechanical linkages and pneumatic cylinders persists after main power loss.
 
-![Step-by-step Robotics visual guide highlighting workshop safety hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/robotics_p003_img1.png)
+![Robotics Requirement 1 figure showing rotating gears and exposed chain drives trap loose clothing during active system tests.](/assets/pamphlet_images/robotics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 - **Common Myth:** Robots provide superior economic value when assigned to unpredictable custom artisan repairs.
 - **Pamphlet Fact:** Robotic systems handle dangerous repetitive tasks like chemical tank inspection and radioactive waste sorting.
 
-![Detailed Robotics reference illustration comparing key components and stages of robot applications, autonomy, and locomotion for Requirement 2.](/assets/pamphlet_images/robotics_p007_img1.png)
+![Robotics Requirement 2 figure showing articulated robot arms weld automotive chassis assemblies with consistent submillimeter.](/assets/pamphlet_images/robotics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -120,7 +120,7 @@
 - **Common Myth:** Wheels and continuous rubber tracks represent the most efficient locomotion method across all terrains.
 - **Pamphlet Fact:** Serpentine snake robots use undulating friction segments to navigate narrow, collapsed disaster debris.
 
-![Step-by-step Robotics visual guide highlighting five core fields of robotics positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/robotics_p012_img1.png)
+![Robotics Requirement 3 figure showing ultrasonic transducers calculate obstacle distances by measuring acoustic wave round.](/assets/pamphlet_images/robotics_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -230,11 +230,11 @@
 - Programming translates logical decision trees into machine instructions that read sensors and control motor drivers. Scouts evaluate options like block environments or C based syntax to execute conditional logic loops.
 - Req 4d Standard (Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)): Discuss with your counselor the programming options available for your robot. Then do ONE of the following: (1) Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook. (2) Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.
 
-#### Req 4d(1): Program your robot to perform
+#### Req 4d(1): Robot Program Source Code Implementation
 **Official Requirement 4d(1):** Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(1) Structured Technical Study & Explanation Matrix (Robot to Perform The Task)
-- **Common Myth:** In Robotics Requirement 4d(1), many Scouts assume program your robot to perform only requires a general overview rather than specific details on program your robot to perform the task you chose for your robot in 4.
-- **Pamphlet Fact:** The official Robotics pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document program your robot to perform and explain program your robot to perform the task you chose for your robot in 4 during counselor review.
+- **Common Myth:** Graphical block programming languages do not qualify as legitimate source code for the engineering notebook.
+- **Pamphlet Fact:** Scouting America accepts visual block diagrams and text-based code equally as long as the printed sample includes clear annotations explaining the logic.
 
 ![The Robonaut humanoid robot showcases advanced human-robot interface and dexterity for space.](/assets/pamphlet_images/robotics_p017_img2.png)
 
@@ -245,11 +245,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d(2): Flowchart of The Desired
+#### Req 4d(2): Sensor Logic Program Flowchart Development
 **Official Requirement 4d(2):** Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Organizer (Concept & Examples Notes):** Req 4d(2) Structured Technical Study & Explanation Matrix (Flowchart of The Desired)
-- **Common Myth:** When preparing Robotics Requirement 4d(2) (Flowchart of The Desired), Scouts sometimes overlook the concrete pamphlet benchmarks covering a flowchart of the desired steps to program your robot for accomplishing the task in 4.
-- **Pamphlet Fact:** Counselor verification for Robotics Requirement 4d(2) requires concrete workbook evidence on flowchart of the desired, specifically addressing a flowchart of the desired steps to program your robot for accomplishing the task in 4.
+- **Common Myth:** Program flowcharts follow a single linear sequence without decision branches for sensor feedback.
+- **Pamphlet Fact:** Standard programming flowcharts require diamond decision blocks that branch into alternate actions based on live sensor readings.
 
 ![An unmanned aerial drone illustrates autonomous flight systems and remote robotic navigation.](/assets/pamphlet_images/robotics_p021_img2.png)
 

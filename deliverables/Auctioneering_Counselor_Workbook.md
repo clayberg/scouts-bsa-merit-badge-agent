@@ -65,7 +65,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe to your counselor the different roles in an auction.** | `____________________________________` | `____________________________________` |
+| **1. Describe to your counselor the different roles in an auction** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - The auctioneer controls cadence, announces incremental price advances, and legally accepts final binding bids.
@@ -86,7 +86,7 @@
 
 | Comparison Dimension | Competitive Auction Price Discovery | Traditional Negotiated Fixed Pricing |
 | :--- | :--- | :--- |
-| **1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales.** | `____________________________________` | `____________________________________` |
+| **1. Describe to your counselor the differences and similarities between the auction method and the traditional method of sales** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - True Price Discovery: Competitive bidding reveals genuine market value driven by real time purchaser demand.
@@ -117,7 +117,7 @@
 - **Common Myth:** Shadowing an auctioneer consists entirely of listening to rapid chant practice in an office setting.
 - **Pamphlet Fact:** Shadowing exposes candidates to lot staging, client contract negotiations, consignor accounting, and equipment load outs.
 
-![Illustrated Auctioneering technical diagram of auctioneering careers and professional pathways reference figure for Requirement 4 field execution.](/assets/pamphlet_images/auctioneering_p004_img1.png)
+![Auctioneering Requirement 4 figure showing prepare concise questions covering business licensing, client acquisition, and daily.](/assets/pamphlet_images/auctioneering_p004_img1.png)
 
 | Req 4A Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -131,7 +131,7 @@
 - **Common Myth:** Bid spotters only look for bidders who jump up or wave their arms frantically.
 - **Pamphlet Fact:** Trained ringmen watch for subtle physical cues like pen taps, slight head nods, and raised eyebrows.
 
-![Detailed Auctioneering reference illustration comparing key components and stages of auctioneering developing & performing an auction chant reference figure.](/assets/pamphlet_images/auctioneering_p006_img1.png)
+![Auctioneering Requirement 6 figure showing a chant alternates between the current bid accepted and the next bid requested.](/assets/pamphlet_images/auctioneering_p006_img1.png)
 
 | Req 4B Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -171,7 +171,7 @@
 - **Common Myth:** Only second hand used household furniture and old knickknacks sell at commercial auctions.
 - **Pamphlet Fact:** Multimillion dollar industrial manufacturing plants, commercial real estate, and municipal utilities routinely sell at auction.
 
-![Step-by-step Auctioneering visual guide highlighting auctioneering auction asset classes, sellers & sale formats reference figure positioning and inspection.](/assets/pamphlet_images/auctioneering_p005_img1.png)
+![Auctioneering Requirement 5 figure showing auction companies appraise and liquidate real estate, construction machinery, municipal.](/assets/pamphlet_images/auctioneering_p005_img1.png)
 
 | Req 5A Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -236,7 +236,7 @@
 
 | Req 7 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish.** | `____________________________________` | `____________________________________` |
+| **1. Plan a simple live or online auction at your unit meeting and document the steps from start to finish** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Item Catalog Intake: Assign lot numbers and record descriptive condition notes for every item donated or consigned.

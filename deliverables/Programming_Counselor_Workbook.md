@@ -51,7 +51,7 @@
 - **Common Myth:** Digital security safeguards only matter when entering credit card numbers into commercial shopping carts.
 - **Pamphlet Fact:** Source code repositories often expose private identity markers through commit log email addresses.
 
-![Step-by-step Programming visual guide highlighting digital safety and injury prevention positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/programming_p003_img1.png)
+![Programming Requirement 1 figure showing never share passwords or home location details in public forum profiles.](/assets/pamphlet_images/programming_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -114,7 +114,7 @@
 - **Common Myth:** Software engineers always choose the single newest programming language for every commercial project.
 - **Pamphlet Fact:** Language selection depends on garbage collection latency, concurrency needs, and available hardware architecture.
 
-![Detailed Programming reference illustration comparing key components and stages of modern languages and everyday devices for Requirement 3.](/assets/pamphlet_images/programming_p012_img1.png)
+![Programming Requirement 3 figure showing java provides robust type safety across large distributed commercial banking architectures.](/assets/pamphlet_images/programming_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -169,7 +169,7 @@
 - **Common Myth:** Downloading a retail software installer transfers complete copyright ownership to the personal computer owner.
 - **Pamphlet Fact:** Software licensing contracts define precise constraints regarding concurrent installations and commercial distribution rights.
 
-![Detailed Programming reference illustration comparing key components and stages of evolution of programming languages for Requirement 2.](/assets/pamphlet_images/programming_p007_img1.png)
+![Programming Requirement 2 figure showing ada Lovelace authored the earliest machine algorithm designed for mechanical calculation.](/assets/pamphlet_images/programming_p007_img1.png)
 
 | Comparison Dimension | Licensing Permission With Usage Rules | Outright Ownership of Software Code |
 | :--- | :--- | :--- |

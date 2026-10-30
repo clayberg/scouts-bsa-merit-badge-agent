@@ -47,7 +47,7 @@
 - **Common Myth:** A cultural festival is merely commercial entertainment without religious or historical significance.
 - **Pamphlet Fact:** Traditional festivals celebrate historic milestones, seasonal harvests, or shared community survival.
 
-![Detailed American Cultures reference illustration comparing key components and stages of experiencing cultural traditions firsthand for Requirement 1.](/assets/pamphlet_images/american_cultures_p003_img1.png)
+![American Cultures Requirement 1 figure showing direct attendance at public cultural events builds authentic understanding of community life.](/assets/pamphlet_images/american_cultures_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@
 - **Common Myth:** An oral history interview should follow a rigid checklist of rapid factual quiz questions.
 - **Pamphlet Fact:** Effective oral interviews rely on conversational listening and open questions about family heritage.
 
-![Practical American Cultures field visual showing proper setup, measurement, and technique for cultural isolation and diverse communities in Requirement 2.](/assets/pamphlet_images/american_cultures_p007_img1.png)
+![American Cultures Requirement 2 figure showing geographical separation limits external trade while preserving unmixed ancestral.](/assets/pamphlet_images/american_cultures_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 - **Common Myth:** Teaching a folk dance requires professional choreography rather than understanding the underlying cultural story.
 - **Pamphlet Fact:** Merit badge mastery focuses on cultural narrative, accurate transmission, and respectful peer demonstration.
 
-![Step-by-step American Cultures visual guide highlighting comparing religious and social customs positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/american_cultures_p012_img1.png)
+![American Cultures Requirement 3 figure showing distinct liturgical practices reflect unique historical covenants, sacred texts.](/assets/pamphlet_images/american_cultures_p012_img1.png)
 
 | Req 1d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -171,7 +171,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell about a contribution made to our country by three different people, each from a different racial, ethnic, or religious background.** | `____________________________________` | `____________________________________` |
+| **1. Tell about a contribution made to our country by three different people, each from a different racial, ethnic, or religious background** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Primary Documentation: Biographies, archival letters, and patents provide objective proof of significant individual achievement.

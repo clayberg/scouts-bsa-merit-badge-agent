@@ -54,7 +54,7 @@
 - **Common Myth:** Scouts consider passive background music identical to intentional active audio listening time.
 - **Pamphlet Fact:** The communication log tracks intentional exchanges rather than ambient background environmental sounds.
 
-![Illustrated Communication technical diagram of daily communication and active listening for Requirement 1 field execution.](/assets/pamphlet_images/communication_p003_img1.png)
+![Communication Requirement 1 figure showing log every spoken conversation immediately to capture accurate duration and message context.](/assets/pamphlet_images/communication_p003_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -88,7 +88,7 @@
 - **Common Myth:** Good listeners should frequently interject their own related stories during peer sharing.
 - **Pamphlet Fact:** Effective listeners remain silent until the speaker finishes sharing their complete narrative.
 
-![Illustrated Communication technical diagram of writing and delivering group speeches for Requirement 3 field execution.](/assets/pamphlet_images/communication_p012_img1.png)
+![Communication Requirement 3 figure showing limit the central thesis to one specific concept manageable within five minutes.](/assets/pamphlet_images/communication_p012_img1.png)
 
 | Comparison Dimension | Spoken Face-to-Face and Phone Conversations | Written Digital and Print Messages |
 | :--- | :--- | :--- |
@@ -133,7 +133,7 @@
 - **Common Myth:** A creative personal presentation requires displaying every possession and childhood memory chronologically.
 - **Pamphlet Fact:** Selecting three to five pivotal artifacts creates a focused, memorable personal presentation.
 
-![Step-by-step Communication visual guide highlighting personal expression and persuasive pitches positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/communication_p007_img1.png)
+![Communication Requirement 2 figure showing choose collages or photographs that illustrate personal background attributes and values.](/assets/pamphlet_images/communication_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

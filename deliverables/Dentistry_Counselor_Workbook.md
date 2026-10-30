@@ -50,7 +50,7 @@
 - **Common Myth:** A tooth surface must have an obvious dark brown hole to contain active decay.
 - **Pamphlet Fact:** Interproximal decay appears on X-rays as subtle triangular radiolucent lesions within enamel long before cavitating.
 
-![Illustrated Dentistry technical diagram of tooth anatomy and radiographic analysis for Requirement 1 field execution.](/assets/pamphlet_images/dentistry_p003_img1.png)
+![Dentistry Requirement 1 figure showing mineralized enamel blocks radiation effectively to create bright radiopaque outlines.](/assets/pamphlet_images/dentistry_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -88,7 +88,7 @@
 - **Common Myth:** Teeth receive their blood supply through tiny pores spread across the outer enamel surface.
 - **Pamphlet Fact:** All blood vessels and nerve fibers enter exclusively through microscopic apical foramina at the root tips.
 
-![Detailed Dentistry reference illustration comparing key components and stages of dental checkup and plaque control for Requirement 3.](/assets/pamphlet_images/dentistry_p012_img1.png)
+![Dentistry Requirement 3 figure showing calibrated periodontal probes measure sulcular depths to evaluate gingival health.](/assets/pamphlet_images/dentistry_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - **Common Myth:** Sugar alone causes cavities by directly dissolving enamel without bacterial involvement.
 - **Pamphlet Fact:** Bacterial plaque must actively metabolize sugars to generate the acid that drives demineralization.
 
-![Step-by-step Dentistry visual guide highlighting dental disease trauma and tobacco positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/dentistry_p007_img1.png)
+![Dentistry Requirement 2 figure showing streptococcus mutans ferments sucrose into lactic acid within twenty minutes of feeding.](/assets/pamphlet_images/dentistry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

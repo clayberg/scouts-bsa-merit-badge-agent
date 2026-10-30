@@ -49,7 +49,7 @@
 - **Common Myth:** Scouts believe dirt and soil are identical substances created through mechanical grinding alone.
 - **Pamphlet Fact:** Soil represents a complex ecological system combining weathered mineral particles with living biological communities.
 
-![Practical Soil and Water Conservation field visual showing proper setup, measurement, and technique for soil formation types and nutrients in Requirement 1.](/assets/pamphlet_images/soil_and_water_conservation_p003_img1.png)
+![Soil and Water Conservation Requirement 1 figure showing physical fracturing and chemical weathering convert parent rock material.](/assets/pamphlet_images/soil_and_water_conservation_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -107,7 +107,7 @@
 - **Common Myth:** Scouts believe erosion begins only when rushing water forms visible rushing surface streams.
 - **Pamphlet Fact:** Erosion begins the exact instant individual raindrops strike bare earth and shatter dry soil aggregates.
 
-![Illustrated Soil and Water Conservation technical diagram of soil erosion causes and impacts for Requirement 2 field execution.](/assets/pamphlet_images/soil_and_water_conservation_p007_img1.png)
+![Soil and Water Conservation Requirement 2 figure showing kinetic energy from falling raindrops breaks open surface soil aggregates upon bare ground.](/assets/pamphlet_images/soil_and_water_conservation_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -185,7 +185,7 @@
 - **Common Myth:** Scouts believe conservation means stopping all commercial timber harvesting and agricultural land cultivation.
 - **Pamphlet Fact:** Conservation represents wise, sustainable utilization of natural resources to ensure continuous future replenishment.
 
-![Step-by-step Soil and Water Conservation visual guide highlighting erosion control and conservation practices positioning and inspection checkpoints.](/assets/pamphlet_images/soil_and_water_conservation_p012_img1.png)
+![Soil and Water Conservation Requirement 3 figure showing plowing perpendicular to hillside slope creates micro ridges that retain precipitation.](/assets/pamphlet_images/soil_and_water_conservation_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

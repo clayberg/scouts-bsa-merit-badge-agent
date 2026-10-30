@@ -366,18 +366,18 @@
         "options": [
           "A. To boost incoming municipal water pressure before it reaches the hot and cold faucet valves.",
           "B. To grind up solid food waste so it does not enter the septic tank or city sewer main.",
-          "C. To hold a standing water seal that blocks toxic, flammable, and foul-smelling sewer gases from rising out of the drain-waste-vent system into the building.",
+          "C. To hold a standing water seal that blocks toxic, flammable.",
           "D. To filter dissolved calcium and magnesium minerals out of potable drinking water."
         ],
         "choices": [
           "A. To boost incoming municipal water pressure before it reaches the hot and cold faucet valves.",
           "B. To grind up solid food waste so it does not enter the septic tank or city sewer main.",
-          "C. To hold a standing water seal that blocks toxic, flammable, and foul-smelling sewer gases from rising out of the drain-waste-vent system into the building.",
+          "C. To hold a standing water seal that blocks toxic, flammable.",
           "D. To filter dissolved calcium and magnesium minerals out of potable drinking water."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. To hold a standing water seal that blocks toxic, flammable, and foul-smelling sewer gases from rising out of the drain-waste-vent system into the building.",
+        "correct_answer": "C. To hold a standing water seal that blocks toxic, flammable.",
         "explanation": "Correct Answer (C): A P-trap retains a small volume of water after each use, creating an airtight liquid barrier that prevents hazardous sewer gases (such as methane and hydrogen sulfide) from entering living spaces.",
         "pamphlet_page_ref": "p. 20, p. 40"
       },
@@ -744,14 +744,12 @@
           "Buddy / Counselor Sign-Off Notes"
         ],
         "row_labels": [
-          "1. Show how to use five important plumber's tools",
-          "2. Practical execution and real-world examples for Selecting and Using Essential Plumbing Tools"
+          "1. Show how to use five important plumber's tools"
         ],
         "rows": [
-          "1. Show how to use five important plumber's tools",
-          "2. Practical execution and real-world examples for Selecting and Using Essential Plumbing Tools"
+          "1. Show how to use five important plumber's tools"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "A pipe wrench and an adjustable wrench can be used interchangeably on chrome-plated brass nuts.",
@@ -914,14 +912,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter",
-          "2. Practical execution and real-world examples for Essential Plumbing Fittings Valves and Terms"
+          "1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter"
         ],
         "rows": [
-          "1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter",
-          "2. Practical execution and real-world examples for Essential Plumbing Fittings Valves and Terms"
+          "1. Identify and explain the following terms: washer, retaining nut, plunger (rubber force cup), solder, flux, elbow, tee, nipple, coupling, plug, union, trap, drainpipe, and water meter"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "A pipe union and a standard coupling perform identical permanent connections between two pipe ends.",
@@ -1254,8 +1250,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "In Plumbing Requirement 6a(1), many Scouts assume pvc pipe and fittings only requires a general overview rather than specific details on pvc pipe and fittings.",
-                "fact": "The official Plumbing pamphlet for Requirement 6a(1) specifies that Scouts must thoroughly document pvc pipe and fittings and explain pvc pipe and fittings during counselor review."
+                "misconception": "Standard white PVC pipe can transport hot pressurized water throughout household plumbing fixtures.",
+                "fact": "Standard PVC softens and degrades under hot water temperatures, restricting its approved indoor supply usage to cold water lines or drainage systems."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1281,14 +1277,17 @@
               "id": "6a(1)",
               "sub_req_label": "6a(1)",
               "sub_req_text": "PVC pipe and fittings.",
-              "topic_title": "Req 6a(1): PVC Pipe and Fittings",
-              "pamphlet_summary": "PVC Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(1) details pVC pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(1): Polyvinyl Chloride Pipe and Fittings",
+              "pamphlet_summary": "Polyvinyl Chloride Pipe and Fittings: Rigid white polyvinyl chloride pipe serves drain, waste, and vent lines as well as cold water service lines where local building codes permit. Assembly requires purple primer to soften the plastic followed by solvent cement to chemically fuse the joints (p. 28).",
               "pamphlet_excerpts": [
-                "PVC Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(1) details pVC pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Polyvinyl Chloride Pipe and Fittings: Rigid white polyvinyl chloride pipe serves drain, waste, and vent lines as well as cold water service lines where local building codes permit. Assembly requires purple primer to soften the plastic followed by solvent cement to chemically fuse the joints (p. 28)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "Why do plumbing codes prohibit using standard white PVC pipe for the hot water lines running to your bathroom sink?"
+              ]
             },
             {
               "sub_id": "6a(2)",
@@ -1320,8 +1319,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "When preparing Plumbing Requirement 6a(2) (CPVC Pipe and Fittings), Scouts sometimes overlook the concrete pamphlet benchmarks covering cpvc pipe and fittings.",
-                "fact": "Counselor verification for Plumbing Requirement 6a(2) requires concrete workbook evidence on cpvc pipe and fittings, specifically addressing cpvc pipe and fittings."
+                "misconception": "Standard PVC solvent cement creates a strong and durable weld on CPVC water lines.",
+                "fact": "CPVC requires its own specialized solvent cement because standard PVC cement lacks the chemical formulation needed to fuse chlorinated polymers under high temperatures."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1347,14 +1346,17 @@
               "id": "6a(2)",
               "sub_req_label": "6a(2)",
               "sub_req_text": "CPVC pipe and fittings.",
-              "topic_title": "Req 6a(2): CPVC Pipe and Fittings",
-              "pamphlet_summary": "CPVC Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(2) details cPVC pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(2): Chlorinated Polyvinyl Chloride Plumbing Components",
+              "pamphlet_summary": "Chlorinated Polyvinyl Chloride Plumbing Components: Chlorinated polyvinyl chloride pipe features extra chlorine molecules that allow the material to safely withstand pressurized hot water up to two hundred degrees Fahrenheit. Installers join cream-colored CPVC sections using specialty solvent cement formulated specifically for chlorinated plastic compounds (p. 31).",
               "pamphlet_excerpts": [
-                "CPVC Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(2) details cPVC pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Chlorinated Polyvinyl Chloride Plumbing Components: Chlorinated polyvinyl chloride pipe features extra chlorine molecules that allow the material to safely withstand pressurized hot water up to two hundred degrees Fahrenheit. Installers join cream-colored CPVC sections using specialty solvent cement formulated specifically for chlorinated plastic compounds (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "How can you visually distinguish CPVC tubing from standard PVC pipe when browsing the aisles of a plumbing supply store?"
+              ]
             },
             {
               "sub_id": "6a(3)",
@@ -1386,8 +1388,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "For Plumbing Requirement 6a(3), a common mistake in pex pipe and fittings is treating pex pipe and fittings as optional background reading.",
-                "fact": "Mastering Plumbing Requirement 6a(3) means following the pamphlet standard for pex pipe and fittings and recording accurate notes on pex pipe and fittings."
+                "misconception": "PEX tubing connections require chemical solvent cements or soldered joints to create a watertight seal.",
+                "fact": "PEX tubing connects through mechanical methods such as crimp rings, expansion collars, or push-to-connect fittings without any chemical primers or open flames."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1413,14 +1415,17 @@
               "id": "6a(3)",
               "sub_req_label": "6a(3)",
               "sub_req_text": "PEX pipe and fittings.",
-              "topic_title": "Req 6a(3): PEX Pipe and Fittings",
-              "pamphlet_summary": "PEX Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(3) details pEX pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(3): Cross Linked Polyethylene Tubing Systems",
+              "pamphlet_summary": "Cross Linked Polyethylene Tubing Systems: Flexible cross linked polyethylene tubing resists scale buildup and tolerates freezing conditions better than rigid piping. Plumbers route continuous runs through wall framing and secure connections using metal crimp rings, clamp rings, or push-fit fittings (p. 34).",
               "pamphlet_excerpts": [
-                "PEX Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(3) details pEX pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Cross Linked Polyethylene Tubing Systems: Flexible cross linked polyethylene tubing resists scale buildup and tolerates freezing conditions better than rigid piping. Plumbers route continuous runs through wall framing and secure connections using metal crimp rings, clamp rings, or push-fit fittings (p. 34)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "What structural qualities make flexible PEX tubing faster and less prone to leaks during installation compared to rigid copper pipe?"
+              ]
             },
             {
               "sub_id": "6a(4)",
@@ -1452,8 +1457,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "During Plumbing Requirement 6a(4), Scouts can underestimate how directly mastery of copper pipe and fittings depends on understanding copper pipe and fittings.",
-                "fact": "Scouting America standards for Plumbing Requirement 6a(4) require complete workbook entries on copper pipe and fittings to demonstrate full understanding of copper pipe and fittings."
+                "misconception": "All copper pipes share identical wall thicknesses and can be interchanged freely regardless of print color or system pressure.",
+                "fact": "Copper tubing is manufactured in distinct wall thicknesses designated by color markings, where Type M has the thinnest walls for interior supply lines and Type K has the thickest walls for underground burial."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1479,14 +1484,17 @@
               "id": "6a(4)",
               "sub_req_label": "6a(4)",
               "sub_req_text": "Copper pipe and fittings.",
-              "topic_title": "Req 6a(4): Copper Pipe and Fittings",
-              "pamphlet_summary": "Copper Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(4) details copper pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(4): Rigid Copper Tubing and Fittings",
+              "pamphlet_summary": "Rigid Copper Tubing and Fittings: Rigid copper tubing comes in color-coded thickness grades including Type K in green, Type L in blue, and Type M in red. Technicians clean mating surfaces with wire brushes, apply paste flux, and solder the joints using a propane torch and lead-free solder (p. 25).",
               "pamphlet_excerpts": [
-                "Copper Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(4) details copper pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Rigid Copper Tubing and Fittings: Rigid copper tubing comes in color-coded thickness grades including Type K in green, Type L in blue, and Type M in red. Technicians clean mating surfaces with wire brushes, apply paste flux, and solder the joints using a propane torch and lead-free solder (p. 25)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "Why must a plumber thoroughly clean copper pipe with abrasive cloth and apply flux before applying heat with a torch?"
+              ]
             },
             {
               "sub_id": "6a(5)",
@@ -1518,8 +1526,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "In Plumbing Requirement 6a(5), many Scouts assume steel pipe and fittings only requires a general overview rather than specific details on steel pipe and fittings.",
-                "fact": "The official Plumbing pamphlet for Requirement 6a(5) specifies that Scouts must thoroughly document steel pipe and fittings and explain steel pipe and fittings during counselor review."
+                "misconception": "Black iron steel pipe is suitable for delivering municipal drinking water inside residential homes.",
+                "fact": "Black steel pipe lacks corrosion protection and rusts rapidly when exposed to water, making it restricted to gas and oil fuel lines rather than potable water service."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1545,14 +1553,17 @@
               "id": "6a(5)",
               "sub_req_label": "6a(5)",
               "sub_req_text": "Steel pipe and fittings.",
-              "topic_title": "Req 6a(5): Steel Pipe and Fittings",
-              "pamphlet_summary": "Steel Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(5) details steel pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(5): Galvanized and Black Steel Piping",
+              "pamphlet_summary": "Galvanized and Black Steel Piping: Galvanized steel pipe has a protective zinc coating to resist corrosion in older water supply systems, while uncoated black steel pipe carries natural gas or fuel oil. Both types feature tapered threads that require pipe joint compound or Teflon tape before tightening with pipe wrenches (p. 22).",
               "pamphlet_excerpts": [
-                "Steel Pipe and Fittings: The Plumbing pamphlet for Requirement 6a(5) details steel pipe and fittings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Galvanized and Black Steel Piping: Galvanized steel pipe has a protective zinc coating to resist corrosion in older water supply systems, while uncoated black steel pipe carries natural gas or fuel oil. Both types feature tapered threads that require pipe joint compound or Teflon tape before tightening with pipe wrenches (p. 22)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "Why do threaded steel pipe joints require Teflon tape or pipe thread sealant rather than just tight mechanical wrenching?"
+              ]
             },
             {
               "sub_id": "6a(6)",
@@ -1584,8 +1595,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)",
               "common_misconception_pair": {
-                "misconception": "When preparing Plumbing Requirement 6a(6) (Specialty Plumbing Tools), Scouts sometimes overlook the concrete pamphlet benchmarks covering specialty plumbing tools.",
-                "fact": "Counselor verification for Plumbing Requirement 6a(6) requires concrete workbook evidence on specialty plumbing tools, specifically addressing specialty plumbing tools."
+                "misconception": "A standard adjustable wrench can reach and loosen faucet mounting nuts located behind deep undermount sink basins.",
+                "fact": "The long vertical shaft and pivoting spring-loaded jaws of a basin wrench provide the leverage and reach necessary to grip faucet hardware inaccessible to standard wrenches."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1611,14 +1622,17 @@
               "id": "6a(6)",
               "sub_req_label": "6a(6)",
               "sub_req_text": "Specialty plumbing tools.",
-              "topic_title": "Req 6a(6): Specialty Plumbing Tools",
-              "pamphlet_summary": "Specialty Plumbing Tools: The Plumbing pamphlet for Requirement 6a(6) details specialty plumbing tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15).",
+              "topic_title": "Req 6a(6): Specialty Hand Tools for Plumbers",
+              "pamphlet_summary": "Specialty Hand Tools for Plumbers: Specialty tools solve access and mechanical challenges unique to fixture maintenance and pipe fabrication. Plumbers rely on basin wrenches to turn mounting nuts in tight spaces behind sink bowls and closet augers to clear toilet obstructions without scratching vitreous china (p. 18).",
               "pamphlet_excerpts": [
-                "Specialty Plumbing Tools: The Plumbing pamphlet for Requirement 6a(6) details specialty plumbing tools, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 15)."
+                "Specialty Hand Tools for Plumbers: Specialty tools solve access and mechanical challenges unique to fixture maintenance and pipe fabrication. Plumbers rely on basin wrenches to turn mounting nuts in tight spaces behind sink bowls and closet augers to clear toilet obstructions without scratching vitreous china (p. 18)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/plumbing_p027_img1.png",
               "workbook_diagram_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
-              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely."
+              "workbook_visual_caption": "A propane gas torch, flux, solder, and copper fittings assemble for sweat-soldering plumbing joints safely.",
+              "socratic_questions": [
+                "How does the curved rubber sleeve on a closet auger protect bathroom fixtures compared to an ordinary drain snake?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2523,13 +2537,13 @@
       "options": [
         "A. To boost incoming municipal water pressure before it reaches the hot and cold faucet valves.",
         "B. To grind up solid food waste so it does not enter the septic tank or city sewer main.",
-        "C. To hold a standing water seal that blocks toxic, flammable, and foul-smelling sewer gases from rising out of the drain-waste-vent system into the building.",
+        "C. To hold a standing water seal that blocks toxic, flammable.",
         "D. To filter dissolved calcium and magnesium minerals out of potable drinking water."
       ],
       "choices": [
         "A. To boost incoming municipal water pressure before it reaches the hot and cold faucet valves.",
         "B. To grind up solid food waste so it does not enter the septic tank or city sewer main.",
-        "C. To hold a standing water seal that blocks toxic, flammable, and foul-smelling sewer gases from rising out of the drain-waste-vent system into the building.",
+        "C. To hold a standing water seal that blocks toxic, flammable.",
         "D. To filter dissolved calcium and magnesium minerals out of potable drinking water."
       ],
       "correct_index": 2,

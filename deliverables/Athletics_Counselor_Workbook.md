@@ -52,7 +52,7 @@
 - **Common Myth:** Turf burns and abrasions are merely cosmetic issues that require no sideline attention.
 - **Pamphlet Fact:** Uneven grass fields cause sudden ankle inversions when ruts remain unflagged prior to scheduled competition.
 
-![Step-by-step Athletics visual guide highlighting athletic hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/athletics_p003_img1.png)
+![Athletics Requirement 1 figure showing extreme heat humidity and severe lightning storms present severe risks to outdoor athletes.](/assets/pamphlet_images/athletics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +150,7 @@
 - **Common Myth:** A training plan should remain completely identical every week without changing weights or distances.
 - **Pamphlet Fact:** Periodization cycles alternating heavy days with active recovery stimulate optimal muscular strength and endurance gains.
 
-![Detailed Athletics reference illustration comparing key components and stages of three month personal training program for Requirement 3.](/assets/pamphlet_images/athletics_p012_img1.png)
+![Athletics Requirement 3 figure showing structured conditioning schedules balance aerobic volume anaerobic intervals.](/assets/pamphlet_images/athletics_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -376,11 +376,11 @@
 - Baseball throwing tests rotational power, shoulder coordination, and targeting accuracy at age-appropriate distances. Proper follow-through mechanics protect the throwing elbow while hitting target bullseyes.
 - Req 5f Standard (Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)): Option F, Baseball Throw. Do ALL of the following: (1) Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet (2) Baseball throw for distance, five throws (total distance)
 
-#### Req 5f(1): Baseball Throw for Accuracy Throws
+#### Req 5f(1): Targeted Baseball Throwing Accuracy Standards
 **Official Requirement 5f(1):** Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet.
 **Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5f(1) Structured Technical Study & Explanation Matrix (Baseball Throw for Accuracy Throws)
-- **Common Myth:** In Athletics Requirement 5f(1), many Scouts assume baseball throw for accuracy throws only requires a general overview rather than specific details on baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet.
-- **Pamphlet Fact:** The official Athletics pamphlet for Requirement 5f(1) specifies that Scouts must thoroughly document baseball throw for accuracy throws and explain baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet during counselor review.
+- **Common Myth:** Throwing only with the arm while keeping the feet planted produces the most accurate target delivery.
+- **Pamphlet Fact:** Stepping toward the target and engaging the lower body provides the stable foundation needed for consistent throwing mechanics.
 
 ![A young player throws a baseball across an open grass field during an athletic drill.](/assets/pamphlet_images/athletics_p032_img1.png)
 
@@ -392,11 +392,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5f(2): Baseball Throw for Distance Five
+#### Req 5f(2): Maximum Distance Baseball Throwing Technique
 **Official Requirement 5f(2):** Baseball throw for distance, five throws (total distance)
 **Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5f(2) Structured Technical Study & Explanation Matrix (Baseball Throw for Distance Five)
-- **Common Myth:** When preparing Athletics Requirement 5f(2) (Baseball Throw for Distance Five), Scouts sometimes overlook the concrete pamphlet benchmarks covering baseball throw for distance, five throws (total distance).
-- **Pamphlet Fact:** Counselor verification for Athletics Requirement 5f(2) requires concrete workbook evidence on baseball throw for distance five, specifically addressing baseball throw for distance, five throws (total distance).
+- **Common Myth:** Throwing a baseball straight up into the air at a steep angle produces the greatest total distance.
+- **Pamphlet Fact:** Launching the ball at an angle of roughly thirty to thirty-five degrees optimizes aerodynamic carry and ground roll.
 
 ![A cold compression pack is applied to an athlete's lower leg to reduce swelling and pain.](/assets/pamphlet_images/athletics_p058_img1.png)
 
@@ -416,11 +416,11 @@
 - Basketball shooting drills evaluate fingertip touch, footwork, and balance during free throws and game-speed agility layups. Repetitive shooting routines reinforce motor memory and free-throw percentage.
 - Req 5g Standard (Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)): Option G, Basketball Shooting. Do ALL of the following: (1) Basketball shot for accuracy, 10 free-throw shots (2) Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.
 
-#### Req 5g(1): Basketball Shot for Accuracy Free-throw
+#### Req 5g(1): Basketball Free Throw Shooting Routine
 **Official Requirement 5g(1):** Basketball shot for accuracy, 10 free-throw shots.
 **Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5g(1) Structured Technical Study & Explanation Matrix (Basketball Shot for Accuracy Free-throw)
-- **Common Myth:** In Athletics Requirement 5g(1), many Scouts assume basketball shot for accuracy free-throw only requires a general overview rather than specific details on basketball shot for accuracy, 10 free-throw shots.
-- **Pamphlet Fact:** The official Athletics pamphlet for Requirement 5g(1) specifies that Scouts must thoroughly document basketball shot for accuracy free-throw and explain basketball shot for accuracy, 10 free-throw shots during counselor review.
+- **Common Myth:** Free throws rely solely on arm and shoulder strength to push the basketball to the basket.
+- **Pamphlet Fact:** Bending and extending the knees generates the upward lift that gives the shot an effortless, high arc.
 
 ![A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.](/assets/ai_illustrations/athletics_req_5_nano_hero.png)
 
@@ -430,11 +430,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5g(2): Basketball Throw for Skill and Agility
+#### Req 5g(2): Basketball Floor Agility Shooting Circuit
 **Official Requirement 5g(2):** Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line. (a) Left-side layup. (b) Right-side layup. (c) Left side of hoop, along the key line. (d) Right side of hoop, along the key line. (e) Where key line and free-throw line meet, left side. (f) Where key line and free-throw line meet, left side. (g) Top of the key. (h) Another spot along the three-point line.
 **Source:** *Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)* • **Organizer (Concept & Examples Notes):** Req 5g(2) Structured Technical Study & Explanation Matrix (Basketball Throw for Skill and)
-- **Common Myth:** When preparing Athletics Requirement 5g(2) (Basketball Throw for Skill and Agility), Scouts sometimes overlook the concrete pamphlet benchmarks covering basketball throw for skill and agility, the following shots, (a) left-side layup (b) right-side layup.
-- **Pamphlet Fact:** Counselor verification for Athletics Requirement 5g(2) requires concrete workbook evidence on basketball throw for skill and agility, specifically addressing basketball throw for skill and agility, the following shots, (a) left-side layup (b) right-side layup.
+- **Common Myth:** Rushing each shot without setting the feet increases agility scores during perimeter shooting tests.
+- **Pamphlet Fact:** Slowing down briefly to establish solid footwork and balance produces higher shooting percentages from every station.
 
 | Req 5g(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

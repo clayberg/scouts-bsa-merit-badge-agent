@@ -156,20 +156,20 @@
         "scenario_prompt": "Why do terrestrial food webs and animals depend directly on green plants and other photosynthetic organisms for survival?",
         "question": "Why do terrestrial food webs and animals depend directly on green plants and other photosynthetic organisms for survival?",
         "options": [
-          "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen, forming the primary producer base of the food web and providing habitat shelter.",
+          "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen.",
           "B. Plants absorb nitrogen gas directly through their leaves and convert animal predators into decomposers.",
           "C. Photosynthesis consumes excess oxygen from the atmosphere and releases carbon monoxide to warm forest soil.",
           "D. Green plants rely on herbivorous insects to manufacture chlorophyll before roots can absorb soil minerals."
         ],
         "choices": [
-          "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen, forming the primary producer base of the food web and providing habitat shelter.",
+          "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen.",
           "B. Plants absorb nitrogen gas directly through their leaves and convert animal predators into decomposers.",
           "C. Photosynthesis consumes excess oxygen from the atmosphere and releases carbon monoxide to warm forest soil.",
           "D. Green plants rely on herbivorous insects to manufacture chlorophyll before roots can absorb soil minerals."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen, forming the primary producer base of the food web and providing habitat shelter.",
+        "correct_answer": "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen.",
         "explanation": "Correct Answer (A): Through photosynthesis, plants act as primary producers that capture solar energy to build organic nutrients and release oxygen, supporting herbivores, carnivores, and shelter needs across the ecosystem.",
         "pamphlet_page_ref": "p. 11, p. 64"
       },
@@ -404,14 +404,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain",
-          "2. Practical execution and real-world examples for Land and Water Food Chains"
+          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain"
         ],
         "rows": [
-          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain",
-          "2. Practical execution and real-world examples for Land and Water Food Chains"
+          "1. Explain the term \"food chain.\" Give an example of a four-step land food chain and a four-step water food chain"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Apex predators sit at the top of food chains with infinite energy accumulated from lower levels.",
@@ -583,8 +581,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4a(1), many Scouts assume in the field, identify eight species only requires a general overview rather than specific details on in the field, identify eight species of birds.",
-                "fact": "The official Nature pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document in the field, identify eight species and explain in the field, identify eight species of birds during counselor review."
+                "misconception": "Feather coloration is the only reliable feature needed to identify a wild bird species.",
+                "fact": "Light conditions and seasonal molting frequently alter plumage, making body silhouette, bill shape, behavior, and vocalizations far more dependable markers."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -610,15 +608,18 @@
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
               "sub_req_text": "In the field, identify eight species of birds.",
-              "topic_title": "Req 4a(1): In the field, identify eight species",
-              "pamphlet_summary": "In the field, identify eight species: The Nature pamphlet for Requirement 4a(1) details in the field, identify eight species of birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4a(1): Avian Field Identification Techniques",
+              "pamphlet_summary": "Avian Field Identification Techniques: Field identification relies on observing silhouette, flight pattern, field marks, habitat, and song rather than feather coloration alone. Binoculars and a local field guide help confirm species boundaries during active field observations (p. 26).",
               "pamphlet_excerpts": [
-                "In the field, identify eight species: The Nature pamphlet for Requirement 4a(1) details in the field, identify eight species of birds, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Avian Field Identification Techniques: Field identification relies on observing silhouette, flight pattern, field marks, habitat, and song rather than feather coloration alone. Binoculars and a local field guide help confirm species boundaries during active field observations (p. 26)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
-              "title": "Req 4a(1): In the field, identify eight species",
+              "title": "Req 4a(1): Avian Field Identification Techniques",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "If two birds share similar brown plumage at a distance, what clues about their silhouette, movement, or habitat would help you tell them apart?"
+              ]
             },
             {
               "sub_id": "4a(2)",
@@ -665,8 +666,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4a(2) (Make and set out a birdhouse), Scouts sometimes overlook the concrete pamphlet benchmarks covering and set out a birdhouse or a feeding station or a birdbath.",
-                "fact": "Counselor verification for Nature Requirement 4a(2) requires concrete workbook evidence on make and set out a birdhouse, specifically addressing and set out a birdhouse or a feeding station or a birdbath."
+                "misconception": "Birdhouses require an exterior wooden perch beneath the entrance hole so parent birds can land before entering.",
+                "fact": "Perches actually give invasive predators an easy foothold to raid nests, whereas native cavity nesters easily cling to flat wood surfaces."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -692,15 +693,18 @@
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
               "sub_req_text": "Make and set out a birdhouse OR a feeding station OR a birdbath. List what birds used it during a period of one month.",
-              "topic_title": "Req 4a(2): Make and set out a birdhouse",
-              "pamphlet_summary": "Make and set out a birdhouse: The Nature pamphlet for Requirement 4a(2) details and set out a birdhouse OR a feeding station OR a birdbath, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4a(2): Backyard Avian Habitat Station Monitoring",
+              "pamphlet_summary": "Backyard Avian Habitat Station Monitoring: Constructing a feeder, bath, or nesting box requires tailoring dimensions, entrance hole diameters, and food types to targeted local native species. Daily or weekly observation logs maintained over thirty days document visitation frequency, seasonal diet habits, and territorial behaviors (p. 31).",
               "pamphlet_excerpts": [
-                "Make and set out a birdhouse: The Nature pamphlet for Requirement 4a(2) details and set out a birdhouse OR a feeding station OR a birdbath, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Backyard Avian Habitat Station Monitoring: Constructing a feeder, bath, or nesting box requires tailoring dimensions, entrance hole diameters, and food types to targeted local native species. Daily or weekly observation logs maintained over thirty days document visitation frequency, seasonal diet habits, and territorial behaviors (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
-              "title": "Req 4a(2): Make and set out a birdhouse",
+              "title": "Req 4a(2): Backyard Avian Habitat Station Monitoring",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "Why do wildlife biologists advise against adding a wooden perch peg outside the entrance hole of a songbird nest box?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -812,8 +816,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4b(1), many Scouts assume in the field, identify three species only requires a general overview rather than specific details on in the field, identify three species of wild mammals.",
-                "fact": "The official Nature pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document in the field, identify three species and explain in the field, identify three species of wild mammals during counselor review."
+                "misconception": "Directly spotting a live animal in person is required to confirm a wild mammal species in the field.",
+                "fact": "Naturalists regularly confirm mammal presence through distinct biological evidence including species-specific scat, teeth gnawings on bark, burrows, and preserved hair samples."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -839,15 +843,18 @@
               "id": "4b(1)",
               "sub_req_label": "4b(1)",
               "sub_req_text": "In the field, identify three species of wild mammals.",
-              "topic_title": "Req 4b(1): In the field, identify three species",
-              "pamphlet_summary": "In the field, identify three species: The Nature pamphlet for Requirement 4b(1) details in the field, identify three species of wild mammals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4b(1): Wild Mammal Field Observation Methods",
+              "pamphlet_summary": "Wild Mammal Field Observation Methods: Scouts confirm mammal presence through direct visual sightings or indirect signs such as scat, runways, browse marks, and fur snags. Dawn and dusk outings near water sources yield the highest probability of observing elusive wild species (p. 38).",
               "pamphlet_excerpts": [
-                "In the field, identify three species: The Nature pamphlet for Requirement 4b(1) details in the field, identify three species of wild mammals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Wild Mammal Field Observation Methods: Scouts confirm mammal presence through direct visual sightings or indirect signs such as scat, runways, browse marks, and fur snags. Dawn and dusk outings near water sources yield the highest probability of observing elusive wild species (p. 38)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
-              "title": "Req 4b(1): In the field, identify three species",
+              "title": "Req 4b(1): Wild Mammal Field Observation Methods",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "What physical signs on trees, trail soil, or stream banks prove a mammal lives nearby even if you never see the animal itself?"
+              ]
             },
             {
               "sub_id": "4b(2)",
@@ -888,8 +895,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4b(2) (Plaster Wild Mammal), Scouts sometimes overlook the concrete pamphlet benchmarks covering plaster casts of the tracks of a wild mammal.",
-                "fact": "Counselor verification for Nature Requirement 4b(2) requires concrete workbook evidence on plaster wild mammal, specifically addressing plaster casts of the tracks of a wild mammal."
+                "misconception": "Pouring runny plaster directly into dry sandy tracks creates a sturdy, sharp wildlife cast.",
+                "fact": "Thin plaster washes away fine foot impressions in loose sand, requiring damp cohesive mud and a surrounding retaining collar to capture distinct claw and pad prints."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -915,14 +922,17 @@
               "id": "4b(2)",
               "sub_req_label": "4b(2)",
               "sub_req_text": "Make plaster casts of the tracks of a wild mammal.",
-              "topic_title": "Req 4b(2): Plaster Wild Mammal",
-              "pamphlet_summary": "Plaster Wild Mammal: The Nature pamphlet for Requirement 4b(2) details plaster casts of the tracks of a wild mammal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4b(2): Plaster Track Casting Field Techniques",
+              "pamphlet_summary": "Plaster Track Casting Field Techniques: Casting requires ringing a clean mud track with a cardboard collar, mixing plaster of Paris to the consistency of pancake batter, and pouring gently over the depression. Hardened casts preserve stride geometry, claw indentations, and foot pad divisions for permanent study (p. 42).",
               "pamphlet_excerpts": [
-                "Plaster Wild Mammal: The Nature pamphlet for Requirement 4b(2) details plaster casts of the tracks of a wild mammal, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Plaster Track Casting Field Techniques: Casting requires ringing a clean mud track with a cardboard collar, mixing plaster of Paris to the consistency of pancake batter, and pouring gently over the depression. Hardened casts preserve stride geometry, claw indentations, and foot pad divisions for permanent study (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "How does the consistency of your plaster mixture and the moisture level of the soil affect whether a track cast captures crisp toe and claw outlines?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1034,8 +1044,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4c(1), many Scouts assume you can recognize the venomous only requires a general overview rather than specific details on that you can recognize the venomous snakes in your area.",
-                "fact": "The official Nature pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document you can recognize the venomous and explain that you can recognize the venomous snakes in your area during counselor review."
+                "misconception": "A triangular head shape reliably proves that any wild snake is venomous.",
+                "fact": "Harmless nonvenomous water snakes and garter snakes flatten their heads into a triangular shape when threatened to mimic vipers."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1061,14 +1071,17 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "Show that you can recognize the venomous snakes in your area.",
-              "topic_title": "Req 4c(1): You Can Recognize The Venomous",
-              "pamphlet_summary": "You Can Recognize The Venomous: The Nature pamphlet for Requirement 4c(1) details that you can recognize the venomous snakes in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4c(1): Local Venomous Snake Recognition Criteria",
+              "pamphlet_summary": "Local Venomous Snake Recognition Criteria: Recognition focuses on regional pit vipers and coral snakes using distinct physiological traits such as heat-sensing facial pits, vertical pupils, triangular heads, and specific color banding patterns. Safe identification always occurs from a distance beyond the snake's potential strike range without handling the reptile (p. 48).",
               "pamphlet_excerpts": [
-                "You Can Recognize The Venomous: The Nature pamphlet for Requirement 4c(1) details that you can recognize the venomous snakes in your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Local Venomous Snake Recognition Criteria: Recognition focuses on regional pit vipers and coral snakes using distinct physiological traits such as heat-sensing facial pits, vertical pupils, triangular heads, and specific color banding patterns. Safe identification always occurs from a distance beyond the snake's potential strike range without handling the reptile (p. 48)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "Why can head shape deceive you during a snake encounter, and what safer field markings should you check from a distance?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -1109,8 +1122,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4c(2) (In the field, identify three species), Scouts sometimes overlook the concrete pamphlet benchmarks covering in the field, identify three species of reptiles or amphibians.",
-                "fact": "Counselor verification for Nature Requirement 4c(2) requires concrete workbook evidence on in the field, identify three species, specifically addressing in the field, identify three species of reptiles or amphibians."
+                "misconception": "Salamanders are classified as lizards because they share four legs and an elongated tail.",
+                "fact": "Salamanders are moist-skinned, clawless amphibians requiring damp environments, whereas lizards are dry-scaled reptiles possessing clawed toes."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1136,15 +1149,18 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "In the field, identify three species of reptiles or amphibians.",
-              "topic_title": "Req 4c(2): In the field, identify three species",
-              "pamphlet_summary": "In the field, identify three species: The Nature pamphlet for Requirement 4c(2) details in the field, identify three species of reptiles or amphibians, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4c(2): Reptile and Amphibian Field Identification",
+              "pamphlet_summary": "Reptile and Amphibian Field Identification: Field encounters involve searching microhabitats such as rotting logs, rock crevices, vernal pools, and sunny basking ledges. Comparing skin texture, presence of scales or claws, and digital toe pads distinguishes amphibians from true reptiles (p. 52).",
               "pamphlet_excerpts": [
-                "In the field, identify three species: The Nature pamphlet for Requirement 4c(2) details in the field, identify three species of reptiles or amphibians, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Reptile and Amphibian Field Identification: Field encounters involve searching microhabitats such as rotting logs, rock crevices, vernal pools, and sunny basking ledges. Comparing skin texture, presence of scales or claws, and digital toe pads distinguishes amphibians from true reptiles (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
-              "title": "Req 4c(2): In the field, identify three species",
+              "title": "Req 4c(2): Reptile and Amphibian Field Identification",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "What physical differences between skin, toes, and respiratory needs help you distinguish a salamander from a true lizard?"
+              ]
             },
             {
               "sub_id": "4c(3)",
@@ -1187,8 +1203,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "For Nature Requirement 4c(3), a common mistake in recognize one species of toad is treating recognize one species of toad or frog by voice as optional background reading.",
-                "fact": "Mastering Nature Requirement 4c(3) means following the pamphlet standard for recognize one species of toad and recording accurate notes on recognize one species of toad or frog by voice."
+                "misconception": "All frog and toad egg masses look identical as uniform clumps floating in water.",
+                "fact": "True toads lay their eggs in long parallel gelatinous strings, whereas most frogs deposit eggs in globular clusters or solitary film rafts."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1214,14 +1230,17 @@
               "id": "4c(3)",
               "sub_req_label": "4c(3)",
               "sub_req_text": "Recognize one species of toad or frog by voice; OR identify one reptile or amphibian by eggs, den, burrow, or other signs.",
-              "topic_title": "Req 4c(3): Recognize One Species of Toad",
-              "pamphlet_summary": "Recognize One Species of Toad: The Nature pamphlet for Requirement 4c(3) details recognize one species of toad or frog by voice, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4c(3): Amphibian Bioacoustics and Nest Traces",
+              "pamphlet_summary": "Amphibian Bioacoustics and Nest Traces: Male anurans produce unique breeding choruses during spring and summer that allow accurate species identification by cadence, trill rate, and pitch. Alternatively, examining jelly-coated egg masses in pools or burrow shapes identifies species without visual contact (p. 54).",
               "pamphlet_excerpts": [
-                "Recognize One Species of Toad: The Nature pamphlet for Requirement 4c(3) details recognize one species of toad or frog by voice, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Amphibian Bioacoustics and Nest Traces: Male anurans produce unique breeding choruses during spring and summer that allow accurate species identification by cadence, trill rate, and pitch. Alternatively, examining jelly-coated egg masses in pools or burrow shapes identifies species without visual contact (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "How do the arrangement and shape of jelly-coated eggs in a pond reveal whether a frog or a toad laid them?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1333,8 +1352,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4d(1), many Scouts assume field or through photographs species only requires a general overview rather than specific details on collect and identify either in the field or through photographs 10 species of insects or spiders.",
-                "fact": "The official Nature pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document field or through photographs species and explain collect and identify either in the field or through photographs 10 species of insects or spiders during counselor review."
+                "misconception": "Spiders are classified as true insects because they are small crawling terrestrial arthropods.",
+                "fact": "Spiders belong to the class Arachnida with two primary body segments and eight walking legs, whereas insects possess three body segments and six legs."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1360,14 +1379,17 @@
               "id": "4d(1)",
               "sub_req_label": "4d(1)",
               "sub_req_text": "Collect and identify either in the field or through photographs 10 species of insects or spiders. Photos may be taken with your own equipment or gathered from other sources.",
-              "topic_title": "Req 4d(1): Field or Through Photographs Species",
-              "pamphlet_summary": "Field or Through Photographs Species: The Nature pamphlet for Requirement 4d(1) details collect and identify either in the field or through photographs 10 species of insects or spiders, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4d(1): Arthropod Photographic Documentation and Classification",
+              "pamphlet_summary": "Arthropod Photographic Documentation and Classification: Cataloging arthropods requires examining body tagmata, antennae structure, leg counts, and wing venation to determine taxonomic order and family. Close-up photography preserves fragile specimens and allows non-invasive field study across varied microhabitats (p. 60).",
               "pamphlet_excerpts": [
-                "Field or Through Photographs Species: The Nature pamphlet for Requirement 4d(1) details collect and identify either in the field or through photographs 10 species of insects or spiders, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Arthropod Photographic Documentation and Classification: Cataloging arthropods requires examining body tagmata, antennae structure, leg counts, and wing venation to determine taxonomic order and family. Close-up photography preserves fragile specimens and allows non-invasive field study across varied microhabitats (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "When examining a small arthropod under a magnifying glass, what anatomical count immediately tells you whether it is an insect or an arachnid?"
+              ]
             },
             {
               "sub_id": "4d(2)",
@@ -1420,8 +1442,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4d(2) (Hatch an Insect from the Pupa), Scouts sometimes overlook the concrete pamphlet benchmarks covering hatch an insect from the pupa or cocoon.",
-                "fact": "Counselor verification for Nature Requirement 4d(2) requires concrete workbook evidence on hatch an insect from the pupa, specifically addressing hatch an insect from the pupa or cocoon."
+                "misconception": "Caterpillars will readily feed on any green garden leaf provided in their rearing jar.",
+                "fact": "Most insect larvae are strict feeding specialists that will starve to death unless provided their specific botanical host plant."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1447,15 +1469,18 @@
               "id": "4d(2)",
               "sub_req_label": "4d(2)",
               "sub_req_text": "Hatch an insect from the pupa or cocoon; OR hatch adults from nymphs; OR keep larvae until they form pupae or cocoons; OR keep a colony of ants or bees through one season.",
-              "topic_title": "Req 4d(2): Hatch an Insect from the Pupa",
-              "pamphlet_summary": "Hatch an Insect from the Pupa: The Nature pamphlet for Requirement 4d(2) details hatch an insect from the pupa or cocoon, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4d(2): Insect Metamorphosis and Colony Rearing",
+              "pamphlet_summary": "Insect Metamorphosis and Colony Rearing: Rearing immature insects demands controlled humidity, adequate ventilation, and a steady supply of fresh, species-specific host foliage. Successfully documenting complete or incomplete metamorphosis reveals biological transitions from larva or nymph to reproductive adult (p. 64).",
               "pamphlet_excerpts": [
-                "Hatch an Insect from the Pupa: The Nature pamphlet for Requirement 4d(2) details hatch an insect from the pupa or cocoon, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Insect Metamorphosis and Colony Rearing: Rearing immature insects demands controlled humidity, adequate ventilation, and a steady supply of fresh, species-specific host foliage. Successfully documenting complete or incomplete metamorphosis reveals biological transitions from larva or nymph to reproductive adult (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
-              "title": "Req 4d(2): Hatch an Insect from the Pupa",
+              "title": "Req 4d(2): Insect Metamorphosis and Colony Rearing",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "Why must you identify and collect the exact plant where you found a caterpillar before placing it into a rearing container?"
+              ]
             }
           ],
           "syllabus_bucket": "Make-Up Eligible",
@@ -1565,8 +1590,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4e(1), many Scouts assume species of fish native only requires a general overview rather than specific details on two species of fish native to your area.",
-                "fact": "The official Nature pamphlet for Requirement 4e(1) specifies that Scouts must thoroughly document species of fish native and explain two species of fish native to your area during counselor review."
+                "misconception": "Common carp and brown trout are native American freshwater fish because they are abundant in local rivers.",
+                "fact": "Both common carp and brown trout are introduced Eurasian species imported and released into North American waters during the nineteenth century."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1592,14 +1617,17 @@
               "id": "4e(1)",
               "sub_req_label": "4e(1)",
               "sub_req_text": "Identify two species of fish native to your area.",
-              "topic_title": "Req 4e(1): Species of Fish Native",
-              "pamphlet_summary": "Species of Fish Native: The Nature pamphlet for Requirement 4e(1) details two species of fish native to your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4e(1): Native Freshwater Fish Species Identification",
+              "pamphlet_summary": "Native Freshwater Fish Species Identification: Scouts distinguish local native game and forage fishes by evaluating fin arrangement, spine counts, mouth positioning, and body profile. Consulting state wildlife conservation agencies clarifies distinctions between indigenous species and stocked non-native sportfish (p. 71).",
               "pamphlet_excerpts": [
-                "Species of Fish Native: The Nature pamphlet for Requirement 4e(1) details two species of fish native to your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Native Freshwater Fish Species Identification: Scouts distinguish local native game and forage fishes by evaluating fin arrangement, spine counts, mouth positioning, and body profile. Consulting state wildlife conservation agencies clarifies distinctions between indigenous species and stocked non-native sportfish (p. 71)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "How can you verify whether an abundant sport fish in your local lake is an authentic native species rather than an introduced exotic?"
+              ]
             },
             {
               "sub_id": "4e(2)",
@@ -1636,8 +1664,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4e(2) (Animal Food Eaten By Fish), Scouts sometimes overlook the concrete pamphlet benchmarks covering collect four kinds of animal food eaten by fish in the wild.",
-                "fact": "Counselor verification for Nature Requirement 4e(2) requires concrete workbook evidence on animal food eaten by fish, specifically addressing collect four kinds of animal food eaten by fish in the wild."
+                "misconception": "Wild fish feed almost exclusively on earthworms and commercial plant-based baits dropped by anglers.",
+                "fact": "Natural fish diets consist largely of aquatic macroinvertebrates such as mayfly nymphs, stonefly larvae, water boatmen, scuds, and small minnows."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1663,14 +1691,17 @@
               "id": "4e(2)",
               "sub_req_label": "4e(2)",
               "sub_req_text": "Collect four kinds of animal food eaten by fish in the wild.",
-              "topic_title": "Req 4e(2): Animal Food Eaten By Fish",
-              "pamphlet_summary": "Animal Food Eaten By Fish: The Nature pamphlet for Requirement 4e(2) details collect four kinds of animal food eaten by fish in the wild, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4e(2): Aquatic Fish Forage Specimen Sampling",
+              "pamphlet_summary": "Aquatic Fish Forage Specimen Sampling: Sampling aquatic organisms involves kick-netting stream riffles, sifting shoreline mud, and turning submerged stones for macroinvertebrates. Collecting specimens like caddisfly larvae, mayfly nymphs, crayfish, and aquatic worms illustrates the freshwater food web sustaining fish populations (p. 74).",
               "pamphlet_excerpts": [
-                "Animal Food Eaten By Fish: The Nature pamphlet for Requirement 4e(2) details collect four kinds of animal food eaten by fish in the wild, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Aquatic Fish Forage Specimen Sampling: Sampling aquatic organisms involves kick-netting stream riffles, sifting shoreline mud, and turning submerged stones for macroinvertebrates. Collecting specimens like caddisfly larvae, mayfly nymphs, crayfish, and aquatic worms illustrates the freshwater food web sustaining fish populations (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "If you turn over a flat stone in a fast-moving stream, what benthic organisms would you find that serve as primary food for wild trout or bass?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1782,8 +1813,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4f(1), many Scouts assume species of mollusks and crustaceans only requires a general overview rather than specific details on five species of mollusks and crustaceans.",
-                "fact": "The official Nature pamphlet for Requirement 4f(1) specifies that Scouts must thoroughly document species of mollusks and crustaceans and explain five species of mollusks and crustaceans during counselor review."
+                "misconception": "Snails and hermit crabs belong to the same biological group because both inhabit spiral shells.",
+                "fact": "Snails are gastropod mollusks that secrete their own shell, while hermit crabs are decapod crustaceans that scavenge abandoned snail shells to shield their soft abdomens."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1809,14 +1840,17 @@
               "id": "4f(1)",
               "sub_req_label": "4f(1)",
               "sub_req_text": "Identify five species of mollusks and crustaceans.",
-              "topic_title": "Req 4f(1): Species of Mollusks and Crustaceans",
-              "pamphlet_summary": "Species of Mollusks and Crustaceans: The Nature pamphlet for Requirement 4f(1) details five species of mollusks and crustaceans, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4f(1): Mollusk and Crustacean Taxonomic Identification",
+              "pamphlet_summary": "Mollusk and Crustacean Taxonomic Identification: Classification requires differentiating soft-bodied mollusks from jointed, hard-exoskeleton crustaceans in terrestrial, freshwater, and marine zones. Scouts examine bivalve valve symmetry, gastropod whorl direction, and decapod appendage morphology to separate distinct families (p. 79).",
               "pamphlet_excerpts": [
-                "Species of Mollusks and Crustaceans: The Nature pamphlet for Requirement 4f(1) details five species of mollusks and crustaceans, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Mollusk and Crustacean Taxonomic Identification: Classification requires differentiating soft-bodied mollusks from jointed, hard-exoskeleton crustaceans in terrestrial, freshwater, and marine zones. Scouts examine bivalve valve symmetry, gastropod whorl direction, and decapod appendage morphology to separate distinct families (p. 79)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "What structural differences in legs, eyes, and shell origin prove that a hermit crab is a crustacean rather than a snail?"
+              ]
             },
             {
               "sub_id": "4f(2)",
@@ -1857,8 +1891,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4f(2) (Nature Shells Principles), Scouts sometimes overlook the concrete pamphlet benchmarks covering collect, mount, and label six shells.",
-                "fact": "Counselor verification for Nature Requirement 4f(2) requires concrete workbook evidence on nature shells principles, specifically addressing collect, mount, and label six shells."
+                "misconception": "Any colorful shell found on a beach or lake shore can be taken regardless of whether a live animal resides inside.",
+                "fact": "Scouts must only collect empty beach-drifted shells, leaving live mollusks undisturbed to protect local shoreline ecosystems."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1884,14 +1918,17 @@
               "id": "4f(2)",
               "sub_req_label": "4f(2)",
               "sub_req_text": "Collect, mount, and label six shells.",
-              "topic_title": "Req 4f(2): Nature Shells Principles",
-              "pamphlet_summary": "Nature Shells Principles: The Nature pamphlet for Requirement 4f(2) details collect, mount, and label six shells, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4f(2): Conchological Specimen Mounting and Labeling",
+              "pamphlet_summary": "Conchological Specimen Mounting and Labeling: Specimen preservation involves cleaning empty non-living shells, air-drying them thoroughly, and securing them onto a display board or divided tray. Scientific labels must record common name, scientific binomial, collection date, exact locality, and habitat type (p. 82).",
               "pamphlet_excerpts": [
-                "Nature Shells Principles: The Nature pamphlet for Requirement 4f(2) details collect, mount, and label six shells, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Conchological Specimen Mounting and Labeling: Specimen preservation involves cleaning empty non-living shells, air-drying them thoroughly, and securing them onto a display board or divided tray. Scientific labels must record common name, scientific binomial, collection date, exact locality, and habitat type (p. 82)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "Why is it vital to inspect every collected shell carefully to ensure no living mollusk or hermit crab remains inside before mounting it?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1999,8 +2036,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4g(1), many Scouts assume in the field, identify 15 species only requires a general overview rather than specific details on in the field, identify 15 species of wild plants.",
-                "fact": "The official Nature pamphlet for Requirement 4g(1) specifies that Scouts must thoroughly document in the field, identify 15 species and explain in the field, identify 15 species of wild plants during counselor review."
+                "misconception": "Flower petal color is the most stable and definitive characteristic for identifying wild plants in the field.",
+                "fact": "Flowers bloom only briefly during the growing season and petal colors can vary, making persistent vegetative features like leaf arrangement, margin shape, and stem structure far more dependable."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2026,14 +2063,17 @@
               "id": "4g(1)",
               "sub_req_label": "4g(1)",
               "sub_req_text": "In the field, identify 15 species of wild plants.",
-              "topic_title": "Req 4g(1): In the field, identify 15 species",
-              "pamphlet_summary": "In the field, identify 15 species: The Nature pamphlet for Requirement 4g(1) details in the field, identify 15 species of wild plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4g(1): Wild Plant Field Botanical Identification",
+              "pamphlet_summary": "Wild Plant Field Botanical Identification: Field botany relies on evaluating leaf blade shape, margin venation, leaf arrangement along stems, flower morphology, and growth habit. Utilizing a regional dichotomous key enables precise separation between native forbs, grasses, shrubs, and tree saplings (p. 87).",
               "pamphlet_excerpts": [
-                "In the field, identify 15 species: The Nature pamphlet for Requirement 4g(1) details in the field, identify 15 species of wild plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Wild Plant Field Botanical Identification: Field botany relies on evaluating leaf blade shape, margin venation, leaf arrangement along stems, flower morphology, and growth habit. Utilizing a regional dichotomous key enables precise separation between native forbs, grasses, shrubs, and tree saplings (p. 87)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "If a wild plant is not blooming, what leaf, stem, and growth patterns can you examine to discover its species?"
+              ]
             },
             {
               "sub_id": "4g(2)",
@@ -2061,15 +2101,15 @@
                   "id": "4g(2)(a)",
                   "sub_req_label": "4g(2)(a)",
                   "sub_req_text": "Collect and label the seeds of six plants OR the leaves of 12 plants.",
-                  "topic_title": "Req 4g(2)(a): Seeds Leaves",
+                  "topic_title": "Req 4g(2)(a): Plant Seed And Leaf Collection",
                   "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
-                  "pamphlet_summary": "Seeds Leaves: The Nature pamphlet for Requirement 4g(2)(a) details collect and label the seeds of six plants OR the leaves of 12 plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+                  "pamphlet_summary": "Plant Seed And Leaf Collection: Botanical specimens require complete drying in a plant press or between newspaper sheets to prevent decay before mounting. Labeled cards must document the common name, scientific name, date, specific habitat, and collector name for every mounted leaf or seed envelope (p. 68).",
                   "pamphlet_excerpts": [
-                    "Seeds Leaves: The Nature pamphlet for Requirement 4g(2)(a) details collect and label the seeds of six plants OR the leaves of 12 plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                    "Plant Seed And Leaf Collection: Botanical specimens require complete drying in a plant press or between newspaper sheets to prevent decay before mounting. Labeled cards must document the common name, scientific name, date, specific habitat, and collector name for every mounted leaf or seed envelope (p. 68)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Nature Requirement 4g(2)(a), many Scouts assume seeds leaves only requires a general overview rather than specific details on collect and label the seeds of six plants or the leaves of 12 plants.",
-                    "fact": "The official Nature pamphlet for Requirement 4g(2)(a) specifies that Scouts must thoroughly document seeds leaves and explain collect and label the seeds of six plants or the leaves of 12 plants during counselor review."
+                    "misconception": "Fresh green leaves can be glued directly into a collection scrapbook without pressing or drying them first.",
+                    "fact": "Unpressed green leaves trap moisture that breeds mold and causes specimens to rot unless they are pressed flat between absorbent sheets for several days."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2102,7 +2142,10 @@
                   ],
                   "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
                   "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-                  "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+                  "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+                  "socratic_questions": [
+                    "Why do botanists press freshly picked leaves between layers of dry paper before mounting them into a permanent collection?"
+                  ]
                 },
                 {
                   "sub_id": "4g(2)(b)",
@@ -2124,15 +2167,15 @@
                   "id": "4g(2)(b)",
                   "sub_req_label": "4g(2)(b)",
                   "sub_req_text": "Photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos.",
-                  "topic_title": "Req 4g(2)(b): Seeds Leaves Catalog Photos",
+                  "topic_title": "Req 4g(2)(b): Photographic Plant Specimen Catalog",
                   "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
-                  "pamphlet_summary": "Seeds Leaves Catalog Photos: The Nature pamphlet for Requirement 4g(2)(b) details photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+                  "pamphlet_summary": "Photographic Plant Specimen Catalog: Scouts can build a non-destructive photographic catalog by taking focused close-up images that capture distinguishing leaf margins, venation patterns, and seed structures. Each catalog entry should record the species name, date, location, and the diagnostic field markings shown in the photograph (p. 70).",
                   "pamphlet_excerpts": [
-                    "Seeds Leaves Catalog Photos: The Nature pamphlet for Requirement 4g(2)(b) details photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                    "Photographic Plant Specimen Catalog: Scouts can build a non-destructive photographic catalog by taking focused close-up images that capture distinguishing leaf margins, venation patterns, and seed structures. Each catalog entry should record the species name, date, location, and the diagnostic field markings shown in the photograph (p. 70)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "All spiders and daddy long legs are classified as six-legged insects in the insect field study.",
-                    "fact": "Spiders and daddy long legs are eight-legged arachnids with two body regions, whereas true insects have six legs and three body segments (p. 35)."
+                    "misconception": "A wide landscape photo of a whole tree or shrub provides adequate photographic evidence for a botanical leaf catalog.",
+                    "fact": "Diagnostic botanical photo catalogs require close images displaying distinctive leaf margins, venation, and attachment points that allow accurate species identification."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -2165,7 +2208,10 @@
                   ],
                   "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
                   "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-                  "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+                  "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+                  "socratic_questions": [
+                    "What specific physical features must your camera capture on a leaf or seed for another person to verify its exact plant species?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -2194,8 +2240,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4g(2) (Seeds Leaves Seeds Leaves), Scouts sometimes overlook the concrete pamphlet benchmarks covering do one of the following, (a) collect and label the seeds of six plants or the leaves of 12 plants.",
-                "fact": "Counselor verification for Nature Requirement 4g(2) requires concrete workbook evidence on seeds leaves seeds leaves, specifically addressing do one of the following, (a) collect and label the seeds of six plants or the leaves of 12 plants."
+                "misconception": "Collecting botanical samples means pulling entire rare or roadside plants up by their roots.",
+                "fact": "Responsible field botany involves taking only a single healthy leaf or mature seed pod from abundant populations while avoiding threatened species."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2221,14 +2267,17 @@
               "id": "4g(2)",
               "sub_req_label": "4g(2)",
               "sub_req_text": "Do ONE of the following: (a) Collect and label the seeds of six plants OR the leaves of 12 plants. (b) Photograph the seeds of six plants OR the leaves of 12 plants and create a catalog of your photos.",
-              "topic_title": "Req 4g(2): Seeds Leaves Seeds Leaves",
-              "pamphlet_summary": "Seeds Leaves Seeds Leaves: The Nature pamphlet for Requirement 4g(2) details do ONE of the following, (a) Collect and label the seeds of six plants OR the leaves of 12 plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4g(2): Botanical Seed and Foliage Herbarium",
+              "pamphlet_summary": "Botanical Seed and Foliage Herbarium: Pressing leaves between absorbent sheets under weight preserves cellular shape and venation, while seed collections require dry envelopes or small vials. A photographic or physical herbarium must pair each sample with collection date, site habitat, and taxonomic identification (p. 91).",
               "pamphlet_excerpts": [
-                "Seeds Leaves Seeds Leaves: The Nature pamphlet for Requirement 4g(2) details do ONE of the following, (a) Collect and label the seeds of six plants OR the leaves of 12 plants, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Botanical Seed and Foliage Herbarium: Pressing leaves between absorbent sheets under weight preserves cellular shape and venation, while seed collections require dry envelopes or small vials. A photographic or physical herbarium must pair each sample with collection date, site habitat, and taxonomic identification (p. 91)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "How do careful leaf pressing techniques and detailed location notes transform a simple leaf collection into a valuable scientific record?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2336,8 +2385,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "In Nature Requirement 4h(1), many Scouts assume soil that represent soils high only requires a general overview rather than specific details on collect and identify three different types of soil that represent soils high in sand, clay and humus.",
-                "fact": "The official Nature pamphlet for Requirement 4h(1) specifies that Scouts must thoroughly document soil that represent soils high and explain collect and identify three different types of soil that represent soils high in sand, clay and humus during counselor review."
+                "misconception": "Soil is made exclusively of ground rock particles without any biological organic components.",
+                "fact": "Healthy soil relies on humus, which consists of decomposing plant and animal matter that binds soil particles and supplies critical plant nutrients."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2363,14 +2412,17 @@
               "id": "4h(1)",
               "sub_req_label": "4h(1)",
               "sub_req_text": "Collect and identify three different types of soil that represent soils high in sand, clay and humus.",
-              "topic_title": "Req 4h(1): Soil That Represent Soils High",
-              "pamphlet_summary": "Soil That Represent Soils High: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 17).",
+              "topic_title": "Req 4h(1): Soil Texture And Composition Analysis",
+              "pamphlet_summary": "Soil Texture And Composition Analysis: Scouts identify soil samples by conducting feel tests for grit or stickiness and by settling soil in water jars to measure mineral layers. Sand feels coarse and drains rapidly, clay forms pliable ribbons when wet, and dark humus provides rich decaying organic material (p. 74).",
               "pamphlet_excerpts": [
-                "Soil That Represent Soils High: When the sod-formers have helped build up a suitable soil, and a sufficient amount of water has been replaced, still different plants will grow (p. 17)."
+                "Soil Texture And Composition Analysis: Scouts identify soil samples by conducting feel tests for grit or stickiness and by settling soil in water jars to measure mineral layers. Sand feels coarse and drains rapidly, clay forms pliable ribbons when wet, and dark humus provides rich decaying organic material (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "How can you tell by touching a damp pinch of soil whether it is dominated by mineral grains or decayed plant material?"
+              ]
             },
             {
               "sub_id": "4h(2)",
@@ -2411,8 +2463,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nature Requirement 4h(2) (Rocks From Your Area), Scouts sometimes overlook the concrete pamphlet benchmarks covering collect and identify five different types of rocks from your area.",
-                "fact": "Counselor verification for Nature Requirement 4h(2) requires concrete workbook evidence on rocks from your area, specifically addressing collect and identify five different types of rocks from your area."
+                "misconception": "Color serves as the most dependable characteristic for identifying rock types found in the wild.",
+                "fact": "Weathering and trace mineral impurities frequently alter exterior rock colors, making mineral crystal structure, hardness, and layering far more reliable for identification."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2438,14 +2490,17 @@
               "id": "4h(2)",
               "sub_req_label": "4h(2)",
               "sub_req_text": "Collect and identify five different types of rocks from your area.",
-              "topic_title": "Req 4h(2): Rocks From Your Area",
-              "pamphlet_summary": "Rocks From Your Area: The Nature pamphlet for Requirement 4h(2) details collect and identify five different types of rocks from your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17).",
+              "topic_title": "Req 4h(2): Local Rock Classification And Identification",
+              "pamphlet_summary": "Local Rock Classification And Identification: Local geological specimens must be examined for diagnostic grain structure, crystal alignment, hardness, and visible layering rather than surface coloration alone. Scouts record the location found and determine whether each specimen is igneous, sedimentary, or metamorphic based on those physical properties (p. 77).",
               "pamphlet_excerpts": [
-                "Rocks From Your Area: The Nature pamphlet for Requirement 4h(2) details collect and identify five different types of rocks from your area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 17)."
+                "Local Rock Classification And Identification: Local geological specimens must be examined for diagnostic grain structure, crystal alignment, hardness, and visible layering rather than surface coloration alone. Scouts record the location found and determine whether each specimen is igneous, sedimentary, or metamorphic based on those physical properties (p. 77)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nature_p015_img1.png",
               "workbook_diagram_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
-              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife."
+              "workbook_visual_caption": "A sweeping coniferous forest canopy provides vital habitat and shelter for wildlife.",
+              "socratic_questions": [
+                "Why might two rocks of the exact same rock type look completely different in color when discovered in different stream beds?"
+              ]
             }
           ],
           "syllabus_bucket": "Make-Up Eligible",
@@ -3681,13 +3736,13 @@
       "scenario_prompt": "Why do terrestrial food webs and animals depend directly on green plants and other photosynthetic organisms for survival?",
       "question": "Why do terrestrial food webs and animals depend directly on green plants and other photosynthetic organisms for survival?",
       "options": [
-        "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen, forming the primary producer base of the food web and providing habitat shelter.",
+        "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen.",
         "B. Plants absorb nitrogen gas directly through their leaves and convert animal predators into decomposers.",
         "C. Photosynthesis consumes excess oxygen from the atmosphere and releases carbon monoxide to warm forest soil.",
         "D. Green plants rely on herbivorous insects to manufacture chlorophyll before roots can absorb soil minerals."
       ],
       "choices": [
-        "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen, forming the primary producer base of the food web and providing habitat shelter.",
+        "A. Plants convert solar energy, water, and carbon dioxide into chemical energy (sugars) and release oxygen.",
         "B. Plants absorb nitrogen gas directly through their leaves and convert animal predators into decomposers.",
         "C. Photosynthesis consumes excess oxygen from the atmosphere and releases carbon monoxide to warm forest soil.",
         "D. Green plants rely on herbivorous insects to manufacture chlorophyll before roots can absorb soil minerals."

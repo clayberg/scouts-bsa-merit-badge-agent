@@ -55,7 +55,7 @@
 - **Common Myth:** Soft damp soil provides safe shock absorption under heavy timber structures.
 - **Pamphlet Fact:** Muddy ground destabilizes vertical spars and pulls stakes directly out of alignment.
 
-![Step-by-step Pioneering visual guide highlighting pioneering hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/pioneering_p003_img1.png)
+![Pioneering Requirement 1 figure showing establish perimeter ropes around active construction to keep bystanders clear.](/assets/pamphlet_images/pioneering_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -102,7 +102,7 @@
 - [ ] Single and double pulley blocks, pioneering anchor stakes, and work gloves
 - [ ] Scale model spars and elastic bands or cord for pre-build engineering layout
 
-![Detailed Pioneering reference illustration comparing key components and stages of essential pioneering knots and lashings for Requirement 2.](/assets/pamphlet_images/pioneering_p007_img1.png)
+![Pioneering Requirement 2 figure showing alternating overhand knots around the strand prevent rope unraveling under field tension.](/assets/pamphlet_images/pioneering_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -297,7 +297,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe the lashings that are used when building a trestle, how the poles are positioned, and how X braces contribute to the overall structural integrity of a pioneering project.** | `____________________________________` | `____________________________________` |
+| **1. Describe the lashings that are used when building a trestle, how the poles are positioned, and how X braces contribute to the overall structural integrity of a pioneering project** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Trestle Leg Symmetry: Legs must form an isosceles trapezoid to distribute downward weight evenly across ground.

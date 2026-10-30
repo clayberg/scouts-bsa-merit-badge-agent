@@ -52,7 +52,7 @@
 - **Common Myth:** Thirst serves as the primary indicator for when a gardener should consume water outdoors.
 - **Pamphlet Fact:** Regular water consumption and broad brimmed hats prevent heat exhaustion before dehydration sets in.
 
-![Detailed Gardening reference illustration comparing key components and stages of garden safety and first aid for Requirement 1.](/assets/pamphlet_images/gardening_p003_img1.png)
+![Gardening Requirement 1 figure showing place garden rakes and hoes with tines pointed downward into soil.](/assets/pamphlet_images/gardening_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 - [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
 - [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
 
-![Practical Gardening field visual showing proper setup, measurement, and technique for growing vegetables and flowers in Requirement 2.](/assets/pamphlet_images/gardening_p007_img1.png)
+![Gardening Requirement 2 figure showing bury vegetable seeds at depth equal to three times their width.](/assets/pamphlet_images/gardening_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -140,7 +140,7 @@
 - **Common Myth:** Root vegetables supply only simple sugars without contributing meaningful dietary vitamins.
 - **Pamphlet Fact:** Sweet potatoes store carotenoids and potassium within swollen storage root tissues.
 
-![Illustrated Gardening technical diagram of nutritional value of garden crops for Requirement 3 field execution.](/assets/pamphlet_images/gardening_p012_img1.png)
+![Gardening Requirement 3 figure showing taproots deliver abundant beta carotene precursors for human vitamin A synthesis.](/assets/pamphlet_images/gardening_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

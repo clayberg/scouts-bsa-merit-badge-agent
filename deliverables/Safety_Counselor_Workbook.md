@@ -51,7 +51,7 @@
 - **Common Myth:** Being safe requires avoiding all adventurous or physically challenging outdoor pursuits.
 - **Pamphlet Fact:** Safety provides practical boundaries that allow challenging activities to proceed without catastrophic injury.
 
-![Step-by-step Safety visual guide highlighting understanding safety and hazard management positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/safety_p003_img1.png)
+![Safety Requirement 1 figure showing systematic controls eliminate potential dangers before operational activities begin.](/assets/pamphlet_images/safety_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -94,7 +94,7 @@
 - **Common Myth:** Accidental poisoning happens almost exclusively to toddlers who explore low kitchen cabinets.
 - **Pamphlet Fact:** Teenagers and adults frequently suffer accidental poisoning from mislabeled bottles, medication mix-ups, and carbon monoxide leaks.
 
-![Detailed Safety reference illustration comparing key components and stages of family and home safety planning for Requirement 2.](/assets/pamphlet_images/safety_p007_img1.png)
+![Safety Requirement 2 figure showing secure stairway handrails and remove floor clutter to prevent falls.](/assets/pamphlet_images/safety_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -201,7 +201,7 @@
 - **Common Myth:** Teenagers are targeted exclusively by adult strangers rather than acquaintances or peers.
 - **Pamphlet Fact:** Most crimes affecting teenagers, including physical assaults and personal thefts, involve acquaintances, classmates, or neighborhood peers.
 
-![Practical Safety field visual showing proper setup, measurement, and technique for crime prevention and home security in Requirement 3.](/assets/pamphlet_images/safety_p012_img1.png)
+![Safety Requirement 3 figure showing install heavy deadbolt locks on exterior doors to deter forced entry.](/assets/pamphlet_images/safety_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

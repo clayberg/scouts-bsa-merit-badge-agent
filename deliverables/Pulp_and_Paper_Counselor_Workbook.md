@@ -72,7 +72,7 @@
 - **Common Myth:** Trees used for papermaking are cut randomly from wild unmanaged woods.
 - **Pamphlet Fact:** Forestry crews plant seedlings in deliberate grids and harvest according to strict silvicultural prescriptions.
 
-![Detailed Pulp and Paper reference illustration comparing key components and stages of sustainable forestry and environmental stewardship for Requirement 2.](/assets/pamphlet_images/pulp_and_paper_p007_img1.png)
+![Pulp and Paper Requirement 2 figure showing foresters cultivate genetically superior pine seedlings in specialized nursery beds.](/assets/pamphlet_images/pulp_and_paper_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -86,7 +86,7 @@
 - **Common Myth:** Paper mills harvest timber without calculating future regional tree inventory.
 - **Pamphlet Fact:** Forest inventories track growth rates using satellite imagery and ground cruising plots.
 
-![Step-by-step Pulp and Paper visual guide highlighting papermaking history and economic impact positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/pulp_and_paper_p003_img1.png)
+![Pulp and Paper Requirement 1 figure showing tsai Lun pulverized mulberry bark and rags to create resilient waterlaid sheets.](/assets/pamphlet_images/pulp_and_paper_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -100,7 +100,7 @@
 - **Common Myth:** Sustainable forestry only means planting one new sapling for every felled tree.
 - **Pamphlet Fact:** Sustainable management encompasses riparian buffer preservation, biodiversity protection, and soil erosion control.
 
-![Illustrated Pulp and Paper technical diagram of pulp and paper paper is made reference figure for Requirement 4 field execution.](/assets/pamphlet_images/pulp_and_paper_p004_img1.png)
+![Pulp and Paper Requirement 4 figure showing headboxes discharge a ninety nine percent water suspension onto moving wire screens.](/assets/pamphlet_images/pulp_and_paper_p004_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -114,7 +114,7 @@
 - **Common Myth:** Paper mills dump untreated bleaching chemicals directly into adjacent rivers.
 - **Pamphlet Fact:** Modern mills utilize closed loop recovery systems and multi stage wastewater treatment plants.
 
-![Step-by-step Pulp and Paper visual guide highlighting pulp and paper coated paper properties and uses reference figure positioning and inspection checkpoints.](/assets/pamphlet_images/pulp_and_paper_p005_img1.png)
+![Pulp and Paper Requirement 5 figure showing fine white clay suspensions fill surface voids to prevent liquid ink bleeding.](/assets/pamphlet_images/pulp_and_paper_p005_img1.png)
 
 | Req 2d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -141,7 +141,7 @@
 - **Common Myth:** Every part of a harvested tree is converted into paper pulp.
 - **Pamphlet Fact:** Sawmills turn large trunk cores into structural lumber while paper mills process residual chips.
 
-![Practical Pulp and Paper field visual showing proper setup, measurement, and technique for wood fibers and pulping processes in Requirement 3.](/assets/pamphlet_images/pulp_and_paper_p012_img1.png)
+![Pulp and Paper Requirement 3 figure showing long southern yellow pine fibers deliver exceptional tear strength to packaging paperboard.](/assets/pamphlet_images/pulp_and_paper_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -155,7 +155,7 @@
 - **Common Myth:** Mechanical pulping produces stronger paper than chemical pulping because fibers are unheated.
 - **Pamphlet Fact:** Chemical pulping yields far stronger paper because intact cellulose fibers bond without interfering lignin.
 
-![Detailed Pulp and Paper reference illustration comparing key components and stages of pulp and paper make a list reference figure for Requirement 6.](/assets/pamphlet_images/pulp_and_paper_p006_img1.png)
+![Pulp and Paper Requirement 6 figure showing light creping creates flexible bulk and rapid water absorbency in bathroom tissue.](/assets/pamphlet_images/pulp_and_paper_p006_img1.png)
 
 | Comparison Dimension | Mechanical Ground wood High Yield Pulping | Chemical Kraft Strong Fiber Pulping |
 | :--- | :--- | :--- |

@@ -79,11 +79,11 @@
 - Scouts calculate pedestrian, bicycling, and vehicular transit corridors connecting homes to essential community services. This spatial analysis reveals infrastructure distribution and municipal access equity.
 - Req 2a Standard (Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)): Using an electronic mapping tool or paper map, locate and pinpoint the following services and landmarks in your community. Determine and record the distances from your home including driving time AND either walking or biking time. (1) Chief government buildings such as your city hall, county courthouse, and public works/services facilities (2) Fire station, police station, and hospital nearest your home (3) Parks, playgrounds, recreation areas, and trails (4) Historical or other interesting points of interest.
 
-#### Req 2a(1): Chief Government Buildings
+#### Req 2a(1): Municipal Government and Service Facilities
 **Official Requirement 2a(1):** Chief government buildings such as your city hall, county courthouse, and public works/services facilities.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a(1) Structured Technical Study & Explanation Matrix (Chief Government Buildings)
-- **Common Myth:** In Citizenship in the Community Requirement 2a(1), many Scouts assume chief government buildings only requires a general overview rather than specific details on chief government buildings such as your city hall, county courthouse, and public works/services facilities.
-- **Pamphlet Fact:** The official Citizenship in the Community pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document chief government buildings and explain chief government buildings such as your city hall, county courthouse, and public works/services facilities during counselor review.
+- **Common Myth:** All municipal administrative offices and public service operations are housed under one roof at city hall.
+- **Pamphlet Fact:** City halls primarily house elected officials and administrative clerks, while county courthouses handle judicial proceedings and public works departments manage physical utilities from separate specialized facilities.
 
 ![A municipal courthouse sign marks local government services and judicial landmarks.](/assets/pamphlet_images/citizenship_in_the_community_p015_img1.png)
 
@@ -93,13 +93,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Fire Station Police Station and Hospital Nearest
+#### Req 2a(2): Nearest Emergency and Medical Facilities
 **Official Requirement 2a(2):** Fire station, police station, and hospital nearest your home.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a(2) Structured Technical Study & Explanation Matrix (Fire Station Police Station and)
-- **Common Myth:** When preparing Citizenship in the Community Requirement 2a(2) (Fire Station Police Station and Hospital Nearest), Scouts sometimes overlook the concrete pamphlet benchmarks covering fire station, police station, and hospital nearest your home.
-- **Pamphlet Fact:** Counselor verification for Citizenship in the Community Requirement 2a(2) requires concrete workbook evidence on fire station police station and hospital nearest, specifically addressing fire station, police station, and hospital nearest your home.
+- **Common Myth:** The closest hospital facility always includes a fully staffed emergency room equipped to handle severe pediatric trauma.
+- **Pamphlet Fact:** Neighborhood medical centers and urgent care clinics provide non-trauma outpatient treatment, requiring residents to verify which regional hospital operates a dedicated emergency department.
 
-![Illustrated Citizenship in the Community technical diagram of rights and duties of community citizenship for Requirement 1 field execution.](/assets/pamphlet_images/citizenship_in_the_community_p003_img1.png)
+![Citizenship in the Community Requirement 1 figure showing constitutional protections guarantee freedom of speech, assembly, and equal protection.](/assets/pamphlet_images/citizenship_in_the_community_p003_img1.png)
 
 | Req 2a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -107,11 +107,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(3): Parks Playgrounds Recreation Areas and Trails
+#### Req 2a(3): Public Parks and Recreational Trails
 **Official Requirement 2a(3):** Parks, playgrounds, recreation areas, and trails.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Parks Playgrounds Recreation Areas and)
-- **Common Myth:** For Citizenship in the Community Requirement 2a(3), a common mistake in parks playgrounds recreation areas and trails is treating parks, playgrounds, recreation areas, and trails as optional background reading.
-- **Pamphlet Fact:** Mastering Citizenship in the Community Requirement 2a(3) means following the pamphlet standard for parks playgrounds recreation areas and trails and recording accurate notes on parks, playgrounds, recreation areas, and trails.
+- **Common Myth:** Public parks and recreational trails are funded and managed exclusively by municipal city governments.
+- **Pamphlet Fact:** Public green spaces are frequently maintained through independent county conservation districts, regional trail authorities, or nonprofit trust partnerships rather than municipal city hall staff alone.
 
 ![Patriotic vote buttons placed on an American flag encourage civic duty and voting.](/assets/pamphlet_images/citizenship_in_the_community_p011_img1.png)
 
@@ -121,11 +121,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(4): Historical or Other Interesting
+#### Req 2a(4): Local Historical and Cultural Landmarks
 **Official Requirement 2a(4):** Historical or other interesting points of interest.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 2a(4) Structured Technical Study & Explanation Matrix (Historical or Other Interesting)
-- **Common Myth:** During Citizenship in the Community Requirement 2a(4), Scouts can underestimate how directly mastery of historical or other interesting depends on understanding historical or other interesting points of interest.
-- **Pamphlet Fact:** Scouting America standards for Citizenship in the Community Requirement 2a(4) require complete workbook entries on historical or other interesting to demonstrate full understanding of historical or other interesting points of interest.
+- **Common Myth:** A community landmark must be an ancient building or official museum to qualify as a point of historical interest.
+- **Pamphlet Fact:** Historical points of interest include historic bridges, public monuments, veteran memorials, indigenous heritage sites, or significant cultural gathering places recognized by local preservation boards.
 
 ![Citizens walk up the monumental steps of a government capitol building to engage in civic life.](/assets/pamphlet_images/citizenship_in_the_community_p012_img1.png)
 

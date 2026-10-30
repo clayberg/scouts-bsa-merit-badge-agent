@@ -96,7 +96,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Learn 10 common terms
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Practical American Indian Culture field visual showing proper setup, measurement.](/assets/pamphlet_images/american_indian_culture_p012_img1.png)
+![American Indian Culture Requirement 3 figure showing oral traditions preserve complex verb systems and grammatical nuances without written.](/assets/pamphlet_images/american_indian_culture_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 - **Common Myth:** Notable Indigenous leaders existed only during nineteenth century frontier conflicts.
 - **Pamphlet Fact:** Contemporary Indigenous leaders manage sovereign nations, national government departments, and legal jurisprudence.
 
-![Detailed American Indian Culture reference illustration comparing key components and stages of distinct american indian cultural areas for Requirement 1.](/assets/pamphlet_images/american_indian_culture_p003_img1.png)
+![American Indian Culture Requirement 1 figure showing marine mammal hunting with skin boats provided essential sustenance for northern.](/assets/pamphlet_images/american_indian_culture_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

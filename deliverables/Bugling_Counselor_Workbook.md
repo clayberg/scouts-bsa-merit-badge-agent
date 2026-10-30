@@ -40,7 +40,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Give a brief history of the bugle.** | `____________________________________` | `____________________________________` |
+| **1. Give a brief history of the bugle** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Early hunters blew hollowed animal horns to transmit distant hunting and warning signals.
@@ -69,7 +69,7 @@
 - **Common Myth:** Beginners think brass instruments amplify vocal hums rather than buzzing lip vibrations.
 - **Pamphlet Fact:** Sound originates entirely from mechanical lip oscillations exciting the air column inside tubing.
 
-![Detailed Bugling reference illustration comparing key components and stages of brass acoustics and call composition for Requirement 2.](/assets/pamphlet_images/bugling_p007_img1.png)
+![Bugling Requirement 2 figure showing tightly stretched lips vibrate rapidly against the mouthpiece rim to generate soundwaves.](/assets/pamphlet_images/bugling_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -83,7 +83,7 @@
 - **Common Myth:** Scouts often think an original bugle call can include chromatic scale accidentals.
 - **Pamphlet Fact:** Bugle compositions are strictly confined to the five natural harmonic open horn tones.
 
-![Step-by-step Bugling visual guide highlighting history and origins of the bugle positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/bugling_p003_img1.png)
+![Bugling Requirement 1 figure showing early hunters blew hollowed animal horns to transmit distant hunting and warning signals.](/assets/pamphlet_images/bugling_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain when each of the calls in requirement 3 is used.** | `____________________________________` | `____________________________________` |
+| **1. Explain when each of the calls in requirement 3 is used** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Morning Wake Commands: Reveille signals the start of the duty day and commands immediate awakening.
@@ -145,7 +145,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain how to care for, clean, and maintain a bugle.** | `____________________________________` | `____________________________________` |
+| **1. Explain how to care for, clean, and maintain a bugle** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Regular flushing with lukewarm soapy water removes accumulated saliva and interior grime.
@@ -171,7 +171,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Serve as bugler in your troop for three months.** | `____________________________________` | `____________________________________` |
+| **1. Serve as bugler in your troop for three months** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - The bugler arrives early to sound assembly before scheduled troop meeting openings.

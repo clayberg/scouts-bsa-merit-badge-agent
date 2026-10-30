@@ -45,7 +45,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. List the major truck lines serving your town.** | `____________________________________` | `____________________________________` |
+| **1. List the major truck lines serving your town** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Carrier Classification: Common carriers offer scheduled freight service to the general shipping public daily.
@@ -74,7 +74,7 @@
 - **Common Myth:** Truck transportation represents only vehicle driving rather than integrated financial and cargo management.
 - **Pamphlet Fact:** Motor freight bridges producers and consumers by synchronizing physical cargo with billing records.
 
-![Illustrated Truck Transportation technical diagram of trucks in global supply chains for Requirement 2 field execution.](/assets/pamphlet_images/truck_transportation_p007_img1.png)
+![Truck Transportation Requirement 2 figure showing motor carriage provides essential first-mile collection and final-mile retail store.](/assets/pamphlet_images/truck_transportation_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -103,7 +103,7 @@
 - **Common Myth:** Overseas goods travel directly from foreign manufacturing plants to stores inside one single vehicle.
 - **Pamphlet Fact:** Ocean container shipments require intermodal transfers before highway tractors deliver cargo inland.
 
-![Practical Truck Transportation field visual showing proper setup, measurement, and technique for major local truck lines in Requirement 1.](/assets/pamphlet_images/truck_transportation_p003_img1.png)
+![Truck Transportation Requirement 1 figure showing common carriers offer scheduled freight service to the general shipping public daily.](/assets/pamphlet_images/truck_transportation_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -193,7 +193,7 @@
 - **Common Myth:** Large commercial tractor-trailers stop within identical braking distances as passenger sedans.
 - **Pamphlet Fact:** Professional commercial drivers maintain generous following cushions and scan far ahead for roadway hazards.
 
-![Detailed Truck Transportation reference illustration comparing key components and stages of gasoline and diesel truck engines for Requirement 3.](/assets/pamphlet_images/truck_transportation_p012_img1.png)
+![Truck Transportation Requirement 3 figure showing diesel cylinders compress air until intense heat auto-ignites injected fuel mist smoothly.](/assets/pamphlet_images/truck_transportation_p012_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -402,7 +402,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the following terms: bill of lading, ETA, logbook, intermodal, containers, tariff, shippers, carrier, consignee, drayage, and cartage.** | `____________________________________` | `____________________________________` |
+| **1. Explain the following terms: bill of lading, ETA, logbook, intermodal, containers, tariff, shippers, carrier, consignee, drayage, and cartage** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - The bill of lading acts as a formal contract between shipper and carrier.

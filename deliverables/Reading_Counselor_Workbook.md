@@ -57,7 +57,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Take a tour of a library
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Reading visual guide highlighting library organization and catalog searches positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/reading_p003_img1.png)
+![Reading Requirement 1 figure showing ten numerical classes organize all human knowledge across nonfiction book shelves.](/assets/pamphlet_images/reading_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -141,7 +141,7 @@
 - **Common Myth:** Readers assume an author's best known book was their initial published work.
 - **Pamphlet Fact:** Authors frequently publish multiple apprentice works and short articles before achieving widespread recognition.
 
-![Detailed Reading reference illustration comparing key components and stages of exploring authors and recommended books for Requirement 2.](/assets/pamphlet_images/reading_p007_img1.png)
+![Reading Requirement 2 figure showing reference tools and catalog records list complete published works by single authors.](/assets/pamphlet_images/reading_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

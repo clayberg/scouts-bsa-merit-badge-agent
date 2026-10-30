@@ -55,7 +55,7 @@
 - [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
 - [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
 
-![Practical Model Design and Building field visual showing proper setup, measurement, and technique for workshop and digital fabrication safety in Requirement 1.](/assets/pamphlet_images/model_design_and_building_p003_img1.png)
+![Model Design and Building Requirement 1 figure showing safety glasses shield eyes from airborne plastic shards during mechanical tool cutting.](/assets/pamphlet_images/model_design_and_building_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -106,7 +106,7 @@
 - **Common Myth:** Beginners assume an architectural model and a structural model display identical internal framing details.
 - **Pamphlet Fact:** Architectural models highlight finished spatial surfaces while structural models expose load-bearing joists and studs.
 
-![Illustrated Model Design and Building technical diagram of model categories and fabrication materials for Requirement 2 field execution.](/assets/pamphlet_images/model_design_and_building_p007_img1.png)
+![Model Design and Building Requirement 2 figure showing scaled architectural models illustrate room volumes, site circulation, and external.](/assets/pamphlet_images/model_design_and_building_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -158,7 +158,7 @@
 - **Common Myth:** Beginners assume drawings made to approximate eye proportions function adequately as cutting templates.
 - **Pamphlet Fact:** Inaccurate drawings cause mismatched seams, uneven roof pitches, and failed interlocking joints during assembly.
 
-![Step-by-step Model Design and Building visual guide highlighting original project planning and scaling positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/model_design_and_building_p012_img1.png)
+![Model Design and Building Requirement 3 figure showing detailed top, front, and side views establish dimensional accuracy before cutting materials.](/assets/pamphlet_images/model_design_and_building_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -242,7 +242,7 @@
 - [ ] Inspected hand and power tools with intact guards and ventilation setup for Model Design and Building
 - [ ] Shop cleanup brush, solvent/finish rags disposal container, and project plan sheet
 
-![Illustrated Model Design and Building technical diagram of model design and building build your model reference figure for Requirement 4 field execution.](/assets/pamphlet_images/model_design_and_building_p004_img1.png)
+![Model Design and Building Requirement 4 figure showing architectural models built at quarter-inch scale require accurate door and window openings.](/assets/pamphlet_images/model_design_and_building_p004_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

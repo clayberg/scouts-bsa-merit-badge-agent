@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Scoutmaster Bob (Troop 123, My Council) - `counselor@troop123.org • (000) 555-1234`
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/First%20Aid.pdf  
-**Digital Resource Guide (DRG):** 
+**Digital Resource Guide (DRG):** https://www.scouting.org/skills/merit-badges/digital-resource-guides/first-aid/
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This workbook is an optional organizational study aid. Scouts are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -13,18 +13,18 @@
 | Req # | Topic | Action Verb | Execution Mode | Syllabus Bucket | Pamphlet Reference | Counselor Sign-Off Date & Initials |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **1** | Req 1: Emergency Assessment and Handling Protocols | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **2** | Req 2: Emergency Preparedness and Medical Records | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **2** | Req 2: Preparing for First Aid Emergencies | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **3** | Req 3: Closed Wounds and Environmental Injuries | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **4** | Req 4: Hemorrhage Control and Bleeding Wounds | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **5** | Req 5: Respiratory Emergencies and Airway Clearance | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **6** | Req 6: Loss of Consciousness Management | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **7** | Req 7: Myocardial Infarction and Defibrillation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **4** | Req 4: Bleeding Wounds, Nosebleeds, Tourniquets & Shock | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **5** | Req 5: Breathing Emergencies: Choking, Asthma, Anaphylaxis & Altitude | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **6** | Req 6: Loss of Consciousness: Fainting, Seizures, Drowning & Lightning | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **7** | Req 7: Heart Attack, 30:2 CPR & AED Defibrillation | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **8** | Req 8: Musculoskeletal Trauma and Splinting Techniques | Explain | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **9** | Req 9: Head and Spinal Cord Trauma | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **10** | Req 10: Emergency Patient Transport and Movement | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **11** | Req 11: Thermal Exposure and Temperature Emergencies | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **12** | Req 12: Psychological First Aid and Crisis Support | Describe | `In-Class Discussion` | **In-Class Concept** | Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102) | `[ ____ / ____ / 2026 ]  Init: ____` |
-| **13** | Req 13: Specialized Medical and Dental Emergencies | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
+| **13** | Req 13: Miscellaneous Conditions: Eye, Tooth, GI & Stroke (FAST) | Describe | `Hands-On Skill Station` | **In-Class Demonstration** | Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **14** | Req 14: First Aid Instruction Methodology | Explain | `In-Class Discussion` | **In-Class Concept** | Official Scouting America First Aid Merit Badge Pamphlet (p. 29, p. 33) | `[ ____ / ____ / 2026 ]  Init: ____` |
 | **15** | Req 15: Emergency Medical Service Exploration | Prepare | `Prerequisite / Home & Troop Prep` | **Pre-Class Prerequisite** | Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29) | `[ ____ / ____ / 2026 ]  Init: ____` |
 
@@ -34,18 +34,18 @@
 
 ## 3. Hands-On Skill Station Verification Rubric
 
-- [ ] **Station Req 1:** Handling a First Aid Emergency. Do the following: (a) Explain the steps necessary to assess and handle a first aid emergency, including a safety evaluation of the scene. (b) Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip. (c) Demonstrate the precautions you must take to reduce the risk of transmitting an infection between you and the victim while administering first aid, including the safe disposal of used first aid supplies. (d) Demonstrate evaluation of and management of a patient's airway and breathing. (e) Demonstrate a thorough examination of an accident victim. (f) Discuss why shock is an emergency. (g) Define the term triage and describe examples of triage situations that you may encounter.
-- [ ] **Station Req 2:** Preparing for First Aid Emergencies. Do the following: (a) Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events. (b) Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
-- [ ] **Station Req 3:** Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) Closed wounds, such as a bruise (contusion) or a hematoma (b) Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness (g) Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns (i) Blisters on the hands, feet, buttocks, and shoulders (j) Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants (l) Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake
-- [ ] **Station Req 4:** Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) A nosebleed. (b) An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration). (c) An open wound with severe bleeding such as a deep cut on an arm or leg. (d) Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it.
-- [ ] **Station Req 5:** Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing: (a) Choking (b) Asthmatic attack (c) Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness
-- [ ] **Station Req 6:** Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing loss of consciousness: (a) Fainting (b) Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock
-- [ ] **Station Req 7:** Heart Attack. Do the following: (a) Explain what a heart attack is. (b) Describe the symptoms and signs of a heart attack and first aid for this condition. (c) Describe the conditions that must exist before performing CPR on a person. (d) Demonstrate proper CPR technique using a training device approved by your counselor. (e) Explain the use of an automated external defibrillator (AED). (f) Demonstrate or simulate the proper use of an AED, using an AED training device if available. (g) Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations like these.
-- [ ] **Station Req 8:** Muscle and Bone Injuries. Do the following: (a) Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a sprain, a dislocation, a simple fracture, and a compound fracture. (b) Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a tendon rupture. (c) Describe the symptoms and signs of, and potential complications of, a sprain, a fracture, and a dislocation. (d) Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or collarbone fractures (2) Elastic wrap and cravat bandages for ankle sprain (3) Elastic wrap and cravat bandages for wrist sprain or hand injury (e) Demonstrate the proper procedures for handling and splinting of suspected closed or open fractures or dislocations of the: (1) Finger and toe (2) Forearm or wrist (3) Upper leg (4) Lower leg or ankle
-- [ ] **Station Req 9:** Head and Spine Injuries. Do the following: (a) Describe the symptoms and signs of, relationships between, possible complications of, and prevention of head, neck, and back injuries. (b) Describe the symptoms and signs of and first aid for a concussion. (c) Demonstrate first aid for an open head wound with a triangular or other bandage. (d) Demonstrate first aid for someone with a suspected neck or back injury.
-- [ ] **Station Req 10:** Moving a Patient. Do the following: (a) Describe the conditions under which an injured person should and should not be moved. (b) If a sick or an injured person must be moved, tell how you would decide the best method. Demonstrate these methods. (c) By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room. (d) By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards. (e) With helpers under your supervision, improvise a stretcher and move a presumably unconscious person for at least 25 yards.
-- [ ] **Station Req 11:** Heat- and Cold-Related Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions associated with exertion and/or heat or cold exposure: (a) Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure (f) Hypothermia
-- [ ] **Station Req 13:** Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions: (a) Object in the eye (b) Broken, chipped, loosened, or knocked out tooth (c) Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke
+- [ ] **Station Req 1:** Scout brings signed Scoutbook rank verification for Tenderfoot/Second/First Class first aid and walks through the 4-tier triage decision tree.
+- [ ] **Station Req 2:** Scout presents their physical personal first-aid kit for inspection and identifies the purpose of every item in the personal and troop kits.
+- [ ] **Station Req 3:** Scout explains signs, prevention, and first aid for closed wounds, 1st/2nd/3rd-degree burns, frostbite, blisters, punctures, poisonous plants, and bites/stings.
+- [ ] **Station Req 4:** Scout demonstrates nosebleed care, mild wound dressing, direct pressure bandage, and simulated windlass tourniquet placement (without tightening).
+- [ ] **Station Req 5:** Scout demonstrates 5-and-5 choking rescue positioning, explains asthma inhaler and epinephrine auto-injector use, and describes care for inhalation injuries and altitude sickness.
+- [ ] **Station Req 6:** Scout demonstrates placing a breathing unresponsive patient into the recovery position and explains first aid and prevention for all 7 Req 6 conditions (6a–6g).
+- [ ] **Station Req 7:** Scout completes at least 2 full cycles of 30:2 CPR and attaches AED training pads accurately on a CPR manikin.
+- [ ] **Station Req 8:** Scout applies a padded forearm or lower-leg splint plus sling/swath on a buddy and performs pre- and post-splint CMS checks.
+- [ ] **Station Req 9:** Scout explains head/neck/back injury signs and concussion care, demonstrates a triangular head bandage for an open scalp wound, and demonstrates manual in-line spinal stabilization.
+- [ ] **Station Req 10:** Scout demonstrates smoke-room extrication drag, 25-yard sprained-ankle transport (solo and two-rescuer), and 25-yard improvised stretcher carry.
+- [ ] **Station Req 11:** Scout distinguishes Heat Exhaustion from Heat Stroke across all 4 clinical criteria and explains hypothermia prevention and rewarming.
+- [ ] **Station Req 13:** Scout explains signs, prevention, and first aid for eye objects, knocked-out teeth, food poisoning, acute abdominal pain, and stroke (FAST).
 
 ## 4. Detailed Requirement Study Notes, Structured Organizers & Pamphlet Summaries
 
@@ -96,7 +96,7 @@
 - **Common Myth:** Washing bare hands with river water provides adequate defense against bloodborne pathogen transmission.
 - **Pamphlet Fact:** Nonlatex gloves and sealed biohazard bags must be used and disposed of as infectious waste.
 
-![Illustrated First Aid technical diagram of scene assessment and emergency response for Requirement 1 field execution.](/assets/pamphlet_images/first_aid_p003_img1.png)
+![First Aid Requirement 1 figure showing survey the surrounding environment to detect fire gas lines or electrical hazards.](/assets/pamphlet_images/first_aid_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -110,7 +110,7 @@
 - **Common Myth:** Tipping a trauma patient head backward aggressively is safe when neck fractures are suspected.
 - **Pamphlet Fact:** Rescuers use the head-tilt chin-lift maneuver for uninjured patients and the jaw-thrust for suspected spinal trauma.
 
-![Step-by-step First Aid visual guide highlighting health records and first aid kits positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/first_aid_p007_img1.png)
+![First Aid Requirement 2 figure showing review participant health records to identify severe allergies chronic illnesses.](/assets/pamphlet_images/first_aid_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -160,7 +160,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 2: Emergency Preparedness and Medical Records
+### Req 2: Preparing for First Aid Emergencies
 **Official Requirement 2 (Parent Overview):** Preparing for First Aid Emergencies. Do the following: (a) Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events. (b) Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Inspect medical kits prior to every outing to replace expired sterile items and replenish consumed bandages.
@@ -200,12 +200,12 @@
 - A hiking first aid kit includes sterile gauze, adhesive bandages, antiseptic towelettes, moleskin, and tweezers. Supplies must remain lightweight, waterproofed, and organized so contents are located quickly under trail conditions.
 - Req 2b Standard (Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)): Using checklists provided in the First Aid merit badge pamphlet or ones approved by your counselor, do the following: (1) Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor. (2) With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
 
-#### Req 2b(1): Personal Hiking First-Aid Kit Assembly
+#### Req 2b(1): Personal Hiking First Aid Kit
 **Official Requirement 2b(1):** Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Organizer (Gear Inspection Checklist):** Req 2b(1) Personal & Patrol 21-Item First Aid Kit Inventory
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for First Aid Req 2b(1) inspection prior to hands-on station work.
-- **Common Myth:** In First Aid Requirement 2b(1), many Scouts assume personal hiking first-aid kit assembly only requires a general overview rather than specific details on assemble a personal first-aid kit for hiking and backpacking.
-- **Pamphlet Fact:** The official First Aid pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document personal hiking first-aid kit assembly and explain assemble a personal first-aid kit for hiking and backpacking during counselor review.
+- **Common Myth:** A personal trail first aid kit should include loose pain medications to distribute to patrol members who develop headaches or muscle cramps.
+- **Pamphlet Fact:** Scouting safety rules prohibit Scouts from dispensing medication to peers and require personal kits to hold only approved personal remedies in labeled containers.
 
 ![Waterproof red case containing sterile gauze, roller bandages, moleskin, trauma shears, tweezers, nitrile gloves, CPR mask, SAM splint, and triangular cravats.](/assets/ai_illustrations/first_aid_kit_21_items_visual.png)
 
@@ -235,11 +235,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Unit, Home, and Camp First-Aid Kit Inspection
+#### Req 2b(2): Group First Aid Kit Inspection
 **Official Requirement 2b(2):** With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Unit Home Vehicle or Camp)
-- **Common Myth:** When preparing First Aid Requirement 2b(2) (Unit, Home, and Camp First-Aid Kit Inspection), Scouts sometimes overlook the concrete pamphlet benchmarks covering with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
-- **Pamphlet Fact:** Counselor verification for First Aid Requirement 2b(2) requires concrete workbook evidence on unit, home, and camp first-aid kit inspection, specifically addressing with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.
+- **Common Myth:** A fully stocked first aid kit remains ready for emergencies indefinitely as long as the exterior case stays closed and dry.
+- **Pamphlet Fact:** Adhesives dry out, latex-free gloves degrade over time, and antiseptic solutions or ointments expire and lose effectiveness regardless of whether the box was opened.
 
 ![Maintaining manual head and neck alignment while assessing responsiveness in a suspected spinal injury patient.](/assets/pamphlet_images/first_aid_p022_img2.png)
 
@@ -500,7 +500,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 4: Hemorrhage Control and Bleeding Wounds
+### Req 4: Bleeding Wounds, Nosebleeds, Tourniquets & Shock
 **Official Requirement 4 (Parent Overview):** Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds: (a) A nosebleed. (b) An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration). (c) An open wound with severe bleeding such as a deep cut on an arm or leg. (d) Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Always record the exact application time on a tourniquet band and never loosen it in the field.
@@ -571,7 +571,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 5: Respiratory Emergencies and Airway Clearance
+### Req 5: Breathing Emergencies: Choking, Asthma, Anaphylaxis & Altitude
 **Official Requirement 5 (Parent Overview):** Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing: (a) Choking (b) Asthmatic attack (c) Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Do not perform a blind finger sweep in a choking victim mouth because it can impact objects.
@@ -654,7 +654,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 6: Loss of Consciousness Management
+### Req 6: Loss of Consciousness: Fainting, Seizures, Drowning & Lightning
 **Official Requirement 6 (Parent Overview):** Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing loss of consciousness: (a) Fainting (b) Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Do not restrain a seizing individual or place any objects inside their mouth during convulsions.
@@ -765,7 +765,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 7: Myocardial Infarction and Defibrillation
+### Req 7: Heart Attack, 30:2 CPR & AED Defibrillation
 **Official Requirement 7 (Parent Overview):** Heart Attack. Do the following: (a) Explain what a heart attack is. (b) Describe the symptoms and signs of a heart attack and first aid for this condition. (c) Describe the conditions that must exist before performing CPR on a person. (d) Demonstrate proper CPR technique using a training device approved by your counselor. (e) Explain the use of an automated external defibrillator (AED). (f) Demonstrate or simulate the proper use of an AED, using an AED training device if available. (g) Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations like these.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Group Organizer:** Skill Demonstration Checklist
 > **Guide to Safe Scouting Warning:** Ensure nobody is touching the patient when an automated external defibrillator delivers an electrical shock.
@@ -1275,7 +1275,7 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-### Req 13: Specialized Medical and Dental Emergencies
+### Req 13: Miscellaneous Conditions: Eye, Tooth, GI & Stroke (FAST)
 **Official Requirement 13 (Parent Overview):** Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions: (a) Object in the eye (b) Broken, chipped, loosened, or knocked out tooth (c) Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Group Organizer:** Symptoms, First Aid & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Cover both eyes with protective shields when an impaled object penetrates one eye globe.

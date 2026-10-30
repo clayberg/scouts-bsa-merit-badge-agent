@@ -321,20 +321,20 @@
         "scenario_prompt": "While observing insects in the field for Insect Study Requirement 1, what morphological traits distinguish true insects (Class Insecta) from spiders and ticks (Class Arachnida), and how should you treat a honeybee sting?",
         "question": "While observing insects in the field for Insect Study Requirement 1, what morphological traits distinguish true insects (Class Insecta) from spiders and ticks (Class Arachnida), and how should you treat a honeybee sting?",
         "options": [
-          "A. Adult insects have two body regions, eight legs, and no antennae; if stung by a honeybee, squeeze the venom sac firmly between tweezers to inject the remaining venom.",
-          "B. Insects and spiders both have internal vertebrate backbones and six wings; bee stings should be treated by applying a tourniquet above the knee.",
+          "A. Adult insects have two body regions, eight legs, and no antennae.",
+          "B. Insects and spiders both have internal vertebrate backbones and six wings.",
           "C. Spiders have three body segments and compound eyes with antennae, whereas insects have a cephalothorax and abdomen with eight legs.",
-          "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae, and usually one or two pairs of wings (unlike eight-legged arachnids); scrape a honeybee stinger out sideways with a flat edge, wash the site, apply a cold pack, and watch closely for signs of anaphylaxis."
+          "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae."
         ],
         "choices": [
-          "A. Adult insects have two body regions, eight legs, and no antennae; if stung by a honeybee, squeeze the venom sac firmly between tweezers to inject the remaining venom.",
-          "B. Insects and spiders both have internal vertebrate backbones and six wings; bee stings should be treated by applying a tourniquet above the knee.",
+          "A. Adult insects have two body regions, eight legs, and no antennae.",
+          "B. Insects and spiders both have internal vertebrate backbones and six wings.",
           "C. Spiders have three body segments and compound eyes with antennae, whereas insects have a cephalothorax and abdomen with eight legs.",
-          "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae, and usually one or two pairs of wings (unlike eight-legged arachnids); scrape a honeybee stinger out sideways with a flat edge, wash the site, apply a cold pack, and watch closely for signs of anaphylaxis."
+          "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae, and usually one or two pairs of wings (unlike eight-legged arachnids); scrape a honeybee stinger out sideways with a flat edge, wash the site, apply a cold pack, and watch closely for signs of anaphylaxis.",
+        "correct_answer": "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae.",
         "explanation": "Correct Answer (D): True insects possess a three-part body (head, thorax, abdomen), six legs, and antennae; if stung by a honeybee, scraping the barbed stinger away avoids squeezing extra venom from the attached sac, while monitoring for severe allergic reactions (anaphylaxis).",
         "pamphlet_page_ref": "p. 36, p. 72"
       },
@@ -1137,19 +1137,19 @@
         "question": "What is the main difference between the life cycle of a butterfly and the life cycle of a grasshopper?",
         "options": [
           "A. A butterfly hatches as a miniature winged adult, while a grasshopper spins a silk cocoon",
-          "B. A butterfly undergoes complete metamorphosis with four stages including a pupa, while a grasshopper undergoes incomplete metamorphosis with three stages including a nymph",
+          "B. A butterfly undergoes complete metamorphosis with four stages including a pupa.",
           "C. Grasshoppers spend their larval stage underwater, while butterflies live underground",
           "D. Both insects pass through a chrysalis stage, but only grasshoppers molt their skin"
         ],
         "choices": [
           "A. A butterfly hatches as a miniature winged adult, while a grasshopper spins a silk cocoon",
-          "B. A butterfly undergoes complete metamorphosis with four stages including a pupa, while a grasshopper undergoes incomplete metamorphosis with three stages including a nymph",
+          "B. A butterfly undergoes complete metamorphosis with four stages including a pupa.",
           "C. Grasshoppers spend their larval stage underwater, while butterflies live underground",
           "D. Both insects pass through a chrysalis stage, but only grasshoppers molt their skin"
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. A butterfly undergoes complete metamorphosis with four stages including a pupa, while a grasshopper undergoes incomplete metamorphosis with three stages including a nymph",
+        "correct_answer": "B. A butterfly undergoes complete metamorphosis with four stages including a pupa.",
         "explanation": "Correct Answer (B): Butterflies pass through four distinct stages (egg, larva, pupa, adult) in complete metamorphosis, whereas grasshoppers pass through three stages (egg, nymph, adult) in incomplete metamorphosis (p. 60).",
         "pamphlet_page_ref": "p. 35, p. 60"
       },
@@ -1813,8 +1813,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
               "common_misconception_pair": {
-                "misconception": "In Insect Study Requirement 5b(c), many Scouts assume core principles and practical standards for ant colony or beehive observation only requires a general overview rather than specific details on core principles and practical standards for ant colony or beehive observation.",
-                "fact": "The official Insect Study pamphlet for Requirement 5b(c) specifies that Scouts must thoroughly document core principles and practical standards for ant colony or beehive observation and explain core principles and practical standards for ant colony or beehive observation during counselor review."
+                "misconception": "Ants excavate tunnels randomly and store eggs, larvae, food reserves, and colony waste together within the same open spaces.",
+                "fact": "Ants organize their colonies into distinct specialized chambers dedicated separately to sorting brood by growth stage, stockpiling provisions, and isolating refuse in graveyard middens to prevent disease."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1840,14 +1840,17 @@
               "id": "5b(c)",
               "sub_req_label": "5b(c)",
               "sub_req_text": "1. Observe an ant colony in a formicarium (ant farm). Find the queen and worker ants. Explain to your counselor the different chambers found within an ant colony.",
-              "topic_title": "Req 5b(c): Core principles and practical standards for Ant Colony or Beehive Observation",
-              "pamphlet_summary": "Core principles and practical standards for Ant Colony or Beehive Observation: The Insect Study pamphlet for Requirement 5b(c) details core principles and practical standards for core principles and practical standards for ant colony or beehive observation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+              "topic_title": "Req 5b(c): Formicarium Ant Colony Chamber Architecture",
+              "pamphlet_summary": "Formicarium Ant Colony Chamber Architecture: Maintain a darkened glass or acrylic formicarium between viewing sessions to encourage ants to excavate visible tunnels against the perimeter. Identify the queen by her enlarged thorax and swollen gaster, and locate partitioned chambers dedicated separately to brood rearing, food storage, and waste disposal (p. 42).",
               "pamphlet_excerpts": [
-                "Core principles and practical standards for Ant Colony or Beehive Observation: The Insect Study pamphlet for Requirement 5b(c) details core principles and practical standards for core principles and practical standards for ant colony or beehive observation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+                "Formicarium Ant Colony Chamber Architecture: Maintain a darkened glass or acrylic formicarium between viewing sessions to encourage ants to excavate visible tunnels against the perimeter. Identify the queen by her enlarged thorax and swollen gaster, and locate partitioned chambers dedicated separately to brood rearing, food storage, and waste disposal (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/insect_study_p065_img1.png",
               "workbook_diagram_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
-              "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild."
+              "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
+              "socratic_questions": [
+                "When examining an active ant farm, what physical traits allow you to distinguish the queen from the workers, and why do the ants separate their brood from their food stores?"
+              ]
             },
             {
               "sub_id": "5b(d)",
@@ -1890,8 +1893,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)",
               "common_misconception_pair": {
-                "misconception": "When preparing Insect Study Requirement 5b(d) (Insect Study Field Standard), Scouts sometimes overlook the concrete pamphlet benchmarks covering insect study field standard.",
-                "fact": "Counselor verification for Insect Study Requirement 5b(d) requires concrete workbook evidence on insect study field standard, specifically addressing insect study field standard."
+                "misconception": "Queen bee cells look identical to standard hexagonal worker brood cells across the surface of the comb.",
+                "fact": "Queen cells are distinctive vertical structures resembling textured peanut shells that hang downward from comb edges rather than flush horizontal hexagons."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1917,15 +1920,18 @@
               "id": "5b(d)",
               "sub_req_label": "5b(d)",
               "sub_req_text": "2. Study a hive of bees. Remove the combs and find the queen. Estimate the amount of brood and count the number of queen cells. Explain how to determine the amount of honey in the hive. (If you are allergic to bee stings, pick option (1) above.)",
-              "topic_title": "Req 5b(d): Insect Study Field Standard",
-              "pamphlet_summary": "Insect Study Field Standard: If you want to choose optional requirement 5(b)(2), you should first find out whether you are allergic to bee stings (p. 67).",
+              "topic_title": "Req 5b(d): Beehive Comb Brood and Honey Assessment",
+              "pamphlet_summary": "Beehive Comb Brood and Honey Assessment: Use cool smoke to calm worker bees before carefully lifting frames by the top bars to inspect the brood pattern and locate the queen. Estimate capped brood coverage across the comb, count peanut-shaped vertical queen cells along the frame margins, and calculate stored honey volume by measuring the area of sealed wax honeycomb (p. 47).",
               "pamphlet_excerpts": [
-                "Insect Study Field Standard: If you want to choose optional requirement 5(b)(2), you should first find out whether you are allergic to bee stings (p. 67)."
+                "Beehive Comb Brood and Honey Assessment: Use cool smoke to calm worker bees before carefully lifting frames by the top bars to inspect the brood pattern and locate the queen. Estimate capped brood coverage across the comb, count peanut-shaped vertical queen cells along the frame margins, and calculate stored honey volume by measuring the area of sealed wax honeycomb (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/insect_study_p065_img1.png",
-              "title": "Req 5b(d): Insect Study Field Standard",
+              "title": "Req 5b(d): Beehive Comb Brood and Honey Assessment",
               "workbook_diagram_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
-              "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild."
+              "workbook_visual_caption": "A slender paper wasp clings to plant stems while foraging for food in the wild.",
+              "socratic_questions": [
+                "When inspecting a hive frame, how can you tell a queen cell apart from ordinary worker comb, and how do you estimate the amount of honey without unsealing every cell?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3466,16 +3472,16 @@
       "scenario_prompt": "While observing insects in the field for Insect Study Requirement 1, what morphological traits distinguish true insects (Class Insecta) from spiders and ticks (Class Arachnida), and how should you treat a honeybee sting?",
       "question": "While observing insects in the field for Insect Study Requirement 1, what morphological traits distinguish true insects (Class Insecta) from spiders and ticks (Class Arachnida), and how should you treat a honeybee sting?",
       "options": [
-        "A. Adult insects have two body regions, eight legs, and no antennae; if stung by a honeybee, squeeze the venom sac firmly between tweezers to inject the remaining venom.",
-        "B. Insects and spiders both have internal vertebrate backbones and six wings; bee stings should be treated by applying a tourniquet above the knee.",
+        "A. Adult insects have two body regions, eight legs, and no antennae.",
+        "B. Insects and spiders both have internal vertebrate backbones and six wings.",
         "C. Spiders have three body segments and compound eyes with antennae, whereas insects have a cephalothorax and abdomen with eight legs.",
-        "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae, and usually one or two pairs of wings (unlike eight-legged arachnids); scrape a honeybee stinger out sideways with a flat edge, wash the site, apply a cold pack, and watch closely for signs of anaphylaxis."
+        "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae."
       ],
       "choices": [
-        "A. Adult insects have two body regions, eight legs, and no antennae; if stung by a honeybee, squeeze the venom sac firmly between tweezers to inject the remaining venom.",
-        "B. Insects and spiders both have internal vertebrate backbones and six wings; bee stings should be treated by applying a tourniquet above the knee.",
+        "A. Adult insects have two body regions, eight legs, and no antennae.",
+        "B. Insects and spiders both have internal vertebrate backbones and six wings.",
         "C. Spiders have three body segments and compound eyes with antennae, whereas insects have a cephalothorax and abdomen with eight legs.",
-        "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae, and usually one or two pairs of wings (unlike eight-legged arachnids); scrape a honeybee stinger out sideways with a flat edge, wash the site, apply a cold pack, and watch closely for signs of anaphylaxis."
+        "D. Adult insects have three body regions (head, thorax, abdomen), three pairs of jointed legs (six total), one pair of antennae."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -3513,13 +3519,13 @@
       "question": "What is the main difference between the life cycle of a butterfly and the life cycle of a grasshopper?",
       "options": [
         "A. A butterfly hatches as a miniature winged adult, while a grasshopper spins a silk cocoon",
-        "B. A butterfly undergoes complete metamorphosis with four stages including a pupa, while a grasshopper undergoes incomplete metamorphosis with three stages including a nymph",
+        "B. A butterfly undergoes complete metamorphosis with four stages including a pupa.",
         "C. Grasshoppers spend their larval stage underwater, while butterflies live underground",
         "D. Both insects pass through a chrysalis stage, but only grasshoppers molt their skin"
       ],
       "choices": [
         "A. A butterfly hatches as a miniature winged adult, while a grasshopper spins a silk cocoon",
-        "B. A butterfly undergoes complete metamorphosis with four stages including a pupa, while a grasshopper undergoes incomplete metamorphosis with three stages including a nymph",
+        "B. A butterfly undergoes complete metamorphosis with four stages including a pupa.",
         "C. Grasshoppers spend their larval stage underwater, while butterflies live underground",
         "D. Both insects pass through a chrysalis stage, but only grasshoppers molt their skin"
       ],

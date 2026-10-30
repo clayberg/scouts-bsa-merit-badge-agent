@@ -48,7 +48,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss the prevention of and treatment for the health concerns that could occur while backpacking, including hypothermia, heat reactions, frostbite, dehydration, insect stings, tick bites, snakebite, and blisters.** | `____________________________________` | `____________________________________` |
+| **1. Discuss the prevention of and treatment for the health concerns that could occur while backpacking, including hypothermia, heat reactions, frostbite, dehydration, insect stings, tick bites, snakebite, and blisters** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Core Temperature Defense: Synthetic layers wick sweat away from skin to maintain stable core body heat.
@@ -83,7 +83,7 @@
 - [ ] Three-season tent with rainfly, ground cloth, insulated sleeping pad, and weather-rated sleeping bag
 - [ ] Leave No Trace Seven Principles reference card, trowels/cathole kit, and bear-canister or hang line
 
-![Practical Backpacking field visual showing proper setup, measurement, and technique for scout basic essentials and pack weight in Requirement 2.](/assets/pamphlet_images/backpacking_p007_img1.png)
+![Backpacking Requirement 2 figure showing topographic maps, liquid filled compasses, and redundant fire starters safeguard remote.](/assets/pamphlet_images/backpacking_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -124,7 +124,7 @@
 - **Common Myth:** Scouts assume larger groups traveling together always provide greater safety regardless of campsite overcrowding or trail damage.
 - **Pamphlet Fact:** Crews numbering between six and twelve people preserve patrol self-sufficiency while complying with federal wilderness area regulations.
 
-![Step-by-step Backpacking visual guide highlighting crew organization and emergency response plans positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/backpacking_p012_img1.png)
+![Backpacking Requirement 3 figure showing patrol sizes between six and twelve backpackers balance wilderness safety and low impact.](/assets/pamphlet_images/backpacking_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -152,7 +152,7 @@
 - **Common Myth:** Hikers assume risk management starts only after someone suffers an injury or gets trapped on high terrain.
 - **Pamphlet Fact:** Proactive trail risk management identifies environmental hazards early to avoid forced crossings of swollen mountain torrents.
 
-![Detailed Backpacking reference illustration comparing key components and stages of trail health concerns and first aid for Requirement 1.](/assets/pamphlet_images/backpacking_p003_img1.png)
+![Backpacking Requirement 1 figure showing synthetic layers wick sweat away from skin to maintain stable core body heat.](/assets/pamphlet_images/backpacking_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -365,7 +365,7 @@
 
 | Req 7 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Tell how to properly prepare for and deal with inclement weather.** | `____________________________________` | `____________________________________` |
+| **1. Tell how to properly prepare for and deal with inclement weather** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Put on waterproof breathable jackets before rain saturates underlying insulating fleece layers.

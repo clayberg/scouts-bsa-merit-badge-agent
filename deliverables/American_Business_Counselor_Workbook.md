@@ -48,7 +48,7 @@
 - **Common Myth:** Private property rights give business owners total immunity from municipal zoning ordinances.
 - **Pamphlet Fact:** Private property rights grant operational ownership subject to local zoning and public safety laws.
 
-![Illustrated American Business technical diagram of free enterprise and business foundations for Requirement 1 field execution.](/assets/pamphlet_images/american_business_p003_img1.png)
+![American Business Requirement 1 figure showing individuals legally own production assets and intellectual patents without arbitrary.](/assets/pamphlet_images/american_business_p003_img1.png)
 
 | Comparison Dimension | Responsible Economic Freedom Under Law | Unrestrained License Without Ethical Limits |
 | :--- | :--- | :--- |
@@ -135,7 +135,7 @@
 - **Common Myth:** The balance sheet summarizes total operational cash receipts collected over the prior fiscal year.
 - **Pamphlet Fact:** The balance sheet displays cumulative assets, liabilities, and equity at a single specific calendar date.
 
-![Step-by-step American Business visual guide highlighting financial statements, capital, and insurance positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/american_business_p007_img1.png)
+![American Business Requirement 2 figure showing total company assets must exactly balance cumulative corporate liabilities.](/assets/pamphlet_images/american_business_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -207,7 +207,7 @@
 - **Common Myth:** A business operating at zero profit can sustain long-term technological innovation indefinitely.
 - **Pamphlet Fact:** Without net profits, companies cannot finance modern equipment replacements or weather economic recessions.
 
-![Illustrated American Business technical diagram of profit, sustainability, and business ethics for Requirement 3 field execution.](/assets/pamphlet_images/american_business_p012_img1.png)
+![American Business Requirement 3 figure showing retained corporate earnings fund future capital equipment expansion and technological.](/assets/pamphlet_images/american_business_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

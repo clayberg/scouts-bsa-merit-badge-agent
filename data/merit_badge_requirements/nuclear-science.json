@@ -597,17 +597,17 @@
           "A. Ventilation, grounding, and magnetic deflection.",
           "B. Filtration, chemical neutralization, and thermal cooling.",
           "C. Compression, humidification, and ultraviolet sterilization.",
-          "D. Minimizing time spent near the source, maximizing distance from the source, and placing appropriate shielding between yourself and the source."
+          "D. Minimizing time spent near the source, maximizing distance from the source."
         ],
         "choices": [
           "A. Ventilation, grounding, and magnetic deflection.",
           "B. Filtration, chemical neutralization, and thermal cooling.",
           "C. Compression, humidification, and ultraviolet sterilization.",
-          "D. Minimizing time spent near the source, maximizing distance from the source, and placing appropriate shielding between yourself and the source."
+          "D. Minimizing time spent near the source, maximizing distance from the source."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Minimizing time spent near the source, maximizing distance from the source, and placing appropriate shielding between yourself and the source.",
+        "correct_answer": "D. Minimizing time spent near the source, maximizing distance from the source.",
         "explanation": "Correct Answer (D): Radiation protection relies on Time, Distance, and Shielding: reducing exposure duration, increasing distance (which follows the inverse-square law), and using proper absorber materials.",
         "pamphlet_page_ref": "p. 67, p. 69"
       },
@@ -903,7 +903,7 @@
       ],
       "gear_checklist": [
         "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 2",
-        "Reference diagrams, inspection checklist, and field notebook for Req 2: Atomic Structure and Isotope Models",
+        "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Atomic Structure And Radioactivity",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 2"
       ],
@@ -1104,8 +1104,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
               "common_misconception_pair": {
-                "misconception": "In Nuclear Science Requirement 3b(1), many Scouts assume accelerator research lab or university only requires a general overview rather than specific details on visit an accelerator, research lab, or university and discuss with a scientist how they study.",
-                "fact": "The official Nuclear Science pamphlet for Requirement 3b(1) specifies that Scouts must thoroughly document accelerator research lab or university and explain visit an accelerator, research lab, or university and discuss with a scientist how they study during counselor review."
+                "misconception": "Nuclear scientists observe individual protons and neutrons by placing atomic samples under high-powered optical microscopes.",
+                "fact": "Atomic nuclei and nucleons are far smaller than light wavelengths, requiring scientists to bombard targets with accelerated particle beams and measure resulting collision angles and energies to infer nuclear structure."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1131,14 +1131,17 @@
               "id": "3b(1)",
               "sub_req_label": "3b(1)",
               "sub_req_text": "Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons.",
-              "topic_title": "Req 3b(1): Accelerator Research Lab or University",
-              "pamphlet_summary": "Accelerator Research Lab or University: The Nuclear Science pamphlet for Requirement 3b(1) details visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 23).",
+              "topic_title": "Req 3b(1): Nuclear Research Facility Visit",
+              "pamphlet_summary": "Nuclear Research Facility Visit: Scouts arrange a guided tour or interview at a university physics department or national laboratory to observe radiation detection equipment and discuss nucleon scattering experiments with active researchers. The discussion explores how high-energy particle beams probe internal nuclear structures like quarks and binding forces instead of visual microscopes (p. 46).",
               "pamphlet_excerpts": [
-                "Accelerator Research Lab or University: The Nuclear Science pamphlet for Requirement 3b(1) details visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 23)."
+                "Nuclear Research Facility Visit: Scouts arrange a guided tour or interview at a university physics department or national laboratory to observe radiation detection equipment and discuss nucleon scattering experiments with active researchers. The discussion explores how high-energy particle beams probe internal nuclear structures like quarks and binding forces instead of visual microscopes (p. 46)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nuclear_science_p023_img1.png",
               "workbook_diagram_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision.",
-              "workbook_visual_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision."
+              "workbook_visual_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision.",
+              "socratic_questions": [
+                "Because protons and neutrons are far too small to reflect visible light, how might shooting charged particles at an atom reveal the internal arrangement of its nucleus?"
+              ]
             },
             {
               "sub_id": "3b(2)",
@@ -1170,8 +1173,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)",
               "common_misconception_pair": {
-                "misconception": "When preparing Nuclear Science Requirement 3b(2) (List three particle accelerators), Scouts sometimes overlook the concrete pamphlet benchmarks covering three particle accelerators and describe several experiments conducted and their associated basic.",
-                "fact": "Counselor verification for Nuclear Science Requirement 3b(2) requires concrete workbook evidence on list three particle accelerators, specifically addressing three particle accelerators and describe several experiments conducted and their associated basic."
+                "misconception": "Particle accelerators serve only theoretical high-energy physics research and have no practical everyday applications outside advanced physics laboratories.",
+                "fact": "Most operational particle accelerators worldwide are compact machines deployed in hospitals and factories for cancer radiation therapy, medical isotope production, and semiconductor manufacturing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1197,14 +1200,17 @@
               "id": "3b(2)",
               "sub_req_label": "3b(2)",
               "sub_req_text": "List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.",
-              "topic_title": "Req 3b(2): List three particle accelerators",
-              "pamphlet_summary": "List three particle accelerators: Particle accelerators, sometimes called atom smashers, are machines that can create beams of electrically charged particles and accelerate them (p. 23).",
+              "topic_title": "Req 3b(2): Particle Accelerator Types And Applications",
+              "pamphlet_summary": "Particle Accelerator Types And Applications: Scouts investigate three distinct accelerator architectures such as linear accelerators, cyclotrons, and synchrotrons to analyze collision experiments revealing fundamental nuclear interactions. Candidates must connect these experimental breakthroughs to practical uses including targeted cancer radiotherapy, radiopharmaceutical production, and industrial materials analysis (p. 48).",
               "pamphlet_excerpts": [
-                "List three particle accelerators: Particle accelerators, sometimes called atom smashers, are machines that can create beams of electrically charged particles and accelerate them (p. 23)."
+                "Particle Accelerator Types And Applications: Scouts investigate three distinct accelerator architectures such as linear accelerators, cyclotrons, and synchrotrons to analyze collision experiments revealing fundamental nuclear interactions. Candidates must connect these experimental breakthroughs to practical uses including targeted cancer radiotherapy, radiopharmaceutical production, and industrial materials analysis (p. 48)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/nuclear_science_p023_img1.png",
               "workbook_diagram_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision.",
-              "workbook_visual_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision."
+              "workbook_visual_caption": "A digital graphic displays thousands of subatomic particle trajectories after a collision.",
+              "socratic_questions": [
+                "Beyond smashing atoms to discover theoretical particles, in what ways do doctors and manufacturing engineers use beams of accelerated particles every day?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1366,7 +1372,7 @@
       ],
       "gear_checklist": [
         "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 3",
-        "Reference diagrams, inspection checklist, and field notebook for Req 3: Particle Accelerators and Subatomic Research",
+        "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Particle Accelerators And Physics",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 3"
       ],
@@ -1807,7 +1813,7 @@
       ],
       "gear_checklist": [
         "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4",
-        "Reference diagrams, inspection checklist, and field notebook for Req 4: Classic Nuclear Physics Experiments",
+        "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 4"
       ],
@@ -1854,19 +1860,19 @@
         "question": "In a cloud chamber experiment using dry ice and methanol, what safety precautions and physical principles apply?",
         "options": [
           "A. Seal the dry ice in an airtight glass jar and heat the methanol over an open flame",
-          "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol, and watch vapor trails condense along ionized particle paths",
+          "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol.",
           "C. Drink a small amount of methanol to test its purity and handle radioactive sources barehanded without an adult",
           "D. Submerge the dry ice in boiling water so alpha particles float to the surface"
         ],
         "choices": [
           "A. Seal the dry ice in an airtight glass jar and heat the methanol over an open flame",
-          "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol, and watch vapor trails condense along ionized particle paths",
+          "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol.",
           "C. Drink a small amount of methanol to test its purity and handle radioactive sources barehanded without an adult",
           "D. Submerge the dry ice in boiling water so alpha particles float to the surface"
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol, and watch vapor trails condense along ionized particle paths",
+        "correct_answer": "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol.",
         "explanation": "Correct Answer (B): Dry ice must be stored in a cooler that vents subliming CO2 gas, methanol must be handled with gloves in a ventilated area because it is flammable and poisonous, and an adult must handle any radioactive source (p. 33).",
         "pamphlet_page_ref": "p. 33, p. 34"
       },
@@ -2256,7 +2262,7 @@
       ],
       "gear_checklist": [
         "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 5",
-        "Reference diagrams, inspection checklist, and field notebook for Req 5: Radiation Detection and Shielding Safety",
+        "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Radiation Safety And Measurement",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 5"
       ],
@@ -2305,17 +2311,17 @@
           "A. Nuclear medicine shines an external beam of alpha particles through the patient's bones",
           "B. Standard X-rays require patients to drink liquid lead, whereas nuclear medicine uses sound waves",
           "C. Nuclear medicine only images broken teeth, while X-rays only measure blood pressure",
-          "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled, or swallowed and concentrate in a specific organ to emit detectable radiation from inside"
+          "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled."
         ],
         "choices": [
           "A. Nuclear medicine shines an external beam of alpha particles through the patient's bones",
           "B. Standard X-rays require patients to drink liquid lead, whereas nuclear medicine uses sound waves",
           "C. Nuclear medicine only images broken teeth, while X-rays only measure blood pressure",
-          "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled, or swallowed and concentrate in a specific organ to emit detectable radiation from inside"
+          "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled, or swallowed and concentrate in a specific organ to emit detectable radiation from inside",
+        "correct_answer": "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled.",
         "explanation": "Correct Answer (D): In nuclear medicine, a patient takes a small amount of a radioactive tracer by injection, inhalation, or swallowing so it travels to a target organ or tissue for functional diagnosis (p. 39).",
         "pamphlet_page_ref": "p. 39, p. 72"
       },
@@ -2673,20 +2679,20 @@
         "scenario_prompt": "What key discovery by Lise Meitner, Otto Hahn, Fritz Strassmann, and Enrico Fermi made sustained nuclear energy production possible?",
         "question": "What key discovery by Lise Meitner, Otto Hahn, Fritz Strassmann, and Enrico Fermi made sustained nuclear energy production possible?",
         "options": [
-          "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain reaction",
+          "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain.",
           "B. Heating ordinary hydrogen gas with a candle causes it to fuse into solid lead",
           "C. Fast neutrons bounce off uranium nuclei without ever splitting them unless the uranium is frozen",
           "D. Control rods speed up neutrons so every atom in the reactor splits at the exact same microsecond"
         ],
         "choices": [
-          "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain reaction",
+          "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain.",
           "B. Heating ordinary hydrogen gas with a candle causes it to fuse into solid lead",
           "C. Fast neutrons bounce off uranium nuclei without ever splitting them unless the uranium is frozen",
           "D. Control rods speed up neutrons so every atom in the reactor splits at the exact same microsecond"
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain reaction",
+        "correct_answer": "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain.",
         "explanation": "Correct Answer (A): Meitner concluded that a neutron hits and splits the uranium nucleus (fission), and Fermi showed that slowing down the released neutrons allows a self-sustaining chain reaction (p. 53).",
         "pamphlet_page_ref": "p. 53, p. 55"
       },
@@ -3008,7 +3014,7 @@
       ],
       "gear_checklist": [
         "Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8",
-        "Reference diagrams, inspection checklist, and field notebook for Req 8: Careers in Nuclear Science",
+        "Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 8"
       ],
@@ -3060,19 +3066,19 @@
         "question": "According to the Nuclear Science merit badge pamphlet, how does the role of an experimental nuclear scientist differ from that of a nuclear theorist?",
         "options": [
           "A. Experimental scientists only work in hospitals, while theorists only work in underground uranium mines",
-          "B. Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret experimental results and predict new phenomena",
+          "B. Experimental nuclear scientists create and analyze experiments.",
           "C. Theorists build particle accelerators by hand, while experimentalists write textbooks without entering labs",
           "D. Experimentalists study only nonionizing radio waves, while theorists study only chemical bonds"
         ],
         "choices": [
           "A. Experimental scientists only work in hospitals, while theorists only work in underground uranium mines",
-          "B. Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret experimental results and predict new phenomena",
+          "B. Experimental nuclear scientists create and analyze experiments.",
           "C. Theorists build particle accelerators by hand, while experimentalists write textbooks without entering labs",
           "D. Experimentalists study only nonionizing radio waves, while theorists study only chemical bonds"
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret experimental results and predict new phenomena",
+        "correct_answer": "B. Experimental nuclear scientists create and analyze experiments.",
         "explanation": "Correct Answer (B): Experimental nuclear scientists design and analyze laboratory experiments, whereas nuclear theorists interpret those findings and develop models to predict new phenomena (p. 78).",
         "pamphlet_page_ref": "p. 78, p. 79"
       },
@@ -3105,13 +3111,13 @@
         "A. Ventilation, grounding, and magnetic deflection.",
         "B. Filtration, chemical neutralization, and thermal cooling.",
         "C. Compression, humidification, and ultraviolet sterilization.",
-        "D. Minimizing time spent near the source, maximizing distance from the source, and placing appropriate shielding between yourself and the source."
+        "D. Minimizing time spent near the source, maximizing distance from the source."
       ],
       "choices": [
         "A. Ventilation, grounding, and magnetic deflection.",
         "B. Filtration, chemical neutralization, and thermal cooling.",
         "C. Compression, humidification, and ultraviolet sterilization.",
-        "D. Minimizing time spent near the source, maximizing distance from the source, and placing appropriate shielding between yourself and the source."
+        "D. Minimizing time spent near the source, maximizing distance from the source."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -3172,13 +3178,13 @@
       "question": "In a cloud chamber experiment using dry ice and methanol, what safety precautions and physical principles apply?",
       "options": [
         "A. Seal the dry ice in an airtight glass jar and heat the methanol over an open flame",
-        "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol, and watch vapor trails condense along ionized particle paths",
+        "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol.",
         "C. Drink a small amount of methanol to test its purity and handle radioactive sources barehanded without an adult",
         "D. Submerge the dry ice in boiling water so alpha particles float to the surface"
       ],
       "choices": [
         "A. Seal the dry ice in an airtight glass jar and heat the methanol over an open flame",
-        "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol, and watch vapor trails condense along ionized particle paths",
+        "B. Store dry ice in a vented cooler, wear gloves in a well-ventilated area when handling poisonous and flammable methanol.",
         "C. Drink a small amount of methanol to test its purity and handle radioactive sources barehanded without an adult",
         "D. Submerge the dry ice in boiling water so alpha particles float to the surface"
       ],
@@ -3197,13 +3203,13 @@
         "A. Nuclear medicine shines an external beam of alpha particles through the patient's bones",
         "B. Standard X-rays require patients to drink liquid lead, whereas nuclear medicine uses sound waves",
         "C. Nuclear medicine only images broken teeth, while X-rays only measure blood pressure",
-        "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled, or swallowed and concentrate in a specific organ to emit detectable radiation from inside"
+        "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled."
       ],
       "choices": [
         "A. Nuclear medicine shines an external beam of alpha particles through the patient's bones",
         "B. Standard X-rays require patients to drink liquid lead, whereas nuclear medicine uses sound waves",
         "C. Nuclear medicine only images broken teeth, while X-rays only measure blood pressure",
-        "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled, or swallowed and concentrate in a specific organ to emit detectable radiation from inside"
+        "D. Nuclear medicine uses small amounts of radioactive tracers that are injected, inhaled."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -3217,13 +3223,13 @@
       "scenario_prompt": "What key discovery by Lise Meitner, Otto Hahn, Fritz Strassmann, and Enrico Fermi made sustained nuclear energy production possible?",
       "question": "What key discovery by Lise Meitner, Otto Hahn, Fritz Strassmann, and Enrico Fermi made sustained nuclear energy production possible?",
       "options": [
-        "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain reaction",
+        "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain.",
         "B. Heating ordinary hydrogen gas with a candle causes it to fuse into solid lead",
         "C. Fast neutrons bounce off uranium nuclei without ever splitting them unless the uranium is frozen",
         "D. Control rods speed up neutrons so every atom in the reactor splits at the exact same microsecond"
       ],
       "choices": [
-        "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain reaction",
+        "A. Striking uranium with a slow neutron splits the nucleus in half and releases additional neutrons that can sustain a controlled chain.",
         "B. Heating ordinary hydrogen gas with a candle causes it to fuse into solid lead",
         "C. Fast neutrons bounce off uranium nuclei without ever splitting them unless the uranium is frozen",
         "D. Control rods speed up neutrons so every atom in the reactor splits at the exact same microsecond"
@@ -3264,13 +3270,13 @@
       "question": "According to the Nuclear Science merit badge pamphlet, how does the role of an experimental nuclear scientist differ from that of a nuclear theorist?",
       "options": [
         "A. Experimental scientists only work in hospitals, while theorists only work in underground uranium mines",
-        "B. Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret experimental results and predict new phenomena",
+        "B. Experimental nuclear scientists create and analyze experiments.",
         "C. Theorists build particle accelerators by hand, while experimentalists write textbooks without entering labs",
         "D. Experimentalists study only nonionizing radio waves, while theorists study only chemical bonds"
       ],
       "choices": [
         "A. Experimental scientists only work in hospitals, while theorists only work in underground uranium mines",
-        "B. Experimental nuclear scientists create and analyze experiments, while nuclear theorists interpret experimental results and predict new phenomena",
+        "B. Experimental nuclear scientists create and analyze experiments.",
         "C. Theorists build particle accelerators by hand, while experimentalists write textbooks without entering labs",
         "D. Experimentalists study only nonionizing radio waves, while theorists study only chemical bonds"
       ],

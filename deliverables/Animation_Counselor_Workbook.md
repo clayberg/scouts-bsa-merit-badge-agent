@@ -47,7 +47,7 @@
 - **Common Myth:** Novices assume smooth animation requires real physical movement captured continuously on camera.
 - **Pamphlet Fact:** All animation relies entirely on static frames filmed individually and played back at sufficient speed.
 
-![Practical Animation field visual showing proper setup, measurement, and technique for animation definition and historical origins in Requirement 1.](/assets/pamphlet_images/animation_p003_img1.png)
+![Animation Requirement 1 figure showing human eyes blend static images together when presented at rapid sequential speeds.](/assets/pamphlet_images/animation_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -117,11 +117,11 @@
 - Select a primary medium such as traditional two dimensional hand drawn or digital vector animation. Develop clear thumbnail sketches and layout drawings before creating and screening the final sequence.
 - Req 3a Standard (Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)): Technique 1 (1) Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 
-#### Req 3a(1): Animation Using Thumbnail Sketches
+#### Req 3a(1): Initial Storyboard and Layout Planning
 **Official Requirement 3a(1):** Plan your animation using thumbnail sketches and/or layout drawings either on paper or using an animation software program.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches And/or)
-- **Common Myth:** In Animation Requirement 3a(1), many Scouts assume animation using thumbnail sketches only requires a general overview rather than specific details on plan your animation using thumbnail sketches and/or layout drawings either on paper.
-- **Pamphlet Fact:** The official Animation pamphlet for Requirement 3a(1) specifies that Scouts must thoroughly document animation using thumbnail sketches and explain plan your animation using thumbnail sketches and/or layout drawings either on paper during counselor review.
+- **Common Myth:** Thumbnail sketches must be fully rendered, polished artwork with complete character details before animation begins.
+- **Pamphlet Fact:** Thumbnails serve as quick, simplified gesture drawings that map out motion paths, timing, and scene composition rather than final visual polish.
 
 ![Rough thumbnail sketches break down sequential key poses of a boy practicing with a lasso.](/assets/pamphlet_images/animation_p044_img1.png)
 
@@ -139,13 +139,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3a(2): Animation Animation Principles
+#### Req 3a(2): Primary Animation Sequence Production
 **Official Requirement 3a(2):** Create the animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)
-- **Common Myth:** When preparing Animation Requirement 3a(2) (Animation Animation Principles), Scouts sometimes overlook the concrete pamphlet benchmarks covering create the animation.
-- **Pamphlet Fact:** Counselor verification for Animation Requirement 3a(2) requires concrete workbook evidence on animation animation principles, specifically addressing create the animation.
+- **Common Myth:** Smooth animation requires drawing twenty-four distinct original frames for every single second of screen time.
+- **Pamphlet Fact:** Most drawn and digital animations shoot on twos at twelve drawings per second to produce fluid movement while managing drawing workload.
 
-![Illustrated Animation technical diagram of twelve core principles of animation for Requirement 2 field execution.](/assets/pamphlet_images/animation_p007_img1.png)
+![Animation Requirement 2 figure showing deforming a character during impact conveys weight, flexibility, and dynamic physical mass.](/assets/pamphlet_images/animation_p007_img1.png)
 
 | Req 3a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -153,11 +153,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3a(3): Share your animations with your counselor
+#### Req 3a(3): Production Review and Workflow Critique
 **Official Requirement 3a(3):** Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3a(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)
-- **Common Myth:** For Animation Requirement 3a(3), a common mistake in share your animations with your counselor is treating share your animations with your counselor as optional background reading.
-- **Pamphlet Fact:** Mastering Animation Requirement 3a(3) means following the pamphlet standard for share your animations with your counselor and recording accurate notes on share your animations with your counselor.
+- **Common Myth:** Discussing improvements with the counselor indicates that the submitted animation failed to meet badge production requirements.
+- **Pamphlet Fact:** Professional animators rely on dailies and constructive critiques as standard industry steps to refine motion mechanics and strengthen visual storytelling.
 
 ![A slotted zoetrope drum creates the illusion of motion from sequential horse drawings.](/assets/pamphlet_images/animation_p023_img2.png)
 
@@ -178,11 +178,11 @@
 - Choose a contrasting medium such as stop motion puppet animation or computer generated three dimensional modeling. Plan scene layouts thoroughly, capture incremental poses, and present the completed project to your counselor.
 - Req 3b Standard (Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)): Technique 2 (1) Plan your animation using thumbnail sketches and/or layout drawings. (2) Create the animation. (3) Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 
-#### Req 3b(1): Animation Using Thumbnail Sketches
+#### Req 3b(1): Alternative Technique Storyboard and Staging
 **Official Requirement 3b(1):** Plan your animation using thumbnail sketches and/or layout drawings.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Animation Using Thumbnail Sketches And/or)
-- **Common Myth:** In Animation Requirement 3b(1), many Scouts assume animation using thumbnail sketches only requires a general overview rather than specific details on plan your animation using thumbnail sketches and/or layout drawings.
-- **Pamphlet Fact:** The official Animation pamphlet for Requirement 3b(1) specifies that Scouts must thoroughly document animation using thumbnail sketches and explain plan your animation using thumbnail sketches and/or layout drawings during counselor review.
+- **Common Myth:** Stop motion and clay animations do not need storyboards because animators can invent physical poses spontaneously during filming.
+- **Pamphlet Fact:** Physical stop motion requires thorough planning with thumbnail sketches because moving or resetting physical puppets without a visual guide creates erratic motion and continuity breaks.
 
 ![Eadweard Muybridge captured sequential photographs proving all four horse hooves leave the ground.](/assets/pamphlet_images/animation_p025_img2.png)
 
@@ -200,11 +200,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b(2): Animation Animation Principles
+#### Req 3b(2): Secondary Technique Production and Capture
 **Official Requirement 3b(2):** Create the animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(2) Structured Technical Study & Explanation Matrix (Animation Animation Principles)
-- **Common Myth:** When preparing Animation Requirement 3b(2) (Animation Animation Principles), Scouts sometimes overlook the concrete pamphlet benchmarks covering create the animation.
-- **Pamphlet Fact:** Counselor verification for Animation Requirement 3b(2) requires concrete workbook evidence on animation animation principles, specifically addressing create the animation.
+- **Common Myth:** Handheld camera setups provide acceptable footage for stop motion projects as long as the photographer holds their hands steady.
+- **Pamphlet Fact:** Even minuscule camera shifts between frames cause distracting visual jitter, requiring a locked tripod or secure mount for every exposure.
 
 ![Wobbling gelatin molds illustrate the fundamental principle of squash and stretch in animation.](/assets/pamphlet_images/animation_p037_img2.png)
 
@@ -214,11 +214,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b(3): Share your animations with your counselor
+#### Req 3b(3): Comparative Technique Evaluation and Reflection
 **Official Requirement 3b(3):** Share your animations with your counselor. Explain how you created each one, and discuss any improvements that could be made.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 44, p. 45)* • **Organizer (Concept & Examples Notes):** Req 3b(3) Structured Technical Study & Explanation Matrix (Animations Created Discuss Improvements)
-- **Common Myth:** For Animation Requirement 3b(3), a common mistake in share your animations with your counselor is treating share your animations with your counselor as optional background reading.
-- **Pamphlet Fact:** Mastering Animation Requirement 3b(3) means following the pamphlet standard for share your animations with your counselor and recording accurate notes on share your animations with your counselor.
+- **Common Myth:** A Scout must rebuild and film the entire animation project again if the counselor identifies flaws during the final review.
+- **Pamphlet Fact:** Requirement three asks Scouts to articulate what they learned and explain specific modifications that would enhance the work without demanding a complete reshoot.
 
 ![Spacing marks along the trajectory show gradual acceleration and deceleration of a rolling sphere.](/assets/pamphlet_images/animation_p038_img2.png)
 

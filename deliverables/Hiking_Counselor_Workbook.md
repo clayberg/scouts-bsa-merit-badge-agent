@@ -47,7 +47,7 @@
 - **Common Myth:** Clear morning skies guarantee safe mountain weather for an entire day of trekking.
 - **Pamphlet Fact:** Mountain weather systems deteriorate rapidly by early afternoon, producing unexpected lightning and precipitation.
 
-![Illustrated Hiking technical diagram of trail hazards and wilderness first aid for Requirement 1 field execution.](/assets/pamphlet_images/hiking_p003_img1.png)
+![Hiking Requirement 1 figure showing hikers caught in exposed terrain must seek low ground and assume lightning crouch.](/assets/pamphlet_images/hiking_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -88,7 +88,7 @@
 - **Common Myth:** Stepping off trail onto fragile flora to let other hikers pass creates minimal ecological impact.
 - **Pamphlet Fact:** Stepping off trail damages delicate plants, so hikers should seek durable rock or bare dirt when yielding.
 
-![Step-by-step Hiking visual guide highlighting safe practices and outdoor ethics positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/hiking_p007_img1.png)
+![Hiking Requirement 2 figure showing walking directly through trail center puddles prevents widening pathways and trampling.](/assets/pamphlet_images/hiking_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -116,7 +116,7 @@
 - **Common Myth:** Following the Outdoor Code only matters when camping inside designated state or national parks.
 - **Pamphlet Fact:** The Outdoor Code applies across all municipal, private, and public lands during any outdoor trek.
 
-![Detailed Hiking reference illustration comparing key components and stages of aerobic conditioning for long hikes for Requirement 3.](/assets/pamphlet_images/hiking_p012_img1.png)
+![Hiking Requirement 3 figure showing aerobic respiration provides steady oxygen delivery to working leg muscles.](/assets/pamphlet_images/hiking_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

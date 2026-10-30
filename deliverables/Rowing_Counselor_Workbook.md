@@ -55,7 +55,7 @@
 - **Common Myth:** Submerged logs and rocks only cause damage if struck at high rowing speeds.
 - **Pamphlet Fact:** River currents can pin and swamp a stationary rowboat against low-head dams or strainers within seconds.
 
-![Practical Rowing field visual showing proper setup, measurement, and technique for rowing hazards and safety afloat in Requirement 1.](/assets/pamphlet_images/rowing_p003_img1.png)
+![Rowing Requirement 1 figure showing move the craft immediately to shore whenever thunder rumbles across the water.](/assets/pamphlet_images/rowing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -89,7 +89,7 @@
 - **Common Myth:** Safety Afloat guidelines only govern troop outings that venture onto moving rivers or coastal bays.
 - **Pamphlet Fact:** Safety Afloat standards apply equally to calm camp lakes, farm ponds, and protected swimming coves.
 
-![Illustrated Rowing technical diagram of scouting america swimmer test qualification for Requirement 2 field execution.](/assets/pamphlet_images/rowing_p007_img1.png)
+![Rowing Requirement 2 figure showing complete one hundred yards continuously with seventy-five yards using strong forward strokes.](/assets/pamphlet_images/rowing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -167,11 +167,11 @@
 - Fixed-seat rowers rely on torso swing and arm levering to propel the hull through calm or turbulent water. Mastering straight tracking, emergency stops, and reversing strokes ensures complete vessel command in crowded harbor waters.
 - Req 4a Standard (Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)): Alone or with a passenger, do the following in either a fixed-seat or sliding-seat rowboat: (1) Launch. (2) Row in a straight line for 100 yards. Stop, pivot, and return to the starting point. (3) Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point. (4) Land and moor or rack your craft. (5) Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch.
 
-#### Req 4a(1): Rowing Launch Principles
+#### Req 4a(1): Fixed Seat Rowboat Launching Procedure
 **Official Requirement 4a(1):** Launch.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(1) Structured Technical Study & Explanation Matrix (Rowing Launch Principles)
-- **Common Myth:** In Rowing Requirement 4a(1), many Scouts assume rowing launch principles only requires a general overview rather than specific details on rowing launch principles.
-- **Pamphlet Fact:** The official Rowing pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document rowing launch principles and explain rowing launch principles during counselor review.
+- **Common Myth:** Stepping onto the nearest thwart or gunwale provides the most stable footing when climbing aboard a floating rowboat.
+- **Pamphlet Fact:** Rowers must step directly onto the centerline of the hull floor along the keel while keeping their center of gravity low to avoid tipping the craft.
 
 ![Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.](/assets/pamphlet_images/rowing_p042_img1.png)
 
@@ -181,13 +181,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): Straight Line for Yards Stop
+#### Req 4a(2): Straight Line Rowing And Pivoting
 **Official Requirement 4a(2):** Row in a straight line for 100 yards. Stop, pivot, and return to the starting point.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Straight Line for Yards Stop)
-- **Common Myth:** When preparing Rowing Requirement 4a(2) (Straight Line for Yards Stop), Scouts sometimes overlook the concrete pamphlet benchmarks covering row in a straight line for 100 yards.
-- **Pamphlet Fact:** Counselor verification for Rowing Requirement 4a(2) requires concrete workbook evidence on straight line for yards stop, specifically addressing row in a straight line for 100 yards.
+- **Common Myth:** Twisting around to look over your shoulder on every stroke is the best way to steer a rowboat in a straight line.
+- **Pamphlet Fact:** Aligning two stationary shore features in a line over the stern as range marks allows rowers to maintain a straight course without constantly turning around.
 
-![Detailed Rowing reference illustration comparing key components and stages of life jacket selection and fitting for Requirement 3.](/assets/pamphlet_images/rowing_p012_img1.png)
+![Rowing Requirement 3 figure showing choose inherently buoyant vest designs that permit unrestricted arm and shoulder motion.](/assets/pamphlet_images/rowing_p012_img1.png)
 
 | Req 4a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -196,11 +196,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(3): Backwater in a straight line
+#### Req 4a(3): Backwatering And Underway Turn Maneuvers
 **Official Requirement 4a(3):** Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Skill Demonstration Checklist):** Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (Backwater in A Straight Line)
-- **Common Myth:** For Rowing Requirement 4a(3), a common mistake in backwater in a straight line is treating backwater in a straight line for 25 yards as optional background reading.
-- **Pamphlet Fact:** Mastering Rowing Requirement 4a(3) means following the pamphlet standard for backwater in a straight line and recording accurate notes on backwater in a straight line for 25 yards.
+- **Common Myth:** Executing an underway turn requires bringing the rowboat to a dead stop and reversing one oar against the other.
+- **Pamphlet Fact:** A turn underway is performed while maintaining forward boat speed by pulling harder with one oar or trailing the opposite blade to carve a smooth arc.
 
 ![A line illustration highlights the foam panels and waist straps of an approved life jacket.](/assets/pamphlet_images/rowing_p016_img1.png)
 
@@ -211,11 +211,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(4): Land and Moor or Rack
+#### Req 4a(4): Rowboat Landing Mooring And Racking
 **Official Requirement 4a(4):** Land and moor or rack your craft.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(4) Structured Technical Study & Explanation Matrix (Land and Moor or Rack)
-- **Common Myth:** During Rowing Requirement 4a(4), Scouts can underestimate how directly mastery of land and moor or rack depends on understanding land and moor or rack your craft.
-- **Pamphlet Fact:** Scouting America standards for Rowing Requirement 4a(4) require complete workbook entries on land and moor or rack to demonstrate full understanding of land and moor or rack your craft.
+- **Common Myth:** Approaching a dock downwind at full speed gives the craft the maximum steerage needed for a controlled landing.
+- **Pamphlet Fact:** Landing into the wind or current allows natural water resistance to slow the boat while preserving positive directional control at low speed.
 
 ![An orange buoyant life vest provides reliable flotation support during open water activities.](/assets/pamphlet_images/rowing_p018_img1.png)
 
@@ -225,11 +225,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(5): Mooring Knots Clove Hitch Roundturn
+#### Req 4a(5): Essential Fixed Seat Mooring Knots
 **Official Requirement 4a(5):** Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Organizer (Concept & Examples Notes):** Req 4a(5) Structured Technical Study & Explanation Matrix (Mooring Knots Clove Hitch Roundturn)
-- **Common Myth:** In Rowing Requirement 4a(5), many Scouts assume mooring knots clove hitch roundturn only requires a general overview rather than specific details on tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, wellman's knot.
-- **Pamphlet Fact:** The official Rowing pamphlet for Requirement 4a(5) specifies that Scouts must thoroughly document mooring knots clove hitch roundturn and explain tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, wellman's knot during counselor review.
+- **Common Myth:** Any standard utility knot like a square knot will hold a rowboat securely to a dock piling under wave action.
+- **Pamphlet Fact:** Mooring requires dedicated knots like the roundturn with two half-hitches or bowline because wave surges easily capsize or untie standard square knots.
 
 ![A personal flotation device label provides essential Coast Guard safety certification details.](/assets/pamphlet_images/rowing_p019_img2.png)
 

@@ -53,7 +53,7 @@
 - **Common Myth:** Rubber waders provide sufficient thermal protection during sudden deep water immersion.
 - **Pamphlet Fact:** Submerged waders trap heavy water without thermal retention and pull anglers downward.
 
-![Detailed Fishing reference illustration comparing key components and stages of fishing hazards and first aid for Requirement 1.](/assets/pamphlet_images/fishing_p003_img1.png)
+![Fishing Requirement 1 figure showing check the casting zone for overhead power lines before making any cast.](/assets/pamphlet_images/fishing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -81,7 +81,7 @@
 - **Common Myth:** Pulling a barbed hook directly backward with pliers is the standard extraction method.
 - **Pamphlet Fact:** Direct backward pulling tears muscle tissue because the barb acts as an anchor.
 
-![Practical Fishing field visual showing proper setup, measurement, and technique for fishing outfits and tackle care in Requirement 2.](/assets/pamphlet_images/fishing_p007_img1.png)
+![Fishing Requirement 2 figure showing enclosed spools prevent line tangles, making spincast gear ideal for novice anglers.](/assets/pamphlet_images/fishing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -144,7 +144,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Demonstrate the proper use of two different types of fishing equipment.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate the proper use of two different types of fishing equipment** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Spincast Release Timing: Press the thumb button firmly, swing smoothly overhead, and release forward.
@@ -302,7 +302,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Catch one fish and identify it.** | `____________________________________` | `____________________________________` |
+| **1. Catch one fish and identify it** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Count the spiny versus soft dorsal fin rays to distinguish perch from sunfish.

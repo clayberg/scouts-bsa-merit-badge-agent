@@ -74,7 +74,7 @@
 - **Common Myth:** Only presidents and legislators determined the course of American legal and social developments.
 - **Pamphlet Fact:** Private citizens frequently influenced national policy through journalism, grassroots organizing, literature, and social reform.
 
-![Step-by-step American Heritage visual guide highlighting leaders, citizens, and veterans positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/american_heritage_p007_img1.png)
+![American Heritage Requirement 2 figure showing historical progress requires coordinated action between elected officials.](/assets/pamphlet_images/american_heritage_p007_img1.png)
 
 | Comparison Dimension | Contributions of Elected Political Leaders | Impact of Private Citizen Activists |
 | :--- | :--- | :--- |
@@ -107,7 +107,7 @@
 - **Common Myth:** All military veterans share identical combat perspectives regardless of their specific era or branch.
 - **Pamphlet Fact:** Veterans provide specific tactical, logistical, and emotional insights that rarely appear in textbook summaries.
 
-![Illustrated American Heritage technical diagram of paraphrasing the declaration of independence for Requirement 1 field execution.](/assets/pamphlet_images/american_heritage_p003_img1.png)
+![American Heritage Requirement 1 figure showing citizens hold inherent liberties that governments are instituted among people.](/assets/pamphlet_images/american_heritage_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -159,7 +159,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Topic Related to The United
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed American Heritage reference illustration comparing key components and stages of current events, symbols, and family for Requirement 3.](/assets/pamphlet_images/american_heritage_p012_img1.png)
+![American Heritage Requirement 3 figure showing contemporary national policies reflect historic constitutional tensions over federal.](/assets/pamphlet_images/american_heritage_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

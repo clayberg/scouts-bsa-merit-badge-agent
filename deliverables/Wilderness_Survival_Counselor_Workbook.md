@@ -56,7 +56,7 @@
 - **Common Myth:** A person suffering heatstroke will always sweat heavily during strenuous physical activity.
 - **Pamphlet Fact:** Heatstroke is a medical emergency requiring rapid active cooling with immersion or wet cloths.
 
-![Practical Wilderness Survival field visual showing proper setup, measurement, and technique for backcountry hazards and first aid in Requirement 1.](/assets/pamphlet_images/wilderness_survival_p003_img1.png)
+![Wilderness Survival Requirement 1 figure showing core temperature drops below ninety-five degrees Fahrenheit require immediate active.](/assets/pamphlet_images/wilderness_survival_p003_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -96,7 +96,7 @@
 - **Common Myth:** Filing an exact travel route is unnecessary when hiking familiar local park trails.
 - **Pamphlet Fact:** A detailed trip plan directs searchers to specific trail corridors when overdue hikers vanish.
 
-![Illustrated Wilderness Survival technical diagram of the seven priorities of survival for Requirement 2 field execution.](/assets/pamphlet_images/wilderness_survival_p007_img1.png)
+![Wilderness Survival Requirement 2 figure showing immediate life threats and serious medical injuries require treatment.](/assets/pamphlet_images/wilderness_survival_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -228,7 +228,7 @@
 - **Common Myth:** Keeping snack food inside your sleeping bag protects it securely from forest wildlife.
 - **Pamphlet Fact:** Hanging scented items twelve feet high and four feet outward prevents bear access.
 
-![Illustrated Wilderness Survival technical diagram of avoiding panic and maintaining morale for Requirement 3 field execution.](/assets/pamphlet_images/wilderness_survival_p012_img1.png)
+![Wilderness Survival Requirement 3 figure showing halting physical movement immediately prevents wandering deeper into unfamiliar.](/assets/pamphlet_images/wilderness_survival_p012_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

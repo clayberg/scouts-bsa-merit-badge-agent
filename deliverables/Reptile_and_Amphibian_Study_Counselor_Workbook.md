@@ -106,7 +106,7 @@
 - **Common Myth:** Amphibians can safely live in dry desert terrain because their skin holds moisture like reptile scales.
 - **Pamphlet Fact:** Reptiles are amniotes possessing keratinized epidermal scales, whereas amphibians are anamniotes featuring permeable, gland-rich skin.
 
-![Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of distinguishing major herpetological groups for Requirement 3.](/assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png)
+![Reptile and Amphibian Study Requirement 3 figure showing reptile eggs possess amnion layers allowing embryonic gas exchange and moisture.](/assets/pamphlet_images/reptile_and_amphibian_study_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -120,7 +120,7 @@
 - **Common Myth:** Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.
 - **Pamphlet Fact:** Alligators feature broad rounded snouts with hidden lower teeth, whereas crocodiles possess tapered snouts with an exposed fourth mandibular tooth.
 
-![Illustrated Reptile and Amphibian Study technical diagram of identifying united states reptiles and amphibians for Requirement 1 field execution.](/assets/pamphlet_images/reptile_and_amphibian_study_p003_img1.png)
+![Reptile and Amphibian Study Requirement 1 figure showing reptiles possess dry keratinized scales that prevent desiccation in arid terrestrial.](/assets/pamphlet_images/reptile_and_amphibian_study_p003_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -134,7 +134,7 @@
 - **Common Myth:** Handling a common terrestrial toad causes human skin to develop contagious warts.
 - **Pamphlet Fact:** Bufonid toads possess dry warty skin with elevated parotoid glands, whereas ranid frogs exhibit smooth skin and powerful elongated hindlegs.
 
-![Practical Reptile and Amphibian Study field visual showing proper setup, measurement.](/assets/pamphlet_images/reptile_and_amphibian_study_p004_img1.png)
+![Reptile and Amphibian Study Requirement 4 figure showing herpetofauna regulate invertebrate prey densities while providing biomass for larger.](/assets/pamphlet_images/reptile_and_amphibian_study_p004_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Any elongated, legless reptile encountered in tall grass is automatically a snake.
 - **Pamphlet Fact:** Lizards possess moveable eyelids, external ear openings, and paired hemipenes, while snakes lack eyelids and external auditory apertures.
 
-![Illustrated Reptile and Amphibian Study technical diagram of reptile and amphibian study compare how reptiles reproduce reference figure for Requirement 5.](/assets/pamphlet_images/reptile_and_amphibian_study_p005_img1.png)
+![Reptile and Amphibian Study Requirement 5 figure showing leathery reptilian eggshells contain fluid membranes that support embryonic development.](/assets/pamphlet_images/reptile_and_amphibian_study_p005_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -191,7 +191,7 @@
 
 | Comparison Dimension | Gelatinous Aquatic Eggs and Metamorphosis | Amniotic Shelled Eggs and Direct Development |
 | :--- | :--- | :--- |
-| **1. Compare how reptiles reproduce to how amphibians reproduce.** | `____________________________________` | `____________________________________` |
+| **1. Compare how reptiles reproduce to how amphibians reproduce** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Leathery reptilian eggshells contain fluid membranes that support embryonic development entirely on dry land.
@@ -269,7 +269,7 @@
 - **Common Myth:** Pet store turtles and lizards do not carry bacteria if their enclosure glass looks clean.
 - **Pamphlet Fact:** Reptiles are frequent asymptomatic carriers of Salmonella bacteria in their intestinal tracts and shed it into enclosure water.
 
-![Detailed Reptile and Amphibian Study reference illustration comparing key components and stages of reptile and amphibian study do one of the following.](/assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png)
+![Reptile and Amphibian Study Requirement 8 figure showing ectothermic captives require basking zones and cooler retreats to regulate internal.](/assets/pamphlet_images/reptile_and_amphibian_study_p008_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -287,7 +287,7 @@
 - **Common Myth:** Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.
 - **Pamphlet Fact:** Institutional exhibits rely on automated climate controls and specialized biosecurity protocols to maintain delicate amphibian skin health.
 
-![Step-by-step Reptile and Amphibian Study visual guide highlighting reptile and amphibian study from observation, describe how snakes move reference figure.](/assets/pamphlet_images/reptile_and_amphibian_study_p006_img1.png)
+![Reptile and Amphibian Study Requirement 6 figure showing serpentine movement utilizes alternating muscular waves that press sideways.](/assets/pamphlet_images/reptile_and_amphibian_study_p006_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -356,7 +356,7 @@
 - **Common Myth:** Oral talks without physical diagrams or live photographs hold audience attention during technical biology explanations.
 - **Pamphlet Fact:** Effective educational presentations utilize clear morphological diagrams and life cycle illustrations to convey herpetological concepts to audiences.
 
-![Step-by-step Reptile and Amphibian Study visual guide highlighting species diversity and geographic distribution positioning and inspection checkpoints.](/assets/pamphlet_images/reptile_and_amphibian_study_p007_img1.png)
+![Reptile and Amphibian Study Requirement 2 figure showing the Appalachian mountain range supports the highest geographic diversity.](/assets/pamphlet_images/reptile_and_amphibian_study_p007_img1.png)
 
 | Req 9c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

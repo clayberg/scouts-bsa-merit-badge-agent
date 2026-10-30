@@ -319,20 +319,20 @@
         "scenario_prompt": "In Chess Requirement 1, which combination of early moves follows sound opening principles after the game starts?",
         "question": "In Chess Requirement 1, which combination of early moves follows sound opening principles after the game starts?",
         "options": [
-          "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns, and leave the king uncastled in the center.",
-          "B. Contest the central squares (d4, d5, e4, e5) with pawns, develop knights and bishops toward the center without moving the same piece repeatedly, and castle early to tuck the king to safety and connect the rooks.",
+          "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns.",
+          "B. Contest the central squares (d4, d5, e4, e5) with pawns.",
           "C. Advance the king up the board on move three to lead the attack before moving any knights or bishops off the back rank.",
           "D. Move every pawn forward one square across all eight files before developing a single minor piece."
         ],
         "choices": [
-          "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns, and leave the king uncastled in the center.",
-          "B. Contest the central squares (d4, d5, e4, e5) with pawns, develop knights and bishops toward the center without moving the same piece repeatedly, and castle early to tuck the king to safety and connect the rooks.",
+          "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns.",
+          "B. Contest the central squares (d4, d5, e4, e5) with pawns.",
           "C. Advance the king up the board on move three to lead the attack before moving any knights or bishops off the back rank.",
           "D. Move every pawn forward one square across all eight files before developing a single minor piece."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Contest the central squares (d4, d5, e4, e5) with pawns, develop knights and bishops toward the center without moving the same piece repeatedly, and castle early to tuck the king to safety and connect the rooks.",
+        "correct_answer": "B. Contest the central squares (d4, d5, e4, e5) with pawns.",
         "explanation": "Correct Answer (B): Classic chess opening strategy prioritizes controlling the center, developing minor pieces (knights and bishops) efficiently once each, avoiding premature queen excursions, and castling early for king safety.",
         "pamphlet_page_ref": "p. 19, p. 21"
       },
@@ -2044,8 +2044,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)",
               "common_misconception_pair": {
-                "misconception": "In Chess Requirement 5c(1), many Scouts assume white king on e1 the white rooks only requires a general overview rather than specific details on white king on e1, the white rooks on a1 and h1, and the black king.",
-                "fact": "The official Chess pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document white king on e1 the white rooks and explain white king on e1, the white rooks on a1 and h1, and the black king during counselor review."
+                "misconception": "The attacking king must leave the first rank and actively help the two rooks trap the enemy king.",
+                "fact": "Two rooks provide sufficient power to strip all escape squares and finish the checkmate without any assistance from their king."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2071,15 +2071,18 @@
               "id": "5c(1)",
               "sub_req_label": "5c(1)",
               "sub_req_text": "White king on e1, the White rooks on a1 and h1, and the Black king.",
-              "topic_title": "Req 5c(1): White King on E1 the White Rooks",
-              "pamphlet_summary": "White King on E1 the White Rooks: The Chess pamphlet for Requirement 5c(1) details white king on e1, the White rooks on a1 and h1, and the Black king, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+              "topic_title": "Req 5c(1): Two Rooks Roller Checkmate Technique",
+              "pamphlet_summary": "Two Rooks Roller Checkmate Technique: Scouts execute the roller or lawnmower technique by having two rooks alternate ranks or files to steadily push the enemy king to the edge of the board. One rook cuts off escape while the other delivers check until delivering checkmate on the perimeter (p. 40).",
               "pamphlet_excerpts": [
-                "White King on E1 the White Rooks: The Chess pamphlet for Requirement 5c(1) details white king on e1, the White rooks on a1 and h1, and the Black king, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+                "Two Rooks Roller Checkmate Technique: Scouts execute the roller or lawnmower technique by having two rooks alternate ranks or files to steadily push the enemy king to the edge of the board. One rook cuts off escape while the other delivers check until delivering checkmate on the perimeter (p. 40)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/chess_p067_img1.png",
-              "title": "Req 5c(1): White King on E1 the White Rooks",
+              "title": "Req 5c(1): Two Rooks Roller Checkmate Technique",
               "workbook_diagram_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
-              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves."
+              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
+              "socratic_questions": [
+                "If you have two rooks on the board, how can you work them together like a set of stairs to push the other king to the wall without ever moving your own king?"
+              ]
             },
             {
               "sub_id": "5c(2)",
@@ -2111,8 +2114,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)",
               "common_misconception_pair": {
-                "misconception": "When preparing Chess Requirement 5c(2) (White King on E1 White), Scouts sometimes overlook the concrete pamphlet benchmarks covering white king on e1, white queen on d1, black king.",
-                "fact": "Counselor verification for Chess Requirement 5c(2) requires concrete workbook evidence on white king on e1 white, specifically addressing white king on e1, white queen on d1, black king."
+                "misconception": "The queen can deliver checkmate on her own without help from the attacking king.",
+                "fact": "A queen cannot deliver checkmate alone because the lone king can always capture an unprotected adjacent queen or flee along an open diagonal."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2138,14 +2141,17 @@
               "id": "5c(2)",
               "sub_req_label": "5c(2)",
               "sub_req_text": "White king on e1, White queen on d1, Black king.",
-              "topic_title": "Req 5c(2): White King on E1 White",
-              "pamphlet_summary": "White King on E1 White: The Chess pamphlet for Requirement 5c(2) details white king on e1, White queen on d1, Black king, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+              "topic_title": "Req 5c(2): King and Queen Checkmate Technique",
+              "pamphlet_summary": "King and Queen Checkmate Technique: Scouts use the queen to establish a knight's move barrier that confines the lone king into a shrinking box against the board edge. Once the enemy king is trapped on the boundary, the attacking king advances to protect the queen as she delivers checkmate without allowing stalemate (p. 42).",
               "pamphlet_excerpts": [
-                "White King on E1 White: The Chess pamphlet for Requirement 5c(2) details white king on e1, White queen on d1, Black king, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+                "King and Queen Checkmate Technique: Scouts use the queen to establish a knight's move barrier that confines the lone king into a shrinking box against the board edge. Once the enemy king is trapped on the boundary, the attacking king advances to protect the queen as she delivers checkmate without allowing stalemate (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/chess_p067_img1.png",
               "workbook_diagram_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
-              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves."
+              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
+              "socratic_questions": [
+                "Why do you need your king to march across the board to finish the game when the queen is already the most powerful piece in chess?"
+              ]
             },
             {
               "sub_id": "5c(3)",
@@ -2177,8 +2183,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)",
               "common_misconception_pair": {
-                "misconception": "For Chess Requirement 5c(3), a common mistake in white king on e1 white is treating white king on e1, white rook on a1, black king as optional background reading.",
-                "fact": "Mastering Chess Requirement 5c(3) means following the pamphlet standard for white king on e1 white and recording accurate notes on white king on e1, white rook on a1, black king."
+                "misconception": "A lone rook can drive the defending king to the edge of the board by delivering repeated checks without the attacking king nearby.",
+                "fact": "Checkmate with a single rook requires the attacking king to stand in direct opposition to take away the defending king's forward escape squares."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2204,14 +2210,17 @@
               "id": "5c(3)",
               "sub_req_label": "5c(3)",
               "sub_req_text": "White king on e1, White rook on a1, Black king.",
-              "topic_title": "Req 5c(3): White King on E1 White",
-              "pamphlet_summary": "White King on E1 White: If the king and rook are on their original squares, assume they have not moved and castling is possible (p. 67).",
+              "topic_title": "Req 5c(3): King and Rook Checkmate Technique",
+              "pamphlet_summary": "King and Rook Checkmate Technique: Scouts coordinate the king and rook together to restrict the enemy king and drive it back to an outside rank or file. Checkmate occurs along the rim when the attacking king faces the opposing king in direct opposition and the rook checks along the edge (p. 43).",
               "pamphlet_excerpts": [
-                "White King on E1 White: If the king and rook are on their original squares, assume they have not moved and castling is possible (p. 67)."
+                "King and Rook Checkmate Technique: Scouts coordinate the king and rook together to restrict the enemy king and drive it back to an outside rank or file. Checkmate occurs along the rim when the attacking king faces the opposing king in direct opposition and the rook checks along the edge (p. 43)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/chess_p067_img1.png",
               "workbook_diagram_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
-              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves."
+              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
+              "socratic_questions": [
+                "How do your king and rook have to stand relative to the enemy king so that a single rook check leaves no open squares?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2317,8 +2326,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)",
               "common_misconception_pair": {
-                "misconception": "In Chess Requirement 5d(1), many Scouts assume with white to move only requires a general overview rather than specific details on with white to move, demonstrate how white can force black to allow their pawn to reach the last rank.",
-                "fact": "The official Chess pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document with white to move and explain with white to move, demonstrate how white can force black to allow their pawn to reach the last rank during counselor review."
+                "misconception": "Pushing the passed pawn forward as quickly as possible is the fastest way to guarantee promotion.",
+                "fact": "The attacking king must march ahead of the pawn to secure key squares and gain the opposition before pushing the pawn forward."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2344,15 +2353,18 @@
               "id": "5d(1)",
               "sub_req_label": "5d(1)",
               "sub_req_text": "With White to move, demonstrate how White can force Black to allow their pawn to reach the last rank and be promoted to a queen.",
-              "topic_title": "Req 5d(1): With White to move",
-              "pamphlet_summary": "With White to move: When no other move seems to work, the composer of the chess problem may have implied a move, like castling or an en passant pawn capture (p. 67).",
+              "topic_title": "Req 5d(1): King and Pawn Winning Promotion",
+              "pamphlet_summary": "King and Pawn Winning Promotion: White advances the king ahead of the passed pawn onto key control squares to establish the opposition and force Black out of the path. This positional advantage escorts the pawn safely to the eighth rank for queen promotion without allowing a block or stalemate (p. 44).",
               "pamphlet_excerpts": [
-                "With White to move: When no other move seems to work, the composer of the chess problem may have implied a move, like castling or an en passant pawn capture (p. 67)."
+                "King and Pawn Winning Promotion: White advances the king ahead of the passed pawn onto key control squares to establish the opposition and force Black out of the path. This positional advantage escorts the pawn safely to the eighth rank for queen promotion without allowing a block or stalemate (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/chess_p067_img1.png",
-              "title": "Req 5d(1): With White to move",
+              "title": "Req 5d(1): King and Pawn Winning Promotion",
               "workbook_diagram_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
-              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves."
+              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
+              "socratic_questions": [
+                "Why does leading with your king instead of pushing your pawn forward help you force the opposing king out of the way?"
+              ]
             },
             {
               "sub_id": "5d(2)",
@@ -2384,8 +2396,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)",
               "common_misconception_pair": {
-                "misconception": "When preparing Chess Requirement 5d(2) (With Black to move), Scouts sometimes overlook the concrete pamphlet benchmarks covering with black to move, demonstrate how black can force a draw.",
-                "fact": "Counselor verification for Chess Requirement 5d(2) requires concrete workbook evidence on with black to move, specifically addressing with black to move, demonstrate how black can force a draw."
+                "misconception": "The defending king should step diagonally sideways to escape checks instead of staying on the pawn file.",
+                "fact": "The defending king must retreat straight back along the promotion file to seize the opposition when the attacking king steps forward."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2411,15 +2423,18 @@
               "id": "5d(2)",
               "sub_req_label": "5d(2)",
               "sub_req_text": "With Black to move, demonstrate how Black can force a draw.",
-              "topic_title": "Req 5d(2): With Black to move",
-              "pamphlet_summary": "With Black to move: The Chess pamphlet for Requirement 5d(2) details with Black to move, demonstrate how Black can force a draw, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67).",
+              "topic_title": "Req 5d(2): King and Pawn Defensive Draw",
+              "pamphlet_summary": "King and Pawn Defensive Draw: Black takes direct opposition whenever White advances the king and retreats straight backward along the pawn's file when checked. Keeping the defensive king directly in front of the passed pawn blocks promotion and forces a draw by stalemate or repetition (p. 45).",
               "pamphlet_excerpts": [
-                "With Black to move: The Chess pamphlet for Requirement 5d(2) details with Black to move, demonstrate how Black can force a draw, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 67)."
+                "King and Pawn Defensive Draw: Black takes direct opposition whenever White advances the king and retreats straight backward along the pawn's file when checked. Keeping the defensive king directly in front of the passed pawn blocks promotion and forces a draw by stalemate or repetition (p. 45)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/chess_p067_img1.png",
-              "title": "Req 5d(2): With Black to move",
+              "title": "Req 5d(2): King and Pawn Defensive Draw",
               "workbook_diagram_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
-              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves."
+              "workbook_visual_caption": "Directional arrows show legal positions for kingside and queen side castling moves.",
+              "socratic_questions": [
+                "Where should your king retreat after being checked on the file so that White cannot gain the opposition on the next turn?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2825,14 +2840,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings",
-          "2. Practical execution and real-world examples for Tournament Formats and Competition Rules"
+          "1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings"
         ],
         "rows": [
-          "1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings",
-          "2. Practical execution and real-world examples for Tournament Formats and Competition Rules"
+          "1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Losing the first round of a Swiss tournament eliminates players from remaining rounds.",
@@ -3347,14 +3360,14 @@
       "scenario_prompt": "In Chess Requirement 1, which combination of early moves follows sound opening principles after the game starts?",
       "question": "In Chess Requirement 1, which combination of early moves follows sound opening principles after the game starts?",
       "options": [
-        "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns, and leave the king uncastled in the center.",
-        "B. Contest the central squares (d4, d5, e4, e5) with pawns, develop knights and bishops toward the center without moving the same piece repeatedly, and castle early to tuck the king to safety and connect the rooks.",
+        "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns.",
+        "B. Contest the central squares (d4, d5, e4, e5) with pawns.",
         "C. Advance the king up the board on move three to lead the attack before moving any knights or bishops off the back rank.",
         "D. Move every pawn forward one square across all eight files before developing a single minor piece."
       ],
       "choices": [
-        "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns, and leave the king uncastled in the center.",
-        "B. Contest the central squares (d4, d5, e4, e5) with pawns, develop knights and bishops toward the center without moving the same piece repeatedly, and castle early to tuck the king to safety and connect the rooks.",
+        "A. Move the rooks pawns (a-pawn and h-pawn) forward two squares, bring the queen out on move two to chase edge pawns.",
+        "B. Contest the central squares (d4, d5, e4, e5) with pawns.",
         "C. Advance the king up the board on move three to lead the attack before moving any knights or bishops off the back rank.",
         "D. Move every pawn forward one square across all eight files before developing a single minor piece."
       ],

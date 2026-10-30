@@ -48,7 +48,7 @@
 - **Common Myth:** Every flying vehicle requires fixed wings to qualify as an aircraft.
 - **Pamphlet Fact:** Any machine supported by air buoyancy or aerodynamic action is legally an aircraft.
 
-![Illustrated Aviation technical diagram of aviation basics and flight mechanics for Requirement 1 field execution.](/assets/pamphlet_images/aviation_p003_img1.png)
+![Aviation Requirement 1 figure showing air moving faster over curved upper surfaces reduces static pressure above wings.](/assets/pamphlet_images/aviation_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -179,7 +179,7 @@
 - [ ] Lockout/de-energization verification checklist and fire extinguisher reference
 - [ ] Engineering logbook and technical specification sheet for Aviation Requirement 2
 
-![Step-by-step Aviation visual guide highlighting model aircraft and flight principles positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/aviation_p007_img1.png)
+![Aviation Requirement 2 figure showing proper ballast placement ensures longitudinal stability during unpowered gliding flight.](/assets/pamphlet_images/aviation_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -239,7 +239,7 @@
 - **Common Myth:** Flight simulators behave like arcade games that require no real aerodynamic trim.
 - **Pamphlet Fact:** Modern flight simulators model realistic aerodynamics, requiring constant elevator trim and power management.
 
-![Illustrated Aviation technical diagram of flight operations and navigation for Requirement 3 field execution.](/assets/pamphlet_images/aviation_p012_img1.png)
+![Aviation Requirement 3 figure showing visual checks detect fuel contamination, structural damage, and control hinge defects.](/assets/pamphlet_images/aviation_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

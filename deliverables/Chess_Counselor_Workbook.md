@@ -51,7 +51,7 @@
 - **Common Myth:** Chess pieces possessed their current powerful moving abilities since the game began.
 - **Pamphlet Fact:** Persian players brought chatrang to Europe through Islamic Spain around the tenth century.
 
-![Detailed Chess reference illustration comparing key components and stages of chess history and famous players for Requirement 1.](/assets/pamphlet_images/chess_p003_img1.png)
+![Chess Requirement 1 figure showing indian chaturanga evolved into Persian chatrang prior to spreading across Mediterranean.](/assets/pamphlet_images/chess_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** Good chess players calculate every single branch of moves until game conclusion.
 - **Pamphlet Fact:** Grandmasters evaluate pawn structures and square control to formulate cohesive long term plans.
 
-![Practical Chess field visual showing proper setup, measurement, and technique for strategic thinking and chess etiquette in Requirement 2.](/assets/pamphlet_images/chess_p007_img1.png)
+![Chess Requirement 2 figure showing formulate clear multi move plans instead of reacting impulsively to opponent moves.](/assets/pamphlet_images/chess_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -153,7 +153,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Chess Piece
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Chess reference illustration comparing key components and stages of board setup and piece movement for Requirement 3.](/assets/pamphlet_images/chess_p012_img1.png)
+![Chess Requirement 3 figure showing orient the board so a white square sits on the right corner.](/assets/pamphlet_images/chess_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -337,11 +337,11 @@
 - Basic checkmates require driving the opposing king to the edge or corner squares using coordinated pieces. White demonstrates elementary checkmates with two rooks or one queen against a solitary king.
 - Req 5c Standard (Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)): Set up a chessboard as follows and with White to move first, demonstrate how to force checkmate on the Black king: (1) White king on e1, the White rooks on a1 and h1, and the Black king on e5 (2) White king on e1, White queen on d1, Black king on e5 (3) White king on e1, White rook on a1, Black king.
 
-#### Req 5c(1): White King on E1 the White Rooks
+#### Req 5c(1): Two Rooks Roller Checkmate Technique
 **Official Requirement 5c(1):** White king on e1, the White rooks on a1 and h1, and the Black king.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (White King on E1 The)
-- **Common Myth:** In Chess Requirement 5c(1), many Scouts assume white king on e1 the white rooks only requires a general overview rather than specific details on white king on e1, the white rooks on a1 and h1, and the black king.
-- **Pamphlet Fact:** The official Chess pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document white king on e1 the white rooks and explain white king on e1, the white rooks on a1 and h1, and the black king during counselor review.
+- **Common Myth:** The attacking king must leave the first rank and actively help the two rooks trap the enemy king.
+- **Pamphlet Fact:** Two rooks provide sufficient power to strip all escape squares and finish the checkmate without any assistance from their king.
 
 ![Tournament competitors record moves on paper scoresheets during a competitive game.](/assets/pamphlet_images/chess_p070_img1.png)
 
@@ -351,11 +351,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(2): White King on E1 White
+#### Req 5c(2): King and Queen Checkmate Technique
 **Official Requirement 5c(2):** White king on e1, White queen on d1, Black king.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Concept & Examples Notes):** Req 5c(2) Structured Technical Study & Explanation Matrix (White King on E1 White)
-- **Common Myth:** When preparing Chess Requirement 5c(2) (White King on E1 White), Scouts sometimes overlook the concrete pamphlet benchmarks covering white king on e1, white queen on d1, black king.
-- **Pamphlet Fact:** Counselor verification for Chess Requirement 5c(2) requires concrete workbook evidence on white king on e1 white, specifically addressing white king on e1, white queen on d1, black king.
+- **Common Myth:** The queen can deliver checkmate on her own without help from the attacking king.
+- **Pamphlet Fact:** A queen cannot deliver checkmate alone because the lone king can always capture an unprotected adjacent queen or flee along an open diagonal.
 
 ![A tactical position diagram illustrates strategic piece placement and threats.](/assets/pamphlet_images/chess_p072_img1.png)
 
@@ -365,11 +365,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(3): White King on E1 White
+#### Req 5c(3): King and Rook Checkmate Technique
 **Official Requirement 5c(3):** White king on e1, White rook on a1, Black king.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Concept & Examples Notes):** Req 5c(3) Structured Technical Study & Explanation Matrix (White King on E1 White)
-- **Common Myth:** For Chess Requirement 5c(3), a common mistake in white king on e1 white is treating white king on e1, white rook on a1, black king as optional background reading.
-- **Pamphlet Fact:** Mastering Chess Requirement 5c(3) means following the pamphlet standard for white king on e1 white and recording accurate notes on white king on e1, white rook on a1, black king.
+- **Common Myth:** A lone rook can drive the defending king to the edge of the board by delivering repeated checks without the attacking king nearby.
+- **Pamphlet Fact:** Checkmate with a single rook requires the attacking king to stand in direct opposition to take away the defending king's forward escape squares.
 
 ![The cover of the official rulebook provides regulatory guidance for tournament play.](/assets/pamphlet_images/chess_p080_img1.png)
 
@@ -389,11 +389,11 @@
 - King and pawn endgames hinge on king opposition and outflanking techniques to secure promotion squares. Mastering pawn outflanking prevents accidental stalemates while escorting pawns safely to the eighth rank.
 - Req 5d Standard (Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)): With White king on d4, White pawn on e3, and Black king on e6: (1) With White to move, demonstrate how White can force Black to allow their pawn to reach the last rank and be promoted to a queen. (2) With Black to move, demonstrate how Black can force a draw.
 
-#### Req 5d(1): With White to move
+#### Req 5d(1): King and Pawn Winning Promotion
 **Official Requirement 5d(1):** With White to move, demonstrate how White can force Black to allow their pawn to reach the last rank and be promoted to a queen.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Skill Demonstration Checklist):** Req 5d(1) Hands-On Skill Station & EDGE Verification Checklist (White to Move Demonstrate How)
-- **Common Myth:** In Chess Requirement 5d(1), many Scouts assume with white to move only requires a general overview rather than specific details on with white to move, demonstrate how white can force black to allow their pawn to reach the last rank.
-- **Pamphlet Fact:** The official Chess pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document with white to move and explain with white to move, demonstrate how white can force black to allow their pawn to reach the last rank during counselor review.
+- **Common Myth:** Pushing the passed pawn forward as quickly as possible is the fastest way to guarantee promotion.
+- **Pamphlet Fact:** The attacking king must march ahead of the pawn to secure key squares and gain the opposition before pushing the pawn forward.
 
 ![Carved black and white knights face each other in an intense tactical board standoff.](/assets/pamphlet_images/chess_p087_img1.png)
 
@@ -403,11 +403,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d(2): With Black to move
+#### Req 5d(2): King and Pawn Defensive Draw
 **Official Requirement 5d(2):** With Black to move, demonstrate how Black can force a draw.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5d(2) Hands-On Skill Station & EDGE Verification Checklist (Black to Move Demonstrate How)
-- **Common Myth:** When preparing Chess Requirement 5d(2) (With Black to move), Scouts sometimes overlook the concrete pamphlet benchmarks covering with black to move, demonstrate how black can force a draw.
-- **Pamphlet Fact:** Counselor verification for Chess Requirement 5d(2) requires concrete workbook evidence on with black to move, specifically addressing with black to move, demonstrate how black can force a draw.
+- **Common Myth:** The defending king should step diagonally sideways to escape checks instead of staying on the pawn file.
+- **Pamphlet Fact:** The defending king must retreat straight back along the promotion file to seize the opposition when the attacking king steps forward.
 
 ![A dual digital match timer measures elapsed time for each player during tournament play.](/assets/pamphlet_images/chess_p088_img1.png)
 
@@ -448,7 +448,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings.** | `____________________________________` | `____________________________________` |
+| **1. Explain to your counselor how chess tournaments are run, including the Swiss system tournament format, the round robin tournament format, pairings for each round, time controls, touch move, scoring, and chess ratings** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Swiss Pairing: Pair players with identical tournament scores across consecutive rounds without player elimination.

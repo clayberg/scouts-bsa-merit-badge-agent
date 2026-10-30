@@ -433,17 +433,17 @@
           "A. Standing up scares downstream paddlers into dropping their throw bags.",
           "B. River rocks are too slippery to push your boat upstream against the current.",
           "C. Standing upright causes your lifejacket to lose buoyancy when splashed.",
-          "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head underwater (foot entrapment); instead, float on your back with feet up and pointed downstream."
+          "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head."
         ],
         "choices": [
           "A. Standing up scares downstream paddlers into dropping their throw bags.",
           "B. River rocks are too slippery to push your boat upstream against the current.",
           "C. Standing upright causes your lifejacket to lose buoyancy when splashed.",
-          "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head underwater (foot entrapment); instead, float on your back with feet up and pointed downstream."
+          "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head underwater (foot entrapment); instead, float on your back with feet up and pointed downstream.",
+        "correct_answer": "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head.",
         "explanation": "Correct Answer (D): Foot entrapment in swift current is a deadly whitewater hazard; swimmers must assume the defensive whitewater swim position on their back with feet at the surface pointed downstream to fend off rocks until reaching an eddy.",
         "pamphlet_page_ref": "p. 21, p. 23"
       },
@@ -669,8 +669,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
-                "misconception": "In Whitewater Requirement 2c(1), many Scouts assume entering and exiting an eddy only requires a general overview rather than specific details on when entering and exiting an eddy.",
-                "fact": "The official Whitewater pamphlet for Requirement 2c(1) specifies that Scouts must thoroughly document entering and exiting an eddy and explain when entering and exiting an eddy during counselor review."
+                "misconception": "Leaning away from the turn keeps the boat flatter and prevents tipping over when crossing an eddy line.",
+                "fact": "Tilting the boat into the turn presents the hull bottom to the incoming current so the water flows underneath rather than catching the exposed upstream edge."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -696,14 +696,17 @@
               "id": "2c(1)",
               "sub_req_label": "2c(1)",
               "sub_req_text": "When entering and exiting an eddy.",
-              "topic_title": "Req 2c(1): Entering and Exiting An Eddy",
-              "pamphlet_summary": "Entering and Exiting An Eddy: The Whitewater pamphlet for Requirement 2c(1) details when entering and exiting an eddy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30).",
+              "topic_title": "Req 2c(1): Eddy Turn Hull Tilt Technique",
+              "pamphlet_summary": "Eddy Turn Hull Tilt Technique: Crossing an eddy line requires tilting the canoe or kayak downstream into the turn so the bottom of the hull faces the incoming current. This hull angle allows opposing water flows to slide underneath the craft rather than catching the upstream gunwale or chine (p. 31).",
               "pamphlet_excerpts": [
-                "Entering and Exiting An Eddy: The Whitewater pamphlet for Requirement 2c(1) details when entering and exiting an eddy, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 30)."
+                "Eddy Turn Hull Tilt Technique: Crossing an eddy line requires tilting the canoe or kayak downstream into the turn so the bottom of the hull faces the incoming current. This hull angle allows opposing water flows to slide underneath the craft rather than catching the upstream gunwale or chine (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img1.png",
               "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-              "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+              "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+              "socratic_questions": [
+                "How does the angle of your hull determine whether conflicting water currents slip underneath your boat or flip it over?"
+              ]
             },
             {
               "sub_id": "2c(2)",
@@ -735,8 +738,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)",
               "common_misconception_pair": {
-                "misconception": "When preparing Whitewater Requirement 2c(2) (Ferrying in Downstream and Upstream), Scouts sometimes overlook the concrete pamphlet benchmarks covering when ferrying in downstream and upstream directions.",
-                "fact": "Counselor verification for Whitewater Requirement 2c(2) requires concrete workbook evidence on ferrying in downstream and upstream, specifically addressing when ferrying in downstream and upstream directions."
+                "misconception": "Upstream ferrying requires tilting the boat toward the upstream current to slice cleanly through incoming waves.",
+                "fact": "Paddlers must always tilt the boat downstream so the oncoming river current slides under the hull rather than grabbing the upstream chine and swamping the craft."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -762,14 +765,17 @@
               "id": "2c(2)",
               "sub_req_label": "2c(2)",
               "sub_req_text": "When ferrying in downstream and upstream directions.",
-              "topic_title": "Req 2c(2): Ferrying in Downstream and Upstream",
-              "pamphlet_summary": "Ferrying in Downstream and Upstream: Upstream (forward) ferries and downstream (back) ferries move you sideways across the current (p. 30).",
+              "topic_title": "Req 2c(2): Current Ferry Boat Tilt Technique",
+              "pamphlet_summary": "Current Ferry Boat Tilt Technique: Paddlers must angle the boat across the river current and tilt the hull downstream during both upstream and downstream ferries. Presenting the bottom of the hull to the oncoming flow prevents the water from pushing against the upstream edge and swamping the boat (p. 32).",
               "pamphlet_excerpts": [
-                "Ferrying in Downstream and Upstream: Upstream (forward) ferries and downstream (back) ferries move you sideways across the current (p. 30)."
+                "Current Ferry Boat Tilt Technique: Paddlers must angle the boat across the river current and tilt the hull downstream during both upstream and downstream ferries. Presenting the bottom of the hull to the oncoming flow prevents the water from pushing against the upstream edge and swamping the boat (p. 32)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p063_img1.png",
               "workbook_diagram_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
-              "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners."
+              "workbook_visual_caption": "A boater holds a paddle horizontally overhead to signal a stop to other river runners.",
+              "socratic_questions": [
+                "Why must your boat always tilt downstream regardless of whether you are executing an upstream ferry or a downstream ferry?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1465,8 +1471,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Whitewater Requirement 4a(1), many Scouts assume strokes in the bow cross only requires a general overview rather than specific details on the following strokes in the bow, cross forward, bow draw, cross bow draw, bow pry, and sculling draw.",
-                "fact": "The official Whitewater pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document strokes in the bow cross and explain the following strokes in the bow, cross forward, bow draw, cross bow draw, bow pry, and sculling draw during counselor review."
+                "misconception": "Switching to an offside cross bow draw requires swapping top and bottom hand positions on the paddle shaft.",
+                "fact": "Bow paddlers perform the cross bow draw by rotating the torso across the opposite gunwale while keeping their original paddle grip unchanged."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1492,14 +1498,17 @@
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
               "sub_req_text": "Demonstrate the following strokes in the bow: cross forward, bow draw, cross bow draw, bow pry, and sculling draw.",
-              "topic_title": "Req 4a(1): Strokes in The Bow Cross",
-              "pamphlet_summary": "Strokes in The Bow Cross: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50).",
+              "topic_title": "Req 4a(1): Tandem Canoe Bow Steering Strokes",
+              "pamphlet_summary": "Tandem Canoe Bow Steering Strokes: The bow paddler in a tandem canoe executes cross forward strokes, draws, pries, and sculling draws to guide the front of the craft around river obstacles. These strokes shift the bow laterally and accelerate the boat across eddy lines through coordinated body rotation and paddle placement (p. 42).",
               "pamphlet_excerpts": [
-                "Strokes in The Bow Cross: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50)."
+                "Tandem Canoe Bow Steering Strokes: The bow paddler in a tandem canoe executes cross forward strokes, draws, pries, and sculling draws to guide the front of the craft around river obstacles. These strokes shift the bow laterally and accelerate the boat across eddy lines through coordinated body rotation and paddle placement (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p050_img1.png",
               "workbook_diagram_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
-              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn."
+              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
+              "socratic_questions": [
+                "How does rotating your torso across the boat without changing your paddle grip allow for faster directional corrections in heavy whitewater?"
+              ]
             },
             {
               "sub_id": "4a(2)",
@@ -1531,8 +1540,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Whitewater Requirement 4a(2) (Strokes in The Stern Stern), Scouts sometimes overlook the concrete pamphlet benchmarks covering the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry.",
-                "fact": "Counselor verification for Whitewater Requirement 4a(2) requires concrete workbook evidence on strokes in the stern stern, specifically addressing the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry."
+                "misconception": "Dragging the paddle blade passively behind the canoe like a rudder controls river maneuvers better than applying active stern pry strokes.",
+                "fact": "Active forward strokes ending in a stern pry maintain boat speed and provide far greater directional control than passive dragging rudders in moving current."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1558,14 +1567,17 @@
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
               "sub_req_text": "Demonstrate the following strokes in the stern: stern draw, stern pry, sculling draw, and forward with stern pry.",
-              "topic_title": "Req 4a(2): Strokes in The Stern Stern",
-              "pamphlet_summary": "Strokes in The Stern Stern: The Whitewater pamphlet for Requirement 4a(2) details the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50).",
+              "topic_title": "Req 4a(2): Tandem Canoe Stern Control Strokes",
+              "pamphlet_summary": "Tandem Canoe Stern Control Strokes: The stern paddler maintains directional heading and alters river trajectories using stern draws, pries, sculling draws, and forward strokes paired with a stern pry. These strokes provide continuous propulsion while enabling precise ruddering and turning adjustments from the back of the canoe (p. 44).",
               "pamphlet_excerpts": [
-                "Strokes in The Stern Stern: The Whitewater pamphlet for Requirement 4a(2) details the following strokes in the stern, stern draw, stern pry, sculling draw, and forward with stern pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50)."
+                "Tandem Canoe Stern Control Strokes: The stern paddler maintains directional heading and alters river trajectories using stern draws, pries, sculling draws, and forward strokes paired with a stern pry. These strokes provide continuous propulsion while enabling precise ruddering and turning adjustments from the back of the canoe (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p050_img1.png",
               "workbook_diagram_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
-              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn."
+              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
+              "socratic_questions": [
+                "Why does combining a forward stroke with an active stern pry keep a tandem canoe on course much better than simply dragging the blade behind the boat?"
+              ]
             },
             {
               "sub_id": "4a(3)",
@@ -1597,8 +1609,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "For Whitewater Requirement 4a(3), a common mistake in high brace low brace and righting pry is treating a high brace, low brace, and righting pry as optional background reading.",
-                "fact": "Mastering Whitewater Requirement 4a(3) means following the pamphlet standard for high brace low brace and righting pry and recording accurate notes on a high brace, low brace, and righting pry."
+                "misconception": "Raising elbows high above the paddle shaft provides the greatest leverage when performing an emergency high brace.",
+                "fact": "Keeping elbows low and pointing downward protects the shoulder joint from dislocation while applying downward pressure to right the canoe."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1624,15 +1636,18 @@
               "id": "4a(3)",
               "sub_req_label": "4a(3)",
               "sub_req_text": "Demonstrate a high brace, low brace, and righting pry.",
-              "topic_title": "Req 4a(3): High Brace Low Brace and Righting Pry",
-              "pamphlet_summary": "High Brace Low Brace and Righting Pry: The Whitewater pamphlet for Requirement 4a(3) details a high brace, low brace, and righting pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50).",
+              "topic_title": "Req 4a(3): Tandem Canoe Braces and Recovery",
+              "pamphlet_summary": "Tandem Canoe Braces and Recovery: Tandem paddlers prevent capsizes by deploying low braces on the back of the blade, high braces with down-turned elbows, and righting pries using the gunwale as a fulcrum. Applying pressure to the blade while rolling the hips underneath the body restores the canoe to an even keel (p. 46).",
               "pamphlet_excerpts": [
-                "High Brace Low Brace and Righting Pry: The Whitewater pamphlet for Requirement 4a(3) details a high brace, low brace, and righting pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50)."
+                "Tandem Canoe Braces and Recovery: Tandem paddlers prevent capsizes by deploying low braces on the back of the blade, high braces with down-turned elbows, and righting pries using the gunwale as a fulcrum. Applying pressure to the blade while rolling the hips underneath the body restores the canoe to an even keel (p. 46)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p050_img1.png",
-              "title": "Req 4a(3): High Brace Low Brace and Righting Pry",
+              "title": "Req 4a(3): Tandem Canoe Braces and Recovery",
               "workbook_diagram_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
-              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn."
+              "workbook_visual_caption": "Curved arrows show paddle rotation around the canoe hull during a sweep turn.",
+              "socratic_questions": [
+                "Why is keeping your elbows pointed down beneath the paddle shaft essential for protecting your shoulders while recovering balance in rough water?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1758,8 +1773,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Whitewater Requirement 4b(1), many Scouts assume strokes cross forward bow draw only requires a general overview rather than specific details on the following strokes, cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling.",
-                "fact": "The official Whitewater pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document strokes cross forward bow draw and explain the following strokes, cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling during counselor review."
+                "misconception": "Solo canoeists must swap their hand grip across the paddle when transitioning between onside draws and offside cross strokes.",
+                "fact": "Solo paddlers maintain their standard hand grip and rotate their torso across the gunwale to execute efficient offside cross forward and cross draw strokes."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1785,14 +1800,17 @@
               "id": "4b(1)",
               "sub_req_label": "4b(1)",
               "sub_req_text": "Demonstrate the following strokes: cross forward, bow draw, cross bow draw, stern draw, pry, stern pry, sculling draw, and forward with stern pry.",
-              "topic_title": "Req 4b(1): Strokes Cross Forward Bow Draw",
-              "pamphlet_summary": "Strokes Cross Forward Bow Draw: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50).",
+              "topic_title": "Req 4b(1): Solo Canoe Whitewater Maneuvering Strokes",
+              "pamphlet_summary": "Solo Canoe Whitewater Maneuvering Strokes: A solo canoeist commands the entire craft from the center kneeling position by executing draws, cross draws, pries, and sculling motions on both sides of the hull. Rotating the torso across the gunwale permits powerful offside strokes without shifting paddle grip or losing forward trim (p. 50).",
               "pamphlet_excerpts": [
-                "Strokes Cross Forward Bow Draw: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50)."
+                "Solo Canoe Whitewater Maneuvering Strokes: A solo canoeist commands the entire craft from the center kneeling position by executing draws, cross draws, pries, and sculling motions on both sides of the hull. Rotating the torso across the gunwale permits powerful offside strokes without shifting paddle grip or losing forward trim (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p048_img1.png",
               "workbook_diagram_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
-              "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke."
+              "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
+              "socratic_questions": [
+                "How does executing strokes on the offside without switching your grip allow a solo canoeist to maneuver quickly in turbulent rapids?"
+              ]
             },
             {
               "sub_id": "4b(2)",
@@ -1829,8 +1847,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Whitewater Requirement 4b(2) (High Brace Low Brace and Righting Pry), Scouts sometimes overlook the concrete pamphlet benchmarks covering a high brace, low brace, and righting pry.",
-                "fact": "Counselor verification for Whitewater Requirement 4b(2) requires concrete workbook evidence on high brace low brace and righting pry, specifically addressing a high brace, low brace, and righting pry."
+                "misconception": "Pushing down on the water surface with the paddle blade can right a heavily tilted canoe without moving the lower body.",
+                "fact": "Righting a canoe requires an active hip snap to roll the hull upright while the paddle blade provides only momentary surface support."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1856,15 +1874,18 @@
               "id": "4b(2)",
               "sub_req_label": "4b(2)",
               "sub_req_text": "Demonstrate a high brace, low brace, and righting pry.",
-              "topic_title": "Req 4b(2): High Brace Low Brace and Righting Pry",
-              "pamphlet_summary": "High Brace Low Brace and Righting Pry: The Whitewater pamphlet for Requirement 4b(2) details a high brace, low brace, and righting pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50).",
+              "topic_title": "Req 4b(2): Solo Canoe Bracing and Righting",
+              "pamphlet_summary": "Solo Canoe Bracing and Righting: Solo canoeists stabilize unstable hull angles through low braces, high braces, and gunwale-assisted righting pries in turbulent water. The paddler pairs blade support on the water surface with an active hip snap to pull the craft upright before balance is lost (p. 52).",
               "pamphlet_excerpts": [
-                "High Brace Low Brace and Righting Pry: The Whitewater pamphlet for Requirement 4b(2) details a high brace, low brace, and righting pry, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50)."
+                "Solo Canoe Bracing and Righting: Solo canoeists stabilize unstable hull angles through low braces, high braces, and gunwale-assisted righting pries in turbulent water. The paddler pairs blade support on the water surface with an active hip snap to pull the craft upright before balance is lost (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p048_img1.png",
-              "title": "Req 4b(2): High Brace Low Brace and Righting Pry",
+              "title": "Req 4b(2): Solo Canoe Bracing and Righting",
               "workbook_diagram_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
-              "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke."
+              "workbook_visual_caption": "A paddler demonstrates correct body positioning during a forward canoe stroke.",
+              "socratic_questions": [
+                "What role does your lower body play when using a paddle brace to pull a heavily leaned solo canoe back underneath your center of gravity?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1984,8 +2005,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "In Whitewater Requirement 4c(1), many Scouts assume bow draw, rudder, and sculling draw only requires a general overview rather than specific details on the following strokes, bow draw, rudder, and sculling draw.",
-                "fact": "The official Whitewater pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document bow draw, rudder, and sculling draw and explain the following strokes, bow draw, rudder, and sculling draw during counselor review."
+                "misconception": "Wedging a stern rudder deeply under the kayak hull produces the sharpest turn in fast current.",
+                "fact": "Trailing the paddle blade near the stern with a slight outward angle lets moving water turn the kayak without stalling forward momentum."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2011,15 +2032,18 @@
               "id": "4c(1)",
               "sub_req_label": "4c(1)",
               "sub_req_text": "Demonstrate the following strokes: bow draw, rudder, and sculling draw.",
-              "topic_title": "Req 4c(1): Bow draw, rudder, and sculling draw",
-              "pamphlet_summary": "Bow draw, rudder, and sculling draw: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50).",
+              "topic_title": "Req 4c(1): Solo Kayak Directional Control Strokes",
+              "pamphlet_summary": "Solo Kayak Directional Control Strokes: Solo kayakers adjust boat angle and track across rapid features using bow draws ahead of the hips, trailing stern rudders, and active sculling draws. These strokes leverage the double-bladed paddle to pull the kayak sideways or turn the bow without arresting craft momentum (p. 56).",
               "pamphlet_excerpts": [
-                "Bow draw, rudder, and sculling draw: After crossing the eddy line, solo canoeists can use a variety of turning strokes, including a forward sweep or crossbow draw (p. 50)."
+                "Solo Kayak Directional Control Strokes: Solo kayakers adjust boat angle and track across rapid features using bow draws ahead of the hips, trailing stern rudders, and active sculling draws. These strokes leverage the double-bladed paddle to pull the kayak sideways or turn the bow without arresting craft momentum (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p037_img1.png",
-              "title": "Req 4c(1): Bow draw, rudder, and sculling draw",
+              "title": "Req 4c(1): Solo Kayak Directional Control Strokes",
               "workbook_diagram_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
-              "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear."
+              "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
+              "socratic_questions": [
+                "How does adjusting the blade angle of a trailing stern rudder let moving current turn your kayak without draining your forward speed?"
+              ]
             },
             {
               "sub_id": "4c(2)",
@@ -2060,8 +2084,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)",
               "common_misconception_pair": {
-                "misconception": "When preparing Whitewater Requirement 4c(2) (High Brace and Low Brace), Scouts sometimes overlook the concrete pamphlet benchmarks covering a high brace and low brace.",
-                "fact": "Counselor verification for Whitewater Requirement 4c(2) requires concrete workbook evidence on high brace and low brace, specifically addressing a high brace and low brace."
+                "misconception": "Reaching both arms far out away from the kayak provides the most solid support during a high brace.",
+                "fact": "Keeping elbows bent and tucked inside the paddling box protects shoulder joints from dangerous dislocation while delivering maximum bracing leverage."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2087,14 +2111,17 @@
               "id": "4c(2)",
               "sub_req_label": "4c(2)",
               "sub_req_text": "Demonstrate a high brace and low brace.",
-              "topic_title": "Req 4c(2): High Brace and Low Brace",
-              "pamphlet_summary": "High Brace and Low Brace: The Whitewater pamphlet for Requirement 4c(2) details a high brace and low brace, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50).",
+              "topic_title": "Req 4c(2): Solo Kayak Recovery Bracing Techniques",
+              "pamphlet_summary": "Solo Kayak Recovery Bracing Techniques: Kayakers recover from severe tilts in heavy whitewater by slapping the water surface with a low brace or pulling down on a high brace. Maintaining bent elbows inside the torso paddling box preserves shoulder stability while the lower body snaps the kayak upright (p. 58).",
               "pamphlet_excerpts": [
-                "High Brace and Low Brace: The Whitewater pamphlet for Requirement 4c(2) details a high brace and low brace, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 50)."
+                "Solo Kayak Recovery Bracing Techniques: Kayakers recover from severe tilts in heavy whitewater by slapping the water surface with a low brace or pulling down on a high brace. Maintaining bent elbows inside the torso paddling box preserves shoulder stability while the lower body snaps the kayak upright (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/whitewater_p037_img1.png",
               "workbook_diagram_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
-              "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear."
+              "workbook_visual_caption": "A kayaker navigates turbulent whitewater rapids while wearing essential safety gear.",
+              "socratic_questions": [
+                "Why does keeping your arms inside the paddling box give you better mechanical leverage and injury protection during an aggressive high brace?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3301,14 +3328,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used",
-          "2. Practical execution and real-world examples for Essential Personal and Group Gear"
+          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used"
         ],
         "rows": [
-          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used",
-          "2. Practical execution and real-world examples for Essential Personal and Group Gear"
+          "1. Review with your counselor the personal and group equipment necessary for a safe whitewater outing and how and why it is used"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Standard hardware store climbing rope works fine as a rescue throw line on river outings.",
@@ -4958,18 +4983,18 @@
         "options": [
           "A. Tie a bowline loop around the waist and swim headfirst toward the rescuer.",
           "B. Wrap the rope three times around the dominant wrist and float face down.",
-          "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled, and float on your back with feet downstream.",
+          "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled.",
           "D. Clip the end of the throw rope directly to the front zipper of the lifejacket."
         ],
         "choices": [
           "A. Tie a bowline loop around the waist and swim headfirst toward the rescuer.",
           "B. Wrap the rope three times around the dominant wrist and float face down.",
-          "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled, and float on your back with feet downstream.",
+          "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled.",
           "D. Clip the end of the throw rope directly to the front zipper of the lifejacket."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled, and float on your back with feet downstream.",
+        "correct_answer": "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled.",
         "explanation": "Correct Answer (C): A swimmer receiving a throw rope should never wrap or tie the line around their body, and instead should float on their back holding the rope over the shoulder opposite the rescuer so the current swings them to shore without pulling their face underwater (p. 72).",
         "pamphlet_page_ref": "p. 71, p. 72"
       },
@@ -5503,17 +5528,17 @@
           "A. Only the names of the boats and the brand of paddles used by each participant.",
           "B. A pledge to run every rapid without scouting or portaging to stay on schedule.",
           "C. A map of Class V rapids for novice paddlers to test their limits.",
-          "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions, and emergency procedures for weather, gear, or medical issues."
+          "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions."
         ],
         "choices": [
           "A. Only the names of the boats and the brand of paddles used by each participant.",
           "B. A pledge to run every rapid without scouting or portaging to stay on schedule.",
           "C. A map of Class V rapids for novice paddlers to test their limits.",
-          "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions, and emergency procedures for weather, gear, or medical issues."
+          "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions, and emergency procedures for weather, gear, or medical issues.",
+        "correct_answer": "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions.",
         "explanation": "Correct Answer (D): A complete whitewater trip plan specifies the route (put-ins and takeouts), time schedule, required equipment, safety precautions, and emergency contingency procedures (p. 44).",
         "pamphlet_page_ref": "p. 44, p. 74"
       },
@@ -5546,13 +5571,13 @@
         "A. Standing up scares downstream paddlers into dropping their throw bags.",
         "B. River rocks are too slippery to push your boat upstream against the current.",
         "C. Standing upright causes your lifejacket to lose buoyancy when splashed.",
-        "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head underwater (foot entrapment); instead, float on your back with feet up and pointed downstream."
+        "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head."
       ],
       "choices": [
         "A. Standing up scares downstream paddlers into dropping their throw bags.",
         "B. River rocks are too slippery to push your boat upstream against the current.",
         "C. Standing upright causes your lifejacket to lose buoyancy when splashed.",
-        "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head underwater (foot entrapment); instead, float on your back with feet up and pointed downstream."
+        "D. Your foot can wedge between rocks on the riverbed while the force of the current pushes your body downstream and holds your head."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -5775,13 +5800,13 @@
       "options": [
         "A. Tie a bowline loop around the waist and swim headfirst toward the rescuer.",
         "B. Wrap the rope three times around the dominant wrist and float face down.",
-        "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled, and float on your back with feet downstream.",
+        "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled.",
         "D. Clip the end of the throw rope directly to the front zipper of the lifejacket."
       ],
       "choices": [
         "A. Tie a bowline loop around the waist and swim headfirst toward the rescuer.",
         "B. Wrap the rope three times around the dominant wrist and float face down.",
-        "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled, and float on your back with feet downstream.",
+        "C. Hold the rope with both hands at chest level, feed it over the shoulder opposite the shore to which you are being pulled.",
         "D. Clip the end of the throw rope directly to the front zipper of the lifejacket."
       ],
       "correct_index": 2,
@@ -5799,13 +5824,13 @@
         "A. Only the names of the boats and the brand of paddles used by each participant.",
         "B. A pledge to run every rapid without scouting or portaging to stay on schedule.",
         "C. A map of Class V rapids for novice paddlers to test their limits.",
-        "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions, and emergency procedures for weather, gear, or medical issues."
+        "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions."
       ],
       "choices": [
         "A. Only the names of the boats and the brand of paddles used by each participant.",
         "B. A pledge to run every rapid without scouting or portaging to stay on schedule.",
         "C. A map of Class V rapids for novice paddlers to test their limits.",
-        "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions, and emergency procedures for weather, gear, or medical issues."
+        "D. The route with put-ins and takeouts, schedule, equipment list, safety precautions."
       ],
       "correct_index": 3,
       "correct_letter": "D",

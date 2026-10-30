@@ -57,7 +57,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Dog Care Origins and Evolution
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Dog Care reference illustration comparing key components and stages of dog origins groups and breeds for Requirement 1.](/assets/pamphlet_images/dog_care_p003_img1.png)
+![Dog Care Requirement 1 figure showing archaeological evidence shows domestic canines emerged from ancestral canids.](/assets/pamphlet_images/dog_care_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -85,7 +85,7 @@
 - **Common Myth:** Individual purebred dogs within a breed exhibit identical temperaments regardless of working drive.
 - **Pamphlet Fact:** Standardized physical traits must align with historical utility standards described in national breed registries.
 
-![Practical Dog Care field visual showing proper setup, measurement, and technique for canine anatomy and body parts in Requirement 2.](/assets/pamphlet_images/dog_care_p007_img1.png)
+![Dog Care Requirement 2 figure showing the dorsal ridge formed by third through fifth thoracic vertebrae determines shoulder height.](/assets/pamphlet_images/dog_care_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 - **Common Myth:** Rubbing a dog nose in indoor accidents teaches effective housebreaking through corrective punishment.
 - **Pamphlet Fact:** Predictable routines and enzymatic cleanup prevent indoor scent marking and learned housebreaking relapse.
 
-![Illustrated Dog Care technical diagram of training socialization and breed selection for Requirement 3 field execution.](/assets/pamphlet_images/dog_care_p012_img1.png)
+![Dog Care Requirement 3 figure showing early neurological development between three and fourteen weeks dictates lifetime.](/assets/pamphlet_images/dog_care_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -456,7 +456,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Visit a veterinary hospital or an animal shelter and give a report about your visit to your counselor.** | `____________________________________` | `____________________________________` |
+| **1. Visit a veterinary hospital or an animal shelter and give a report about your visit to your counselor** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Biosecurity Intake Quarantines: Physical isolation wards prevent airborne viral transmission from newly admitted unknown strays.
@@ -477,7 +477,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Know the laws and ordinances involving dogs that are in force in your community.** | `____________________________________` | `____________________________________` |
+| **1. Know the laws and ordinances involving dogs that are in force in your community** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - State laws require current rabies vaccination tags affixed to collars during public outings.

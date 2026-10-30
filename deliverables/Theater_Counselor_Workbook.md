@@ -96,7 +96,7 @@
 - **Common Myth:** Stage acting merely requires memorizing dialogue and reciting lines loudly toward the audience.
 - **Pamphlet Fact:** Vocal projection relies on diaphragmatic breath support rather than straining the throat muscles.
 
-![Illustrated Theater technical diagram of theater safety and production roles for Requirement 3 field execution.](/assets/pamphlet_images/theater_p012_img1.png)
+![Theater Requirement 3 figure showing technicians must keep wings free of cables, loose lumber, and unweighted scenic flats.](/assets/pamphlet_images/theater_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -127,7 +127,7 @@
 - **Common Myth:** A set design model is decorative rather than a precise engineering and spatial tool.
 - **Pamphlet Fact:** Scale models provide three-dimensional spatial validation for director blocking and lighting angle feasibility.
 
-![Practical Theater field visual showing proper setup, measurement, and technique for reviewing full-length plays and performances in Requirement 1.](/assets/pamphlet_images/theater_p003_img1.png)
+![Theater Requirement 1 figure showing reading full scripts reveals internal character motivations and thematic structure.](/assets/pamphlet_images/theater_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 - **Common Myth:** Costume design involves pulling random historical garments from storage without color or character palette.
 - **Pamphlet Fact:** Historical stage costumes must communicate period accuracy while withstanding rapid backstage garment changes.
 
-![Illustrated Theater technical diagram of writing a ten-minute one-act play for Requirement 2 field execution.](/assets/pamphlet_images/theater_p007_img1.png)
+![Theater Requirement 2 figure showing central characters must pursue clear, urgent objectives that encounter immediate resistance.](/assets/pamphlet_images/theater_p007_img1.png)
 
 | Req 3d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -346,7 +346,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the following: proscenium arch, central or arena staging, center stage, stage right, stage left, downstage, upstage, stage crew, flies, portal, cyclorama, stage brace, spotlight, floodlight, lighting control** | `____________________________________` | `____________________________________` |
+| **1. Explain the following: proscenium arch, central or arena staging, center stage, stage right, stage left, downstage, upstage, stage crew, flies, portal** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Stage coordinates reflect the performer's perspective facing outward toward the seated auditorium audience.

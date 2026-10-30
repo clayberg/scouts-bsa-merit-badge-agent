@@ -54,7 +54,7 @@
 - **Common Myth:** Inventions only benefit the individual creator rather than fueling broad economic market growth.
 - **Pamphlet Fact:** Inventions stimulate capital investment and establish entirely new commercial sectors across national economies.
 
-![Step-by-step Inventing visual guide highlighting defining inventions and economic impact positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/inventing_p003_img1.png)
+![Inventing Requirement 1 figure showing novel devices resolve everyday human challenges by transforming raw concepts.](/assets/pamphlet_images/inventing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - **Common Myth:** Inventors build flawless commercial models on their very first physical fabrication attempt.
 - **Pamphlet Fact:** Prototyping reveals hidden physical flaws that never appear in two dimensional concept sketches.
 
-![Detailed Inventing reference illustration comparing key components and stages of learning from real-world inventors for Requirement 2.](/assets/pamphlet_images/inventing_p007_img1.png)
+![Inventing Requirement 2 figure showing direct interviews reveal practical trade secrets regarding prototyping trials.](/assets/pamphlet_images/inventing_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -142,7 +142,7 @@
 - **Common Myth:** A single copyright covers mechanical inventions, brand logos, and trade secrets simultaneously.
 - **Pamphlet Fact:** Trademarks protect brand names and symbols while patents protect functional mechanisms or ornamental designs.
 
-![Detailed Inventing reference illustration comparing key components and stages of intellectual property and patent protection for Requirement 3.](/assets/pamphlet_images/inventing_p012_img1.png)
+![Inventing Requirement 3 figure showing federal agencies grant exclusive manufacturing rights to protect investments.](/assets/pamphlet_images/inventing_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

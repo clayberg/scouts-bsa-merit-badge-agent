@@ -52,7 +52,7 @@
 - **Common Myth:** Race organizers bear sole responsibility for identifying course hazards during competition.
 - **Pamphlet Fact:** Athletes must actively scout transition zones and road corridors to identify surface obstacles before race day.
 
-![Practical Multisport field visual showing proper setup, measurement, and technique for multisport hazard prevention and first aid in Requirement 1.](/assets/pamphlet_images/multisport_p003_img1.png)
+![Multisport Requirement 1 figure showing cold open water immersion demands wetsuits to maintain core body temperature effectively.](/assets/pamphlet_images/multisport_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -93,7 +93,7 @@
 - **Common Myth:** A school sports physical is merely a formal administrative requirement without medical necessity.
 - **Pamphlet Fact:** Physical examinations track developmental growth markers and identify subclinical respiratory conditions like exercise-induced asthma.
 
-![Illustrated Multisport technical diagram of physical exams and healthy training habits for Requirement 2 field execution.](/assets/pamphlet_images/multisport_p007_img1.png)
+![Multisport Requirement 2 figure showing annual physical examinations uncover hidden cardiovascular anomalies and verify overall.](/assets/pamphlet_images/multisport_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -164,7 +164,7 @@
 - **Common Myth:** Athletes should dedicate almost all training hours exclusively to their single strongest discipline.
 - **Pamphlet Fact:** Cross-training in an athlete's weaker discipline improves core stability and enhances performance across all sports.
 
-![Illustrated Multisport technical diagram of multisport event formats and essential gear for Requirement 3 field execution.](/assets/pamphlet_images/multisport_p012_img1.png)
+![Multisport Requirement 3 figure showing swimming precedes cycling to prevent dangerous muscle cramps in deep open waters.](/assets/pamphlet_images/multisport_p012_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -226,11 +226,11 @@
 - Triathlon preparation requires earning the Swimming merit badge and mastering the eight points of Safe Swim Defense. Athletes must demonstrate efficient forward crawl strokes, bilateral breathing, and open-water navigation around fixed buoy markers.
 - Req 4a Standard (Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)): Option A, Triathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) .. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit. (2) Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather. (3) Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 
-#### Req 4a(1): Safe Swim Defense and Safety Afloat
+#### Req 4a(1): Triathlon Swimming Safety Protocols
 **Official Requirement 4a(1):** Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) .. Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (2-Column Comparison Table):** Req 4a(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** In Multisport Requirement 4a(1), many Scouts assume safe swim defense and safety afloat only requires a general overview rather than specific details on swimming (a) before doing requirements 5 through 8, earn the swimming merit badge.
-- **Pamphlet Fact:** The official Multisport pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document safe swim defense and safety afloat and explain swimming (a) before doing requirements 5 through 8, earn the swimming merit badge during counselor review.
+- **Common Myth:** Strong competitive swimmers can bypass troop swim checks and safety defense rules during private triathlon training.
+- **Pamphlet Fact:** Qualified supervision and buddy systems apply to all Scouting swimming activities regardless of individual athletic experience or competition rank.
 
 ![A triathlete wearing swim goggles and a cap powers through open water waves.](/assets/pamphlet_images/multisport_p032_img3.png)
 
@@ -242,12 +242,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): Biking Predictably Conspicuous Think
+#### Req 4a(2): Triathlon Cycling Safety Standards
 **Official Requirement 4a(2):** Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Multisport Req 4a(2) inspection prior to hands-on station work.
-- **Common Myth:** When preparing Multisport Requirement 4a(2) (Biking Predictably Conspicuous Think), Scouts sometimes overlook the concrete pamphlet benchmarks covering biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
-- **Pamphlet Fact:** Counselor verification for Multisport Requirement 4a(2) requires concrete workbook evidence on biking predictably conspicuous think, specifically addressing biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
+- **Common Myth:** Cyclists have right of way over motor vehicles and can rely entirely on drivers stopping at intersections.
+- **Pamphlet Fact:** Bicyclists must follow the same traffic laws as motor vehicles while actively scanning ahead to yield defensively when drivers fail to see them.
 
 ![A doctor checks a youth health during an annual physical exam before sports season.](/assets/pamphlet_images/multisport_p023_img1.png)
 
@@ -259,11 +259,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(3): Running Demonstrate a proper run warmup
+#### Req 4a(3): Triathlon Running Fundamentals
 **Official Requirement 4a(3):** Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 4a(3) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)
-- **Common Myth:** For Multisport Requirement 4a(3), a common mistake in running demonstrate a proper run warmup is treating running (a) demonstrate a proper run warmup and cool as optional background reading.
-- **Pamphlet Fact:** Mastering Multisport Requirement 4a(3) means following the pamphlet standard for running demonstrate a proper run warmup and recording accurate notes on running (a) demonstrate a proper run warmup and cool.
+- **Common Myth:** Running training progress depends solely on running hard every day without scheduled rest days or cross-training recovery.
+- **Pamphlet Fact:** Rest days and easy recovery runs allow muscle tissue to repair and adapt, preventing debilitating overuse injuries like shin splints and stress fractures.
 
 ![A family sits together enjoying a nutritious meal essential for athletic endurance.](/assets/pamphlet_images/multisport_p027_img1.png)
 
@@ -286,12 +286,12 @@
 - Duathlon training emphasizes defensive road positioning, hand signaling, and proactive scanning for road hazards and intersections. Routine maintenance checks on tire casing integrity, brake pad wear, and gear cables prevent mechanical failures at speed.
 - Req 4b Standard (Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)): Option B, Duathlon. (1) Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather. (2) Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 
-#### Req 4b(1): Biking Predictably Conspicuous Think
+#### Req 4b(1): Duathlon Cycling Safety Protocols
 **Official Requirement 4b(1):** Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4b(1) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Multisport Req 4b(1) inspection prior to hands-on station work.
-- **Common Myth:** In Multisport Requirement 4b(1), many Scouts assume biking predictably conspicuous think only requires a general overview rather than specific details on biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
-- **Pamphlet Fact:** The official Multisport pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document biking predictably conspicuous think and explain biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready during counselor review.
+- **Common Myth:** Duathlon cycling safety rules are less demanding than triathlon cycling rules because competitors avoid swimming in water.
+- **Pamphlet Fact:** Transitioning directly from a hard run onto a bicycle causes leg fatigue that increases the risk of road handling errors, requiring identical cycling safety vigilance.
 
 ![A lightweight road bicycle is displayed showing gears and tires for multisport racing.](/assets/pamphlet_images/multisport_p033_img1.png)
 
@@ -303,11 +303,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b(2): Running Demonstrate a proper run warmup
+#### Req 4b(2): Duathlon Running Fundamentals and Safety
 **Official Requirement 4b(2):** Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 4b(2) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)
-- **Common Myth:** When preparing Multisport Requirement 4b(2) (Running Demonstrate a proper run warmup), Scouts sometimes overlook the concrete pamphlet benchmarks covering running (a) demonstrate a proper run warmup and cool.
-- **Pamphlet Fact:** Counselor verification for Multisport Requirement 4b(2) requires concrete workbook evidence on running demonstrate a proper run warmup, specifically addressing running (a) demonstrate a proper run warmup and cool.
+- **Common Myth:** Running conditioning requires only running mileage without dynamic mobility drills or formal road safety precautions.
+- **Pamphlet Fact:** Duathletes need dynamic drills, structured recovery habits, and road running safety protocols to avoid overuse injuries and navigate traffic safely.
 
 ![A padded fingerless glove protects hands and improves grip while riding a road bike.](/assets/pamphlet_images/multisport_p034_img1.png)
 
@@ -329,11 +329,11 @@
 - Aquathlon athletes must fulfill Swimming merit badge prerequisites and implement Safe Swim Defense lookout provisions. Transitioning from the swim to the run demands controlled breathing techniques to manage post-immersion disorientation.
 - Req 4c Standard (Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)): Option C, Aquathlon. (1) Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit. (2) Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 
-#### Req 4c(1): Safe Swim Defense and Safety Afloat
+#### Req 4c(1): Aquathlon Swimming Safety and Defense Protocols
 **Official Requirement 4c(1):** Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (2-Column Comparison Table):** Req 4c(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** In Multisport Requirement 4c(1), many Scouts assume safe swim defense and safety afloat only requires a general overview rather than specific details on swimming (a) before doing requirements 5 through 8, earn the swimming merit badge.
-- **Pamphlet Fact:** The official Multisport pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document safe swim defense and safety afloat and explain swimming (a) before doing requirements 5 through 8, earn the swimming merit badge during counselor review.
+- **Common Myth:** Competent swimmers can skip formal pool safety guidelines and open water safety preparations during multisport events.
+- **Pamphlet Fact:** Every aquatic training session and race must incorporate Safe Swim Defense procedures, certified supervision, and venue-specific hazard assessments regardless of a swimmer's skill level.
 
 ![An athlete drinks juice alongside fresh fruit and oatmeal to refuel after training.](/assets/pamphlet_images/multisport_p044_img1.png)
 
@@ -345,11 +345,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c(2): Running Demonstrate a proper run warmup
+#### Req 4c(2): Aquathlon Running Conditioning and Safety
 **Official Requirement 4c(2):** Running (a) Demonstrate a proper run warmup and cool-down. Explain to your counselor the importance of maintaining healthy habits, including hydration, nutrition, injury prevention, and rest. (b) Learn and state the basic rules of the road for runners. (c) Demonstrate important running drills, including high knees, butt kicks, lunges, inchworms, and soldier kicks.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Skill Demonstration Checklist):** Req 4c(2) Hands-On Skill Station & EDGE Verification Checklist (Running A Demonstrate A Proper)
-- **Common Myth:** When preparing Multisport Requirement 4c(2) (Running Demonstrate a proper run warmup), Scouts sometimes overlook the concrete pamphlet benchmarks covering running (a) demonstrate a proper run warmup and cool.
-- **Pamphlet Fact:** Counselor verification for Multisport Requirement 4c(2) requires concrete workbook evidence on running demonstrate a proper run warmup, specifically addressing running (a) demonstrate a proper run warmup and cool.
+- **Common Myth:** Transitioning from swimming straight into running requires no specialized recovery pacing or running safety knowledge.
+- **Pamphlet Fact:** The rapid change from horizontal swimming to upright running causes blood pooling and disorientation, requiring practiced running mechanics and sharp situational awareness.
 
 ![Two cyclists pause along an outdoor path during an endurance bike training session.](/assets/pamphlet_images/multisport_p048_img1.png)
 
@@ -372,11 +372,11 @@
 - Aquabike training couples open-water safety protocols with comprehensive bicycle mechanical evaluations before entering road courses. Systematic inspections of brake levers, tire seating, and drive trains ensure equipment reliability under high athletic loads.
 - Req 4d Standard (Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)): Option D, Aquabike. (1) Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit. (2) Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather.
 
-#### Req 4d(1): Safe Swim Defense and Safety Afloat
+#### Req 4d(1): Aquabike Swimming Discipline Safety Foundations
 **Official Requirement 4d(1):** Swimming (a) Before doing requirements 5 through 8, earn the Swimming merit badge. (b) Explain the components of the Scouting America Safe Swim Defense guidelines and how you will ensure they are in place when you swim. (c) Explain to your counselor the difference between a pool swim and an open water swim, including at what water temperature it is appropriate to wear a wet suit.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (2-Column Comparison Table):** Req 4d(1) Technical Comparison Matrix (Safe Swim Defense and Safety Afloat)
-- **Common Myth:** In Multisport Requirement 4d(1), many Scouts assume safe swim defense and safety afloat only requires a general overview rather than specific details on swimming (a) before doing requirements 5 through 8, earn the swimming merit badge.
-- **Pamphlet Fact:** The official Multisport pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document safe swim defense and safety afloat and explain swimming (a) before doing requirements 5 through 8, earn the swimming merit badge during counselor review.
+- **Common Myth:** Strong cyclists do not need structured swim safety credentials because the bike segment makes up the majority of an aquabike race distance.
+- **Pamphlet Fact:** Most race emergencies in multisport occur during the swim portion, making verified aquatic competency and water safety defense nonnegotiable regardless of cycling prowess.
 
 ![Athletes perform strength exercises inside a gym to condition muscles for multisport.](/assets/pamphlet_images/multisport_p056_img1.png)
 
@@ -388,12 +388,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4d(2): Biking Predictably Conspicuous Think
+#### Req 4d(2): Comprehensive Cycling Safety and Maintenance Protocols
 **Official Requirement 4d(2):** Biking (a) Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready. (b) Discuss what should be checked regularly to make sure the bicycle is safe to ride. (c) Explain the importance of wearing a properly sized and fitted helmet while cycling and of wearing the right clothing for the weather.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 32, p. 54)* • **Organizer (Concept & Examples Notes):** Req 4d(2) Structured Technical Study & Explanation Matrix (Biking Predictably Conspicuous Think)
 > **Starting Gate (Required Gear & Equipment Inspection):** Required Field Gear / PPE Inspection - Bring required personal gear or PPE for Multisport Req 4d(2) inspection prior to hands-on station work.
-- **Common Myth:** When preparing Multisport Requirement 4d(2) (Biking Predictably Conspicuous Think), Scouts sometimes overlook the concrete pamphlet benchmarks covering biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
-- **Pamphlet Fact:** Counselor verification for Multisport Requirement 4d(2) requires concrete workbook evidence on biking predictably conspicuous think, specifically addressing biking (a) explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
+- **Common Myth:** Modern bicycles and safety equipment require inspection only after a mechanical breakdown or high-impact crash occurs.
+- **Pamphlet Fact:** Routine pre-ride safety checks and helmet fit evaluations are required before every ride to identify subtle structural compromises before they cause roadside failures.
 
 ![An athlete stretches her leg muscles on a mat in the grass to maintain flexibility.](/assets/pamphlet_images/multisport_p061_img2.png)
 

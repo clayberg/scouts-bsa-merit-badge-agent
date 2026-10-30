@@ -56,7 +56,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Step-by-step Scuba Diving visual guide highlighting diving first aid and cpr positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/scuba_diving_p003_img1.png)
+![Scuba Diving Requirement 1 figure showing divers pinch nostrils and exhale gently to equalize middle ear pressure during descent.](/assets/pamphlet_images/scuba_diving_p003_img1.png)
 
 | Condition / Emergency | Recognizable Signs & Symptoms | Step-by-Step First-Aid Care | Field Prevention Standard |
 | :--- | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Before completing requirements 3 through 6, earn the Swimming merit badge.** | `____________________________________` | `____________________________________` |
+| **1. Before completing requirements 3 through 6, earn the Swimming merit badge** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Strong swimming strokes ensure divers navigate surface currents without exhausting their breathing gas.
@@ -113,7 +113,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety.** | `____________________________________` | `____________________________________` |
+| **1. Discuss the Scuba Diver's Code with your counselor, and explain the importance of each guideline to a scuba diver's safety** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Buddy Integrity: Paired divers maintain visual contact and agree upon underwater signals before water entry.
@@ -134,7 +134,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy.** | `____________________________________` | `____________________________________` |
+| **1. Earn an Open Water Diver Certification from a scuba organization recognized by the Scouting America scuba policy** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Regulator Recovery: Sweeping the right arm locates a dislodged hose for rapid underwater regulator replacement.
@@ -155,7 +155,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience.** | `____________________________________` | `____________________________________` |
+| **1. Explain what an ecosystem is, and describe four aquatic ecosystems a diver might experience** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Coral Ecosystem: Tropical reefs feature calcium carbonate structures hosting symbiotic algae and diverse fish species.

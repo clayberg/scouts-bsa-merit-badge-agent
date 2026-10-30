@@ -60,7 +60,7 @@
 - **Common Myth:** Emergency questions only matter once an evacuation order is officially issued.
 - **Pamphlet Fact:** Proactive questioning uncovers critical supply shortages and structural hazards beforehand.
 
-![Detailed Emergency Preparedness reference illustration comparing key components and stages of five aspects of emergency preparedness for Requirement 1.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
+![Emergency Preparedness Requirement 1 figure showing structural hardening and hazard reduction lower community vulnerability.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - **Common Myth:** Sheltering-in-place simply means locking exterior doors and staying inside normally.
 - **Pamphlet Fact:** Chemical sheltering requires sealing vents, windows, and doors with plastic sheeting.
 
-![Practical Emergency Preparedness field visual showing proper setup, measurement, and technique for family emergency planning and kits in Requirement 2.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
+![Emergency Preparedness Requirement 2 figure showing sealing interior rooms protects residents from airborne chemical or radiological plumes.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -203,7 +203,7 @@
 - **Common Myth:** Smoke alarms remain fully functional as long as the test button beeps.
 - **Pamphlet Fact:** Sensor degradation requires replacing entire smoke detector units every ten years.
 
-![Illustrated Emergency Preparedness technical diagram of preventing home and activity accidents for Requirement 3 field execution.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
+![Emergency Preparedness Requirement 3 figure showing frayed cords and overloaded extension circuits present severe residential fire hazards.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

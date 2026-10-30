@@ -49,7 +49,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission).** | `____________________________________` | `____________________________________` |
+| **1. View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's permission)** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Cyberbullying Reporting: Harassment messages must be documented and shared with parents immediately for safety.
@@ -84,7 +84,7 @@
 - [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
 - [ ] Saved project files, screenshots, or code listing for Evolution of Computing Technology
 
-![Practical Digital Technology field visual showing proper setup, measurement, and technique for evolution of computing technology in Requirement 2.](/assets/pamphlet_images/digital_technology_p007_img1.png)
+![Digital Technology Requirement 2 figure showing early mainframe computers used delicate glass vacuum tubes that generated immense heat.](/assets/pamphlet_images/digital_technology_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -126,7 +126,7 @@
 - **Common Myth:** Digital images store physical ink dots rather than numeric color values per coordinate.
 - **Pamphlet Fact:** Standard ASCII assigns seven or eight bits per character, while Unicode supports international character sets.
 
-![Practical Digital Technology field visual showing proper setup, measurement, and technique for data representation and computer networks in Requirement 3.](/assets/pamphlet_images/digital_technology_p012_img1.png)
+![Digital Technology Requirement 3 figure showing text characters map directly to numerical values through standard ASCII tables.](/assets/pamphlet_images/digital_technology_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -154,7 +154,7 @@
 - **Common Myth:** Modern digital devices function purely through physical electronic switches without internal firmware.
 - **Pamphlet Fact:** Embedded microcontrollers execute programmed firmware routines to adjust device operation based on sensor feedback.
 
-![Detailed Digital Technology reference illustration comparing key components and stages of personal digital safety awareness for Requirement 1.](/assets/pamphlet_images/digital_technology_p003_img1.png)
+![Digital Technology Requirement 1 figure showing harassment messages must be documented and shared with parents immediately for safety.](/assets/pamphlet_images/digital_technology_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

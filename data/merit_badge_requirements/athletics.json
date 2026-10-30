@@ -318,19 +318,19 @@
         "question": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
         "options": [
           "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
-          "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+          "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers.",
           "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
           "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped."
         ],
         "choices": [
           "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
-          "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+          "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers.",
           "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
           "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+        "correct_answer": "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers.",
         "explanation": "Correct Answer (B): Hot skin combined with altered mental status (confusion or dizziness) during exertion indicates heatstroke, a medical emergency requiring immediate EMS activation and aggressive cooling per the Athletics Merit Badge Pamphlet.",
         "pamphlet_page_ref": "p. 57, p. 59"
       },
@@ -1801,8 +1801,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5a(1), many Scouts assume 100-meter dash only requires a general overview rather than specific details on 100-meter dash.",
-                "fact": "The official Athletics pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document 100-meter dash and explain 100-meter dash during counselor review."
+                "misconception": "Sprinters must stand upright immediately after the starting gun to achieve top running speed as quickly as possible.",
+                "fact": "Athletes should stay low during the initial drive phase and rise gradually to maintain horizontal acceleration out of the blocks."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1828,14 +1828,17 @@
               "id": "5a(1)",
               "sub_req_label": "5a(1)",
               "sub_req_text": "100-meter dash.",
-              "topic_title": "Req 5a(1): 100-meter Dash",
-              "pamphlet_summary": "100-meter Dash: The Athletics pamphlet for Requirement 5a(1) details 100-meter dash, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5a(1): One Hundred Meter Dash Mechanics",
+              "pamphlet_summary": "One Hundred Meter Dash Mechanics: Runners explode from starting blocks with a low drive angle and gradually transition into an upright sprint posture over the first thirty meters. Maximum velocity requires high knee drive, powerful arm swings, and striking the track on the balls of the feet (p. 20).",
               "pamphlet_excerpts": [
-                "100-meter Dash: The Athletics pamphlet for Requirement 5a(1) details 100-meter dash, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "One Hundred Meter Dash Mechanics: Runners explode from starting blocks with a low drive angle and gradually transition into an upright sprint posture over the first thirty meters. Maximum velocity requires high knee drive, powerful arm swings, and striking the track on the balls of the feet (p. 20)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/athletics_p025_img1.png",
               "workbook_diagram_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race.",
-              "workbook_visual_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race."
+              "workbook_visual_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race.",
+              "socratic_questions": [
+                "How does staying low during the first few strides out of the blocks help you build greater speed down the track?"
+              ]
             },
             {
               "sub_id": "5a(2)",
@@ -1867,8 +1870,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5a(2) (200-meter Dash), Scouts sometimes overlook the concrete pamphlet benchmarks covering 200-meter dash.",
-                "fact": "Counselor verification for Athletics Requirement 5a(2) requires concrete workbook evidence on 200-meter dash, specifically addressing 200-meter dash."
+                "misconception": "Running the curve requires planting the feet wide and decelerating to avoid spinning off balance.",
+                "fact": "Sprinting through the bend requires leaning into the curve from the ankles while preserving rapid turnover and powerful arm action."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1894,14 +1897,17 @@
               "id": "5a(2)",
               "sub_req_label": "5a(2)",
               "sub_req_text": "200-meter dash.",
-              "topic_title": "Req 5a(2): 200-meter Dash",
-              "pamphlet_summary": "200-meter Dash: The Athletics pamphlet for Requirement 5a(2) details 200-meter dash, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5a(2): Two Hundred Meter Curve Sprinting",
+              "pamphlet_summary": "Two Hundred Meter Curve Sprinting: Sprinting around the curve requires leaning slightly inward from the ankles while maintaining rapid stride cadence and full shoulder rotation. Once reaching the straightaway, the runner focuses on relaxing the upper body while driving forward toward the finish line (p. 22).",
               "pamphlet_excerpts": [
-                "200-meter Dash: The Athletics pamphlet for Requirement 5a(2) details 200-meter dash, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Two Hundred Meter Curve Sprinting: Sprinting around the curve requires leaning slightly inward from the ankles while maintaining rapid stride cadence and full shoulder rotation. Once reaching the straightaway, the runner focuses on relaxing the upper body while driving forward toward the finish line (p. 22)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/athletics_p025_img1.png",
               "workbook_diagram_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race.",
-              "workbook_visual_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race."
+              "workbook_visual_caption": "A sprinter crouches in the starting stance on an all-weather running track before a race.",
+              "socratic_questions": [
+                "Why should a runner lean into the turn from their ankles rather than bending sideways at the waist when rounding the bend?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2009,8 +2015,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5b(1), many Scouts assume athletics requirement 5b(1) techniques only requires a general overview rather than specific details on athletics requirement 5b(1) techniques.",
-                "fact": "The official Athletics pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document athletics requirement 5b(1) techniques and explain athletics requirement 5b(1) techniques during counselor review."
+                "misconception": "A runner should sprint the first lap as fast as possible to build an insurmountable early lead.",
+                "fact": "Starting at a controlled, sustainable target pace conserves glycogen stores and prevents early lactic acid buildup."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2036,14 +2042,17 @@
               "id": "5b(1)",
               "sub_req_label": "5b(1)",
               "sub_req_text": "3k run.",
-              "topic_title": "Req 5b(1): Athletics Requirement 5b(1) Techniques",
-              "pamphlet_summary": "Athletics Requirement 5b(1) Techniques: The Athletics pamphlet for Requirement 5b(1) details core principles and practical standards for athletics requirement 5b(1) techniques, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5b(1): Three Kilometer Endurance Running Pace",
+              "pamphlet_summary": "Three Kilometer Endurance Running Pace: Sustaining a three-kilometer pace requires maintaining an even split across every kilometer rather than surging during the opening laps. Runners utilize upright posture, relaxed shoulders, and rhythmic belly breathing to preserve oxygen throughout the distance (p. 28).",
               "pamphlet_excerpts": [
-                "Athletics Requirement 5b(1) Techniques: The Athletics pamphlet for Requirement 5b(1) details core principles and practical standards for athletics requirement 5b(1) techniques, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Three Kilometer Endurance Running Pace: Sustaining a three-kilometer pace requires maintaining an even split across every kilometer rather than surging during the opening laps. Runners utilize upright posture, relaxed shoulders, and rhythmic belly breathing to preserve oxygen throughout the distance (p. 28)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "What happens to your leg muscles and oxygen supply when you run the opening lap of a long race at sprint speed?"
+              ]
             },
             {
               "sub_id": "5b(2)",
@@ -2075,8 +2084,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5b(2) (Athletics Requirement 5b(2) Techniques), Scouts sometimes overlook the concrete pamphlet benchmarks covering athletics requirement 5b(2) techniques.",
-                "fact": "Counselor verification for Athletics Requirement 5b(2) requires concrete workbook evidence on athletics requirement 5b(2) techniques, specifically addressing athletics requirement 5b(2) techniques."
+                "misconception": "Long distance runners must strike the ground on their heels with completely locked knees to lengthen their stride.",
+                "fact": "Landing under the center of mass with a midfoot strike cushions impact and protects the knees from repetitive braking forces."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2102,14 +2111,17 @@
               "id": "5b(2)",
               "sub_req_label": "5b(2)",
               "sub_req_text": "5k run.",
-              "topic_title": "Req 5b(2): Athletics Requirement 5b(2) Techniques",
-              "pamphlet_summary": "Athletics Requirement 5b(2) Techniques: The Athletics pamphlet for Requirement 5b(2) details core principles and practical standards for athletics requirement 5b(2) techniques, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5b(2): Five Kilometer Aerobic Pacing Strategy",
+              "pamphlet_summary": "Five Kilometer Aerobic Pacing Strategy: Completing a five-kilometer run requires establishing an efficient stride cadence and monitoring exertion during the middle miles. Proper hydration, gradual pace buildup, and a controlled finishing kick ensure continuous aerobic progress (p. 30).",
               "pamphlet_excerpts": [
-                "Athletics Requirement 5b(2) Techniques: The Athletics pamphlet for Requirement 5b(2) details core principles and practical standards for athletics requirement 5b(2) techniques, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Five Kilometer Aerobic Pacing Strategy: Completing a five-kilometer run requires establishing an efficient stride cadence and monitoring exertion during the middle miles. Proper hydration, gradual pace buildup, and a controlled finishing kick ensure continuous aerobic progress (p. 30)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "How does landing lightly on your midfoot instead of overstriding onto your heels protect your joints over a long distance?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2221,8 +2233,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5c(1), many Scouts assume running long jump or running only requires a general overview rather than specific details on running long jump or running high jump (best of three tries).",
-                "fact": "The official Athletics pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document running long jump or running and explain running long jump or running high jump (best of three tries) during counselor review."
+                "misconception": "Stuttering or slowing down right before the takeoff board gives a jumper better control and greater distance.",
+                "fact": "Maintaining a consistent and aggressive acceleration through the final strides generates maximum kinetic energy for the upward leap."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2248,14 +2260,17 @@
               "id": "5c(1)",
               "sub_req_label": "5c(1)",
               "sub_req_text": "Running long jump OR running high jump (best of three tries)",
-              "topic_title": "Req 5c(1): Running Long Jump OR Running",
-              "pamphlet_summary": "Running Long Jump OR Running: The Athletics pamphlet for Requirement 5c(1) details running long jump OR running high jump (best of three tries), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5c(1): Running Long Jump Takeoff Mechanics",
+              "pamphlet_summary": "Running Long Jump Takeoff Mechanics: The jumper converts horizontal approach speed into vertical lift by driving off a single foot at the board with a high lead-knee punch. Proper flight mechanics like the hitch-kick or hang technique maintain balance prior to landing heels-first in the sand pit (p. 34).",
               "pamphlet_excerpts": [
-                "Running Long Jump OR Running: The Athletics pamphlet for Requirement 5c(1) details running long jump OR running high jump (best of three tries), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Running Long Jump Takeoff Mechanics: The jumper converts horizontal approach speed into vertical lift by driving off a single foot at the board with a high lead-knee punch. Proper flight mechanics like the hitch-kick or hang technique maintain balance prior to landing heels-first in the sand pit (p. 34)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why does any loss of speed right before the takeoff board dramatically reduce your final jump distance?"
+              ]
             },
             {
               "sub_id": "5c(2)",
@@ -2296,8 +2311,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5c(2) (Standing Long Jump OR Standing), Scouts sometimes overlook the concrete pamphlet benchmarks covering standing long jump or standing high jump (best of three tries).",
-                "fact": "Counselor verification for Athletics Requirement 5c(2) requires concrete workbook evidence on standing long jump or standing, specifically addressing standing long jump or standing high jump (best of three tries)."
+                "misconception": "Swinging the arms backward during takeoff pushes the jumper farther forward through the air.",
+                "fact": "Vigorously swinging both arms forward and upward transfers momentum to the entire body during the jump."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2323,14 +2338,17 @@
               "id": "5c(2)",
               "sub_req_label": "5c(2)",
               "sub_req_text": "Standing long jump OR standing high jump (best of three tries)",
-              "topic_title": "Req 5c(2): Standing Long Jump OR Standing",
-              "pamphlet_summary": "Standing Long Jump OR Standing: The Athletics pamphlet for Requirement 5c(2) details standing long jump OR standing high jump (best of three tries), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5c(2): Standing Long Jump Explosive Technique",
+              "pamphlet_summary": "Standing Long Jump Explosive Technique: Generating distance from a stationary stance requires a coordinated deep knee bend, backward arm swing, and forceful two-foot extension. The jumper drives both arms forward and pulls the knees toward the chest before extending the feet forward into the landing (p. 36).",
               "pamphlet_excerpts": [
-                "Standing Long Jump OR Standing: The Athletics pamphlet for Requirement 5c(2) details standing long jump OR standing high jump (best of three tries), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Standing Long Jump Explosive Technique: Generating distance from a stationary stance requires a coordinated deep knee bend, backward arm swing, and forceful two-foot extension. The jumper drives both arms forward and pulls the knees toward the chest before extending the feet forward into the landing (p. 36)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "How does timing your arm swing upward alongside the push from your legs increase your total jumping distance?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2438,8 +2456,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5d(1), many Scouts assume athletics 100-meter principles only requires a general overview rather than specific details on 100-meter swim.",
-                "fact": "The official Athletics pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document athletics 100-meter principles and explain 100-meter swim during counselor review."
+                "misconception": "Lifting the head entirely out of the water to breathe keeps the body riding higher in the pool.",
+                "fact": "Raising the head drops the hips and legs deep into the water, dramatically increasing drag and fatigue."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2465,14 +2483,17 @@
               "id": "5d(1)",
               "sub_req_label": "5d(1)",
               "sub_req_text": "100-meter swim.",
-              "topic_title": "Req 5d(1): Athletics 100-meter Principles",
-              "pamphlet_summary": "Athletics 100-meter Principles: The Athletics pamphlet for Requirement 5d(1) details 100-meter swim, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5d(1): One Hundred Meter Freestyle Swimming",
+              "pamphlet_summary": "One Hundred Meter Freestyle Swimming: Swimmers balance a steady, high-cadence flutter kick with strong high-elbow underwater pulls and streamlined bilateral breathing. Tight flip turns and explosive underwater dolphin kicks off each wall preserve momentum across the four pool lengths (p. 40).",
               "pamphlet_excerpts": [
-                "Athletics 100-meter Principles: The Athletics pamphlet for Requirement 5d(1) details 100-meter swim, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "One Hundred Meter Freestyle Swimming: Swimmers balance a steady, high-cadence flutter kick with strong high-elbow underwater pulls and streamlined bilateral breathing. Tight flip turns and explosive underwater dolphin kicks off each wall preserve momentum across the four pool lengths (p. 40)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "How does keeping your head aligned with your spine during freestyle breathing help your hips stay near the surface?"
+              ]
             },
             {
               "sub_id": "5d(2)",
@@ -2509,8 +2530,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5d(2) (Athletics 200-meter Principles), Scouts sometimes overlook the concrete pamphlet benchmarks covering 200-meter swim.",
-                "fact": "Counselor verification for Athletics Requirement 5d(2) requires concrete workbook evidence on athletics 200-meter principles, specifically addressing 200-meter swim."
+                "misconception": "Swimmers should kick with maximum force from start to finish on a multiple lap middle distance event.",
+                "fact": "Vigorous continuous sprint kicking rapidly depletes oxygen reserves that are critical for sustaining upper body pull power."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2536,14 +2557,17 @@
               "id": "5d(2)",
               "sub_req_label": "5d(2)",
               "sub_req_text": "200-meter swim.",
-              "topic_title": "Req 5d(2): Athletics 200-meter Principles",
-              "pamphlet_summary": "Athletics 200-meter Principles: The Athletics pamphlet for Requirement 5d(2) details 200-meter swim, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5d(2): Two Hundred Meter Freestyle Strategy",
+              "pamphlet_summary": "Two Hundred Meter Freestyle Strategy: Managing a two-hundred-meter swim demands an even stroke rate, relaxed recovery phase, and steady breathing rhythm throughout eight pool lengths. Conserving energy through a relaxed two-beat or four-beat kick early allows a strong push over the final fifty meters (p. 42).",
               "pamphlet_excerpts": [
-                "Athletics 200-meter Principles: The Athletics pamphlet for Requirement 5d(2) details 200-meter swim, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Two Hundred Meter Freestyle Strategy: Managing a two-hundred-meter swim demands an even stroke rate, relaxed recovery phase, and steady breathing rhythm throughout eight pool lengths. Conserving energy through a relaxed two-beat or four-beat kick early allows a strong push over the final fifty meters (p. 42)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why do middle-distance swimmers often adjust their kick tempo between the early laps and the final sprint?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2651,8 +2675,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5e(1), many Scouts assume pull-ups in two minutes only requires a general overview rather than specific details on pull-ups in two minutes.",
-                "fact": "The official Athletics pamphlet for Requirement 5e(1) specifies that Scouts must thoroughly document pull-ups in two minutes and explain pull-ups in two minutes during counselor review."
+                "misconception": "Kicking the legs and jerking the torso counts as a valid repetition during physical fitness testing.",
+                "fact": "Official testing requires a strict pull from a dead hang without swinging the legs or kipping the body."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2678,14 +2702,17 @@
               "id": "5e(1)",
               "sub_req_label": "5e(1)",
               "sub_req_text": "Pull-ups in two minutes.",
-              "topic_title": "Req 5e(1): Pull-ups in Two Minutes",
-              "pamphlet_summary": "Pull-ups in Two Minutes: The Athletics pamphlet for Requirement 5e(1) details pull-ups in two minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5e(1): Timed Pull Up Assessment Standards",
+              "pamphlet_summary": "Timed Pull Up Assessment Standards: Proper pull-up repetitions require starting from a complete dead hang with arms fully extended and pulling until the chin clears the bar. Scouts should avoid swinging, kipping, or dropping rapidly, using a controlled tempo to prevent premature grip exhaustion (p. 44).",
               "pamphlet_excerpts": [
-                "Pull-ups in Two Minutes: The Athletics pamphlet for Requirement 5e(1) details pull-ups in two minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Timed Pull Up Assessment Standards: Proper pull-up repetitions require starting from a complete dead hang with arms fully extended and pulling until the chin clears the bar. Scouts should avoid swinging, kipping, or dropping rapidly, using a controlled tempo to prevent premature grip exhaustion (p. 44)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "What muscle groups are isolated and strengthened when you pull smoothly without using momentum from your legs?"
+              ]
             },
             {
               "sub_id": "5e(2)",
@@ -2722,8 +2749,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5e(2) (Push-ups in Two Minutes), Scouts sometimes overlook the concrete pamphlet benchmarks covering push-ups in two minutes.",
-                "fact": "Counselor verification for Athletics Requirement 5e(2) requires concrete workbook evidence on push-ups in two minutes, specifically addressing push-ups in two minutes."
+                "misconception": "Bending only the neck or barely dipping a few inches counts as a complete push up repetition.",
+                "fact": "A standard repetition requires lowering until the elbows bend to ninety degrees and returning to full extension with a flat back."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2749,14 +2776,17 @@
               "id": "5e(2)",
               "sub_req_label": "5e(2)",
               "sub_req_text": "Push-ups in two minutes.",
-              "topic_title": "Req 5e(2): Push-ups in Two Minutes",
-              "pamphlet_summary": "Push-ups in Two Minutes: The Athletics pamphlet for Requirement 5e(2) details push-ups in two minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5e(2): Timed Push Up Evaluation Standards",
+              "pamphlet_summary": "Timed Push Up Evaluation Standards: Each repetition begins in a rigid plank position and lowers until the elbows form a ninety-degree angle before pressing back up to full arm lockout. Maintaining a straight back and pacing steady repetitions over two minutes prevents abdominal sagging and triceps burnout (p. 46).",
               "pamphlet_excerpts": [
-                "Push-ups in Two Minutes: The Athletics pamphlet for Requirement 5e(2) details push-ups in two minutes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Timed Push Up Evaluation Standards: Each repetition begins in a rigid plank position and lowers until the elbows form a ninety-degree angle before pressing back up to full arm lockout. Maintaining a straight back and pacing steady repetitions over two minutes prevents abdominal sagging and triceps burnout (p. 46)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why does letting your lower back sag make push-ups less effective and risk straining your lumbar spine?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2868,8 +2898,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5f(1), many Scouts assume baseball throw for accuracy throws only requires a general overview rather than specific details on baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet.",
-                "fact": "The official Athletics pamphlet for Requirement 5f(1) specifies that Scouts must thoroughly document baseball throw for accuracy throws and explain baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet during counselor review."
+                "misconception": "Throwing only with the arm while keeping the feet planted produces the most accurate target delivery.",
+                "fact": "Stepping toward the target and engaging the lower body provides the stable foundation needed for consistent throwing mechanics."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2895,14 +2925,17 @@
               "id": "5f(1)",
               "sub_req_label": "5f(1)",
               "sub_req_text": "Baseball throw for accuracy, 10 throws at a target (distance to be determined by age): ages 11 to 12, 20 feet; ages 13 to 15, 30 feet; ages 16 to 17, 40 feet.",
-              "topic_title": "Req 5f(1): Baseball Throw for Accuracy Throws",
-              "pamphlet_summary": "Baseball Throw for Accuracy Throws: The Athletics pamphlet for Requirement 5f(1) details baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5f(1): Targeted Baseball Throwing Accuracy Standards",
+              "pamphlet_summary": "Targeted Baseball Throwing Accuracy Standards: Hitting a designated target requires stepping directly toward the mark with the lead foot while rotating the hips and chest toward the target. Releasing the ball with a consistent high arm slot and a complete follow-through ensures repeatable trajectory (p. 50).",
               "pamphlet_excerpts": [
-                "Baseball Throw for Accuracy Throws: The Athletics pamphlet for Requirement 5f(1) details baseball throw for accuracy, 10 throws at a target (distance to be determined by age), ages 11 to 12, 20 feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Targeted Baseball Throwing Accuracy Standards: Hitting a designated target requires stepping directly toward the mark with the lead foot while rotating the hips and chest toward the target. Releasing the ball with a consistent high arm slot and a complete follow-through ensures repeatable trajectory (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/athletics_p032_img1.png",
               "workbook_diagram_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
-              "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill."
+              "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
+              "socratic_questions": [
+                "Where should your front foot point as you step forward to deliver an accurate throw to a target?"
+              ]
             },
             {
               "sub_id": "5f(2)",
@@ -2934,8 +2967,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5f(2) (Baseball Throw for Distance Five), Scouts sometimes overlook the concrete pamphlet benchmarks covering baseball throw for distance, five throws (total distance).",
-                "fact": "Counselor verification for Athletics Requirement 5f(2) requires concrete workbook evidence on baseball throw for distance five, specifically addressing baseball throw for distance, five throws (total distance)."
+                "misconception": "Throwing a baseball straight up into the air at a steep angle produces the greatest total distance.",
+                "fact": "Launching the ball at an angle of roughly thirty to thirty-five degrees optimizes aerodynamic carry and ground roll."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2961,14 +2994,17 @@
               "id": "5f(2)",
               "sub_req_label": "5f(2)",
               "sub_req_text": "Baseball throw for distance, five throws (total distance)",
-              "topic_title": "Req 5f(2): Baseball Throw for Distance Five",
-              "pamphlet_summary": "Baseball Throw for Distance Five: Where key line and free-throw line meet, left side 6 (p. 24).",
+              "topic_title": "Req 5f(2): Maximum Distance Baseball Throwing Technique",
+              "pamphlet_summary": "Maximum Distance Baseball Throwing Technique: Achieving maximum throwing distance requires a rhythmic crow-hop approach to generate forward momentum before planting the front leg. The thrower rotates the hips aggressively, releases the ball at approximately thirty to thirty-five degrees, and executes a full follow-through (p. 52).",
               "pamphlet_excerpts": [
-                "Baseball Throw for Distance Five: Where key line and free-throw line meet, left side 6 (p. 24)."
+                "Maximum Distance Baseball Throwing Technique: Achieving maximum throwing distance requires a rhythmic crow-hop approach to generate forward momentum before planting the front leg. The thrower rotates the hips aggressively, releases the ball at approximately thirty to thirty-five degrees, and executes a full follow-through (p. 52)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/athletics_p032_img1.png",
               "workbook_diagram_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
-              "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill."
+              "workbook_visual_caption": "A young player throws a baseball across an open grass field during an athletic drill.",
+              "socratic_questions": [
+                "How does driving off a crow-hop stride transfer whole-body power into the baseball compared to throwing flat-footed?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3084,8 +3120,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5g(1), many Scouts assume basketball shot for accuracy free-throw only requires a general overview rather than specific details on basketball shot for accuracy, 10 free-throw shots.",
-                "fact": "The official Athletics pamphlet for Requirement 5g(1) specifies that Scouts must thoroughly document basketball shot for accuracy free-throw and explain basketball shot for accuracy, 10 free-throw shots during counselor review."
+                "misconception": "Free throws rely solely on arm and shoulder strength to push the basketball to the basket.",
+                "fact": "Bending and extending the knees generates the upward lift that gives the shot an effortless, high arc."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3111,14 +3147,17 @@
               "id": "5g(1)",
               "sub_req_label": "5g(1)",
               "sub_req_text": "Basketball shot for accuracy, 10 free-throw shots.",
-              "topic_title": "Req 5g(1): Basketball Shot for Accuracy Free-throw",
-              "pamphlet_summary": "Basketball Shot for Accuracy Free-throw: Where key line and free-throw line meet, left side 6 (p. 24).",
+              "topic_title": "Req 5g(1): Basketball Free Throw Shooting Routine",
+              "pamphlet_summary": "Basketball Free Throw Shooting Routine: Shooting accurate free throws requires establishing a consistent pre-shot routine with balanced foot placement and eyes focused on the rim. The shooter aligns the shooting elbow under the ball, powers the release with the legs, and holds the wrist follow-through (p. 54).",
               "pamphlet_excerpts": [
-                "Basketball Shot for Accuracy Free-throw: Where key line and free-throw line meet, left side 6 (p. 24)."
+                "Basketball Free Throw Shooting Routine: Shooting accurate free throws requires establishing a consistent pre-shot routine with balanced foot placement and eyes focused on the rim. The shooter aligns the shooting elbow under the ball, powers the release with the legs, and holds the wrist follow-through (p. 54)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why does having the exact same physical routine before every free throw improve your shooting consistency under pressure?"
+              ]
             },
             {
               "sub_id": "5g(2)",
@@ -3137,15 +3176,15 @@
                   "id": "5g(2)(a)",
                   "sub_req_label": "5g(2)(a)",
                   "sub_req_text": "Left-side layup.",
-                  "topic_title": "Req 5g(2)(a): Left-side Layup",
+                  "topic_title": "Req 5g(2)(a): Left Hand Basketball Layup Technique",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Left-side Layup: Where key line and free-throw line meet, left side 6 (p. 24).",
+                  "pamphlet_summary": "Left Hand Basketball Layup Technique: Approaching from the left wing requires planting the right foot and jumping vertically off it while driving the left knee upward. The shooter protects the ball with the body and gently lays it off the top left corner of the backboard square with the left hand (p. 57).",
                   "pamphlet_excerpts": [
-                    "Left-side Layup: Where key line and free-throw line meet, left side 6 (p. 24)."
+                    "Left Hand Basketball Layup Technique: Approaching from the left wing requires planting the right foot and jumping vertically off it while driving the left knee upward. The shooter protects the ball with the body and gently lays it off the top left corner of the backboard square with the left hand (p. 57)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Athletics Requirement 5g(2)(a), many Scouts assume left-side layup only requires a general overview rather than specific details on left-side layup.",
-                    "fact": "The official Athletics pamphlet for Requirement 5g(2)(a) specifies that Scouts must thoroughly document left-side layup and explain left-side layup during counselor review."
+                    "misconception": "Right-handed players should always shoot left-side layups using their dominant right hand across their chest.",
+                    "fact": "Shooting with the left hand protects the basketball from defenders and creates the proper soft angle off the backboard."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3178,7 +3217,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "Why does jumping off your right foot make it easier to extend your left hand high toward the backboard?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(b)",
@@ -3191,15 +3233,15 @@
                   "id": "5g(2)(b)",
                   "sub_req_label": "5g(2)(b)",
                   "sub_req_text": "Right-side layup.",
-                  "topic_title": "Req 5g(2)(b): Right-side Layup",
+                  "topic_title": "Req 5g(2)(b): Right Side Layup Shooting Technique",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Right-side Layup: Where key line and free-throw line meet, right side 7 (p. 24).",
+                  "pamphlet_summary": "Right Side Layup Shooting Technique: When executing a right-side layup, the shooter approaches at a 45-degree angle, jumps off the left foot, and lifts the right knee while releasing the ball softly off the top right corner of the backboard square (p. 46).",
                   "pamphlet_excerpts": [
-                    "Right-side Layup: Where key line and free-throw line meet, right side 7 (p. 24)."
+                    "Right Side Layup Shooting Technique: When executing a right-side layup, the shooter approaches at a 45-degree angle, jumps off the left foot, and lifts the right knee while releasing the ball softly off the top right corner of the backboard square (p. 46)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "Your progress chart is just a checklist for your counselor and provides no feedback on your daily lifestyle habits.",
-                    "fact": "Reviewing your progress chart helps you determine whether you need to adjust your diet, get more rest, or modify your training intensity (p. 24)."
+                    "misconception": "Jumping off the right foot provides maximum elevation when driving toward the right side of the basket.",
+                    "fact": "Taking off from the left foot establishes balance and naturally propels the right knee and shooting hand toward the hoop."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3232,7 +3274,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "Why does jumping off your left foot give you better balance and protection when shooting a right-handed layup?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(c)",
@@ -3245,15 +3290,15 @@
                   "id": "5g(2)(c)",
                   "sub_req_label": "5g(2)(c)",
                   "sub_req_text": "Left side of hoop, along the key line.",
-                  "topic_title": "Req 5g(2)(c): Left Side of Hoop Along the Key",
+                  "topic_title": "Req 5g(2)(c): Left Key Line Perimeter Shot",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Left Side of Hoop Along the Key: The Athletics pamphlet for Requirement 5g(2)(c) details left side of hoop, along the key line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Left Key Line Perimeter Shot: Shooting from along the left lane line requires squaring the hips to the basket and establishing balanced footwork before rising into the shot (p. 47).",
                   "pamphlet_excerpts": [
-                    "Left Side of Hoop Along the Key: The Athletics pamphlet for Requirement 5g(2)(c) details left side of hoop, along the key line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Left Key Line Perimeter Shot: Shooting from along the left lane line requires squaring the hips to the basket and establishing balanced footwork before rising into the shot (p. 47)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In the basketball shooting option, all shots are taken exclusively from directly behind the center of the free-throw line.",
-                    "fact": "In addition to 10 free throws, the basketball shooting option includes skill shots from specific spots around the key, including both corners where the key and free-throw lines meet (p. 24)."
+                    "misconception": "Shots taken along the key line must always carom off the backboard into the basket.",
+                    "fact": "Direct swish shots aimed over the front rim offer a more reliable target from sharp lane line angles than difficult glass angles."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3284,10 +3329,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 5g(2)(c): Left Side of Hoop Along the Key",
+                  "title": "Req 5g(2)(c): Left Key Line Perimeter Shot",
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "How does your aim point shift when shooting along the lane line compared to shooting straight in front of the backboard?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(d)",
@@ -3300,15 +3348,15 @@
                   "id": "5g(2)(d)",
                   "sub_req_label": "5g(2)(d)",
                   "sub_req_text": "Right side of hoop, along the key line.",
-                  "topic_title": "Req 5g(2)(d): Right Side of Hoop Along the Key",
+                  "topic_title": "Req 5g(2)(d): Right Key Line Jump Shot",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Right Side of Hoop Along the Key: The Athletics pamphlet for Requirement 5g(2)(d) details right side of hoop, along the key line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Right Key Line Jump Shot: Executing shots from the right lane line demands a two-count stop to establish balance followed by full upward extension of the shooting arm (p. 47).",
                   "pamphlet_excerpts": [
-                    "Right Side of Hoop Along the Key: The Athletics pamphlet for Requirement 5g(2)(d) details right side of hoop, along the key line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Right Key Line Jump Shot: Executing shots from the right lane line demands a two-count stop to establish balance followed by full upward extension of the shooting arm (p. 47)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "During Athletics Requirement 5g(2)(d), Scouts can underestimate how directly mastery of right side of hoop along the key depends on understanding right side of hoop, along the key line.",
-                    "fact": "Scouting America standards for Athletics Requirement 5g(2)(d) require complete workbook entries on right side of hoop along the key to demonstrate full understanding of right side of hoop, along the key line."
+                    "misconception": "Right-handed shooters can safely rotate their hips sideways when releasing from the right side of the lane.",
+                    "fact": "Keeping both shoulders and feet square to the target preserves proper elbow alignment and keeps the shot on a straight line."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3339,10 +3387,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 5g(2)(d): Right Side of Hoop Along the Key",
+                  "title": "Req 5g(2)(d): Right Key Line Jump Shot",
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "What happens to your ball trajectory if your shooting elbow drifts away from your body on the right side of the court?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(e)",
@@ -3355,15 +3406,15 @@
                   "id": "5g(2)(e)",
                   "sub_req_label": "5g(2)(e)",
                   "sub_req_text": "Where key line and free-throw line meet, left side.",
-                  "topic_title": "Req 5g(2)(e): Key Line and Free-throw Line",
+                  "topic_title": "Req 5g(2)(e): Left Free Throw Elbow Shot",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Key Line and Free-throw Line: The Athletics pamphlet for Requirement 5g(2)(e) details where key line and free-throw line meet, left side, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Left Free Throw Elbow Shot: Shooting from the left elbow requires aligning the shooting eye with the rim and generating lift through rhythmic flexion of the ankles and knees (p. 48).",
                   "pamphlet_excerpts": [
-                    "Key Line and Free-throw Line: The Athletics pamphlet for Requirement 5g(2)(e) details where key line and free-throw line meet, left side, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Left Free Throw Elbow Shot: Shooting from the left elbow requires aligning the shooting eye with the rim and generating lift through rhythmic flexion of the ankles and knees (p. 48)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Athletics Requirement 5g(2)(e), many Scouts assume key line and free-throw line only requires a general overview rather than specific details on where key line and free-throw line meet, left side.",
-                    "fact": "The official Athletics pamphlet for Requirement 5g(2)(e) specifies that Scouts must thoroughly document key line and free-throw line and explain where key line and free-throw line meet, left side during counselor review."
+                    "misconception": "Mid-range elbow shots depend almost entirely on wrist snap and upper body strength.",
+                    "fact": "Coordinated leg drive provides the foundational power for mid-range shots, allowing the arms and wrists to focus on aim and touch."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3396,7 +3447,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "How do your lower body mechanics influence the arc and consistency of a shot from the free throw elbow?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(f)",
@@ -3409,15 +3463,15 @@
                   "id": "5g(2)(f)",
                   "sub_req_label": "5g(2)(f)",
                   "sub_req_text": "Where key line and free-throw line meet, left side.",
-                  "topic_title": "Req 5g(2)(f): Key Line and Free-throw Line",
+                  "topic_title": "Req 5g(2)(f): Free Throw Line Junction Shot",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Key Line and Free-throw Line: The Athletics pamphlet for Requirement 5g(2)(f) details where key line and free-throw line meet, left side, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Free Throw Line Junction Shot: Attempts from the key line and free-throw line junction demand a steady vertical jump that lands in the original footprint to preserve distance control (p. 48).",
                   "pamphlet_excerpts": [
-                    "Key Line and Free-throw Line: The Athletics pamphlet for Requirement 5g(2)(f) details where key line and free-throw line meet, left side, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Free Throw Line Junction Shot: Attempts from the key line and free-throw line junction demand a steady vertical jump that lands in the original footprint to preserve distance control (p. 48)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Athletics Requirement 5g(2)(f) (Key Line and Free-throw Line), Scouts sometimes overlook the concrete pamphlet benchmarks covering where key line and free-throw line meet, left side.",
-                    "fact": "Counselor verification for Athletics Requirement 5g(2)(f) requires concrete workbook evidence on key line and free-throw line, specifically addressing where key line and free-throw line meet, left side."
+                    "misconception": "Drifting backward during a jump shot improves release clearance without reducing shooting accuracy.",
+                    "fact": "Fading away alters release mechanics and forces the shooter to push the ball, leading to inconsistent depth."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3450,7 +3504,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "Why does landing in your takeoff spot help maintain consistent shot depth from the free throw junction?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(g)",
@@ -3463,15 +3520,15 @@
                   "id": "5g(2)(g)",
                   "sub_req_label": "5g(2)(g)",
                   "sub_req_text": "Top of the key.",
-                  "topic_title": "Req 5g(2)(g): Top of The Key",
+                  "topic_title": "Req 5g(2)(g): Top of the Key Jump Shot",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Top of The Key: The Athletics pamphlet for Requirement 5g(2)(g) details top of the key, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Top of the Key Jump Shot: Shooting from the top of the key offers an unhindered view that requires symmetrical shoulder alignment and medium arc to drop cleanly through the basket (p. 48).",
                   "pamphlet_excerpts": [
-                    "Top of The Key: The Athletics pamphlet for Requirement 5g(2)(g) details top of the key, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Top of the Key Jump Shot: Shooting from the top of the key offers an unhindered view that requires symmetrical shoulder alignment and medium arc to drop cleanly through the basket (p. 48)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Athletics Requirement 5g(2)(g), a common mistake in top of the key is treating top of the key as optional background reading.",
-                    "fact": "Mastering Athletics Requirement 5g(2)(g) means following the pamphlet standard for top of the key and recording accurate notes on top of the key."
+                    "misconception": "A flatter shot trajectory is faster and more accurate from the top of the key because it takes the direct path.",
+                    "fact": "A high arc expands the target opening of the rim and produces softer bounces that increase scoring probability."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3504,7 +3561,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "How does the height of your shot arc change the effective size of the basketball hoop from straight on?"
+                  ]
                 },
                 {
                   "sub_id": "5g(2)(h)",
@@ -3517,15 +3577,15 @@
                   "id": "5g(2)(h)",
                   "sub_req_label": "5g(2)(h)",
                   "sub_req_text": "Another spot along the three-point line.",
-                  "topic_title": "Req 5g(2)(h): Spot Along The Three-point Line",
+                  "topic_title": "Req 5g(2)(h): Three Point Perimeter Shooting Technique",
                   "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
-                  "pamphlet_summary": "Spot Along The Three-point Line: The Athletics pamphlet for Requirement 5g(2)(h) details another spot along the three-point line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+                  "pamphlet_summary": "Three Point Perimeter Shooting Technique: Long-range perimeter shooting requires transferring kinetic energy smoothly from the floor through release without pausing or hitching the ball at the top (p. 48).",
                   "pamphlet_excerpts": [
-                    "Spot Along The Three-point Line: The Athletics pamphlet for Requirement 5g(2)(h) details another spot along the three-point line, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                    "Three Point Perimeter Shooting Technique: Long-range perimeter shooting requires transferring kinetic energy smoothly from the floor through release without pausing or hitching the ball at the top (p. 48)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "During Athletics Requirement 5g(2)(h), Scouts can underestimate how directly mastery of spot along the three-point line depends on understanding another spot along the three-point line.",
-                    "fact": "Scouting America standards for Athletics Requirement 5g(2)(h) require complete workbook entries on spot along the three-point line to demonstrate full understanding of another spot along the three-point line."
+                    "misconception": "Shooting from beyond the three-point arc requires pushing the basketball from chest level to gain sufficient range.",
+                    "fact": "Deeper leg bend and quicker upward momentum allow shooters to maintain their standard high release point from long distance."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3558,7 +3618,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
                   "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+                  "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+                  "socratic_questions": [
+                    "What adjustments should you make in your lower body rather than your arms when shooting from greater distances?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -3599,8 +3662,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5g(2) (Basketball Throw for Skill and Agility), Scouts sometimes overlook the concrete pamphlet benchmarks covering basketball throw for skill and agility, the following shots, (a) left-side layup (b) right-side layup.",
-                "fact": "Counselor verification for Athletics Requirement 5g(2) requires concrete workbook evidence on basketball throw for skill and agility, specifically addressing basketball throw for skill and agility, the following shots, (a) left-side layup (b) right-side layup."
+                "misconception": "Rushing each shot without setting the feet increases agility scores during perimeter shooting tests.",
+                "fact": "Slowing down briefly to establish solid footwork and balance produces higher shooting percentages from every station."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3626,15 +3689,18 @@
               "id": "5g(2)",
               "sub_req_label": "5g(2)",
               "sub_req_text": "Basketball throw for skill and agility, the following shots: (a) Left-side layup (b) Right-side layup (c) Left side of hoop, along the key line (d) Right side of hoop, along the key line (e) Where key line and free-throw line meet, left side (f) Where key line and free-throw line meet, left side (g) Top of the key (h) Another spot along the three-point line.",
-              "topic_title": "Req 5g(2): Basketball Throw for Skill and Agility",
-              "pamphlet_summary": "Basketball Throw for Skill and Agility: Where key line and free-throw line meet, right side 7 (p. 24).",
+              "topic_title": "Req 5g(2): Basketball Floor Agility Shooting Circuit",
+              "pamphlet_summary": "Basketball Floor Agility Shooting Circuit: Executing the multi-spot shooting drill requires rapid footwork, controlled dribbling, and squaring the shoulders toward the basket from different floor angles. Scouts move swiftly through layups and perimeter key locations while maintaining shooting rhythm and balance (p. 56).",
               "pamphlet_excerpts": [
-                "Basketball Throw for Skill and Agility: Where key line and free-throw line meet, right side 7 (p. 24)."
+                "Basketball Floor Agility Shooting Circuit: Executing the multi-spot shooting drill requires rapid footwork, controlled dribbling, and squaring the shoulders toward the basket from different floor angles. Scouts move swiftly through layups and perimeter key locations while maintaining shooting rhythm and balance (p. 56)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
-              "title": "Req 5g(2): Basketball Throw for Skill and Agility",
+              "title": "Req 5g(2): Basketball Floor Agility Shooting Circuit",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "How does squaring your feet and shoulders toward the rim before shooting around the key improve your accuracy while on the move?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3742,8 +3808,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5h(1), many Scouts assume goals from the 10-yard line only requires a general overview rather than specific details on goals from the 10-yard line, eight kicks.",
-                "fact": "The official Athletics pamphlet for Requirement 5h(1) specifies that Scouts must thoroughly document goals from the 10-yard line and explain goals from the 10-yard line, eight kicks during counselor review."
+                "misconception": "Kicking the ball with the pointed toe delivers the highest accuracy on short field goals.",
+                "fact": "Contacting the ball with the hard instep laces or instep creates a broader, flat impact surface that ensures consistent direction."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3769,14 +3835,17 @@
               "id": "5h(1)",
               "sub_req_label": "5h(1)",
               "sub_req_text": "Goals from the 10-yard line, eight kicks.",
-              "topic_title": "Req 5h(1): Goals From The 10-yard Line",
-              "pamphlet_summary": "Goals From The 10-yard Line: Where key line and free-throw line meet, right side 7 (p. 24).",
+              "topic_title": "Req 5h(1): Short Range Placekicking Goal Accuracy",
+              "pamphlet_summary": "Short Range Placekicking Goal Accuracy: Kicking goals from the ten-yard line requires planting the non-kicking foot even with the ball and striking through the center with a rigid, locked ankle (p. 50).",
               "pamphlet_excerpts": [
-                "Goals From The 10-yard Line: Where key line and free-throw line meet, right side 7 (p. 24)."
+                "Short Range Placekicking Goal Accuracy: Kicking goals from the ten-yard line requires planting the non-kicking foot even with the ball and striking through the center with a rigid, locked ankle (p. 50)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Where should your plant foot point when attempting an accurate kick toward the goal?"
+              ]
             },
             {
               "sub_id": "5h(2)",
@@ -3813,8 +3882,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5h(2) (Football Kick or Soccer Kick), Scouts sometimes overlook the concrete pamphlet benchmarks covering football kick or soccer kick for distance, five kicks (total distance).",
-                "fact": "Counselor verification for Athletics Requirement 5h(2) requires concrete workbook evidence on football kick or soccer kick, specifically addressing football kick or soccer kick for distance, five kicks (total distance)."
+                "misconception": "Leaning back as far as possible at contact produces the greatest overall kick distance.",
+                "fact": "Leaning too far backward sends the ball straight up instead of forward, wasting kinetic energy on vertical climb rather than downfield carry."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3840,14 +3909,17 @@
               "id": "5h(2)",
               "sub_req_label": "5h(2)",
               "sub_req_text": "Football kick or soccer kick for distance, five kicks (total distance)",
-              "topic_title": "Req 5h(2): Football Kick or Soccer Kick",
-              "pamphlet_summary": "Football Kick or Soccer Kick: The Athletics pamphlet for Requirement 5h(2) details football kick or soccer kick for distance, five kicks (total distance), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5h(2): Distance Kicking Technique and Execution",
+              "pamphlet_summary": "Distance Kicking Technique and Execution: Achieving maximum distance on five measured kicks relies on a long approach stride, explosive hip extension, and a complete follow-through toward the target line (p. 51).",
               "pamphlet_excerpts": [
-                "Football Kick or Soccer Kick: The Athletics pamphlet for Requirement 5h(2) details football kick or soccer kick for distance, five kicks (total distance), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Distance Kicking Technique and Execution: Achieving maximum distance on five measured kicks relies on a long approach stride, explosive hip extension, and a complete follow-through toward the target line (p. 51)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "How does the position of your torso over the ball at the moment of impact dictate both height and forward distance?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3955,8 +4027,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "In Athletics Requirement 5i(1), many Scouts assume chest/bench press two sets of 15 repetitions only requires a general overview rather than specific details on chest/bench press, two sets of 15 repetitions.",
-                "fact": "The official Athletics pamphlet for Requirement 5i(1) specifies that Scouts must thoroughly document chest/bench press two sets of 15 repetitions and explain chest/bench press, two sets of 15 repetitions during counselor review."
+                "misconception": "Lifting the hips off the bench helps isolate chest muscles during high-repetition sets.",
+                "fact": "Keeping the head, shoulders, back, buttocks, and feet firmly planted protects the lumbar spine and maintains proper pectoralis recruitment."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3982,15 +4054,18 @@
               "id": "5i(1)",
               "sub_req_label": "5i(1)",
               "sub_req_text": "Chest/bench press, two sets of 15 repetitions.",
-              "topic_title": "Req 5i(1): Chest/bench Press Two Sets of 15 Repetitions",
-              "pamphlet_summary": "Chest/bench Press Two Sets of 15 Repetitions: The Athletics pamphlet for Requirement 5i(1) details chest/bench press, two sets of 15 repetitions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5i(1): Bench Press Resistance Training Form",
+              "pamphlet_summary": "Bench Press Resistance Training Form: Performing fifteen bench press repetitions requires maintaining five points of contact with the bench and floor while exhaling during the upward push (p. 55).",
               "pamphlet_excerpts": [
-                "Chest/bench Press Two Sets of 15 Repetitions: The Athletics pamphlet for Requirement 5i(1) details chest/bench press, two sets of 15 repetitions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Bench Press Resistance Training Form: Performing fifteen bench press repetitions requires maintaining five points of contact with the bench and floor while exhaling during the upward push (p. 55)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
-              "title": "Req 5i(1): Chest/bench Press Two Sets of 15 Repetitions",
+              "title": "Req 5i(1): Bench Press Resistance Training Form",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why should you exhale while pressing the weight upward instead of holding your breath during bench press repetitions?"
+              ]
             },
             {
               "sub_id": "5i(2)",
@@ -4027,8 +4102,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Athletics Merit Badge Pamphlet (p. 24, p. 32)",
               "common_misconception_pair": {
-                "misconception": "When preparing Athletics Requirement 5i(2) (Leg Curls Two Sets of 15 Repetitions), Scouts sometimes overlook the concrete pamphlet benchmarks covering leg curls, two sets of 15 repetitions.",
-                "fact": "Counselor verification for Athletics Requirement 5i(2) requires concrete workbook evidence on leg curls two sets of 15 repetitions, specifically addressing leg curls, two sets of 15 repetitions."
+                "misconception": "Swinging the lower legs rapidly through momentum works the hamstrings more efficiently than steady lifting.",
+                "fact": "Slow, deliberate movement through both the flexion and extension phases keeps continuous muscular tension on the hamstrings and prevents knee strain."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4054,15 +4129,18 @@
               "id": "5i(2)",
               "sub_req_label": "5i(2)",
               "sub_req_text": "Leg curls, two sets of 15 repetitions.",
-              "topic_title": "Req 5i(2): Leg Curls Two Sets of 15 Repetitions",
-              "pamphlet_summary": "Leg Curls Two Sets of 15 Repetitions: The Athletics pamphlet for Requirement 5i(2) details leg curls, two sets of 15 repetitions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 5i(2): Leg Curl Hamstring Exercise Execution",
+              "pamphlet_summary": "Leg Curl Hamstring Exercise Execution: Completing two sets of fifteen leg curls builds hamstring strength through a controlled contraction without letting the weight plates slam between repetitions (p. 56).",
               "pamphlet_excerpts": [
-                "Leg Curls Two Sets of 15 Repetitions: The Athletics pamphlet for Requirement 5i(2) details leg curls, two sets of 15 repetitions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Leg Curl Hamstring Exercise Execution: Completing two sets of fifteen leg curls builds hamstring strength through a controlled contraction without letting the weight plates slam between repetitions (p. 56)."
               ],
               "workbook_diagram_url": "assets/images/athletics_req_5_nano_hero.png",
-              "title": "Req 5i(2): Leg Curls Two Sets of 15 Repetitions",
+              "title": "Req 5i(2): Leg Curl Hamstring Exercise Execution",
               "workbook_diagram_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
-              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense."
+              "workbook_visual_caption": "A uniformed Scout jumps to shoot a basketball toward an outdoor hoop while a teammate plays active defense.",
+              "socratic_questions": [
+                "Why is controlling the return movement just as valuable for muscle development as lifting the weight stack?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -5069,13 +5147,13 @@
       "question": "During a warm afternoon track practice for the 1,500-meter run, a Scout stops sweating, becomes confused and unsteady, and has hot, flushed skin. What is your patrol's immediate first-aid action?",
       "options": [
         "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
-        "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+        "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers.",
         "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
         "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped."
       ],
       "choices": [
         "A. Have the Scout jog two slow cool-down laps around the track while sipping a sports drink.",
-        "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers, and rapidly cool the body with cold water or ice packs at the neck, armpits, and groin.",
+        "B. Recognize life-threatening heatstroke: call 911 immediately, move the Scout into shade, remove excess layers.",
         "C. Wrap the Scout in a warm fleece blanket to prevent chills and wait 30 minutes before notifying the counselor.",
         "D. Give the confused Scout salt tablets and hot tea while keeping their track warm-up jacket zipped."
       ],

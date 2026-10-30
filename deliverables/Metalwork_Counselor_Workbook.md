@@ -70,7 +70,7 @@
 - **Common Myth:** Ancient bronze tools consisted of pure melted copper beaten directly into sharp cutting shapes.
 - **Pamphlet Fact:** Bronze is an intentional alloy composed primarily of copper combined with approximately twelve percent tin.
 
-![Illustrated Metalwork technical diagram of metallurgy terms and metal alloys for Requirement 2 field execution.](/assets/pamphlet_images/metalwork_p007_img1.png)
+![Metalwork Requirement 2 figure showing naturally occurring pure elements like gold and copper require no chemical smelting.](/assets/pamphlet_images/metalwork_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 - **Common Myth:** Hammering metal when cold makes the material softer and easier to bend further.
 - **Pamphlet Fact:** Cold mechanical working packs crystal dislocations tightly together, causing the metal to stiffen and embrittle.
 
-![Practical Metalwork field visual showing proper setup, measurement, and technique for metalwork safety rules and gear in Requirement 1.](/assets/pamphlet_images/metalwork_p003_img1.png)
+![Metalwork Requirement 1 figure showing always wear safety glasses with side shields around cutting and grinding tools.](/assets/pamphlet_images/metalwork_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -258,11 +258,11 @@
 - Sheet metal mechanics use aviation snips, hand seamers, and stakes to construct geometric sheet products. Projects incorporate folded hems, wired edges, and soldered or riveted seams to ensure structural rigidity.
 - Req 5a Standard (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)): Option A, Sheet Metal Mechanic/Tinsmith. Do ALL of the following: (1) Name and describe the use of the basic sheet metalworking tools. (2) Create a sketch of two objects to make from sheet metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 24- or 26-gauge sheet metal. Use patterns either provided by your counselor or made by you and approved by your counselor. Construct these objects using a metal that is appropriate to the object's ultimate purpose, and using cutting, bending, edging, and either soldering or brazing. (a) One object also must include at least one riveted component. (b) If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation.
 
-#### Req 5a(1): Basic Sheet Metalworking Tools
+#### Req 5a(1): Basic Sheet Metalworking Hand Tools
 **Official Requirement 5a(1):** Name and describe the use of the basic sheet metalworking tools.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5a(1) Structured Technical Study & Explanation Matrix (Basic Sheet Metalworking Tools)
-- **Common Myth:** In Metalwork Requirement 5a(1), many Scouts assume basic sheet metalworking tools only requires a general overview rather than specific details on the use of the basic sheet metalworking tools.
-- **Pamphlet Fact:** The official Metalwork pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document basic sheet metalworking tools and explain the use of the basic sheet metalworking tools during counselor review.
+- **Common Myth:** Yellow, red, and green handles on aviation snips indicate different metal thicknesses.
+- **Pamphlet Fact:** Handle color identifies the cutting direction, where yellow cuts straight, red cuts left, and green cuts right.
 
 ![A spool of flexible solder wire is prepared for joining sheet metal components cleanly.](/assets/pamphlet_images/metalwork_p040_img2.png)
 
@@ -272,11 +272,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(2): Create a sketch of two objects
+#### Req 5a(2): Sheet Metal Project Dimensioned Sketches
 **Official Requirement 5a(2):** Create a sketch of two objects to make from sheet metal. Include each component's dimensions on your sketch, which need not be to scale.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5a(2) Structured Technical Study & Explanation Matrix (Objects to Make From Sheet)
-- **Common Myth:** When preparing Metalwork Requirement 5a(2) (Create a sketch of two objects), Scouts sometimes overlook the concrete pamphlet benchmarks covering create a sketch of two objects to make from sheet metal.
-- **Pamphlet Fact:** Counselor verification for Metalwork Requirement 5a(2) requires concrete workbook evidence on create a sketch of two objects, specifically addressing create a sketch of two objects to make from sheet metal.
+- **Common Myth:** A sheet metal sketch only requires the final finished dimensions of the assembled box.
+- **Pamphlet Fact:** Sketches must calculate additional width for folded edges, wired rims, and joined seams to prevent undersized components.
 
 ![A cross-peen metalworking hammer provides precise striking surfaces for shaping metal.](/assets/pamphlet_images/metalwork_p037_img1.png)
 
@@ -295,12 +295,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(3): Two Objects Out of 24- or 26-gauge
+#### Req 5a(3): Sheet Metal Fabrication and Seaming
 **Official Requirement 5a(3):** Make two objects out of 24- or 26-gauge sheet metal. Use patterns either provided by your counselor or made by you and approved by your counselor. Construct these objects using a metal that is appropriate to the object's ultimate purpose, and using cutting, bending, edging, and either soldering or brazing. (a) One object also must include at least one riveted component. (b) If you do not make your objects from zinc-plated sheet steel or tin-plated sheet steel, preserve your work from oxidation.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Skill Demonstration Checklist):** Req 5a(3) Hands-On Skill Station & EDGE Verification Checklist (Objects Out of 24- or)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Metalwork Req 5a(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** For Metalwork Requirement 5a(3), a common mistake in two objects out of 24- or 26-gauge is treating two objects out of 24- or 26-gauge sheet metal as optional background reading.
-- **Pamphlet Fact:** Mastering Metalwork Requirement 5a(3) means following the pamphlet standard for two objects out of 24- or 26-gauge and recording accurate notes on two objects out of 24- or 26-gauge sheet metal.
+- **Common Myth:** Higher gauge numbers indicate thicker and stiffer metal sheets.
+- **Pamphlet Fact:** Sheet metal gauge numbers operate inversely, meaning 24-gauge metal is thicker and heavier than 26-gauge metal.
 
 ![A magnified view of a coin shows the detailed stamped relief and metallic grain texture.](/assets/pamphlet_images/metalwork_p040_img1.png)
 
@@ -322,11 +322,11 @@
 - Silversmiths utilize raising hammers, planishing stakes, and jewelers saws to form nonferrous precious metals. Sinking, doming, and silver soldering require frequent annealing cycles to prevent stress tears.
 - Req 5b Standard (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)): Option B, Silversmith. Do ALL of the following: (1) Name and describe the use of a silversmith's basic tools. (2) Create a sketch of two objects to make from sheet silver. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter. (a) At least one object must include a sawed component you have made yourself. (b) At least one object must include a sunken part you have made yourself. (c) Clean and polish your objects.
 
-#### Req 5b(1): Silversmith's Basic Tools
+#### Req 5b(1): Traditional Silversmithing Hand Tools
 **Official Requirement 5b(1):** Name and describe the use of a silversmith's basic tools.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Silversmith's Basic Tools)
-- **Common Myth:** In Metalwork Requirement 5b(1), many Scouts assume silversmith's basic tools only requires a general overview rather than specific details on the use of a silversmith's basic tools.
-- **Pamphlet Fact:** The official Metalwork pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document silversmith's basic tools and explain the use of a silversmith's basic tools during counselor review.
+- **Common Myth:** Silversmiths use standard steel claw hammers to shape fine jewelry pieces.
+- **Pamphlet Fact:** Silversmiths rely on rawhide, wood, or polished planishing hammers because hardened steel hammer faces dent and stretch soft silver and copper.
 
 ![A specialized chasing hammer with a flared handle provides fine control for silversmiths.](/assets/pamphlet_images/metalwork_p049_img2.png)
 
@@ -336,11 +336,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(2): Create a sketch of two objects
+#### Req 5b(2): Jewelry Component Layout and Dimensioning
 **Official Requirement 5b(2):** Create a sketch of two objects to make from sheet silver. Include each component's dimensions on your sketch, which need not be to scale.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5b(2) Structured Technical Study & Explanation Matrix (Objects to Make From Sheet)
-- **Common Myth:** When preparing Metalwork Requirement 5b(2) (Create a sketch of two objects), Scouts sometimes overlook the concrete pamphlet benchmarks covering create a sketch of two objects to make from sheet silver.
-- **Pamphlet Fact:** Counselor verification for Metalwork Requirement 5b(2) requires concrete workbook evidence on create a sketch of two objects, specifically addressing create a sketch of two objects to make from sheet silver.
+- **Common Myth:** The flat length of a silver ring blank equals the exact inside diameter of the finished ring.
+- **Pamphlet Fact:** Ring blanks require adding one material thickness to the inside circumference calculation to compensate for metal stretching and compression during bending.
 
 ![Technicians examine a tray of precision metal parts during quality testing procedures.](/assets/pamphlet_images/metalwork_p088_img1.png)
 
@@ -359,12 +359,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(3): Two Objects Out of 18- or 20-gauge
+#### Req 5b(3): Hard Soldering on Sheet Copper
 **Official Requirement 5b(3):** Make two objects out of 18- or 20-gauge sheet copper. Use patterns either provided by your counselor or made by you and approved by your counselor. Both objects must include a soldered joint. If you have prior silversmithing experience, you may substitute sterling silver, nickel silver, or lead-free pewter. (a) At least one object must include a sawed component you have made yourself. (b) At least one object must include a sunken part you have made yourself. (c) Clean and polish your objects.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5b(3) Structured Technical Study & Explanation Matrix (Objects Out of 18- or)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Metalwork Req 5b(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** For Metalwork Requirement 5b(3), a common mistake in two objects out of 18- or 20-gauge is treating two objects out of 18- or 20-gauge sheet copper as optional background reading.
-- **Pamphlet Fact:** Mastering Metalwork Requirement 5b(3) means following the pamphlet standard for two objects out of 18- or 20-gauge and recording accurate notes on two objects out of 18- or 20-gauge sheet copper.
+- **Common Myth:** Silver solder can bridge wide gaps between loosely fitted metal pieces like hot glue.
+- **Pamphlet Fact:** Hard solder flows by capillary action and requires seam edges to make flush, gap-free contact across the entire joint.
 
 ![A metal fabricator wearing protective ear muffs cuts sheet metal as bright sparks shower.](/assets/pamphlet_images/metalwork_p088_img2.png)
 
@@ -387,11 +387,11 @@
 - Founders pack greensand around split wood patterns inside two-part flask assemblies called copes and drags. Cutting sprues, gates, and risers allows molten metal to fill cavities without entrapping gases.
 - Req 5c Standard (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)): Option C, Founder. Do ALL of the following: (1) Name and describe the use of the basic parts of a two-piece mold. Name at least three different types of molds. (2) Create a sketch of two objects to cast in metal. Include each component's dimensions on your sketch, which need not be to scale. (3) Make two molds, one using a pattern provided by your counselor and another one you have made yourself that has been approved by your counselor. Position the pouring gate and vents yourself. Note: Do not use copyrighted materials as patterns. (a) Using lead-free pewter, make a casting using a mold provided by your counselor. (b) Using lead-free pewter, make a casting using the mold that you have made.
 
-#### Req 5c(1): Name and describe the use
+#### Req 5c(1): Foundry Flasks and Mold Classifications
 **Official Requirement 5c(1):** Name and describe the use of the basic parts of a two-piece mold. Name at least three different types of molds.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (Basic Parts of A Two-piece)
-- **Common Myth:** In Metalwork Requirement 5c(1), many Scouts assume name and describe the use only requires a general overview rather than specific details on the use of the basic parts of a two-piece mold.
-- **Pamphlet Fact:** The official Metalwork pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document name and describe the use and explain the use of the basic parts of a two-piece mold during counselor review.
+- **Common Myth:** The cope refers to the bottom half of a foundry flask that rests on the molding board.
+- **Pamphlet Fact:** The drag forms the lower flask half resting on the board while the cope serves as the top removable section.
 
 ![A student wearing safety glasses carefully pours liquid metal from a handled ladle pot.](/assets/pamphlet_images/metalwork_p018_img1.png)
 
@@ -402,11 +402,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(2): Objects to Cast in Metal
+#### Req 5c(2): Cast Metal Pattern Design Sketches
 **Official Requirement 5c(2):** Create a sketch of two objects to cast in metal. Include each component's dimensions on your sketch, which need not be to scale.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5c(2) Structured Technical Study & Explanation Matrix (Objects to Cast in Metal)
-- **Common Myth:** When preparing Metalwork Requirement 5c(2) (Objects to Cast in Metal), Scouts sometimes overlook the concrete pamphlet benchmarks covering create a sketch of two objects to cast in metal.
-- **Pamphlet Fact:** Counselor verification for Metalwork Requirement 5c(2) requires concrete workbook evidence on objects to cast in metal, specifically addressing create a sketch of two objects to cast in metal.
+- **Common Myth:** Casting patterns can have perfectly square, vertical side walls with zero taper.
+- **Pamphlet Fact:** Patterns require slight draft angles along all vertical faces so they release cleanly from compacted sand without breaking mold edges.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -423,12 +423,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(3): Make two molds
+#### Req 5c(3): Sand Mold Ramming and Venting
 **Official Requirement 5c(3):** Make two molds, one using a pattern provided by your counselor and another one you have made yourself that has been approved by your counselor. Position the pouring gate and vents yourself. Note: Do not use copyrighted materials as patterns. (a) Using lead-free pewter, make a casting using a mold provided by your counselor. (b) Using lead-free pewter, make a casting using the mold that you have made.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Skill Demonstration Checklist):** Req 5c(3) Hands-On Skill Station & EDGE Verification Checklist (Molds One Using A Pattern)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Metalwork Req 5c(3) preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** For Metalwork Requirement 5c(3), a common mistake in make two molds is treating two molds, one using a pattern provided by your counselor and another one you have made yourself as optional background reading.
-- **Pamphlet Fact:** Mastering Metalwork Requirement 5c(3) means following the pamphlet standard for make two molds and recording accurate notes on two molds, one using a pattern provided by your counselor and another one you have made yourself.
+- **Common Myth:** Molten metal will flow into a closed sand cavity even if no air vents or risers are provided.
+- **Pamphlet Fact:** Trapped air and expanding steam generate back pressure that stops incoming liquid metal and blows gas pockets into the casting unless vented.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -448,11 +448,11 @@
 - Blacksmiths use coal or propane forges to bring medium-carbon steel to bright orange forging temperatures. Shaping involves drawing out, upsetting, bending over the horn, and punching holes across the anvil.
 - Req 5d Standard (Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)): Option D, Blacksmith. Do ALL of the following: (1) Name and describe the use of a blacksmith's basic tools. (2) Make a sketch of two objects to hot-forge. Include each component's dimensions on your sketch, which need not be to scale. (3) Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper. (b) Use the horn of the anvil by forging a U -shaped bend. (c) Form a decorative twist in a piece of square steel. (d) Use the edge of the anvil to bend metal by forging an L -shaped bend. (4) Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor's approval before you begin. (a) Include a decorative twist on one object. (b) Include a hammer-riveted joint in one object. (c) Preserve your work from oxidation.
 
-#### Req 5d(1): Blacksmith's Basic Tools
+#### Req 5d(1): Essential Blacksmithing Hand Tools
 **Official Requirement 5d(1):** Name and describe the use of a blacksmith's basic tools.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(1) Structured Technical Study & Explanation Matrix (Blacksmith's Basic Tools)
-- **Common Myth:** In Metalwork Requirement 5d(1), many Scouts assume blacksmith's basic tools only requires a general overview rather than specific details on the use of a blacksmith's basic tools.
-- **Pamphlet Fact:** The official Metalwork pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document blacksmith's basic tools and explain the use of a blacksmith's basic tools during counselor review.
+- **Common Myth:** A single standard pair of blacksmith tongs can safely hold any size or shape of hot steel.
+- **Pamphlet Fact:** Blacksmith tongs must match the exact dimensions and cross-sectional profile of the workpiece to maintain a secure grip under hammer blows.
 
 ![A metalworker strikes a hot workpiece placed across heavy metal bars with a hammer.](/assets/pamphlet_images/metalwork_p024_img2.png)
 
@@ -462,11 +462,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d(2): Sketch of Two Objects to Hot-forge
+#### Req 5d(2): Dimensioned Sketches for Forged Projects
 **Official Requirement 5d(2):** Make a sketch of two objects to hot-forge. Include each component's dimensions on your sketch, which need not be to scale.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5d(2) Hands-On Skill Station & EDGE Verification Checklist (Objects to Hot-forge Include Each)
-- **Common Myth:** When preparing Metalwork Requirement 5d(2) (Sketch of Two Objects to Hot-forge), Scouts sometimes overlook the concrete pamphlet benchmarks covering a sketch of two objects to hot-forge.
-- **Pamphlet Fact:** Counselor verification for Metalwork Requirement 5d(2) requires concrete workbook evidence on sketch of two objects to hot-forge, specifically addressing a sketch of two objects to hot-forge.
+- **Common Myth:** Forging sketches are simple artistic concept drawings that do not require exact dimensional numbers.
+- **Pamphlet Fact:** Component dimensions on a sketch determine the required starting stock length and ensure the finished pieces fit together.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -483,11 +483,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d(3): Low-carbon Steel At Least 1/4
+#### Req 5d(3): Foundational Low-Carbon Steel Forging Operations
 **Official Requirement 5d(3):** Using low-carbon steel at least 1/4 inch thick, perform the following exercises: (a) Draw out by forging a taper. (b) Use the horn of the anvil by forging a U -shaped bend. (c) Form a decorative twist in a piece of square steel. (d) Use the edge of the anvil to bend metal by forging an L -shaped bend.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Field Sketch & Diagram Canvas):** Req 5d(3) Structured Technical Study & Explanation Matrix (Low-carbon Steel At Least 1/4)
-- **Common Myth:** For Metalwork Requirement 5d(3), a common mistake in low-carbon steel at least 1/4 is treating using low-carbon steel at least 1/4 inch thick, perform the following exercises, (a) draw out by forging as optional background reading.
-- **Pamphlet Fact:** Mastering Metalwork Requirement 5d(3) means following the pamphlet standard for low-carbon steel at least 1/4 and recording accurate notes on using low-carbon steel at least 1/4 inch thick, perform the following exercises, (a) draw out by forging.
+- **Common Myth:** Thin steel rods heat up faster and are therefore easier for beginners to practice hot forging techniques than heavy stock.
+- **Pamphlet Fact:** Steel at least one-quarter inch thick holds forge heat long enough to allow proper shaping and prevents the metal from burning.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -506,12 +506,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d(4): Low-carbon Steel At Least 1/4
+#### Req 5d(4): Hot-Forged Functional Project Fabrication
 **Official Requirement 5d(4):** Using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging. Be sure you have your counselor's approval before you begin. (a) Include a decorative twist on one object. (b) Include a hammer-riveted joint in one object. (c) Preserve your work from oxidation.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 37, p. 49)* • **Organizer (Concept & Examples Notes):** Req 5d(4) Structured Technical Study & Explanation Matrix (Low-carbon Steel At Least 1/4)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Metalwork Req 5d(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** During Metalwork Requirement 5d(4), Scouts can underestimate how directly mastery of low-carbon steel at least 1/4 depends on understanding using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging.
-- **Pamphlet Fact:** Scouting America standards for Metalwork Requirement 5d(4) require complete workbook entries on low-carbon steel at least 1/4 to demonstrate full understanding of using low-carbon steel at least 1/4 inch thick, make the two objects you sketched that require hot-forging.
+- **Common Myth:** Forged project components can be cut and bent cold as long as the decorative elements are heated in the forge.
+- **Pamphlet Fact:** Both required projects must be shaped hot from quarter-inch stock using the anvil and hammer to demonstrate proper blacksmithing skill.
 
 | Req 5d(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

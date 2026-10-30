@@ -45,7 +45,7 @@
 - **Common Myth:** Small caliber rifle bullets lose destructive kinetic energy within a couple hundred yards.
 - **Pamphlet Fact:** A standard rimfire twenty-two caliber bullet can travel more than one mile.
 
-![Practical Rifle Shooting field visual showing proper setup, measurement, and technique for firearm safety rules and wildlife conservation in Requirement 1.](/assets/pamphlet_images/rifle_shooting_p003_img1.png)
+![Rifle Shooting Requirement 1 figure showing always point the rifle barrel toward a designated safe direction downrange during handling.](/assets/pamphlet_images/rifle_shooting_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -73,7 +73,7 @@
 - **Common Myth:** Showing an unloaded family rifle to a visiting friend is harmless entertainment.
 - **Pamphlet Fact:** Scouts must refuse firearm requests and inform parents immediately if visitors ask.
 
-![Illustrated Rifle Shooting technical diagram of shooting sports careers and lifelong hobbies for Requirement 3 field execution.](/assets/pamphlet_images/rifle_shooting_p012_img1.png)
+![Rifle Shooting Requirement 3 figure showing professional gunsmiths complete vocational apprenticeships learning metallurgy.](/assets/pamphlet_images/rifle_shooting_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -133,11 +133,11 @@
 - Hunter education courses instruct sportsmen in wildlife identification, field etiquette, and firearm ethics. Legal hunters must obtain proper tags and adhere to seasonal bag limits.
 - Req 1g Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)): Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 
-#### Req 1g(1): Main Points of Hunting Laws
+#### Req 1g(1): State Hunting Regulations And Firearm Laws
 **Official Requirement 1g(1):** Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1g(1) Structured Technical Study & Explanation Matrix (Main Points of Hunting Laws)
-- **Common Myth:** In Rifle Shooting Requirement 1g(1), many Scouts assume main points of hunting laws only requires a general overview rather than specific details on the main points of hunting laws in your state, and any special laws on the use of guns and ammunition.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 1g(1) specifies that Scouts must thoroughly document main points of hunting laws and explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition during counselor review.
+- **Common Myth:** A general firearm owner permit automatically authorizes hunting game anywhere on public land.
+- **Pamphlet Fact:** Hunting legally requires a state issued license, appropriate game tags, and adherence to specific local firearm caliber and season restrictions.
 
 | Req 1g(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -145,11 +145,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1g(2): Wildlife That Can Be Legally
+#### Req 1g(2): Regulated State Game Species Classifications
 **Official Requirement 1g(2):** List the kinds of wildlife that can be legally hunted in your state.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Organizer (Concept & Examples Notes):** Req 1g(2) Structured Technical Study & Explanation Matrix (Wildlife That Can Be Legally)
-- **Common Myth:** When preparing Rifle Shooting Requirement 1g(2) (Wildlife That Can Be Legally), Scouts sometimes overlook the concrete pamphlet benchmarks covering the kinds of wildlife that can be legally hunted in your state.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 1g(2) requires concrete workbook evidence on wildlife that can be legally, specifically addressing the kinds of wildlife that can be legally hunted in your state.
+- **Common Myth:** Any animal not classified as endangered can be hunted freely without seasonal limits or permits.
+- **Pamphlet Fact:** Only game animals explicitly designated with established seasons and harvest limits by state wildlife agencies may be legally hunted.
 
 | Req 1g(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -217,11 +217,11 @@
 - Option A focuses on modern rimfire or centerfire cartridge rifles utilizing metallic casing ammunition. Scouts master loading, cocking, sight adjustment, and scoring tight target groupings.
 - Req 2a Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option A, Rifle Shooting (Modern Cartridge Type). Do ALL of the following: (1) Identify the three main parts of a rifle, and tell how they function. (2) Identify and demonstrate the rules for safely storing and handling a rifle. (3) Identify the two types of cartridges, their parts, and how they function. (4) Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response to each. (5) Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a rifle, and identify the materials needed. (8) Demonstrate how to clean a rifle properly and safely. (9) Discuss what points you would consider in selecting a rifle. (10) Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle. (11) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
-#### Req 2a(1): Three main parts of a rifle
+#### Req 2a(1): Three Main Rifle Component Assemblies
 **Official Requirement 2a(1):** Identify the three main parts of a rifle, and tell how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(1) Structured Technical Study & Explanation Matrix (Main Parts of A Rifle)
-- **Common Myth:** In Rifle Shooting Requirement 2a(1), many Scouts assume three main parts of a rifle only requires a general overview rather than specific details on the three main parts of a rifle, and tell how they function.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document three main parts of a rifle and explain the three main parts of a rifle, and tell how they function during counselor review.
+- **Common Myth:** The receiver and the stock perform identical structural functions when firing a rifle.
+- **Pamphlet Fact:** The stock supports the firearm against the shooter while the receiver houses the moving parts of the action that chamber and fire ammunition.
 
 ![A shooter pushes a cleaning rod through the bore of a rifle during routine maintenance.](/assets/pamphlet_images/rifle_shooting_p030_img1.png)
 
@@ -231,11 +231,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Core principles and practical standards for Modern Cartridge Rifle Option
+#### Req 2a(2): Safe Rifle Handling And Storage Rules
 **Official Requirement 2a(2):** Identify and demonstrate the rules for safely storing and handling a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(2) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling A Rifle)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2a(2) (Core principles and practical standards for Modern Cartridge Rifle Option), Scouts sometimes overlook the concrete pamphlet benchmarks covering the rules for safely storing and handling a rifle.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2a(2) requires concrete workbook evidence on core principles and practical standards for modern cartridge rifle option, specifically addressing the rules for safely storing and handling a rifle.
+- **Common Myth:** Engaging the mechanical safety mechanism guarantees that a rifle cannot accidentally discharge if dropped.
+- **Pamphlet Fact:** Mechanical safeties are mechanical devices that can fail, which is why safe muzzle control remains the primary rule of gun handling.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -243,11 +243,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(3): Two Types of Cartridges Their Parts
+#### Req 2a(3): Rimfire And Centerfire Cartridge Anatomy
 **Official Requirement 2a(3):** Identify the two types of cartridges, their parts, and how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Cartridges Their Parts and How)
-- **Common Myth:** For Rifle Shooting Requirement 2a(3), a common mistake in two types of cartridges their parts is treating the two types of cartridges, their parts, and how they function as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2a(3) means following the pamphlet standard for two types of cartridges their parts and recording accurate notes on the two types of cartridges, their parts, and how they function.
+- **Common Myth:** Rimfire cartridges can be reloaded multiple times just like centerfire rifle ammunition.
+- **Pamphlet Fact:** Rimfire cases deform during firing and have priming compound spun directly into the rim, making them nonreloadable single use ammunition.
 
 | Req 2a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -255,11 +255,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(4): Misfire Hangfire and Squib Fire
+#### Req 2a(4): Ammunition Malfunction Identification And Response
 **Official Requirement 2a(4):** Explain to your counselor what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(4) Structured Technical Study & Explanation Matrix (Misfire Hangfire and Squib Fire)
-- **Common Myth:** During Rifle Shooting Requirement 2a(4), Scouts can underestimate how directly mastery of misfire hangfire and squib fire depends on understanding what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2a(4) require complete workbook entries on misfire hangfire and squib fire to demonstrate full understanding of what a misfire, hangfire, and squib fire are, and explain the procedures to follow in response.
+- **Common Myth:** Opening the action immediately after a failure to fire is the safest way to clear a dud round.
+- **Pamphlet Fact:** Opening the action immediately during a hangfire can cause the cartridge to explode outside the chamber without the support of the barrel.
 
 | Req 2a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -267,11 +267,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(5): Core principles and practical standards for Modern Cartridge Rifle Option
+#### Req 2a(5): Five Marksmanship Shooting Fundamentals
 **Official Requirement 2a(5):** Explain and demonstrate the five fundamentals of shooting a rifle: aiming, breath control, hold control, trigger control, and follow-through.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(5) Hands-On Skill Station & EDGE Verification Checklist (Fundamentals of Shooting A Rifle)
-- **Common Myth:** In Rifle Shooting Requirement 2a(5), many Scouts assume core principles and practical standards for modern cartridge rifle option only requires a general overview rather than specific details on the five fundamentals of shooting a rifle, aiming, breath control, hold control, trigger control.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2a(5) specifies that Scouts must thoroughly document core principles and practical standards for modern cartridge rifle option and explain the five fundamentals of shooting a rifle, aiming, breath control, hold control, trigger control during counselor review.
+- **Common Myth:** Holding your breath for as long as possible creates the most stable aiming platform.
+- **Pamphlet Fact:** Shooting during the natural respiratory pause of a normal breathing cycle provides optimal oxygenation and muscle relaxation without tremors.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -279,11 +279,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(6): Knowledge Skills and Attitude Necessary
+#### Req 2a(6): Live Fire Range Safety Procedures
 **Official Requirement 2a(6):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a rifle on a range, including understanding and following range procedures and commands.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(6) Hands-On Skill Station & EDGE Verification Checklist (Knowledge Skills and Attitude Necessary)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2a(6) (Knowledge Skills and Attitude Necessary), Scouts sometimes overlook the concrete pamphlet benchmarks covering the knowledge, skills, and attitude necessary to safely shoot a rifle on a range.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2a(6) requires concrete workbook evidence on knowledge skills and attitude necessary, specifically addressing the knowledge, skills, and attitude necessary to safely shoot a rifle on a range.
+- **Common Myth:** Anyone on a range can resume handling their rifle once the targets are posted and people begin walking back.
+- **Pamphlet Fact:** No one may touch or handle any firearm on the firing line while anyone remains downrange and until the Range Safety Officer gives explicit permission.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -291,11 +291,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(7): Basic Safety Rules for Cleaning
+#### Req 2a(7): Rifle Cleaning Safety And Necessary Equipment
 **Official Requirement 2a(7):** Explain the basic safety rules for cleaning a rifle, and identify the materials needed.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(7) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
-- **Common Myth:** For Rifle Shooting Requirement 2a(7), a common mistake in basic safety rules for cleaning is treating the basic safety rules for cleaning a rifle, and identify the materials needed as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2a(7) means following the pamphlet standard for basic safety rules for cleaning and recording accurate notes on the basic safety rules for cleaning a rifle, and identify the materials needed.
+- **Common Myth:** Cleaning a rifle with live ammunition on the workbench is acceptable if the rounds remain in their factory boxes.
+- **Pamphlet Fact:** All ammunition must be removed completely from the cleaning room before any maintenance or cleaning begins.
 
 | Req 2a(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -303,11 +303,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(8): Rifle Shooting Rifle Principles
+#### Req 2a(8): Proper Rifle Cleaning Procedure Demonstration
 **Official Requirement 2a(8):** Demonstrate how to clean a rifle properly and safely.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(8) Hands-On Skill Station & EDGE Verification Checklist (Rifle Shooting Rifle Principles)
-- **Common Myth:** During Rifle Shooting Requirement 2a(8), Scouts can underestimate how directly mastery of rifle shooting rifle principles depends on understanding how to clean a rifle properly and safely.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2a(8) require complete workbook entries on rifle shooting rifle principles to demonstrate full understanding of how to clean a rifle properly and safely.
+- **Common Myth:** Pulling a dirty cleaning patch back and forth through the bore cleans the rifling faster and more effectively.
+- **Pamphlet Fact:** Scrubbing back and forth drags abrasive fouling across the bore and can damage the precision crown at the muzzle.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -315,11 +315,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(9): What points you would consider
+#### Req 2a(9): Rifle Selection Criteria And Considerations
 **Official Requirement 2a(9):** Discuss what points you would consider in selecting a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(9) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
-- **Common Myth:** In Rifle Shooting Requirement 2a(9), many Scouts assume what points you would consider only requires a general overview rather than specific details on what points you would consider in selecting a rifle.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2a(9) specifies that Scouts must thoroughly document what points you would consider and explain what points you would consider in selecting a rifle during counselor review.
+- **Common Myth:** Heavier calibers with larger bullets are always superior choices for beginners learning basic marksmanship.
+- **Pamphlet Fact:** Light recoiling calibers like 22 rimfire allow new shooters to learn proper shooting fundamentals without developing a flinch.
 
 | Req 2a(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -327,11 +327,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(10): Using a bolt-action.22 caliber rimfire rifle
+#### Req 2a(10): Supported Group Shooting And Sight Adjustment
 **Official Requirement 2a(10):** Using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position at 50 feet, fire five groups (three shots per group) that can be touched by a quarter. Using these targets, explain how to adjust sights to zero a rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Bolt-action.22 Caliber Rimfire Rifle and)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2a(10) (Using a bolt-action.22 caliber rimfire rifle), Scouts sometimes overlook the concrete pamphlet benchmarks covering using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2a(10) requires concrete workbook evidence on using a bolt-action.22 caliber rimfire rifle, specifically addressing using a bolt-action.22 caliber rimfire rifle, and shooting from a benchrest or supported prone position.
+- **Common Myth:** You should adjust the rifle sights after every single individual shot that misses the bullseye.
+- **Pamphlet Fact:** Sights should only be adjusted after shooting a tight consistent group that establishes a true point of impact.
 
 | Req 2a(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -340,11 +340,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(11): Sights to Center
+#### Req 2a(11): Target Group Centering And Precision Qualification
 **Official Requirement 2a(11):** Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: A-32 targets: 9; A-17 or TQ-1 targets: 7; A-36 targets: 5. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(11) Structured Technical Study & Explanation Matrix (Sights to Center)
-- **Common Myth:** For Rifle Shooting Requirement 2a(11), a common mistake in sights to center is treating adjust sights to center the group on the target and fire five groups (five shots per group) as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2a(11) means following the pamphlet standard for sights to center and recording accurate notes on adjust sights to center the group on the target and fire five groups (five shots per group).
+- **Common Myth:** Moving the rear sight to the right moves the bullet impact point to the left on the target.
+- **Pamphlet Fact:** The rear sight is always moved in the same direction you want the bullet strike to move on the target.
 
 | Req 2a(11) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -366,11 +366,11 @@
 - Option B covers pneumatic, spring piston, and compressed gas air rifles launching pellets or BBs. Precise trigger technique and followthrough are essential due to longer barrel transit times.
 - Req 2b Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option B, Air Rifle Shooting (BB or Pellet). Do ALL of the following: (1) Identify the three main parts of an air rifle, and explain how they function. (2) Identify and demonstrate the rules for safely storing and handling an air rifle. (3) Identify the two most common types of air rifle ammunition. (4) Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through. (5) Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands. (6) Explain the basic safety rules for cleaning an air rifle, and identify the materials needed. (7) Demonstrate how to clean an air rifle properly and safely. (8) Discuss what points you would consider in selecting an air rifle. (9) Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter. (10) Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
-#### Req 2b(1): Main Parts of An Air
+#### Req 2b(1): Three Main Air Rifle Assemblies
 **Official Requirement 2b(1):** Identify the three main parts of an air rifle, and explain how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(1) Structured Technical Study & Explanation Matrix (Main Parts of An Air)
-- **Common Myth:** In Rifle Shooting Requirement 2b(1), many Scouts assume main parts of an air only requires a general overview rather than specific details on the three main parts of an air rifle, and explain how they function.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document main parts of an air and explain the three main parts of an air rifle, and explain how they function during counselor review.
+- **Common Myth:** Air rifles do not contain rifling in their barrels because lead pellets are shaped like shuttlecocks.
+- **Pamphlet Fact:** Target air rifles feature precision rifled steel barrels that spin and stabilize pellets for extreme accuracy.
 
 ![A competitor in specialized shooting apparel aims a rifle at an indoor target range.](/assets/pamphlet_images/rifle_shooting_p038_img1.png)
 
@@ -380,11 +380,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Storing and Handling An Air
+#### Req 2b(2): Air Rifle Safe Storage And Handling
 **Official Requirement 2b(2):** Identify and demonstrate the rules for safely storing and handling an air rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(2) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling An Air)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2b(2) (Storing and Handling An Air), Scouts sometimes overlook the concrete pamphlet benchmarks covering the rules for safely storing and handling an air rifle.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2b(2) requires concrete workbook evidence on storing and handling an air, specifically addressing the rules for safely storing and handling an air rifle.
+- **Common Myth:** Air rifles are basically toys and pose no serious danger if handled without eye protection or range backstops.
+- **Pamphlet Fact:** Modern air rifles produce velocities capable of severe injury or property damage and require identical range safety discipline to firearms.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -392,11 +392,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(3): Common Types of Air Rifle
+#### Req 2b(3): Common Air Rifle Ammunition Types
 **Official Requirement 2b(3):** Identify the two most common types of air rifle ammunition.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(3) Structured Technical Study & Explanation Matrix (Common Types of Air Rifle)
-- **Common Myth:** For Rifle Shooting Requirement 2b(3), a common mistake in common types of air rifle is treating the two most common types of air rifle ammunition as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2b(3) means following the pamphlet standard for common types of air rifle and recording accurate notes on the two most common types of air rifle ammunition.
+- **Common Myth:** Steel BBs and lead pellets can be fired interchangeably from any air rifle without damaging the barrel.
+- **Pamphlet Fact:** Firing hardened steel BBs through a rifled barrel designed for soft lead pellets will strip the rifling grooves and degrade accuracy permanently.
 
 | Req 2b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -404,11 +404,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(4): Fundamentals of Shooting An Air
+#### Req 2b(4): Fundamentals of Air Rifle Shooting
 **Official Requirement 2b(4):** Explain and demonstrate the five fundamentals of shooting an air rifle: aiming, breath control, hold control, trigger control, and follow-through.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(4) Hands-On Skill Station & EDGE Verification Checklist (Fundamentals of Shooting An Air)
-- **Common Myth:** During Rifle Shooting Requirement 2b(4), Scouts can underestimate how directly mastery of fundamentals of shooting an air depends on understanding the five fundamentals of shooting an air rifle, aiming, breath control, hold control, trigger control.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2b(4) require complete workbook entries on fundamentals of shooting an air to demonstrate full understanding of the five fundamentals of shooting an air rifle, aiming, breath control, hold control, trigger control.
+- **Common Myth:** Trigger control means pulling the trigger as quickly as possible the instant the front sight touches the center of the target.
+- **Pamphlet Fact:** Trigger control requires a steady and continuous straight rearward squeeze that allows the rifle to fire without anticipating the shot or jerking the sights off target.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -416,11 +416,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(5): Knowledge Skills and Attitude Necessary
+#### Req 2b(5): Air Rifle Range Safety Procedures
 **Official Requirement 2b(5):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding and following range procedures and commands.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(5) Hands-On Skill Station & EDGE Verification Checklist (Knowledge Skills and Attitude Necessary)
-- **Common Myth:** In Rifle Shooting Requirement 2b(5), many Scouts assume knowledge skills and attitude necessary only requires a general overview rather than specific details on the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2b(5) specifies that Scouts must thoroughly document knowledge skills and attitude necessary and explain the knowledge, skills, and attitude necessary to safely shoot on a range, including understanding during counselor review.
+- **Common Myth:** A shooter who hears a cease fire command should finish firing their already aimed shot before lowering the rifle.
+- **Pamphlet Fact:** Any cease fire command requires every shooter to immediately remove their finger from the trigger, open the action, ground the rifle, and step back behind the firing line.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -428,11 +428,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(6): Basic Safety Rules for Cleaning
+#### Req 2b(6): Air Rifle Cleaning Safety Guidelines
 **Official Requirement 2b(6):** Explain the basic safety rules for cleaning an air rifle, and identify the materials needed.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(6) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2b(6) (Basic Safety Rules for Cleaning), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic safety rules for cleaning an air rifle, and identify the materials needed.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2b(6) requires concrete workbook evidence on basic safety rules for cleaning, specifically addressing the basic safety rules for cleaning an air rifle, and identify the materials needed.
+- **Common Myth:** Standard firearm bore solvent and aerosol gun lubricants are suitable for cleaning air rifle barrels and internal mechanisms.
+- **Pamphlet Fact:** Petroleum based firearm solvents and oils can dissolve rubber O rings and ignite dangerously under high pressure compression inside an air rifle cylinder.
 
 | Req 2b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -440,11 +440,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(7): How to clean an air rifle
+#### Req 2b(7): Proper Air Rifle Cleaning Technique
 **Official Requirement 2b(7):** Demonstrate how to clean an air rifle properly and safely.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(7) Hands-On Skill Station & EDGE Verification Checklist (Air Rifle)
-- **Common Myth:** For Rifle Shooting Requirement 2b(7), a common mistake in how to clean an air rifle is treating how to clean an air rifle properly and safely as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2b(7) means following the pamphlet standard for how to clean an air rifle and recording accurate notes on how to clean an air rifle properly and safely.
+- **Common Myth:** Cleaning an air rifle requires running a stiff steel wire bore brush vigorously down the muzzle end of the barrel.
+- **Pamphlet Fact:** Inserting steel bore rods into the muzzle can nick the delicate rifling at the crown and ruin the precision accuracy of an air rifle barrel.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -452,11 +452,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(8): What points you would consider
+#### Req 2b(8): Air Rifle Selection Considerations
 **Official Requirement 2b(8):** Discuss what points you would consider in selecting an air rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(8) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
-- **Common Myth:** During Rifle Shooting Requirement 2b(8), Scouts can underestimate how directly mastery of what points you would consider depends on understanding what points you would consider in selecting an air rifle.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2b(8) require complete workbook entries on what points you would consider to demonstrate full understanding of what points you would consider in selecting an air rifle.
+- **Common Myth:** The best air rifle is always the model that advertises the highest muzzle velocity.
+- **Pamphlet Fact:** Excessive velocity often pushes lightweight pellets past the speed of sound, causing destabilizing turbulence that ruins grouping accuracy compared to balanced target velocities.
 
 | Req 2b(8) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -464,11 +464,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(9): Using a BB gun or pellet
+#### Req 2b(9): Supported Position Marksmanship Grouping Qualification
 **Official Requirement 2b(9):** Using a BB gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet for BB guns or 33 feet for pellet rifles, fire five groups (three shots per group) that can be touched by a quarter.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(9) Structured Technical Study & Explanation Matrix (Gun or Pellet Rifle and)
-- **Common Myth:** In Rifle Shooting Requirement 2b(9), many Scouts assume using a bb gun or pellet only requires a general overview rather than specific details on using a bb gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2b(9) specifies that Scouts must thoroughly document using a bb gun or pellet and explain using a bb gun or pellet rifle and shooting from a benchrest or supported prone position at 15 feet during counselor review.
+- **Common Myth:** Supporting the rifle on a benchrest eliminates the need for proper breath control and trigger follow-through.
+- **Pamphlet Fact:** Even with artificial support, slight inconsistencies in breathing or jerking the trigger will cause the rifle to pivot and expand the shot group beyond the width of a quarter.
 
 | Req 2b(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -476,11 +476,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(10): Sights to Center
+#### Req 2b(10): Sight Adjustment and Target Zeroing
 **Official Requirement 2b(10):** Adjust sights to center the group on the target and fire five groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed air rifle, you may explain (rather than doing) how to adjust the sights, and then fire five groups (five shots per group) in which all shots can be touched by a quarter. According to the target used, each shot in the group must meet the following minimum score: BB rifle at 15 feet (or 5 meters) using TQ-5 targets: 8; Pellet rifle at 25 feet using TQ-5 targets: 8; Pellet rifle at 33 feet (or 10 meters) using AR-1 targets: 6. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(10) Structured Technical Study & Explanation Matrix (Sights to Center)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2b(10) (Sights to Center), Scouts sometimes overlook the concrete pamphlet benchmarks covering adjust sights to center the group on the target and fire five groups (five shots per group).
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2b(10) requires concrete workbook evidence on sights to center, specifically addressing adjust sights to center the group on the target and fire five groups (five shots per group).
+- **Common Myth:** If shots group consistently low and to the left of the bullseye, the rear sight must be adjusted down and right.
+- **Pamphlet Fact:** The rear sight must always be moved in the desired direction of bullet strike, meaning a low left group requires moving the rear sight up and right.
 
 | Req 2b(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -502,11 +502,11 @@
 - Option C explores historic muzzleloading rifles loaded from the muzzle with loose powder and patched balls. Shooters adhere to strict black powder handling procedures to prevent premature combustion.
 - Req 2c Standard (Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)): Option C, Muzzleloading Rifle Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of muzzleloading rifles. (2) Identify principal parts of muzzleloading rifles and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading rifle. (8) Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading rifle properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading rifle. (13) Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink can. (14) Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 
-#### Req 2c(1): Rifle Shooting Origins and Evolution
+#### Req 2c(1): Muzzleloading Rifle Historical Development
 **Official Requirement 2c(1):** Discuss with your counselor a brief history of the development of muzzleloading rifles.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(1) Structured Technical Study & Explanation Matrix (Rifle Shooting Origins and Evolution)
-- **Common Myth:** In Rifle Shooting Requirement 2c(1), many Scouts assume rifle shooting origins and evolution only requires a general overview rather than specific details on a brief history of the development of muzzleloading rifles.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2c(1) specifies that Scouts must thoroughly document rifle shooting origins and evolution and explain a brief history of the development of muzzleloading rifles during counselor review.
+- **Common Myth:** Early smoothbore muskets and rifled muzzleloaders were developed at the same time and offered identical combat and hunting effectiveness.
+- **Pamphlet Fact:** Spiral rifling was developed after smoothbore muskets to spin the projectile, vastly increasing accurate range from fifty yards to well over two hundred yards.
 
 ![A classic muzzleloading rifle illustrates the external parts and ignition mechanism of antique arms.](/assets/pamphlet_images/rifle_shooting_p058_img1.png)
 
@@ -516,11 +516,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(2): Principal Parts of Muzzleloading Rifles
+#### Req 2c(2): Principal Muzzleloading Rifle Components
 **Official Requirement 2c(2):** Identify principal parts of muzzleloading rifles and discuss how they function.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(2) Structured Technical Study & Explanation Matrix (Principal Parts of Muzzleloading Rifles)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2c(2) (Principal Parts of Muzzleloading Rifles), Scouts sometimes overlook the concrete pamphlet benchmarks covering principal parts of muzzleloading rifles and discuss how they function.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2c(2) requires concrete workbook evidence on principal parts of muzzleloading rifles, specifically addressing principal parts of muzzleloading rifles and discuss how they function.
+- **Common Myth:** The lock on a muzzleloader acts as the ammunition chamber where black powder and lead balls are loaded.
+- **Pamphlet Fact:** The lock functions solely as the external firing mechanism that creates sparks or detonates a primer cap, while the powder and ball are seated inside the barrel breech.
 
 | Req 2c(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -528,11 +528,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(3): Core principles and practical standards for Muzzleloading Rifle Option
+#### Req 2c(3): Muzzleloading Storage and Handling Rules
 **Official Requirement 2c(3):** Identify and demonstrate the rules for safely storing and handling a muzzleloading rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2c(3) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling A Muzzleloading)
-- **Common Myth:** For Rifle Shooting Requirement 2c(3), a common mistake in core principles and practical standards for muzzleloading rifle option is treating the rules for safely storing and handling a muzzleloading rifle as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2c(3) means following the pamphlet standard for core principles and practical standards for muzzleloading rifle option and recording accurate notes on the rules for safely storing and handling a muzzleloading rifle.
+- **Common Myth:** Looking down the open muzzle of a black powder rifle with a flashlight is the safest way to verify whether the barrel contains a charge.
+- **Pamphlet Fact:** A marked ramrod dropped down the bore to compare depth against the exterior barrel length is the only safe method to verify an unloaded muzzleloader.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -540,11 +540,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(4): Various Grades of Black Powder
+#### Req 2c(4): Black Powder Granulation Grades
 **Official Requirement 2c(4):** Identify the various grades of black powder and explain their proper and safe use.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(4) Structured Technical Study & Explanation Matrix (Various Grades of Black Powder)
-- **Common Myth:** During Rifle Shooting Requirement 2c(4), Scouts can underestimate how directly mastery of various grades of black powder depends on understanding the various grades of black powder and explain their proper and safe use.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2c(4) require complete workbook entries on various grades of black powder to demonstrate full understanding of the various grades of black powder and explain their proper and safe use.
+- **Common Myth:** Finely granulated FFFFg powder creates the highest velocity and can be safely loaded as the main propellant charge in small rifles.
+- **Pamphlet Fact:** Using priming powder such as FFFFg as a main charge produces dangerously rapid pressure spikes that can rupture the barrel and injure the shooter.
 
 | Req 2c(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -552,11 +552,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(5): Proper safety procedures pertaining to black
+#### Req 2c(5): Black Powder Safe Storage Procedures
 **Official Requirement 2c(5):** Discuss proper safety procedures pertaining to black powder storage.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(5) Structured Technical Study & Explanation Matrix (Discuss Proper Safety Procedures Pertaining)
-- **Common Myth:** In Rifle Shooting Requirement 2c(5), many Scouts assume proper safety procedures pertaining to black only requires a general overview rather than specific details on proper safety procedures pertaining to black powder storage.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2c(5) specifies that Scouts must thoroughly document proper safety procedures pertaining to black and explain proper safety procedures pertaining to black powder storage during counselor review.
+- **Common Myth:** Black powder and percussion caps should be stored together in an airtight metal toolbox to keep them dry.
+- **Pamphlet Fact:** Percussion caps must be stored in a separate location from black powder to eliminate the risk of accidental primer ignition detonating the powder supply.
 
 | Req 2c(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -564,11 +564,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(6): Proper components of a load
+#### Req 2c(6): Muzzleloading Projectile Load Components
 **Official Requirement 2c(6):** Discuss proper components of a load.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(6) Structured Technical Study & Explanation Matrix (Discuss Proper Components)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2c(6) (Proper components of a load), Scouts sometimes overlook the concrete pamphlet benchmarks covering proper components of a load.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2c(6) requires concrete workbook evidence on proper components of a load, specifically addressing proper components of a load.
+- **Common Myth:** A round lead ball can be loaded directly onto the powder without a cloth patch in a rifled muzzleloader.
+- **Pamphlet Fact:** The lubricated cloth patch seals expanding combustion gases and grips the barrel rifling grooves to impart stabilizing spin onto the undersized round ball.
 
 | Req 2c(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -576,11 +576,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(7): Procedures and Accessories
+#### Req 2c(7): Safe Muzzleloader Loading Equipment
 **Official Requirement 2c(7):** Identify proper procedures and accessories used for safely loading a muzzleloading rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(7) Structured Technical Study & Explanation Matrix (Procedures and Accessories)
-- **Common Myth:** For Rifle Shooting Requirement 2c(7), a common mistake in procedures and accessories is treating proper procedures and accessories used for safely loading a muzzleloading rifle as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2c(7) means following the pamphlet standard for procedures and accessories and recording accurate notes on proper procedures and accessories used for safely loading a muzzleloading rifle.
+- **Common Myth:** Pouring black powder straight from a powder flask or horn down the barrel saves time and is completely safe.
+- **Pamphlet Fact:** Pouring directly from a powder container can ignite the entire powder horn in the shooter hand if a smoldering ember remains in the breech.
 
 | Req 2c(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -588,11 +588,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(8): Muzzleloading Rifle's Failure to Fire
+#### Req 2c(8): Muzzleloader Malfunctions and Stoppage Procedures
 **Official Requirement 2c(8):** Identify the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2c(8) Hands-On Skill Station & EDGE Verification Checklist (Muzzleloading Rifle's Failure to Fire)
-- **Common Myth:** During Rifle Shooting Requirement 2c(8), Scouts can underestimate how directly mastery of muzzleloading rifle's failure to fire depends on understanding the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2c(8) require complete workbook entries on muzzleloading rifle's failure to fire to demonstrate full understanding of the causes of a muzzleloading rifle's failure to fire, and explain what a misfire, hangfire, and squib.
+- **Common Myth:** A muzzleloader that fails to discharge after the cap pops can be lowered and uncapped immediately because the ignition sequence has completely ended.
+- **Pamphlet Fact:** A smoldering ember in the breech can create a hangfire that unexpectedly ignites the main powder charge up to a minute later, requiring the muzzle to stay aimed downrange for at least 60 seconds.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -601,11 +601,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(9): Knowledge Skills and Attitude Necessary
+#### Req 2c(9): Muzzleloading Range Safety and Commands
 **Official Requirement 2c(9):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range, including understanding and following range procedures and commands.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2c(9) Hands-On Skill Station & EDGE Verification Checklist (Knowledge Skills and Attitude Necessary)
-- **Common Myth:** In Rifle Shooting Requirement 2c(9), many Scouts assume knowledge skills and attitude necessary only requires a general overview rather than specific details on the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2c(9) specifies that Scouts must thoroughly document knowledge skills and attitude necessary and explain the knowledge, skills, and attitude necessary to safely shoot a muzzleloading rifle on a range during counselor review.
+- **Common Myth:** Shooters may pour powder directly from a powder horn or main flask down the barrel on the active firing line to speed up the reloading process.
+- **Pamphlet Fact:** Powder must always be transferred first into a separate volumetric measure behind the firing line before pouring it down the bore to prevent a burning spark from igniting the entire powder supply.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -613,11 +613,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(10): Basic Safety Rules for Cleaning
+#### Req 2c(10): Muzzleloader Cleaning Safety and Materials
 **Official Requirement 2c(10):** Explain the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(10) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2c(10) (Basic Safety Rules for Cleaning), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2c(10) requires concrete workbook evidence on basic safety rules for cleaning, specifically addressing the basic safety rules for cleaning a muzzleloading rifle, and identify the materials needed.
+- **Common Myth:** Petroleum based modern gun bore cleaning solvents work effectively to dissolve corrosive black powder fouling salts in a muzzleloader barrel.
+- **Pamphlet Fact:** Hot soapy water or specialized water soluble black powder solvents are required because petroleum distillates fail to dissolve corrosive potassium salts and instead create a gummy sludge inside the bore.
 
 | Req 2c(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -625,11 +625,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(11): Muzzleloading Rifle
+#### Req 2c(11): Muzzleloader Bore and Action Cleaning
 **Official Requirement 2c(11):** Demonstrate how to clean a muzzleloading rifle properly and safely.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2c(11) Hands-On Skill Station & EDGE Verification Checklist (Muzzleloading Rifle)
-- **Common Myth:** For Rifle Shooting Requirement 2c(11), a common mistake in muzzleloading rifle is treating how to clean a muzzleloading rifle properly and safely as optional background reading.
-- **Pamphlet Fact:** Mastering Rifle Shooting Requirement 2c(11) means following the pamphlet standard for muzzleloading rifle and recording accurate notes on how to clean a muzzleloading rifle properly and safely.
+- **Common Myth:** A muzzleloader can safely sit uncleaned overnight after a range session as long as it is stored in a dry closet.
+- **Pamphlet Fact:** Black powder residue attracts atmospheric moisture immediately and forms caustic acids that pit and ruin the steel rifling within hours if not cleaned the same day.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -637,11 +637,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(12): What points you would consider
+#### Req 2c(12): Muzzleloading Rifle Selection Criteria
 **Official Requirement 2c(12):** Discuss what points you would consider in selecting a muzzleloading rifle.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(12) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
-- **Common Myth:** During Rifle Shooting Requirement 2c(12), Scouts can underestimate how directly mastery of what points you would consider depends on understanding what points you would consider in selecting a muzzleloading rifle.
-- **Pamphlet Fact:** Scouting America standards for Rifle Shooting Requirement 2c(12) require complete workbook entries on what points you would consider to demonstrate full understanding of what points you would consider in selecting a muzzleloading rifle.
+- **Common Myth:** A fast barrel twist rate designed for modern conical sabots will stabilize traditional patched round lead balls with equal accuracy.
+- **Pamphlet Fact:** Patched round balls require a slow twist rate such as 1 in 66 inches to prevent the cloth patch from stripping through the rifling under heavy powder charges.
 
 | Req 2c(12) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -649,11 +649,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(13): Muzzleloading Rifle Of.45 Or.50 Caliber
+#### Req 2c(13): Supported Muzzleloader Grouping Qualification
 **Official Requirement 2c(13):** Using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone position, fire three groups (three shots per group) at 50 feet that can be covered by the base of a standard-size soft drink.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(13) Structured Technical Study & Explanation Matrix (Muzzleloading Rifle Of.45 Or.50 Caliber)
-- **Common Myth:** In Rifle Shooting Requirement 2c(13), many Scouts assume muzzleloading rifle of.45 or.50 caliber only requires a general overview rather than specific details on using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone.
-- **Pamphlet Fact:** The official Rifle Shooting pamphlet for Requirement 2c(13) specifies that Scouts must thoroughly document muzzleloading rifle of.45 or.50 caliber and explain using a muzzleloading rifle of.45 or.50 caliber and shooting from a benchrest or supported prone during counselor review.
+- **Common Myth:** Varying the seating pressure when ramming the patched ball against the powder charge between shots has little effect on group size at 50 feet.
+- **Pamphlet Fact:** Inconsistent ramrod pressure crushes the powder grains unevenly, leading to erratic muzzle velocities and wide vertical dispersion on the target.
 
 | Req 2c(13) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -661,11 +661,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2c(14): Sights to Center
+#### Req 2c(14): Sight Adjustment and Group Centering
 **Official Requirement 2c(14):** Adjust the sights to center the group on the target and fire three groups (five shots per group). In the event that your instructor determines it is not practical to adjust the sights, for instance, on a borrowed muzzleloading rifle, you may explain (rather than doing) how to adjust the sights, and then fire three groups (five shots per group) in which all shots can be covered by the base of a standard-size soft drink can. According to the target used, each shot in the group must meet the following minimum score: at 25 yards using NRA A-23 or NMLRA 50-yard targets: 7; at 50 yards using NRA A-25 or NMLRA 100-yard targets: 7. Note: Other suitable NRA targets may be used if the specified targets are unavailable.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 19, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2c(14) Structured Technical Study & Explanation Matrix (Sights to Center)
-- **Common Myth:** When preparing Rifle Shooting Requirement 2c(14) (Sights to Center), Scouts sometimes overlook the concrete pamphlet benchmarks covering adjust the sights to center the group on the target and fire three groups (five shots per group).
-- **Pamphlet Fact:** Counselor verification for Rifle Shooting Requirement 2c(14) requires concrete workbook evidence on sights to center, specifically addressing adjust the sights to center the group on the target and fire three groups (five shots per group).
+- **Common Myth:** To move shot impacts upward on the target, the rear sight notch should be tapped lower toward the barrel.
+- **Pamphlet Fact:** The rear sight must always be adjusted in the identical direction you wish the bullet strike to move, so raising the rear sight elevates the point of impact on the target.
 
 | Req 2c(14) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

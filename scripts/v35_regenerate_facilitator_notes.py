@@ -147,15 +147,19 @@ def build_5part_facilitator_note(
     fact = clean_prose(str(misc_pair.get("fact") or misc_pair.get("fact_correction") or ex1))
     safe_str = f" [Safety Check: {clean_prose(safety_callout)}]" if safety_callout else ""
 
-    soc_q0 = clean_prose(socratic_questions[0]) if socratic_questions and len(socratic_questions) >= 1 and clean_prose(socratic_questions[0]) else ""
-    soc_q1 = clean_prose(socratic_questions[1]) if socratic_questions and len(socratic_questions) >= 2 and clean_prose(socratic_questions[1]) else soc_q0
+    soc_list_clean = [clean_prose(q) for q in (socratic_questions or []) if clean_prose(q)]
+    soc_q0 = soc_list_clean[0] if len(soc_list_clean) >= 1 else ""
+    soc_q1 = soc_list_clean[1] if len(soc_list_clean) >= 2 else soc_q0
+    soc_q2 = soc_list_clean[2] if len(soc_list_clean) >= 3 else soc_q0
+    soc_q3 = soc_list_clean[3] if len(soc_list_clean) >= 4 else soc_q1
+    soc_q4 = soc_list_clean[4] if len(soc_list_clean) >= 5 else soc_q0
 
     if role_idx == 0:
         pacing = (
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Point to Card 1: {clean_tp}] Introduce {clean_tp} for {clean_b} Requirement {clean_r} by unpacking {ensure_sentence_end(ex1)}.{safe_str}"
         )
-        ask_q0 = soc_q0 or f"Before reading the pamphlet details on screen, why does {clean_tp} matter in {clean_b}, and where have you seen it in action?"
+        ask_q0 = soc_q0 or f"Why is {clean_tp} foundational in {clean_b} Requirement {clean_r}, and where have you applied it?"
         ask = f"[ASK SCOUTS FIRST] {ask_q0}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} [Expected Answer: Scouts explain the core principle of {clean_tp} in their own words.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Open the {clean_b} Workbook to {wb_title}] Have each Scout record the primary definition and pamphlet facts for Requirement {clean_r} ({cite})."
@@ -164,7 +168,12 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Step to the demonstration table] Model the step-by-step sequence for {clean_tp} starting with {ensure_sentence_end(pr1)}, then coach buddy pairs as they practice.{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] Looking at our procedural sequence for {clean_tp} (Req {clean_r}), why must we complete the first step before advancing to {ensure_sentence_end(pr2)}?"
+        ask_q_proc = (
+            f"{soc_q1.rstrip('?.! ')}? (Walk through how {ensure_sentence_end(pr1)} leads into {ensure_sentence_end(pr2)}.)"
+            if soc_q1
+            else f"During {clean_b} Requirement {clean_r} ({clean_tp}), why must your buddy pair complete {ensure_sentence_end(pr1)} before advancing to {ensure_sentence_end(pr2)}?"
+        )
+        ask = f"[ASK SCOUTS FIRST] {ask_q_proc}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {pr1} {pr2} [Expected Answer: Scouts follow the step-by-step sequence for {clean_tp} without skipping safety or verification checks.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Observe live buddy-pair practice] Verify each Scout physically demonstrates or walks through all steps of Requirement {clean_r} per Guide to Advancement Section 7.0.3.2."
     elif role_idx == 2:
@@ -174,7 +183,12 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Point to the two comparison columns: {lh} vs. {rh}] Contrast {lh} against {rh} for {clean_b} Requirement {clean_r}.{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] How do you distinguish between {lh} and {rh} in the field, and when would your patrol choose one over the other?"
+        ask_q_comp = (
+            f"{soc_q2.rstrip('?.! ')}? (Compare {lh} against {rh} for Requirement {clean_r}.)"
+            if soc_q2
+            else f"When evaluating {lh} versus {rh} in {clean_b} Requirement {clean_r}, what practical criteria guide your patrol's choice?"
+        )
+        ask = f"[ASK SCOUTS FIRST] {ask_q_comp}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} {ex2} [Expected Answer: Scouts contrast {lh} and {rh} using concrete examples from the {clean_b} pamphlet.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Point to {wb_title}] Confirm each Scout compares {lh} and {rh} accurately in their {clean_b} Workbook."
     elif role_idx == 3:
@@ -184,7 +198,12 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Point to the Exemplar Workbook Entry] Show Scouts what a complete, sign-off-ready entry looks like for Requirement {clean_r} ({clean_tp}).{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] Comparing a one-word note to this worked example for {clean_tp}, what specific measurements or details make this entry ready for counselor sign-off?"
+        ask_q_we = (
+            f"{soc_q3.rstrip('?.! ')}? (Point out the specific evidence in our {clean_tp} exemplar log.)"
+            if soc_q3
+            else f"In our {clean_b} Requirement {clean_r} exemplar log for {clean_tp}, which recorded measurement or observation proves mastery?"
+        )
+        ask = f"[ASK SCOUTS FIRST] {ask_q_we}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {we_out} [Expected Answer: {we_tip}]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Inspect individual {clean_b} Workbooks] Check that each Scout's entry in {wb_title} includes their own specific observations and data."
     elif role_idx == 4:
@@ -204,7 +223,12 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Hold up the station gear: {g1}] Conduct a patrol equipment and safety shakedown for {clean_b} Requirement {clean_r} ({clean_tp}).{safe_str}"
         )
-        ask = f"[ASK SCOUTS FIRST] Before starting our hands-on work for {clean_tp}, what inspection check confirms that {g1} is safe and ready for use?"
+        ask_q_gear = (
+            f"{soc_q4.rstrip('?.! ')}? (Check how {g1} supports safe execution.)"
+            if soc_q4
+            else f"During our {clean_b} Requirement {clean_r} shakedown of {g1}, what readiness check must your buddy pair verify?"
+        )
+        ask = f"[ASK SCOUTS FIRST] {ask_q_gear}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex1} [Expected Answer: Scouts inspect {g1} and verify scene safety before execution.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Check station readiness] Confirm every buddy pair has inspected their gear and recorded safety checks in {wb_title}."
     else:
@@ -212,7 +236,7 @@ def build_5part_facilitator_note(
             f"[PACING & MODALITY] {est_min} | {role_name} | EDGE: {edge_stage} | {cite}. "
             f"[Facilitate deep-dive discussion on {clean_tp}] Connect {ensure_sentence_end(ex2)} to real-world application and troubleshooting in {clean_b} Requirement {clean_r}.{safe_str}"
         )
-        ask_q1 = soc_q1 or f"If conditions change unexpectedly while applying {clean_tp} in {clean_b}, how should your patrol adapt while staying within the pamphlet standard?"
+        ask_q1 = soc_q1 or f"If field conditions change while applying {clean_tp} in {clean_b} Requirement {clean_r}, how should your patrol adapt?"
         ask = f"[ASK SCOUTS FIRST] {ask_q1}"
         key = f"[EXPECTED PAMPHLET ANSWER KEY] Citation: {cite}. {ex2} {ex1} [Expected Answer: Scouts connect {clean_tp} to practical field decision-making and verify their notes in {wb_title}.]"
         rubric = f"[DEMONSTRATION & SIGN-OFF RUBRIC] [Final check for Requirement {clean_r}] Initial Blue Card (#34124) once each Scout individually explains or demonstrates {clean_tp} ({cite})."

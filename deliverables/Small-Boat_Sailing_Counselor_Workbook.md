@@ -55,7 +55,7 @@
 - **Common Myth:** Wind direction remains completely constant across small bays and inland lake coves.
 - **Pamphlet Fact:** Local topography causes abrupt localized wind velocity increases and directional wind shifts.
 
-![Detailed Small-Boat Sailing reference illustration comparing key components and stages of sailing hazards and first aid for Requirement 1.](/assets/pamphlet_images/small_boat_sailing_p003_img1.png)
+![Small-Boat Sailing Requirement 1 figure showing sudden accidental jibes swing heavy aluminum spars violently across the open cockpit.](/assets/pamphlet_images/small_boat_sailing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -69,7 +69,7 @@
 - **Common Myth:** Shivering sailors can warm up quickly by sitting in wet sailing gear.
 - **Pamphlet Fact:** Wet clothing conducts heat away from skin twenty five times faster than dry air.
 
-![Detailed Small-Boat Sailing reference illustration comparing key components and stages of small-boat sailing identify the wind direction reference figure.](/assets/pamphlet_images/small_boat_sailing_p005_img1.png)
+![Small-Boat Sailing Requirement 5 figure showing pivoting wind vanes mounted at mastheads indicate instantaneous apparent wind direction.](/assets/pamphlet_images/small_boat_sailing_p005_img1.png)
 
 | Condition / Injury | Signs & Symptoms | First-Aid Treatment | Prevention Strategy |
 | :--- | :--- | :--- | :--- |
@@ -89,7 +89,7 @@
 - **Common Myth:** Safety Afloat rules permit unrated swimmers to skipper double handed sailing dinghies.
 - **Pamphlet Fact:** Every sailboat operator must pass the comprehensive classified swimmer test before launch.
 
-![Practical Small-Boat Sailing field visual showing proper setup, measurement, and technique for scouting america swimmer qualification in Requirement 2.](/assets/pamphlet_images/small_boat_sailing_p007_img1.png)
+![Small-Boat Sailing Requirement 2 figure showing jump feet first into water over head depth and level off smoothly.](/assets/pamphlet_images/small_boat_sailing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -164,7 +164,7 @@
 - **Common Myth:** A float plan is unnecessary when sailing within sight of a Scout camp beach.
 - **Pamphlet Fact:** Safety Afloat mandates filing float plans with shoreside monitors for all sailing sessions.
 
-![Step-by-step Small-Boat Sailing visual guide highlighting small-boat sailing safe swim defense and safety afloat reference figure positioning and inspection.](/assets/pamphlet_images/small_boat_sailing_p004_img1.png)
+![Small-Boat Sailing Requirement 4 figure showing leave written routes, crew rosters, and return times with responsible shore contacts.](/assets/pamphlet_images/small_boat_sailing_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -178,7 +178,7 @@
 - **Common Myth:** The boat sailing at higher speed always maintains right of way over slower vessels.
 - **Pamphlet Fact:** Navigation rules assign right of way based on tack, windward position, and maneuvering capability.
 
-![Illustrated Small-Boat Sailing technical diagram of sailboat parts and functions for Requirement 3 field execution.](/assets/pamphlet_images/small_boat_sailing_p012_img1.png)
+![Small-Boat Sailing Requirement 3 figure showing lowered underwater foils counteract sideways leeway drift created by aerodynamic sail force.](/assets/pamphlet_images/small_boat_sailing_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -284,7 +284,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Practical Small-Boat Sailing field visual showing proper setup, measurement.](/assets/pamphlet_images/small_boat_sailing_p006_img1.png)
+![Small-Boat Sailing Requirement 6 figure showing push the tiller smoothly toward the sail to bring the bow through wind.](/assets/pamphlet_images/small_boat_sailing_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -478,7 +478,7 @@
 
 | Req 8 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe how you would care for and maintain a sailboat and its gear throughout the year.** | `____________________________________` | `____________________________________` |
+| **1. Describe how you would care for and maintain a sailboat and its gear throughout the year** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Freshwater Hardware Rinse: Wash salt crystals off stainless blocks and anodized aluminum spars to stop corrosion.

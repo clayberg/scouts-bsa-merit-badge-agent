@@ -299,19 +299,19 @@
         "question": "While adjusting a jammed spur-gear drive train in the robotics lab, a Scout notices white dry residue from a damaged battery cell and has a minor sheet-metal cut on a forearm. What safety and first-aid procedure does the Robotics Merit Badge Pamphlet require?",
         "options": [
           "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
-          "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+          "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears.",
           "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
           "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick."
         ],
         "choices": [
           "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
-          "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+          "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears.",
           "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
           "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+        "correct_answer": "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears.",
         "explanation": "Correct Answer (B): Per the Robotics Merit Badge Pamphlet (pp. 9-12), always wear ANSI Z87.1 eye protection, disconnect battery power before mechanical adjustments, brush dry chemical residue away with a gloved hand before flushing with water, and flush minor cuts with soap and water for 5 minutes before applying a sterile bandage.",
         "pamphlet_page_ref": "p. 26, p. 55"
       },
@@ -1177,8 +1177,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
-                "misconception": "In Robotics Requirement 4d(1), many Scouts assume program your robot to perform only requires a general overview rather than specific details on program your robot to perform the task you chose for your robot in 4.",
-                "fact": "The official Robotics pamphlet for Requirement 4d(1) specifies that Scouts must thoroughly document program your robot to perform and explain program your robot to perform the task you chose for your robot in 4 during counselor review."
+                "misconception": "Graphical block programming languages do not qualify as legitimate source code for the engineering notebook.",
+                "fact": "Scouting America accepts visual block diagrams and text-based code equally as long as the printed sample includes clear annotations explaining the logic."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1204,14 +1204,17 @@
               "id": "4d(1)",
               "sub_req_label": "4d(1)",
               "sub_req_text": "Program your robot to perform the task you chose for your robot in 4(a). Include a sample of your program's source code in your robot engineering notebook.",
-              "topic_title": "Req 4d(1): Program your robot to perform",
-              "pamphlet_summary": "Program your robot to perform: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32).",
+              "topic_title": "Req 4d(1): Robot Program Source Code Implementation",
+              "pamphlet_summary": "Robot Program Source Code Implementation: Write and upload well-commented control logic to the embedded microcontroller so the robot executes its assigned autonomous sequence reliably. Document the routine by pasting printed code extracts with clear variable descriptions and functional annotations directly into the engineering notebook (p. 57).",
               "pamphlet_excerpts": [
-                "Program your robot to perform: Put your name in your robot engineering notebook, and include these sections, Robot (p. 32)."
+                "Robot Program Source Code Implementation: Write and upload well-commented control logic to the embedded microcontroller so the robot executes its assigned autonomous sequence reliably. Document the routine by pasting printed code extracts with clear variable descriptions and functional annotations directly into the engineering notebook (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
               "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+              "socratic_questions": [
+                "If another team member had to troubleshoot your robot tomorrow, how would your documented code guide them through each action?"
+              ]
             },
             {
               "sub_id": "4d(2)",
@@ -1256,8 +1259,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)",
               "common_misconception_pair": {
-                "misconception": "When preparing Robotics Requirement 4d(2) (Flowchart of The Desired), Scouts sometimes overlook the concrete pamphlet benchmarks covering a flowchart of the desired steps to program your robot for accomplishing the task in 4.",
-                "fact": "Counselor verification for Robotics Requirement 4d(2) requires concrete workbook evidence on flowchart of the desired, specifically addressing a flowchart of the desired steps to program your robot for accomplishing the task in 4."
+                "misconception": "Program flowcharts follow a single linear sequence without decision branches for sensor feedback.",
+                "fact": "Standard programming flowcharts require diamond decision blocks that branch into alternate actions based on live sensor readings."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1283,14 +1286,17 @@
               "id": "4d(2)",
               "sub_req_label": "4d(2)",
               "sub_req_text": "Prepare a flowchart of the desired steps to program your robot for accomplishing the task in 4(a). Include procedures that show activities based on sensor inputs. Place this in your robot engineering notebook.",
-              "topic_title": "Req 4d(2): Flowchart of The Desired",
-              "pamphlet_summary": "Flowchart of The Desired: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32).",
+              "topic_title": "Req 4d(2): Sensor Logic Program Flowchart Development",
+              "pamphlet_summary": "Sensor Logic Program Flowchart Development: Standard flowchart symbols map program flow, using ovals for terminals, rectangles for processes, and diamonds for decision branches triggered by sensor data. Mapping out these logic branches before writing code ensures the robot responds predictably to environmental inputs like bumper contacts or ultrasonic distance thresholds (p. 55).",
               "pamphlet_excerpts": [
-                "Flowchart of The Desired: Describe in detail the task the robot will accomplish. Several Possible Design Ideas (p. 32)."
+                "Sensor Logic Program Flowchart Development: Standard flowchart symbols map program flow, using ovals for terminals, rectangles for processes, and diamonds for decision branches triggered by sensor data. Mapping out these logic branches before writing code ensures the robot responds predictably to environmental inputs like bumper contacts or ultrasonic distance thresholds (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/robotics_p032_img1.png",
               "workbook_diagram_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
-              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis."
+              "workbook_visual_caption": "A handwritten engineering notebook page sketches ultrasonic sensor placement on a robot chassis.",
+              "socratic_questions": [
+                "If your robot encounters a wall while driving forward, how does your flowchart show the decision it must make?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2618,13 +2624,13 @@
       "question": "While adjusting a jammed spur-gear drive train in the robotics lab, a Scout notices white dry residue from a damaged battery cell and has a minor sheet-metal cut on a forearm. What safety and first-aid procedure does the Robotics Merit Badge Pamphlet require?",
       "options": [
         "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
-        "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+        "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears.",
         "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
         "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick."
       ],
       "choices": [
         "A. Leave the battery connected so the servo motors hold torque while clearing the jammed gear teeth with bare fingers.",
-        "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears, brush off dry battery or flux chemicals with a gloved hand before flushing, and wash minor cuts with soap and running water for 5 minutes.",
+        "B. Wear ANSI Z87.1 safety glasses, disconnect the main battery before touching drive gears.",
         "C. Pour water directly onto dry battery powder with bare hands and wrap the unwashed cut with electrical tape.",
         "D. Remove safety glasses for a closer view of the spinning pinion gear while toggling the transmitter stick."
       ],

@@ -49,7 +49,7 @@
 - **Common Myth:** Nitrile gloves provide permanent impervious protection against all organic solvents and liquid resins.
 - **Pamphlet Fact:** Epoxy sensitization can develop permanently after repeated dermal exposures to uncured liquid hardeners.
 
-![Detailed Composite Materials reference illustration comparing key components and stages of composite hazards and safety data for Requirement 1.](/assets/pamphlet_images/composite_materials_p003_img1.png)
+![Composite Materials Requirement 1 figure showing active exhaust ventilation removes volatile organic styrene fumes from indoor.](/assets/pamphlet_images/composite_materials_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -106,7 +106,7 @@
 - **Common Myth:** Composite materials must always contain synthetic laboratory polymers and man-made woven glass fibers.
 - **Pamphlet Fact:** Ancient Egyptians created plywood composites by gluing opposing wood grain veneers with animal resins.
 
-![Practical Composite Materials field visual showing proper setup, measurement, and technique for history and properties of composites in Requirement 2.](/assets/pamphlet_images/composite_materials_p007_img1.png)
+![Composite Materials Requirement 2 figure showing straw mixed with mud bricks created durable structural building units in ancient Mesopotamia.](/assets/pamphlet_images/composite_materials_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +150,7 @@
 - **Common Myth:** Fiberglass fabric provides higher tensile stiffness per unit weight than high-modulus carbon cloth.
 - **Pamphlet Fact:** Carbon fiber bundles conduct electricity and will cause severe electrical short circuits in equipment.
 
-![Step-by-step Composite Materials visual guide highlighting reinforcements and resin matrix systems positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/composite_materials_p012_img1.png)
+![Composite Materials Requirement 3 figure showing e-glass fabric provides economical tensile strength, electrical insulation.](/assets/pamphlet_images/composite_materials_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

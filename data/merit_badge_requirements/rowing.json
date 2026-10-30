@@ -452,17 +452,17 @@
           "A. Row standing up facing the bow, and swim for the nearest shore immediately if the rowboat swamps in cold water.",
           "B. Rely entirely on sound to detect other boats ahead, and overturn a swamped rowboat so air escapes from under the thwarts.",
           "C. Tie your ankles to the floorboards for leverage, and remove your USCG lifejacket if water enters the hull.",
-          "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD, and stay with a swamped rowboat because its built-in flotation will support you."
+          "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD."
         ],
         "choices": [
           "A. Row standing up facing the bow, and swim for the nearest shore immediately if the rowboat swamps in cold water.",
           "B. Rely entirely on sound to detect other boats ahead, and overturn a swamped rowboat so air escapes from under the thwarts.",
           "C. Tie your ankles to the floorboards for leverage, and remove your USCG lifejacket if water enters the hull.",
-          "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD, and stay with a swamped rowboat because its built-in flotation will support you."
+          "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD, and stay with a swamped rowboat because its built-in flotation will support you.",
+        "correct_answer": "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD.",
         "explanation": "Correct Answer (D): Rowers face backward and must glance over their shoulder every few strokes to watch for hazards, always wear a USCG-approved PFD under Safety Afloat, and stay with a swamped boat rather than swimming far to shore.",
         "pamphlet_page_ref": "p. 13, p. 14"
       },
@@ -873,8 +873,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
-                "misconception": "In Rowing Requirement 4a(1), many Scouts assume rowing launch principles only requires a general overview rather than specific details on rowing launch principles.",
-                "fact": "The official Rowing pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document rowing launch principles and explain rowing launch principles during counselor review."
+                "misconception": "Stepping onto the nearest thwart or gunwale provides the most stable footing when climbing aboard a floating rowboat.",
+                "fact": "Rowers must step directly onto the centerline of the hull floor along the keel while keeping their center of gravity low to avoid tipping the craft."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -900,14 +900,17 @@
               "id": "4a(1)",
               "sub_req_label": "4a(1)",
               "sub_req_text": "Launch.",
-              "topic_title": "Req 4a(1): Rowing Launch Principles",
-              "pamphlet_summary": "Rowing Launch Principles: The Rowing pamphlet for Requirement 4a(1) details core principles and practical standards for rowing launch principles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+              "topic_title": "Req 4a(1): Fixed Seat Rowboat Launching Procedure",
+              "pamphlet_summary": "Fixed Seat Rowboat Launching Procedure: Before boarding, the boat should be floating clear of the bottom while the rower steps squarely onto the centerline along the keel rather than onto a gunwale or thwart. The painter must remain secured or in hand, and oars should be shipped in rowlocks and boated or trailed until the craft clears shoreline obstructions (p. 28).",
               "pamphlet_excerpts": [
-                "Rowing Launch Principles: The Rowing pamphlet for Requirement 4a(1) details core principles and practical standards for rowing launch principles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+                "Fixed Seat Rowboat Launching Procedure: Before boarding, the boat should be floating clear of the bottom while the rower steps squarely onto the centerline along the keel rather than onto a gunwale or thwart. The painter must remain secured or in hand, and oars should be shipped in rowlocks and boated or trailed until the craft clears shoreline obstructions (p. 28)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/rowing_p042_img1.png",
               "workbook_diagram_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
-              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar."
+              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
+              "socratic_questions": [
+                "Why is it essential to step directly onto the centerline of the boat bottom rather than onto a seat or gunwale when boarding?"
+              ]
             },
             {
               "sub_id": "4a(2)",
@@ -950,8 +953,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
-                "misconception": "When preparing Rowing Requirement 4a(2) (Straight Line for Yards Stop), Scouts sometimes overlook the concrete pamphlet benchmarks covering row in a straight line for 100 yards.",
-                "fact": "Counselor verification for Rowing Requirement 4a(2) requires concrete workbook evidence on straight line for yards stop, specifically addressing row in a straight line for 100 yards."
+                "misconception": "Twisting around to look over your shoulder on every stroke is the best way to steer a rowboat in a straight line.",
+                "fact": "Aligning two stationary shore features in a line over the stern as range marks allows rowers to maintain a straight course without constantly turning around."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -977,14 +980,17 @@
               "id": "4a(2)",
               "sub_req_label": "4a(2)",
               "sub_req_text": "Row in a straight line for 100 yards. Stop, pivot, and return to the starting point.",
-              "topic_title": "Req 4a(2): Straight Line for Yards Stop",
-              "pamphlet_summary": "Straight Line for Yards Stop: The Rowing pamphlet for Requirement 4a(2) details row in a straight line for 100 yards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+              "topic_title": "Req 4a(2): Straight Line Rowing And Pivoting",
+              "pamphlet_summary": "Straight Line Rowing And Pivoting: Rowers maintain a straight course across open water by aligning two stationary landmarks over the stern as range marks while pulling evenly with both oars. Stopping the craft requires holding water by squaring blades against forward motion, followed by pushing one oar while pulling the other to pivot the boat in place (p. 32).",
               "pamphlet_excerpts": [
-                "Straight Line for Yards Stop: The Rowing pamphlet for Requirement 4a(2) details row in a straight line for 100 yards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+                "Straight Line Rowing And Pivoting: Rowers maintain a straight course across open water by aligning two stationary landmarks over the stern as range marks while pulling evenly with both oars. Stopping the craft requires holding water by squaring blades against forward motion, followed by pushing one oar while pulling the other to pivot the boat in place (p. 32)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/rowing_p042_img1.png",
               "workbook_diagram_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
-              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar."
+              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
+              "socratic_questions": [
+                "How can you use two stationary objects on shore behind you to keep your rowboat traveling in a perfectly straight line?"
+              ]
             },
             {
               "sub_id": "4a(3)",
@@ -1018,8 +1024,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
-                "misconception": "For Rowing Requirement 4a(3), a common mistake in backwater in a straight line is treating backwater in a straight line for 25 yards as optional background reading.",
-                "fact": "Mastering Rowing Requirement 4a(3) means following the pamphlet standard for backwater in a straight line and recording accurate notes on backwater in a straight line for 25 yards."
+                "misconception": "Executing an underway turn requires bringing the rowboat to a dead stop and reversing one oar against the other.",
+                "fact": "A turn underway is performed while maintaining forward boat speed by pulling harder with one oar or trailing the opposite blade to carve a smooth arc."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1045,14 +1051,17 @@
               "id": "4a(3)",
               "sub_req_label": "4a(3)",
               "sub_req_text": "Backwater in a straight line for 25 yards. Make a turn underway and return to the starting point.",
-              "topic_title": "Req 4a(3): Backwater in a straight line",
-              "pamphlet_summary": "Backwater in a straight line: The Rowing pamphlet for Requirement 4a(3) details backwater in a straight line for 25 yards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+              "topic_title": "Req 4a(3): Backwatering And Underway Turn Maneuvers",
+              "pamphlet_summary": "Backwatering And Underway Turn Maneuvers: Backwatering propels the rowboat stern-first by pushing the oar handles forward from the chest with squared blades buried in the water. Making a turn underway requires maintaining headway while pulling harder on one oar or trailing the opposite blade to swing the bow smoothly without coming to a stop (p. 35).",
               "pamphlet_excerpts": [
-                "Backwater in a straight line: The Rowing pamphlet for Requirement 4a(3) details backwater in a straight line for 25 yards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+                "Backwatering And Underway Turn Maneuvers: Backwatering propels the rowboat stern-first by pushing the oar handles forward from the chest with squared blades buried in the water. Making a turn underway requires maintaining headway while pulling harder on one oar or trailing the opposite blade to swing the bow smoothly without coming to a stop (p. 35)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/rowing_p042_img1.png",
               "workbook_diagram_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
-              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar."
+              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
+              "socratic_questions": [
+                "How does the way you handle your oars during a turn underway differ from how you turn when pivoting in place?"
+              ]
             },
             {
               "sub_id": "4a(4)",
@@ -1084,8 +1093,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
-                "misconception": "During Rowing Requirement 4a(4), Scouts can underestimate how directly mastery of land and moor or rack depends on understanding land and moor or rack your craft.",
-                "fact": "Scouting America standards for Rowing Requirement 4a(4) require complete workbook entries on land and moor or rack to demonstrate full understanding of land and moor or rack your craft."
+                "misconception": "Approaching a dock downwind at full speed gives the craft the maximum steerage needed for a controlled landing.",
+                "fact": "Landing into the wind or current allows natural water resistance to slow the boat while preserving positive directional control at low speed."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1111,14 +1120,17 @@
               "id": "4a(4)",
               "sub_req_label": "4a(4)",
               "sub_req_text": "Land and moor or rack your craft.",
-              "topic_title": "Req 4a(4): Land and Moor or Rack",
-              "pamphlet_summary": "Land and Moor or Rack: The Rowing pamphlet for Requirement 4a(4) details land and moor or rack your craft, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+              "topic_title": "Req 4a(4): Rowboat Landing Mooring And Racking",
+              "pamphlet_summary": "Rowboat Landing Mooring And Racking: Approaching a dock safely requires easing speed by holding water and angling into the wind or current at roughly forty-five degrees to retain rudderless steerage. Once alongside, rowers ship their oars before stepping ashore, then secure the craft with the painter or stow the hull inverted on an onshore rack (p. 38).",
               "pamphlet_excerpts": [
-                "Land and Moor or Rack: The Rowing pamphlet for Requirement 4a(4) details land and moor or rack your craft, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+                "Rowboat Landing Mooring And Racking: Approaching a dock safely requires easing speed by holding water and angling into the wind or current at roughly forty-five degrees to retain rudderless steerage. Once alongside, rowers ship their oars before stepping ashore, then secure the craft with the painter or stow the hull inverted on an onshore rack (p. 38)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/rowing_p042_img1.png",
               "workbook_diagram_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
-              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar."
+              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
+              "socratic_questions": [
+                "Why does an experienced rower always prefer to approach a dock headed into the wind or current rather than with it?"
+              ]
             },
             {
               "sub_id": "4a(5)",
@@ -1163,8 +1175,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)",
               "common_misconception_pair": {
-                "misconception": "In Rowing Requirement 4a(5), many Scouts assume mooring knots clove hitch roundturn only requires a general overview rather than specific details on tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, wellman's knot.",
-                "fact": "The official Rowing pamphlet for Requirement 4a(5) specifies that Scouts must thoroughly document mooring knots clove hitch roundturn and explain tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, wellman's knot during counselor review."
+                "misconception": "Any standard utility knot like a square knot will hold a rowboat securely to a dock piling under wave action.",
+                "fact": "Mooring requires dedicated knots like the roundturn with two half-hitches or bowline because wave surges easily capsize or untie standard square knots."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1190,14 +1202,17 @@
               "id": "4a(5)",
               "sub_req_label": "4a(5)",
               "sub_req_text": "Tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch.",
-              "topic_title": "Req 4a(5): Mooring Knots Clove Hitch Roundturn",
-              "pamphlet_summary": "Mooring Knots Clove Hitch Roundturn: The Rowing pamphlet for Requirement 4a(5) details tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40).",
+              "topic_title": "Req 4a(5): Essential Fixed Seat Mooring Knots",
+              "pamphlet_summary": "Essential Fixed Seat Mooring Knots: Mooring knots secure the boat painter to pilings, rings, or cleats while resisting wave surge and allowing a quick release when casting off. The bowline forms a fixed nonslip loop, the roundturn with two half-hitches locks securely under heavy surging, and the Wellman's knot and mooring hitch provide reliable quick-release options for temporary ties (p. 42).",
               "pamphlet_excerpts": [
-                "Mooring Knots Clove Hitch Roundturn: The Rowing pamphlet for Requirement 4a(5) details tie the following mooring knots, clove hitch, roundturn with two half-hitches, bowline, Wellman's knot, and mooring hitch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 40)."
+                "Essential Fixed Seat Mooring Knots: Mooring knots secure the boat painter to pilings, rings, or cleats while resisting wave surge and allowing a quick release when casting off. The bowline forms a fixed nonslip loop, the roundturn with two half-hitches locks securely under heavy surging, and the Wellman's knot and mooring hitch provide reliable quick-release options for temporary ties (p. 42)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/rowing_p042_img1.png",
               "workbook_diagram_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
-              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar."
+              "workbook_visual_caption": "Scouts wearing life jackets push their flat-bottom rowboat away from the shore with an oar.",
+              "socratic_questions": [
+                "Which mooring knot would you select if your boat is tied to a rough wooden piling in heavy chop where you need both security and a fast castoff?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3301,13 +3316,13 @@
         "A. Row standing up facing the bow, and swim for the nearest shore immediately if the rowboat swamps in cold water.",
         "B. Rely entirely on sound to detect other boats ahead, and overturn a swamped rowboat so air escapes from under the thwarts.",
         "C. Tie your ankles to the floorboards for leverage, and remove your USCG lifejacket if water enters the hull.",
-        "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD, and stay with a swamped rowboat because its built-in flotation will support you."
+        "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD."
       ],
       "choices": [
         "A. Row standing up facing the bow, and swim for the nearest shore immediately if the rowboat swamps in cold water.",
         "B. Rely entirely on sound to detect other boats ahead, and overturn a swamped rowboat so air escapes from under the thwarts.",
         "C. Tie your ankles to the floorboards for leverage, and remove your USCG lifejacket if water enters the hull.",
-        "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD, and stay with a swamped rowboat because its built-in flotation will support you."
+        "D. Look over your shoulder every few strokes (or use a stern lookout) to check your course ahead, wear a USCG-approved PFD."
       ],
       "correct_index": 3,
       "correct_letter": "D",

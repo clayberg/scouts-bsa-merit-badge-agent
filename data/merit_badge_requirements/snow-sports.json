@@ -706,14 +706,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain the international trail-marking system",
-          "2. Practical execution and real-world examples for International Trail Marking System"
+          "1. Explain the international trail-marking system"
         ],
         "rows": [
-          "1. Explain the international trail-marking system",
-          "2. Practical execution and real-world examples for International Trail Marking System"
+          "1. Explain the international trail-marking system"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Trail rating symbols are standardized across all ski resorts worldwide with identical steepness.",
@@ -1635,8 +1633,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7a(1), many Scouts assume wax and maintain your skis only requires a general overview rather than specific details on how to wax and maintain your skis and use/maintain your release bindings.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document wax and maintain your skis and explain how to wax and maintain your skis and use/maintain your release bindings during counselor review."
+                "misconception": "Tightening binding release screws to the highest setting prevents unexpected falls and keeps advanced skiers safer.",
+                "fact": "Improperly tightened bindings prevent the boot from releasing during a twisting fall, creating severe knee and lower leg fractures."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1662,14 +1660,17 @@
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
               "sub_req_text": "Show how to wax and maintain your skis and use/maintain your release bindings. Explain the international DIN standard and what it means to skiers.",
-              "topic_title": "Req 7a(1): Wax and Maintain Your Skis",
-              "pamphlet_summary": "Wax and Maintain Your Skis: The Snow Sports pamphlet for Requirement 7a(1) details how to wax and maintain your skis and use/maintain your release bindings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(1): Alpine Ski Maintenance and DIN Standards",
+              "pamphlet_summary": "Alpine Ski Maintenance and DIN Standards: Alpine ski maintenance involves scraping away old wax, repairing base gouges with P-Tex, and applying hot glide wax matched to snow temperature. Release bindings must be calibrated by a certified technician according to international DIN standards based on skier height, weight, age, boot sole length, and skier type (p. 28).",
               "pamphlet_excerpts": [
-                "Wax and Maintain Your Skis: The Snow Sports pamphlet for Requirement 7a(1) details how to wax and maintain your skis and use/maintain your release bindings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Alpine Ski Maintenance and DIN Standards: Alpine ski maintenance involves scraping away old wax, repairing base gouges with P-Tex, and applying hot glide wax matched to snow temperature. Release bindings must be calibrated by a certified technician according to international DIN standards based on skier height, weight, age, boot sole length, and skier type (p. 28)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "Why is it dangerous to adjust your own binding release settings rather than having a certified ski technician calculate your DIN number?"
+              ]
             },
             {
               "sub_id": "7a(2)",
@@ -1706,8 +1707,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7a(2) (The American Teaching System), Scouts sometimes overlook the concrete pamphlet benchmarks covering the american teaching system and a basic snowskiing progression.",
-                "fact": "Counselor verification for Snow Sports Requirement 7a(2) requires concrete workbook evidence on the american teaching system, specifically addressing the american teaching system and a basic snowskiing progression."
+                "misconception": "Skiing progression relies entirely on learning to lean your body into downhill turns rather than managing edge and pressure control.",
+                "fact": "The American Teaching System centers on blending four core movements consisting of stance, rotary steering, edging, and pressure management to control ski performance."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1733,15 +1734,18 @@
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
               "sub_req_text": "Explain the American Teaching System and a basic snowskiing progression.",
-              "topic_title": "Req 7a(2): The American Teaching System",
-              "pamphlet_summary": "The American Teaching System: The Snow Sports pamphlet for Requirement 7a(2) details the American Teaching System and a basic snowskiing progression, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(2): American Teaching System Ski Progression",
+              "pamphlet_summary": "American Teaching System Ski Progression: The American Teaching System developed by the Professional Ski Instructors of America guides skiers through progressive skill building based on rotational, edge, and pressure control movements. Instruction advances systematically from straight glides and wedge stops to linked wedge turns, wedge christies, and dynamic parallel skiing (p. 31).",
               "pamphlet_excerpts": [
-                "The American Teaching System: The Snow Sports pamphlet for Requirement 7a(2) details the American Teaching System and a basic snowskiing progression, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "American Teaching System Ski Progression: The American Teaching System developed by the Professional Ski Instructors of America guides skiers through progressive skill building based on rotational, edge, and pressure control movements. Instruction advances systematically from straight glides and wedge stops to linked wedge turns, wedge christies, and dynamic parallel skiing (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
-              "title": "Req 7a(2): The American Teaching System",
+              "title": "Req 7a(2): American Teaching System Ski Progression",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "How does mastering a simple gliding wedge prepare your legs and balance for dynamic parallel turns?"
+              ]
             },
             {
               "sub_id": "7a(3)",
@@ -1784,8 +1788,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7a(3), a common mistake in different types of alpine skis is treating the different types of alpine skis as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7a(3) means following the pamphlet standard for different types of alpine skis and recording accurate notes on the different types of alpine skis."
+                "misconception": "Carrying skis horizontally across both shoulders in crowded base areas offers the easiest and safest way to move through lines.",
+                "fact": "Turning around with skis balanced horizontally across your shoulders can strike nearby people with the swinging tips and tails."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1811,15 +1815,18 @@
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
               "sub_req_text": "Discuss the different types of Alpine skis. Demonstrate two ways to carry skis and poles safely and easily.",
-              "topic_title": "Req 7a(3): Different Types of Alpine Skis",
-              "pamphlet_summary": "Different Types of Alpine Skis: All-mountain skis come in a variety of flexes and side cuts (p. 37).",
+              "topic_title": "Req 7a(3): Alpine Ski Categories and Safe Transport",
+              "pamphlet_summary": "Alpine Ski Categories and Safe Transport: Alpine skis include carving models with deep sidecuts for groomed trails, wider all-mountain skis for varied terrain, fat powder skis for deep snow, and twin-tip designs for freestyle terrain parks. Safe carrying methods include locking ski bases together over one shoulder with tips pointed forward or clamping the pair vertically under one arm with pole straps secured (p. 33).",
               "pamphlet_excerpts": [
-                "Different Types of Alpine Skis: All-mountain skis come in a variety of flexes and side cuts (p. 37)."
+                "Alpine Ski Categories and Safe Transport: Alpine skis include carving models with deep sidecuts for groomed trails, wider all-mountain skis for varied terrain, fat powder skis for deep snow, and twin-tip designs for freestyle terrain parks. Safe carrying methods include locking ski bases together over one shoulder with tips pointed forward or clamping the pair vertically under one arm with pole straps secured (p. 33)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
-              "title": "Req 7a(3): Different Types of Alpine Skis",
+              "title": "Req 7a(3): Alpine Ski Categories and Safe Transport",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "Why should ski tips always point forward and down when carrying locked skis over your shoulder through crowded base areas?"
+              ]
             },
             {
               "sub_id": "7a(4)",
@@ -1856,8 +1863,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7a(4), Scouts can underestimate how directly mastery of snow sports lift principles depends on understanding how to ride one kind of lift and explain how to ride two others.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7a(4) require complete workbook entries on snow sports lift principles to demonstrate full understanding of how to ride one kind of lift and explain how to ride two others."
+                "misconception": "Sitting down on the crossbar of a surface T-bar or platter pull helps support your body weight up steep terrain.",
+                "fact": "Sitting down on a surface lift pulls the towing cable downward and causes you to lose balance and fall out of the track."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1883,14 +1890,17 @@
               "id": "7a(4)",
               "sub_req_label": "7a(4)",
               "sub_req_text": "Demonstrate how to ride one kind of lift and explain how to ride two others.",
-              "topic_title": "Req 7a(4): Snow Sports Lift Principles",
-              "pamphlet_summary": "Snow Sports Lift Principles: Racing skis are designed for high speeds and hard snow (p. 37).",
+              "topic_title": "Req 7a(4): Alpine Ski Lift Operating Procedures",
+              "pamphlet_summary": "Alpine Ski Lift Operating Procedures: Riding aerial chairlifts requires holding poles in one hand, looking over the shoulder for the incoming chair, sitting smoothly, and lowering the safety bar immediately. Surface lifts such as T-bars, platters, and rope tows require keeping skis parallel in the track without sitting down on the towing device (p. 36).",
               "pamphlet_excerpts": [
-                "Snow Sports Lift Principles: Racing skis are designed for high speeds and hard snow (p. 37)."
+                "Alpine Ski Lift Operating Procedures: Riding aerial chairlifts requires holding poles in one hand, looking over the shoulder for the incoming chair, sitting smoothly, and lowering the safety bar immediately. Surface lifts such as T-bars, platters, and rope tows require keeping skis parallel in the track without sitting down on the towing device (p. 36)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "What should you do with your ski poles and body position when preparing to load an approaching quad chairlift?"
+              ]
             },
             {
               "sub_id": "7a(5)",
@@ -1937,8 +1947,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7a(5), many Scouts assume gentle slope only requires a general overview rather than specific details on on a gentle slope, demonstrate some of the beginning maneuvers learned in skiing.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7a(5) specifies that Scouts must thoroughly document gentle slope and explain on a gentle slope, demonstrate some of the beginning maneuvers learned in skiing during counselor review."
+                "misconception": "Crossing your ski tips together in a wedge shape helps you stop quickly and safely on beginner slopes.",
+                "fact": "Crossing ski tips locks the edges together and causes an immediate forward fall rather than a controlled stop."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1964,14 +1974,17 @@
               "id": "7a(5)",
               "sub_req_label": "7a(5)",
               "sub_req_text": "On a gentle slope, demonstrate some of the beginning maneuvers learned in skiing. Include the straight run, gliding wedge, wedge stop, sidestep, and herringbone maneuvers.",
-              "topic_title": "Req 7a(5): Gentle Slope",
-              "pamphlet_summary": "Gentle Slope: The Snow Sports pamphlet for Requirement 7a(5) details on a gentle slope, demonstrate some of the beginning maneuvers learned in skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(5): Beginning Alpine Slope Maneuver Progression",
+              "pamphlet_summary": "Beginning Alpine Slope Maneuver Progression: Beginning skiers establish athletic balance during straight runs by flexing ankles, knees, and hips with hands held comfortably forward. Pushing ski tails outward while keeping tips close together creates a gliding wedge, widening the stance increases friction to execute a wedge stop, while sidestepping and herringbone maneuvers allow uphill climbing (p. 39).",
               "pamphlet_excerpts": [
-                "Gentle Slope: The Snow Sports pamphlet for Requirement 7a(5) details on a gentle slope, demonstrate some of the beginning maneuvers learned in skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Beginning Alpine Slope Maneuver Progression: Beginning skiers establish athletic balance during straight runs by flexing ankles, knees, and hips with hands held comfortably forward. Pushing ski tails outward while keeping tips close together creates a gliding wedge, widening the stance increases friction to execute a wedge stop, while sidestepping and herringbone maneuvers allow uphill climbing (p. 39)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "How does pushing both ski tails outward while pressing the inside edges into the snow slow your forward glide?"
+              ]
             },
             {
               "sub_id": "7a(6)",
@@ -2012,8 +2025,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7a(6) (On slightly steeper terrain, show linked), Scouts sometimes overlook the concrete pamphlet benchmarks covering on slightly steeper terrain, show linked wedge turns.",
-                "fact": "Counselor verification for Snow Sports Requirement 7a(6) requires concrete workbook evidence on on slightly steeper terrain, show linked, specifically addressing on slightly steeper terrain, show linked wedge turns."
+                "misconception": "Initiating a wedge turn requires twisting your upper shoulders and swinging your arms across the direction of travel.",
+                "fact": "Turn initiation begins from the feet and legs steering inward while the upper body remains stable and centered over the skis."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2039,14 +2052,17 @@
               "id": "7a(6)",
               "sub_req_label": "7a(6)",
               "sub_req_text": "On slightly steeper terrain, show linked wedge turns.",
-              "topic_title": "Req 7a(6): On slightly steeper terrain, show linked",
-              "pamphlet_summary": "On slightly steeper terrain, show linked: The Snow Sports pamphlet for Requirement 7a(6) details on slightly steeper terrain, show linked wedge turns, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(6): Linked Wedge Turn Steering Mechanics",
+              "pamphlet_summary": "Linked Wedge Turn Steering Mechanics: Linked wedge turns control descent speed on steeper slopes by shifting body weight onto the downhill outside ski while steering both feet across the fall line. Smoothly transitioning pressure from one outside ski to the other connects turns in a continuous rhythmic descent (p. 41).",
               "pamphlet_excerpts": [
-                "On slightly steeper terrain, show linked: The Snow Sports pamphlet for Requirement 7a(6) details on slightly steeper terrain, show linked wedge turns, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Linked Wedge Turn Steering Mechanics: Linked wedge turns control descent speed on steeper slopes by shifting body weight onto the downhill outside ski while steering both feet across the fall line. Smoothly transitioning pressure from one outside ski to the other connects turns in a continuous rhythmic descent (p. 41)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "Why does applying pressure to the inside edge of your downhill ski cause you to turn across the slope?"
+              ]
             },
             {
               "sub_id": "7a(7)",
@@ -2083,8 +2099,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7a(7), a common mistake in on a moderate slope is treating on a moderate slope, demonstrate five to 10 christies as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7a(7) means following the pamphlet standard for on a moderate slope and recording accurate notes on on a moderate slope, demonstrate five to 10 christies."
+                "misconception": "A wedge christie requires keeping both skis separated in a wide wedge throughout the entire turn arc.",
+                "fact": "The wedge christie begins in a shallow wedge but brings both skis completely parallel as the turn crosses the fall line."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2110,15 +2126,18 @@
               "id": "7a(7)",
               "sub_req_label": "7a(7)",
               "sub_req_text": "On a moderate slope, demonstrate five to 10 christies.",
-              "topic_title": "Req 7a(7): On a moderate slope",
-              "pamphlet_summary": "On a moderate slope: The Snow Sports pamphlet for Requirement 7a(7) details on a moderate slope, demonstrate five to 10 christies, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(7): Wedge Christie Intermediate Turn Techniques",
+              "pamphlet_summary": "Wedge Christie Intermediate Turn Techniques: A wedge christie bridges beginner wedge turns and advanced parallel skiing by initiating the turn in a slight wedge and steering the inside ski parallel before finishing the arc. Weight shifts firmly to the outside ski as both skis match on their uphill edges to skid smoothly through the turn completion (p. 43).",
               "pamphlet_excerpts": [
-                "On a moderate slope: The Snow Sports pamphlet for Requirement 7a(7) details on a moderate slope, demonstrate five to 10 christies, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Wedge Christie Intermediate Turn Techniques: A wedge christie bridges beginner wedge turns and advanced parallel skiing by initiating the turn in a slight wedge and steering the inside ski parallel before finishing the arc. Weight shifts firmly to the outside ski as both skis match on their uphill edges to skid smoothly through the turn completion (p. 43)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
-              "title": "Req 7a(7): On a moderate slope",
+              "title": "Req 7a(7): Wedge Christie Intermediate Turn Techniques",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "At what point in your turn should you steer your inside ski to match parallel with your outside ski?"
+              ]
             },
             {
               "sub_id": "7a(8)",
@@ -2155,8 +2174,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7a(8), Scouts can underestimate how directly mastery of controlled run down an intermediate depends on understanding a controlled run down an intermediate slope.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7a(8) require complete workbook entries on controlled run down an intermediate to demonstrate full understanding of a controlled run down an intermediate slope."
+                "misconception": "Skiing down steeper intermediate slopes safely means leaning backward onto your boot cuffs to stay away from the drop.",
+                "fact": "Leaning backward lifts ski tips off the snow, destroying edge control and making turning or stopping nearly impossible."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2182,14 +2201,17 @@
               "id": "7a(8)",
               "sub_req_label": "7a(8)",
               "sub_req_text": "Make a controlled run down an intermediate slope.",
-              "topic_title": "Req 7a(8): Controlled Run Down An Intermediate",
-              "pamphlet_summary": "Controlled Run Down An Intermediate: The Snow Sports pamphlet for Requirement 7a(8) details a controlled run down an intermediate slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(8): Intermediate Slope Controlled Descent Tactics",
+              "pamphlet_summary": "Intermediate Slope Controlled Descent Tactics: Descending intermediate blue square terrain demands consistent speed control, linked parallel turns, and active pole plants to establish timing. Skiers look ahead down the mountain to choose a smooth corridor, absorbing terrain changes through flexed joints while maintaining a centered athletic stance (p. 44).",
               "pamphlet_excerpts": [
-                "Controlled Run Down An Intermediate: The Snow Sports pamphlet for Requirement 7a(8) details a controlled run down an intermediate slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Intermediate Slope Controlled Descent Tactics: Descending intermediate blue square terrain demands consistent speed control, linked parallel turns, and active pole plants to establish timing. Skiers look ahead down the mountain to choose a smooth corridor, absorbing terrain changes through flexed joints while maintaining a centered athletic stance (p. 44)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "How does planting your pole down the slope just before initiating a turn help keep your upper body balanced over your skis?"
+              ]
             },
             {
               "sub_id": "7a(9)",
@@ -2228,8 +2250,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7a(9), many Scouts assume ability to ski in varied only requires a general overview rather than specific details on the ability to ski in varied conditions, including changes in pitch and snow conditions.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7a(9) specifies that Scouts must thoroughly document ability to ski in varied and explain the ability to ski in varied conditions, including changes in pitch and snow conditions during counselor review."
+                "misconception": "Stiffening your legs and locking your knees helps stabilize your balance when transitioning from smooth corduroy onto hard ice.",
+                "fact": "Locked knees prevent your edges from engaging and transfer terrain shocks straight into your spine, leading to sudden loss of control."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2255,14 +2277,17 @@
               "id": "7a(9)",
               "sub_req_label": "7a(9)",
               "sub_req_text": "Demonstrate the ability to ski in varied conditions, including changes in pitch and snow conditions. Maintain your balance and ability to turn.",
-              "topic_title": "Req 7a(9): Ability to Ski in Varied",
-              "pamphlet_summary": "Ability to Ski in Varied: The Snow Sports pamphlet for Requirement 7a(9) details the ability to ski in varied conditions, including changes in pitch and snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(9): Varied Snow Conditions and Pitch Adaptation",
+              "pamphlet_summary": "Varied Snow Conditions and Pitch Adaptation: Handling varied conditions like heavy wet snow, hardpack ice, wind crust, and sudden pitch changes requires adjusting edge angles and maintaining continuous foot steering. Skiers widen their stance slightly for stability, keep the upper body quiet facing down the fall line, and use rhythmic flexion and extension to absorb bumps (p. 46).",
               "pamphlet_excerpts": [
-                "Ability to Ski in Varied: The Snow Sports pamphlet for Requirement 7a(9) details the ability to ski in varied conditions, including changes in pitch and snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Varied Snow Conditions and Pitch Adaptation: Handling varied conditions like heavy wet snow, hardpack ice, wind crust, and sudden pitch changes requires adjusting edge angles and maintaining continuous foot steering. Skiers widen their stance slightly for stability, keep the upper body quiet facing down the fall line, and use rhythmic flexion and extension to absorb bumps (p. 46)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "What adjustments should you make to your stance and edge pressure when moving from soft groomed powder onto slick windblown ice?"
+              ]
             },
             {
               "sub_id": "7a(10)",
@@ -2307,8 +2332,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7a(10) (Major Ski Organizations in the United States), Scouts sometimes overlook the concrete pamphlet benchmarks covering the major ski organizations in the united states and explain their functions.",
-                "fact": "Counselor verification for Snow Sports Requirement 7a(10) requires concrete workbook evidence on major ski organizations in the united states, specifically addressing the major ski organizations in the united states and explain their functions."
+                "misconception": "The National Ski Patrol operates resort chairlifts and manages daily ticket sales alongside mountain safety patrols.",
+                "fact": "The National Ski Patrol is a dedicated rescue organization focused on emergency medical care, slope safety education, and avalanche mitigation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2334,15 +2359,18 @@
               "id": "7a(10)",
               "sub_req_label": "7a(10)",
               "sub_req_text": "Name the major ski organizations in the United States and explain their functions.",
-              "topic_title": "Req 7a(10): Major Ski Organizations in the United States",
-              "pamphlet_summary": "Major Ski Organizations in the United States: The Snow Sports pamphlet for Requirement 7a(10) details the major ski organizations in the United States and explain their functions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7a(10): United States Ski Organization Roles",
+              "pamphlet_summary": "United States Ski Organization Roles: Key national organizations include the National Ski Patrol, which provides slope safety, first aid, and mountain rescue services, and the Professional Ski Instructors of America, which establishes coaching certifications and instructional frameworks. The U.S. Ski and Snowboard organization develops competitive Olympic athletes, while the National Ski Areas Association represents resort owners and promotes industry safety codes (p. 47).",
               "pamphlet_excerpts": [
-                "Major Ski Organizations in the United States: The Snow Sports pamphlet for Requirement 7a(10) details the major ski organizations in the United States and explain their functions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "United States Ski Organization Roles: Key national organizations include the National Ski Patrol, which provides slope safety, first aid, and mountain rescue services, and the Professional Ski Instructors of America, which establishes coaching certifications and instructional frameworks. The U.S. Ski and Snowboard organization develops competitive Olympic athletes, while the National Ski Areas Association represents resort owners and promotes industry safety codes (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p038_img1.png",
-              "title": "Req 7a(10): Major Ski Organizations in the United States",
+              "title": "Req 7a(10): United States Ski Organization Roles",
               "workbook_diagram_caption": "A skier carries alpine skis securely over one shoulder with poles.",
-              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles."
+              "workbook_visual_caption": "A skier carries alpine skis securely over one shoulder with poles.",
+              "socratic_questions": [
+                "How do the distinct roles of the Professional Ski Instructors of America and the National Ski Patrol work together to keep mountain skiers safe?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -2466,8 +2494,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7b(1), many Scouts assume ability equipment cross-country skiing only requires a general overview rather than specific details on your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document ability equipment cross-country skiing and explain your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort during counselor review."
+                "misconception": "Cross-country skis should be sized solely according to the skier standing height without considering body weight.",
+                "fact": "Ski camber stiffness must match the skier weight so the wax pocket or grip pattern contacts the snow only when kicking."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2493,14 +2521,17 @@
               "id": "7b(1)",
               "sub_req_label": "7b(1)",
               "sub_req_text": "Show your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort.",
-              "topic_title": "Req 7b(1): Ability Equipment Cross-country Skiing",
-              "pamphlet_summary": "Ability Equipment Cross-country Skiing: The Snow Sports pamphlet for Requirement 7b(1) details your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(1): Cross Country Equipment Selection and Care",
+              "pamphlet_summary": "Cross Country Equipment Selection and Care: Selecting cross-country gear requires matching ski flex to skier weight so the grip zone compresses firmly during kick while maintaining clearance during glide. Proper equipment maintenance includes wiping bases dry after tours, inspecting bindings and boot pin bars, and storing skis unstrapped in a cool dry area (p. 49).",
               "pamphlet_excerpts": [
-                "Ability Equipment Cross-country Skiing: The Snow Sports pamphlet for Requirement 7b(1) details your ability to select, use, and maintain equipment for cross-country skiing in safety and comfort, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Cross Country Equipment Selection and Care: Selecting cross-country gear requires matching ski flex to skier weight so the grip zone compresses firmly during kick while maintaining clearance during glide. Proper equipment maintenance includes wiping bases dry after tours, inspecting bindings and boot pin bars, and storing skis unstrapped in a cool dry area (p. 49)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "Why will a cross-country ski that is too stiff for your body weight make it difficult or impossible to kick and glide uphill?"
+              ]
             },
             {
               "sub_id": "7b(2)",
@@ -2532,8 +2563,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7b(2) (Reasons for Common), Scouts sometimes overlook the concrete pamphlet benchmarks covering the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets.",
-                "fact": "Counselor verification for Snow Sports Requirement 7b(2) requires concrete workbook evidence on reasons for common, specifically addressing the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets."
+                "misconception": "Walking in hiking boots along the side of a groomed classic ski track causes no damage to winter trails.",
+                "fact": "Boot footprints punch deep holes called postholes into groomed tracks, which freeze into dangerous ruts that trip gliding skiers."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2559,14 +2590,17 @@
               "id": "7b(2)",
               "sub_req_label": "7b(2)",
               "sub_req_text": "Explain the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing on snowmobile trails.",
-              "topic_title": "Req 7b(2): Reasons for Common",
-              "pamphlet_summary": "Reasons for Common: The Snow Sports pamphlet for Requirement 7b(2) details the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(2): Cross Country Trail Etiquette Regulations",
+              "pamphlet_summary": "Cross Country Trail Etiquette Regulations: Nordic trail rules preserve groomed tracks and prevent collisions between users traveling at different speeds. Walking in boots ruins prepared classic tracks, violating one-way loops creates head-on crash risks on blind curves, pets puncture groomed snow, and snowmobile trails present high-speed motorized collision hazards (p. 50).",
               "pamphlet_excerpts": [
-                "Reasons for Common: The Snow Sports pamphlet for Requirement 7b(2) details the reasons for common rules, including no walking on ski trails, one-way ski direction, no pets, and no skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Cross Country Trail Etiquette Regulations: Nordic trail rules preserve groomed tracks and prevent collisions between users traveling at different speeds. Walking in boots ruins prepared classic tracks, violating one-way loops creates head-on crash risks on blind curves, pets puncture groomed snow, and snowmobile trails present high-speed motorized collision hazards (p. 50)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "Why is skiing on dedicated snowmobile trails extremely hazardous compared to staying within marked Nordic touring centers?"
+              ]
             },
             {
               "sub_id": "7b(3)",
@@ -2603,8 +2637,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7b(3), a common mistake in classic skating touring and telemark skis is treating classic, skating, touring, and telemark skis as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7b(3) means following the pamphlet standard for classic skating touring and telemark skis and recording accurate notes on classic, skating, touring, and telemark skis."
+                "misconception": "Skate skis can be used interchangeably with classic skis inside parallel groomed classic tracks.",
+                "fact": "Skate skis lack a kick zone for grip and will slide backward without providing traction inside classic tracks."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2630,15 +2664,18 @@
               "id": "7b(3)",
               "sub_req_label": "7b(3)",
               "sub_req_text": "Discuss classic, skating, touring, and telemark skis.",
-              "topic_title": "Req 7b(3): Classic Skating Touring and Telemark Skis",
-              "pamphlet_summary": "Classic Skating Touring and Telemark Skis: The Snow Sports pamphlet for Requirement 7b(3) details classic, skating, touring, and telemark skis, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(3): Nordic Ski Classifications and Characteristics",
+              "pamphlet_summary": "Nordic Ski Classifications and Characteristics: Classic skis feature softer camber and distinct kick and glide zones for diagonal striding within parallel tracks, whereas skate skis are shorter, stiffer, and smooth from tip to tail for lateral pushing. Touring skis are wider for off-track floatation with steel edges, while telemark skis combine downhill sidecuts with free-heel bindings for steep alpine descents (p. 52).",
               "pamphlet_excerpts": [
-                "Classic Skating Touring and Telemark Skis: The Snow Sports pamphlet for Requirement 7b(3) details classic, skating, touring, and telemark skis, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Nordic Ski Classifications and Characteristics: Classic skis feature softer camber and distinct kick and glide zones for diagonal striding within parallel tracks, whereas skate skis are shorter, stiffer, and smooth from tip to tail for lateral pushing. Touring skis are wider for off-track floatation with steel edges, while telemark skis combine downhill sidecuts with free-heel bindings for steep alpine descents (p. 52)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
-              "title": "Req 7b(3): Classic Skating Touring and Telemark Skis",
+              "title": "Req 7b(3): Nordic Ski Classifications and Characteristics",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "How does the construction and camber of a skate ski differ from a classic ski designed for diagonal stride?"
+              ]
             },
             {
               "sub_id": "7b(4)",
@@ -2675,8 +2712,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7b(4), Scouts can underestimate how directly mastery of basic principles of waxing for cross-country ski depends on understanding the basic principles of waxing for cross-country ski touring.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7b(4) require complete workbook entries on basic principles of waxing for cross-country ski to demonstrate full understanding of the basic principles of waxing for cross-country ski touring."
+                "misconception": "Applying grip wax along the entire length of a cross-country ski provides maximum speed and traction.",
+                "fact": "Coating the tips and tails with grip wax prevents the ski from gliding forward across the snow."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2702,15 +2739,18 @@
               "id": "7b(4)",
               "sub_req_label": "7b(4)",
               "sub_req_text": "Discuss the basic principles of waxing for cross-country ski touring.",
-              "topic_title": "Req 7b(4): Basic Principles of Waxing for Cross-country Ski",
-              "pamphlet_summary": "Basic Principles of Waxing for Cross-country Ski: The Snow Sports pamphlet for Requirement 7b(4) details the basic principles of waxing for cross-country ski touring, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(4): Cross Country Touring Waxing Principles",
+              "pamphlet_summary": "Cross Country Touring Waxing Principles: Cross-country ski touring relies on glide wax on tips and tails to reduce friction and grip wax in the middle kick zone to bite into snow crystals during leg push-offs. Wax selection depends on snow temperature and crystal structure, with hard waxes suited for dry cold powder and sticky klister required for coarse wet spring snow (p. 53).",
               "pamphlet_excerpts": [
-                "Basic Principles of Waxing for Cross-country Ski: The Snow Sports pamphlet for Requirement 7b(4) details the basic principles of waxing for cross-country ski touring, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Cross Country Touring Waxing Principles: Cross-country ski touring relies on glide wax on tips and tails to reduce friction and grip wax in the middle kick zone to bite into snow crystals during leg push-offs. Wax selection depends on snow temperature and crystal structure, with hard waxes suited for dry cold powder and sticky klister required for coarse wet spring snow (p. 53)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
-              "title": "Req 7b(4): Basic Principles of Waxing for Cross-country Ski",
+              "title": "Req 7b(4): Cross Country Touring Waxing Principles",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "Why do skiers apply grip wax only to the center kick zone while applying hard glide wax to the tips and tails?"
+              ]
             },
             {
               "sub_id": "7b(5)",
@@ -2751,8 +2791,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7b(5), many Scouts assume the differences between cross-country, backcountry/ski touring only requires a general overview rather than specific details on the differences between cross-country, backcountry/ski touring, ski mountaineering.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7b(5) specifies that Scouts must thoroughly document the differences between cross-country, backcountry/ski touring and explain the differences between cross-country, backcountry/ski touring, ski mountaineering during counselor review."
+                "misconception": "Backcountry ski touring and groomed cross-country track skiing use identical lightweight equipment and clothing.",
+                "fact": "Backcountry touring requires heavier metal-edged skis, sturdier supportive boots, avalanche rescue gear, and comprehensive wilderness survival provisions."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2778,14 +2818,17 @@
               "id": "7b(5)",
               "sub_req_label": "7b(5)",
               "sub_req_text": "Discuss the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing.",
-              "topic_title": "Req 7b(5): The differences between cross-country, backcountry/ski touring",
-              "pamphlet_summary": "The differences between cross-country, backcountry/ski touring: The Snow Sports pamphlet for Requirement 7b(5) details the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(5): Nordic and Backcountry Skiing Disciplines",
+              "pamphlet_summary": "Nordic and Backcountry Skiing Disciplines: Traditional cross-country skiing takes place on groomed trail systems with light gear, while backcountry ski touring utilizes wider skis to explore ungroomed wilderness terrain. Ski mountaineering incorporates climbing skins, crampons, and alpine touring bindings to ascend and descend rugged peaks, whereas telemark skiing uses free-heel gear specifically to carve downhill turns (p. 55).",
               "pamphlet_excerpts": [
-                "The differences between cross-country, backcountry/ski touring: The Snow Sports pamphlet for Requirement 7b(5) details the differences between cross-country, backcountry/ski touring, ski mountaineering, and downhill/telemark skiing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Nordic and Backcountry Skiing Disciplines: Traditional cross-country skiing takes place on groomed trail systems with light gear, while backcountry ski touring utilizes wider skis to explore ungroomed wilderness terrain. Ski mountaineering incorporates climbing skins, crampons, and alpine touring bindings to ascend and descend rugged peaks, whereas telemark skiing uses free-heel gear specifically to carve downhill turns (p. 55)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "What specific terrain challenges and safety hazards distinguish high-alpine ski mountaineering from gentle cross-country trail touring?"
+              ]
             },
             {
               "sub_id": "7b(6)",
@@ -2822,8 +2865,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7b(6) (Items you would take), Scouts sometimes overlook the concrete pamphlet benchmarks covering the items you would take on a one-day ski tour.",
-                "fact": "Counselor verification for Snow Sports Requirement 7b(6) requires concrete workbook evidence on items you would take, specifically addressing the items you would take on a one-day ski tour."
+                "misconception": "Pack weight can be minimized by relying on cotton sweatshirts and buying food or water along wilderness cross-country ski routes.",
+                "fact": "Scouts must pack extra synthetic or wool insulation, high-energy rations, and water in insulated bottles because winter dehydration and hypothermia develop rapidly far from trail facilities."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2849,15 +2892,18 @@
               "id": "7b(6)",
               "sub_req_label": "7b(6)",
               "sub_req_text": "List the items you would take on a one-day ski tour.",
-              "topic_title": "Req 7b(6): Items you would take",
-              "pamphlet_summary": "Items you would take: The Snow Sports pamphlet for Requirement 7b(6) details the items you would take on a one-day ski tour, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(6): Day Ski Tour Packing Essentials",
+              "pamphlet_summary": "Day Ski Tour Packing Essentials: Cross-country touring day packs must include the Scout basic essentials along with extra warm wool or synthetic layers, windproof outerwear, high-energy snacks, plenty of water in insulated containers, a first-aid kit, and ski repair tools. Waxing supplies and an emergency thermal blanket are also necessary for backcountry safety (p. 54).",
               "pamphlet_excerpts": [
-                "Items you would take: The Snow Sports pamphlet for Requirement 7b(6) details the items you would take on a one-day ski tour, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Day Ski Tour Packing Essentials: Cross-country touring day packs must include the Scout basic essentials along with extra warm wool or synthetic layers, windproof outerwear, high-energy snacks, plenty of water in insulated containers, a first-aid kit, and ski repair tools. Waxing supplies and an emergency thermal blanket are also necessary for backcountry safety (p. 54)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
-              "title": "Req 7b(6): Items you would take",
+              "title": "Req 7b(6): Day Ski Tour Packing Essentials",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "What items must you pack into your day pack to survive sudden mountain weather changes miles away from the lodge?"
+              ]
             },
             {
               "sub_id": "7b(7)",
@@ -2902,8 +2948,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7b(7), a common mistake in topographic map and compass is treating the proper use of a topographic map and compass as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7b(7) means following the pamphlet standard for topographic map and compass and recording accurate notes on the proper use of a topographic map and compass."
+                "misconception": "Following established tracks in the snow eliminates the need to carry and read a topographic map while touring.",
+                "fact": "Blowing snow and drifting can erase ski tracks within minutes, making an oriented topographic map and compass mandatory for finding marked checkpoints and elevation routes."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2929,14 +2975,17 @@
               "id": "7b(7)",
               "sub_req_label": "7b(7)",
               "sub_req_text": "Demonstrate the proper use of a topographic map and compass.",
-              "topic_title": "Req 7b(7): Topographic Map and Compass",
-              "pamphlet_summary": "Topographic Map and Compass: The Snow Sports pamphlet for Requirement 7b(7) details the proper use of a topographic map and compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(7): Topographic Map And Compass Navigation",
+              "pamphlet_summary": "Topographic Map And Compass Navigation: Scouts navigate winter trails by orienting a topographic map to magnetic north using an orienteering compass and calculating magnetic declination. Interpreting contour lines helps skiers evaluate slope steepness to avoid potential avalanche terrain and identify safe touring corridors (p. 56).",
               "pamphlet_excerpts": [
-                "Topographic Map and Compass: The Snow Sports pamphlet for Requirement 7b(7) details the proper use of a topographic map and compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Topographic Map And Compass Navigation: Scouts navigate winter trails by orienting a topographic map to magnetic north using an orienteering compass and calculating magnetic declination. Interpreting contour lines helps skiers evaluate slope steepness to avoid potential avalanche terrain and identify safe touring corridors (p. 56)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "How do contour lines on your topographic map help you identify both gentle glide paths and hazardous steep slopes?"
+              ]
             },
             {
               "sub_id": "7b(8)",
@@ -2975,8 +3024,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7b(8), Scouts can underestimate how directly mastery of on a gentle, packed slope depends on understanding on a gentle, packed slope, show some basic ways to control speed and direction.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7b(8) require complete workbook entries on on a gentle, packed slope to demonstrate full understanding of on a gentle, packed slope, show some basic ways to control speed and direction."
+                "misconception": "Cross-country skis turn downhill by leaning the upper body backward away from the slope.",
+                "fact": "Downhill turns and wedge stops on cross-country skis require centering your weight forward over flexed knees while applying pressure to the inside edges of the skis."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3002,15 +3051,18 @@
               "id": "7b(8)",
               "sub_req_label": "7b(8)",
               "sub_req_text": "On a gentle, packed slope, show some basic ways to control speed and direction. Include the straight run, traverse, side slip, step turn, wedge stop, and wedge turn maneuvers.",
-              "topic_title": "Req 7b(8): On a gentle, packed slope",
-              "pamphlet_summary": "On a gentle, packed slope: Racing skis are specialized for turning around gates, and the side cut determines how wide a turn the skis can make (p. 37).",
+              "topic_title": "Req 7b(8): Basic Nordic Downhill Maneuver Techniques",
+              "pamphlet_summary": "Basic Nordic Downhill Maneuver Techniques: Controlled downhill cross-country skiing requires maintaining an athletic stance with flexed ankles and knees to absorb terrain changes while executing straight runs and traverses. Speed control depends on feathering ski edges during side slips and pushing ski tails outward with tips close together to form a braking wedge (p. 59).",
               "pamphlet_excerpts": [
-                "On a gentle, packed slope: Racing skis are specialized for turning around gates, and the side cut determines how wide a turn the skis can make (p. 37)."
+                "Basic Nordic Downhill Maneuver Techniques: Controlled downhill cross-country skiing requires maintaining an athletic stance with flexed ankles and knees to absorb terrain changes while executing straight runs and traverses. Speed control depends on feathering ski edges during side slips and pushing ski tails outward with tips close together to form a braking wedge (p. 59)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
-              "title": "Req 7b(8): On a gentle, packed slope",
+              "title": "Req 7b(8): Basic Nordic Downhill Maneuver Techniques",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "How does shifting weight and angling your inside edges create friction to slow down or turn on a gentle hill?"
+              ]
             },
             {
               "sub_id": "7b(9)",
@@ -3047,8 +3099,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7b(9), many Scouts assume on a cross-country trail, demonstrate effective only requires a general overview rather than specific details on on a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7b(9) specifies that Scouts must thoroughly document on a cross-country trail, demonstrate effective and explain on a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski during counselor review."
+                "misconception": "Propelling cross-country skis requires pushing off with both poles simultaneously rather than transferring weight between skis.",
+                "fact": "Forward momentum in classic diagonal stride comes from fully transferring body weight onto one ski to grip the snow while alternating opposite arm pole plants."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3074,14 +3126,17 @@
               "id": "7b(9)",
               "sub_req_label": "7b(9)",
               "sub_req_text": "On a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, rhythm, flow, and glide.",
-              "topic_title": "Req 7b(9): On a cross-country trail, demonstrate effective",
-              "pamphlet_summary": "On a cross-country trail, demonstrate effective: The Snow Sports pamphlet for Requirement 7b(9) details on a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(9): Cross Country Diagonal Stride Propulsion",
+              "pamphlet_summary": "Cross Country Diagonal Stride Propulsion: Efficient diagonal stride propulsion relies on driving forward from a bent knee to compress the wax pocket or grip pattern firmly against the snow before kicking backward. Coordinating opposite arm and leg movements produces steady glide onto the forward ski while planting poles angled backward to drive momentum (p. 62).",
               "pamphlet_excerpts": [
-                "On a cross-country trail, demonstrate effective: The Snow Sports pamphlet for Requirement 7b(9) details on a cross-country trail, demonstrate effective propulsion by showing proper weight transfer from ski to ski, pole timing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Cross Country Diagonal Stride Propulsion: Efficient diagonal stride propulsion relies on driving forward from a bent knee to compress the wax pocket or grip pattern firmly against the snow before kicking backward. Coordinating opposite arm and leg movements produces steady glide onto the forward ski while planting poles angled backward to drive momentum (p. 62)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "Why does committing your full body weight onto a single gliding ski provide more forward power than shuffling with equal weight on both skis?"
+              ]
             },
             {
               "sub_id": "7b(10)",
@@ -3120,8 +3175,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7b(10) (Your ability, on a 4-mile tour), Scouts sometimes overlook the concrete pamphlet benchmarks covering your ability, on a 4-mile tour, to cope with an average variety of snow conditions.",
-                "fact": "Counselor verification for Snow Sports Requirement 7b(10) requires concrete workbook evidence on your ability, on a 4-mile tour, specifically addressing your ability, on a 4-mile tour, to cope with an average variety of snow conditions."
+                "misconception": "Skiing as fast as possible early in a four-mile tour preserves energy and prevents cold-weather fatigue.",
+                "fact": "Maintaining a steady, moderate pace and shedding excess layers before sweating prevents overheating, exhaustion, and subsequent hypothermia over long distances."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3147,14 +3202,17 @@
               "id": "7b(10)",
               "sub_req_label": "7b(10)",
               "sub_req_text": "Demonstrate your ability, on a 4-mile tour, to cope with an average variety of snow conditions. Note: Adaptive skiers may complete a 1-mile tour with prior approval from their counselor.",
-              "topic_title": "Req 7b(10): Your ability, on a 4-mile tour",
-              "pamphlet_summary": "Your ability, on a 4-mile tour: The Snow Sports pamphlet for Requirement 7b(10) details your ability, on a 4-mile tour, to cope with an average variety of snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(10): Cross Country Ski Tour Endurance",
+              "pamphlet_summary": "Cross Country Ski Tour Endurance: Completing a four-mile Nordic tour requires pacing energy reserves and adjusting glide techniques across varied surfaces such as hardpack, wind crust, and soft powder. Skiers must stay hydrated, monitor body temperature by venting layers, and maintain situational awareness throughout the trek (p. 65).",
               "pamphlet_excerpts": [
-                "Your ability, on a 4-mile tour: The Snow Sports pamphlet for Requirement 7b(10) details your ability, on a 4-mile tour, to cope with an average variety of snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Cross Country Ski Tour Endurance: Completing a four-mile Nordic tour requires pacing energy reserves and adjusting glide techniques across varied surfaces such as hardpack, wind crust, and soft powder. Skiers must stay hydrated, monitor body temperature by venting layers, and maintain situational awareness throughout the trek (p. 65)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "How does adjusting your touring pace and regulating clothing layers help you maintain endurance across changing snow surfaces?"
+              ]
             },
             {
               "sub_id": "7b(11)",
@@ -3193,8 +3251,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7b(11), a common mistake in several methods of dealing with steep hills is treating several methods of dealing with steep hills or difficult conditions as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7b(11) means following the pamphlet standard for several methods of dealing with steep hills and recording accurate notes on several methods of dealing with steep hills or difficult conditions."
+                "misconception": "Holding ski poles out in front of the body provides an effective brake when descending steep slopes on cross-country skis.",
+                "fact": "Braking on steep narrow descents requires pressing pole grips together behind the hips and dragging the baskets in the snow beneath the skier."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3220,15 +3278,18 @@
               "id": "7b(11)",
               "sub_req_label": "7b(11)",
               "sub_req_text": "Demonstrate several methods of dealing with steep hills or difficult conditions. Include traverses and kick turns going uphill and downhill, sidesteps, and pole drag.",
-              "topic_title": "Req 7b(11): Several Methods of Dealing with Steep Hills",
-              "pamphlet_summary": "Several Methods of Dealing with Steep Hills: The Snow Sports pamphlet for Requirement 7b(11) details several methods of dealing with steep hills or difficult conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7b(11): Steep Terrain Cross Country Maneuvers",
+              "pamphlet_summary": "Steep Terrain Cross Country Maneuvers: Ascending steep slopes requires using sidesteps with ski edges driven perpendicular to the fall line or diagonal traverses punctuated by stationary kick turns. Downhill descents on steep pitches require controlled traverses, side slips, or dragging both poles behind the body to add frictional braking (p. 67).",
               "pamphlet_excerpts": [
-                "Several Methods of Dealing with Steep Hills: The Snow Sports pamphlet for Requirement 7b(11) details several methods of dealing with steep hills or difficult conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Steep Terrain Cross Country Maneuvers: Ascending steep slopes requires using sidesteps with ski edges driven perpendicular to the fall line or diagonal traverses punctuated by stationary kick turns. Downhill descents on steep pitches require controlled traverses, side slips, or dragging both poles behind the body to add frictional braking (p. 67)."
               ],
               "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
-              "title": "Req 7b(11): Several Methods of Dealing with Steep Hills",
+              "title": "Req 7b(11): Steep Terrain Cross Country Maneuvers",
               "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+              "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+              "socratic_questions": [
+                "When a hill becomes too steep for a herringbone climb, how do sidesteps and kick turns keep you moving upward safely?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3354,8 +3415,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7c(1), many Scouts assume forward-fall injuries only requires a general overview rather than specific details on forward-fall injuries.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7c(1) specifies that Scouts must thoroughly document forward-fall injuries and explain forward-fall injuries during counselor review."
+                "misconception": "Extending locked arms with open palms toward the snow protects riders best when falling forward.",
+                "fact": "Extending rigid arms onto hard snow concentrates fall force into the wrists, whereas pulling arms in and rolling onto padded forearms safely disperses momentum."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3381,14 +3442,17 @@
               "id": "7c(1)",
               "sub_req_label": "7c(1)",
               "sub_req_text": "Discuss forward-fall injuries.",
-              "topic_title": "Req 7c(1): Forward-fall injuries",
-              "pamphlet_summary": "Forward-fall injuries: The Snow Sports pamphlet for Requirement 7c(1) details forward-fall injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(1): Snowboard Forward Fall Injury Prevention",
+              "pamphlet_summary": "Snowboard Forward Fall Injury Prevention: Catching the front downhill edge of a snowboard causes abrupt forward falls that frequently result in wrist fractures, sprains, and shoulder separations. Riders protect their upper extremities by wearing rigid wrist guards and absorbing impact by pulling fists to the chest and sliding forward onto forearms and knee pads (p. 74).",
               "pamphlet_excerpts": [
-                "Forward-fall injuries: The Snow Sports pamphlet for Requirement 7c(1) details forward-fall injuries, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Forward Fall Injury Prevention: Catching the front downhill edge of a snowboard causes abrupt forward falls that frequently result in wrist fractures, sprains, and shoulder separations. Riders protect their upper extremities by wearing rigid wrist guards and absorbing impact by pulling fists to the chest and sliding forward onto forearms and knee pads (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "Why does catching your toe edge often lead to wrist injuries, and what body position cushions that forward momentum?"
+              ]
             },
             {
               "sub_id": "7c(2)",
@@ -3425,8 +3489,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7c(2) (Your ability to select the correct), Scouts sometimes overlook the concrete pamphlet benchmarks covering your ability to select the correct equipment for snowboarding and to use it for safety and comfort.",
-                "fact": "Counselor verification for Snow Sports Requirement 7c(2) requires concrete workbook evidence on your ability to select the correct, specifically addressing your ability to select the correct equipment for snowboarding and to use it for safety and comfort."
+                "misconception": "Selecting a snowboard depends entirely on finding a board length that stands level with the tip of the nose regardless of body weight.",
+                "fact": "Rider weight and boot size dictate board flex, width, and control much more accurately than standing height alone."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3452,14 +3516,17 @@
               "id": "7c(2)",
               "sub_req_label": "7c(2)",
               "sub_req_text": "Show your ability to select the correct equipment for snowboarding and to use it for safety and comfort.",
-              "topic_title": "Req 7c(2): Your ability to select the correct",
-              "pamphlet_summary": "Your ability to select the correct: The Snow Sports pamphlet for Requirement 7c(2) details your ability to select the correct equipment for snowboarding and to use it for safety and comfort, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(2): Snowboard Equipment Selection And Fit",
+              "pamphlet_summary": "Snowboard Equipment Selection And Fit: Proper snowboard sizing considers rider weight, height, boot size, and ability level, with all-mountain boards typically reaching between the rider chest and chin. Safe setups require well-fitted snowboard boots, an ASTM-certified winter sports helmet, impact protection, and waterproof breathable outerwear (p. 76).",
               "pamphlet_excerpts": [
-                "Your ability to select the correct: The Snow Sports pamphlet for Requirement 7c(2) details your ability to select the correct equipment for snowboarding and to use it for safety and comfort, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Equipment Selection And Fit: Proper snowboard sizing considers rider weight, height, boot size, and ability level, with all-mountain boards typically reaching between the rider chest and chin. Safe setups require well-fitted snowboard boots, an ASTM-certified winter sports helmet, impact protection, and waterproof breathable outerwear (p. 76)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "How do your weight and boot size influence the width and flex of the snowboard you choose?"
+              ]
             },
             {
               "sub_id": "7c(3)",
@@ -3498,8 +3565,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7c(3), a common mistake in own bindings is treating how to use and maintain your own bindings, and explain the use of the different binding methods as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7c(3) means following the pamphlet standard for own bindings and recording accurate notes on how to use and maintain your own bindings, and explain the use of the different binding methods."
+                "misconception": "Snowboard leashes are unnecessary because boards automatically brake and stop when detached from boots on slopes.",
+                "fact": "Snowboards lack mechanical ski brakes, so an unattached board will slide downhill with dangerous speed unless secured by a retention leash."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3525,14 +3592,17 @@
               "id": "7c(3)",
               "sub_req_label": "7c(3)",
               "sub_req_text": "Show how to use and maintain your own bindings, and explain the use of the different binding methods. Explain the need for leashes.",
-              "topic_title": "Req 7c(3): Own Bindings",
-              "pamphlet_summary": "Own Bindings: The Snow Sports pamphlet for Requirement 7c(3) details how to use and maintain your own bindings, and explain the use of the different binding methods, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(3): Snowboard Binding Maintenance And Leashes",
+              "pamphlet_summary": "Snowboard Binding Maintenance And Leashes: Riders inspect strap-in, step-on, or rear-entry bindings for loose mounting hardware and cracked straps before every session, setting comfortable stance angles and width. A retention leash secured to the front binding and boot prevents a loose runaway board from careening down the mountain and injuring other winter sports participants (p. 78).",
               "pamphlet_excerpts": [
-                "Own Bindings: The Snow Sports pamphlet for Requirement 7c(3) details how to use and maintain your own bindings, and explain the use of the different binding methods, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Binding Maintenance And Leashes: Riders inspect strap-in, step-on, or rear-entry bindings for loose mounting hardware and cracked straps before every session, setting comfortable stance angles and width. A retention leash secured to the front binding and boot prevents a loose runaway board from careening down the mountain and injuring other winter sports participants (p. 78)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "Unlike downhill skis, why can a loose snowboard become a runaway hazard, and how does a leash prevent that disaster?"
+              ]
             },
             {
               "sub_id": "7c(4)",
@@ -3571,8 +3641,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7c(4), Scouts can underestimate how directly mastery of four types of snowboards depends on understanding the four types of snowboards.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7c(4) require complete workbook entries on four types of snowboards to demonstrate full understanding of the four types of snowboards."
+                "misconception": "Carrying a snowboard horizontally over the shoulder is safe in crowded base areas and lift lines.",
+                "fact": "Carrying a board horizontally over the shoulder creates a swinging hazard that can strike bystanders during turns, so boards must be carried tucked underarm vertically."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3598,15 +3668,18 @@
               "id": "7c(4)",
               "sub_req_label": "7c(4)",
               "sub_req_text": "Discuss the four types of snowboards. Demonstrate how to carry a snowboard easily and safely.",
-              "topic_title": "Req 7c(4): Four Types of Snowboards",
-              "pamphlet_summary": "Four Types of Snowboards: The Snow Sports pamphlet for Requirement 7c(4) details the four types of snowboards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(4): Snowboard Types And Carrying Methods",
+              "pamphlet_summary": "Snowboard Types And Carrying Methods: The four standard snowboard categories comprise freestyle, all-mountain, freeride, and alpine carving boards, each engineered with specific flex patterns, sidecuts, and cambers. Carrying a board safely off-slope involves tucking it vertically under one arm with bindings facing outward or carrying it across the body with the base against the torso (p. 81).",
               "pamphlet_excerpts": [
-                "Four Types of Snowboards: The Snow Sports pamphlet for Requirement 7c(4) details the four types of snowboards, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Types And Carrying Methods: The four standard snowboard categories comprise freestyle, all-mountain, freeride, and alpine carving boards, each engineered with specific flex patterns, sidecuts, and cambers. Carrying a board safely off-slope involves tucking it vertically under one arm with bindings facing outward or carrying it across the body with the base against the torso (p. 81)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
-              "title": "Req 7c(4): Four Types of Snowboards",
+              "title": "Req 7c(4): Snowboard Types And Carrying Methods",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "How do the distinct design shapes of freestyle and freeride boards match the terrain they are built to ride?"
+              ]
             },
             {
               "sub_id": "7c(5)",
@@ -3643,8 +3716,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7c(5), many Scouts assume snow sports lift principles only requires a general overview rather than specific details on how to ride one kind of lift and explain how to ride two others.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7c(5) specifies that Scouts must thoroughly document snow sports lift principles and explain how to ride one kind of lift and explain how to ride two others during counselor review."
+                "misconception": "Keeping both boots securely strapped into bindings makes loading and unloading a chairlift easier for snowboarders.",
+                "fact": "Leaving the rear boot unstrapped allows snowboarders to skate through lift mazes, balance safely in line, and push off cleanly at the exit ramp."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3670,14 +3743,17 @@
               "id": "7c(5)",
               "sub_req_label": "7c(5)",
               "sub_req_text": "Demonstrate how to ride one kind of lift and explain how to ride two others.",
-              "topic_title": "Req 7c(5): Snow Sports Lift Principles",
-              "pamphlet_summary": "Snow Sports Lift Principles: The Snow Sports pamphlet for Requirement 7c(5) details how to ride one kind of lift and explain how to ride two others, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(5): Snowboard Ski Lift Riding Methods",
+              "pamphlet_summary": "Snowboard Ski Lift Riding Methods: Riding chairlifts requires unclipping the rear foot, skating into the loading area, and placing the free foot onto the stomp pad before letting the chair scoop beneath the rider. Riders look over their shoulder when loading, keep the snowboard pointed straight ahead during the ride, and stand up to glide away at the top terminal (p. 84).",
               "pamphlet_excerpts": [
-                "Snow Sports Lift Principles: The Snow Sports pamphlet for Requirement 7c(5) details how to ride one kind of lift and explain how to ride two others, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Ski Lift Riding Methods: Riding chairlifts requires unclipping the rear foot, skating into the loading area, and placing the free foot onto the stomp pad before letting the chair scoop beneath the rider. Riders look over their shoulder when loading, keep the snowboard pointed straight ahead during the ride, and stand up to glide away at the top terminal (p. 84)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "Why must you free your back foot from its binding before entering the chairlift loading area?"
+              ]
             },
             {
               "sub_id": "7c(6)",
@@ -3714,8 +3790,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7c(6) (The basic principles of waxing), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic principles of waxing a snowboard.",
-                "fact": "Counselor verification for Snow Sports Requirement 7c(6) requires concrete workbook evidence on the basic principles of waxing, specifically addressing the basic principles of waxing a snowboard."
+                "misconception": "Leaving a thick layer of unheated paste wax on the snowboard base makes the board glide faster on the snow.",
+                "fact": "Wax must melt into the microscopic pores of the P-tex base, and all surface wax must be scraped off so the base structure can repel water and reduce friction."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3741,15 +3817,18 @@
               "id": "7c(6)",
               "sub_req_label": "7c(6)",
               "sub_req_text": "Demonstrate the basic principles of waxing a snowboard.",
-              "topic_title": "Req 7c(6): The basic principles of waxing",
-              "pamphlet_summary": "The basic principles of waxing: The Snow Sports pamphlet for Requirement 7c(6) details the basic principles of waxing a snowboard, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(6): Snowboard Base Waxing Principles",
+              "pamphlet_summary": "Snowboard Base Waxing Principles: Effective hot waxing starts by cleaning dirt from the base, melting temperature-specific wax evenly across the P-tex surface with a dedicated waxing iron, and allowing it to cool completely. Riders then scrape excess wax from nose to tail with a plastic scraper and buff the structure with a nylon brush to optimize glide (p. 86).",
               "pamphlet_excerpts": [
-                "The basic principles of waxing: The Snow Sports pamphlet for Requirement 7c(6) details the basic principles of waxing a snowboard, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowboard Base Waxing Principles: Effective hot waxing starts by cleaning dirt from the base, melting temperature-specific wax evenly across the P-tex surface with a dedicated waxing iron, and allowing it to cool completely. Riders then scrape excess wax from nose to tail with a plastic scraper and buff the structure with a nylon brush to optimize glide (p. 86)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
-              "title": "Req 7c(6): The basic principles of waxing",
+              "title": "Req 7c(6): Snowboard Base Waxing Principles",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "Why do you scrape almost all the visible wax off your snowboard base after hot-ironing it?"
+              ]
             },
             {
               "sub_id": "7c(7)",
@@ -3777,15 +3856,15 @@
                   "id": "7c(7)(a)",
                   "sub_req_label": "7c(7)(a)",
                   "sub_req_text": "On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver.",
-                  "topic_title": "Req 7c(7)(a): On a gentle slope, demonstrate beginning",
+                  "topic_title": "Req 7c(7)(a): Gentle Slope Sideslipping Speed Control",
                   "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
-                  "pamphlet_summary": "On a gentle slope, demonstrate beginning: The Snow Sports pamphlet for Requirement 7c(7)(a) details on a gentle slope, demonstrate beginning snowboarding maneuvers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+                  "pamphlet_summary": "Gentle Slope Sideslipping Speed Control: Sideslipping on a gentle slope requires standing sideways to the fall line with knees flexed, shifting weight slightly onto the heel or toe edge to release and re-engage friction. Modulating edge angle against the snow allows riders to brake smoothly to a full stop or slide downhill at a controlled speed (p. 89).",
                   "pamphlet_excerpts": [
-                    "On a gentle slope, demonstrate beginning: The Snow Sports pamphlet for Requirement 7c(7)(a) details on a gentle slope, demonstrate beginning snowboarding maneuvers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                    "Gentle Slope Sideslipping Speed Control: Sideslipping on a gentle slope requires standing sideways to the fall line with knees flexed, shifting weight slightly onto the heel or toe edge to release and re-engage friction. Modulating edge angle against the snow allows riders to brake smoothly to a full stop or slide downhill at a controlled speed (p. 89)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "Twin-tip skis perform better than all-mountain skis on icy, steep backcountry trails.",
-                    "fact": "Twin-tip skis have upturned tips and tails specialized for jumps, rails, and half-pipes, which makes many conditions outside the terrain park more challenging (p. 37)."
+                    "misconception": "Sideslipping requires keeping the snowboard completely flat against the snow to slow down smoothly.",
+                    "fact": "Flattening the snowboard directly against the fall line catches the downhill edge and triggers sudden falls, requiring riders to keep the downhill edge elevated."
                   },
                   "workbook_organizer": {
                     "organizer_type": "SKILL_DEMONSTRATION_CHECKLIST",
@@ -3822,7 +3901,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
                   "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-                  "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+                  "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+                  "socratic_questions": [
+                    "What happens if you lower your downhill edge too close to the snow while sideslipping?"
+                  ]
                 },
                 {
                   "sub_id": "7c(7)(b)",
@@ -3840,15 +3922,15 @@
                   "id": "7c(7)(b)",
                   "sub_req_label": "7c(7)(b)",
                   "sub_req_text": "On slightly steeper terrain, show traversing.",
-                  "topic_title": "Req 7c(7)(b): On slightly steeper terrain, show traversing",
+                  "topic_title": "Req 7c(7)(b): Steeper Terrain Snowboard Traverse Maneuvers",
                   "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
-                  "pamphlet_summary": "On slightly steeper terrain, show traversing: The Snow Sports pamphlet for Requirement 7c(7)(b) details on slightly steeper terrain, show traversing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+                  "pamphlet_summary": "Steeper Terrain Snowboard Traverse Maneuvers: Traversing steeper terrain involves guiding the snowboard diagonally across the fall line on a single edge while looking forward in the direction of travel. Riders maintain a flexed athletic stance and distribute pressure smoothly along the uphill edge to maintain line and resist sliding straight downhill (p. 90).",
                   "pamphlet_excerpts": [
-                    "On slightly steeper terrain, show traversing: The Snow Sports pamphlet for Requirement 7c(7)(b) details on slightly steeper terrain, show traversing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                    "Steeper Terrain Snowboard Traverse Maneuvers: Traversing steeper terrain involves guiding the snowboard diagonally across the fall line on a single edge while looking forward in the direction of travel. Riders maintain a flexed athletic stance and distribute pressure smoothly along the uphill edge to maintain line and resist sliding straight downhill (p. 90)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Snow Sports Requirement 7c(7)(b) (On slightly steeper terrain, show traversing), Scouts sometimes overlook the concrete pamphlet benchmarks covering on slightly steeper terrain, show traversing.",
-                    "fact": "Counselor verification for Snow Sports Requirement 7c(7)(b) requires concrete workbook evidence on on slightly steeper terrain, show traversing, specifically addressing on slightly steeper terrain, show traversing."
+                    "misconception": "Traversing across a slope requires leaning back over the tail of the snowboard to hold the edge line.",
+                    "fact": "Leaning back unweights the front edge and induces an uncontrolled downhill skid, requiring weight centered equally across both feet along the uphill edge."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -3881,7 +3963,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/snow_sports_req_7_nano_hero.png",
                   "workbook_diagram_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
-                  "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run."
+                  "workbook_visual_caption": "Scouts BSA ski instructor in an insulated red and olive winter ski parka leading skiers in controlled parallel turns down a groomed mountain run.",
+                  "socratic_questions": [
+                    "How does distributing weight between your front and back feet keep the uphill edge locked in as you cross a slope?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Demonstration",
@@ -3910,8 +3995,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7c(7), a common mistake in on a gentle slope, demonstrate beginning is treating do the following, (a) on a gentle slope, demonstrate beginning snowboarding maneuvers as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7c(7) means following the pamphlet standard for on a gentle slope, demonstrate beginning and recording accurate notes on do the following, (a) on a gentle slope, demonstrate beginning snowboarding maneuvers."
+                "misconception": "Looking down at the snowboard edges while sideslipping helps maintain balance and direction down the hill.",
+                "fact": "Looking down bends the waist and causes edge catches, whereas keeping the head up and eyes directed toward the travel path maintains centered balance."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3937,14 +4022,17 @@
               "id": "7c(7)",
               "sub_req_label": "7c(7)",
               "sub_req_text": "Do the following: (a) On a gentle slope, demonstrate beginning snowboarding maneuvers. Show basic ways to control speed and direction. Include the sideslipping maneuver. (b) On slightly steeper terrain, show traversing.",
-              "topic_title": "Req 7c(7): On a gentle slope, demonstrate beginning",
-              "pamphlet_summary": "On a gentle slope, demonstrate beginning: The Snow Sports pamphlet for Requirement 7c(7) details do the following, (a) On a gentle slope, demonstrate beginning snowboarding maneuvers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(7): Beginning Snowboard Maneuver Progression",
+              "pamphlet_summary": "Beginning Snowboard Maneuver Progression: Novice snowboard progression begins with centered balance, learning sideslipping on both toe and heel edges to regulate speed down the fall line. Progressing to gentle traverses involves angling the board diagonally across the slope while maintaining steady edge control and quiet upper-body posture (p. 88).",
               "pamphlet_excerpts": [
-                "On a gentle slope, demonstrate beginning: The Snow Sports pamphlet for Requirement 7c(7) details do the following, (a) On a gentle slope, demonstrate beginning snowboarding maneuvers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Beginning Snowboard Maneuver Progression: Novice snowboard progression begins with centered balance, learning sideslipping on both toe and heel edges to regulate speed down the fall line. Progressing to gentle traverses involves angling the board diagonally across the slope while maintaining steady edge control and quiet upper-body posture (p. 88)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "How does shifting weight between your heels and toes control your rate of descent across the fall line?"
+              ]
             },
             {
               "sub_id": "7c(8)",
@@ -3989,8 +4077,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7c(8), Scouts can underestimate how directly mastery of on a moderate slope depends on understanding on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7c(8) require complete workbook entries on on a moderate slope to demonstrate full understanding of on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie."
+                "misconception": "Jumping an ollie requires leaping equally off both feet at the exact same moment.",
+                "fact": "An effective ollie relies on snapping the tail downward to load the board flex before popping into the air."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4016,14 +4104,17 @@
               "id": "7c(8)",
               "sub_req_label": "7c(8)",
               "sub_req_text": "On a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie.",
-              "topic_title": "Req 7c(8): On a moderate slope",
-              "pamphlet_summary": "On a moderate slope: The Snow Sports pamphlet for Requirement 7c(8) details on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(8): Basic Freestyle Snowboard Maneuvers",
+              "pamphlet_summary": "Basic Freestyle Snowboard Maneuvers: Riders execute an ollie by flexing the knees, springing off the snowboard tail to load energy, and leveling the board in the air before landing centered. Nose grabs require lifting the front knees toward the chest while in flight, while wheelies demand balancing forward glide solely on the tail or nose (p. 67).",
               "pamphlet_excerpts": [
-                "On a moderate slope: The Snow Sports pamphlet for Requirement 7c(8) details on a moderate slope, demonstrate an ollie, a nose-end grab, and a wheelie, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Basic Freestyle Snowboard Maneuvers: Riders execute an ollie by flexing the knees, springing off the snowboard tail to load energy, and leveling the board in the air before landing centered. Nose grabs require lifting the front knees toward the chest while in flight, while wheelies demand balancing forward glide solely on the tail or nose (p. 67)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "How does flexing and springing off your snowboard tail produce more lift than jumping flat with both feet?"
+              ]
             },
             {
               "sub_id": "7c(9)",
@@ -4060,8 +4151,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7c(9), many Scouts assume controlled run down an intermediate only requires a general overview rather than specific details on a controlled run down an intermediate slope.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7c(9) specifies that Scouts must thoroughly document controlled run down an intermediate and explain a controlled run down an intermediate slope during counselor review."
+                "misconception": "Controlling speed down intermediate terrain requires scraping the board sideways in a continuous falling leaf pattern.",
+                "fact": "Scouts manage descent speed by carving completed, rounded turns that direct momentum across the fall line."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4087,14 +4178,17 @@
               "id": "7c(9)",
               "sub_req_label": "7c(9)",
               "sub_req_text": "Make a controlled run down an intermediate slope.",
-              "topic_title": "Req 7c(9): Controlled Run Down An Intermediate",
-              "pamphlet_summary": "Controlled Run Down An Intermediate: The Snow Sports pamphlet for Requirement 7c(9) details a controlled run down an intermediate slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(9): Intermediate Slope Snowboard Control",
+              "pamphlet_summary": "Intermediate Slope Snowboard Control: A controlled descent down blue terrain requires continuous turn shape modulation and precise edge pressure to govern speed rather than relying on skidding or side-slipping. Riders maintain an athletic, flexed stance centered over both feet while smoothly transitioning between toe-side and heel-side edges (p. 65).",
               "pamphlet_excerpts": [
-                "Controlled Run Down An Intermediate: The Snow Sports pamphlet for Requirement 7c(9) details a controlled run down an intermediate slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Intermediate Slope Snowboard Control: A controlled descent down blue terrain requires continuous turn shape modulation and precise edge pressure to govern speed rather than relying on skidding or side-slipping. Riders maintain an athletic, flexed stance centered over both feet while smoothly transitioning between toe-side and heel-side edges (p. 65)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "Why does completing full C-shaped turns control your downhill momentum better than skidding your edges straight down the fall line?"
+              ]
             },
             {
               "sub_id": "7c(10)",
@@ -4133,8 +4227,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7c(10) (Ability to Ride in Varied), Scouts sometimes overlook the concrete pamphlet benchmarks covering your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls.",
-                "fact": "Counselor verification for Snow Sports Requirement 7c(10) requires concrete workbook evidence on ability to ride in varied, specifically addressing your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls."
+                "misconception": "Riders should stiffen their legs to muscle through heavy crud and mogul fields.",
+                "fact": "Flexible knees and ankles absorb surface irregularities and keep board edges in constant contact with changing snow."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4160,14 +4254,17 @@
               "id": "7c(10)",
               "sub_req_label": "7c(10)",
               "sub_req_text": "Demonstrate your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls. Maintain your balance and ability to turn.",
-              "topic_title": "Req 7c(10): Ability to Ride in Varied",
-              "pamphlet_summary": "Ability to Ride in Varied: The Snow Sports pamphlet for Requirement 7c(10) details your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(10): Varied Snow Terrain Riding Mechanics",
+              "pamphlet_summary": "Varied Snow Terrain Riding Mechanics: Negotiating moguls and abrupt surface transitions requires treating the lower joints as dynamic shock absorbers while keeping the upper torso quiet and upright. Riders absorb bump crests by drawing knees to the chest and steer through troughs by keeping weight centered rather than leaning uphill (p. 69).",
               "pamphlet_excerpts": [
-                "Ability to Ride in Varied: The Snow Sports pamphlet for Requirement 7c(10) details your ability to ride in varied conditions, including changes in pitch, snow conditions, and moguls, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Varied Snow Terrain Riding Mechanics: Negotiating moguls and abrupt surface transitions requires treating the lower joints as dynamic shock absorbers while keeping the upper torso quiet and upright. Riders absorb bump crests by drawing knees to the chest and steer through troughs by keeping weight centered rather than leaning uphill (p. 69)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "What happens to your balance if you lean back against the slope when encountering sudden ice or mogul troughs?"
+              ]
             },
             {
               "sub_id": "7c(11)",
@@ -4204,8 +4301,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7c(11), a common mistake in major snowboarding organizations in the united states is treating the major snowboarding organizations in the united states and explain their functions as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7c(11) means following the pamphlet standard for major snowboarding organizations in the united states and recording accurate notes on the major snowboarding organizations in the united states and explain their functions."
+                "misconception": "A single sports federation manages both professional instructor certifications and Olympic competition teams in America.",
+                "fact": "The American Association of Snowboard Instructors trains instructors while U.S. Ski and Snowboard oversees national competitive racing and freestyle teams."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4231,15 +4328,18 @@
               "id": "7c(11)",
               "sub_req_label": "7c(11)",
               "sub_req_text": "Name the major snowboarding organizations in the United States and explain their functions.",
-              "topic_title": "Req 7c(11): Major Snowboarding Organizations in the United States",
-              "pamphlet_summary": "Major Snowboarding Organizations in the United States: The Snow Sports pamphlet for Requirement 7c(11) details the major snowboarding organizations in the United States and explain their functions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7c(11): United States Snowboarding Organizations",
+              "pamphlet_summary": "United States Snowboarding Organizations: The American Association of Snowboard Instructors establishes educational standards and certifies professional instructors nationwide. The United States Snowboard and Freeski Association sanction amateur grassroots competitions, while U.S. Ski and Snowboard manages national elite teams and Olympic qualification pathways (p. 71).",
               "pamphlet_excerpts": [
-                "Major Snowboarding Organizations in the United States: The Snow Sports pamphlet for Requirement 7c(11) details the major snowboarding organizations in the United States and explain their functions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "United States Snowboarding Organizations: The American Association of Snowboard Instructors establishes educational standards and certifies professional instructors nationwide. The United States Snowboard and Freeski Association sanction amateur grassroots competitions, while U.S. Ski and Snowboard manages national elite teams and Olympic qualification pathways (p. 71)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p017_img1.png",
-              "title": "Req 7c(11): Major Snowboarding Organizations in the United States",
+              "title": "Req 7c(11): United States Snowboarding Organizations",
               "workbook_diagram_caption": "A snowboarder rests on the slope while staying visible to others.",
-              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others."
+              "workbook_visual_caption": "A snowboarder rests on the slope while staying visible to others.",
+              "socratic_questions": [
+                "How does separating instructor education from competitive event sanctioning benefit grassroots snowboarders?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -4365,8 +4465,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7d(1), many Scouts assume snow sports snowshoe principles only requires a general overview rather than specific details on the parts of a snowshoe.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7d(1) specifies that Scouts must thoroughly document snow sports snowshoe principles and explain the parts of a snowshoe during counselor review."
+                "misconception": "Snowshoe decking provides mechanical traction against hard-packed icy snow.",
+                "fact": "Decking generates flotation over soft snow while underfoot metal crampons grip icy surfaces."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4392,14 +4492,17 @@
               "id": "7d(1)",
               "sub_req_label": "7d(1)",
               "sub_req_text": "Name the parts of a snowshoe.",
-              "topic_title": "Req 7d(1): Snow Sports Snowshoe Principles",
-              "pamphlet_summary": "Snow Sports Snowshoe Principles: Racing skis are designed for high speeds and hard snow (p. 37).",
+              "topic_title": "Req 7d(1): Anatomy of Modern Snowshoes",
+              "pamphlet_summary": "Anatomy of Modern Snowshoes: A complete snowshoe comprises an outer perimeter frame, durable decking to distribute weight, and a pivoting binding with a toe cord or axle. Metal crampons mounted under the ball of the foot and the heel provide traction, while climbing bars lift the heel on steep ascents (p. 75).",
               "pamphlet_excerpts": [
-                "Snow Sports Snowshoe Principles: Racing skis are designed for high speeds and hard snow (p. 37)."
+                "Anatomy of Modern Snowshoes: A complete snowshoe comprises an outer perimeter frame, durable decking to distribute weight, and a pivoting binding with a toe cord or axle. Metal crampons mounted under the ball of the foot and the heel provide traction, while climbing bars lift the heel on steep ascents (p. 75)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "Which component of a snowshoe provides flotation, and which part stops you from sliding down an icy slope?"
+              ]
             },
             {
               "sub_id": "7d(2)",
@@ -4431,8 +4534,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7d(2) (Size of Snowshoe), Scouts sometimes overlook the concrete pamphlet benchmarks covering how to choose the correct size of snowshoe.",
-                "fact": "Counselor verification for Snow Sports Requirement 7d(2) requires concrete workbook evidence on size of snowshoe, specifically addressing how to choose the correct size of snowshoe."
+                "misconception": "Boot size or personal height determines the length of snowshoe a hiker needs.",
+                "fact": "Total carried load and snow density dictate the surface area required for adequate flotation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4458,14 +4561,17 @@
               "id": "7d(2)",
               "sub_req_label": "7d(2)",
               "sub_req_text": "Explain how to choose the correct size of snowshoe.",
-              "topic_title": "Req 7d(2): Size of Snowshoe",
-              "pamphlet_summary": "Size of Snowshoe: The Snow Sports pamphlet for Requirement 7d(2) details how to choose the correct size of snowshoe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(2): Snowshoe Flotation Sizing Factors",
+              "pamphlet_summary": "Snowshoe Flotation Sizing Factors: Selecting the proper snowshoe size depends on total carrying weight, which combines body weight with winter clothing and a fully loaded pack. Deep, dry powder requires larger surface dimensions to maintain flotation than hard-packed or crusty trails (p. 77).",
               "pamphlet_excerpts": [
-                "Size of Snowshoe: The Snow Sports pamphlet for Requirement 7d(2) details how to choose the correct size of snowshoe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowshoe Flotation Sizing Factors: Selecting the proper snowshoe size depends on total carrying weight, which combines body weight with winter clothing and a fully loaded pack. Deep, dry powder requires larger surface dimensions to maintain flotation than hard-packed or crusty trails (p. 77)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "Why might an experienced hiker need a larger snowshoe when carrying a winter backpack than when day walking on packed trails?"
+              ]
             },
             {
               "sub_id": "7d(3)",
@@ -4499,8 +4605,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7d(3), a common mistake in snowshoes and their specialized uses is treating the different types of snowshoes and their specialized uses as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7d(3) means following the pamphlet standard for snowshoes and their specialized uses and recording accurate notes on the different types of snowshoes and their specialized uses."
+                "misconception": "All snowshoe models function identically across flat nature trails and steep alpine peaks.",
+                "fact": "Mountaineering snowshoes feature heavy duty serrated traction bars and heel elevators that flat recreational models lack."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4526,14 +4632,17 @@
               "id": "7d(3)",
               "sub_req_label": "7d(3)",
               "sub_req_text": "Describe the different types of snowshoes and their specialized uses. Discuss factors to consider when choosing a snowshoe.",
-              "topic_title": "Req 7d(3): Snowshoes and Their Specialized Uses",
-              "pamphlet_summary": "Snowshoes and Their Specialized Uses: The Snow Sports pamphlet for Requirement 7d(3) details the different types of snowshoes and their specialized uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(3): Snowshoe Designs and Terrain Applications",
+              "pamphlet_summary": "Snowshoe Designs and Terrain Applications: Recreational hiking snowshoes feature simple bindings and moderate traction for gentle rolling trails, while backcountry and mountaineering models use aggressive crampons, rigid frames, and heel lifts for steep ice. Aerobic running snowshoes utilize narrow, tapered frames for swift movement on packed courses (p. 78).",
               "pamphlet_excerpts": [
-                "Snowshoes and Their Specialized Uses: The Snow Sports pamphlet for Requirement 7d(3) details the different types of snowshoes and their specialized uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Snowshoe Designs and Terrain Applications: Recreational hiking snowshoes feature simple bindings and moderate traction for gentle rolling trails, while backcountry and mountaineering models use aggressive crampons, rigid frames, and heel lifts for steep ice. Aerobic running snowshoes utilize narrow, tapered frames for swift movement on packed courses (p. 78)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "How does the design of a snowshoe built for packed running trails differ from one built for icy mountain ascents?"
+              ]
             },
             {
               "sub_id": "7d(4)",
@@ -4574,8 +4683,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7d(4), Scouts can underestimate how directly mastery of care for and maintain snowshoes depends on understanding how to properly care for and maintain snowshoes.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7d(4) require complete workbook entries on care for and maintain snowshoes to demonstrate full understanding of how to properly care for and maintain snowshoes."
+                "misconception": "Drying wet snowshoes right beside a wood stove or camp heater speeds up maintenance safely.",
+                "fact": "High direct heat warps composite decks, weakens binding plastics, and dries out traditional rawhide webbing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4601,14 +4710,17 @@
               "id": "7d(4)",
               "sub_req_label": "7d(4)",
               "sub_req_text": "Explain how to properly care for and maintain snowshoes.",
-              "topic_title": "Req 7d(4): Care for and Maintain Snowshoes",
-              "pamphlet_summary": "Care for and Maintain Snowshoes: The Snow Sports pamphlet for Requirement 7d(4) details how to properly care for and maintain snowshoes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(4): Winter Footwear Maintenance and Storage",
+              "pamphlet_summary": "Winter Footwear Maintenance and Storage: Owners clean snowshoes by removing dirt and corrosive road salt with fresh water before air drying them away from direct heat sources. Routine maintenance involves checking bindings and rivets for stress cracks, sharpening dulled crampon teeth, and storing the shoes hung flat in a dry space (p. 79).",
               "pamphlet_excerpts": [
-                "Care for and Maintain Snowshoes: The Snow Sports pamphlet for Requirement 7d(4) details how to properly care for and maintain snowshoes, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Winter Footwear Maintenance and Storage: Owners clean snowshoes by removing dirt and corrosive road salt with fresh water before air drying them away from direct heat sources. Routine maintenance involves checking bindings and rivets for stress cracks, sharpening dulled crampon teeth, and storing the shoes hung flat in a dry space (p. 79)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "What components on your snowshoes should you inspect before every winter outing to prevent field breakdowns?"
+              ]
             },
             {
               "sub_id": "7d(5)",
@@ -4649,8 +4761,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7d(5), many Scouts assume items you would take only requires a general overview rather than specific details on the items you would take on a one-day snowshoe hike.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7d(5) specifies that Scouts must thoroughly document items you would take and explain the items you would take on a one-day snowshoe hike during counselor review."
+                "misconception": "Carrying summer hiking gear is sufficient for a single day snowshoe trek as long as you wear a heavy winter coat.",
+                "fact": "Winter day trips require specialized supplies like insulated water bottles, extra non-cotton dry layers, gaiters, and snow-basket poles to survive rapid temperature drops."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4676,15 +4788,18 @@
               "id": "7d(5)",
               "sub_req_label": "7d(5)",
               "sub_req_text": "List the items you would take on a one-day snowshoe hike.",
-              "topic_title": "Req 7d(5): Items you would take",
-              "pamphlet_summary": "Items you would take: The Snow Sports pamphlet for Requirement 7d(5) details the items you would take on a one-day snowshoe hike, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(5): Day Pack Winter Trail Essentials",
+              "pamphlet_summary": "Day Pack Winter Trail Essentials: A winter day pack must include the Scout Outdoor Essentials, featuring navigation gear, headlamp, first-aid supplies, fire starters, extra insulating wool or synthetic layers, and a windproof shell. Hikers also carry insulated water containers to prevent freezing, high-energy food, gaiters, and trekking poles fitted with wide snow baskets (p. 81).",
               "pamphlet_excerpts": [
-                "Items you would take: The Snow Sports pamphlet for Requirement 7d(5) details the items you would take on a one-day snowshoe hike, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Day Pack Winter Trail Essentials: A winter day pack must include the Scout Outdoor Essentials, featuring navigation gear, headlamp, first-aid supplies, fire starters, extra insulating wool or synthetic layers, and a windproof shell. Hikers also carry insulated water containers to prevent freezing, high-energy food, gaiters, and trekking poles fitted with wide snow baskets (p. 81)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
-              "title": "Req 7d(5): Items you would take",
+              "title": "Req 7d(5): Day Pack Winter Trail Essentials",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "Why are hydration bladders with bare exposed hoses unreliable during a sub-freezing day hike?"
+              ]
             },
             {
               "sub_id": "7d(6)",
@@ -4723,8 +4838,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7d(6) (Areas That Are Best for Snowshoeing), Scouts sometimes overlook the concrete pamphlet benchmarks covering areas that are best for snowshoeing.",
-                "fact": "Counselor verification for Snow Sports Requirement 7d(6) requires concrete workbook evidence on areas that are best for snowshoeing, specifically addressing areas that are best for snowshoeing."
+                "misconception": "Dense pine forests in the backcountry eliminate all winter terrain hazards.",
+                "fact": "Evergreen forests conceal deep, loose tree wells around trunk bases that can trap and suffocate fallen snowshoers."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4750,15 +4865,18 @@
               "id": "7d(6)",
               "sub_req_label": "7d(6)",
               "sub_req_text": "Describe areas that are best for snowshoeing. Discuss some advantages and dangers of backcountry snowshoeing.",
-              "topic_title": "Req 7d(6): Areas That Are Best for Snowshoeing",
-              "pamphlet_summary": "Areas That Are Best for Snowshoeing: The Snow Sports pamphlet for Requirement 7d(6) details areas that are best for snowshoeing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(6): Backcountry Snowshoeing Locations and Hazards",
+              "pamphlet_summary": "Backcountry Snowshoeing Locations and Hazards: Designated touring centers, forest service roads, and gentle park trails offer safe introductory routes with minimal avalanche exposure. Backcountry travel provides scenic solitude and untracked snow, but introduces major dangers like avalanche paths, hidden tree wells, sudden whiteouts, and delayed emergency rescue (p. 83).",
               "pamphlet_excerpts": [
-                "Areas That Are Best for Snowshoeing: The Snow Sports pamphlet for Requirement 7d(6) details areas that are best for snowshoeing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Backcountry Snowshoeing Locations and Hazards: Designated touring centers, forest service roads, and gentle park trails offer safe introductory routes with minimal avalanche exposure. Backcountry travel provides scenic solitude and untracked snow, but introduces major dangers like avalanche paths, hidden tree wells, sudden whiteouts, and delayed emergency rescue (p. 83)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
-              "title": "Req 7d(6): Areas That Are Best for Snowshoeing",
+              "title": "Req 7d(6): Backcountry Snowshoeing Locations and Hazards",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "What environmental clues tell you that a peaceful backcountry slope might present a dangerous avalanche risk?"
+              ]
             },
             {
               "sub_id": "7d(7)",
@@ -4795,8 +4913,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "For Snow Sports Requirement 7d(7), a common mistake in the benefits of snowshoeing is treating the benefits of snowshoeing as optional background reading.",
-                "fact": "Mastering Snow Sports Requirement 7d(7) means following the pamphlet standard for the benefits of snowshoeing and recording accurate notes on the benefits of snowshoeing."
+                "misconception": "Walking on snowshoes requires the same physical exertion as walking on bare ground.",
+                "fact": "Pushing through snow resistance and lifting weighted footwear burns up to twice as many calories as walking on dry pavement."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4822,14 +4940,17 @@
               "id": "7d(7)",
               "sub_req_label": "7d(7)",
               "sub_req_text": "Discuss the benefits of snowshoeing.",
-              "topic_title": "Req 7d(7): The benefits of snowshoeing",
-              "pamphlet_summary": "The benefits of snowshoeing: The Snow Sports pamphlet for Requirement 7d(7) details the benefits of snowshoeing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(7): Physical Health Benefits of Snowshoeing",
+              "pamphlet_summary": "Physical Health Benefits of Snowshoeing: Snowshoeing delivers an aerobic cardiovascular workout that burns substantial calories while exerting minimal impact on hip and knee joints. It provides an accessible, low-cost winter outdoor activity that extends backpacking and wildlife observation seasons through deep snowpack (p. 74).",
               "pamphlet_excerpts": [
-                "The benefits of snowshoeing: The Snow Sports pamphlet for Requirement 7d(7) details the benefits of snowshoeing, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Physical Health Benefits of Snowshoeing: Snowshoeing delivers an aerobic cardiovascular workout that burns substantial calories while exerting minimal impact on hip and knee joints. It provides an accessible, low-cost winter outdoor activity that extends backpacking and wildlife observation seasons through deep snowpack (p. 74)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "How does snowshoeing allow you to maintain aerobic fitness during winter while reducing repetitive impact stress on your joints?"
+              ]
             },
             {
               "sub_id": "7d(8)",
@@ -4874,8 +4995,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "During Snow Sports Requirement 7d(8), Scouts can underestimate how directly mastery of efficient ways to break trail depends on understanding the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope.",
-                "fact": "Scouting America standards for Snow Sports Requirement 7d(8) require complete workbook entries on efficient ways to break trail to demonstrate full understanding of the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope."
+                "misconception": "Descending a steep snowshoe slope requires leaning forward over the toes to keep traction.",
+                "fact": "Safe downhill technique requires keeping body weight centered slightly rearward over flexed knees to engage heel crampons."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4901,14 +5022,17 @@
               "id": "7d(8)",
               "sub_req_label": "7d(8)",
               "sub_req_text": "Demonstrate the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope.",
-              "topic_title": "Req 7d(8): Efficient Ways to Break Trail",
-              "pamphlet_summary": "Efficient Ways to Break Trail: The Snow Sports pamphlet for Requirement 7d(8) details the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(8): Winter Snowshoe Slope Travel Techniques",
+              "pamphlet_summary": "Winter Snowshoe Slope Travel Techniques: Hikers break trail by stepping forward with a slight upward lift and rotate leaders frequently to share exertion across the group. Climbers use toe cleats and heel lifts to step directly up slopes, descend by keeping weight slightly back with knees flexed, and traverse hillsides by stamping the uphill edge firmly into the snowpack (p. 85).",
               "pamphlet_excerpts": [
-                "Efficient Ways to Break Trail: The Snow Sports pamphlet for Requirement 7d(8) details the most efficient ways to break trail, climb uphill, travel downhill, and traverse a slope, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Winter Snowshoe Slope Travel Techniques: Hikers break trail by stepping forward with a slight upward lift and rotate leaders frequently to share exertion across the group. Climbers use toe cleats and heel lifts to step directly up slopes, descend by keeping weight slightly back with knees flexed, and traverse hillsides by stamping the uphill edge firmly into the snowpack (p. 85)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "Why should hikers in a group rotate the lead position regularly when moving through deep fresh powder?"
+              ]
             },
             {
               "sub_id": "7d(9)",
@@ -4947,8 +5071,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "In Snow Sports Requirement 7d(9), many Scouts assume your ability, on a 2-mile snowshoe only requires a general overview rather than specific details on your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions.",
-                "fact": "The official Snow Sports pamphlet for Requirement 7d(9) specifies that Scouts must thoroughly document your ability, on a 2-mile snowshoe and explain your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions during counselor review."
+                "misconception": "Wearing all your heaviest warm layers while hiking two miles keeps you safest from winter cold.",
+                "fact": "Overdressing causes heavy perspiration that saturates clothing and rapidly leads to hypothermia during trail rest stops."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4974,14 +5098,17 @@
               "id": "7d(9)",
               "sub_req_label": "7d(9)",
               "sub_req_text": "Demonstrate your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions. Note: Adaptive snowshoers may complete a 1-mile hike with prior approval from their counselor.",
-              "topic_title": "Req 7d(9): Your ability, on a 2-mile snowshoe",
-              "pamphlet_summary": "Your ability, on a 2-mile snowshoe: The Snow Sports pamphlet for Requirement 7d(9) details your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(9): Extended Winter Trail Endurance Hike",
+              "pamphlet_summary": "Extended Winter Trail Endurance Hike: Completing a continuous trek across varied winter terrain demonstrates steady pacing, route choice, and prompt layer ventilation to prevent sweating and hypothermia. Participants adapt their strides across wind crust, packed tracks, and loose powder while maintaining regular hydration and energy intake (p. 86).",
               "pamphlet_excerpts": [
-                "Your ability, on a 2-mile snowshoe: The Snow Sports pamphlet for Requirement 7d(9) details your ability, on a 2-mile snowshoe hike, to cope with an average variety of snow conditions, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Extended Winter Trail Endurance Hike: Completing a continuous trek across varied winter terrain demonstrates steady pacing, route choice, and prompt layer ventilation to prevent sweating and hypothermia. Participants adapt their strides across wind crust, packed tracks, and loose powder while maintaining regular hydration and energy intake (p. 86)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "How do you adjust your clothing layers before you begin sweating during an extended snowshoe trek?"
+              ]
             },
             {
               "sub_id": "7d(10)",
@@ -5026,8 +5153,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Snow Sports Merit Badge Pamphlet (p. 37, p. 40)",
               "common_misconception_pair": {
-                "misconception": "When preparing Snow Sports Requirement 7d(10) (Topographic Map and Compass), Scouts sometimes overlook the concrete pamphlet benchmarks covering the proper use of a topographic map and compass.",
-                "fact": "Counselor verification for Snow Sports Requirement 7d(10) requires concrete workbook evidence on topographic map and compass, specifically addressing the proper use of a topographic map and compass."
+                "misconception": "GPS smartphone applications make carrying a paper topographic map and magnetic compass unnecessary in winter conditions.",
+                "fact": "Sub-freezing temperatures quickly deplete electronic batteries, leaving a physical map and compass as essential reliable navigation tools."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5053,14 +5180,17 @@
               "id": "7d(10)",
               "sub_req_label": "7d(10)",
               "sub_req_text": "Demonstrate the proper use of a topographic map and compass.",
-              "topic_title": "Req 7d(10): Topographic Map and Compass",
-              "pamphlet_summary": "Topographic Map and Compass: The Snow Sports pamphlet for Requirement 7d(10) details the proper use of a topographic map and compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37).",
+              "topic_title": "Req 7d(10): Winter Topographic Map and Compass",
+              "pamphlet_summary": "Winter Topographic Map and Compass: Navigators orient a topographic map using a magnetic compass adjusted for local declination to identify terrain features when trails are buried in deep snow. Reading contour line spacing reveals slope steepness and potential avalanche terrain, while following field bearings maintains direction during low-visibility winter storms (p. 87).",
               "pamphlet_excerpts": [
-                "Topographic Map and Compass: The Snow Sports pamphlet for Requirement 7d(10) details the proper use of a topographic map and compass, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 37)."
+                "Winter Topographic Map and Compass: Navigators orient a topographic map using a magnetic compass adjusted for local declination to identify terrain features when trails are buried in deep snow. Reading contour line spacing reveals slope steepness and potential avalanche terrain, while following field bearings maintains direction during low-visibility winter storms (p. 87)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/snow_sports_p019_img1.png",
               "workbook_diagram_caption": "A group of hikers travels together on snowshoes along a winter trail.",
-              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail."
+              "workbook_visual_caption": "A group of hikers travels together on snowshoes along a winter trail.",
+              "socratic_questions": [
+                "How can you determine whether a distant snow slope ahead is steep enough to trigger an avalanche just by reading contour lines on your topographic map?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",

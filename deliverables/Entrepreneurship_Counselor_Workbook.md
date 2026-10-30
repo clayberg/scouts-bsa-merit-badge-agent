@@ -64,7 +64,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem solving, decision making, basic math, adaptability, technical** | `____________________________________` | `____________________________________` |
+| **1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Direct Communication Value: Clear verbal negotiations align supplier delivery contracts with customer service satisfaction metrics.
@@ -145,11 +145,11 @@
 - Founders must clearly delineate the features and utility of their offering while establishing quantifiable production goals. Calculating output capacity ensures the business can meet consumer demand without degrading service quality.
 - Req 5a Standard (Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)): Product or Service (1) Describe the product or service to be offered. (2) Identify goals for your business. (3) Explain how you can make enough of the product or perform the service to meet your goals. (4) Identify and describe the potential liability risks for your product or service. (5) Determine what type of license, if any, you might need in order to sell or make your product or service.
 
-#### Req 5a(1): Product or Service to Be Offered
+#### Req 5a(1): Product or Service Offering Description
 **Official Requirement 5a(1):** Describe the product or service to be offered.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5a(1) Structured Technical Study & Explanation Matrix (Product or Service to Be)
-- **Common Myth:** In Entrepreneurship Requirement 5a(1), many Scouts assume product or service to be offered only requires a general overview rather than specific details on the product or service to be offered.
-- **Pamphlet Fact:** The official Entrepreneurship pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document product or service to be offered and explain the product or service to be offered during counselor review.
+- **Common Myth:** A vague conceptual product idea is sufficient for a business plan without defining exact physical features, materials, or service steps.
+- **Pamphlet Fact:** Entrepreneurs must document precise specifications, functional benefits, and deliverable items so customers know exactly what they receive for their money.
 
 ![Three students work together around a table with notebooks and computers to draft a business plan.](/assets/pamphlet_images/entrepreneurship_p053_img1.png)
 
@@ -159,13 +159,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(2): Goals for Your Business
+#### Req 5a(2): Measurable Business Milestone Goals
 **Official Requirement 5a(2):** Identify goals for your business.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5a(2) Structured Technical Study & Explanation Matrix (Goals for Your Business)
-- **Common Myth:** When preparing Entrepreneurship Requirement 5a(2) (Goals for Your Business), Scouts sometimes overlook the concrete pamphlet benchmarks covering goals for your business.
-- **Pamphlet Fact:** Counselor verification for Entrepreneurship Requirement 5a(2) requires concrete workbook evidence on goals for your business, specifically addressing goals for your business.
+- **Common Myth:** Business goals only need to express a general desire to make money rather than specific numerical targets tied to deadlines.
+- **Pamphlet Fact:** Successful business plans define quantifiable targets such as units produced, weekly customers served, and expected dates for reaching profitability.
 
-![Illustrated Entrepreneurship technical diagram of defining entrepreneurship and economic impact for Requirement 1 field execution.](/assets/pamphlet_images/entrepreneurship_p003_img1.png)
+![Entrepreneurship Requirement 1 figure showing entrepreneurs risk capital to transform novel concepts into viable revenue generating.](/assets/pamphlet_images/entrepreneurship_p003_img1.png)
 
 | Req 5a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -173,13 +173,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(3): You can make enough
+#### Req 5a(3): Production Capacity and Operational Workflow
 **Official Requirement 5a(3):** Explain how you can make enough of the product or perform the service to meet your goals.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5a(3) Structured Technical Study & Explanation Matrix (You Can Make Enough)
-- **Common Myth:** For Entrepreneurship Requirement 5a(3), a common mistake in you can make enough is treating how you can make enough of the product or perform the service to meet your goals as optional background reading.
-- **Pamphlet Fact:** Mastering Entrepreneurship Requirement 5a(3) means following the pamphlet standard for you can make enough and recording accurate notes on how you can make enough of the product or perform the service to meet your goals.
+- **Common Myth:** Hard work alone ensures a solo entrepreneur can fulfill unlimited customer orders without calculating hourly throughput or supply constraints.
+- **Pamphlet Fact:** Production schedules must factor in realistic preparation time, raw material transit, physical workspace, and personal school commitments to determine true output limits.
 
-![Step-by-step Entrepreneurship visual guide highlighting essential skills for successful entrepreneurs positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/entrepreneurship_p007_img1.png)
+![Entrepreneurship Requirement 2 figure showing clear verbal negotiations align supplier delivery contracts with customer service.](/assets/pamphlet_images/entrepreneurship_p007_img1.png)
 
 | Req 5a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -187,11 +187,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(4): And describe the potential liability risks
+#### Req 5a(4): Commercial Liability Risk Management
 **Official Requirement 5a(4):** Identify and describe the potential liability risks for your product or service.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5a(4) Structured Technical Study & Explanation Matrix (Potential Liability Risks for Your)
-- **Common Myth:** During Entrepreneurship Requirement 5a(4), Scouts can underestimate how directly mastery of and describe the potential liability risks depends on understanding the potential liability risks for your product or service.
-- **Pamphlet Fact:** Scouting America standards for Entrepreneurship Requirement 5a(4) require complete workbook entries on and describe the potential liability risks to demonstrate full understanding of the potential liability risks for your product or service.
+- **Common Myth:** Small home or neighborhood businesses operated by youth carry zero legal or financial liability if an accident occurs.
+- **Pamphlet Fact:** Any business operation can cause property damage or physical injury, requiring proactive risk assessment and safety protocols to protect both customers and the business owner.
 
 ![Three young entrepreneurs proudly display handcrafted items created for a youth business venture.](/assets/pamphlet_images/entrepreneurship_p010_img1.png)
 
@@ -201,13 +201,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(5): License If Any You
+#### Req 5a(5): Municipal Business Licensing Requirements
 **Official Requirement 5a(5):** Determine what type of license, if any, you might need in order to sell or make your product or service.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5a(5) Structured Technical Study & Explanation Matrix (License If Any You)
-- **Common Myth:** In Entrepreneurship Requirement 5a(5), many Scouts assume license if any you only requires a general overview rather than specific details on what type of license, if any, you might need in order to sell or make your product or service.
-- **Pamphlet Fact:** The official Entrepreneurship pamphlet for Requirement 5a(5) specifies that Scouts must thoroughly document license if any you and explain what type of license, if any, you might need in order to sell or make your product or service during counselor review.
+- **Common Myth:** Youth-run enterprises are automatically exempt from local municipal permits, food handling certifications, and business registration rules.
+- **Pamphlet Fact:** Local zoning boards and public health agencies enforce vendor rules and food safety codes regardless of the owner's age.
 
-![Detailed Entrepreneurship reference illustration comparing key components and stages of interviewing a local business founder for Requirement 3.](/assets/pamphlet_images/entrepreneurship_p012_img1.png)
+![Entrepreneurship Requirement 3 figure showing formulating targeted questions uncovers real operational lessons regarding commercial.](/assets/pamphlet_images/entrepreneurship_p012_img1.png)
 
 | Req 5a(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -241,11 +241,11 @@
 - Accurate financial modeling calculates seed funding requirements, unit production costs, and sustainable pricing models. Projecting break even volume reveals the exact sales quantity needed to cover fixed overhead expenses.
 - Req 5c Standard (Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)): Financial (1) Determine how much money you will need to start your business, and identify how you will obtain the money. (2) Determine the cost of offering your product or service and the price you will charge in order to make a profit. (3) Describe what will happen with the money you make from the sales of your product or service.
 
-#### Req 5c(1): Much Money You
+#### Req 5c(1): Startup Capital Requirement Calculation
 **Official Requirement 5c(1):** Determine how much money you will need to start your business, and identify how you will obtain the money.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5c(1) Structured Technical Study & Explanation Matrix (Much Money You)
-- **Common Myth:** In Entrepreneurship Requirement 5c(1), many Scouts assume much money you only requires a general overview rather than specific details on how much money you will need to start your business, and identify how you will obtain the money.
-- **Pamphlet Fact:** The official Entrepreneurship pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document much money you and explain how much money you will need to start your business, and identify how you will obtain the money during counselor review.
+- **Common Myth:** Entrepreneurs should take on large bank loans or credit card debt before testing customer demand with their own modest resources.
+- **Pamphlet Fact:** The handbook advises beginning with small personal savings or modest family borrowing while proving the business concept on a manageable scale.
 
 ![A young woman holds a notebook and pencil while contemplating strategies for a new business.](/assets/pamphlet_images/entrepreneurship_p017_img2.png)
 
@@ -255,11 +255,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(2): Cost of Offering Your Product
+#### Req 5c(2): Unit Costing and Profit Pricing
 **Official Requirement 5c(2):** Determine the cost of offering your product or service and the price you will charge in order to make a profit.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Skill Demonstration Checklist):** Req 5c(2) Hands-On Skill Station & EDGE Verification Checklist (Cost of Offering Your Product)
-- **Common Myth:** When preparing Entrepreneurship Requirement 5c(2) (Cost of Offering Your Product), Scouts sometimes overlook the concrete pamphlet benchmarks covering the cost of offering your product or service and the price you will charge in order to make a profit.
-- **Pamphlet Fact:** Counselor verification for Entrepreneurship Requirement 5c(2) requires concrete workbook evidence on cost of offering your product, specifically addressing the cost of offering your product or service and the price you will charge in order to make a profit.
+- **Common Myth:** Profit equals the total retail sales price minus the cost of raw materials while treating personal labor as free.
+- **Pamphlet Fact:** True operational cost includes the value of the entrepreneur's labor time alongside expendable supplies and tool depreciation.
 
 ![Two young professionals engage in active conversation to practice vital communication skills.](/assets/pamphlet_images/entrepreneurship_p029_img1.png)
 
@@ -269,11 +269,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5c(3): Will Happen With The Money
+#### Req 5c(3): Revenue Allocation and Reinvestment Strategy
 **Official Requirement 5c(3):** Describe what will happen with the money you make from the sales of your product or service.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5c(3) Structured Technical Study & Explanation Matrix (Will Happen With The Money)
-- **Common Myth:** For Entrepreneurship Requirement 5c(3), a common mistake in will happen with the money is treating what will happen with the money you make from the sales of your product or service as optional background reading.
-- **Pamphlet Fact:** Mastering Entrepreneurship Requirement 5c(3) means following the pamphlet standard for will happen with the money and recording accurate notes on what will happen with the money you make from the sales of your product or service.
+- **Common Myth:** All cash collected from customers can be immediately withdrawn and spent as personal pocket money.
+- **Pamphlet Fact:** Gross revenue must first pay for replacement inventory, operating overhead, and debt repayment before any net earnings can be taken home.
 
 ![A glowing lightbulb held in hand symbolizes generating creative solutions and business ideas.](/assets/pamphlet_images/entrepreneurship_p044_img1.png)
 
@@ -293,11 +293,11 @@
 - Founders assess personal technical capabilities against venture demands to identify operational areas requiring hired assistance. Defining specialized personnel roles ensures consistent execution across sales, production, and bookkeeping duties.
 - Req 5d Standard (Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)): Personnel (1) Determine what parts of the business you will handle yourself, and describe your qualifications. (2) Determine whether you will need additional help to operate your business. If you will need help, describe the responsibilities and qualifications needed for the personnel who will fill each role.
 
-#### Req 5d(1): Business You Will Handle Yourself
+#### Req 5d(1): Owner Responsibilities and Personal Qualifications
 **Official Requirement 5d(1):** Determine what parts of the business you will handle yourself, and describe your qualifications.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5d(1) Structured Technical Study & Explanation Matrix (Business You Will Handle Yourself)
-- **Common Myth:** In Entrepreneurship Requirement 5d(1), many Scouts assume business you will handle yourself only requires a general overview rather than specific details on what parts of the business you will handle yourself, and describe your qualifications.
-- **Pamphlet Fact:** The official Entrepreneurship pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document business you will handle yourself and explain what parts of the business you will handle yourself, and describe your qualifications during counselor review.
+- **Common Myth:** Operating a business requires an advanced business degree rather than practical hands-on skills, reliability, and willingness to learn.
+- **Pamphlet Fact:** Scouts possess relevant qualifications through hobbies, related merit badges, school projects, and volunteer leadership that translate directly into business capabilities.
 
 ![A young entrepreneur reviews financial documents and product samples to formulate a business plan.](/assets/pamphlet_images/entrepreneurship_p056_img1.png)
 
@@ -307,11 +307,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5d(2): Determine whether you will need additional
+#### Req 5d(2): Additional Personnel Roles and Qualifications
 **Official Requirement 5d(2):** Determine whether you will need additional help to operate your business. If you will need help, describe the responsibilities and qualifications needed for the personnel who will fill each role.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5d(2) Structured Technical Study & Explanation Matrix (Whether You Will Need Additional)
-- **Common Myth:** When preparing Entrepreneurship Requirement 5d(2) (Determine whether you will need additional), Scouts sometimes overlook the concrete pamphlet benchmarks covering whether you will need additional help to operate your business.
-- **Pamphlet Fact:** Counselor verification for Entrepreneurship Requirement 5d(2) requires concrete workbook evidence on determine whether you will need additional, specifically addressing whether you will need additional help to operate your business.
+- **Common Myth:** Hiring friends or family members requires no formal job descriptions or clear performance expectations.
+- **Pamphlet Fact:** Defining exact tasks, required capabilities, and clear working hours prevents interpersonal conflict and ensures helper reliability.
 
 ![Two boys collaborate over handwritten notes and papers to brainstorm viable business ideas.](/assets/pamphlet_images/entrepreneurship_p057_img1.png)
 
@@ -332,11 +332,11 @@
 - Promotional campaigns combine local community outreach with targeted online messaging to build customer awareness. Maintaining active social channels and digital storefronts expands market reach beyond immediate physical neighborhoods.
 - Req 5e Standard (Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)): Promotion and Marketing (1) Describe the methods you will use to promote your business to potential customers. (2) Explain how you will utilize the internet and social media to increase awareness of your product or service. (3) Design a promotional flyer or poster for your product or service.
 
-#### Req 5e(1): Methods you will use to promote
+#### Req 5e(1): Local Customer Promotional Marketing Methods
 **Official Requirement 5e(1):** Describe the methods you will use to promote your business to potential customers.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5e(1) Structured Technical Study & Explanation Matrix (You Will Use to Promote)
-- **Common Myth:** In Entrepreneurship Requirement 5e(1), many Scouts assume methods you will use to promote only requires a general overview rather than specific details on the methods you will use to promote your business to potential customers.
-- **Pamphlet Fact:** The official Entrepreneurship pamphlet for Requirement 5e(1) specifies that Scouts must thoroughly document methods you will use to promote and explain the methods you will use to promote your business to potential customers during counselor review.
+- **Common Myth:** A high-quality product or service will naturally attract customers without active promotional advertising.
+- **Pamphlet Fact:** Even outstanding businesses fail unless founders actively inform prospective buyers through deliberate promotional campaigns and community outreach.
 
 ![A youth grooms a dog on a porch to operate a neighborhood pet care service business.](/assets/pamphlet_images/entrepreneurship_p060_img1.png)
 
@@ -346,11 +346,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5e(2): You Will Utilize The Internet
+#### Req 5e(2): Digital Outreach and Online Promotion
 **Official Requirement 5e(2):** Explain how you will utilize the internet and social media to increase awareness of your product or service.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5e(2) Structured Technical Study & Explanation Matrix (You Will Utilize The Internet)
-- **Common Myth:** When preparing Entrepreneurship Requirement 5e(2) (You Will Utilize The Internet), Scouts sometimes overlook the concrete pamphlet benchmarks covering how you will utilize the internet and social media to increase awareness of your product or service.
-- **Pamphlet Fact:** Counselor verification for Entrepreneurship Requirement 5e(2) requires concrete workbook evidence on you will utilize the internet, specifically addressing how you will utilize the internet and social media to increase awareness of your product or service.
+- **Common Myth:** Posting a business advertisement on personal social media guarantees instant viral sales without targeted community engagement or adult guidance.
+- **Pamphlet Fact:** Online business promotion requires consistent posting of professional content, active parent or guardian supervision, and strict adherence to digital safety guidelines.
 
 ![A customer examines packaged food jars in a store aisle to evaluate competing retail products.](/assets/pamphlet_images/entrepreneurship_p063_img1.png)
 
@@ -360,11 +360,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5e(3): Promotional Flyer or Poster
+#### Req 5e(3): Promotional Flyer and Poster Design
 **Official Requirement 5e(3):** Design a promotional flyer or poster for your product or service.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Organizer (Concept & Examples Notes):** Req 5e(3) Structured Technical Study & Explanation Matrix (Promotional Flyer or Poster)
-- **Common Myth:** For Entrepreneurship Requirement 5e(3), a common mistake in promotional flyer or poster is treating design a promotional flyer or poster for your product or service as optional background reading.
-- **Pamphlet Fact:** Mastering Entrepreneurship Requirement 5e(3) means following the pamphlet standard for promotional flyer or poster and recording accurate notes on design a promotional flyer or poster for your product or service.
+- **Common Myth:** Filling every inch of page space with detailed text and feature lists produces the most persuasive promotional flyer.
+- **Pamphlet Fact:** High-impact flyers rely on generous white space, a clear visual hierarchy, and a single core benefit so readers can quickly understand the offer and take action.
 
 ![Scouts converse with an experienced business professional to understand entrepreneurial careers.](/assets/pamphlet_images/entrepreneurship_p088_img1.png)
 

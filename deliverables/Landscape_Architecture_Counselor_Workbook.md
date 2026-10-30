@@ -69,7 +69,7 @@
 - **Common Myth:** People often believe open parks should consist entirely of unrestricted, uniform turfgrass without internal divisions.
 - **Pamphlet Fact:** Distinct outdoor rooms separated by grade transitions or low plantings create varied microclimates and functional zones.
 
-![Step-by-step Landscape Architecture visual guide highlighting analyzing site function and plantings positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/landscape_architecture_p007_img1.png)
+![Landscape Architecture Requirement 2 figure showing outdoor rooms rely on changes in grade, planting beds, or distinct overhead canopies.](/assets/pamphlet_images/landscape_architecture_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -83,7 +83,7 @@
 - **Common Myth:** Scouts sometimes expect parking lots to be hidden far away without direct visual connection to entryways.
 - **Pamphlet Fact:** Proper parking integration incorporates vegetated bioswales, perimeter buffers, and clearly marked, direct pedestrian paths toward main entrances.
 
-![Illustrated Landscape Architecture technical diagram of visiting a completed landscape project for Requirement 1 field execution.](/assets/pamphlet_images/landscape_architecture_p003_img1.png)
+![Landscape Architecture Requirement 1 figure showing contact the designer or municipal archive early to secure blueprint copies before touring.](/assets/pamphlet_images/landscape_architecture_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - **Common Myth:** Beginners often think dense perimeter shrubs improve park security by completely enclosing the perimeter.
 - **Pamphlet Fact:** Dense shrubbery blocks visibility, whereas maintaining open sightlines between two and seven feet prevents ambush zones.
 
-![Detailed Landscape Architecture reference illustration comparing key components and stages of local plant selection and maintenance for Requirement 3.](/assets/pamphlet_images/landscape_architecture_p012_img1.png)
+![Landscape Architecture Requirement 3 figure showing check local USDA temperature ratings to confirm perennial winter survival for selections.](/assets/pamphlet_images/landscape_architecture_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

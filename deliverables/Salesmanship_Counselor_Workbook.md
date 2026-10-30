@@ -51,7 +51,7 @@
 - **Common Myth:** A salesperson only takes money at a cash register without adding real economic value.
 - **Pamphlet Fact:** Sales professionals stimulate industrial production by generating the continuous revenue streams that sustain business operations.
 
-![Practical Salesmanship field visual showing proper setup, measurement, and technique for salesperson roles and market types in Requirement 1.](/assets/pamphlet_images/salesmanship_p003_img1.png)
+![Salesmanship Requirement 1 figure showing professional sales transactions move finished manufactured goods to commercial end.](/assets/pamphlet_images/salesmanship_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 - **Common Myth:** Market research only matters for multi-national conglomerates launching global marketing campaigns.
 - **Pamphlet Fact:** Local businesses rely on market research to adjust inventories to neighborhood consumer demand and pricing expectations.
 
-![Illustrated Salesmanship technical diagram of market research and product knowledge for Requirement 2 field execution.](/assets/pamphlet_images/salesmanship_p007_img1.png)
+![Salesmanship Requirement 2 figure showing researching buyer demographics reveals distinct consumer spending habits across local.](/assets/pamphlet_images/salesmanship_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -154,7 +154,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Write and present a sales plan for a product and a sales territory assigned by your counselor.** | `____________________________________` | `____________________________________` |
+| **1. Write and present a sales plan for a product and a sales territory assigned by your counselor** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Territory Boundary Definition: Geographic sector boundaries establish clear sales call limits for designated company representatives.
@@ -175,7 +175,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Make a sales presentation of a product assigned by your counselor.** | `____________________________________` | `____________________________________` |
+| **1. Make a sales presentation of a product assigned by your counselor** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Opening statements should highlight common customer operational challenges rather than direct pitching.
@@ -286,11 +286,11 @@
 - Interviewing a retail proprietor highlights how store owners evaluate visiting wholesale vendor representatives seeking shelf space. The discussion illuminates what packaging, pricing margins, and vendor support services make products commercially viable.
 - Req 6b Standard (Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)): Interview a retail store owner and learn the following: (1) How often is the owner approached by a sales representative? (2) What good traits should a sales representative have? What habits should the sales representative avoid? (3) What does the owner consider when deciding whether to establish an account with a sales representative? (4) Include at least two of your own questions.
 
-#### Req 6b(1): Often Is The Owner Approached
+#### Req 6b(1): Frequency of Vendor Sales Pitches
 **Official Requirement 6b(1):** How often is the owner approached by a sales representative.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(1) Structured Technical Study & Explanation Matrix (Often Is The Owner Approached)
-- **Common Myth:** In Salesmanship Requirement 6b(1), many Scouts assume often is the owner approached only requires a general overview rather than specific details on how often is the owner approached by a sales representative.
-- **Pamphlet Fact:** The official Salesmanship pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document often is the owner approached and explain how often is the owner approached by a sales representative during counselor review.
+- **Common Myth:** Store owners only interact with sales representatives after submitting a formal request for new inventory.
+- **Pamphlet Fact:** Retail merchants encounter continuous weekly sales solicitations from competitive suppliers trying to secure limited shelf space.
 
 ![Scouts deliver lawn care products directly to neighborhood customers to complete sales orders.](/assets/pamphlet_images/salesmanship_p032_img1.png)
 
@@ -300,11 +300,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(2): What good traits should a sales
+#### Req 6b(2): Professional Sales Traits and Habits
 **Official Requirement 6b(2):** What good traits should a sales representative have? What habits should the sales representative avoid.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(2) Structured Technical Study & Explanation Matrix (Traits Should A Sales Representative)
-- **Common Myth:** When preparing Salesmanship Requirement 6b(2) (What good traits should a sales), Scouts sometimes overlook the concrete pamphlet benchmarks covering what good traits should a sales representative.
-- **Pamphlet Fact:** Counselor verification for Salesmanship Requirement 6b(2) requires concrete workbook evidence on what good traits should a sales, specifically addressing what good traits should a sales representative.
+- **Common Myth:** High-pressure tactics and stubborn persistence are traits that retail buyers respect in vendor representatives.
+- **Pamphlet Fact:** Retail managers prefer representatives who show dependability, honesty, and respect for store operating hours rather than aggressive sales tactics.
 
 ![A young entrepreneur walks a dog on a leash to manage a self-started neighborhood pet care service.](/assets/pamphlet_images/salesmanship_p033_img1.png)
 
@@ -315,11 +315,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(3): What does the owner consider
+#### Req 6b(3): Retail Vendor Account Evaluation Criteria
 **Official Requirement 6b(3):** What does the owner consider when deciding whether to establish an account with a sales representative.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Does The Owner Consider When)
-- **Common Myth:** For Salesmanship Requirement 6b(3), a common mistake in what does the owner consider is treating what does the owner consider when deciding whether to establish an account with a sales representative as optional background reading.
-- **Pamphlet Fact:** Mastering Salesmanship Requirement 6b(3) means following the pamphlet standard for what does the owner consider and recording accurate notes on what does the owner consider when deciding whether to establish an account with a sales representative.
+- **Common Myth:** Merchants open accounts with sales representatives solely because the representative is friendly and likeable.
+- **Pamphlet Fact:** Store owners decide to establish accounts based on profit margins, reliable shipping timelines, return allowances for damaged goods, and proven customer demand.
 
 ![A Scout greets homeowners at the doorway to explain product benefits and take fundraising orders.](/assets/pamphlet_images/salesmanship_p041_img1.png)
 
@@ -329,11 +329,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(4): Include Questions
+#### Req 6b(4): Custom Retailer Management Interview Questions
 **Official Requirement 6b(4):** Include at least two of your own questions.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Organizer (Concept & Examples Notes):** Req 6b(4) Structured Technical Study & Explanation Matrix (Include Questions)
-- **Common Myth:** During Salesmanship Requirement 6b(4), Scouts can underestimate how directly mastery of include questions depends on understanding include at least two of your own questions.
-- **Pamphlet Fact:** Scouting America standards for Salesmanship Requirement 6b(4) require complete workbook entries on include questions to demonstrate full understanding of include at least two of your own questions.
+- **Common Myth:** Asking store owners two basic questions about item prices fulfills the requirement to explore retail management.
+- **Pamphlet Fact:** Scouts must design thoughtful inquiries investigating inventory shrinkage, supplier disputes, pricing markups, or community buying trends.
 
 ![A printed resume outlines a candidate's qualifications and work experience for sales positions.](/assets/pamphlet_images/salesmanship_p044_img1.png)
 

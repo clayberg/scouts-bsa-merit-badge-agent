@@ -790,19 +790,19 @@
         "question": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
         "options": [
           "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
-          "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+          "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone).",
           "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
           "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards."
         ],
         "choices": [
           "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
-          "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+          "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone).",
           "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
           "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+        "correct_answer": "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone).",
         "explanation": "Correct Answer (B): Under the First Aid Merit Badge Pamphlet emergency action sequence (Check-Call-Care), rescuers must first verify scene safety so they do not become a second victim, apply Universal Precautions (BSI barriers), summon EMS immediately, and treat life-threatening conditions (airway, breathing, severe bleeding) before minor injuries.",
         "pamphlet_page_ref": "p. 19, p. 21"
       },
@@ -950,8 +950,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)",
               "common_misconception_pair": {
-                "misconception": "In First Aid Requirement 2b(1), many Scouts assume personal hiking first-aid kit assembly only requires a general overview rather than specific details on assemble a personal first-aid kit for hiking and backpacking.",
-                "fact": "The official First Aid pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document personal hiking first-aid kit assembly and explain assemble a personal first-aid kit for hiking and backpacking during counselor review."
+                "misconception": "A personal trail first aid kit should include loose pain medications to distribute to patrol members who develop headaches or muscle cramps.",
+                "fact": "Scouting safety rules prohibit Scouts from dispensing medication to peers and require personal kits to hold only approved personal remedies in labeled containers."
               },
               "starting_requirement_gate": {
                 "gate_type": "EQUIPMENT_GATE",
@@ -982,15 +982,18 @@
               "id": "2b(1)",
               "sub_req_label": "2b(1)",
               "sub_req_text": "Assemble a personal first-aid kit for hiking and backpacking. Demonstrate the proper use of each item in your first-aid kit to your counselor.",
-              "topic_title": "Req 2b(1): Personal Hiking First-Aid Kit Assembly",
-              "pamphlet_summary": "Personal Hiking First-Aid Kit Assembly: The First Aid pamphlet for Requirement 2b(1) details assemble a personal first-aid kit for hiking and backpacking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 93).",
+              "topic_title": "Req 2b(1): Personal Hiking First Aid Kit",
+              "pamphlet_summary": "Personal Hiking First Aid Kit: A personal trail kit must stay lightweight and waterproof while containing essentials such as adhesive bandages, sterile gauze, moleskin, antiseptic wipes, and disposable gloves. Scouts must explain when and how to apply each component to treat minor wilderness injuries safely (p. 20).",
               "pamphlet_excerpts": [
-                "Personal Hiking First-Aid Kit Assembly: The First Aid pamphlet for Requirement 2b(1) details assemble a personal first-aid kit for hiking and backpacking, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 93)."
+                "Personal Hiking First Aid Kit: A personal trail kit must stay lightweight and waterproof while containing essentials such as adhesive bandages, sterile gauze, moleskin, antiseptic wipes, and disposable gloves. Scouts must explain when and how to apply each component to treat minor wilderness injuries safely (p. 20)."
               ],
               "workbook_diagram_url": "assets/ai_illustrations/first_aid_kit_21_items_visual.png",
-              "title": "Req 2b(1): Personal Hiking First-Aid Kit Assembly",
+              "title": "Req 2b(1): Personal Hiking First Aid Kit",
               "workbook_diagram_caption": "An open red pouch is surrounded by essential supplies including sterile gauze, shears, antiseptic wipes, and bandages.",
-              "workbook_visual_caption": "An open red pouch is surrounded by essential supplies including sterile gauze, shears, antiseptic wipes, and bandages."
+              "workbook_visual_caption": "An open red pouch is surrounded by essential supplies including sterile gauze, shears, antiseptic wipes, and bandages.",
+              "socratic_questions": [
+                "If you find yourself miles from the trailhead in a sudden downpour, how does the packaging and organization of your personal kit protect its supplies and help you find what you need quickly?"
+              ]
             },
             {
               "sub_id": "2b(2)",
@@ -1022,8 +1025,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)",
               "common_misconception_pair": {
-                "misconception": "When preparing First Aid Requirement 2b(2) (Unit, Home, and Camp First-Aid Kit Inspection), Scouts sometimes overlook the concrete pamphlet benchmarks covering with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.",
-                "fact": "Counselor verification for First Aid Requirement 2b(2) requires concrete workbook evidence on unit, home, and camp first-aid kit inspection, specifically addressing with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings."
+                "misconception": "A fully stocked first aid kit remains ready for emergencies indefinitely as long as the exterior case stays closed and dry.",
+                "fact": "Adhesives dry out, latex-free gloves degrade over time, and antiseptic solutions or ointments expire and lose effectiveness regardless of whether the box was opened."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1049,15 +1052,18 @@
               "id": "2b(2)",
               "sub_req_label": "2b(2)",
               "sub_req_text": "With your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings.",
-              "topic_title": "Req 2b(2): Unit, Home, and Camp First-Aid Kit Inspection",
-              "pamphlet_summary": "Unit, Home, and Camp First-Aid Kit Inspection: The First Aid pamphlet for Requirement 2b(2) details with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 93).",
+              "topic_title": "Req 2b(2): Group First Aid Kit Inspection",
+              "pamphlet_summary": "Group First Aid Kit Inspection: Inspecting a group or vehicle kit requires checking for sterile seal integrity, supply quantities, missing essentials, and expired medications or sterile items. Scouts review findings with their counselor to restock depleted supplies and ensure the kit matches expected group size and travel environments (p. 24).",
               "pamphlet_excerpts": [
-                "Unit, Home, and Camp First-Aid Kit Inspection: The First Aid pamphlet for Requirement 2b(2) details with your counselor, inspect a unit, home, vehicle, or camp first-aid kit and discuss your findings, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 93)."
+                "Group First Aid Kit Inspection: Inspecting a group or vehicle kit requires checking for sterile seal integrity, supply quantities, missing essentials, and expired medications or sterile items. Scouts review findings with their counselor to restock depleted supplies and ensure the kit matches expected group size and travel environments (p. 24)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p001_img6.png",
-              "title": "Req 2b(2): Unit, Home, and Camp First-Aid Kit Inspection",
+              "title": "Req 2b(2): Group First Aid Kit Inspection",
               "workbook_diagram_caption": "Personal first-aid kit pouch stocked with nitrile exam gloves, sterile gauze, adhesive bandages, and trauma shears.",
-              "workbook_visual_caption": "Personal first-aid kit pouch stocked with nitrile exam gloves, sterile gauze, adhesive bandages, and trauma shears."
+              "workbook_visual_caption": "Personal first-aid kit pouch stocked with nitrile exam gloves, sterile gauze, adhesive bandages, and trauma shears.",
+              "socratic_questions": [
+                "What subtle signs of age or wear would tell you an unopened item in an older camp first aid kit is no longer safe to use?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -5893,8 +5899,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "In First Aid Requirement 8d(1), many Scouts assume arm slings for forearm, upper arm, and collarbone only requires a general overview rather than specific details on arm slings for forearm or upper arm or collarbone fractures.",
-                "fact": "The official First Aid pamphlet for Requirement 8d(1) specifies that Scouts must thoroughly document arm slings for forearm, upper arm, and collarbone and explain arm slings for forearm or upper arm or collarbone fractures during counselor review."
+                "misconception": "Tying a sling around the neck provides sufficient immobilization for a fractured collarbone without binding the arm to the torso.",
+                "fact": "A collarbone or upper arm fracture requires a swathe tied around the chest to hold the arm firmly against the body and prevent painful bone movement."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5920,15 +5926,18 @@
               "id": "8d(1)",
               "sub_req_label": "8d(1)",
               "sub_req_text": "Arm slings for forearm or upper arm or collarbone fractures.",
-              "topic_title": "Req 8d(1): Arm Slings for Forearm, Upper Arm, and Collarbone",
-              "pamphlet_summary": "Arm Slings for Forearm, Upper Arm, and Collarbone: The First Aid pamphlet for Requirement 8d(1) details arm slings for forearm or upper arm or collarbone fractures, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8d(1): Arm Sling and Swathe Application",
+              "pamphlet_summary": "Arm Sling and Swathe Application: An arm sling uses an open triangular bandage to support the forearm with the fingertips elevated slightly above the elbow and the apex secured snugly at the elbow. A wide cravat swathe must be tied around the chest and injured arm to prevent movement of upper arm or collarbone fractures (p. 59).",
               "pamphlet_excerpts": [
-                "Arm Slings for Forearm, Upper Arm, and Collarbone: The First Aid pamphlet for Requirement 8d(1) details arm slings for forearm or upper arm or collarbone fractures, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Arm Sling and Swathe Application: An arm sling uses an open triangular bandage to support the forearm with the fingertips elevated slightly above the elbow and the apex secured snugly at the elbow. A wide cravat swathe must be tied around the chest and injured arm to prevent movement of upper arm or collarbone fractures (p. 59)."
               ],
               "workbook_diagram_url": "assets/ai_illustrations/first_aid_splinting_carries_visual.png",
-              "title": "Req 8d(1): Arm Slings for Forearm, Upper Arm, and Collarbone",
+              "title": "Req 8d(1): Arm Sling and Swathe Application",
               "workbook_diagram_caption": "Detailed sketches show wrapping a rigid padded splint around an injured arm and executing an assisted two-person carry.",
-              "workbook_visual_caption": "Detailed sketches show wrapping a rigid padded splint around an injured arm and executing an assisted two-person carry."
+              "workbook_visual_caption": "Detailed sketches show wrapping a rigid padded splint around an injured arm and executing an assisted two-person carry.",
+              "socratic_questions": [
+                "Why is it essential to position the hand slightly higher than the elbow before tying off the sling at the neck?"
+              ]
             },
             {
               "sub_id": "8d(2)",
@@ -5965,8 +5974,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "When preparing First Aid Requirement 8d(2) (Elastic Wrap and Cravat Bandages for Ankle Sprains), Scouts sometimes overlook the concrete pamphlet benchmarks covering elastic wrap and cravat bandages for ankle sprain.",
-                "fact": "Counselor verification for First Aid Requirement 8d(2) requires concrete workbook evidence on elastic wrap and cravat bandages for ankle sprains, specifically addressing elastic wrap and cravat bandages for ankle sprain."
+                "misconception": "Wrapping an elastic bandage as tightly as possible around an injured ankle speeds recovery by locking the joint completely in place.",
+                "fact": "Overly tight compression wraps restrict blood circulation and can cause nerve damage, so wraps must provide firm, comfortable support while leaving toes warm with normal color."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5992,15 +6001,18 @@
               "id": "8d(2)",
               "sub_req_label": "8d(2)",
               "sub_req_text": "Elastic wrap and cravat bandages for ankle sprain.",
-              "topic_title": "Req 8d(2): Elastic Wrap and Cravat Bandages for Ankle Sprains",
-              "pamphlet_summary": "Elastic Wrap and Cravat Bandages for Ankle Sprains: The First Aid pamphlet for Requirement 8d(2) details elastic wrap and cravat bandages for ankle sprain, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8d(2): Ankle Sprain Compression Bandaging",
+              "pamphlet_summary": "Ankle Sprain Compression Bandaging: A sprained ankle benefits from a figure-eight elastic wrap applied from the base of the toes upward past the ankle joint to minimize swelling while preserving circulation. A folded triangular cravat can be wrapped securely around the outside of a hiking boot to provide backcountry walking support during an evacuation (p. 62).",
               "pamphlet_excerpts": [
-                "Elastic Wrap and Cravat Bandages for Ankle Sprains: The First Aid pamphlet for Requirement 8d(2) details elastic wrap and cravat bandages for ankle sprain, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Ankle Sprain Compression Bandaging: A sprained ankle benefits from a figure-eight elastic wrap applied from the base of the toes upward past the ankle joint to minimize swelling while preserving circulation. A folded triangular cravat can be wrapped securely around the outside of a hiking boot to provide backcountry walking support during an evacuation (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
-              "title": "Req 8d(2): Elastic Wrap and Cravat Bandages for Ankle Sprains",
+              "title": "Req 8d(2): Ankle Sprain Compression Bandaging",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "How can you test whether an elastic compression wrap on an ankle is too tight without unwrapping the entire bandage?"
+              ]
             },
             {
               "sub_id": "8d(3)",
@@ -6037,8 +6049,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "For First Aid Requirement 8d(3), a common mistake in elastic wrap and cravat bandages for wrist injuries is treating elastic wrap and cravat bandages for wrist sprain or hand injury as optional background reading.",
-                "fact": "Mastering First Aid Requirement 8d(3) means following the pamphlet standard for elastic wrap and cravat bandages for wrist injuries and recording accurate notes on elastic wrap and cravat bandages for wrist sprain or hand injury."
+                "misconception": "Enclosing the entire hand and all fingertips inside the bandage protects the injured joint from exposure and reinjury.",
+                "fact": "Leaving the fingertips exposed allows the first aider to check warmth, sensation, and capillary refill to ensure the bandage does not cut off circulation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6064,15 +6076,18 @@
               "id": "8d(3)",
               "sub_req_label": "8d(3)",
               "sub_req_text": "Elastic wrap and cravat bandages for wrist sprain or hand injury.",
-              "topic_title": "Req 8d(3): Elastic Wrap and Cravat Bandages for Wrist Injuries",
-              "pamphlet_summary": "Elastic Wrap and Cravat Bandages for Wrist Injuries: The First Aid pamphlet for Requirement 8d(3) details elastic wrap and cravat bandages for wrist sprain or hand injury, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8d(3): Wrist Sprain Compression Wrap Application",
+              "pamphlet_summary": "Wrist Sprain Compression Wrap Application: Bandaging an injured hand or sprained wrist involves anchoring an elastic or cravat wrap around the palm and weaving figure-eight turns across the wrist and lower forearm. The fingertips must remain exposed so the rescuer can continuously observe circulation and skin color (p. 61).",
               "pamphlet_excerpts": [
-                "Elastic Wrap and Cravat Bandages for Wrist Injuries: The First Aid pamphlet for Requirement 8d(3) details elastic wrap and cravat bandages for wrist sprain or hand injury, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Wrist Sprain Compression Wrap Application: Bandaging an injured hand or sprained wrist involves anchoring an elastic or cravat wrap around the palm and weaving figure-eight turns across the wrist and lower forearm. The fingertips must remain exposed so the rescuer can continuously observe circulation and skin color (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
-              "title": "Req 8d(3): Elastic Wrap and Cravat Bandages for Wrist Injuries",
+              "title": "Req 8d(3): Wrist Sprain Compression Wrap Application",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "What changes in the fingers would alert you that a wrist bandage was wrapped with too much tension?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -6183,8 +6198,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "In First Aid Requirement 8e(1), many Scouts assume finger and toe splinting only requires a general overview rather than specific details on finger and toe.",
-                "fact": "The official First Aid pamphlet for Requirement 8e(1) specifies that Scouts must thoroughly document finger and toe splinting and explain finger and toe during counselor review."
+                "misconception": "Taping an injured finger directly against an adjacent finger without padding provides the sturdiest anatomical support.",
+                "fact": "Placing soft gauze between taped fingers prevents skin maceration, blistering, and tissue breakdown caused by trapped perspiration."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6210,15 +6225,18 @@
               "id": "8e(1)",
               "sub_req_label": "8e(1)",
               "sub_req_text": "Finger and toe.",
-              "topic_title": "Req 8e(1): Finger and Toe Splinting",
-              "pamphlet_summary": "Finger and Toe Splinting: The First Aid pamphlet for Requirement 8e(1) details finger and toe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8e(1): Finger and Toe Splinting Techniques",
+              "pamphlet_summary": "Finger and Toe Splinting Techniques: An injured finger or toe can be immobilized by buddy taping it to an adjacent uninjured digit with small gauze padding placed between them to absorb moisture and prevent friction. Alternatively, a padded rigid splint like a tongue depressor or curved aluminum strip can support a broken finger along its length (p. 65).",
               "pamphlet_excerpts": [
-                "Finger and Toe Splinting: The First Aid pamphlet for Requirement 8e(1) details finger and toe, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Finger and Toe Splinting Techniques: An injured finger or toe can be immobilized by buddy taping it to an adjacent uninjured digit with small gauze padding placed between them to absorb moisture and prevent friction. Alternatively, a padded rigid splint like a tongue depressor or curved aluminum strip can support a broken finger along its length (p. 65)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
-              "title": "Req 8e(1): Finger and Toe Splinting",
+              "title": "Req 8e(1): Finger and Toe Splinting Techniques",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "Why is putting a small strip of gauze between two buddy-taped digits necessary for patient comfort and skin safety?"
+              ]
             },
             {
               "sub_id": "8e(2)",
@@ -6255,8 +6273,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "When preparing First Aid Requirement 8e(2) (Forearm and Wrist Splinting), Scouts sometimes overlook the concrete pamphlet benchmarks covering forearm or wrist.",
-                "fact": "Counselor verification for First Aid Requirement 8e(2) requires concrete workbook evidence on forearm and wrist splinting, specifically addressing forearm or wrist."
+                "misconception": "Straightening an injured wrist or forcing a deformed forearm flat against a board splint is required before securing the bandages.",
+                "fact": "First aiders must splint an injured arm in the position found and avoid forcing deformed bones into alignment, which risks severing blood vessels and nerves."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6282,15 +6300,18 @@
               "id": "8e(2)",
               "sub_req_label": "8e(2)",
               "sub_req_text": "Forearm or wrist.",
-              "topic_title": "Req 8e(2): Forearm and Wrist Splinting",
-              "pamphlet_summary": "Forearm and Wrist Splinting: The First Aid pamphlet for Requirement 8e(2) details forearm or wrist, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8e(2): Forearm and Wrist Fracture Splinting",
+              "pamphlet_summary": "Forearm and Wrist Fracture Splinting: Splinting a forearm or wrist requires placing padded rigid supports on both sides of the arm extending from the elbow to the fingers while placing a soft cloth roll in the palm. Once secured with roller bandages or cravats, the arm is elevated in a sling and bound to the body with a swathe (p. 66).",
               "pamphlet_excerpts": [
-                "Forearm and Wrist Splinting: The First Aid pamphlet for Requirement 8e(2) details forearm or wrist, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Forearm and Wrist Fracture Splinting: Splinting a forearm or wrist requires placing padded rigid supports on both sides of the arm extending from the elbow to the fingers while placing a soft cloth roll in the palm. Once secured with roller bandages or cravats, the arm is elevated in a sling and bound to the body with a swathe (p. 66)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
-              "title": "Req 8e(2): Forearm and Wrist Splinting",
+              "title": "Req 8e(2): Forearm and Wrist Fracture Splinting",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "Why should you place a soft roll of gauze in the victim's palm before securing a rigid forearm splint?"
+              ]
             },
             {
               "sub_id": "8e(3)",
@@ -6327,8 +6348,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "For First Aid Requirement 8e(3), a common mistake in upper leg (femur) splinting is treating upper leg (femur) splinting as optional background reading.",
-                "fact": "Mastering First Aid Requirement 8e(3) means following the pamphlet standard for upper leg (femur) splinting and recording accurate notes on upper leg (femur) splinting."
+                "misconception": "A backcountry first aider should attempt manual traction to pull a suspected broken femur back into normal anatomical position.",
+                "fact": "Attempting manual traction without advanced medical training and specialized traction splints can cause severe muscle tearing and catastrophic femoral artery hemorrhaging."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6354,15 +6375,18 @@
               "id": "8e(3)",
               "sub_req_label": "8e(3)",
               "sub_req_text": "Upper leg.",
-              "topic_title": "Req 8e(3): Upper Leg (Femur) Splinting",
-              "pamphlet_summary": "Upper Leg (Femur) Splinting: The First Aid pamphlet for Requirement 8e(3) details core principles and practical standards for upper leg (femur) splinting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "topic_title": "Req 8e(3): Upper Leg Femur Fracture Splinting",
+              "pamphlet_summary": "Upper Leg Femur Fracture Splinting: A fractured femur is a critical medical emergency that demands calling professional medical rescuers immediately due to severe internal bleeding risks and powerful muscle contractions. In wilderness settings where rescue is delayed, first aiders can stabilize the injury by padding between the legs and securing the broken limb to the uninjured leg with broad cravats (p. 68).",
               "pamphlet_excerpts": [
-                "Upper Leg (Femur) Splinting: The First Aid pamphlet for Requirement 8e(3) details core principles and practical standards for upper leg (femur) splinting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Upper Leg Femur Fracture Splinting: A fractured femur is a critical medical emergency that demands calling professional medical rescuers immediately due to severe internal bleeding risks and powerful muscle contractions. In wilderness settings where rescue is delayed, first aiders can stabilize the injury by padding between the legs and securing the broken limb to the uninjured leg with broad cravats (p. 68)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
-              "title": "Req 8e(3): Upper Leg (Femur) Splinting",
+              "title": "Req 8e(3): Upper Leg Femur Fracture Splinting",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "What makes a fractured upper leg significantly more life-threatening than a fracture of the lower leg or forearm?"
+              ]
             },
             {
               "sub_id": "8e(4)",
@@ -6399,8 +6423,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)",
               "common_misconception_pair": {
-                "misconception": "During First Aid Requirement 8e(4), Scouts can underestimate how directly mastery of lower leg and ankle splinting depends on understanding lower leg or ankle.",
-                "fact": "Scouting America standards for First Aid Requirement 8e(4) require complete workbook entries on lower leg and ankle splinting to demonstrate full understanding of lower leg or ankle."
+                "misconception": "Tying cravat knots directly over the fracture site provides maximum compression to stabilize broken lower leg bones.",
+                "fact": "All splint ties and knots must be placed above and below the break, never pressing directly on the fracture point or protruding bone fragments."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6427,14 +6451,17 @@
               "sub_req_label": "8e(4)",
               "sub_req_text": "Lower leg or ankle.",
               "topic_title": "Req 8e(4): Lower Leg and Ankle Splinting",
-              "pamphlet_summary": "Lower Leg and Ankle Splinting: The First Aid pamphlet for Requirement 8e(4) details lower leg or ankle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45).",
+              "pamphlet_summary": "Lower Leg and Ankle Splinting: Immobilizing a lower leg or ankle fracture requires rigid boards extending from above the knee to past the heel or a soft splint such as a pillow or folded blanket wrapped around the lower extremity. The splint is secured with cravats tied above and below the fracture site while keeping the foot supported in a comfortable right-angle position (p. 70).",
               "pamphlet_excerpts": [
-                "Lower Leg and Ankle Splinting: The First Aid pamphlet for Requirement 8e(4) details lower leg or ankle, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 45)."
+                "Lower Leg and Ankle Splinting: Immobilizing a lower leg or ankle fracture requires rigid boards extending from above the knee to past the heel or a soft splint such as a pillow or folded blanket wrapped around the lower extremity. The splint is secured with cravats tied above and below the fracture site while keeping the foot supported in a comfortable right-angle position (p. 70)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/first_aid_p037_img1.png",
               "title": "Req 8e(4): Lower Leg and Ankle Splinting",
               "workbook_diagram_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
-              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint."
+              "workbook_visual_caption": "Folded triangular cravat bandage ready for tying an arm sling or securing a rigid splint.",
+              "socratic_questions": [
+                "How does checking the temperature and color of a patient's toes before and after splinting a lower leg protect them from permanent injury?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -10315,13 +10342,13 @@
       "question": "During a woodland trail hike, your patrol discovers an adult hiker lying at the base of a wet rock ledge with bright red blood spurting from a lower-leg wound and a downed power line 25 feet uphill. What is your patrol's immediate first-aid sequence?",
       "options": [
         "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
-        "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+        "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone).",
         "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
         "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards."
       ],
       "choices": [
         "A. Sprint straight to the victim without gloves to apply a tourniquet before checking the overhead wire.",
-        "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone), put on nitrile gloves for Universal Precautions, direct a buddy to call 911 with GPS coordinates, and apply firm direct pressure with a sterile gauze dressing to control arterial bleeding.",
+        "B. Stop and size up scene safety first (confirm the downed wire does not endanger the approach zone).",
         "C. Have two Scouts carry the hiker 100 yards down the rocky trail before checking airway, breathing, or severe bleeding.",
         "D. Pour cold stream water onto the open arterial wound and elevate both legs 18 inches before checking scene hazards."
       ],

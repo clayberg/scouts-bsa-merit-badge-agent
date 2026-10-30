@@ -500,19 +500,19 @@
         "question": "Why does Operation Lifesaver emphasize that pedestrians and drivers must never walk along railroad tracks or drive around lowered crossing gates?",
         "options": [
           "A. Trains can easily swerve onto adjacent tracks, making it hard to predict which rail they will use.",
-          "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly, and often requires more than a mile to stop even with emergency braking.",
+          "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly.",
           "C. Railroad tracks carry high-voltage third-rail traction power on all rural diesel freight lines across North America.",
           "D. Crossing gates lower only after the locomotive is within 50 feet of the intersection."
         ],
         "choices": [
           "A. Trains can easily swerve onto adjacent tracks, making it hard to predict which rail they will use.",
-          "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly, and often requires more than a mile to stop even with emergency braking.",
+          "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly.",
           "C. Railroad tracks carry high-voltage third-rail traction power on all rural diesel freight lines across North America.",
           "D. Crossing gates lower only after the locomotive is within 50 feet of the intersection."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly, and often requires more than a mile to stop even with emergency braking.",
+        "correct_answer": "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly.",
         "explanation": "Correct Answer (B): Trains cannot steer, overhang the crossties, appear slower and farther away than they actually are, and require a mile or more to come to a full stop.",
         "pamphlet_page_ref": "p. 15, p. 22"
       },
@@ -3287,8 +3287,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "In Railroading Requirement 7a(1), many Scouts assume layout of your own model only requires a general overview rather than specific details on draw a layout of your own model railroad or one that could be built in your home.",
-                "fact": "The official Railroading pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document layout of your own model and explain draw a layout of your own model railroad or one that could be built in your home during counselor review."
+                "misconception": "A successful track plan requires filling every available square foot of benchwork with continuous concentric loops.",
+                "fact": "Purposeful layouts balance running tracks with dedicated operational elements like sidings or yards to simulate real freight sorting and point to point operations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3314,14 +3314,17 @@
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
               "sub_req_text": "Draw a layout of your own model railroad or one that could be built in your home. Design a point-to-point track or loop with different routings. Include one of the following: turnaround or terminal or yard or siding.",
-              "topic_title": "Req 7a(1): Layout of Your Own Model",
-              "pamphlet_summary": "Layout of Your Own Model: Model railroad clubs exist worldwide and the number of individuals operating their own model railroads is increasing (p. 53).",
+              "topic_title": "Req 7a(1): Model Railroad Track Layout Design",
+              "pamphlet_summary": "Model Railroad Track Layout Design: Track plans require a functional schematic showing mainline routes, electrical feeder drops, and realistic minimum curve radii suited to available space. Incorporating a yard, terminal, or passing siding provides operational purpose beyond continuous running by allowing trains to sort cars or yield right of way (p. 51).",
               "pamphlet_excerpts": [
-                "Layout of Your Own Model: Model railroad clubs exist worldwide and the number of individuals operating their own model railroads is increasing (p. 53)."
+                "Model Railroad Track Layout Design: Track plans require a functional schematic showing mainline routes, electrical feeder drops, and realistic minimum curve radii suited to available space. Incorporating a yard, terminal, or passing siding provides operational purpose beyond continuous running by allowing trains to sort cars or yield right of way (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "How does adding a single passing siding or stub-ended yard change a model railroad from a simple toy train into an operating transportation system?"
+              ]
             },
             {
               "sub_id": "7a(2)",
@@ -3366,8 +3369,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "When preparing Railroading Requirement 7a(2) (Model Railroad Car Kit), Scouts sometimes overlook the concrete pamphlet benchmarks covering build one model railroad car kit or one locomotive kit.",
-                "fact": "Counselor verification for Railroading Requirement 7a(2) requires concrete workbook evidence on model railroad car kit, specifically addressing build one model railroad car kit or one locomotive kit."
+                "misconception": "Rolling stock kits assemble properly right out of the box without checking wheel alignment or chassis weight.",
+                "fact": "Builders must inspect wheelsets with an NMRA standards gauge and add internal weights to ensure cars track smoothly through turnouts without derailing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3393,14 +3396,17 @@
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
               "sub_req_text": "Build one model railroad car kit or one locomotive kit.",
-              "topic_title": "Req 7a(2): Model Railroad Car Kit",
-              "pamphlet_summary": "Model Railroad Car Kit: The Railroading pamphlet for Requirement 7a(2) details build one model railroad car kit or one locomotive kit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(2): Rolling Stock Scale Kit Construction",
+              "pamphlet_summary": "Rolling Stock Scale Kit Construction: Assembling rolling stock kits involves securing trucks, testing free-rolling wheelsets with an NMRA track gauge, and weighting the chassis according to standard length-to-weight formulas. Ensuring couplers match standard height gauges prevents unwanted uncoupling during switching and mainline runs (p. 54).",
               "pamphlet_excerpts": [
-                "Model Railroad Car Kit: The Railroading pamphlet for Requirement 7a(2) details build one model railroad car kit or one locomotive kit, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Rolling Stock Scale Kit Construction: Assembling rolling stock kits involves securing trucks, testing free-rolling wheelsets with an NMRA track gauge, and weighting the chassis according to standard length-to-weight formulas. Ensuring couplers match standard height gauges prevents unwanted uncoupling during switching and mainline runs (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "Why might a lightweight plastic boxcar derail when pushed backward into a siding, and how can proper assembly prevent that?"
+              ]
             },
             {
               "sub_id": "7a(3)",
@@ -3439,8 +3445,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "For Railroading Requirement 7a(3), a common mistake in scale of four popular model is treating the scale of four popular model railroad gauges as optional background reading.",
-                "fact": "Mastering Railroading Requirement 7a(3) means following the pamphlet standard for scale of four popular model and recording accurate notes on the scale of four popular model railroad gauges."
+                "misconception": "Scale and gauge mean the exact same thing in model railroading.",
+                "fact": "Scale is the proportional ratio of the model to the prototype, while gauge is the physical distance between the rails."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3466,14 +3472,17 @@
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
               "sub_req_text": "Name the scale of four popular model railroad gauges. Identify the scale of four model cars or locomotives.",
-              "topic_title": "Req 7a(3): Scale of Four Popular Model",
-              "pamphlet_summary": "Scale of Four Popular Model: The Railroading pamphlet for Requirement 7a(3) details the scale of four popular model railroad gauges, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(3): Model Railroad Scale And Gauge Standards",
+              "pamphlet_summary": "Model Railroad Scale And Gauge Standards: Scale defines the proportional ratio between the model and prototype dimensions, whereas gauge measures the physical distance between the inner rails. Popular proportions include O scale at 1 to 48, HO scale at 1 to 87, N scale at 1 to 160, and G scale running on gauge 1 track (p. 49).",
               "pamphlet_excerpts": [
-                "Scale of Four Popular Model: The Railroading pamphlet for Requirement 7a(3) details the scale of four popular model railroad gauges, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Model Railroad Scale And Gauge Standards: Scale defines the proportional ratio between the model and prototype dimensions, whereas gauge measures the physical distance between the inner rails. Popular proportions include O scale at 1 to 48, HO scale at 1 to 87, N scale at 1 to 160, and G scale running on gauge 1 track (p. 49)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "If two locomotives run on the exact same width of track, how could one represent standard gauge and the other represent narrow gauge?"
+              ]
             },
             {
               "sub_id": "7a(4)",
@@ -3507,8 +3516,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "During Railroading Requirement 7a(4), Scouts can underestimate how directly mastery of websites of four model railroad-related depends on understanding locate the websites of four model railroad-related manufacturers or magazine publishers.",
-                "fact": "Scouting America standards for Railroading Requirement 7a(4) require complete workbook entries on websites of four model railroad-related to demonstrate full understanding of locate the websites of four model railroad-related manufacturers or magazine publishers."
+                "misconception": "Model railroad manufacturers produce interchangeable parts that fit any brand without standard mounting guidelines.",
+                "fact": "Manufacturers adhere to voluntary National Model Railroad Association standards to ensure mechanical and electrical compatibility across different brands."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3534,14 +3543,17 @@
               "id": "7a(4)",
               "sub_req_label": "7a(4)",
               "sub_req_text": "Locate the websites of four model railroad-related manufacturers or magazine publishers. Print information about their products and services, and discuss the information with your counselor.",
-              "topic_title": "Req 7a(4): Websites of Four Model Railroad-related",
-              "pamphlet_summary": "Websites of Four Model Railroad-related: The Railroading pamphlet for Requirement 7a(4) details locate the websites of four model railroad-related manufacturers or magazine publishers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(4): Model Railroading Industry Information Resources",
+              "pamphlet_summary": "Model Railroading Industry Information Resources: Commercial manufacturers and periodical publishers provide scale catalogs, wiring diagrams, and track planning templates that guide layout construction. Reviewing industry offerings helps modelers compare ready-to-run equipment, craftsman kits, and standard electrical control systems before purchasing (p. 56).",
               "pamphlet_excerpts": [
-                "Websites of Four Model Railroad-related: The Railroading pamphlet for Requirement 7a(4) details locate the websites of four model railroad-related manufacturers or magazine publishers, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Model Railroading Industry Information Resources: Commercial manufacturers and periodical publishers provide scale catalogs, wiring diagrams, and track planning templates that guide layout construction. Reviewing industry offerings helps modelers compare ready-to-run equipment, craftsman kits, and standard electrical control systems before purchasing (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "How do industry magazines and manufacturer specification sheets help you avoid buying equipment that will not run on your layout?"
+              ]
             },
             {
               "sub_id": "7a(5)",
@@ -3586,8 +3598,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "In Railroading Requirement 7a(5), many Scouts assume railroad structure from scratch only requires a general overview rather than specific details on build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it.",
-                "fact": "The official Railroading pamphlet for Requirement 7a(5) specifies that Scouts must thoroughly document railroad structure from scratch and explain build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it during counselor review."
+                "misconception": "Factory plastic structures look realistic on a layout without painting or weathering.",
+                "fact": "Unpainted molded plastic reflects artificial glare and requires dulling coats, washes, and dry brush weathering to resemble prototype industrial materials."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3613,14 +3625,17 @@
               "id": "7a(5)",
               "sub_req_label": "7a(5)",
               "sub_req_text": "Build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout or diorama, and make the surrounding area on the diorama scenic.",
-              "topic_title": "Req 7a(5): Railroad Structure From Scratch",
-              "pamphlet_summary": "Railroad Structure From Scratch: The Railroading pamphlet for Requirement 7a(5) details build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(5): Railroad Structure Assembly And Weathering",
+              "pamphlet_summary": "Railroad Structure Assembly And Weathering: Constructing lineside structures requires precise cutting, clean adhesive application, and layered weathering with washes or chalk powders to simulate soot, grime, and rust. Ground textures, static grass, and fine ballast blend the building foundation into the surrounding terrain to eliminate artificial plastic seams (p. 58).",
               "pamphlet_excerpts": [
-                "Railroad Structure From Scratch: The Railroading pamphlet for Requirement 7a(5) details build one railroad structure (from scratch or using a kit), paint and weather the structure, mount it on your layout, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Railroad Structure Assembly And Weathering: Constructing lineside structures requires precise cutting, clean adhesive application, and layered weathering with washes or chalk powders to simulate soot, grime, and rust. Ground textures, static grass, and fine ballast blend the building foundation into the surrounding terrain to eliminate artificial plastic seams (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "What environmental factors cause a real trackside depot to age, and how can you replicate those effects using paint and weathering powders?"
+              ]
             },
             {
               "sub_id": "7a(6)",
@@ -3665,8 +3680,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "When preparing Railroading Requirement 7a(6) (Alone Model Railroad Modular), Scouts sometimes overlook the concrete pamphlet benchmarks covering alone or with others, build a model railroad or modular layout including ballast and scenery.",
-                "fact": "Counselor verification for Railroading Requirement 7a(6) requires concrete workbook evidence on alone model railroad modular, specifically addressing alone or with others, build a model railroad or modular layout including ballast and scenery."
+                "misconception": "Track rail joiners supply enough permanent electrical conductivity to power an entire layout without separate feeder wires.",
+                "fact": "Metal rail joiners loosen and oxidize over time, making soldered wire feeders to a track power bus essential for consistent train operation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3692,14 +3707,17 @@
               "id": "7a(6)",
               "sub_req_label": "7a(6)",
               "sub_req_text": "Alone or with others, build a model railroad or modular layout including ballast and scenery. Make electrical connections and operate a train. Describe what you enjoyed.",
-              "topic_title": "Req 7a(6): Alone Model Railroad Modular",
-              "pamphlet_summary": "Alone Model Railroad Modular: Model railroads often have amazingly realistic scenery and frequently these modeled scenes represent portions of actual railroads (p. 53).",
+              "topic_title": "Req 7a(6): Complete Modular Layout Construction",
+              "pamphlet_summary": "Complete Modular Layout Construction: Building a modular or permanent layout integrates benchwork carpentry, roadbed installation, secured track ballasting, and scenery layering. Soldered electrical feeder wires drop from rail joints to a common bus line to maintain reliable voltage across every track section (p. 61).",
               "pamphlet_excerpts": [
-                "Alone Model Railroad Modular: Model railroads often have amazingly realistic scenery and frequently these modeled scenes represent portions of actual railroads (p. 53)."
+                "Complete Modular Layout Construction: Building a modular or permanent layout integrates benchwork carpentry, roadbed installation, secured track ballasting, and scenery layering. Soldered electrical feeder wires drop from rail joints to a common bus line to maintain reliable voltage across every track section (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "What happens to train speed when track power relies solely on friction rail joiners across several feet of track?"
+              ]
             },
             {
               "sub_id": "7a(7)",
@@ -3746,8 +3764,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "For Railroading Requirement 7a(7), a common mistake in participate in a switching contest is treating participate in a switching contest on a timesaver layout and record your time as optional background reading.",
-                "fact": "Mastering Railroading Requirement 7a(7) means following the pamphlet standard for participate in a switching contest and recording accurate notes on participate in a switching contest on a timesaver layout and record your time."
+                "misconception": "Finishing a Timesaver switching puzzle quickly just requires running the throttle at high speed.",
+                "fact": "Speed causes derailments and missed uncoupling spots, so success depends on logical routing strategy and minimizing the total number of moves."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3773,14 +3791,17 @@
               "id": "7a(7)",
               "sub_req_label": "7a(7)",
               "sub_req_text": "Participate in a switching contest on a timesaver layout and record your time.",
-              "topic_title": "Req 7a(7): Participate in a switching contest",
-              "pamphlet_summary": "Participate in a switching contest: The Railroading pamphlet for Requirement 7a(7) details participate in a switching contest on a timesaver layout and record your time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(7): Timesaver Track Switching Operations",
+              "pamphlet_summary": "Timesaver Track Switching Operations: The classic Timesaver layout challenges operators to sort freight cars into designated track spurs using a locomotive and a runaround track within strict capacity limits. Operators must plan switch moves ahead to minimize unnecessary reversals and avoid trapping the engine behind uncoupled cars (p. 64).",
               "pamphlet_excerpts": [
-                "Participate in a switching contest: The Railroading pamphlet for Requirement 7a(7) details participate in a switching contest on a timesaver layout and record your time, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Timesaver Track Switching Operations: The classic Timesaver layout challenges operators to sort freight cars into designated track spurs using a locomotive and a runaround track within strict capacity limits. Operators must plan switch moves ahead to minimize unnecessary reversals and avoid trapping the engine behind uncoupled cars (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "Why does an operator need to look two or three switching moves ahead before uncoupling a freight car in a crowded spur?"
+              ]
             },
             {
               "sub_id": "7a(8)",
@@ -3825,8 +3846,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "During Railroading Requirement 7a(8), Scouts can underestimate how directly mastery of the difference between powering and controlling depends on understanding the difference between powering and controlling a model railroad by using direct current, and powering.",
-                "fact": "Scouting America standards for Railroading Requirement 7a(8) require complete workbook entries on the difference between powering and controlling to demonstrate full understanding of the difference between powering and controlling a model railroad by using direct current, and powering."
+                "misconception": "Digital command control runs multiple trains by varying separate DC voltages along the rails.",
+                "fact": "Digital command control supplies a constant track voltage carrying digital data packets that tell specific onboard decoders how fast to spin the motor."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3852,14 +3873,17 @@
               "id": "7a(8)",
               "sub_req_label": "7a(8)",
               "sub_req_text": "Explain the difference between powering and controlling a model railroad by using direct current, and powering and controlling a model railroad using digital command control.",
-              "topic_title": "Req 7a(8): The difference between powering and controlling",
-              "pamphlet_summary": "The difference between powering and controlling: The Railroading pamphlet for Requirement 7a(8) details the difference between powering and controlling a model railroad by using direct current, and powering and controlling, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7a(8): Direct Current And Command Control",
+              "pamphlet_summary": "Direct Current And Command Control: Conventional direct current systems regulate train movement by varying voltage across isolated track electrical blocks, meaning all locomotives in a block share the same command. Digital command control delivers constant alternating digital track power, allowing operators to run individual locomotives independently through onboard digital decoders (p. 66).",
               "pamphlet_excerpts": [
-                "The difference between powering and controlling: The Railroading pamphlet for Requirement 7a(8) details the difference between powering and controlling a model railroad by using direct current, and powering and controlling, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Direct Current And Command Control: Conventional direct current systems regulate train movement by varying voltage across isolated track electrical blocks, meaning all locomotives in a block share the same command. Digital command control delivers constant alternating digital track power, allowing operators to run individual locomotives independently through onboard digital decoders (p. 66)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p055_img1.png",
               "workbook_diagram_caption": "Schematic diagrams outline various track layout designs for model trains.",
-              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains."
+              "workbook_visual_caption": "Schematic diagrams outline various track layout designs for model trains.",
+              "socratic_questions": [
+                "If two locomotives sit on the exact same uninterrupted section of track, how does a digital system move one while keeping the other parked?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -3992,8 +4016,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "In Railroading Requirement 7b(1), many Scouts assume railroad museum historical display only requires a general overview rather than specific details on visit a railroad museum, historical display, or a prototype railroad-sponsored public event.",
-                "fact": "The official Railroading pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document railroad museum historical display and explain visit a railroad museum, historical display, or a prototype railroad-sponsored public event during counselor review."
+                "misconception": "Railroad museum exhibits only display decorative antique steam engines rather than operational industrial freight technology.",
+                "fact": "Rail museums preserve working technological history spanning diesel motive power, signaling systems, maintenance equipment, and rolling stock that built modern supply chains."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4019,14 +4043,17 @@
               "id": "7b(1)",
               "sub_req_label": "7b(1)",
               "sub_req_text": "Visit a railroad museum, historical display, or a prototype railroad-sponsored public event. With permission, photograph, digitally record, or sketch items of interest. Explain what you saw and describe your photos, sketches, or video.",
-              "topic_title": "Req 7b(1): Railroad Museum Historical Display",
-              "pamphlet_summary": "Railroad Museum Historical Display: The Railroading pamphlet for Requirement 7b(1) details visit a railroad museum, historical display, or a prototype railroad-sponsored public event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7b(1): Railroad Museum And Equipment Documentation",
+              "pamphlet_summary": "Railroad Museum And Equipment Documentation: Visiting a rail museum or public historical display allows Scouts to inspect preserved steam, diesel, and passenger rolling stock from distinct rail eras. Documenting artifacts through photographs or sketches requires noting equipment builders, road names, and specific mechanical features like truck designs or boiler fittings (p. 69).",
               "pamphlet_excerpts": [
-                "Railroad Museum Historical Display: The Railroading pamphlet for Requirement 7b(1) details visit a railroad museum, historical display, or a prototype railroad-sponsored public event, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Railroad Museum And Equipment Documentation: Visiting a rail museum or public historical display allows Scouts to inspect preserved steam, diesel, and passenger rolling stock from distinct rail eras. Documenting artifacts through photographs or sketches requires noting equipment builders, road names, and specific mechanical features like truck designs or boiler fittings (p. 69)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p028_img1.png",
               "workbook_diagram_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
-              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew."
+              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
+              "socratic_questions": [
+                "What key mechanical details on a preserved locomotive reveal the specific era and service for which it was engineered?"
+              ]
             },
             {
               "sub_id": "7b(2)",
@@ -4060,8 +4087,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "When preparing Railroading Requirement 7b(2) (Purchase tickets and ride a scenic), Scouts sometimes overlook the concrete pamphlet benchmarks covering purchase tickets and ride a scenic or historic railroad.",
-                "fact": "Counselor verification for Railroading Requirement 7b(2) requires concrete workbook evidence on purchase tickets and ride a scenic, specifically addressing purchase tickets and ride a scenic or historic railroad."
+                "misconception": "Historic tourist railroads operate modern trains purely for amusement rides without genuine historic rights-of-way.",
+                "fact": "Heritage railroads preserve authentic historical track routes and vintage rolling stock that demonstrate early American civil engineering and transportation commerce."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4087,15 +4114,18 @@
               "id": "7b(2)",
               "sub_req_label": "7b(2)",
               "sub_req_text": "Purchase tickets and ride a scenic or historic railroad. Under supervision, photograph the equipment and discuss with your counselor the historic significance of the operation.",
-              "topic_title": "Req 7b(2): Purchase tickets and ride a scenic",
-              "pamphlet_summary": "Purchase tickets and ride a scenic: The Railroading pamphlet for Requirement 7b(2) details purchase tickets and ride a scenic or historic railroad, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7b(2): Historic Railroad Excursion Analysis",
+              "pamphlet_summary": "Historic Railroad Excursion Analysis: Riding a preserved or scenic heritage line demonstrates how historic steam or early diesel power traversed challenging geographic corridors. Discussions focus on why the route was originally constructed, how it served regional industries, and the engineering feats required to maintain vintage track structures (p. 71).",
               "pamphlet_excerpts": [
-                "Purchase tickets and ride a scenic: The Railroading pamphlet for Requirement 7b(2) details purchase tickets and ride a scenic or historic railroad, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Historic Railroad Excursion Analysis: Riding a preserved or scenic heritage line demonstrates how historic steam or early diesel power traversed challenging geographic corridors. Discussions focus on why the route was originally constructed, how it served regional industries, and the engineering feats required to maintain vintage track structures (p. 71)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p028_img1.png",
-              "title": "Req 7b(2): Purchase tickets and ride a scenic",
+              "title": "Req 7b(2): Historic Railroad Excursion Analysis",
               "workbook_diagram_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
-              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew."
+              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
+              "socratic_questions": [
+                "How did the natural terrain and industries of this region influence where the original railroad builders laid track?"
+              ]
             },
             {
               "sub_id": "7b(3)",
@@ -4129,8 +4159,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "For Railroading Requirement 7b(3), a common mistake in websites of four rail historical is treating locate the websites of four rail historical groups, then find information on the history of the rail as optional background reading.",
-                "fact": "Mastering Railroading Requirement 7b(3) means following the pamphlet standard for websites of four rail historical and recording accurate notes on locate the websites of four rail historical groups, then find information on the history of the rail."
+                "misconception": "Rail preservation groups only accept licensed professional railroaders as volunteers.",
+                "fact": "Historical societies rely heavily on volunteers of all skill levels for archiving, track maintenance, cosmetic restoration, and museum operations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4156,14 +4186,17 @@
               "id": "7b(3)",
               "sub_req_label": "7b(3)",
               "sub_req_text": "Locate the websites of four rail historical groups, then find information on the history of the rail preservation operations and purpose of each group. Talk with a member of one of the groups and find out how you might help.",
-              "topic_title": "Req 7b(3): Websites of Four Rail Historical",
-              "pamphlet_summary": "Websites of Four Rail Historical: The Railroading pamphlet for Requirement 7b(3) details locate the websites of four rail historical groups, then find information on the history of the rail preservation operations, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7b(3): Rail Preservation Organization Engagement",
+              "pamphlet_summary": "Rail Preservation Organization Engagement: Rail historical societies and fallen flag associations preserve archival records, restore decommissioned rolling stock, and maintain public educational exhibits. Reaching out to active members reveals volunteer opportunities such as cataloging artifacts, assisting with right of way upkeep, or supporting visitor interpretation (p. 73).",
               "pamphlet_excerpts": [
-                "Websites of Four Rail Historical: The Railroading pamphlet for Requirement 7b(3) details locate the websites of four rail historical groups, then find information on the history of the rail preservation operations, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Rail Preservation Organization Engagement: Rail historical societies and fallen flag associations preserve archival records, restore decommissioned rolling stock, and maintain public educational exhibits. Reaching out to active members reveals volunteer opportunities such as cataloging artifacts, assisting with right of way upkeep, or supporting visitor interpretation (p. 73)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p028_img1.png",
               "workbook_diagram_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
-              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew."
+              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
+              "socratic_questions": [
+                "What community and historical value is lost when a local railroad line and its records are abandoned rather than preserved?"
+              ]
             },
             {
               "sub_id": "7b(4)",
@@ -4201,8 +4234,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Railroading Merit Badge Pamphlet (p. 53, p. 62)",
               "common_misconception_pair": {
-                "misconception": "During Railroading Requirement 7b(4), Scouts can underestimate how directly mastery of trip by rail depends on understanding plan a trip by rail between two points.",
-                "fact": "Scouting America standards for Railroading Requirement 7b(4) require complete workbook entries on trip by rail to demonstrate full understanding of plan a trip by rail between two points."
+                "misconception": "Passenger train timetables list only the departure from the initial terminal and arrival at the final destination.",
+                "fact": "Timetables detail scheduled arrivals and departures at intermediate stations, conditional flag stops, and connecting transfer points along the route."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4228,14 +4261,17 @@
               "id": "7b(4)",
               "sub_req_label": "7b(4)",
               "sub_req_text": "Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two intermediate points. Purchase the tickets and make the trip. Explain to your counselor what you saw.",
-              "topic_title": "Req 7b(4): Trip By Rail",
-              "pamphlet_summary": "Trip By Rail: The Railroading pamphlet for Requirement 7b(4) details plan a trip by rail between two points, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53).",
+              "topic_title": "Req 7b(4): Passenger Rail Travel Route Planning",
+              "pamphlet_summary": "Passenger Rail Travel Route Planning: Planning an excursion on a passenger carrier like Amtrak involves decoding published timetables, tracking train numbers, and calculating scheduled intermediate arrival windows. Observing wayside signals, dispatcher sidings, and station dwell times during the journey demonstrates how active railroads manage scheduling priorities (p. 75).",
               "pamphlet_excerpts": [
-                "Trip By Rail: The Railroading pamphlet for Requirement 7b(4) details plan a trip by rail between two points, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 53)."
+                "Passenger Rail Travel Route Planning: Planning an excursion on a passenger carrier like Amtrak involves decoding published timetables, tracking train numbers, and calculating scheduled intermediate arrival windows. Observing wayside signals, dispatcher sidings, and station dwell times during the journey demonstrates how active railroads manage scheduling priorities (p. 75)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/railroading_p028_img1.png",
               "workbook_diagram_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
-              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew."
+              "workbook_visual_caption": "Scouts board a high-speed Amtrak Acela passenger train with crew.",
+              "socratic_questions": [
+                "Why must a passenger train dispatcher coordinate intermediate station dwell times with opposing freight traffic along a single-track line?"
+              ]
             }
           ],
           "syllabus_bucket": "Pre-Class Prerequisite",
@@ -4567,13 +4603,13 @@
       "question": "Why does Operation Lifesaver emphasize that pedestrians and drivers must never walk along railroad tracks or drive around lowered crossing gates?",
       "options": [
         "A. Trains can easily swerve onto adjacent tracks, making it hard to predict which rail they will use.",
-        "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly, and often requires more than a mile to stop even with emergency braking.",
+        "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly.",
         "C. Railroad tracks carry high-voltage third-rail traction power on all rural diesel freight lines across North America.",
         "D. Crossing gates lower only after the locomotive is within 50 feet of the intersection."
       ],
       "choices": [
         "A. Trains can easily swerve onto adjacent tracks, making it hard to predict which rail they will use.",
-        "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly, and often requires more than a mile to stop even with emergency braking.",
+        "B. A freight train overhangs the rails by at least three feet on both sides, can approach quietly.",
         "C. Railroad tracks carry high-voltage third-rail traction power on all rural diesel freight lines across North America.",
         "D. Crossing gates lower only after the locomotive is within 50 feet of the intersection."
       ],

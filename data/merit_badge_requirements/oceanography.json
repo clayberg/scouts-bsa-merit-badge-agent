@@ -152,19 +152,19 @@
         "question": "How do marine phytoplankton and the global ocean interact with Earth's atmosphere to support life and regulate climate?",
         "options": [
           "A. Deep-sea hydrothermal vents produce most atmospheric oxygen, while surface currents reflect all incoming solar heat back into space.",
-          "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis, while ocean waters absorb vast amounts of solar heat and carbon dioxide.",
+          "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis.",
           "C. Saltwater evaporation removes carbon dioxide from the ocean and locks it permanently into stratospheric clouds.",
           "D. Ocean tides generate geothermal heat that warms polar air masses without transferring moisture to the atmosphere."
         ],
         "choices": [
           "A. Deep-sea hydrothermal vents produce most atmospheric oxygen, while surface currents reflect all incoming solar heat back into space.",
-          "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis, while ocean waters absorb vast amounts of solar heat and carbon dioxide.",
+          "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis.",
           "C. Saltwater evaporation removes carbon dioxide from the ocean and locks it permanently into stratospheric clouds.",
           "D. Ocean tides generate geothermal heat that warms polar air masses without transferring moisture to the atmosphere."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis, while ocean waters absorb vast amounts of solar heat and carbon dioxide.",
+        "correct_answer": "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis.",
         "explanation": "Correct Answer (B): Microscopic marine phytoplankton produce over half of the world's oxygen and anchor marine food webs, while the ocean stores and redistributes solar heat and absorbs atmospheric carbon dioxide.",
         "pamphlet_page_ref": "p. 32, p. 34"
       },
@@ -2478,8 +2478,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
               "common_misconception_pair": {
-                "misconception": "In Oceanography Requirement 8b(1), many Scouts assume oceanographic research ship only requires a general overview rather than specific details on oceanographic research ship.",
-                "fact": "The official Oceanography pamphlet for Requirement 8b(1) specifies that Scouts must thoroughly document oceanographic research ship and explain oceanographic research ship during counselor review."
+                "misconception": "Scientific research vessels are ordinary commercial transport ships that simply carry basic water testing kits on deck.",
+                "fact": "Dedicated research vessels are purpose-built floating laboratories equipped with dynamic positioning systems, acoustic seafloor mappers, heavy-duty sampling winches, and sterile analytical workspaces."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2505,14 +2505,17 @@
               "id": "8b(1)",
               "sub_req_label": "8b(1)",
               "sub_req_text": "Oceanographic research ship.",
-              "topic_title": "Req 8b(1): Oceanographic Research Ship",
-              "pamphlet_summary": "Oceanographic Research Ship: The Oceanography pamphlet for Requirement 8b(1) details oceanographic research ship, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8b(1): Oceanographic Research Vessel Field Study",
+              "pamphlet_summary": "Oceanographic Research Vessel Field Study: Scouts tour an oceanographic research vessel to inspect scientific winches, hydrographic labs, CTD rosettes, and navigation equipment while interviewing crew members about offshore sampling procedures. Observations regarding shipboard data collection, safety operations, and active marine missions are compiled into a comprehensive 500-word written field report (p. 62).",
               "pamphlet_excerpts": [
-                "Oceanographic Research Ship: The Oceanography pamphlet for Requirement 8b(1) details oceanographic research ship, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Oceanographic Research Vessel Field Study: Scouts tour an oceanographic research vessel to inspect scientific winches, hydrographic labs, CTD rosettes, and navigation equipment while interviewing crew members about offshore sampling procedures. Observations regarding shipboard data collection, safety operations, and active marine missions are compiled into a comprehensive 500-word written field report (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/oceanography_p030_img1.png",
               "workbook_diagram_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
-              "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life."
+              "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
+              "socratic_questions": [
+                "What structural features and specialized equipment make an oceanographic research vessel different from a regular cargo freighter or naval ship?"
+              ]
             },
             {
               "sub_id": "8b(2)",
@@ -2553,8 +2556,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)",
               "common_misconception_pair": {
-                "misconception": "When preparing Oceanography Requirement 8b(2) (Oceanographic institute, marine laboratory, or marine), Scouts sometimes overlook the concrete pamphlet benchmarks covering oceanographic institute, marine laboratory, or marine aquarium.",
-                "fact": "Counselor verification for Oceanography Requirement 8b(2) requires concrete workbook evidence on oceanographic institute, marine laboratory, or marine, specifically addressing oceanographic institute, marine laboratory, or marine aquarium."
+                "misconception": "A casual walking tour of recreational display tanks fulfills the educational visit without investigating scientific research programs or facility operations.",
+                "fact": "The visit requires Scouts to investigate scientific research initiatives, examine specialized water filtration support systems, and interview facility staff to produce a factual 500-word analytical report."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2580,15 +2583,18 @@
               "id": "8b(2)",
               "sub_req_label": "8b(2)",
               "sub_req_text": "Oceanographic institute, marine laboratory, or marine aquarium.",
-              "topic_title": "Req 8b(2): Oceanographic institute, marine laboratory, or marine",
-              "pamphlet_summary": "Oceanographic institute, marine laboratory, or marine: The Oceanography pamphlet for Requirement 8b(2) details oceanographic institute, marine laboratory, or marine aquarium, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57).",
+              "topic_title": "Req 8b(2): Marine Research Facility Educational Tour",
+              "pamphlet_summary": "Marine Research Facility Educational Tour: Visiting a marine laboratory, oceanographic institute, or public aquarium allows Scouts to observe controlled seawater culture systems, ecological exhibits, and active conservation research projects. Scouts document facility operations, interview resident oceanographers or education staff, and evaluate marine stewardship practices to complete a detailed 500-word summary (p. 64).",
               "pamphlet_excerpts": [
-                "Oceanographic institute, marine laboratory, or marine: The Oceanography pamphlet for Requirement 8b(2) details oceanographic institute, marine laboratory, or marine aquarium, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 57)."
+                "Marine Research Facility Educational Tour: Visiting a marine laboratory, oceanographic institute, or public aquarium allows Scouts to observe controlled seawater culture systems, ecological exhibits, and active conservation research projects. Scouts document facility operations, interview resident oceanographers or education staff, and evaluate marine stewardship practices to complete a detailed 500-word summary (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/oceanography_p030_img1.png",
-              "title": "Req 8b(2): Oceanographic institute, marine laboratory, or marine",
+              "title": "Req 8b(2): Marine Research Facility Educational Tour",
               "workbook_diagram_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
-              "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life."
+              "workbook_visual_caption": "A large crustacean walks across the sandy ocean floor representing benthic marine life.",
+              "socratic_questions": [
+                "What unseen engineering systems and scientific research projects operate behind the public display tanks at a marine laboratory or accredited aquarium?"
+              ]
             }
           ],
           "syllabus_bucket": "Make-Up Eligible",
@@ -2966,14 +2972,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water",
-          "2. Practical execution and real-world examples for Marine Research Methods and Ocean Zones"
+          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water"
         ],
         "rows": [
-          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water",
-          "2. Practical execution and real-world examples for Marine Research Methods and Ocean Zones"
+          "1. Describe four methods that marine scientists use to investigate the ocean, underlying geology, and organisms living in the water"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Scouts often think oceanographers still rely primarily on lead lines and simple bucket samplers.",
@@ -3106,13 +3110,13 @@
       "question": "How do marine phytoplankton and the global ocean interact with Earth's atmosphere to support life and regulate climate?",
       "options": [
         "A. Deep-sea hydrothermal vents produce most atmospheric oxygen, while surface currents reflect all incoming solar heat back into space.",
-        "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis, while ocean waters absorb vast amounts of solar heat and carbon dioxide.",
+        "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis.",
         "C. Saltwater evaporation removes carbon dioxide from the ocean and locks it permanently into stratospheric clouds.",
         "D. Ocean tides generate geothermal heat that warms polar air masses without transferring moisture to the atmosphere."
       ],
       "choices": [
         "A. Deep-sea hydrothermal vents produce most atmospheric oxygen, while surface currents reflect all incoming solar heat back into space.",
-        "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis, while ocean waters absorb vast amounts of solar heat and carbon dioxide.",
+        "B. Marine phytoplankton generate at least half of Earth's atmospheric oxygen through photosynthesis.",
         "C. Saltwater evaporation removes carbon dioxide from the ocean and locks it permanently into stratospheric clouds.",
         "D. Ocean tides generate geothermal heat that warms polar air masses without transferring moisture to the atmosphere."
       ],

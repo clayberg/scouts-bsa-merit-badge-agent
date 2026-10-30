@@ -165,18 +165,18 @@
         "options": [
           "A. All mammals are cold-blooded (ectothermic), breathe through gills as juveniles, and have feathers covering their skin.",
           "B. All mammals give birth to live young without exception, lack a backbone, and possess a two-chambered heart.",
-          "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life, nourish their young with milk secreted by mammary glands, have a four-chambered heart and muscular diaphragm, and feature a lower jaw made of a single bone (the dentary) with three middle-ear ossicles.",
-          "D. Mammals are defined solely by living on dry land, which means whales, dolphins, and bats are classified as fish and birds rather than mammals."
+          "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life.",
+          "D. Mammals are defined solely by living on dry land, which means whales, dolphins."
         ],
         "choices": [
           "A. All mammals are cold-blooded (ectothermic), breathe through gills as juveniles, and have feathers covering their skin.",
           "B. All mammals give birth to live young without exception, lack a backbone, and possess a two-chambered heart.",
-          "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life, nourish their young with milk secreted by mammary glands, have a four-chambered heart and muscular diaphragm, and feature a lower jaw made of a single bone (the dentary) with three middle-ear ossicles.",
-          "D. Mammals are defined solely by living on dry land, which means whales, dolphins, and bats are classified as fish and birds rather than mammals."
+          "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life.",
+          "D. Mammals are defined solely by living on dry land, which means whales, dolphins."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life, nourish their young with milk secreted by mammary glands, have a four-chambered heart and muscular diaphragm, and feature a lower jaw made of a single bone (the dentary) with three middle-ear ossicles.",
+        "correct_answer": "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life.",
         "explanation": "Correct Answer (C): Every mammal is an endothermic vertebrate characterized by mammary glands that produce milk for offspring, hair or fur, a muscular diaphragm, a single lower jawbone, and three middle-ear bones (malleus, incus, stapes).",
         "pamphlet_page_ref": "p. 13, p. 16"
       },
@@ -744,20 +744,20 @@
         "scenario_prompt": "Why does surveying two distinct habitats or elevations reveal different mammal species, and how can you verify species that remain hidden from view?",
         "question": "Why does surveying two distinct habitats or elevations reveal different mammal species, and how can you verify species that remain hidden from view?",
         "options": [
-          "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat, and rubbings along shared trails",
+          "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat.",
           "B. All mammal species distribute themselves evenly across every elevation and only leave visual evidence when walking on paved roads",
           "C. Mammals avoid using the same pathway twice and can only be counted if captured in live traps during midday hours",
           "D. Buck deer scrape bark off saplings only during midwinter to build insulated nests for hibernating fawns"
         ],
         "choices": [
-          "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat, and rubbings along shared trails",
+          "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat.",
           "B. All mammal species distribute themselves evenly across every elevation and only leave visual evidence when walking on paved roads",
           "C. Mammals avoid using the same pathway twice and can only be counted if captured in live traps during midday hours",
           "D. Buck deer scrape bark off saplings only during midwinter to build insulated nests for hibernating fawns"
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat, and rubbings along shared trails",
+        "correct_answer": "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat.",
         "explanation": "Correct Answer (A): Each mammal species has specialized food, cover, water, and climate adaptations, and observers can detect resident species off-trail by identifying tracks, droppings, gnawing, and antler rubbings (p. 27).",
         "pamphlet_page_ref": "p. 27, p. 33"
       },
@@ -1535,17 +1535,17 @@
           "A. It lists only the common nickname of the animal and the price paid to the collector",
           "B. It replaces the need to preserve bones or skulls by storing only a rough pencil sketch",
           "C. It is used solely to decorate gift shop displays and discards where the mammal was found",
-          "D. It links each numbered specimen to its species, sex, size, collection date and location, and preparation type for scientific study and education"
+          "D. It links each numbered specimen to its species, sex, size, collection date and location."
         ],
         "choices": [
           "A. It lists only the common nickname of the animal and the price paid to the collector",
           "B. It replaces the need to preserve bones or skulls by storing only a rough pencil sketch",
           "C. It is used solely to decorate gift shop displays and discards where the mammal was found",
-          "D. It links each numbered specimen to its species, sex, size, collection date and location, and preparation type for scientific study and education"
+          "D. It links each numbered specimen to its species, sex, size, collection date and location."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. It links each numbered specimen to its species, sex, size, collection date and location, and preparation type for scientific study and education",
+        "correct_answer": "D. It links each numbered specimen to its species, sex, size, collection date and location.",
         "explanation": "Correct Answer (D): A museum specimen catalog records the assigned number, species, sex, measurements, exact collection locality and date, and preparation type so researchers can study variation and distribution alongside public education (p. 55).",
         "pamphlet_page_ref": "p. 55, p. 58"
       },
@@ -1614,14 +1614,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals",
-          "2. Practical execution and real-world examples for Habitat Carrying Capacity Projects"
+          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals"
         ],
         "rows": [
-          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals",
-          "2. Practical execution and real-world examples for Habitat Carrying Capacity Projects"
+          "1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Artificial feeding stations provide the best long-term method for increasing local wild mammal populations.",
@@ -1711,19 +1709,19 @@
         "question": "How can a habitat management project effectively raise the carrying capacity for native cottontails or lower it for urban pest rodents?",
         "options": [
           "A. Releasing pet store hamsters into the woods or spraying chemical perfumes on city sidewalks",
-          "B. Planting food shrubs and building brush piles to boost cottontail cover, or removing trash piles and sealing garbage cans to reduce rats and mice",
+          "B. Planting food shrubs and building brush piles to boost cottontail cover.",
           "C. Paving over naturalized meadows to help burrowing mammals dig tunnels faster",
           "D. Removing all dead hollow trees and nesting boxes when trying to attract flying squirrels and bats"
         ],
         "choices": [
           "A. Releasing pet store hamsters into the woods or spraying chemical perfumes on city sidewalks",
-          "B. Planting food shrubs and building brush piles to boost cottontail cover, or removing trash piles and sealing garbage cans to reduce rats and mice",
+          "B. Planting food shrubs and building brush piles to boost cottontail cover.",
           "C. Paving over naturalized meadows to help burrowing mammals dig tunnels faster",
           "D. Removing all dead hollow trees and nesting boxes when trying to attract flying squirrels and bats"
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Planting food shrubs and building brush piles to boost cottontail cover, or removing trash piles and sealing garbage cans to reduce rats and mice",
+        "correct_answer": "B. Planting food shrubs and building brush piles to boost cottontail cover.",
         "explanation": "Correct Answer (B): Carrying capacity depends on available food, water, shelter, and living space; planting shrubs and building brush piles increases cover for cottontails, while sealing garbage removes food and shelter for pest rats and mice (p. 51).",
         "pamphlet_page_ref": "p. 51, p. 60"
       },
@@ -2282,14 +2280,14 @@
       "options": [
         "A. All mammals are cold-blooded (ectothermic), breathe through gills as juveniles, and have feathers covering their skin.",
         "B. All mammals give birth to live young without exception, lack a backbone, and possess a two-chambered heart.",
-        "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life, nourish their young with milk secreted by mammary glands, have a four-chambered heart and muscular diaphragm, and feature a lower jaw made of a single bone (the dentary) with three middle-ear ossicles.",
-        "D. Mammals are defined solely by living on dry land, which means whales, dolphins, and bats are classified as fish and birds rather than mammals."
+        "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life.",
+        "D. Mammals are defined solely by living on dry land, which means whales, dolphins."
       ],
       "choices": [
         "A. All mammals are cold-blooded (ectothermic), breathe through gills as juveniles, and have feathers covering their skin.",
         "B. All mammals give birth to live young without exception, lack a backbone, and possess a two-chambered heart.",
-        "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life, nourish their young with milk secreted by mammary glands, have a four-chambered heart and muscular diaphragm, and feature a lower jaw made of a single bone (the dentary) with three middle-ear ossicles.",
-        "D. Mammals are defined solely by living on dry land, which means whales, dolphins, and bats are classified as fish and birds rather than mammals."
+        "C. Mammals are endothermic (warm-blooded) vertebrates that possess hair or fur at some stage of life.",
+        "D. Mammals are defined solely by living on dry land, which means whales, dolphins."
       ],
       "correct_index": 2,
       "correct_letter": "C",
@@ -2326,13 +2324,13 @@
       "scenario_prompt": "Why does surveying two distinct habitats or elevations reveal different mammal species, and how can you verify species that remain hidden from view?",
       "question": "Why does surveying two distinct habitats or elevations reveal different mammal species, and how can you verify species that remain hidden from view?",
       "options": [
-        "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat, and rubbings along shared trails",
+        "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat.",
         "B. All mammal species distribute themselves evenly across every elevation and only leave visual evidence when walking on paved roads",
         "C. Mammals avoid using the same pathway twice and can only be counted if captured in live traps during midday hours",
         "D. Buck deer scrape bark off saplings only during midwinter to build insulated nests for hibernating fawns"
       ],
       "choices": [
-        "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat, and rubbings along shared trails",
+        "A. Different species require specific food, shelter, and elevation conditions, and leave identifiable tracks, scat.",
         "B. All mammal species distribute themselves evenly across every elevation and only leave visual evidence when walking on paved roads",
         "C. Mammals avoid using the same pathway twice and can only be counted if captured in live traps during midday hours",
         "D. Buck deer scrape bark off saplings only during midwinter to build insulated nests for hibernating fawns"
@@ -2352,13 +2350,13 @@
         "A. It lists only the common nickname of the animal and the price paid to the collector",
         "B. It replaces the need to preserve bones or skulls by storing only a rough pencil sketch",
         "C. It is used solely to decorate gift shop displays and discards where the mammal was found",
-        "D. It links each numbered specimen to its species, sex, size, collection date and location, and preparation type for scientific study and education"
+        "D. It links each numbered specimen to its species, sex, size, collection date and location."
       ],
       "choices": [
         "A. It lists only the common nickname of the animal and the price paid to the collector",
         "B. It replaces the need to preserve bones or skulls by storing only a rough pencil sketch",
         "C. It is used solely to decorate gift shop displays and discards where the mammal was found",
-        "D. It links each numbered specimen to its species, sex, size, collection date and location, and preparation type for scientific study and education"
+        "D. It links each numbered specimen to its species, sex, size, collection date and location."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -2373,13 +2371,13 @@
       "question": "How can a habitat management project effectively raise the carrying capacity for native cottontails or lower it for urban pest rodents?",
       "options": [
         "A. Releasing pet store hamsters into the woods or spraying chemical perfumes on city sidewalks",
-        "B. Planting food shrubs and building brush piles to boost cottontail cover, or removing trash piles and sealing garbage cans to reduce rats and mice",
+        "B. Planting food shrubs and building brush piles to boost cottontail cover.",
         "C. Paving over naturalized meadows to help burrowing mammals dig tunnels faster",
         "D. Removing all dead hollow trees and nesting boxes when trying to attract flying squirrels and bats"
       ],
       "choices": [
         "A. Releasing pet store hamsters into the woods or spraying chemical perfumes on city sidewalks",
-        "B. Planting food shrubs and building brush piles to boost cottontail cover, or removing trash piles and sealing garbage cans to reduce rats and mice",
+        "B. Planting food shrubs and building brush piles to boost cottontail cover.",
         "C. Paving over naturalized meadows to help burrowing mammals dig tunnels faster",
         "D. Removing all dead hollow trees and nesting boxes when trying to attract flying squirrels and bats"
       ],

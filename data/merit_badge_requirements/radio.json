@@ -396,17 +396,17 @@
           "A. Mount the antenna directly onto an electric utility pole so the coax shield shares the power company ground wire.",
           "B. String dipole wires directly underneath high-voltage overhead distribution lines to shield the receiver from lightning.",
           "C. Erect the mast only during rainstorms so moist soil improves radio-frequency grounding.",
-          "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction, it cannot come within 10 feet of a power line."
+          "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction."
         ],
         "choices": [
           "A. Mount the antenna directly onto an electric utility pole so the coax shield shares the power company ground wire.",
           "B. String dipole wires directly underneath high-voltage overhead distribution lines to shield the receiver from lightning.",
           "C. Erect the mast only during rainstorms so moist soil improves radio-frequency grounding.",
-          "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction, it cannot come within 10 feet of a power line."
+          "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction, it cannot come within 10 feet of a power line.",
+        "correct_answer": "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction.",
         "explanation": "Correct Answer (D): Contact between an antenna or mast and overhead electrical power lines is a leading cause of fatal electrocution in radio operations; antennas must never be placed where they could fall onto or near power lines.",
         "pamphlet_page_ref": "p. 35, p. 37"
       },
@@ -472,8 +472,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 2a(1), many Scouts assume electromagnetic spectrum covering kilohertz khz only requires a general overview rather than specific details on draw a chart of the electromagnetic spectrum covering 300 kilohertz (khz) to 3,000 megahertz (mhz).",
-                "fact": "The official Radio pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document electromagnetic spectrum covering kilohertz khz and explain draw a chart of the electromagnetic spectrum covering 300 kilohertz (khz) to 3,000 megahertz (mhz) during counselor review."
+                "misconception": "Radio waves travel at different speeds depending on their frequency.",
+                "fact": "All radio waves travel through space at the constant speed of light regardless of frequency."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -499,14 +499,17 @@
               "id": "2a(1)",
               "sub_req_label": "2a(1)",
               "sub_req_text": "Draw a chart of the electromagnetic spectrum covering 300 kilohertz (kHz) to 3,000 megahertz (MHz)",
-              "topic_title": "Req 2a(1): Electromagnetic Spectrum Covering Kilohertz kHz",
-              "pamphlet_summary": "Electromagnetic Spectrum Covering Kilohertz kHz: The Radio pamphlet for Requirement 2a(1) details draw a chart of the electromagnetic spectrum covering 300 kilohertz (kHz) to 3,000 megahertz (MHz), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+              "topic_title": "Req 2a(1): Electromagnetic Spectrum Chart Construction",
+              "pamphlet_summary": "Electromagnetic Spectrum Chart Construction: Scouts sketch a continuous frequency scale spanning from 300 kHz up to 3,000 MHz while plotting frequency and wavelength inversely along the horizontal axis. This drawing illustrates how radio waves fit into the broader electromagnetic radiation spectrum (p. 15).",
               "pamphlet_excerpts": [
-                "Electromagnetic Spectrum Covering Kilohertz kHz: The Radio pamphlet for Requirement 2a(1) details draw a chart of the electromagnetic spectrum covering 300 kilohertz (kHz) to 3,000 megahertz (MHz), outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+                "Electromagnetic Spectrum Chart Construction: Scouts sketch a continuous frequency scale spanning from 300 kHz up to 3,000 MHz while plotting frequency and wavelength inversely along the horizontal axis. This drawing illustrates how radio waves fit into the broader electromagnetic radiation spectrum (p. 15)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "If the speed of radio waves is fixed, what must happen to the physical wavelength as the frequency increases?"
+              ]
             },
             {
               "sub_id": "2a(2)",
@@ -543,8 +546,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 2a(2) (VHF UHF and Microwave Portions), Scouts sometimes overlook the concrete pamphlet benchmarks covering label the mf, hf, vhf, uhf, and microwave portions of the spectrum on your diagram.",
-                "fact": "Counselor verification for Radio Requirement 2a(2) requires concrete workbook evidence on vhf uhf and microwave portions, specifically addressing label the mf, hf, vhf, uhf, and microwave portions of the spectrum on your diagram."
+                "misconception": "Microwaves represent an entirely separate type of radiation that exists outside the radio spectrum.",
+                "fact": "Microwaves are simply high-frequency radio waves with wavelengths shorter than one meter."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -570,14 +573,17 @@
               "id": "2a(2)",
               "sub_req_label": "2a(2)",
               "sub_req_text": "Label the MF, HF, VHF, UHF, and microwave portions of the spectrum on your diagram.",
-              "topic_title": "Req 2a(2): VHF UHF and Microwave Portions",
-              "pamphlet_summary": "VHF UHF and Microwave Portions: The Radio pamphlet for Requirement 2a(2) details label the MF, HF, VHF, UHF, and microwave portions of the spectrum on your diagram, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+              "topic_title": "Req 2a(2): Radio Frequency Band Designations",
+              "pamphlet_summary": "Radio Frequency Band Designations: Band labels designate specific decade ranges including Medium Frequency from 300 kHz to 3 MHz, High Frequency up to 30 MHz, Very High Frequency up to 300 MHz, and Ultra High Frequency up to 3,000 MHz. Frequencies starting at 1,000 MHz within the UHF band and extending upward are designated as microwaves (p. 17).",
               "pamphlet_excerpts": [
-                "VHF UHF and Microwave Portions: The Radio pamphlet for Requirement 2a(2) details label the MF, HF, VHF, UHF, and microwave portions of the spectrum on your diagram, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+                "Radio Frequency Band Designations: Band labels designate specific decade ranges including Medium Frequency from 300 kHz to 3 MHz, High Frequency up to 30 MHz, Very High Frequency up to 300 MHz, and Ultra High Frequency up to 3,000 MHz. Frequencies starting at 1,000 MHz within the UHF band and extending upward are designated as microwaves (p. 17)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "Why do international radio standards group frequencies into distinct bands using factors of ten?"
+              ]
             },
             {
               "sub_id": "2a(3)",
@@ -614,8 +620,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 2a(3), a common mistake in radio services is treating locate on your chart at least eight radio services, such as am and fm commercial broadcast, citizens as optional background reading.",
-                "fact": "Mastering Radio Requirement 2a(3) means following the pamphlet standard for radio services and recording accurate notes on locate on your chart at least eight radio services, such as am and fm commercial broadcast, citizens."
+                "misconception": "Wi-Fi and Bluetooth use audio sound waves rather than standard radio frequency signals.",
+                "fact": "Wi-Fi and Bluetooth operate using standard UHF and microwave radio signals centered in the 2.4 gigahertz band."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -641,14 +647,17 @@
               "id": "2a(3)",
               "sub_req_label": "2a(3)",
               "sub_req_text": "Locate on your chart at least eight radio services, such as AM and FM commercial broadcast, citizens band (CB), television, amateur radio (at least four amateur radio bands), public service (police and fire), cellular, Wi-Fi, and Bluetooth.",
-              "topic_title": "Req 2a(3): Radio Services",
-              "pamphlet_summary": "Radio Services: It shows where the various users of the radio spectrum (\"services\") fit (p. 20).",
+              "topic_title": "Req 2a(3): Radio Spectrum Service Allocations",
+              "pamphlet_summary": "Radio Spectrum Service Allocations: Scouts plot distinct operational allocations across the chart including AM broadcast in the MF band, FM broadcast and television in VHF and UHF, and digital technologies like Wi-Fi and Bluetooth near 2.4 GHz. The chart must also feature public safety channels, citizens band near 27 MHz, and four designated amateur bands like 80, 40, 20, and 2 meters (p. 20).",
               "pamphlet_excerpts": [
-                "Radio Services: It shows where the various users of the radio spectrum (\"services\") fit (p. 20)."
+                "Radio Spectrum Service Allocations: Scouts plot distinct operational allocations across the chart including AM broadcast in the MF band, FM broadcast and television in VHF and UHF, and digital technologies like Wi-Fi and Bluetooth near 2.4 GHz. The chart must also feature public safety channels, citizens band near 27 MHz, and four designated amateur bands like 80, 40, 20, and 2 meters (p. 20)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "Why do long-distance AM broadcasts use the lower MF band while high-data signals like Wi-Fi use microwaves?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -762,8 +771,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 2b(1), many Scouts assume definition of radio only requires a general overview rather than specific details on the definition of radio.",
-                "fact": "The official Radio pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document definition of radio and explain the definition of radio during counselor review."
+                "misconception": "Radio waves are acoustic pressure vibrations identical to the audible sound waves produced by human vocal cords.",
+                "fact": "Radio waves are electromagnetic energy fields composed of oscillating electric and magnetic waves traveling through the vacuum of space."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -789,14 +798,17 @@
               "id": "2b(1)",
               "sub_req_label": "2b(1)",
               "sub_req_text": "The definition of radio.",
-              "topic_title": "Req 2b(1): Definition of Radio",
-              "pamphlet_summary": "Definition of Radio: The Radio pamphlet for Requirement 2b(1) details the definition of radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+              "topic_title": "Req 2b(1): Fundamental Definition of Radio",
+              "pamphlet_summary": "Fundamental Definition of Radio: Radio is defined as the transmission and reception of electrical signals through space by means of electromagnetic waves without connecting wires. An electrical current oscillating in a transmitting antenna radiates energy that induces a corresponding signal in a receiving antenna (p. 9).",
               "pamphlet_excerpts": [
-                "Definition of Radio: The Radio pamphlet for Requirement 2b(1) details the definition of radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+                "Fundamental Definition of Radio: Radio is defined as the transmission and reception of electrical signals through space by means of electromagnetic waves without connecting wires. An electrical current oscillating in a transmitting antenna radiates energy that induces a corresponding signal in a receiving antenna (p. 9)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "How does a radio station send music across miles of empty air when sound waves cannot travel that far?"
+              ]
             },
             {
               "sub_id": "2b(2)",
@@ -837,8 +849,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 2b(2) (Broadcast Radio and Two-way Radio), Scouts sometimes overlook the concrete pamphlet benchmarks covering the differences between broadcast radio and two-way radio.",
-                "fact": "Counselor verification for Radio Requirement 2b(2) requires concrete workbook evidence on broadcast radio and two-way radio, specifically addressing the differences between broadcast radio and two-way radio."
+                "misconception": "A car radio and a police walkie-talkie operate with the exact same transmission circuitry.",
+                "fact": "Standard broadcast radios contain only receiver circuits, while two-way radios combine both a transmitter and a receiver in a single transceiver."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -864,14 +876,17 @@
               "id": "2b(2)",
               "sub_req_label": "2b(2)",
               "sub_req_text": "The differences between broadcast radio and two-way radio.",
-              "topic_title": "Req 2b(2): Broadcast Radio and Two-way Radio",
-              "pamphlet_summary": "Broadcast Radio and Two-way Radio: The Radio pamphlet for Requirement 2b(2) details the differences between broadcast radio and two-way radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+              "topic_title": "Req 2b(2): Broadcast and Two-Way Systems",
+              "pamphlet_summary": "Broadcast and Two-Way Systems: Broadcast systems feature high-powered transmitters sending one-way programming to unlimited anonymous listeners who cannot reply over the air. In contrast, two-way systems use transceivers allowing specific operators to alternate between sending and receiving messages on a shared frequency (p. 12).",
               "pamphlet_excerpts": [
-                "Broadcast Radio and Two-way Radio: The Radio pamphlet for Requirement 2b(2) details the differences between broadcast radio and two-way radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+                "Broadcast and Two-Way Systems: Broadcast systems feature high-powered transmitters sending one-way programming to unlimited anonymous listeners who cannot reply over the air. In contrast, two-way systems use transceivers allowing specific operators to alternate between sending and receiving messages on a shared frequency (p. 12)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "What equipment change is needed when switching from simply listening to a signal to having a two-way conversation?"
+              ]
             },
             {
               "sub_id": "2b(3)",
@@ -908,8 +923,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 20, p. 24)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 2b(3), a common mistake in commercial broadcast radio and hobby is treating the differences between commercial broadcast radio and hobby radio as optional background reading.",
-                "fact": "Mastering Radio Requirement 2b(3) means following the pamphlet standard for commercial broadcast radio and hobby and recording accurate notes on the differences between commercial broadcast radio and hobby radio."
+                "misconception": "Amateur radio operators can legally sell commercial products and broadcast advertisements over their personal stations.",
+                "fact": "Federal regulations strictly prohibit amateur radio operators from broadcasting commercial advertisements or earning compensation for on-air operations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -935,14 +950,17 @@
               "id": "2b(3)",
               "sub_req_label": "2b(3)",
               "sub_req_text": "The differences between commercial broadcast radio and hobby radio.",
-              "topic_title": "Req 2b(3): Commercial Broadcast Radio and Hobby",
-              "pamphlet_summary": "Commercial Broadcast Radio and Hobby: The Radio pamphlet for Requirement 2b(3) details the differences between commercial broadcast radio and hobby radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20).",
+              "topic_title": "Req 2b(3): Commercial Versus Hobby Radio",
+              "pamphlet_summary": "Commercial Versus Hobby Radio: Commercial broadcasting operates as a business enterprise funded by advertisements to entertain and inform general public audiences on fixed licensed frequencies. Hobby radio encompasses personal communications, technical experimentation, and community emergency support without monetary compensation or commercial advertising (p. 14).",
               "pamphlet_excerpts": [
-                "Commercial Broadcast Radio and Hobby: The Radio pamphlet for Requirement 2b(3) details the differences between commercial broadcast radio and hobby radio, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 20)."
+                "Commercial Versus Hobby Radio: Commercial broadcasting operates as a business enterprise funded by advertisements to entertain and inform general public audiences on fixed licensed frequencies. Hobby radio encompasses personal communications, technical experimentation, and community emergency support without monetary compensation or commercial advertising (p. 14)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p020_img1.png",
               "workbook_diagram_caption": "A youth transmits a message using a handheld microphone and radio.",
-              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio."
+              "workbook_visual_caption": "A youth transmits a message using a handheld microphone and radio.",
+              "socratic_questions": [
+                "Why does the government forbid advertising and business transactions on frequencies reserved for amateur radio?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3778,8 +3796,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8a(1), many Scouts assume fcc has an amateur radio only requires a general overview rather than specific details on why the fcc has an amateur radio service.",
-                "fact": "The official Radio pamphlet for Requirement 8a(1) specifies that Scouts must thoroughly document fcc has an amateur radio and explain why the fcc has an amateur radio service during counselor review."
+                "misconception": "Amateur radio exists merely as an unregulated playground for casual chatters without formal rules.",
+                "fact": "The FCC establishes clear statutory objectives in Part 97 rules to maintain amateur radio as a trained public service and technical reserve."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3805,14 +3823,17 @@
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
               "sub_req_text": "Tell why the FCC has an amateur radio service. Describe activities that amateur radio operators can do on the air, once they have earned an amateur radio license.",
-              "topic_title": "Req 8a(1): FCC Has An Amateur Radio",
-              "pamphlet_summary": "FCC Has An Amateur Radio: The Radio pamphlet for Requirement 8a(1) details why the FCC has an amateur radio service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(1): Amateur Radio Purpose and Activities",
+              "pamphlet_summary": "Amateur Radio Purpose and Activities: The Federal Communications Commission created the Amateur Radio Service to advance radio technology, develop trained electronics technicians, foster international goodwill, and supply emergency communications during disasters. Licensed operators participate in worldwide contacts, high-speed contests, satellite communications, digital messaging, and direction-finding fox hunts (p. 47).",
               "pamphlet_excerpts": [
-                "FCC Has An Amateur Radio: The Radio pamphlet for Requirement 8a(1) details why the FCC has an amateur radio service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Amateur Radio Purpose and Activities: The Federal Communications Commission created the Amateur Radio Service to advance radio technology, develop trained electronics technicians, foster international goodwill, and supply emergency communications during disasters. Licensed operators participate in worldwide contacts, high-speed contests, satellite communications, digital messaging, and direction-finding fox hunts (p. 47)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "When standard cell towers and internet lines fail during a hurricane, how can licensed amateur radio volunteers step in?"
+              ]
             },
             {
               "sub_id": "8a(2)",
@@ -3851,8 +3872,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8a(2) (Technician General and Extra Class), Scouts sometimes overlook the concrete pamphlet benchmarks covering differences between the technician, general, and extra class license requirements and privileges.",
-                "fact": "Counselor verification for Radio Requirement 8a(2) requires concrete workbook evidence on technician general and extra class, specifically addressing differences between the technician, general, and extra class license requirements and privileges."
+                "misconception": "Scouts must pass a mandatory Morse code speed test before earning an entry-level amateur radio license.",
+                "fact": "The FCC completely eliminated the Morse code testing requirement for all amateur license classes in 2007."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3878,14 +3899,17 @@
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
               "sub_req_text": "Explain differences between the Technician, General, and Extra Class license requirements and privileges. Explain who administers amateur radio exams.",
-              "topic_title": "Req 8a(2): Technician General and Extra Class",
-              "pamphlet_summary": "Technician General and Extra Class: The Radio pamphlet for Requirement 8a(2) details differences between the Technician, General, and Extra Class license requirements and privileges, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(2): Amateur Radio Licensing Structure",
+              "pamphlet_summary": "Amateur Radio Licensing Structure: The progressive license structure begins with the Technician license covering basic theory for VHF and UHF privileges, followed by General which unlocks worldwide HF communications, and culminates in Amateur Extra granting all authorized frequencies. Accredited Volunteer Examiners administer these exams in local sessions under the oversight of a certified Volunteer Examiner Coordinator (p. 50).",
               "pamphlet_excerpts": [
-                "Technician General and Extra Class: The Radio pamphlet for Requirement 8a(2) details differences between the Technician, General, and Extra Class license requirements and privileges, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Amateur Radio Licensing Structure: The progressive license structure begins with the Technician license covering basic theory for VHF and UHF privileges, followed by General which unlocks worldwide HF communications, and culminates in Amateur Extra granting all authorized frequencies. Accredited Volunteer Examiners administer these exams in local sessions under the oversight of a certified Volunteer Examiner Coordinator (p. 50)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "Who evaluates your exam answers at an amateur radio test session, and why does the FCC rely on them?"
+              ]
             },
             {
               "sub_id": "8a(3)",
@@ -3926,8 +3950,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 8a(3), a common mistake in signals or amateur radio is treating at least five q signals or amateur radio terms as optional background reading.",
-                "fact": "Mastering Radio Requirement 8a(3) means following the pamphlet standard for signals or amateur radio and recording accurate notes on at least five q signals or amateur radio terms."
+                "misconception": "Q codes are secret encryptions used to hide message content from unauthorized listeners on the air.",
+                "fact": "Q codes are universal shorthand abbreviations designed to speed up communication and overcome language barriers across international operators."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3953,14 +3977,17 @@
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
               "sub_req_text": "Explain at least five Q signals or amateur radio terms.",
-              "topic_title": "Req 8a(3): Signals or Amateur Radio",
-              "pamphlet_summary": "Signals or Amateur Radio: The Radio pamphlet for Requirement 8a(3) details at least five Q signals or amateur radio terms, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(3): Amateur Radio Operating Terminology",
+              "pamphlet_summary": "Amateur Radio Operating Terminology: Scouts master standard three-letter Q codes that function as concise questions when followed by a question mark or statements when sent alone, such as QTH for location, QSL for confirmation, and QRM for interference. Additional core terms include CQ for general calling and the traditional closing salutation 73 for best regards (p. 55).",
               "pamphlet_excerpts": [
-                "Signals or Amateur Radio: The Radio pamphlet for Requirement 8a(3) details at least five Q signals or amateur radio terms, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Amateur Radio Operating Terminology: Scouts master standard three-letter Q codes that function as concise questions when followed by a question mark or statements when sent alone, such as QTH for location, QSL for confirmation, and QRM for interference. Additional core terms include CQ for general calling and the traditional closing salutation 73 for best regards (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "How do standardized three-letter abbreviations help two operators communicate when they do not speak the same native language?"
+              ]
             },
             {
               "sub_id": "8a(4)",
@@ -3996,8 +4023,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "During Radio Requirement 8a(4), Scouts can underestimate how directly mastery of make an emergency call on voice depends on understanding how you would make an emergency call on voice or morse code.",
-                "fact": "Scouting America standards for Radio Requirement 8a(4) require complete workbook entries on make an emergency call on voice to demonstrate full understanding of how you would make an emergency call on voice or morse code."
+                "misconception": "An operator should send distress calls on every available frequency at once without pausing to listen for responses.",
+                "fact": "Effective emergency procedures require transmitting on established emergency frequencies and pausing regularly to listen for responding stations."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4023,15 +4050,18 @@
               "id": "8a(4)",
               "sub_req_label": "8a(4)",
               "sub_req_text": "Explain how you would make an emergency call on voice or Morse code. Resources: How To Use Your VHF Marine Radio To Call for Help in a Boat Emergency (video) Ham Radio Disaster Messaging Demo (video) Using Ham Radio To Call for Help in an Emergency, What You Should Do! (video)",
-              "topic_title": "Req 8a(4): Make an emergency call on voice",
-              "pamphlet_summary": "Make an emergency call on voice: The Radio pamphlet for Requirement 8a(4) details how you would make an emergency call on voice or Morse code, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(4): Emergency Radio Distress Procedures",
+              "pamphlet_summary": "Emergency Radio Distress Procedures: Voice distress calls use the word Mayday repeated three times for life-threatening situations on maritime or aviation channels, while ham operators state Emergency or Break Break followed by call sign, exact coordinates, nature of distress, and required assistance. On Morse code, operators send the continuous prosign SOS without spacing between letters before transmitting vital station details (p. 59).",
               "pamphlet_excerpts": [
-                "Make an emergency call on voice: The Radio pamphlet for Requirement 8a(4) details how you would make an emergency call on voice or Morse code, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Emergency Radio Distress Procedures: Voice distress calls use the word Mayday repeated three times for life-threatening situations on maritime or aviation channels, while ham operators state Emergency or Break Break followed by call sign, exact coordinates, nature of distress, and required assistance. On Morse code, operators send the continuous prosign SOS without spacing between letters before transmitting vital station details (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
-              "title": "Req 8a(4): Make an emergency call on voice",
+              "title": "Req 8a(4): Emergency Radio Distress Procedures",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "What essential pieces of information must you transmit during a distress call to help rescuers locate you quickly?"
+              ]
             },
             {
               "sub_id": "8a(5)",
@@ -4070,8 +4100,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8a(5), many Scouts assume handheld mobile and base station only requires a general overview rather than specific details on the differences between handheld, mobile, and base station transceivers and their uses.",
-                "fact": "The official Radio pamphlet for Requirement 8a(5) specifies that Scouts must thoroughly document handheld mobile and base station and explain the differences between handheld, mobile, and base station transceivers and their uses during counselor review."
+                "misconception": "A handheld radio can achieve the same direct transmission range over mountain ranges as a high-powered base station.",
+                "fact": "Handheld transceivers are limited by compact antennas and low battery power, requiring repeaters on elevated terrain to bridge long distances."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4097,14 +4127,17 @@
               "id": "8a(5)",
               "sub_req_label": "8a(5)",
               "sub_req_text": "Explain the differences between handheld, mobile, and base station transceivers and their uses. Explain the use of amateur radio repeaters.",
-              "topic_title": "Req 8a(5): Handheld Mobile and Base Station",
-              "pamphlet_summary": "Handheld Mobile and Base Station: The Radio pamphlet for Requirement 8a(5) details the differences between handheld, mobile, and base station transceivers and their uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(5): Transceiver Categories and Repeaters",
+              "pamphlet_summary": "Transceiver Categories and Repeaters: Handheld units are portable low-power transceivers running on batteries, mobile units operate from vehicles using 12-volt systems with moderate power, and base stations provide high power and permanent desktop setups for long-distance operation. Repeaters located on high towers or peaks listen on an input frequency and simultaneously retransmit on an output frequency to extend local communications over terrain obstacles (p. 64).",
               "pamphlet_excerpts": [
-                "Handheld Mobile and Base Station: The Radio pamphlet for Requirement 8a(5) details the differences between handheld, mobile, and base station transceivers and their uses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Transceiver Categories and Repeaters: Handheld units are portable low-power transceivers running on batteries, mobile units operate from vehicles using 12-volt systems with moderate power, and base stations provide high power and permanent desktop setups for long-distance operation. Repeaters located on high towers or peaks listen on an input frequency and simultaneously retransmit on an output frequency to extend local communications over terrain obstacles (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "How does placing an automated relay station on top of a mountain help two Scouts with small handheld radios talk across a valley?"
+              ]
             },
             {
               "sub_id": "8a(6)",
@@ -4142,8 +4175,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8a(6) (Using Proper Call Signs Q Signals), Scouts sometimes overlook the concrete pamphlet benchmarks covering using proper call signs, q signals, and abbreviations, carry on a 10-minute real or simulated amateur.",
-                "fact": "Counselor verification for Radio Requirement 8a(6) requires concrete workbook evidence on using proper call signs q signals, specifically addressing using proper call signs, q signals, and abbreviations, carry on a 10-minute real or simulated amateur."
+                "misconception": "Amateur radio operators can invent their own informal station nicknames instead of transmitting their government-assigned call signs.",
+                "fact": "FCC rules require stations to identify using their officially assigned call signs at the end of each communication and at regular intervals."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4169,15 +4202,18 @@
               "id": "8a(6)",
               "sub_req_label": "8a(6)",
               "sub_req_text": "Using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact using voice, Morse code, or digital mode. Properly log the real or simulated amateur radio contact, and record the signal report. Note: Licensed amateur radio operators may substitute five QSL cards as evidence of contacts with five amateur radio operators.",
-              "topic_title": "Req 8a(6): Using Proper Call Signs Q Signals",
-              "pamphlet_summary": "Using Proper Call Signs Q Signals: The Radio pamphlet for Requirement 8a(6) details using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8a(6): On-Air Contact and Logging Protocol",
+              "pamphlet_summary": "On-Air Contact and Logging Protocol: Scouts conduct a structured 10-minute contact by identifying with proper call signs, exchanging names, locations, and RST signal reports using phonetic letters or Q signals. Every entry must be recorded in an official station log book noting date, UTC time, frequency band, operating mode, and exchange data (p. 70).",
               "pamphlet_excerpts": [
-                "Using Proper Call Signs Q Signals: The Radio pamphlet for Requirement 8a(6) details using proper call signs, Q signals, and abbreviations, carry on a 10-minute real or simulated amateur radio contact, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "On-Air Contact and Logging Protocol: Scouts conduct a structured 10-minute contact by identifying with proper call signs, exchanging names, locations, and RST signal reports using phonetic letters or Q signals. Every entry must be recorded in an official station log book noting date, UTC time, frequency band, operating mode, and exchange data (p. 70)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p042_img1.png",
-              "title": "Req 8a(6): Using Proper Call Signs Q Signals",
+              "title": "Req 8a(6): On-Air Contact and Logging Protocol",
               "workbook_diagram_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
-              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies."
+              "workbook_visual_caption": "A Scout tunes a mobile radio transceiver to monitor local frequencies.",
+              "socratic_questions": [
+                "What key information belongs in a radio logbook to prove a valid two-way contact occurred?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -4299,8 +4335,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8b(1), many Scouts assume fcc broadcast regulations only requires a general overview rather than specific details on fcc broadcast regulations.",
-                "fact": "The official Radio pamphlet for Requirement 8b(1) specifies that Scouts must thoroughly document fcc broadcast regulations and explain fcc broadcast regulations during counselor review."
+                "misconception": "Anyone can set up an FM radio transmitter in their backyard at any power level without government approval.",
+                "fact": "The FCC strictly mandates licensing and sets stringent power limits on all transmitters to prevent interference with authorized broadcasts."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4326,15 +4362,18 @@
               "id": "8b(1)",
               "sub_req_label": "8b(1)",
               "sub_req_text": "Discuss with your counselor FCC broadcast regulations. Include power levels, frequencies, and the regulations for low-power stations.",
-              "topic_title": "Req 8b(1): FCC Broadcast Regulations",
-              "pamphlet_summary": "FCC Broadcast Regulations: Using relatively simple receivers, you can pick up many shortwave broadcast (SWB) stations (p. 72).",
+              "topic_title": "Req 8b(1): Federal Broadcast Station Regulations",
+              "pamphlet_summary": "Federal Broadcast Station Regulations: Commercial AM and FM stations operate under strict FCC licenses regulating carrier frequency, directional antennas, and effective radiated power up to 50,000 watts for AM or 100,000 watts for FM. Low-power FM stations operate at 100 watts or less for non-commercial educational communities, while Part 15 unlicensed devices must stay below minute milliwatt thresholds without creating interference (p. 75).",
               "pamphlet_excerpts": [
-                "FCC Broadcast Regulations: Using relatively simple receivers, you can pick up many shortwave broadcast (SWB) stations (p. 72)."
+                "Federal Broadcast Station Regulations: Commercial AM and FM stations operate under strict FCC licenses regulating carrier frequency, directional antennas, and effective radiated power up to 50,000 watts for AM or 100,000 watts for FM. Low-power FM stations operate at 100 watts or less for non-commercial educational communities, while Part 15 unlicensed devices must stay below minute milliwatt thresholds without creating interference (p. 75)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p060_img1.png",
-              "title": "Req 8b(1): FCC Broadcast Regulations",
+              "title": "Req 8b(1): Federal Broadcast Station Regulations",
               "workbook_diagram_caption": "A studio broadcast microphone captures vocal audio for transmission.",
-              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission."
+              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission.",
+              "socratic_questions": [
+                "What would happen to your favorite local radio station if anyone in town could broadcast at any frequency and power level they wanted?"
+              ]
             },
             {
               "sub_id": "8b(2)",
@@ -4375,8 +4414,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8b(2) (Schedule for Radio Station KBSA), Scouts sometimes overlook the concrete pamphlet benchmarks covering a program schedule for radio station \"kbsa\" of exactly one-half hour, including music, news.",
-                "fact": "Counselor verification for Radio Requirement 8b(2) requires concrete workbook evidence on schedule for radio station kbsa, specifically addressing a program schedule for radio station \"kbsa\" of exactly one-half hour, including music, news."
+                "misconception": "Broadcast radio hosts can casually estimate program segment lengths without tracking seconds on a studio clock.",
+                "fact": "Professional broadcast schedules must match exact broadcast clocks so network news feeds and commercials air at precise coordinated seconds."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4402,14 +4441,17 @@
               "id": "8b(2)",
               "sub_req_label": "8b(2)",
               "sub_req_text": "Prepare a program schedule for radio station \"KBSA\" of exactly one-half hour, including music, news, commercials, and proper station identification. Record your program on audiotape or in a digital audio format, using proper techniques.",
-              "topic_title": "Req 8b(2): Schedule for Radio Station KBSA",
-              "pamphlet_summary": "Schedule for Radio Station KBSA: The Radio pamphlet for Requirement 8b(2) details a program schedule for radio station \"KBSA\" of exactly one-half hour, including music, news, commercials, and proper station, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8b(2): Half-Hour Broadcast Production Schedule",
+              "pamphlet_summary": "Half-Hour Broadcast Production Schedule: Scouts construct a precise 30-minute broadcast clock allocating exact seconds to songs, news summaries, commercials, public service announcements, and required legal station identification at the top of the hour. The production is recorded digitally using consistent microphone distance, clean audio levels, and smooth transitions between audio segments (p. 78).",
               "pamphlet_excerpts": [
-                "Schedule for Radio Station KBSA: The Radio pamphlet for Requirement 8b(2) details a program schedule for radio station \"KBSA\" of exactly one-half hour, including music, news, commercials, and proper station, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Half-Hour Broadcast Production Schedule: Scouts construct a precise 30-minute broadcast clock allocating exact seconds to songs, news summaries, commercials, public service announcements, and required legal station identification at the top of the hour. The production is recorded digitally using consistent microphone distance, clean audio levels, and smooth transitions between audio segments (p. 78)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p060_img1.png",
               "workbook_diagram_caption": "A studio broadcast microphone captures vocal audio for transmission.",
-              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission."
+              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission.",
+              "socratic_questions": [
+                "Why must a radio broadcast schedule be planned down to the exact second rather than just roughly estimated?"
+              ]
             },
             {
               "sub_id": "8b(3)",
@@ -4450,8 +4492,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 8b(3), a common mistake in listen to and properly log 15 is treating listen to and properly log 15 broadcast stations as optional background reading.",
-                "fact": "Mastering Radio Requirement 8b(3) means following the pamphlet standard for listen to and properly log 15 and recording accurate notes on listen to and properly log 15 broadcast stations."
+                "misconception": "Every commercial radio station designs its programming to appeal equally to all age groups and demographics.",
+                "fact": "Commercial stations tailor their music and talk formats to attract specific listener age brackets and consumer demographics for advertisers."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4477,14 +4519,17 @@
               "id": "8b(3)",
               "sub_req_label": "8b(3)",
               "sub_req_text": "Listen to and properly log 15 broadcast stations. Determine the program format and target audience for five of these stations.",
-              "topic_title": "Req 8b(3): Listen to and properly log 15",
-              "pamphlet_summary": "Listen to and properly log 15: These stations are fun to listen to, and many shortwave listeners (SWLs) spend all of their listening time on SWB stations (p. 72).",
+              "topic_title": "Req 8b(3): Broadcast Monitoring and Demographic Analysis",
+              "pamphlet_summary": "Broadcast Monitoring and Demographic Analysis: Scouts monitor the dial to log 15 separate broadcast stations, noting call signs, dial frequency, received signal clarity, and city of origin. For five selected stations, Scouts analyze programming style like country, talk, or classical and identify the demographic audience advertisers seek to reach (p. 82).",
               "pamphlet_excerpts": [
-                "Listen to and properly log 15: These stations are fun to listen to, and many shortwave listeners (SWLs) spend all of their listening time on SWB stations (p. 72)."
+                "Broadcast Monitoring and Demographic Analysis: Scouts monitor the dial to log 15 separate broadcast stations, noting call signs, dial frequency, received signal clarity, and city of origin. For five selected stations, Scouts analyze programming style like country, talk, or classical and identify the demographic audience advertisers seek to reach (p. 82)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p060_img1.png",
               "workbook_diagram_caption": "A studio broadcast microphone captures vocal audio for transmission.",
-              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission."
+              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission.",
+              "socratic_questions": [
+                "How does the type of commercials played on a radio station give clues about the specific audience listening to that broadcast?"
+              ]
             },
             {
               "sub_id": "8b(4)",
@@ -4521,8 +4566,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "During Radio Requirement 8b(4), Scouts can underestimate how directly mastery of used in commercial broadcasting depends on understanding at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote.",
-                "fact": "Scouting America standards for Radio Requirement 8b(4) require complete workbook entries on used in commercial broadcasting to demonstrate full understanding of at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote."
+                "misconception": "Dead air is simply any planned pause between songs or spoken station identifications.",
+                "fact": "Dead air is an accidental, unintended silence caused by operator error or technical failure that broadcast engineers work diligently to avoid."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4548,14 +4593,17 @@
               "id": "8b(4)",
               "sub_req_label": "8b(4)",
               "sub_req_text": "Explain to your counselor at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, network, cue, dead air, PSA, and playlist.",
-              "topic_title": "Req 8b(4): Used in Commercial Broadcasting",
-              "pamphlet_summary": "Used in Commercial Broadcasting: The Radio pamphlet for Requirement 8b(4) details at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8b(4): Commercial Radio Broadcasting Terminology",
+              "pamphlet_summary": "Commercial Radio Broadcasting Terminology: Commercial broadcast personnel rely on standard control room jargon to direct on-air timing, music transitions, and regulatory alerts without hesitation. Operators track program continuity and playlists while avoiding dead air to keep audio moving smoothly between studio segments and field remotes (p. 54).",
               "pamphlet_excerpts": [
-                "Used in Commercial Broadcasting: The Radio pamphlet for Requirement 8b(4) details at least eight terms used in commercial broadcasting, such as segue, cut, fade, continuity, remote, Emergency Alert System, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Commercial Radio Broadcasting Terminology: Commercial broadcast personnel rely on standard control room jargon to direct on-air timing, music transitions, and regulatory alerts without hesitation. Operators track program continuity and playlists while avoiding dead air to keep audio moving smoothly between studio segments and field remotes (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p060_img1.png",
               "workbook_diagram_caption": "A studio broadcast microphone captures vocal audio for transmission.",
-              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission."
+              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission.",
+              "socratic_questions": [
+                "Why do commercial station operators treat unplanned silence on the air as an urgent emergency rather than a casual pause?"
+              ]
             },
             {
               "sub_id": "8b(5)",
@@ -4592,8 +4640,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8b(5), many Scouts assume alternative radio platforms such as internet streaming only requires a general overview rather than specific details on alternative radio platforms such as internet streaming, satellite radio, and podcasts.",
-                "fact": "The official Radio pamphlet for Requirement 8b(5) specifies that Scouts must thoroughly document alternative radio platforms such as internet streaming and explain alternative radio platforms such as internet streaming, satellite radio, and podcasts during counselor review."
+                "misconception": "Satellite radio receivers pick up standard terrestrial AM and FM broadcasts boosted by orbital repeaters.",
+                "fact": "Satellite radio uses dedicated digital microwave downlinks from geostationary or geosynchronous satellites directly to specialized subscriber decoders."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4619,15 +4667,18 @@
               "id": "8b(5)",
               "sub_req_label": "8b(5)",
               "sub_req_text": "Discuss with your counselor alternative radio platforms such as internet streaming, satellite radio, and podcasts.",
-              "topic_title": "Req 8b(5): Alternative Radio Platforms Such as Internet Streaming",
-              "pamphlet_summary": "Alternative Radio Platforms Such as Internet Streaming: The Radio pamphlet for Requirement 8b(5) details alternative radio platforms such as internet streaming, satellite radio, and podcasts, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8b(5): Alternative Audio Broadcasting Platforms",
+              "pamphlet_summary": "Alternative Audio Broadcasting Platforms: Digital audio platforms expand listening options beyond traditional terrestrial towers through internet streams, direct satellite downlinks, and on-demand podcasts. Each delivery method uses distinct data compression codecs and network infrastructures to distribute audio content to listeners (p. 57).",
               "pamphlet_excerpts": [
-                "Alternative Radio Platforms Such as Internet Streaming: The Radio pamphlet for Requirement 8b(5) details alternative radio platforms such as internet streaming, satellite radio, and podcasts, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Alternative Audio Broadcasting Platforms: Digital audio platforms expand listening options beyond traditional terrestrial towers through internet streams, direct satellite downlinks, and on-demand podcasts. Each delivery method uses distinct data compression codecs and network infrastructures to distribute audio content to listeners (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p060_img1.png",
-              "title": "Req 8b(5): Alternative Radio Platforms Such as Internet Streaming",
+              "title": "Req 8b(5): Alternative Audio Broadcasting Platforms",
               "workbook_diagram_caption": "A studio broadcast microphone captures vocal audio for transmission.",
-              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission."
+              "workbook_visual_caption": "A studio broadcast microphone captures vocal audio for transmission.",
+              "socratic_questions": [
+                "How does receiving a show through an on-demand podcast differ technically from listening to a real-time broadcast over the air?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -4751,8 +4802,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8c(1), many Scouts assume across several shortwave bands only requires a general overview rather than specific details on listen across several shortwave bands for four one-hour periods-at least one period during daylight.",
-                "fact": "The official Radio pamphlet for Requirement 8c(1) specifies that Scouts must thoroughly document across several shortwave bands and explain listen across several shortwave bands for four one-hour periods-at least one period during daylight during counselor review."
+                "misconception": "A shortwave radio log only requires recording local clock time and station call letters.",
+                "fact": "International radio logging requires recording Universal Coordinated Time along with exact frequency, signal quality, and transmitter coordinates to accurately track global propagation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4778,14 +4829,17 @@
               "id": "8c(1)",
               "sub_req_label": "8c(1)",
               "sub_req_text": "Listen across several shortwave bands for four one-hour periods-at least one period during daylight hours and at least one period at night. Log the stations properly and locate them geographically on a map, globe, or web-based mapping service.",
-              "topic_title": "Req 8c(1): Across Several Shortwave Bands",
-              "pamphlet_summary": "Across Several Shortwave Bands: Using relatively simple receivers, you can pick up many shortwave broadcast (SWB) stations (p. 72).",
+              "topic_title": "Req 8c(1): Shortwave Band Monitoring and Logging",
+              "pamphlet_summary": "Shortwave Band Monitoring and Logging: Shortwave listeners tune across high frequency bands between 3 and 30 megahertz to capture distant domestic and international transmissions. Complete station log entries must capture the date, Universal Coordinated Time, tuned frequency, program details, and transmitter location (p. 60).",
               "pamphlet_excerpts": [
-                "Across Several Shortwave Bands: Using relatively simple receivers, you can pick up many shortwave broadcast (SWB) stations (p. 72)."
+                "Shortwave Band Monitoring and Logging: Shortwave listeners tune across high frequency bands between 3 and 30 megahertz to capture distant domestic and international transmissions. Complete station log entries must capture the date, Universal Coordinated Time, tuned frequency, program details, and transmitter location (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p073_img1.png",
               "workbook_diagram_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
-              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts."
+              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
+              "socratic_questions": [
+                "Why do international shortwave monitors log reception times in Universal Coordinated Time instead of local wall-clock time?"
+              ]
             },
             {
               "sub_id": "8c(2)",
@@ -4826,8 +4880,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8c(2) (Several Medium-wave Stations for Two), Scouts sometimes overlook the concrete pamphlet benchmarks covering listen to several medium-wave stations for two one-hour periods, one period during daylight hours.",
-                "fact": "Counselor verification for Radio Requirement 8c(2) requires concrete workbook evidence on several medium-wave stations for two, specifically addressing listen to several medium-wave stations for two one-hour periods, one period during daylight hours."
+                "misconception": "AM broadcast stations transmit further during the day because direct solar energy energizes the radio waves.",
+                "fact": "Daytime solar radiation creates an ionospheric D layer that absorbs medium-wave signals, severely limiting reception to local ground waves until nightfall."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4853,14 +4907,17 @@
               "id": "8c(2)",
               "sub_req_label": "8c(2)",
               "sub_req_text": "Listen to several medium-wave stations for two one-hour periods, one period during daylight hours and one period at night. Log the stations properly and locate them on a map, globe, or web-based mapping service.",
-              "topic_title": "Req 8c(2): Several Medium-wave Stations for Two",
-              "pamphlet_summary": "Several Medium-wave Stations for Two: These stations are fun to listen to, and many shortwave listeners (SWLs) spend all of their listening time on SWB stations (p. 72).",
+              "topic_title": "Req 8c(2): Medium Wave Broadcast Station Logging",
+              "pamphlet_summary": "Medium Wave Broadcast Station Logging: Medium-wave monitoring focuses on standard AM broadcast frequencies between 530 and 1710 kilohertz during contrasting solar conditions. Scouts document call signs, carrier frequencies, signal strengths, and geographic origins to observe terrestrial versus atmospheric reception patterns (p. 62).",
               "pamphlet_excerpts": [
-                "Several Medium-wave Stations for Two: These stations are fun to listen to, and many shortwave listeners (SWLs) spend all of their listening time on SWB stations (p. 72)."
+                "Medium Wave Broadcast Station Logging: Medium-wave monitoring focuses on standard AM broadcast frequencies between 530 and 1710 kilohertz during contrasting solar conditions. Scouts document call signs, carrier frequencies, signal strengths, and geographic origins to observe terrestrial versus atmospheric reception patterns (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p073_img1.png",
               "workbook_diagram_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
-              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts."
+              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
+              "socratic_questions": [
+                "What differences do you expect to hear on the standard AM dial at noon compared to midnight?"
+              ]
             },
             {
               "sub_id": "8c(3)",
@@ -4907,8 +4964,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 8c(3), a common mistake in daytime and nighttime logs note is treating compare your daytime and nighttime logs as optional background reading.",
-                "fact": "Mastering Radio Requirement 8c(3) means following the pamphlet standard for daytime and nighttime logs note and recording accurate notes on compare your daytime and nighttime logs."
+                "misconception": "All shortwave frequencies propagate best at night because the atmosphere cools down.",
+                "fact": "Higher shortwave frequencies escape into space at night without sufficient solar ionization to refract them back to Earth."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4934,14 +4991,17 @@
               "id": "8c(3)",
               "sub_req_label": "8c(3)",
               "sub_req_text": "Compare your daytime and nighttime logs; note the frequencies on which your selected stations were loudest during each session. Explain differences in the signal strength from one period to the next.",
-              "topic_title": "Req 8c(3): Daytime and Nighttime Logs Note",
-              "pamphlet_summary": "Daytime and Nighttime Logs Note: The Radio pamphlet for Requirement 8c(3) details compare your daytime and nighttime logs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8c(3): Diurnal Signal Strength Variations",
+              "pamphlet_summary": "Diurnal Signal Strength Variations: Solar radiation alters ionospheric electron density throughout the day, directly affecting which high-frequency bands reflect or absorb radio energy. Higher shortwave frequencies generally support long-distance paths in daytime sunlight, while lower frequencies become effective after dark (p. 63).",
               "pamphlet_excerpts": [
-                "Daytime and Nighttime Logs Note: The Radio pamphlet for Requirement 8c(3) details compare your daytime and nighttime logs, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Diurnal Signal Strength Variations: Solar radiation alters ionospheric electron density throughout the day, directly affecting which high-frequency bands reflect or absorb radio energy. Higher shortwave frequencies generally support long-distance paths in daytime sunlight, while lower frequencies become effective after dark (p. 63)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p073_img1.png",
               "workbook_diagram_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
-              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts."
+              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
+              "socratic_questions": [
+                "Why might a twenty-meter shortwave frequency boom with international signals at midday but fall silent after sunset?"
+              ]
             },
             {
               "sub_id": "8c(4)",
@@ -4982,8 +5042,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "During Radio Requirement 8c(4), Scouts can underestimate how directly mastery of medium-wave broadcast station depends on understanding compare your medium-wave broadcast station logs and explain why some distant stations are heard.",
-                "fact": "Scouting America standards for Radio Requirement 8c(4) require complete workbook entries on medium-wave broadcast station to demonstrate full understanding of compare your medium-wave broadcast station logs and explain why some distant stations are heard."
+                "misconception": "Distant AM stations increase their transmitter output wattage late at night to cover larger listening territories.",
+                "fact": "Many AM stations actually reduce their power or use directional antenna patterns at sunset to prevent interference from nighttime skywave propagation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5009,14 +5069,17 @@
               "id": "8c(4)",
               "sub_req_label": "8c(4)",
               "sub_req_text": "Compare your medium-wave broadcast station logs and explain why some distant stations are heard at your location only during the night.",
-              "topic_title": "Req 8c(4): Medium-wave Broadcast Station",
-              "pamphlet_summary": "Medium-wave Broadcast Station: These stations broadcast in every conceivable language, often 24 hours a day (p. 72).",
+              "topic_title": "Req 8c(4): Nighttime Skywave Propagation Mechanisms",
+              "pamphlet_summary": "Nighttime Skywave Propagation Mechanisms: Medium-wave signals travel strictly as ground waves in daylight because the low-altitude ionospheric D layer absorbs them. At sunset the D layer dissipates, allowing AM signals to reach the higher E and F layers and refract back to Earth hundreds of miles away (p. 64).",
               "pamphlet_excerpts": [
-                "Medium-wave Broadcast Station: These stations broadcast in every conceivable language, often 24 hours a day (p. 72)."
+                "Nighttime Skywave Propagation Mechanisms: Medium-wave signals travel strictly as ground waves in daylight because the low-altitude ionospheric D layer absorbs them. At sunset the D layer dissipates, allowing AM signals to reach the higher E and F layers and refract back to Earth hundreds of miles away (p. 64)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p073_img1.png",
               "workbook_diagram_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
-              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts."
+              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
+              "socratic_questions": [
+                "Why can your car radio pick up an AM station from several states away at night that cannot be heard at noon?"
+              ]
             },
             {
               "sub_id": "8c(5)",
@@ -5059,8 +5122,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8c(5), many Scouts assume listening to a radio broadcast only requires a general overview rather than specific details on listening to a radio broadcast using a smartphone/cell phone.",
-                "fact": "The official Radio pamphlet for Requirement 8c(5) specifies that Scouts must thoroughly document listening to a radio broadcast and explain listening to a radio broadcast using a smartphone/cell phone during counselor review."
+                "misconception": "Listening to a radio station on a smartphone always relies on an internal radio antenna catching radio waves directly through the air.",
+                "fact": "Most smartphones receive radio stations as digitized internet protocol audio packets routed over cellular data or Wi-Fi rather than through over-the-air radio frequency tuners."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5086,14 +5149,17 @@
               "id": "8c(5)",
               "sub_req_label": "8c(5)",
               "sub_req_text": "Demonstrate listening to a radio broadcast using a smartphone/cell phone. Include international broadcasts in your demonstration.",
-              "topic_title": "Req 8c(5): Listening to a radio broadcast",
-              "pamphlet_summary": "Listening to a radio broadcast: The Radio pamphlet for Requirement 8c(5) details listening to a radio broadcast using a smartphone/cell phone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8c(5): Cellular Radio Streaming Demonstration",
+              "pamphlet_summary": "Cellular Radio Streaming Demonstration: Smartphones access global radio programming by receiving digital audio streams transmitted across cellular data networks and local wireless connections. Scouts demonstrate tuning in to overseas broadcasters through station websites, media aggregator applications, or integrated FM receiver chips (p. 66).",
               "pamphlet_excerpts": [
-                "Listening to a radio broadcast: The Radio pamphlet for Requirement 8c(5) details listening to a radio broadcast using a smartphone/cell phone, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Cellular Radio Streaming Demonstration: Smartphones access global radio programming by receiving digital audio streams transmitted across cellular data networks and local wireless connections. Scouts demonstrate tuning in to overseas broadcasters through station websites, media aggregator applications, or integrated FM receiver chips (p. 66)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p073_img1.png",
               "workbook_diagram_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
-              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts."
+              "workbook_visual_caption": "A listener wears stereo headphones to monitor clear radio broadcasts.",
+              "socratic_questions": [
+                "How does receiving a foreign radio station on a phone using cellular data differ from receiving it through a shortwave antenna?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -5211,8 +5277,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8d(1), many Scouts assume amateur radio direction finding only requires a general overview rather than specific details on amateur radio direction finding and explain why direction finding is important as both an activity.",
-                "fact": "The official Radio pamphlet for Requirement 8d(1) specifies that Scouts must thoroughly document amateur radio direction finding and explain amateur radio direction finding and explain why direction finding is important as both an activity during counselor review."
+                "misconception": "Radio direction finding is only an outdoor sporting game with no practical utility in emergency situations.",
+                "fact": "Direction finding techniques are identical to those employed by search and rescue teams tracking emergency locator transmitters from missing aircraft or boaters."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5238,14 +5304,17 @@
               "id": "8d(1)",
               "sub_req_label": "8d(1)",
               "sub_req_text": "Describe amateur radio direction finding and explain why direction finding is important as both an activity and in competition.",
-              "topic_title": "Req 8d(1): Amateur Radio Direction Finding",
-              "pamphlet_summary": "Amateur Radio Direction Finding: The Radio pamphlet for Requirement 8d(1) details amateur radio direction finding and explain why direction finding is important as both an activity and in competition, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8d(1): Amateur Radio Direction Finding Applications",
+              "pamphlet_summary": "Amateur Radio Direction Finding Applications: Amateur radio direction finding combines orienteering navigation with directional signal tracking to locate concealed radio transmitters. The technique serves vital real-world roles in locating downed aircraft emergency beacons, hunting radio interference sources, and staging competitive athletic events (p. 68).",
               "pamphlet_excerpts": [
-                "Amateur Radio Direction Finding: The Radio pamphlet for Requirement 8d(1) details amateur radio direction finding and explain why direction finding is important as both an activity and in competition, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Amateur Radio Direction Finding Applications: Amateur radio direction finding combines orienteering navigation with directional signal tracking to locate concealed radio transmitters. The technique serves vital real-world roles in locating downed aircraft emergency beacons, hunting radio interference sources, and staging competitive athletic events (p. 68)."
               ],
               "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
               "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+              "socratic_questions": [
+                "How could the skills used in a weekend transmitter hunt help emergency personnel locate a lost hiker or downed airplane?"
+              ]
             },
             {
               "sub_id": "8d(2)",
@@ -5282,8 +5351,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8d(2) (Frequencies and Equipment), Scouts sometimes overlook the concrete pamphlet benchmarks covering what frequencies and equipment are used for ardf or fox hunting.",
-                "fact": "Counselor verification for Radio Requirement 8d(2) requires concrete workbook evidence on frequencies and equipment, specifically addressing what frequencies and equipment are used for ardf or fox hunting."
+                "misconception": "Standard omnidirectional walkie-talkie whip antennas indicate signal direction if the operator points the radio tip forward.",
+                "fact": "Omnidirectional antennas receive signals equally from all horizontal directions, requiring specialized directional antennas like Yagis or loops to find a transmitter bearing."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5309,14 +5378,17 @@
               "id": "8d(2)",
               "sub_req_label": "8d(2)",
               "sub_req_text": "Describe what frequencies and equipment are used for ARDF or fox hunting.",
-              "topic_title": "Req 8d(2): Frequencies and Equipment",
-              "pamphlet_summary": "Frequencies and Equipment: The Radio pamphlet for Requirement 8d(2) details what frequencies and equipment are used for ARDF or fox hunting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8d(2): Direction Finding Equipment and Frequencies",
+              "pamphlet_summary": "Direction Finding Equipment and Frequencies: ARDF events predominantly utilize the 80-meter high-frequency band near 3.5 megahertz and the 2-meter very-high-frequency band near 144 megahertz. Participants employ sensitive portable receivers paired with directional antennas such as ferrite loops, shielded loops, or handheld Yagi arrays equipped with signal attenuators (p. 70).",
               "pamphlet_excerpts": [
-                "Frequencies and Equipment: The Radio pamphlet for Requirement 8d(2) details what frequencies and equipment are used for ARDF or fox hunting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Direction Finding Equipment and Frequencies: ARDF events predominantly utilize the 80-meter high-frequency band near 3.5 megahertz and the 2-meter very-high-frequency band near 144 megahertz. Participants employ sensitive portable receivers paired with directional antennas such as ferrite loops, shielded loops, or handheld Yagi arrays equipped with signal attenuators (p. 70)."
               ],
               "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
               "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+              "socratic_questions": [
+                "What happens to the audio tone in your receiver when you rotate a directional antenna toward a hidden transmitter?"
+              ]
             },
             {
               "sub_id": "8d(3)",
@@ -5353,8 +5425,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 8d(3), a common mistake in simple directional antenna is treating build a simple directional antenna for either of the two frequencies used in ardf as optional background reading.",
-                "fact": "Mastering Radio Requirement 8d(3) means following the pamphlet standard for simple directional antenna and recording accurate notes on build a simple directional antenna for either of the two frequencies used in ardf."
+                "misconception": "A directional antenna requires motorized electronics or parabolic dishes to focus two-meter VHF signals.",
+                "fact": "A simple passive arrangement of wire or steel tape cut into reflector, driven element, and director lengths focuses reception along a single forward direction."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5380,14 +5452,17 @@
               "id": "8d(3)",
               "sub_req_label": "8d(3)",
               "sub_req_text": "Build a simple directional antenna for either of the two frequencies used in ARDF.",
-              "topic_title": "Req 8d(3): Simple Directional Antenna",
-              "pamphlet_summary": "Simple Directional Antenna: The Radio pamphlet for Requirement 8d(3) details build a simple directional antenna for either of the two frequencies used in ARDF, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8d(3): Directional Tracking Antenna Construction",
+              "pamphlet_summary": "Directional Tracking Antenna Construction: Scouts construct functional directional antennas by assembling resonant conductive elements onto nonmetallic booms using wood or PVC conduit. A popular design uses steel measuring tape sections to form a rugged, flexible two-meter three-element Yagi antenna (p. 71).",
               "pamphlet_excerpts": [
-                "Simple Directional Antenna: The Radio pamphlet for Requirement 8d(3) details build a simple directional antenna for either of the two frequencies used in ARDF, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Directional Tracking Antenna Construction: Scouts construct functional directional antennas by assembling resonant conductive elements onto nonmetallic booms using wood or PVC conduit. A popular design uses steel measuring tape sections to form a rugged, flexible two-meter three-element Yagi antenna (p. 71)."
               ],
               "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
               "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+              "socratic_questions": [
+                "Why are flexible steel measuring tapes popular for building handheld two-meter fox hunting antennas?"
+              ]
             },
             {
               "sub_id": "8d(4)",
@@ -5424,8 +5499,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "During Radio Requirement 8d(4), Scouts can underestimate how directly mastery of participate in a simple fox hunt depends on understanding participate in a simple fox hunt using your antenna along with a provided receiver.",
-                "fact": "Scouting America standards for Radio Requirement 8d(4) require complete workbook entries on participate in a simple fox hunt to demonstrate full understanding of participate in a simple fox hunt using your antenna along with a provided receiver."
+                "misconception": "When searching for a hidden transmitter, the receiver volume control functions as a signal attenuator.",
+                "fact": "Volume controls only adjust audio output to the speaker or headphones, whereas an RF attenuator reduces the actual radio frequency signal entering the receiver circuitry."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5451,15 +5526,18 @@
               "id": "8d(4)",
               "sub_req_label": "8d(4)",
               "sub_req_text": "Participate in a simple fox hunt using your antenna along with a provided receiver.",
-              "topic_title": "Req 8d(4): Participate in a simple fox hunt",
-              "pamphlet_summary": "Participate in a simple fox hunt: The Radio pamphlet for Requirement 8d(4) details participate in a simple fox hunt using your antenna along with a provided receiver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8d(4): Transmitter Hunt Field Participation",
+              "pamphlet_summary": "Transmitter Hunt Field Participation: Field fox hunting requires navigating terrain while reading signal strength peaks and nulls to home in on an automated beacon. Operators adjust receiver attenuators as they approach the source to keep the strong nearby signal from saturating the detector (p. 73).",
               "pamphlet_excerpts": [
-                "Participate in a simple fox hunt: The Radio pamphlet for Requirement 8d(4) details participate in a simple fox hunt using your antenna along with a provided receiver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Transmitter Hunt Field Participation: Field fox hunting requires navigating terrain while reading signal strength peaks and nulls to home in on an automated beacon. Operators adjust receiver attenuators as they approach the source to keep the strong nearby signal from saturating the detector (p. 73)."
               ],
               "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
-              "title": "Req 8d(4): Participate in a simple fox hunt",
+              "title": "Req 8d(4): Transmitter Hunt Field Participation",
               "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+              "socratic_questions": [
+                "Why does an operator need an RF attenuator when getting within twenty yards of a transmitting fox?"
+              ]
             },
             {
               "sub_id": "8d(5)",
@@ -5491,8 +5569,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8d(5), many Scouts assume you located the fox only requires a general overview rather than specific details on show, on a map, how you located the \"fox\" using your receiver.",
-                "fact": "The official Radio pamphlet for Requirement 8d(5) specifies that Scouts must thoroughly document you located the fox and explain show, on a map, how you located the \"fox\" using your receiver during counselor review."
+                "misconception": "A single directional bearing line plotted on a map reveals the exact location of the hidden transmitter.",
+                "fact": "A single bearing indicates only a line of direction, requiring at least two or three intersecting bearings from different locations to pinpoint the transmitter position."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5518,14 +5596,17 @@
               "id": "8d(5)",
               "sub_req_label": "8d(5)",
               "sub_req_text": "Show, on a map, how you located the \"fox\" using your receiver.",
-              "topic_title": "Req 8d(5): You Located The Fox",
-              "pamphlet_summary": "You Located The Fox: The Radio pamphlet for Requirement 8d(5) details show, on a map, how you located the \"fox\" using your receiver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8d(5): Map Triangulation and Bearing Plotting",
+              "pamphlet_summary": "Map Triangulation and Bearing Plotting: Plotting multiple compass bearings from distinct vantage points onto a topographic map creates intersecting line vectors known as triangulation. The hidden transmitter sits within the convergence polygon formed by these plotted directional lines (p. 74).",
               "pamphlet_excerpts": [
-                "You Located The Fox: The Radio pamphlet for Requirement 8d(5) details show, on a map, how you located the \"fox\" using your receiver, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Map Triangulation and Bearing Plotting: Plotting multiple compass bearings from distinct vantage points onto a topographic map creates intersecting line vectors known as triangulation. The hidden transmitter sits within the convergence polygon formed by these plotted directional lines (p. 74)."
               ],
               "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
               "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+              "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+              "socratic_questions": [
+                "How does drawing compass lines from two separate hilltops pinpoint where a hidden radio transmitter is located?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -5639,8 +5720,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "In Radio Requirement 8e(1), many Scouts assume family radio service (frs) and general mobile only requires a general overview rather than specific details on what the family radio service (frs) and general mobile radio service (gmrs) are and how they.",
-                "fact": "The official Radio pamphlet for Requirement 8e(1) specifies that Scouts must thoroughly document family radio service (frs) and general mobile and explain what the family radio service (frs) and general mobile radio service (gmrs) are and how they during counselor review."
+                "misconception": "FRS, GMRS, CB, and amateur radio all share the same operating rules and license requirements.",
+                "fact": "Each radio service operates under distinct FCC rules, with FRS requiring no license, GMRS requiring an application fee without a test, and amateur radio demanding an examination."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -5666,15 +5747,18 @@
               "id": "8e(1)",
               "sub_req_label": "8e(1)",
               "sub_req_text": "Explain what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different from each other, from other commercial two-way radios, and from Citizens Band (CB) and amateur radio (ham)",
-              "topic_title": "Req 8e(1): Family Radio Service (FRS) and General Mobile",
-              "pamphlet_summary": "Family Radio Service (FRS) and General Mobile: The Radio pamphlet for Requirement 8e(1) details what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8e(1): Personal Radio Service Classifications",
+              "pamphlet_summary": "Personal Radio Service Classifications: Personal radio services offer accessible two-way communications governed by specific FCC rules on power, frequency, and operating privilege. While FRS operates license-free with low-power fixed-antenna handhelds, GMRS allows higher wattage, repeaters, and external antennas under a family license, whereas amateur radio requires technical testing for extensive spectrum privileges (p. 76).",
               "pamphlet_excerpts": [
-                "Family Radio Service (FRS) and General Mobile: The Radio pamphlet for Requirement 8e(1) details what the Family Radio Service (FRS) and General Mobile Radio Service (GMRS) are and how they are different, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Personal Radio Service Classifications: Personal radio services offer accessible two-way communications governed by specific FCC rules on power, frequency, and operating privilege. While FRS operates license-free with low-power fixed-antenna handhelds, GMRS allows higher wattage, repeaters, and external antennas under a family license, whereas amateur radio requires technical testing for extensive spectrum privileges (p. 76)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p045_img2.png",
-              "title": "Req 8e(1): Family Radio Service (FRS) and General Mobile",
+              "title": "Req 8e(1): Personal Radio Service Classifications",
               "workbook_diagram_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
-              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver."
+              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
+              "socratic_questions": [
+                "How does the legal purpose and licensing of a Family Radio Service walkie-talkie differ from an amateur radio transceiver?"
+              ]
             },
             {
               "sub_id": "8e(2)",
@@ -5698,15 +5782,15 @@
                   "id": "8e(2)(a)",
                   "sub_req_label": "8e(2)(a)",
                   "sub_req_text": "Is any type of license needed to use these radios? If so: what kind.",
-                  "topic_title": "Req 8e(2)(a): Is Any Type of License Needed",
+                  "topic_title": "Req 8e(2)(a): Personal Radio Licensing Requirements",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Is Any Type of License Needed: The Radio pamphlet for Requirement 8e(2)(a) details is any type of license needed to use these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Personal Radio Licensing Requirements: The Federal Communications Commission licenses FRS by rule, allowing anyone to operate certified units without an individual license or application. Conversely, operating a GMRS station requires an FCC license that covers the primary licensee and their immediate family members without requiring an examination (p. 79).",
                   "pamphlet_excerpts": [
-                    "Is Any Type of License Needed: The Radio pamphlet for Requirement 8e(2)(a) details is any type of license needed to use these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Personal Radio Licensing Requirements: The Federal Communications Commission licenses FRS by rule, allowing anyone to operate certified units without an individual license or application. Conversely, operating a GMRS station requires an FCC license that covers the primary licensee and their immediate family members without requiring an examination (p. 79)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Radio Requirement 8e(2)(a), many Scouts assume is any type of license needed only requires a general overview rather than specific details on is any type of license needed to use these radios.",
-                    "fact": "The official Radio pamphlet for Requirement 8e(2)(a) specifies that Scouts must thoroughly document is any type of license needed and explain is any type of license needed to use these radios during counselor review."
+                    "misconception": "Operating a GMRS walkie-talkie requires passing a written technical Morse code or radio theory exam.",
+                    "fact": "An FCC GMRS license requires only an application and fee payment, with no technical examination required, and extends coverage to the licensee's entire immediate family."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -5739,10 +5823,13 @@
                       "type": "Official BSA Hub"
                     }
                   ],
-                  "title": "Req 8e(2)(a): Is Any Type of License Needed",
+                  "title": "Req 8e(2)(a): Personal Radio Licensing Requirements",
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "Why did the FCC decide to exempt Family Radio Service users from needing an individual license document?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(b)",
@@ -5760,15 +5847,15 @@
                   "id": "8e(2)(b)",
                   "sub_req_label": "8e(2)(b)",
                   "sub_req_text": "What radio frequencies are used and how is information encoded.",
-                  "topic_title": "Req 8e(2)(b): Radio Frequencies",
+                  "topic_title": "Req 8e(2)(b): UHF Frequencies and Voice Modulation",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Radio Frequencies: The Radio pamphlet for Requirement 8e(2)(b) details what radio frequencies are used and how is information encoded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "UHF Frequencies and Voice Modulation: FRS and GMRS walkie-talkies transmit in the UHF band between 462 MHz and 467 MHz across 22 designated channels. These radios encode voice audio onto the carrier frequency using narrowband frequency modulation (p. 76).",
                   "pamphlet_excerpts": [
-                    "Radio Frequencies: The Radio pamphlet for Requirement 8e(2)(b) details what radio frequencies are used and how is information encoded, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "UHF Frequencies and Voice Modulation: FRS and GMRS walkie-talkies transmit in the UHF band between 462 MHz and 467 MHz across 22 designated channels. These radios encode voice audio onto the carrier frequency using narrowband frequency modulation (p. 76)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "Amateur radio direction finding requires satellite imagery to locate a hidden transmitter during a foxhunt.",
-                    "fact": "Radio direction finding uses a directional antenna and portable receiver to track the bearing and signal strength of a hidden transmitter on foot (p. 73)."
+                    "misconception": "Handheld walkie-talkies encode voice conversations using amplitude modulation across open citizens band AM channels.",
+                    "fact": "FRS and GMRS handheld units operate in the 462 to 467 megahertz UHF spectrum using narrowband frequency modulation to transmit audio."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -5801,7 +5888,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "Why do handheld walkie-talkies rely on frequency modulation in the UHF band rather than AM waves when you speak into the microphone?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(c)",
@@ -5819,15 +5909,15 @@
                   "id": "8e(2)(c)",
                   "sub_req_label": "8e(2)(c)",
                   "sub_req_text": "How much power can be used when transmitting.",
-                  "topic_title": "Req 8e(2)(c): Much Power",
+                  "topic_title": "Req 8e(2)(c): Transmitter Output Power Regulatory Limits",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Much Power: The Radio pamphlet for Requirement 8e(2)(c) details how much power can be used when transmitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Transmitter Output Power Regulatory Limits: Federal regulations restrict license-free FRS radios to a maximum of two watts on main channels and one-half watt on channels 8 through 14. Licensed GMRS operators may transmit up to five watts on handheld units and up to fifty watts on base stations (p. 77).",
                   "pamphlet_excerpts": [
-                    "Much Power: The Radio pamphlet for Requirement 8e(2)(c) details how much power can be used when transmitting, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Transmitter Output Power Regulatory Limits: Federal regulations restrict license-free FRS radios to a maximum of two watts on main channels and one-half watt on channels 8 through 14. Licensed GMRS operators may transmit up to five watts on handheld units and up to fifty watts on base stations (p. 77)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Radio Requirement 8e(2)(c), a common mistake in much power is treating how much power can be used when transmitting as optional background reading.",
-                    "fact": "Mastering Radio Requirement 8e(2)(c) means following the pamphlet standard for much power and recording accurate notes on how much power can be used when transmitting."
+                    "misconception": "Users can legally boost handheld walkie-talkie transmit power to twenty watts to reach further across backcountry terrain.",
+                    "fact": "FCC rules cap license-free FRS radios at two watts on primary channels and one-half watt on interstitial channels to prevent interference."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -5860,7 +5950,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "Why does the FCC strictly cap handheld FRS radio output power at two watts instead of allowing units to broadcast at fifty watts?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(d)",
@@ -5878,15 +5971,15 @@
                   "id": "8e(2)(d)",
                   "sub_req_label": "8e(2)(d)",
                   "sub_req_text": "What type of antenna can be used.",
-                  "topic_title": "Req 8e(2)(d): Antenna Used",
+                  "topic_title": "Req 8e(2)(d): Permissible Walkie Talkie Antenna Types",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Antenna Used: The Radio pamphlet for Requirement 8e(2)(d) details what type of antenna can be used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Permissible Walkie Talkie Antenna Types: FRS devices must use a permanently attached, non-detachable antenna supplied by the manufacturer to limit radiated signal strength. GMRS radios permit external or aftermarket detachable antennas mounted on vehicles or elevated masts to improve reception (p. 78).",
                   "pamphlet_excerpts": [
-                    "Antenna Used: The Radio pamphlet for Requirement 8e(2)(d) details what type of antenna can be used, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Permissible Walkie Talkie Antenna Types: FRS devices must use a permanently attached, non-detachable antenna supplied by the manufacturer to limit radiated signal strength. GMRS radios permit external or aftermarket detachable antennas mounted on vehicles or elevated masts to improve reception (p. 78)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "During Radio Requirement 8e(2)(d), Scouts can underestimate how directly mastery of antenna used depends on understanding what type of antenna can be used.",
-                    "fact": "Scouting America standards for Radio Requirement 8e(2)(d) require complete workbook entries on antenna used to demonstrate full understanding of what type of antenna can be used."
+                    "misconception": "Any handheld radio antenna can be unscrewed and replaced with an external high-gain whip to boost transmission distance.",
+                    "fact": "Federal regulations mandate that FRS antennas must remain permanently attached, while GMRS equipment permits detachable external antennas."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -5919,7 +6012,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "What prevents an FRS walkie-talkie owner from legally unscrewing the factory antenna and attaching a high-gain rooftop antenna?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(e)",
@@ -5932,15 +6028,15 @@
                   "id": "8e(2)(e)",
                   "sub_req_label": "8e(2)(e)",
                   "sub_req_text": "What is the effective range and what limits.",
-                  "topic_title": "Req 8e(2)(e): Effective Range and What Limits",
+                  "topic_title": "Req 8e(2)(e): Effective Operating Range and Limitations",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Effective Range and What Limits: The Radio pamphlet for Requirement 8e(2)(e) details what is the effective range and what limits, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Effective Operating Range and Limitations: Handheld UHF radios operate on line-of-sight propagation, providing typical ground-level communication ranges between one and two miles. Hills, dense tree canopies, buildings, and ground curvature absorb or block the signals and prevent the optimistic thirty-mile claims printed on retail packaging (p. 79).",
                   "pamphlet_excerpts": [
-                    "Effective Range and What Limits: The Radio pamphlet for Requirement 8e(2)(e) details what is the effective range and what limits, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Effective Operating Range and Limitations: Handheld UHF radios operate on line-of-sight propagation, providing typical ground-level communication ranges between one and two miles. Hills, dense tree canopies, buildings, and ground curvature absorb or block the signals and prevent the optimistic thirty-mile claims printed on retail packaging (p. 79)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "In Radio Requirement 8e(2)(e), many Scouts assume effective range and what limits only requires a general overview rather than specific details on what is the effective range and what limits.",
-                    "fact": "The official Radio pamphlet for Requirement 8e(2)(e) specifies that Scouts must thoroughly document effective range and what limits and explain what is the effective range and what limits during counselor review."
+                    "misconception": "Walkie-talkies advertised with a thirty-six-mile range reliably communicate across that distance anywhere in wilderness or city parks.",
+                    "fact": "Realistic walkie-talkie range at ground level is usually under two miles because terrain, foliage, and structures block line-of-sight UHF signals."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -5973,7 +6069,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "If a walkie-talkie box claims a 35-mile range, what physical obstacles and scientific principles reduce that range to just one or two miles on a Scout hike?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(f)",
@@ -5986,15 +6085,15 @@
                   "id": "8e(2)(f)",
                   "sub_req_label": "8e(2)(f)",
                   "sub_req_text": "What are common everyday uses for these radios.",
-                  "topic_title": "Req 8e(2)(f): Are Common Everyday",
+                  "topic_title": "Req 8e(2)(f): Routine Everyday Radio Communication Applications",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Are Common Everyday: The Radio pamphlet for Requirement 8e(2)(f) details what are common everyday uses for these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Routine Everyday Radio Communication Applications: Personal radio services provide instant, license-free group communication for families and organizations without consuming cellular data. Typical everyday applications include campsite coordination, hiking check-ins, sporting event operations, and youth activities across neighborhood parks (p. 80).",
                   "pamphlet_excerpts": [
-                    "Are Common Everyday: The Radio pamphlet for Requirement 8e(2)(f) details what are common everyday uses for these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Routine Everyday Radio Communication Applications: Personal radio services provide instant, license-free group communication for families and organizations without consuming cellular data. Typical everyday applications include campsite coordination, hiking check-ins, sporting event operations, and youth activities across neighborhood parks (p. 80)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "When preparing Radio Requirement 8e(2)(f) (Are Common Everyday), Scouts sometimes overlook the concrete pamphlet benchmarks covering what are common everyday uses for these radios.",
-                    "fact": "Counselor verification for Radio Requirement 8e(2)(f) requires concrete workbook evidence on are common everyday, specifically addressing what are common everyday uses for these radios."
+                    "misconception": "Walkie-talkies are only useful for specialized military combat units or licensed commercial security guards.",
+                    "fact": "Families and community groups routinely use personal radios for short-range voice communication at campgrounds, hiking trails, and community events."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -6027,7 +6126,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "What makes handheld walkie-talkies more practical than mobile phones for coordinating a patrol during a troop hike in a state park?"
+                  ]
                 },
                 {
                   "sub_id": "8e(2)(g)",
@@ -6053,15 +6155,15 @@
                   "id": "8e(2)(g)",
                   "sub_req_label": "8e(2)(g)",
                   "sub_req_text": "How can these radios be useful in an emergency.",
-                  "topic_title": "Req 8e(2)(g): Can These Radios Be Useful",
+                  "topic_title": "Req 8e(2)(g): Emergency Response Personal Radio Utility",
                   "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
-                  "pamphlet_summary": "Can These Radios Be Useful: The Radio pamphlet for Requirement 8e(2)(g) details how can these radios be useful in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+                  "pamphlet_summary": "Emergency Response Personal Radio Utility: Walkie-talkies function independently of commercial power grids and cellular towers, enabling immediate direct communication during disasters. Scouts can use them to report injuries, coordinate search teams, and maintain safety links when local phone networks fail (p. 81).",
                   "pamphlet_excerpts": [
-                    "Can These Radios Be Useful: The Radio pamphlet for Requirement 8e(2)(g) details how can these radios be useful in an emergency, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                    "Emergency Response Personal Radio Utility: Walkie-talkies function independently of commercial power grids and cellular towers, enabling immediate direct communication during disasters. Scouts can use them to report injuries, coordinate search teams, and maintain safety links when local phone networks fail (p. 81)."
                   ],
                   "common_misconception_pair": {
-                    "misconception": "For Radio Requirement 8e(2)(g), a common mistake in can these radios be useful is treating how can these radios be useful in an emergency as optional background reading.",
-                    "fact": "Mastering Radio Requirement 8e(2)(g) means following the pamphlet standard for can these radios be useful and recording accurate notes on how can these radios be useful in an emergency."
+                    "misconception": "Handheld walkie-talkies become useless during severe natural disasters because local cell towers and commercial internet services are offline.",
+                    "fact": "Personal radios communicate directly from unit to unit without needing cell towers or internet infrastructure, making them dependable when commercial networks crash."
                   },
                   "workbook_organizer": {
                     "organizer_type": "RULED_EXPLAIN_BOX",
@@ -6094,7 +6196,10 @@
                   ],
                   "workbook_diagram_url": "assets/images/radio_req_8_nano_hero.png",
                   "workbook_diagram_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
-                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations."
+                  "workbook_visual_caption": "Illustrated split panels show amateur radio operators exchanging long-distance voice transmissions between base stations.",
+                  "socratic_questions": [
+                    "When a storm knocks out electricity and mobile phone towers in your town, how can personal radios still save lives?"
+                  ]
                 }
               ],
               "syllabus_bucket": "In-Class Concept",
@@ -6129,8 +6234,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "When preparing Radio Requirement 8e(2) (Radio or GMRS Walkie Talkie), Scouts sometimes overlook the concrete pamphlet benchmarks covering each of the following for using a frs radio or gmrs walkie talkie, (a) is any type of license needed.",
-                "fact": "Counselor verification for Radio Requirement 8e(2) requires concrete workbook evidence on radio or gmrs walkie talkie, specifically addressing each of the following for using a frs radio or gmrs walkie talkie, (a) is any type of license needed."
+                "misconception": "Any handheld walkie-talkie purchased in a store can legally transmit at maximum power on all twenty-two channels.",
+                "fact": "FCC regulations restrict transmission power to half a watt on channels eight through fourteen and mandate fixed antennas on all dedicated FRS units."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6156,14 +6261,17 @@
               "id": "8e(2)",
               "sub_req_label": "8e(2)",
               "sub_req_text": "Explain each of the following for using a FRS radio or GMRS walkie talkie: (a) Is any type of license needed to use these radios? If so: what kind? (b) What radio frequencies are used and how is information encoded? (c) How much power can be used when transmitting? (d) What type of antenna can be used? (e) What is the effective range and what limits it? (f) What are common everyday uses for these radios? (g) How can these radios be useful in an emergency.",
-              "topic_title": "Req 8e(2): Radio or GMRS Walkie Talkie",
-              "pamphlet_summary": "Radio or GMRS Walkie Talkie: The Radio pamphlet for Requirement 8e(2) details each of the following for using a FRS radio or GMRS walkie talkie, (a) Is any type of license needed to use these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8e(2): Personal Radio Technical Specifications",
+              "pamphlet_summary": "Personal Radio Technical Specifications: Personal walkie-talkie rules govern licensing protocols, operating frequencies, voice modulation methods, transmitter power limits, and antenna configurations. FRS and GMRS share twenty-two channels in the 462 and 467 megahertz UHF band using frequency modulation, but GMRS permits up to fifty watts and external antennas on certain channels (p. 78).",
               "pamphlet_excerpts": [
-                "Radio or GMRS Walkie Talkie: The Radio pamphlet for Requirement 8e(2) details each of the following for using a FRS radio or GMRS walkie talkie, (a) Is any type of license needed to use these radios, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Personal Radio Technical Specifications: Personal walkie-talkie rules govern licensing protocols, operating frequencies, voice modulation methods, transmitter power limits, and antenna configurations. FRS and GMRS share twenty-two channels in the 462 and 467 megahertz UHF band using frequency modulation, but GMRS permits up to fifty watts and external antennas on certain channels (p. 78)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p045_img2.png",
               "workbook_diagram_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
-              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver."
+              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
+              "socratic_questions": [
+                "What technical factors determine whether a walkie-talkie transmission can reach a mile or several miles across open country?"
+              ]
             },
             {
               "sub_id": "8e(3)",
@@ -6197,8 +6305,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Radio Merit Badge Pamphlet (p. 72, p. 73)",
               "common_misconception_pair": {
-                "misconception": "For Radio Requirement 8e(3), a common mistake in radios or gmrs walkie talkies is treating use the frs radios or gmrs walkie talkies with family, friends, or scouts on a hike, at an event as optional background reading.",
-                "fact": "Mastering Radio Requirement 8e(3) means following the pamphlet standard for radios or gmrs walkie talkies and recording accurate notes on use the frs radios or gmrs walkie talkies with family, friends, or scouts on a hike, at an event."
+                "misconception": "Field radio communication requires shouting loudly into the microphone while immediately pressing and releasing the talk switch.",
+                "fact": "Effective field communication requires pausing for a moment after pressing the transmit button and speaking in a calm, clear voice."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -6224,14 +6332,17 @@
               "id": "8e(3)",
               "sub_req_label": "8e(3)",
               "sub_req_text": "Use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game. Discuss what you learned with your counselor.",
-              "topic_title": "Req 8e(3): Radios or GMRS Walkie Talkies",
-              "pamphlet_summary": "Radios or GMRS Walkie Talkies: The Radio pamphlet for Requirement 8e(3) details use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72).",
+              "topic_title": "Req 8e(3): Practical Field Radio Operating Experience",
+              "pamphlet_summary": "Practical Field Radio Operating Experience: Scouts practice radio protocol, microphone technique, and channel etiquette while completing an active field exercise with peers or family. Afterward, the Scout reviews signal clarity, terrain dead zones, battery life, and operational lessons with the counselor (p. 82).",
               "pamphlet_excerpts": [
-                "Radios or GMRS Walkie Talkies: The Radio pamphlet for Requirement 8e(3) details use the FRS radios or GMRS walkie talkies with family, friends, or Scouts on a hike, at an event, or in a team game, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 72)."
+                "Practical Field Radio Operating Experience: Scouts practice radio protocol, microphone technique, and channel etiquette while completing an active field exercise with peers or family. Afterward, the Scout reviews signal clarity, terrain dead zones, battery life, and operational lessons with the counselor (p. 82)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/radio_p045_img2.png",
               "workbook_diagram_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
-              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver."
+              "workbook_visual_caption": "A woman communicates outdoors using a handheld two-way transceiver.",
+              "socratic_questions": [
+                "What did your field exercise teach you about the delay between pressing the push-to-talk switch and speaking into the microphone?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -6502,7 +6613,7 @@
       ],
       "gear_checklist": [
         "Official Radio merit badge pamphlet and workbook organizer for Req 8",
-        "Reference diagrams, inspection checklist, and field notebook for Req 8: Hands-On Radio Operating Options",
+        "Radio field toolkit, inspection gauge, and protective eyewear for Operational Radio Specializations",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 8"
       ],
@@ -6873,7 +6984,7 @@
       ],
       "gear_checklist": [
         "Official Radio merit badge pamphlet and workbook organizer for Req 9",
-        "Reference diagrams, inspection checklist, and field notebook for Req 9: Radio Careers and Volunteer Service",
+        "Radio field toolkit, inspection gauge, and protective eyewear for Radio Careers and Public Service",
         "Manufacturer technical manual or BSA reference guide for the system studied",
         "Completed observation table and counselor review notes for Req 9"
       ],
@@ -6964,13 +7075,13 @@
         "A. Mount the antenna directly onto an electric utility pole so the coax shield shares the power company ground wire.",
         "B. String dipole wires directly underneath high-voltage overhead distribution lines to shield the receiver from lightning.",
         "C. Erect the mast only during rainstorms so moist soil improves radio-frequency grounding.",
-        "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction, it cannot come within 10 feet of a power line."
+        "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction."
       ],
       "choices": [
         "A. Mount the antenna directly onto an electric utility pole so the coax shield shares the power company ground wire.",
         "B. String dipole wires directly underneath high-voltage overhead distribution lines to shield the receiver from lightning.",
         "C. Erect the mast only during rainstorms so moist soil improves radio-frequency grounding.",
-        "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction, it cannot come within 10 feet of a power line."
+        "D. Locate the antenna and mast far enough from all overhead power lines that even if the mast or wire falls in any direction."
       ],
       "correct_index": 3,
       "correct_letter": "D",

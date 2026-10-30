@@ -77,7 +77,7 @@
 - **Common Myth:** Burned commercial forest stands can be fully salvaged with no financial loss to timber operators.
 - **Pamphlet Fact:** Severe crown fires destroy mature sawtimber, pulpwood plantations, and sapling regeneration, taking decades to recover commercially.
 
-![Detailed Wildland Fire Management reference illustration comparing key components and stages of ecological and community wildfire harms for Requirement 2.](/assets/pamphlet_images/wildland_fire_management_p007_img1.png)
+![Wildland Fire Management Requirement 2 figure showing over seven million acres burn annually on average across western and southern states.](/assets/pamphlet_images/wildland_fire_management_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -91,7 +91,7 @@
 - **Common Myth:** Wildlife easily escapes fires unharmed and immediately reoccupies burned areas without population declines.
 - **Pamphlet Fact:** High water temperatures and heavy post-fire ash runoff strip dissolved oxygen and suffocate coldwater fish species.
 
-![Step-by-step Wildland Fire Management visual guide highlighting history of wildland fire management positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/wildland_fire_management_p003_img1.png)
+![Wildland Fire Management Requirement 1 figure showing the ten in the morning suppression policy governed early federal wildland firefighting.](/assets/pamphlet_images/wildland_fire_management_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -166,7 +166,7 @@
 - **Common Myth:** Mechanical clearing completely replaces prescribed fire as a low-cost fuel reduction technique in forests.
 - **Pamphlet Fact:** Prescribed fires consume heavy duff, fallen logs, and ladder fuels that otherwise carry flame into the forest canopy.
 
-![Practical Wildland Fire Management field visual showing proper setup, measurement, and technique for prescribed fire as management tool in Requirement 3.](/assets/pamphlet_images/wildland_fire_management_p012_img1.png)
+![Wildland Fire Management Requirement 3 figure showing certified burn plans establish strict humidity, wind, and fuel moisture prescription.](/assets/pamphlet_images/wildland_fire_management_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -246,13 +246,13 @@
 - Escaped trash fires, dragging trailer safety chains, and abandoned recreational campfires cause thousands of preventable wildfires annually. Scouts implement campfire clearance perimeters and carry dedicated water buckets during all backcountry outings.
 - Req 4a Standard (Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)): Wildfire Prevention: (1) The main causes of wildfire in the United States (2) How you can prevent human caused wildfires in your community and on outings with your unit.
 
-#### Req 4a(1): Main Causes of Wildfire
+#### Req 4a(1): Primary Causes of United States Wildfires
 **Official Requirement 4a(1):** The main causes of wildfire in the United States.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4a(1) Structured Technical Study & Explanation Matrix (Main Causes of Wildfire)
-- **Common Myth:** In Wildland Fire Management Requirement 4a(1), many Scouts assume main causes of wildfire only requires a general overview rather than specific details on the main causes of wildfire in the united states.
-- **Pamphlet Fact:** The official Wildland Fire Management pamphlet for Requirement 4a(1) specifies that Scouts must thoroughly document main causes of wildfire and explain the main causes of wildfire in the united states during counselor review.
+- **Common Myth:** Lightning strikes ignite the majority of wildland fires across the United States every year.
+- **Pamphlet Fact:** Human negligence accounts for nearly eighty-five percent of all wildland fires in the United States while lightning ignites the remainder.
 
-![Illustrated Wildland Fire Management technical diagram of wildland fire management wildfire prevention and mitigation reference figure for Requirement 4 field.](/assets/pamphlet_images/wildland_fire_management_p004_img1.png)
+![Wildland Fire Management Requirement 4 figure showing careless debris burning and abandoned campfires cause the vast majority of wildfires.](/assets/pamphlet_images/wildland_fire_management_p004_img1.png)
 
 | Req 4a(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -260,11 +260,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4a(2): You Can Prevent Human Caused
+#### Req 4a(2): Community and Campfire Outing Prevention
 **Official Requirement 4a(2):** How you can prevent human caused wildfires in your community and on outings with your unit.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4a(2) Structured Technical Study & Explanation Matrix (You Can Prevent Human Caused)
-- **Common Myth:** When preparing Wildland Fire Management Requirement 4a(2) (You Can Prevent Human Caused), Scouts sometimes overlook the concrete pamphlet benchmarks covering how you can prevent human caused wildfires in your community and on outings with your unit.
-- **Pamphlet Fact:** Counselor verification for Wildland Fire Management Requirement 4a(2) requires concrete workbook evidence on you can prevent human caused, specifically addressing how you can prevent human caused wildfires in your community and on outings with your unit.
+- **Common Myth:** Dumping dirt over hot campfire coals completely extinguishes the fire and prevents future flare-ups.
+- **Pamphlet Fact:** Buried coals can smolder underground for days without oxygen until wind exposes them to fresh dry vegetation.
 
 | Req 4a(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -282,11 +282,11 @@
 - Wildland-urban interface areas place residential structures in close proximity to flammable natural fuels. Property owners prune tree branches, clear roof gutters, and install ember-resistant metal vent screens.
 - Req 4b Standard (Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)): Wildfire Mitigation: (1) Wildland-Urban Interface (2) Defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire.
 
-#### Req 4b(1): Wildland-Urban Interface
+#### Req 4b(1): Wildland Urban Interface Zone Dynamics
 **Official Requirement 4b(1):** Wildland-Urban Interface.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4b(1) Structured Technical Study & Explanation Matrix (Wildland-Urban Interface)
-- **Common Myth:** In Wildland Fire Management Requirement 4b(1), many Scouts assume wildland-urban interface only requires a general overview rather than specific details on wildland-urban interface.
-- **Pamphlet Fact:** The official Wildland Fire Management pamphlet for Requirement 4b(1) specifies that Scouts must thoroughly document wildland-urban interface and explain wildland-urban interface during counselor review.
+- **Common Myth:** The wildland-urban interface exists only in remote wilderness cabins located deep inside national forests.
+- **Pamphlet Fact:** Any suburban development adjacent to dry brush, open grasslands, or overgrown ravines qualifies as a wildland-urban interface.
 
 | Req 4b(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -294,11 +294,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4b(2): Defensible Space and How Homes
+#### Req 4b(2): Defensible Space and Structural Hardening
 **Official Requirement 4b(2):** Defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4b(2) Structured Technical Study & Explanation Matrix (Defensible Space and How Homes)
-- **Common Myth:** When preparing Wildland Fire Management Requirement 4b(2) (Defensible Space and How Homes), Scouts sometimes overlook the concrete pamphlet benchmarks covering defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire.
-- **Pamphlet Fact:** Counselor verification for Wildland Fire Management Requirement 4b(2) requires concrete workbook evidence on defensible space and how homes, specifically addressing defensible space and how homes and communities in the wildland-urban interface can be protected from wildfire.
+- **Common Myth:** Clearing trees in the outer yard is sufficient to protect a home even if dry pine needles accumulate on the roof and gutters.
+- **Pamphlet Fact:** Windblown embers often ignite accumulated organic debris on roofs or enter unprotected attic vents regardless of yard clearing.
 
 | Req 4b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -325,7 +325,7 @@
 - **Common Myth:** Air temperature alone influences wildfire behavior without being impacted by terrain features or wind speed.
 - **Pamphlet Fact:** Steep terrain dramatically accelerates fire spread because flames lean closer to uphill slope vegetation, preheating fuels through radiation.
 
-![Step-by-step Wildland Fire Management visual guide highlighting wildland fire management fire behavior reference figure positioning and inspection checkpoints.](/assets/pamphlet_images/wildland_fire_management_p005_img1.png)
+![Wildland Fire Management Requirement 5 figure showing wildland combustion requires oxygen, ambient heat, and flammable wildland vegetative fuel.](/assets/pamphlet_images/wildland_fire_management_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -390,7 +390,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Firefighter Safety
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Wildland Fire Management reference illustration comparing key components and stages of wildland fire management wildland firefighter safety reference.](/assets/pamphlet_images/wildland_fire_management_p006_img1.png)
+![Wildland Fire Management Requirement 6 figure showing aramid clothing resists direct flame and high heat without melting onto skin.](/assets/pamphlet_images/wildland_fire_management_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -499,7 +499,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Wildfire Suppression Tools
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Practical Wildland Fire Management field visual showing proper setup, measurement.](/assets/pamphlet_images/wildland_fire_management_p008_img1.png)
+![Wildland Fire Management Requirement 8 figure showing the Pulaski chops thick roots with its axe blade and grubs mineral soil.](/assets/pamphlet_images/wildland_fire_management_p008_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -546,7 +546,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Wildland Fire Management Hazards and First Aid
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Wildland Fire Management technical diagram of wildland fire management taking action reference figure for Requirement 9 field execution.](/assets/pamphlet_images/wildland_fire_management_p009_img1.png)
+![Wildland Fire Management Requirement 9 figure showing map water supply points, natural firebreaks, and primary ingress roads.](/assets/pamphlet_images/wildland_fire_management_p009_img1.png)
 
 | Req 9a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -52,7 +52,7 @@
 - **Common Myth:** Cellular phones provide guaranteed emergency communication during wilderness searches.
 - **Pamphlet Fact:** Topographic features frequently block cellular reception in deep canyons and wooded hollows.
 
-![Detailed Geocaching reference illustration comparing key components and stages of outdoor hazards and first aid for Requirement 1.](/assets/pamphlet_images/geocaching_p003_img1.png)
+![Geocaching Requirement 1 figure showing steep ravines and loose rock scree require sturdy hiking boots with ankle support.](/assets/pamphlet_images/geocaching_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -80,7 +80,7 @@
 - **Common Myth:** A functional GPS unit eliminates the necessity of leaving travel plans with home contacts.
 - **Pamphlet Fact:** Battery failure or satellite signal loss leaves unfiled parties without search rescue support.
 
-![Detailed Geocaching reference illustration comparing key components and stages of core geocaching vocabulary and ratings for Requirement 3.](/assets/pamphlet_images/geocaching_p012_img1.png)
+![Geocaching Requirement 3 figure showing a waypoint records precise geographic coordinates marking a specific physical target.](/assets/pamphlet_images/geocaching_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -107,7 +107,7 @@
 - **Common Myth:** Covering a partially buried plastic tub with soil does not count as excavation.
 - **Pamphlet Fact:** Any placement requiring tools or digging to conceal or uncover constitutes prohibited burial.
 
-![Practical Geocaching field visual showing proper setup, measurement, and technique for geocaching etiquette and leave no trace in Requirement 2.](/assets/pamphlet_images/geocaching_p007_img1.png)
+![Geocaching Requirement 2 figure showing placing containers beneath disturbed soil violates land manager permits and park regulations.](/assets/pamphlet_images/geocaching_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

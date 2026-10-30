@@ -68,7 +68,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the growth and development of your collection.** | `____________________________________` | `____________________________________` |
+| **1. Explain the growth and development of your collection** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Curatorial Selection: Thoughtful collectors upgrade individual specimen condition rather than merely accumulating redundant items.
@@ -111,7 +111,7 @@
 - **Common Myth:** Scouts believe displaying items on open wall shelves using transparent adhesive tape is acceptable.
 - **Pamphlet Fact:** Effective exhibit cases shield objects from direct sunlight and heat while utilizing neutral, non-reactive mounting supports.
 
-![Detailed Collections reference illustration comparing key components and stages of describing your collection and purpose for Requirement 1.](/assets/pamphlet_images/collections_p003_img1.png)
+![Collections Requirement 1 figure showing detailed documentation preserves the historical origin and chain of ownership for artifacts.](/assets/pamphlet_images/collections_p003_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -125,7 +125,7 @@
 - **Common Myth:** Scouts believe collector conventions serve only as commercial sales venues for retail vendors.
 - **Pamphlet Fact:** Collector conventions provide peer appraisal education, specialist lectures, authentic trade floors, and juried exhibits.
 
-![Practical Collections field visual showing proper setup, measurement, and technique for collection growth and historical origins in Requirement 2.](/assets/pamphlet_images/collections_p007_img1.png)
+![Collections Requirement 2 figure showing thoughtful collectors upgrade individual specimen condition rather than merely.](/assets/pamphlet_images/collections_p007_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -252,7 +252,7 @@
 - **Common Myth:** Scouts believe active online listing prices reflect actual completed cash transactions for collectibles.
 - **Pamphlet Fact:** Realized auction hammer prices provide actual market value evidence, unlike speculative asking prices found online.
 
-![Practical Collections field visual showing proper setup, measurement, and technique for preserving, cataloging, and displaying collections in Requirement 3.](/assets/pamphlet_images/collections_p012_img1.png)
+![Collections Requirement 3 figure showing stable relative humidity prevents mold growth, metal corrosion, and organic fiber.](/assets/pamphlet_images/collections_p012_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -314,7 +314,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the plans you have to continue with the collection in the future.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor the plans you have to continue with the collection in the future** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Goal Setting: Structured acquisition goals prevent impulse purchases and maintain focused thematic boundaries within collections.

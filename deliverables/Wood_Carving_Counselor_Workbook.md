@@ -50,7 +50,7 @@
 - **Common Myth:** Ordinary leather work gloves prevent puncture wounds from pointed carving gouges.
 - **Pamphlet Fact:** Only specialized Kevlar or steel mesh carving gloves stop sharp penetrating blade tips.
 
-![Step-by-step Wood Carving visual guide highlighting carving hazards and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/wood_carving_p003_img1.png)
+![Wood Carving Requirement 1 figure showing carving gloves woven with Kevlar or stainless steel mesh protect the holding hand.](/assets/pamphlet_images/wood_carving_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - [ ] Totin' Chip safety card, carving bench stop, and layout pattern
 - [ ] Protective finish, stamps/mallet, and tool sheath for safe stowage
 
-![Detailed Wood Carving reference illustration comparing key components and stages of totin' chip and safety checklist for Requirement 2.](/assets/pamphlet_images/wood_carving_p007_img1.png)
+![Wood Carving Requirement 2 figure showing close folding blades fully before passing or carrying pocketknives across the carving area.](/assets/pamphlet_images/wood_carving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -138,7 +138,7 @@
 - **Common Myth:** Storing carving gouges together loose in a tool box preserves cutting bevels.
 - **Pamphlet Fact:** Loose steel edges collide and chip, ruining hours of careful blade hone work.
 
-![Step-by-step Wood Carving visual guide highlighting tool care and blade sharpening positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/wood_carving_p012_img1.png)
+![Wood Carving Requirement 3 figure showing straight gouges feature curved cutting edges designed for scooping hollows and removing.](/assets/pamphlet_images/wood_carving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -268,7 +268,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Plan your own or select a project from the Wood Carving merit badge pamphlet and complete a simple carving in the round.** | `____________________________________` | `____________________________________` |
+| **1. Plan your own or select a project from the Wood Carving merit badge pamphlet and complete a simple carving in the round** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Trace front and side profile outlines onto squared basswood blocks with pencil markings.
@@ -289,7 +289,7 @@
 
 | Req 7 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Complete a simple low-relief OR a chip carving project.** | `____________________________________` | `____________________________________` |
+| **1. Complete a simple low-relief OR a chip carving project** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Relief Grounding: Level recessed background areas evenly using flat dogleg chisels or wide sweep gouges.

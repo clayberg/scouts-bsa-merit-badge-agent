@@ -50,7 +50,7 @@
 - **Common Myth:** Psychological practice primarily focuses on reading thoughts or performing parlor hypnosis tricks.
 - **Pamphlet Fact:** Psychology uses systematic empirical testing rather than speculative telepathy or subjective dream analysis.
 
-![Practical Psychology field visual showing proper setup, measurement, and technique for foundations of psychology and pioneers in Requirement 1.](/assets/pamphlet_images/psychology_p003_img1.png)
+![Psychology Requirement 1 figure showing experimental research analyzes overt human actions alongside neural systems.](/assets/pamphlet_images/psychology_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -64,7 +64,7 @@
 - **Common Myth:** Early psychological pioneers only formulated philosophical theories without running structured laboratory experiments.
 - **Pamphlet Fact:** Psychological pioneers developed rigorous laboratory instruments and observational rubrics to measure behavior.
 
-![Practical Psychology field visual showing proper setup, measurement, and technique for psychology scout oath and law help reference figure in Requirement 6.](/assets/pamphlet_images/psychology_p006_img1.png)
+![Psychology Requirement 6 figure showing structured value systems reduce cognitive ambiguity during complex interpersonal moral.](/assets/pamphlet_images/psychology_p006_img1.png)
 
 | Req 1b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -96,7 +96,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Applying Psychological Principles in Leadership Skits
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Psychology technical diagram of applying psychology to group leadership for Requirement 2 field execution.](/assets/pamphlet_images/psychology_p007_img1.png)
+![Psychology Requirement 2 figure showing understanding group developmental phases enhances communication during stressful.](/assets/pamphlet_images/psychology_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -111,7 +111,7 @@
 - **Common Myth:** Rehearsing skits adds no learning value beyond reading the written text silently.
 - **Pamphlet Fact:** Live roleplay reveals nonverbal physiological cues like clenched posture that impact group trust.
 
-![Practical Psychology field visual showing proper setup, measurement, and technique for youth mental health and community resilience in Requirement 3.](/assets/pamphlet_images/psychology_p012_img1.png)
+![Psychology Requirement 3 figure showing psychological wellness fluctuates continuously in response to environmental demands.](/assets/pamphlet_images/psychology_p012_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -189,7 +189,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Two-Week Daily Time Log & Screen-Time Balance
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Psychology visual guide highlighting psychology two-week daily time log & screen-time balance reference figure positioning and inspection.](/assets/pamphlet_images/psychology_p004_img1.png)
+![Psychology Requirement 4 figure showing daily time audits reveal hidden time drains and unbalance in weekly schedules.](/assets/pamphlet_images/psychology_p004_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -242,7 +242,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Own Words Define Empathy
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Psychology reference illustration comparing key components and stages of psychology in your own words define reference figure for Requirement 5.](/assets/pamphlet_images/psychology_p005_img1.png)
+![Psychology Requirement 5 figure showing cognitive empathy involves understanding another person's viewpoint without adopting.](/assets/pamphlet_images/psychology_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

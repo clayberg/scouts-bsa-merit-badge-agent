@@ -141,7 +141,7 @@
 - **Common Myth:** Older animals or non-canine species like cats and rodents cannot learn conditioned behavioral cues.
 - **Pamphlet Fact:** Operant conditioning principles apply across birds, mammals, and reptiles using species-appropriate food rewards.
 
-![Practical Pets field visual showing proper setup, measurement, and technique for four months of daily pet care in Requirement 1.](/assets/pamphlet_images/pets_p003_img1.png)
+![Pets Requirement 1 figure showing scouts must secure counselor authorization before starting the four month care record.](/assets/pamphlet_images/pets_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -70,7 +70,7 @@
 - **Common Myth:** Commercial door locks store actual photographic images of every fingerprint scanned at the entrance.
 - **Pamphlet Fact:** Access systems convert ridge features into mathematical vectors rather than storing raw raster fingerprint images.
 
-![Practical Fingerprinting field visual showing proper setup, measurement, and technique for automated identification and biometric systems in Requirement 2.](/assets/pamphlet_images/fingerprinting_p007_img1.png)
+![Fingerprinting Requirement 2 figure showing automated fingerprint networks execute complex one to many searches against large.](/assets/pamphlet_images/fingerprinting_p007_img1.png)
 
 | Comparison Dimension | Law Enforcement AFIS Database Searches | Biometric Access Control Verification Scanners |
 | :--- | :--- | :--- |
@@ -111,7 +111,7 @@
 - **Common Myth:** Friction ridges cover all parts of human skin to facilitate tactile sensory perception everywhere.
 - **Pamphlet Fact:** Friction ridges exist exclusively on the hairless palmar and plantar epidermal surfaces of the body.
 
-![Practical Fingerprinting field visual showing proper setup, measurement, and technique for friction ridges and identification principles in Requirement 3.](/assets/pamphlet_images/fingerprinting_p012_img1.png)
+![Fingerprinting Requirement 3 figure showing papillary ridges exist exclusively on the palms, fingers, and soles of human feet.](/assets/pamphlet_images/fingerprinting_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -139,7 +139,7 @@
 - **Common Myth:** Forensic identification requires finding a fixed universal number of matching points mandated by federal statute.
 - **Pamphlet Fact:** Identification standards rely on qualitative and quantitative analysis of minutiae without a rigid numerical threshold.
 
-![Detailed Fingerprinting reference illustration comparing key components and stages of fingerprint history and identification types for Requirement 1.](/assets/pamphlet_images/fingerprinting_p003_img1.png)
+![Fingerprinting Requirement 1 figure showing early civilizations used clay finger impressions to validate commercial transactions.](/assets/pamphlet_images/fingerprinting_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -161,18 +161,18 @@
         "options": [
           "A. An entrepreneur is guaranteed a fixed government salary and never faces the possibility of losing invested capital.",
           "B. An entrepreneur avoids innovating or changing product designs and relies on state monopolies to eliminate competitors.",
-          "C. An entrepreneur identifies an unmet customer need or market opportunity, organizes resources to create a compelling value proposition, and assumes calculated financial and operational risk to build a venture.",
+          "C. An entrepreneur identifies an unmet customer need or market opportunity.",
           "D. An entrepreneur works only in non-profit municipal departments that do not sell goods or services to customers."
         ],
         "choices": [
           "A. An entrepreneur is guaranteed a fixed government salary and never faces the possibility of losing invested capital.",
           "B. An entrepreneur avoids innovating or changing product designs and relies on state monopolies to eliminate competitors.",
-          "C. An entrepreneur identifies an unmet customer need or market opportunity, organizes resources to create a compelling value proposition, and assumes calculated financial and operational risk to build a venture.",
+          "C. An entrepreneur identifies an unmet customer need or market opportunity.",
           "D. An entrepreneur works only in non-profit municipal departments that do not sell goods or services to customers."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. An entrepreneur identifies an unmet customer need or market opportunity, organizes resources to create a compelling value proposition, and assumes calculated financial and operational risk to build a venture.",
+        "correct_answer": "C. An entrepreneur identifies an unmet customer need or market opportunity.",
         "explanation": "Correct Answer (C): Entrepreneurs drive innovation and job creation by spotting unmet needs, assembling capital and talent, delivering new value to customers, and taking on calculated business risk.",
         "pamphlet_page_ref": "p. 17, p. 21"
       },
@@ -241,14 +241,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem",
-          "2. Practical execution and real-world examples for Essential Skills for Successful Entrepreneurs"
+          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem"
         ],
         "rows": [
-          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem",
-          "2. Practical execution and real-world examples for Essential Skills for Successful Entrepreneurs"
+          "1. Explain to your counselor why having good skills in the following areas is important for an entrepreneur: communication, planning, organization, problem"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "Entrepreneurs only need charisma and creative vision rather than rigorous arithmetic competencies.",
@@ -756,8 +754,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5a(1), many Scouts assume product or service to be offered only requires a general overview rather than specific details on the product or service to be offered.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document product or service to be offered and explain the product or service to be offered during counselor review."
+                "misconception": "A vague conceptual product idea is sufficient for a business plan without defining exact physical features, materials, or service steps.",
+                "fact": "Entrepreneurs must document precise specifications, functional benefits, and deliverable items so customers know exactly what they receive for their money."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -783,15 +781,18 @@
               "id": "5a(1)",
               "sub_req_label": "5a(1)",
               "sub_req_text": "Describe the product or service to be offered.",
-              "topic_title": "Req 5a(1): Product or Service to Be Offered",
-              "pamphlet_summary": "Product or Service to Be Offered: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54).",
+              "topic_title": "Req 5a(1): Product or Service Offering Description",
+              "pamphlet_summary": "Product or Service Offering Description: A business plan begins with a clear specification of the product created or service performed, explaining its functional features and the specific consumer need it satisfies. Defining tangible attributes rather than vague concepts gives customers and suppliers an exact understanding of what the business sells (p. 53).",
               "pamphlet_excerpts": [
-                "Product or Service to Be Offered: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54)."
+                "Product or Service Offering Description: A business plan begins with a clear specification of the product created or service performed, explaining its functional features and the specific consumer need it satisfies. Defining tangible attributes rather than vague concepts gives customers and suppliers an exact understanding of what the business sells (p. 53)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
-              "title": "Req 5a(1): Product or Service to Be Offered",
+              "title": "Req 5a(1): Product or Service Offering Description",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "If a neighbor asks to buy what your business offers, how would you describe its exact features so they understand precisely what they are purchasing?"
+              ]
             },
             {
               "sub_id": "5a(2)",
@@ -832,8 +833,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "When preparing Entrepreneurship Requirement 5a(2) (Goals for Your Business), Scouts sometimes overlook the concrete pamphlet benchmarks covering goals for your business.",
-                "fact": "Counselor verification for Entrepreneurship Requirement 5a(2) requires concrete workbook evidence on goals for your business, specifically addressing goals for your business."
+                "misconception": "Business goals only need to express a general desire to make money rather than specific numerical targets tied to deadlines.",
+                "fact": "Successful business plans define quantifiable targets such as units produced, weekly customers served, and expected dates for reaching profitability."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -859,14 +860,17 @@
               "id": "5a(2)",
               "sub_req_label": "5a(2)",
               "sub_req_text": "Identify goals for your business.",
-              "topic_title": "Req 5a(2): Goals for Your Business",
-              "pamphlet_summary": "Goals for Your Business: The Entrepreneurship pamphlet for Requirement 5a(2) details goals for your business, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5a(2): Measurable Business Milestone Goals",
+              "pamphlet_summary": "Measurable Business Milestone Goals: Business goals establish specific, measurable targets for production volume, customer acquisition, and sales revenue over a designated timeline. Setting both short-term operational targets and long-term financial benchmarks keeps an enterprise focused and accountable (p. 54).",
               "pamphlet_excerpts": [
-                "Goals for Your Business: The Entrepreneurship pamphlet for Requirement 5a(2) details goals for your business, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Measurable Business Milestone Goals: Business goals establish specific, measurable targets for production volume, customer acquisition, and sales revenue over a designated timeline. Setting both short-term operational targets and long-term financial benchmarks keeps an enterprise focused and accountable (p. 54)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What measurable target can you set for your venture so you know with certainty whether it succeeded after its first month?"
+              ]
             },
             {
               "sub_id": "5a(3)",
@@ -898,8 +902,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "For Entrepreneurship Requirement 5a(3), a common mistake in you can make enough is treating how you can make enough of the product or perform the service to meet your goals as optional background reading.",
-                "fact": "Mastering Entrepreneurship Requirement 5a(3) means following the pamphlet standard for you can make enough and recording accurate notes on how you can make enough of the product or perform the service to meet your goals."
+                "misconception": "Hard work alone ensures a solo entrepreneur can fulfill unlimited customer orders without calculating hourly throughput or supply constraints.",
+                "fact": "Production schedules must factor in realistic preparation time, raw material transit, physical workspace, and personal school commitments to determine true output limits."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -925,14 +929,17 @@
               "id": "5a(3)",
               "sub_req_label": "5a(3)",
               "sub_req_text": "Explain how you can make enough of the product or perform the service to meet your goals.",
-              "topic_title": "Req 5a(3): You can make enough",
-              "pamphlet_summary": "You can make enough: The Entrepreneurship pamphlet for Requirement 5a(3) details how you can make enough of the product or perform the service to meet your goals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5a(3): Production Capacity and Operational Workflow",
+              "pamphlet_summary": "Production Capacity and Operational Workflow: Entrepreneurs must calculate production capacity by evaluating available hours, raw material supplies, equipment limits, and turnaround times per unit. Matching daily output limits to targeted sales volume prevents overpromising and running out of inventory or labor (p. 55).",
               "pamphlet_excerpts": [
-                "You can make enough: The Entrepreneurship pamphlet for Requirement 5a(3) details how you can make enough of the product or perform the service to meet your goals, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Production Capacity and Operational Workflow: Entrepreneurs must calculate production capacity by evaluating available hours, raw material supplies, equipment limits, and turnaround times per unit. Matching daily output limits to targeted sales volume prevents overpromising and running out of inventory or labor (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "If customer demand doubles overnight, what specific steps and physical resources will allow you to fulfill every order on time without sacrificing quality?"
+              ]
             },
             {
               "sub_id": "5a(4)",
@@ -969,8 +976,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "During Entrepreneurship Requirement 5a(4), Scouts can underestimate how directly mastery of and describe the potential liability risks depends on understanding the potential liability risks for your product or service.",
-                "fact": "Scouting America standards for Entrepreneurship Requirement 5a(4) require complete workbook entries on and describe the potential liability risks to demonstrate full understanding of the potential liability risks for your product or service."
+                "misconception": "Small home or neighborhood businesses operated by youth carry zero legal or financial liability if an accident occurs.",
+                "fact": "Any business operation can cause property damage or physical injury, requiring proactive risk assessment and safety protocols to protect both customers and the business owner."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -996,15 +1003,18 @@
               "id": "5a(4)",
               "sub_req_label": "5a(4)",
               "sub_req_text": "Identify and describe the potential liability risks for your product or service.",
-              "topic_title": "Req 5a(4): And describe the potential liability risks",
-              "pamphlet_summary": "And describe the potential liability risks: The Entrepreneurship pamphlet for Requirement 5a(4) details the potential liability risks for your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5a(4): Commercial Liability Risk Management",
+              "pamphlet_summary": "Commercial Liability Risk Management: Every commercial activity carries potential risks including property damage, personal injury, defective materials, or unsatisfied clients. Identifying these hazards in advance allows business owners to adopt safety precautions, parental waivers, warning labels, or liability insurance (p. 55).",
               "pamphlet_excerpts": [
-                "And describe the potential liability risks: The Entrepreneurship pamphlet for Requirement 5a(4) details the potential liability risks for your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Commercial Liability Risk Management: Every commercial activity carries potential risks including property damage, personal injury, defective materials, or unsatisfied clients. Identifying these hazards in advance allows business owners to adopt safety precautions, parental waivers, warning labels, or liability insurance (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
-              "title": "Req 5a(4): And describe the potential liability risks",
+              "title": "Req 5a(4): Commercial Liability Risk Management",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What potential accidents or property damage could occur while delivering your service, and how will you protect your customers and yourself from harm?"
+              ]
             },
             {
               "sub_id": "5a(5)",
@@ -1045,8 +1055,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5a(5), many Scouts assume license if any you only requires a general overview rather than specific details on what type of license, if any, you might need in order to sell or make your product or service.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5a(5) specifies that Scouts must thoroughly document license if any you and explain what type of license, if any, you might need in order to sell or make your product or service during counselor review."
+                "misconception": "Youth-run enterprises are automatically exempt from local municipal permits, food handling certifications, and business registration rules.",
+                "fact": "Local zoning boards and public health agencies enforce vendor rules and food safety codes regardless of the owner's age."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1072,14 +1082,17 @@
               "id": "5a(5)",
               "sub_req_label": "5a(5)",
               "sub_req_text": "Determine what type of license, if any, you might need in order to sell or make your product or service.",
-              "topic_title": "Req 5a(5): License If Any You",
-              "pamphlet_summary": "License If Any You: The Entrepreneurship pamphlet for Requirement 5a(5) details what type of license, if any, you might need in order to sell or make your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5a(5): Municipal Business Licensing Requirements",
+              "pamphlet_summary": "Municipal Business Licensing Requirements: Local municipalities, counties, and states regulate commercial trade through vendor permits, health department food safety certificates, and business registrations. Checking local town ordinances determines whether a home occupation permit or street solicitation license is legally mandated (p. 55).",
               "pamphlet_excerpts": [
-                "License If Any You: The Entrepreneurship pamphlet for Requirement 5a(5) details what type of license, if any, you might need in order to sell or make your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Municipal Business Licensing Requirements: Local municipalities, counties, and states regulate commercial trade through vendor permits, health department food safety certificates, and business registrations. Checking local town ordinances determines whether a home occupation permit or street solicitation license is legally mandated (p. 55)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "Why might your town hall or county government require a permit before you sell food items or operate equipment on neighborhood sidewalks?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Demonstration",
@@ -1194,8 +1207,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5b(1), many Scouts assume types of people who would buy only requires a general overview rather than specific details on the types of people who would buy your product or service.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document types of people who would buy and explain the types of people who would buy your product or service during counselor review."
+                "misconception": "A versatile product or service will appeal to everybody in the general public equally.",
+                "fact": "Effective business plans identify a distinct target audience whose specific problems, habits, and purchasing power match the solution offered."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1221,15 +1234,18 @@
               "id": "5b(1)",
               "sub_req_label": "5b(1)",
               "sub_req_text": "Identify the types of people who would buy your product or service.",
-              "topic_title": "Req 5b(1): Types of people who would buy",
-              "pamphlet_summary": "Types of people who would buy: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54).",
+              "topic_title": "Req 5b(1): Target Market Demographic Identification",
+              "pamphlet_summary": "Target Market Demographic Identification: Market analysis requires defining the specific demographic group most likely to purchase the offering, including their age, geographic location, income level, and specific lifestyle needs. Pinpointing ideal customer characteristics prevents wasteful spending on broad, untargeted advertising (p. 56).",
               "pamphlet_excerpts": [
-                "Types of people who would buy: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54)."
+                "Target Market Demographic Identification: Market analysis requires defining the specific demographic group most likely to purchase the offering, including their age, geographic location, income level, and specific lifestyle needs. Pinpointing ideal customer characteristics prevents wasteful spending on broad, untargeted advertising (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
-              "title": "Req 5b(1): Types of people who would buy",
+              "title": "Req 5b(1): Target Market Demographic Identification",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "Who is the ideal customer most willing to pay for your solution, and what specific problem are you solving for them?"
+              ]
             },
             {
               "sub_id": "5b(2)",
@@ -1270,8 +1286,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "When preparing Entrepreneurship Requirement 5b(2) (Your Business's Competitors), Scouts sometimes overlook the concrete pamphlet benchmarks covering your business's competitors, and describe their strengths and weaknesses.",
-                "fact": "Counselor verification for Entrepreneurship Requirement 5b(2) requires concrete workbook evidence on your business's competitors, specifically addressing your business's competitors, and describe their strengths and weaknesses."
+                "misconception": "A brand new business idea usually has zero existing competition in the local marketplace.",
+                "fact": "Customers already use alternative providers, retail substitutes, or do-it-yourself solutions, which all function as direct or indirect competitors."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1297,15 +1313,18 @@
               "id": "5b(2)",
               "sub_req_label": "5b(2)",
               "sub_req_text": "Identify your business's competitors, and describe their strengths and weaknesses.",
-              "topic_title": "Req 5b(2): Your Business's Competitors",
-              "pamphlet_summary": "Your Business's Competitors: The Entrepreneurship pamphlet for Requirement 5b(2) details your business's competitors, and describe their strengths and weaknesses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5b(2): Competitive Market Strengths Assessment",
+              "pamphlet_summary": "Competitive Market Strengths Assessment: Entrepreneurs study existing direct and indirect competitors by cataloging their pricing, reputation, operating hours, convenience, and service gaps. Analyzing where established businesses excel and where they fall short reveals strategic opportunities to win market share (p. 57).",
               "pamphlet_excerpts": [
-                "Your Business's Competitors: The Entrepreneurship pamphlet for Requirement 5b(2) details your business's competitors, and describe their strengths and weaknesses, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Competitive Market Strengths Assessment: Entrepreneurs study existing direct and indirect competitors by cataloging their pricing, reputation, operating hours, convenience, and service gaps. Analyzing where established businesses excel and where they fall short reveals strategic opportunities to win market share (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
-              "title": "Req 5b(2): Your Business's Competitors",
+              "title": "Req 5b(2): Competitive Market Strengths Assessment",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "Where do your prospective customers currently go to solve this problem, and what does your competitor do better than you?"
+              ]
             },
             {
               "sub_id": "5b(3)",
@@ -1346,8 +1365,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "For Entrepreneurship Requirement 5b(3), a common mistake in product or service unique is treating what makes your product or service unique as optional background reading.",
-                "fact": "Mastering Entrepreneurship Requirement 5b(3) means following the pamphlet standard for product or service unique and recording accurate notes on what makes your product or service unique."
+                "misconception": "Offering a slightly cheaper price is the only way to make a product or service stand out from competitors.",
+                "fact": "Distinctive value can stem from specialized customization, eco-friendly ingredients, superior customer service, or flexible delivery schedules."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1373,14 +1392,17 @@
               "id": "5b(3)",
               "sub_req_label": "5b(3)",
               "sub_req_text": "Describe what makes your product or service unique.",
-              "topic_title": "Req 5b(3): Product or Service Unique",
-              "pamphlet_summary": "Product or Service Unique: The Entrepreneurship pamphlet for Requirement 5b(3) details what makes your product or service unique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5b(3): Unique Value Proposition Differentiation",
+              "pamphlet_summary": "Unique Value Proposition Differentiation: A unique selling proposition highlights distinctive advantages such as superior craftsmanship, personalized convenience, faster delivery, or lower price points. Articulating this competitive edge gives prospective buyers a compelling reason to choose a new venture over established alternatives (p. 57).",
               "pamphlet_excerpts": [
-                "Product or Service Unique: The Entrepreneurship pamphlet for Requirement 5b(3) details what makes your product or service unique, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Unique Value Proposition Differentiation: A unique selling proposition highlights distinctive advantages such as superior craftsmanship, personalized convenience, faster delivery, or lower price points. Articulating this competitive edge gives prospective buyers a compelling reason to choose a new venture over established alternatives (p. 57)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What special benefit or distinct experience will convince a buyer to choose your venture over a well-known brand?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1494,8 +1516,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5c(1), many Scouts assume much money you only requires a general overview rather than specific details on how much money you will need to start your business, and identify how you will obtain the money.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5c(1) specifies that Scouts must thoroughly document much money you and explain how much money you will need to start your business, and identify how you will obtain the money during counselor review."
+                "misconception": "Entrepreneurs should take on large bank loans or credit card debt before testing customer demand with their own modest resources.",
+                "fact": "The handbook advises beginning with small personal savings or modest family borrowing while proving the business concept on a manageable scale."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1521,14 +1543,17 @@
               "id": "5c(1)",
               "sub_req_label": "5c(1)",
               "sub_req_text": "Determine how much money you will need to start your business, and identify how you will obtain the money.",
-              "topic_title": "Req 5c(1): Much Money You",
-              "pamphlet_summary": "Much Money You: The Entrepreneurship pamphlet for Requirement 5c(1) details how much money you will need to start your business, and identify how you will obtain the money, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5c(1): Startup Capital Requirement Calculation",
+              "pamphlet_summary": "Startup Capital Requirement Calculation: Startup costs include one-time equipment purchases, initial raw materials, advertising flyers, and necessary licensing fees needed before launching. Entrepreneurs fund these initial outlays through personal savings, small family loans, or advance customer deposits (p. 58).",
               "pamphlet_excerpts": [
-                "Much Money You: The Entrepreneurship pamphlet for Requirement 5c(1) details how much money you will need to start your business, and identify how you will obtain the money, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Startup Capital Requirement Calculation: Startup costs include one-time equipment purchases, initial raw materials, advertising flyers, and necessary licensing fees needed before launching. Entrepreneurs fund these initial outlays through personal savings, small family loans, or advance customer deposits (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What upfront expenses must you pay before your very first day of sales, and where will those initial dollars come from?"
+              ]
             },
             {
               "sub_id": "5c(2)",
@@ -1565,8 +1590,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "When preparing Entrepreneurship Requirement 5c(2) (Cost of Offering Your Product), Scouts sometimes overlook the concrete pamphlet benchmarks covering the cost of offering your product or service and the price you will charge in order to make a profit.",
-                "fact": "Counselor verification for Entrepreneurship Requirement 5c(2) requires concrete workbook evidence on cost of offering your product, specifically addressing the cost of offering your product or service and the price you will charge in order to make a profit."
+                "misconception": "Profit equals the total retail sales price minus the cost of raw materials while treating personal labor as free.",
+                "fact": "True operational cost includes the value of the entrepreneur's labor time alongside expendable supplies and tool depreciation."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1592,14 +1617,17 @@
               "id": "5c(2)",
               "sub_req_label": "5c(2)",
               "sub_req_text": "Determine the cost of offering your product or service and the price you will charge in order to make a profit.",
-              "topic_title": "Req 5c(2): Cost of Offering Your Product",
-              "pamphlet_summary": "Cost of Offering Your Product: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54).",
+              "topic_title": "Req 5c(2): Unit Costing and Profit Pricing",
+              "pamphlet_summary": "Unit Costing and Profit Pricing: Setting a profitable price requires adding direct material expenses, operating overhead, and an hourly labor wage to establish the baseline unit cost. The retail price must exceed total unit expenses while remaining competitive with prevailing market rates (p. 58).",
               "pamphlet_excerpts": [
-                "Cost of Offering Your Product: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54)."
+                "Unit Costing and Profit Pricing: Setting a profitable price requires adding direct material expenses, operating overhead, and an hourly labor wage to establish the baseline unit cost. The retail price must exceed total unit expenses while remaining competitive with prevailing market rates (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "If you spend three dollars on supplies and ninety minutes of physical work on an order, what price must you charge to pay yourself fairly and generate a profit?"
+              ]
             },
             {
               "sub_id": "5c(3)",
@@ -1636,8 +1664,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "For Entrepreneurship Requirement 5c(3), a common mistake in will happen with the money is treating what will happen with the money you make from the sales of your product or service as optional background reading.",
-                "fact": "Mastering Entrepreneurship Requirement 5c(3) means following the pamphlet standard for will happen with the money and recording accurate notes on what will happen with the money you make from the sales of your product or service."
+                "misconception": "All cash collected from customers can be immediately withdrawn and spent as personal pocket money.",
+                "fact": "Gross revenue must first pay for replacement inventory, operating overhead, and debt repayment before any net earnings can be taken home."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1663,14 +1691,17 @@
               "id": "5c(3)",
               "sub_req_label": "5c(3)",
               "sub_req_text": "Describe what will happen with the money you make from the sales of your product or service.",
-              "topic_title": "Req 5c(3): Will Happen With The Money",
-              "pamphlet_summary": "Will Happen With The Money: The Entrepreneurship pamphlet for Requirement 5c(3) details what will happen with the money you make from the sales of your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5c(3): Revenue Allocation and Reinvestment Strategy",
+              "pamphlet_summary": "Revenue Allocation and Reinvestment Strategy: Incoming revenue must be systematically divided among replenishing consumed inventory, maintaining equipment, repaying startup debt, and setting aside reserves. Remaining net profits can be retained for business expansion or distributed as personal entrepreneurial earnings (p. 59).",
               "pamphlet_excerpts": [
-                "Will Happen With The Money: The Entrepreneurship pamphlet for Requirement 5c(3) details what will happen with the money you make from the sales of your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Revenue Allocation and Reinvestment Strategy: Incoming revenue must be systematically divided among replenishing consumed inventory, maintaining equipment, repaying startup debt, and setting aside reserves. Remaining net profits can be retained for business expansion or distributed as personal entrepreneurial earnings (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "After a customer hands you twenty dollars in cash, how much of that money must stay in the business cash box to pay for your next job?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1780,8 +1811,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5d(1), many Scouts assume business you will handle yourself only requires a general overview rather than specific details on what parts of the business you will handle yourself, and describe your qualifications.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5d(1) specifies that Scouts must thoroughly document business you will handle yourself and explain what parts of the business you will handle yourself, and describe your qualifications during counselor review."
+                "misconception": "Operating a business requires an advanced business degree rather than practical hands-on skills, reliability, and willingness to learn.",
+                "fact": "Scouts possess relevant qualifications through hobbies, related merit badges, school projects, and volunteer leadership that translate directly into business capabilities."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1807,14 +1838,17 @@
               "id": "5d(1)",
               "sub_req_label": "5d(1)",
               "sub_req_text": "Determine what parts of the business you will handle yourself, and describe your qualifications.",
-              "topic_title": "Req 5d(1): Business You Will Handle Yourself",
-              "pamphlet_summary": "Business You Will Handle Yourself: The Entrepreneurship pamphlet for Requirement 5d(1) details what parts of the business you will handle yourself, and describe your qualifications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5d(1): Owner Responsibilities and Personal Qualifications",
+              "pamphlet_summary": "Owner Responsibilities and Personal Qualifications: The personnel section defines the specific roles the founder personally executes, such as production, bookkeeping, or customer communications. Documenting past experience, technical skills, merit badges, or academic coursework demonstrates competence to manage these responsibilities (p. 60).",
               "pamphlet_excerpts": [
-                "Business You Will Handle Yourself: The Entrepreneurship pamphlet for Requirement 5d(1) details what parts of the business you will handle yourself, and describe your qualifications, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Owner Responsibilities and Personal Qualifications: The personnel section defines the specific roles the founder personally executes, such as production, bookkeeping, or customer communications. Documenting past experience, technical skills, merit badges, or academic coursework demonstrates competence to manage these responsibilities (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What practical skills or previous experiences make you well-suited to manage the day-to-day operations of your enterprise?"
+              ]
             },
             {
               "sub_id": "5d(2)",
@@ -1848,8 +1882,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "When preparing Entrepreneurship Requirement 5d(2) (Determine whether you will need additional), Scouts sometimes overlook the concrete pamphlet benchmarks covering whether you will need additional help to operate your business.",
-                "fact": "Counselor verification for Entrepreneurship Requirement 5d(2) requires concrete workbook evidence on determine whether you will need additional, specifically addressing whether you will need additional help to operate your business."
+                "misconception": "Hiring friends or family members requires no formal job descriptions or clear performance expectations.",
+                "fact": "Defining exact tasks, required capabilities, and clear working hours prevents interpersonal conflict and ensures helper reliability."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -1875,14 +1909,17 @@
               "id": "5d(2)",
               "sub_req_label": "5d(2)",
               "sub_req_text": "Determine whether you will need additional help to operate your business. If you will need help, describe the responsibilities and qualifications needed for the personnel who will fill each role.",
-              "topic_title": "Req 5d(2): Determine whether you will need additional",
-              "pamphlet_summary": "Determine whether you will need additional: Consider the type of people who will be your customers, including their needs and ways you can help fill those needs (p. 54).",
+              "topic_title": "Req 5d(2): Additional Personnel Roles and Qualifications",
+              "pamphlet_summary": "Additional Personnel Roles and Qualifications: When projected sales volume exceeds a founder's available time or technical expertise, hiring partners or helpers becomes necessary. Writing precise job descriptions with defined duties, required skills, and agreed hourly compensation prevents confusion and maintains service standards (p. 60).",
               "pamphlet_excerpts": [
-                "Determine whether you will need additional: Consider the type of people who will be your customers, including their needs and ways you can help fill those needs (p. 54)."
+                "Additional Personnel Roles and Qualifications: When projected sales volume exceeds a founder's available time or technical expertise, hiring partners or helpers becomes necessary. Writing precise job descriptions with defined duties, required skills, and agreed hourly compensation prevents confusion and maintains service standards (p. 60)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "If you bring in a classmate or fellow Scout to help with peak customer demand, how will you define their exact daily duties and verify their skills?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -1999,8 +2036,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "In Entrepreneurship Requirement 5e(1), many Scouts assume methods you will use to promote only requires a general overview rather than specific details on the methods you will use to promote your business to potential customers.",
-                "fact": "The official Entrepreneurship pamphlet for Requirement 5e(1) specifies that Scouts must thoroughly document methods you will use to promote and explain the methods you will use to promote your business to potential customers during counselor review."
+                "misconception": "A high-quality product or service will naturally attract customers without active promotional advertising.",
+                "fact": "Even outstanding businesses fail unless founders actively inform prospective buyers through deliberate promotional campaigns and community outreach."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2026,14 +2063,17 @@
               "id": "5e(1)",
               "sub_req_label": "5e(1)",
               "sub_req_text": "Describe the methods you will use to promote your business to potential customers.",
-              "topic_title": "Req 5e(1): Methods you will use to promote",
-              "pamphlet_summary": "Methods you will use to promote: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54).",
+              "topic_title": "Req 5e(1): Local Customer Promotional Marketing Methods",
+              "pamphlet_summary": "Local Customer Promotional Marketing Methods: Business promotion utilizes multiple direct outreach channels including neighborhood flyers, word-of-mouth recommendations, community bulletin boards, and introductory discount coupons. Combining physical displays with direct customer conversations builds local brand recognition quickly and economically (p. 61).",
               "pamphlet_excerpts": [
-                "Methods you will use to promote: Once your business plan is complete, design a marketing plan that informs potential customers about your product or service (p. 54)."
+                "Local Customer Promotional Marketing Methods: Business promotion utilizes multiple direct outreach channels including neighborhood flyers, word-of-mouth recommendations, community bulletin boards, and introductory discount coupons. Combining physical displays with direct customer conversations builds local brand recognition quickly and economically (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "What low-cost promotional strategies can you deploy around your neighborhood to get your first ten paying customers?"
+              ]
             },
             {
               "sub_id": "5e(2)",
@@ -2070,8 +2110,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "When preparing Entrepreneurship Requirement 5e(2) (You Will Utilize The Internet), Scouts sometimes overlook the concrete pamphlet benchmarks covering how you will utilize the internet and social media to increase awareness of your product or service.",
-                "fact": "Counselor verification for Entrepreneurship Requirement 5e(2) requires concrete workbook evidence on you will utilize the internet, specifically addressing how you will utilize the internet and social media to increase awareness of your product or service."
+                "misconception": "Posting a business advertisement on personal social media guarantees instant viral sales without targeted community engagement or adult guidance.",
+                "fact": "Online business promotion requires consistent posting of professional content, active parent or guardian supervision, and strict adherence to digital safety guidelines."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2097,14 +2137,17 @@
               "id": "5e(2)",
               "sub_req_label": "5e(2)",
               "sub_req_text": "Explain how you will utilize the internet and social media to increase awareness of your product or service.",
-              "topic_title": "Req 5e(2): You Will Utilize The Internet",
-              "pamphlet_summary": "You Will Utilize The Internet: The Entrepreneurship pamphlet for Requirement 5e(2) details how you will utilize the internet and social media to increase awareness of your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5e(2): Digital Outreach and Online Promotion",
+              "pamphlet_summary": "Digital Outreach and Online Promotion: Digital marketing leverages websites, photo-sharing platforms, community forums, and email newsletters to display product photos and customer testimonials. Youth entrepreneurs must follow youth safety guidelines and parental oversight rules whenever managing digital business accounts (p. 62).",
               "pamphlet_excerpts": [
-                "You Will Utilize The Internet: The Entrepreneurship pamphlet for Requirement 5e(2) details how you will utilize the internet and social media to increase awareness of your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Digital Outreach and Online Promotion: Digital marketing leverages websites, photo-sharing platforms, community forums, and email newsletters to display product photos and customer testimonials. Youth entrepreneurs must follow youth safety guidelines and parental oversight rules whenever managing digital business accounts (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "How can digital tools like neighborhood community boards or photo posts help share your work while maintaining your online safety and privacy?"
+              ]
             },
             {
               "sub_id": "5e(3)",
@@ -2153,8 +2196,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)",
               "common_misconception_pair": {
-                "misconception": "For Entrepreneurship Requirement 5e(3), a common mistake in promotional flyer or poster is treating design a promotional flyer or poster for your product or service as optional background reading.",
-                "fact": "Mastering Entrepreneurship Requirement 5e(3) means following the pamphlet standard for promotional flyer or poster and recording accurate notes on design a promotional flyer or poster for your product or service."
+                "misconception": "Filling every inch of page space with detailed text and feature lists produces the most persuasive promotional flyer.",
+                "fact": "High-impact flyers rely on generous white space, a clear visual hierarchy, and a single core benefit so readers can quickly understand the offer and take action."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2180,14 +2223,17 @@
               "id": "5e(3)",
               "sub_req_label": "5e(3)",
               "sub_req_text": "Design a promotional flyer or poster for your product or service.",
-              "topic_title": "Req 5e(3): Promotional Flyer or Poster",
-              "pamphlet_summary": "Promotional Flyer or Poster: The Entrepreneurship pamphlet for Requirement 5e(3) details design a promotional flyer or poster for your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54).",
+              "topic_title": "Req 5e(3): Promotional Flyer and Poster Design",
+              "pamphlet_summary": "Promotional Flyer and Poster Design: Effective promotional flyers must highlight the primary customer benefit with a bold headline, provide essential contact and pricing details, and include a clear call to action. Clean visual layouts balance typography, imagery, and white space so prospective buyers can absorb the offer within seconds (p. 51).",
               "pamphlet_excerpts": [
-                "Promotional Flyer or Poster: The Entrepreneurship pamphlet for Requirement 5e(3) details design a promotional flyer or poster for your product or service, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 54)."
+                "Promotional Flyer and Poster Design: Effective promotional flyers must highlight the primary customer benefit with a bold headline, provide essential contact and pricing details, and include a clear call to action. Clean visual layouts balance typography, imagery, and white space so prospective buyers can absorb the offer within seconds (p. 51)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/entrepreneurship_p053_img1.png",
               "workbook_diagram_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
-              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan."
+              "workbook_visual_caption": "Three students work together around a table with notebooks and computers to draft a business plan.",
+              "socratic_questions": [
+                "When a prospective customer glances at your poster for only three seconds, what details must stand out to convince them to contact your business?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -2716,13 +2762,13 @@
       "options": [
         "A. An entrepreneur is guaranteed a fixed government salary and never faces the possibility of losing invested capital.",
         "B. An entrepreneur avoids innovating or changing product designs and relies on state monopolies to eliminate competitors.",
-        "C. An entrepreneur identifies an unmet customer need or market opportunity, organizes resources to create a compelling value proposition, and assumes calculated financial and operational risk to build a venture.",
+        "C. An entrepreneur identifies an unmet customer need or market opportunity.",
         "D. An entrepreneur works only in non-profit municipal departments that do not sell goods or services to customers."
       ],
       "choices": [
         "A. An entrepreneur is guaranteed a fixed government salary and never faces the possibility of losing invested capital.",
         "B. An entrepreneur avoids innovating or changing product designs and relies on state monopolies to eliminate competitors.",
-        "C. An entrepreneur identifies an unmet customer need or market opportunity, organizes resources to create a compelling value proposition, and assumes calculated financial and operational risk to build a venture.",
+        "C. An entrepreneur identifies an unmet customer need or market opportunity.",
         "D. An entrepreneur works only in non-profit municipal departments that do not sell goods or services to customers."
       ],
       "correct_index": 2,

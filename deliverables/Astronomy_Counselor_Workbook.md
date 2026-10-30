@@ -53,7 +53,7 @@
 - **Common Myth:** Observing hazards only happen while using optical equipment rather than navigating the dark site.
 - **Pamphlet Fact:** Tripping over equipment in low light causes common injuries during nighttime observing sessions.
 
-![Practical Astronomy field visual showing proper setup, measurement, and technique for astronomy safety and first aid in Requirement 1.](/assets/pamphlet_images/astronomy_p003_img1.png)
+![Astronomy Requirement 1 figure showing red light flashlights protect pupil dilation and preserve human night vision adaptation.](/assets/pamphlet_images/astronomy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -81,7 +81,7 @@
 - **Common Myth:** Heavy winter jackets alone provide sufficient insulation for prolonged stationary nighttime telescope viewing.
 - **Pamphlet Fact:** Layered wool and synthetic garments maintain core heat better than single heavy jackets.
 
-![Illustrated Astronomy technical diagram of light pollution and atmospheric seeing for Requirement 2 field execution.](/assets/pamphlet_images/astronomy_p007_img1.png)
+![Astronomy Requirement 2 figure showing upward artificial light scatters off atmospheric molecules and obscures celestial targets.](/assets/pamphlet_images/astronomy_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -114,7 +114,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain what light pollution is and how it and air pollution affect astronomy.** | `____________________________________` | `____________________________________` |
+| **1. Explain what light pollution is and how it and air pollution affect astronomy** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Skyglow Emission: Upward artificial light scatters off atmospheric molecules and obscures celestial targets.
@@ -143,7 +143,7 @@
 - **Common Myth:** Binoculars lack sufficient optical power to display astronomical targets like the lunar surface.
 - **Pamphlet Fact:** Binoculars offer wide field stereoscopic viewing ideal for sweeping extended open star clusters.
 
-![Step-by-step Astronomy visual guide highlighting optical instruments and telescope care positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/astronomy_p012_img1.png)
+![Astronomy Requirement 3 figure showing larger objective lenses collect more light photons to brighten dim celestial targets.](/assets/pamphlet_images/astronomy_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |

@@ -51,7 +51,7 @@
 - **Common Myth:** Public health programs exist solely to provide free emergency medical care to uninsured individuals.
 - **Pamphlet Fact:** Public health develops community regulations, water standards, and epidemiological tracking systems to prevent disease occurrence.
 
-![Step-by-step Public Health visual guide highlighting disease transmission and public health positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/public_health_p003_img1.png)
+![Public Health Requirement 1 figure showing organized population interventions prevent epidemic outbreaks before individual.](/assets/pamphlet_images/public_health_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -80,7 +80,7 @@
 - **Common Myth:** Home-canned low-acid vegetables can be made safe simply by smelling or looking at the jar contents.
 - **Pamphlet Fact:** Clostridium botulinum toxins can be present without altering the visual appearance, odor, or taste of food.
 
-![Illustrated Public Health technical diagram of safe water and camp sanitation for Requirement 3 field execution.](/assets/pamphlet_images/public_health_p012_img1.png)
+![Public Health Requirement 3 figure showing rolling boils maintained for one continuous full minute kill vegetative waterborne.](/assets/pamphlet_images/public_health_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -121,7 +121,7 @@
 - **Common Myth:** Vaccines cause the exact active illness that they are engineered to prevent in healthy recipients.
 - **Pamphlet Fact:** Vaccines utilize killed pathogens, weakened antigens, or messenger RNA fragments incapable of causing active systemic disease.
 
-![Detailed Public Health reference illustration comparing key components and stages of immunizations and vaccine protection for Requirement 2.](/assets/pamphlet_images/public_health_p007_img1.png)
+![Public Health Requirement 2 figure showing vaccines introduce weakened antigens to teach lymphocytes how to neutralize future.](/assets/pamphlet_images/public_health_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -229,11 +229,11 @@
 - Municipal wastewater plants utilize mechanical screening, gravity sedimentation, biological aeration digestion, and chemical or ultraviolet disinfection to treat domestic sewage. Solid waste operations compact refuse into engineered landfill cells sealed with impermeable liners to protect groundwater.
 - Req 5a Standard (Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)): Visit a municipal wastewater treatment facility or a solid-waste management operation in your community. (1) Describe how the facility safely treats and disposes of sewage or solid waste. (2) Discuss your visit and what you learned with your counselor. (3) Describe how sewage and solid waste should be disposed of under wilderness camping conditions.
 
-#### Req 5a(1): Facility Safely Treats and Disposes
+#### Req 5a(1): Municipal Wastewater Treatment and Disposal
 **Official Requirement 5a(1):** Describe how the facility safely treats and disposes of sewage or solid waste.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5a(1) Structured Technical Study & Explanation Matrix (Facility Safely Treats and Disposes)
-- **Common Myth:** In Public Health Requirement 5a(1), many Scouts assume facility safely treats and disposes only requires a general overview rather than specific details on how the facility safely treats and disposes of sewage or solid waste.
-- **Pamphlet Fact:** The official Public Health pamphlet for Requirement 5a(1) specifies that Scouts must thoroughly document facility safely treats and disposes and explain how the facility safely treats and disposes of sewage or solid waste during counselor review.
+- **Common Myth:** Primary sedimentation tanks remove all dissolved toxins and pathogenic microbes from municipal wastewater.
+- **Pamphlet Fact:** Primary treatment only settles out large suspended solids, requiring secondary microbial aeration and tertiary chemical or ultraviolet disinfection to neutralize dissolved organic matter and disease pathogens.
 
 ![A boy holds a reptile requiring handwashing to avoid salmonella.](/assets/pamphlet_images/public_health_p033_img1.png)
 
@@ -243,11 +243,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(2): Your visit and what you learned
+#### Req 5a(2): Wastewater Facility Field Tour Review
 **Official Requirement 5a(2):** Discuss your visit and what you learned with your counselor.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5a(2) Structured Technical Study & Explanation Matrix (Discuss Your Visit and What)
-- **Common Myth:** When preparing Public Health Requirement 5a(2) (Your visit and what you learned), Scouts sometimes overlook the concrete pamphlet benchmarks covering your visit and what you learned with your counselor.
-- **Pamphlet Fact:** Counselor verification for Public Health Requirement 5a(2) requires concrete workbook evidence on your visit and what you learned, specifically addressing your visit and what you learned with your counselor.
+- **Common Myth:** Touring a wastewater facility only requires observing physical machinery rather than understanding the biological breakdown of hazardous waste.
+- **Pamphlet Fact:** Counselors require Scouts to explain how microorganisms digest organic waste and how operators verify effluent safety through chemical monitoring.
 
 ![A gloved lab technician uses a micropipette to analyze samples.](/assets/pamphlet_images/public_health_p027_img1.png)
 
@@ -257,11 +257,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5a(3): Sewage and Solid Waste
+#### Req 5a(3): Wilderness Sanitation and Waste Disposal
 **Official Requirement 5a(3):** Describe how sewage and solid waste should be disposed of under wilderness camping conditions.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5a(3) Structured Technical Study & Explanation Matrix (Sewage and Solid Waste)
-- **Common Myth:** For Public Health Requirement 5a(3), a common mistake in sewage and solid waste is treating how sewage and solid waste should be disposed of under wilderness camping conditions as optional background reading.
-- **Pamphlet Fact:** Mastering Public Health Requirement 5a(3) means following the pamphlet standard for sewage and solid waste and recording accurate notes on how sewage and solid waste should be disposed of under wilderness camping conditions.
+- **Common Myth:** Burying leftover food scraps alongside human waste in a backcountry cathole is safe because organic food decomposes naturally in soil.
+- **Pamphlet Fact:** Food waste buried in catholes attracts scavenging animals, unearths pathogens, and pollutes campsites, which is why Leave No Trace guidelines mandate packing out all solid waste.
 
 ![A Scout inspects a kitchen buffet to learn food sanitation rules.](/assets/pamphlet_images/public_health_p032_img1.png)
 
@@ -281,11 +281,11 @@
 - Food service establishments prevent foodborne illness by controlling food temperatures, sanitizing cooking utensils, and enforcing worker personal hygiene. Food safety codes mandate keeping hazardous foods below forty degrees or above one hundred forty degrees Fahrenheit.
 - Req 5b Standard (Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)): Visit a food service facility, such as a restaurant or school cafeteria. (1) Observe food preparation, handling, and storage. Learn how the facility keeps food from becoming contaminated. (2) Find out what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, and how to kill them. (3) Discuss the importance of using a thermometer to check food temperatures. (4) Discuss your visit and what you learned with your counselor.
 
-#### Req 5b(1): Food Preparation Handling and Storage
+#### Req 5b(1): Commercial Food Storage and Handling
 **Official Requirement 5b(1):** Observe food preparation, handling, and storage. Learn how the facility keeps food from becoming contaminated.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Food Preparation Handling and Storage)
-- **Common Myth:** In Public Health Requirement 5b(1), many Scouts assume food preparation handling and storage only requires a general overview rather than specific details on observe food preparation, handling, and storage.
-- **Pamphlet Fact:** The official Public Health pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document food preparation handling and storage and explain observe food preparation, handling, and storage during counselor review.
+- **Common Myth:** Storing raw poultry on shelves above fresh produce is safe as long as the meat is wrapped in plastic film.
+- **Pamphlet Fact:** Raw poultry must always be stored on the lowest refrigerator shelves so juices cannot drip onto ready to eat foods and cause dangerous cross contamination.
 
 ![A boy inspects a refrigerator to ensure proper food storage temps.](/assets/pamphlet_images/public_health_p043_img1.png)
 
@@ -296,11 +296,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(2): Out What Conditions Allow Microorganisms
+#### Req 5b(2): Foodborne Microbial Growth and Control
 **Official Requirement 5b(2):** Find out what conditions allow microorganisms to multiply in food, what can be done to help prevent them from growing and spreading, and how to kill them.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b(2) Structured Technical Study & Explanation Matrix (Out What Conditions Allow Microorganisms)
-- **Common Myth:** When preparing Public Health Requirement 5b(2) (Out What Conditions Allow Microorganisms), Scouts sometimes overlook the concrete pamphlet benchmarks covering what conditions allow microorganisms to multiply in food, what can be done to help prevent them.
-- **Pamphlet Fact:** Counselor verification for Public Health Requirement 5b(2) requires concrete workbook evidence on out what conditions allow microorganisms, specifically addressing what conditions allow microorganisms to multiply in food, what can be done to help prevent them.
+- **Common Myth:** Freezing contaminated food kills all resident bacteria and eliminates the risk of foodborne poisoning.
+- **Pamphlet Fact:** Freezing merely puts bacteria into a dormant state without destroying them, allowing rapid multiplication once the food thaws back into the danger zone.
 
 ![Workers sort municipal recyclable materials along a conveyor line.](/assets/pamphlet_images/public_health_p050_img1.png)
 
@@ -310,11 +310,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(3): The importance of using a thermometer
+#### Req 5b(3): Internal Food Temperature Verification Standards
 **Official Requirement 5b(3):** Discuss the importance of using a thermometer to check food temperatures.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b(3) Structured Technical Study & Explanation Matrix (Discuss Thermometer Food Temperatures)
-- **Common Myth:** For Public Health Requirement 5b(3), a common mistake in the importance of using a thermometer is treating the importance of using a thermometer to check food temperatures as optional background reading.
-- **Pamphlet Fact:** Mastering Public Health Requirement 5b(3) means following the pamphlet standard for the importance of using a thermometer and recording accurate notes on the importance of using a thermometer to check food temperatures.
+- **Common Myth:** Checking the surface color or internal pinkness of cooked meat reliably determines whether harmful pathogens have been killed.
+- **Pamphlet Fact:** Visual signs like browning can occur before food reaches required internal pathogen destruction thresholds, making a calibrated probe thermometer the only reliable safety verification tool.
 
 ![A Scout seals food into airtight bags to prevent pest infestation.](/assets/pamphlet_images/public_health_p051_img1.png)
 
@@ -324,11 +324,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(4): Your visit and what you learned
+#### Req 5b(4): Food Service Inspection Tour Review
 **Official Requirement 5b(4):** Discuss your visit and what you learned with your counselor.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 44, p. 58)* • **Organizer (Concept & Examples Notes):** Req 5b(4) Structured Technical Study & Explanation Matrix (Discuss Your Visit and What)
-- **Common Myth:** During Public Health Requirement 5b(4), Scouts can underestimate how directly mastery of your visit and what you learned depends on understanding your visit and what you learned with your counselor.
-- **Pamphlet Fact:** Scouting America standards for Public Health Requirement 5b(4) require complete workbook entries on your visit and what you learned to demonstrate full understanding of your visit and what you learned with your counselor.
+- **Common Myth:** Commercial food safety depends primarily on routine local health department audits rather than continuous internal employee monitoring logs.
+- **Pamphlet Fact:** Daily operational logging of refrigerator temperatures, hot holding units, and sanitizer concentration levels is essential to prevent food poisoning between official government inspections.
 
 ![Field water filtration removes particulate matter for purification.](/assets/pamphlet_images/public_health_p053_img1.png)
 
@@ -419,11 +419,11 @@
 - Local, state, and federal public health agencies manage vital statistics, inspect restaurants, track infectious outbreaks, and coordinate emergency health responses. Visiting an agency or exploring its official portal reveals how government sanitarians and epidemiologists protect public welfare.
 - Req 7a Standard (Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)): Do ONE of the following: (1) Visit your city, county, state, or federal public health agency. (2) Familiarize yourself with your city, county, state, or a federal health agency's website.
 
-#### Req 7a(1): City County State or Federal
+#### Req 7a(1): Government Public Health Agency Visit
 **Official Requirement 7a(1):** Visit your city, county, state, or federal public health agency.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7a(1) Structured Technical Study & Explanation Matrix (City County State or Federal)
-- **Common Myth:** In Public Health Requirement 7a(1), many Scouts assume city county state or federal only requires a general overview rather than specific details on visit your city, county, state, or federal public health agency.
-- **Pamphlet Fact:** The official Public Health pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document city county state or federal and explain visit your city, county, state, or federal public health agency during counselor review.
+- **Common Myth:** Public health agencies operate primarily as emergency medical clinics that provide acute bedside patient treatment.
+- **Pamphlet Fact:** Public health agencies focus on population wide disease prevention, environmental health inspections, and community education rather than acute individual hospital care.
 
 ![Discarded trash and beer cans illustrate roadside environmental waste.](/assets/pamphlet_images/public_health_p072_img1.png)
 
@@ -433,11 +433,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(2): Familiarize Yourself With Your City
+#### Req 7a(2): Public Health Agency Website Analysis
 **Official Requirement 7a(2):** Familiarize yourself with your city, county, state, or a federal health agency's website.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7a(2) Structured Technical Study & Explanation Matrix (Familiarize Yourself With Your City)
-- **Common Myth:** When preparing Public Health Requirement 7a(2) (Familiarize Yourself With Your City), Scouts sometimes overlook the concrete pamphlet benchmarks covering familiarize yourself with your city, county, state, or a federal health agency's website.
-- **Pamphlet Fact:** Counselor verification for Public Health Requirement 7a(2) requires concrete workbook evidence on familiarize yourself with your city, specifically addressing familiarize yourself with your city, county, state, or a federal health agency's website.
+- **Common Myth:** Government public health websites publish only administrative contact directories rather than active disease tracking and sanitation inspection data.
+- **Pamphlet Fact:** Official health agency portals deliver active epidemiological surveillance data, restaurant sanitation grades, environmental hazard notices, and vital statistics directly to the public.
 
 ![Packaged illicit powders highlight the severe dangers of narcotics.](/assets/pamphlet_images/public_health_p074_img1.png)
 
@@ -457,11 +457,11 @@
 - Mortality statistics indicate the primary diseases causing death within a municipality, such as heart disease, cancer, accidents, and strokes. Comparing local county mortality figures against national data allows communities to address specific regional health risks.
 - Req 7b Standard (Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)): After completing either 7(a)(1) or 7(a)(2), do ALL of the following: (1) Compare the four leading causes of mortality (death) in your community for any of the past five years with the four leading causes of disease in your community. Explain how the public health agency you visited is trying to reduce the mortality and morbidity rates of these leading causes of illness and death. (2) Explain the role of your health agency as it relates to the outbreak of diseases. (3) Discuss the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, earthquakes, and other acts of destruction. Your discussion can include the cleanup necessary after the disaster.
 
-#### Req 7b(1): Leading Causes of Mortality Death
+#### Req 7b(1): Community Mortality and Morbidity Analysis
 **Official Requirement 7b(1):** Compare the four leading causes of mortality (death) in your community for any of the past five years with the four leading causes of disease in your community. Explain how the public health agency you visited is trying to reduce the mortality and morbidity rates of these leading causes of illness and death.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (2-Column Comparison Table):** Req 7b(1) Technical Comparison Matrix (Leading Causes of Mortality Death)
-- **Common Myth:** In Public Health Requirement 7b(1), many Scouts assume leading causes of mortality death only requires a general overview rather than specific details on compare the four leading causes of mortality (death) in your community for any of the past five years.
-- **Pamphlet Fact:** The official Public Health pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document leading causes of mortality death and explain compare the four leading causes of mortality (death) in your community for any of the past five years during counselor review.
+- **Common Myth:** The illnesses that produce the highest number of deaths in a community are identical to the diseases that make the most people sick each year.
+- **Pamphlet Fact:** Mortality measures the rate of death while morbidity measures the incidence of illness or disability, meaning highly contagious illnesses often produce high morbidity despite low mortality rates.
 
 ![Volunteers receive emergency aid at an American Red Cross vehicle.](/assets/pamphlet_images/public_health_p078_img1.png)
 
@@ -472,11 +472,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(2): Role of Your Health Agency
+#### Req 7b(2): Disease Outbreak Surveillance and Response
 **Official Requirement 7b(2):** Explain the role of your health agency as it relates to the outbreak of diseases.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7b(2) Structured Technical Study & Explanation Matrix (Role of Your Health Agency)
-- **Common Myth:** When preparing Public Health Requirement 7b(2) (Role of Your Health Agency), Scouts sometimes overlook the concrete pamphlet benchmarks covering the role of your health agency as it relates to the outbreak of diseases.
-- **Pamphlet Fact:** Counselor verification for Public Health Requirement 7b(2) requires concrete workbook evidence on role of your health agency, specifically addressing the role of your health agency as it relates to the outbreak of diseases.
+- **Common Myth:** Public health departments begin tracking disease outbreaks only after local hospitals report overcrowded emergency rooms.
+- **Pamphlet Fact:** Health departments use mandatory laboratory reporting of designated infectious diseases to detect statistical anomalies and intervene before community transmission accelerates.
 
 | Req 7b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -484,11 +484,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(3): The kinds of public assistance
+#### Req 7b(3): Disaster Response and Environmental Cleanup
 **Official Requirement 7b(3):** Discuss the kinds of public assistance the agency is able to provide in case of disasters such as floods, storms, tornadoes, earthquakes, and other acts of destruction. Your discussion can include the cleanup necessary after the disaster.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 32)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss The Kinds of Public)
-- **Common Myth:** For Public Health Requirement 7b(3), a common mistake in the kinds of public assistance is treating the kinds of public assistance the agency is able to provide in case of disasters such as floods as optional background reading.
-- **Pamphlet Fact:** Mastering Public Health Requirement 7b(3) means following the pamphlet standard for the kinds of public assistance and recording accurate notes on the kinds of public assistance the agency is able to provide in case of disasters such as floods.
+- **Common Myth:** Disaster relief from public health agencies focuses entirely on physical search and rescue rather than environmental sanitization and water safety.
+- **Pamphlet Fact:** Public health agencies safeguard disaster survivors against deadly secondary hazards like contaminated drinking water, toxic mold proliferation, and foodborne illness during post disaster cleanup.
 
 | Req 7b(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

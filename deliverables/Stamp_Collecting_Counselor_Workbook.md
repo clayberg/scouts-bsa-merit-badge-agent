@@ -51,7 +51,7 @@
 - **Common Myth:** New collectors often consider stamp imagery to be arbitrary decorative art chosen at random.
 - **Pamphlet Fact:** Postal administrations convene formal citizens stamp advisory committees to select historically significant subjects.
 
-![Step-by-step Stamp Collecting visual guide highlighting postal history and cultural insights positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/stamp_collecting_p003_img1.png)
+![Stamp Collecting Requirement 1 figure showing postage stamp portraits commemorate pivotal civil leaders, military conflicts.](/assets/pamphlet_images/stamp_collecting_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 - **Common Myth:** Beginners often believe coil stamps with two straight edges are damaged sheet stamps.
 - **Pamphlet Fact:** Coil stamps are manufactured with perforations along only two opposite sides for vending machines.
 
-![Detailed Stamp Collecting reference illustration comparing key components and stages of topical and specialized stamp collections for Requirement 2.](/assets/pamphlet_images/stamp_collecting_p007_img1.png)
+![Stamp Collecting Requirement 2 figure showing topical collections assemble stamps depicting specific flora, fauna, aviation.](/assets/pamphlet_images/stamp_collecting_p007_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

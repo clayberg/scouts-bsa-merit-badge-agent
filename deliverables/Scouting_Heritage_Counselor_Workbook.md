@@ -82,7 +82,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Short Biographical Summary
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Scouting Heritage technical diagram of founders and historic milestones for Requirement 2 field execution.](/assets/pamphlet_images/scouting_heritage_p007_img1.png)
+![Scouting Heritage Requirement 2 figure showing daniel Carter Beard contributed frontier lore, buckskin dress, and outdoor pioneer.](/assets/pamphlet_images/scouting_heritage_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -108,11 +108,11 @@
 - Milestone events and publications established uniform field traditions and shared communication channels across diverse international borders. Groundbreaking assemblies and official periodicals united scattered patrols under standard global advancement ranks.
 - Req 2b Standard (Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)): Discuss the significance to Scouting of any TWO of the following: (1) Brownsea Island (2) The First World Scout Jamboree (3) Scouts BSA Handbook (4) Scout Life magazine (formerly Boys' Life ) Resources: Artifact of the Week, Boys' Life to Scout Life (video) The Story of Boys' Life / Scout Life (video)
 
-#### Req 2b(1): Brownsea Island
+#### Req 2b(1): Brownsea Island Experimental Scout Camp
 **Official Requirement 2b(1):** Brownsea Island.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2b(1) Structured Technical Study & Explanation Matrix (Brownsea Island)
-- **Common Myth:** In Scouting Heritage Requirement 2b(1), many Scouts assume brownsea island only requires a general overview rather than specific details on brownsea island.
-- **Pamphlet Fact:** The official Scouting Heritage pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document brownsea island and explain brownsea island during counselor review.
+- **Common Myth:** The Brownsea Island encampment was the first official gathering of the Boy Scouts of America.
+- **Pamphlet Fact:** Brownsea Island was an experimental British encampment conducted in 1907, three years before Scouting was established in the United States.
 
 ![A 1916 Western Union telegram conveys official news to James E. West.](/assets/pamphlet_images/scouting_heritage_p017_img1.png)
 
@@ -122,13 +122,13 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): World Scout Jamboree
+#### Req 2b(2): First World Scout Jamboree Olympia
 **Official Requirement 2b(2):** The First World Scout Jamboree.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (World Scout Jamboree)
-- **Common Myth:** When preparing Scouting Heritage Requirement 2b(2) (World Scout Jamboree), Scouts sometimes overlook the concrete pamphlet benchmarks covering the first world scout jamboree.
-- **Pamphlet Fact:** Counselor verification for Scouting Heritage Requirement 2b(2) requires concrete workbook evidence on world scout jamboree, specifically addressing the first world scout jamboree.
+- **Common Myth:** World Scout Jamborees were organized as Olympic-style athletic championships where national teams competed for medals.
+- **Pamphlet Fact:** The First World Scout Jamboree was conceived as an international gathering of peace, goodwill, and brotherhood among youth whose nations had recently fought in World War I.
 
-![Practical Scouting Heritage field visual showing proper setup, measurement, and technique for lord baden-powell and early scouting in Requirement 1.](/assets/pamphlet_images/scouting_heritage_p003_img1.png)
+![Scouting Heritage Requirement 1 figure showing cadet messenger corps duties during the siege inspired youth citizenship and practical.](/assets/pamphlet_images/scouting_heritage_p003_img1.png)
 
 | Req 2b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -136,11 +136,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(3): BSA Handbook
+#### Req 2b(3): Official Scouts BSA Handbook Lineage
 **Official Requirement 2b(3):** Scouts BSA Handbook.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2b(3) Structured Technical Study & Explanation Matrix (BSA Handbook)
-- **Common Myth:** For Scouting Heritage Requirement 2b(3), a common mistake in bsa handbook is treating scouts bsa handbook as optional background reading.
-- **Pamphlet Fact:** Mastering Scouting Heritage Requirement 2b(3) means following the pamphlet standard for bsa handbook and recording accurate notes on scouts bsa handbook.
+- **Common Myth:** The Scout Handbook has remained completely unaltered since its initial printing in 1911.
+- **Pamphlet Fact:** The handbook has been revised across fourteen distinct editions to modernize first aid, incorporate environmental conservation ethics, and update merit badge advancement requirements.
 
 ![An early Scout stands proudly with a staff in historic field uniform.](/assets/pamphlet_images/scouting_heritage_p008_img2.png)
 
@@ -150,11 +150,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(4): Life Magazine Formerly Boys' Life
+#### Req 2b(4): Scout Life Monthly Magazine History
 **Official Requirement 2b(4):** Scout Life magazine (formerly Boys' Life ) Resources: Artifact of the Week, Boys' Life to Scout Life (video) The Story of Boys' Life / Scout Life (video)
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 17, p. 19)* • **Organizer (Concept & Examples Notes):** Req 2b(4) Structured Technical Study & Explanation Matrix (Life Magazine Formerly Boys' Life)
-- **Common Myth:** During Scouting Heritage Requirement 2b(4), Scouts can underestimate how directly mastery of life magazine formerly boys' life depends on understanding scout life magazine (formerly boys' life ) resources, artifact of the week, boys' life to scout life.
-- **Pamphlet Fact:** Scouting America standards for Scouting Heritage Requirement 2b(4) require complete workbook entries on life magazine formerly boys' life to demonstrate full understanding of scout life magazine (formerly boys' life ) resources, artifact of the week, boys' life to scout life.
+- **Common Myth:** Scout Life began as an internal newsletter produced directly by national headquarters staff for adult Scout leaders.
+- **Pamphlet Fact:** The magazine was launched independently by an eighteen-year-old publisher named George S. Barton for youth readers before the BSA purchased it in 1912.
 
 ![A historic archival view shows the coastal campsite at Brownsea Island.](/assets/pamphlet_images/scouting_heritage_p008_img3.png)
 
@@ -175,7 +175,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor how Scouting's programs have developed over time and been adapted to fit different age groups and interests (Cub Scouting, Scouts BSA, Exploring, Venturing).** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor how Scouting's programs have developed over time and been adapted to fit different age groups and interests (Cub Scouting, Scouts BSA, Exploring, Venturing)** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Younger Youth Needs: Cub Scouting launched in 1930 using home and neighborhood pack games for preadolescents.
@@ -245,7 +245,7 @@
 - **Common Myth:** Only official national facilities possess authentic historical scouting collections worth examining for heritage study.
 - **Pamphlet Fact:** Local council historical committees often maintain volunteer-curated artifact displays containing vintage council shoulder patches and historic camp pennants.
 
-![Step-by-step Scouting Heritage visual guide highlighting evolution of scouting programs positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/scouting_heritage_p012_img1.png)
+![Scouting Heritage Requirement 3 figure showing cub Scouting launched in 1930 using home and neighborhood pack games for preadolescents.](/assets/pamphlet_images/scouting_heritage_p012_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

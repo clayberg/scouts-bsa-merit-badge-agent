@@ -95,7 +95,7 @@
 - **Common Myth:** Different elevations within the same forest parcel support identical mammal species and population numbers.
 - **Pamphlet Fact:** Elevation shifts change ambient temperature, vegetation types, and available forage, altering small mammal distribution.
 
-![Illustrated Mammal Study technical diagram of field observation and life histories for Requirement 3 field execution.](/assets/pamphlet_images/mammal_study_p012_img1.png)
+![Mammal Study Requirement 3 figure showing comparative field surveys reveal how microclimates and plant cover dictate mammal.](/assets/pamphlet_images/mammal_study_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -126,7 +126,7 @@
 - **Common Myth:** Nongame mammals lack significant ecological value because humans do not hunt or harvest them.
 - **Pamphlet Fact:** Nongame mammals like bats, shrews, and voles control pest insects and disperse critical plant seeds.
 
-![Step-by-step Mammal Study visual guide highlighting defining characteristics of class mammalia positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/mammal_study_p003_img1.png)
+![Mammal Study Requirement 1 figure showing vertebrates possess an internal backbone that protects the dorsal nerve cord structure.](/assets/pamphlet_images/mammal_study_p003_img1.png)
 
 | Req 3c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -171,7 +171,7 @@
 - **Common Myth:** Close-up photographs taken in commercial zoos or petting enclosures satisfy wild mammal requirements.
 - **Pamphlet Fact:** Handbook guidelines require photographing free-ranging wild mammals in native habitats while recording environmental conditions.
 
-![Detailed Mammal Study reference illustration comparing key components and stages of taxonomic classification of mammals for Requirement 2.](/assets/pamphlet_images/mammal_study_p007_img1.png)
+![Mammal Study Requirement 2 figure showing organisms group into kingdom, phylum, class, order, family, genus, and specific species.](/assets/pamphlet_images/mammal_study_p007_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -265,7 +265,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals.** | `____________________________________` | `____________________________________` |
+| **1. Working with your counselor, select and carry out one project that will influence the numbers of one or more mammals** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Bat Roosts: Properly placed wooden nursery boxes provide warm roosting chambers for insectivorous bats.

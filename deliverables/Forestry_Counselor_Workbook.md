@@ -58,7 +58,7 @@
 - [ ] Water/soil test strips or specimen sketch pad and non-invasive observation tools
 - [ ] Sun protection, drinking water, first-aid kit, and Leave No Trace field card
 
-![Detailed Forestry reference illustration comparing key components and stages of tree and shrub field identification for Requirement 1.](/assets/pamphlet_images/forestry_p003_img1.png)
+![Forestry Requirement 1 figure showing alternate or opposite twig attachments provide immediate diagnostic separation.](/assets/pamphlet_images/forestry_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@
 - **Common Myth:** Wood hardness depends solely on density rather than botanical classification between gymnosperms and angiosperms.
 - **Pamphlet Fact:** Hardwoods originate from broadleaf angiosperms with vessel elements, while softwoods derive from needle-bearing gymnosperm conifers.
 
-![Practical Forestry field visual showing proper setup, measurement, and technique for wood samples, growth rings, and damage in Requirement 2.](/assets/pamphlet_images/forestry_p007_img1.png)
+![Forestry Requirement 2 figure showing early springwood cells have large lumens whereas dense latewood cells provide.](/assets/pamphlet_images/forestry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -189,7 +189,7 @@
 - **Common Myth:** Timber harvesting destroys forest value and prevents public outdoor recreational usage permanently.
 - **Pamphlet Fact:** Working timberlands support multi-billion dollar manufacturing economies while preserving contiguous open space for wildlife.
 
-![Detailed Forestry reference illustration comparing key components and stages of forest ecosystem services and watersheds for Requirement 3.](/assets/pamphlet_images/forestry_p012_img1.png)
+![Forestry Requirement 3 figure showing forest litter slows precipitation runoff, facilitating natural percolation.](/assets/pamphlet_images/forestry_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -341,11 +341,11 @@
 - Visiting logging operations or sawmills demonstrates the conversion of raw sawlogs into graded structural lumber. Advanced processing facilities utilize bark for boiler fuel and woodchips for paper manufacturing.
 - Req 5b Standard (Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)): With a knowledgeable individual, visit a current or past logging operation or wood-using manufacturing plant. Write a brief report describing the following: (1) The species and size of trees harvested or used (2) The origin of the forest or stands of trees utilized (e. g., planted or natural) (3) The forest's successional stage, its future, and, if it is a past logging operation, the regeneration that is occurring, whether planted or natural (4) Where the trees are coming from (land ownership) or where they are going (type of mill or processing plant) (5) The products that are made from the trees (6) How the products are made and used (7) How waste materials from the logging operation or manufacturing plant are or were disposed of or utilized.
 
-#### Req 5b(1): Species and Size of Trees
+#### Req 5b(1): Commercial Timber Species And Diameter
 **Official Requirement 5b(1):** The species and size of trees harvested or used.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(1) Structured Technical Study & Explanation Matrix (Species and Size of Trees)
-- **Common Myth:** In Forestry Requirement 5b(1), many Scouts assume species and size of trees only requires a general overview rather than specific details on the species and size of trees harvested or used.
-- **Pamphlet Fact:** The official Forestry pamphlet for Requirement 5b(1) specifies that Scouts must thoroughly document species and size of trees and explain the species and size of trees harvested or used during counselor review.
+- **Common Myth:** Sawmills accept any tree species and any tree diameter for processing into construction boards.
+- **Pamphlet Fact:** Sawmills and processing plants establish precise species lists and minimum log diameter thresholds to ensure lumber meets structural grading rules.
 
 ![A uniformed ranger observes a shoreline ecosystem in a managed watershed.](/assets/pamphlet_images/forestry_p050_img1.png)
 
@@ -355,11 +355,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(2): Origin of the Forest or Stands
+#### Req 5b(2): Planted And Natural Stand Origins
 **Official Requirement 5b(2):** The origin of the forest or stands of trees utilized (e. g., planted or natural)
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(2) Structured Technical Study & Explanation Matrix (Origin of The Forest or)
-- **Common Myth:** When preparing Forestry Requirement 5b(2) (Origin of the Forest or Stands), Scouts sometimes overlook the concrete pamphlet benchmarks covering the origin of the forest or stands of trees utilized (e.g., planted or natural).
-- **Pamphlet Fact:** Counselor verification for Forestry Requirement 5b(2) requires concrete workbook evidence on origin of the forest or stands, specifically addressing the origin of the forest or stands of trees utilized (e.g., planted or natural).
+- **Common Myth:** Planted tree farms and wild natural forests produce identical wood grain and stem shapes.
+- **Pamphlet Fact:** Planted monoculture stands produce uniformly straight logs with predictable dimensions, whereas naturally regenerated stands yield varied growth rings and mixed wood qualities.
 
 ![A winding road cuts through managed conifer slopes during timber harvest.](/assets/pamphlet_images/forestry_p055_img1.png)
 
@@ -369,11 +369,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(3): Forest's Successional Stage Its Future
+#### Req 5b(3): Forest Ecological Succession And Regeneration
 **Official Requirement 5b(3):** The forest's successional stage, its future, and, if it is a past logging operation, the regeneration that is occurring, whether planted or natural.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(3) Structured Technical Study & Explanation Matrix (Forest's Successional Stage Its Future)
-- **Common Myth:** For Forestry Requirement 5b(3), a common mistake in forest's successional stage its future is treating the forest's successional stage, its future, and, if it is a past logging operation, the regeneration as optional background reading.
-- **Pamphlet Fact:** Mastering Forestry Requirement 5b(3) means following the pamphlet standard for forest's successional stage its future and recording accurate notes on the forest's successional stage, its future, and, if it is a past logging operation, the regeneration.
+- **Common Myth:** Logged forest parcels remain lifeless dirt patches forever unless workers replant every single seedling by hand.
+- **Pamphlet Fact:** Harvested tracts naturally regenerate through dormant seed banks, stump sprouts, and windblown seeds from adjacent mature trees alongside supplemental hand planting.
 
 ![Tall straight trees grow in an even-aged managed hardwood forest stand.](/assets/pamphlet_images/forestry_p057_img1.png)
 
@@ -383,11 +383,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(4): Trees Are Coming From Land
+#### Req 5b(4): Timber Land Ownership And Distribution
 **Official Requirement 5b(4):** Where the trees are coming from (land ownership) or where they are going (type of mill or processing plant)
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(4) Structured Technical Study & Explanation Matrix (Trees Are Coming From Land)
-- **Common Myth:** During Forestry Requirement 5b(4), Scouts can underestimate how directly mastery of trees are coming from land depends on understanding where the trees are coming from (land ownership) or where they are going (type of mill or processing plant).
-- **Pamphlet Fact:** Scouting America standards for Forestry Requirement 5b(4) require complete workbook entries on trees are coming from land to demonstrate full understanding of where the trees are coming from (land ownership) or where they are going (type of mill or processing plant).
+- **Common Myth:** All timber delivered to a commercial processing mill originates from government owned national forests.
+- **Pamphlet Fact:** Most harvested domestic timber comes from privately owned family woodlots and corporate timberlands rather than state or national public forests.
 
 ![Heavy overhead equipment moves logs at a lumber processing mill facility.](/assets/pamphlet_images/forestry_p078_img1.png)
 
@@ -397,11 +397,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(5): Products That Are Made
+#### Req 5b(5): Harvested Timber Primary Product Classification
 **Official Requirement 5b(5):** The products that are made from the trees.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(5) Structured Technical Study & Explanation Matrix (Products That Are Made)
-- **Common Myth:** In Forestry Requirement 5b(5), many Scouts assume products that are made only requires a general overview rather than specific details on the products that are made from the trees.
-- **Pamphlet Fact:** The official Forestry pamphlet for Requirement 5b(5) specifies that Scouts must thoroughly document products that are made and explain the products that are made from the trees during counselor review.
+- **Common Myth:** Every whole log entering a processing mill is sawed into dimensional two by four construction boards.
+- **Pamphlet Fact:** Different log grades are distributed to separate manufacturing lines to create specialized products such as utility poles, fine furniture veneers, oriented strand board, and chemical wood pulp.
 
 | Req 5b(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -409,11 +409,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(6): Products Are Made
+#### Req 5b(6): Wood Manufacturing Processes And Utilization
 **Official Requirement 5b(6):** How the products are made and used.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(6) Structured Technical Study & Explanation Matrix (Products Are Made)
-- **Common Myth:** When preparing Forestry Requirement 5b(6) (Products Are Made), Scouts sometimes overlook the concrete pamphlet benchmarks covering how the products are made and used.
-- **Pamphlet Fact:** Counselor verification for Forestry Requirement 5b(6) requires concrete workbook evidence on products are made, specifically addressing how the products are made and used.
+- **Common Myth:** Freshly sawed green boards are nailed directly into home framing immediately after leaving the headsaw.
+- **Pamphlet Fact:** Green lumber must undergo controlled kiln drying and surfacing in a planer mill to eliminate moisture and prevent warping before residential builders use it.
 
 | Req 5b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -421,11 +421,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(7): Waste Materials From The Logging
+#### Req 5b(7): Timber Residue Utilization And Disposal
 **Official Requirement 5b(7):** How waste materials from the logging operation or manufacturing plant are or were disposed of or utilized.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Organizer (Concept & Examples Notes):** Req 5b(7) Structured Technical Study & Explanation Matrix (Waste Materials From The Logging)
-- **Common Myth:** For Forestry Requirement 5b(7), a common mistake in waste materials from the logging is treating how waste materials from the logging operation or manufacturing plant are or were disposed of or utilized as optional background reading.
-- **Pamphlet Fact:** Mastering Forestry Requirement 5b(7) means following the pamphlet standard for waste materials from the logging and recording accurate notes on how waste materials from the logging operation or manufacturing plant are or were disposed of or utilized.
+- **Common Myth:** Sawmills discard bark, sawdust, and log cutoffs into open landfills as useless trash.
+- **Pamphlet Fact:** Modern forest manufacturing plants capture nearly all wood scraps and sawdust to generate steam energy, press into composite panels, or sell as landscape mulch.
 
 | Req 5b(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

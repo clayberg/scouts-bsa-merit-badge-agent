@@ -47,7 +47,7 @@
 - **Common Myth:** Utility knives with snap blades work identically to professional leather round knives.
 - **Pamphlet Fact:** Round knives require two hands on the grip to maintain positive cutting control.
 
-![Step-by-step Leatherwork visual guide highlighting leatherwork safety and first aid positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/leatherwork_p003_img1.png)
+![Leatherwork Requirement 1 figure showing strop cutting edges frequently on leather boards charged with fine jewelers rouge.](/assets/pamphlet_images/leatherwork_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -88,7 +88,7 @@
 - **Common Myth:** Animals are raised commercially solely for harvest of their external surface pelts.
 - **Pamphlet Fact:** Raw cattle hides undergo preservation curing using coarse rock salt immediately after harvest.
 
-![Detailed Leatherwork reference illustration comparing key components and stages of origins and types of leather for Requirement 2.](/assets/pamphlet_images/leatherwork_p007_img1.png)
+![Leatherwork Requirement 2 figure showing animal skins arrive at tanneries as byproduct hides from commercial meat processing.](/assets/pamphlet_images/leatherwork_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -272,7 +272,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Braid or plait an article out of leather, vinyl lace, or paracord.** | `____________________________________` | `____________________________________` |
+| **1. Braid or plait an article out of leather, vinyl lace, or paracord** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Strand Preparation: Skive lace ends to uniform thicknesses before beginning four strand plaits.

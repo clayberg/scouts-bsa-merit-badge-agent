@@ -56,7 +56,7 @@
 - [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
 - [ ] Saved project files, screenshots, or code listing for Game Analysis and Play Value
 
-![Illustrated Game Design technical diagram of game analysis and play value for Requirement 1 field execution.](/assets/pamphlet_images/game_design_p003_img1.png)
+![Game Design Requirement 1 figure showing tabletop, electronic, card, and live outdoor games each provide unique mechanical.](/assets/pamphlet_images/game_design_p003_img1.png)
 
 | Comparison Dimension | Novelty and Fantasy Play Value | Challenge and Threat Play Value |
 | :--- | :--- | :--- |
@@ -168,7 +168,7 @@
 - **Common Myth:** Rule modifications only affect the specific phase of play where the change occurs.
 - **Pamphlet Fact:** Modifications to early resource gathering fundamentally alter late-game victory probabilities and player willingness to take risks.
 
-![Step-by-step Game Design visual guide highlighting essential game design vocabulary positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/game_design_p007_img1.png)
+![Game Design Requirement 2 figure showing user interfaces communicate game state and action options through clean visual feedback.](/assets/pamphlet_images/game_design_p007_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -183,7 +183,7 @@
 - **Common Myth:** Player body language and emotional reactions matter less than quantitative score totals.
 - **Pamphlet Fact:** Emotional responses like laughter, analysis paralysis, or boredom reveal core design flaws faster than numerical statistics.
 
-![Practical Game Design field visual showing proper setup, measurement, and technique for intellectual property and game licensing in Requirement 3.](/assets/pamphlet_images/game_design_p012_img1.png)
+![Game Design Requirement 3 figure showing copyright protects original artistic assets, music, code, and dialogue, but not mechanics.](/assets/pamphlet_images/game_design_p012_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

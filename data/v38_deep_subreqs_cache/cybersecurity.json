@@ -1,0 +1,138 @@
+{
+  "4e(1)": {
+    "fact": "Most real-world breaches succeed because of common misconfigurations, phishing lures, or delayed software patches rather than zero-day exploit code.",
+    "misconception": "Data breaches occur almost exclusively through rogue hackers writing custom exploit code to bypass firewalls.",
+    "pamphlet_summary": "Investigating real breaches requires examining the attack vector, such as phishing or unpatched software, to see how adversaries gained initial network access. Scouts analyze post-incident harms including financial fraud, operational downtime, and stolen personal records (p. 36).",
+    "socratic_question": "When a major retail company loses customer data in the news, what path did the attackers usually take to get through the perimeter in the first place?",
+    "sub_id": "4e(1)",
+    "topic_title": "Cybersecurity Incident Root Cause Analysis"
+  },
+  "4e(2)": {
+    "fact": "Genuine network intrusions require days or months of methodical reconnaissance, vulnerability scanning, and credential harvesting rather than instantaneous keystroke guessing.",
+    "misconception": "Cinematic depictions of hacking where individuals break into military mainframes within seconds by mashing keys represent actual cybersecurity attacks.",
+    "pamphlet_summary": "Comparing dramatic entertainment portrayals to authentic technical practices highlights where scriptwriters take creative liberties with computer operations. Accurate evaluations identify whether hacking techniques depicted in books or cinema reflect actual social engineering, brute force, or protocol flaws (p. 38).",
+    "socratic_question": "Why do movies often depict hacking as a frantic typing battle with flashing red warning screens instead of what happens in real security work?",
+    "sub_id": "4e(2)",
+    "topic_title": "Media Depictions of Cybersecurity Realism"
+  },
+  "5b(1)": {
+    "fact": "Vendors publish system updates primarily to resolve newly discovered security flaws that attackers actively target to execute malicious code.",
+    "misconception": "Operating system updates exist primarily to change user interfaces and add cosmetic features rather than protect systems from intrusion.",
+    "pamphlet_summary": "Software updates deliver bug fixes and close known security vulnerabilities before threat actors can exploit them on public networks. Delaying operating system patches leaves endpoints exposed to automated scanning tools and known malware strains (p. 42).",
+    "socratic_question": "What happens between the time a software developer publishes a security bulletin and the moment an attacker tries scanning your device for that exact flaw?",
+    "sub_id": "5b(1)",
+    "topic_title": "Operating System Security Patch Value"
+  },
+  "5b(2)": {
+    "fact": "Software maintenance is an ongoing cycle because developers discover new vulnerabilities continuously, requiring regular update checks and installations.",
+    "misconception": "A computer stays fully protected against new threats as long as it has received a single software update during initial setup.",
+    "pamphlet_summary": "Verifying patch status involves opening the native system settings utility, scanning vendor repositories for pending releases, and completing required reboots. Setting automated update policies ensures computers and mobile devices download defensive fixes as soon as manufacturers release them (p. 43).",
+    "socratic_question": "How can you verify that your operating system has successfully applied the most recent security patches without waiting for an alert?",
+    "sub_id": "5b(2)",
+    "topic_title": "Device Update Verification and Installation"
+  },
+  "5c(1)": {
+    "fact": "Automated cracking programs test predictable symbol substitutions in fractions of a second, making longer multi-word passphrases significantly stronger than short words with numbers.",
+    "misconception": "Substituting symbols like dollar signs or exclamation points for common letters in dictionary words produces an uncrackable password.",
+    "pamphlet_summary": "Strong authentication relies on length and unpredictability, combining multi-word passphrases with varied character types to resist dictionary and brute-force attacks. Users must establish unique credentials across every account to prevent credential stuffing when external services suffer breaches (p. 45).",
+    "socratic_question": "Why is a four-word random passphrase like 'correct-horse-battery-staple' harder for a computer to guess than an eight-character password with mixed symbols?",
+    "sub_id": "5c(1)",
+    "topic_title": "Strong Password Composition and Entropy"
+  },
+  "5c(2)": {
+    "fact": "Even complex passwords become useless if stolen through phishing or a remote database breach, whereas a second factor prevents unauthorized account access.",
+    "misconception": "Multifactor authentication is unnecessary if a user creates an exceptionally long and complex primary password.",
+    "pamphlet_summary": "Multi-factor authentication requires presenting two or more distinct evidence categories, such as a known secret, a physical device, or a biometric marker. Authenticator applications generate rotating time-based one-time codes that block attackers who possess only a compromised password (p. 46).",
+    "socratic_question": "If an attacker intercepts your secret password over a compromised network, what stops them from logging in if your account requires an authenticator app?",
+    "sub_id": "5c(2)",
+    "topic_title": "Multi-Factor Authentication Implementation"
+  },
+  "5c(3)": {
+    "fact": "Dedicated password vaults employ strong local encryption that protects credentials from online interception while eliminating the catastrophic risks of password reuse across websites.",
+    "misconception": "Storing all account credentials inside a digital password manager is less safe than writing passwords on physical paper or reusing one memorable phrase.",
+    "pamphlet_summary": "Password managers store encrypted credentials in a centralized vault secured by a single master passphrase and cryptographic keys. They generate long, distinct passwords for every web application and autofill login fields to prevent keystroke logging and phishing redirection (p. 47).",
+    "socratic_question": "How does using a password manager help prevent you from entering your credentials on a fake phishing website?",
+    "sub_id": "5c(3)",
+    "topic_title": "Password Manager Vault Deployment"
+  },
+  "5c(4)": {
+    "fact": "Every operating system has security vulnerabilities that trojans, spyware, and worms can target through malicious downloads or software supply chain compromises.",
+    "misconception": "Modern computers running modern operating systems cannot contract malware and therefore never require antivirus utility scans.",
+    "pamphlet_summary": "Antivirus software inspects local storage drives, system memory, and active boot records for recognizable signatures and suspicious file behaviors. Routine scans detect dormant malicious payloads, quarantine infected files, and generate audit logs detailing scanned file counts (p. 48).",
+    "socratic_question": "What is the difference between a real-time antivirus monitor running in the background and an on-demand full system scan?",
+    "sub_id": "5c(4)",
+    "topic_title": "Antivirus Scanning and Malware Detection"
+  },
+  "5c(5)": {
+    "fact": "Computers run dozens of hidden background services and system processes at all times to handle hardware coordination, networking, and scheduled tasks.",
+    "misconception": "A computer only executes programs that currently display an open application window on the desktop.",
+    "pamphlet_summary": "Operating systems run numerous background services, daemon processes, and system threads that manage networking, memory, and hardware interfaces. Built-in tools like Task Manager, Activity Monitor, or terminal process listings allow users to audit process identifiers, memory consumption, and active executable paths (p. 49).",
+    "socratic_question": "When you look at the system process list, how can you determine whether an unfamiliar running task is a legitimate operating system service or a suspicious program?",
+    "sub_id": "5c(5)",
+    "topic_title": "System Process Enumeration and Inspection"
+  },
+  "5c(6)": {
+    "fact": "Background processes constantly maintain active network sockets to synchronize cloud services, check email inboxes, and receive software update notices.",
+    "misconception": "A computer only sends or receives network packets when a user actively clicks links in a web browser.",
+    "pamphlet_summary": "Network monitoring commands such as netstat or ss display established connections, listening ports, and corresponding foreign IP addresses. Analyzing socket tables reveals which local applications communicate over the internet and whether uninvited listening ports remain open to external probing (p. 50).",
+    "socratic_question": "Why might your computer show active network connections to remote IP addresses even when no web browser is open?",
+    "sub_id": "5c(6)",
+    "topic_title": "Network Socket and Port Auditing"
+  },
+  "5c(7)": {
+    "fact": "Cloud synchronization mirrors deletions and accidental file corruptions across devices immediately, which differs from true versioned backups that archive historical snapshots.",
+    "misconception": "Syncing files to a single cloud service provides an infallible backup that eliminates all risk of data loss.",
+    "pamphlet_summary": "Reliable backup procedures duplicate mobile contacts, photos, and system configurations onto secure cloud storage or encrypted local drives. Implementing the 3-2-1 backup rule ensures data remains recoverable following hardware failure, loss, theft, or ransomware infection (p. 51).",
+    "socratic_question": "If your mobile phone is lost or damaged right now, what specific steps would you take to restore your data onto a replacement device?",
+    "sub_id": "5c(7)",
+    "topic_title": "Mobile Device Data Backup Strategies"
+  },
+  "5c(8)": {
+    "fact": "Default router passwords are published online in public databases, allowing anyone on the network to compromise settings or intercept traffic.",
+    "misconception": "Leaving factory default administrative passwords on a home Wi-Fi router is safe because neighbors cannot access the administration settings.",
+    "pamphlet_summary": "Securing a household network involves changing default router credentials, enabling modern WPA3 wireless encryption, and isolating smart home devices on a dedicated guest network. Family security checklists also prioritize automated device updates, reputable endpoint protections, and routine backups (p. 52).",
+    "socratic_question": "What are five simple defensive habits your family can adopt to prevent attackers from infiltrating devices connected to your home Wi-Fi?",
+    "sub_id": "5c(8)",
+    "topic_title": "Home Network Defense and Hardening"
+  },
+  "5c(9)": {
+    "fact": "Modifying system configurations without explicit permission violates ethical computing standards and risks disabling critical functionality or corrupting services.",
+    "misconception": "Fixing security flaws on a computer or network is acceptable to perform without consulting or obtaining permission from the device owner.",
+    "pamphlet_summary": "Identifying weaknesses requires auditing open sharing permissions, disabled firewalls, outdated router firmware, or unprotected peripheral devices. Remediating findings requires proper authorization from the equipment owner before disabling unnecessary services or changing configuration settings (p. 53).",
+    "socratic_question": "Why is getting formal permission from the device owner an essential first step before running any diagnostic scan or modifying security settings?",
+    "sub_id": "5c(9)",
+    "topic_title": "Vulnerability Assessment and Remediation"
+  },
+  "6c(1)": {
+    "fact": "Security through obscurity fails quickly because statistical patterns like letter frequencies reveal the underlying structure of simple substitution codes without knowledge of the secret key.",
+    "misconception": "A custom cipher created by an individual is secure simply because the algorithm is kept secret from others.",
+    "pamphlet_summary": "Classical substitution ciphers replace plaintext letters according to a fixed key, shifting the alphabet or swapping predefined code words. Analyzing their defensive limits demonstrates how frequency analysis easily exposes single-alphabet substitution patterns in encrypted text (p. 58).",
+    "socratic_question": "How can an adversary crack your custom substitution cipher without possessing the key simply by counting the most common letters in the ciphertext?",
+    "sub_id": "6c(1)",
+    "topic_title": "Custom Cipher Design and Cryptanalysis"
+  },
+  "6c(2)": {
+    "fact": "SMS messages travel in plaintext across carrier networks and can be intercepted by telecom employees, rogue cellular towers, or attackers exploiting cellular signaling protocols.",
+    "misconception": "Standard cellular text messages sent through SMS provide complete privacy because cellular providers operate private networks.",
+    "pamphlet_summary": "End-to-end encryption ensures that only the communicating endpoints hold the cryptographic keys needed to decrypt and read transmitted messages. Telecommunication carriers, internet service providers, and intermediate application servers see only unreadable ciphertext, unlike unencrypted SMS channels (p. 59).",
+    "socratic_question": "Who has the ability to read your text message when you send it via basic cellular SMS compared to an app that uses end-to-end encryption?",
+    "sub_id": "6c(2)",
+    "topic_title": "End-to-End Encrypted Messaging Protocols"
+  },
+  "6c(3)": {
+    "fact": "Cryptographic hash algorithms exhibit the avalanche effect, causing even a single modified bit in the input to completely randomize the entire resulting digest.",
+    "misconception": "Making a tiny edit to a large text file changes only a couple of characters in the calculated checksum.",
+    "pamphlet_summary": "Cryptographic hash algorithms like SHA-256 process digital input into a fixed-length string that acts as an authentic digital fingerprint. Changing even a single character in the source document alters the resulting checksum through the avalanche effect, demonstrating file tampering or corruption (p. 60).",
+    "socratic_question": "If you change a single lowercase letter to an uppercase letter in a ten-page essay, what happens to the calculated checksum string?",
+    "sub_id": "6c(3)",
+    "topic_title": "Cryptographic Checksums and File Integrity"
+  },
+  "6c(4)": {
+    "fact": "You encrypt messages using the recipient's public key, and only the recipient's secret private key can decrypt and read the contents.",
+    "misconception": "Encrypting an email requires sending your private key to the recipient so they can unlock the message.",
+    "pamphlet_summary": "Pretty Good Privacy uses asymmetric cryptography where senders encrypt communications using a recipient's public key and receivers decrypt them with their matching private key. Scouts generate their own key pair, publish the public portion to fellow Scouts, and maintain a local key ring of contacts while keeping their personal private key secure (p. 61).",
+    "socratic_question": "When you want to send a secret email to your counselor, whose key do you use to encrypt the message and whose key unlocks it?",
+    "sub_id": "6c(4)",
+    "topic_title": "PGP Key Pairs and Encrypted Messaging"
+  }
+}

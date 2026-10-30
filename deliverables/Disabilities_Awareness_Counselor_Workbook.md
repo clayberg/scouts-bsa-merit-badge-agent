@@ -51,7 +51,7 @@
 - **Common Myth:** The terms adaptation and accommodation mean the exact same structural adjustment.
 - **Pamphlet Fact:** An adaptation alters an activity method, while an accommodation modifies rules or environments.
 
-![Illustrated Disabilities Awareness technical diagram of core terminology and respectful etiquette for Requirement 1 field execution.](/assets/pamphlet_images/disabilities_awareness_p003_img1.png)
+![Disabilities Awareness Requirement 1 figure showing person-first language emphasizes the individual human identity before referencing.](/assets/pamphlet_images/disabilities_awareness_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -137,7 +137,7 @@
 - **Common Myth:** People with disabilities define their personal identities solely around their diagnosed medical condition.
 - **Pamphlet Fact:** Disability represents only one facet of a person's identity alongside hobbies, careers, family, and interests.
 
-![Step-by-step Disabilities Awareness visual guide highlighting disability support agencies and opportunities positioning and inspection checkpoints.](/assets/pamphlet_images/disabilities_awareness_p007_img1.png)
+![Disabilities Awareness Requirement 2 figure showing community organizations provide comprehensive vocational training and independent.](/assets/pamphlet_images/disabilities_awareness_p007_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

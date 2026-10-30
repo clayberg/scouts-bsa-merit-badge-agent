@@ -82,7 +82,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Set an instrument
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Surveying technical diagram of radial lot surveying and gps comparison for Requirement 2 field execution.](/assets/pamphlet_images/surveying_p007_img1.png)
+![Surveying Requirement 2 figure showing plumb the optical sight directly over the station tack before leveling footplates.](/assets/pamphlet_images/surveying_p007_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -191,7 +191,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses of each.** | `____________________________________` | `____________________________________` |
+| **1. Discuss emerging surveying technology such as drones and laser scanning and the strengths and weaknesses** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Drone Photogrammetry Rapidness: Aerial imagery platforms map large topographies quickly using overlapping detailed digital photographs.

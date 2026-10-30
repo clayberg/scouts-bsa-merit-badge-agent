@@ -49,7 +49,7 @@
 - **Common Myth:** Open air motorboating completely eliminates the risk of toxic exhaust inhalation.
 - **Pamphlet Fact:** Carbon monoxide accumulates under swim platforms and canvas enclosures even in open air.
 
-![Practical Motorboating field visual showing proper setup, measurement, and technique for boating hazards and water first aid in Requirement 1.](/assets/pamphlet_images/motorboating_p003_img1.png)
+![Motorboating Requirement 1 figure showing gasoline vapors sink rapidly into lowest bilge compartments creating severe explosion.](/assets/pamphlet_images/motorboating_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -117,7 +117,7 @@
 - [ ] BSA Safe Swim Defense / Safety Afloat buddy tags and watercraft inspection checklist
 - [ ] Bilge pump or bailer, spare paddle/oar, painter lines, and dry bag with thermal layer
 
-![Illustrated Motorboating technical diagram of swimmer test and personal flotation devices for Requirement 2 field execution.](/assets/pamphlet_images/motorboating_p007_img1.png)
+![Motorboating Requirement 2 figure showing strong swimming skills provide essential confidence during accidental water entries.](/assets/pamphlet_images/motorboating_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

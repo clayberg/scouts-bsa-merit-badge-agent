@@ -50,7 +50,7 @@
 - **Common Myth:** Rough preliminary sketches waste project preparation time and offer no practical layout value.
 - **Pamphlet Fact:** Thumbnails establish spatial relationships and scale selection before laying pencil to full sheets.
 
-![Illustrated Drafting technical diagram of formatting borders and title blocks for Requirement 1 field execution.](/assets/pamphlet_images/drafting_p003_img1.png)
+![Drafting Requirement 1 figure showing standard technical sheets require uniform margins drawn with hard graphite pencils.](/assets/pamphlet_images/drafting_p003_img1.png)
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 - **Common Myth:** Architectural drawings rely entirely on engineering decimal scales rather than fractional feet and inches.
 - **Pamphlet Fact:** Architectural floor plans use fractional scales where one quarter inch represents one physical foot.
 
-![Step-by-step Drafting visual guide highlighting manual pencil drawings for manufacturing positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/drafting_p007_img1.png)
+![Drafting Requirement 2 figure showing sharp hard grade leads produce clean thin dimension lines without smudging across paper.](/assets/pamphlet_images/drafting_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -170,7 +170,7 @@
 - **Common Myth:** All architectural plan elements should be drawn on a single active CAD layer.
 - **Pamphlet Fact:** Architectural CAD layers separate interior partitions, electrical fixtures, and plumbing systems for selective display.
 
-![Step-by-step Drafting visual guide highlighting producing computer-aided design drawings positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/drafting_p012_img1.png)
+![Drafting Requirement 3 figure showing digital CAD software models parts at exact one to one physical scale.](/assets/pamphlet_images/drafting_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -341,11 +341,11 @@
 - Touring an engineering design firm exposes Scouts to specialized drafting peripherals, networked plotters, and team workflows. Scouts observe how drafters translate design concepts into detailed shop drawings and digital fabrication files.
 - Req 7a Standard (Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)): Visit a facility or industry workplace where drafting is part of the business. Ask to see an example of the work that is done there, the different drafting facilities, and the tools used. (1) Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen. (2) Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business. (3) Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.
 
-#### Req 7a(1): Much of the Drafting Done There
+#### Req 7a(1): Commercial Drafting Software and Workflows
 **Official Requirement 7a(1):** Find out how much of the drafting done there is manual and how much is done using CAD. If CAD is used, find out what software is used and how and why it was chosen.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(1) Structured Technical Study & Explanation Matrix (Out How Much of The)
-- **Common Myth:** In Drafting Requirement 7a(1), many Scouts assume much of the drafting done there only requires a general overview rather than specific details on how much of the drafting done there is manual and how much is done using cad.
-- **Pamphlet Fact:** The official Drafting pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document much of the drafting done there and explain how much of the drafting done there is manual and how much is done using cad during counselor review.
+- **Common Myth:** Modern commercial drafting firms have completely eliminated manual pencil drawing from their workflow.
+- **Pamphlet Fact:** Professional drafters still rely on manual pencil sketching to explore preliminary ideas, solve spatial problems, and make quick field revisions before modeling in software.
 
 ![A large format engineering plotter prints architectural plans on paper.](/assets/pamphlet_images/drafting_p016_img1.png)
 
@@ -356,11 +356,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(2): Drafting Careers and Pathways
+#### Req 7a(2): Drafting Services and Team Collaboration
 **Official Requirement 7a(2):** Ask about the drafting services provided. Ask who uses the designs produced in the drafting area and how those designs are used. Discuss how the professionals who perform drafting cooperate with other individuals in the drafting area and other areas of the business.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(2) Structured Technical Study & Explanation Matrix (Drafting Careers and Pathways)
-- **Common Myth:** When preparing Drafting Requirement 7a(2) (Drafting Careers and Pathways), Scouts sometimes overlook the concrete pamphlet benchmarks covering ask about the drafting services provided.
-- **Pamphlet Fact:** Counselor verification for Drafting Requirement 7a(2) requires concrete workbook evidence on drafting careers and pathways, specifically addressing ask about the drafting services provided.
+- **Common Myth:** Drafters work in isolation to produce finished prints without needing input from manufacturing or construction crews.
+- **Pamphlet Fact:** Drafters coordinate constantly with manufacturing technicians, engineers, and site contractors to verify that technical drawings match fabrication tolerances and installation requirements.
 
 ![A Scout sits with drawing paper and pencil to prepare his drafting sheet.](/assets/pamphlet_images/drafting_p030_img1.png)
 
@@ -372,11 +372,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7a(3): Ask How Important The Role
+#### Req 7a(3): Drafting Contributions to Final Products
 **Official Requirement 7a(3):** Ask how important the role of drafting is to producing the end product or service that this business supplies. Find out how drafting contributes to the company's end product or service.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7a(3) Structured Technical Study & Explanation Matrix (Ask How Important The Role)
-- **Common Myth:** For Drafting Requirement 7a(3), a common mistake in ask how important the role is treating ask how important the role of drafting is to producing the end product or service that this business supplies as optional background reading.
-- **Pamphlet Fact:** Mastering Drafting Requirement 7a(3) means following the pamphlet standard for ask how important the role and recording accurate notes on ask how important the role of drafting is to producing the end product or service that this business supplies.
+- **Common Myth:** Drafting is merely clerical illustration that has no direct influence on the safety or profitability of a company's final product.
+- **Pamphlet Fact:** Drafting determines exact part tolerances and fabrication sequences, meaning that errors on a drawing directly increase scrap rates, project delays, and production expenses.
 
 ![A detailed architectural pencil rendering depicts a modern building complex.](/assets/pamphlet_images/drafting_p031_img1.png)
 
@@ -398,11 +398,11 @@
 - Independent research through trade journals, libraries, and approved internet resources broadens understanding of drafting disciplines. Scouts investigate specialized fields like civil, mechanical, structural, and electrical drafting and their respective tooling.
 - Req 7b Standard (Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)): Using resources you find on your own such as at the library and on the internet (with your parent or guardian's permission), learn more about the drafting trade and discuss the following with your counselor. (1) The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry. (2) Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings. (3) Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
 
-#### Req 7b(1): Drafting Tools Used in the Past
+#### Req 7b(1): Evolution of Traditional Drafting Tools
 **Official Requirement 7b(1):** The drafting tools used in the past, why and how they were used. Explain which tools are still used today and how their use has changed with the advent of new tools. Discuss which tools are being made obsolete by newer tools in the industry.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(1) Structured Technical Study & Explanation Matrix (Drafting Tools Used in The)
-- **Common Myth:** In Drafting Requirement 7b(1), many Scouts assume drafting tools used in the past only requires a general overview rather than specific details on the drafting tools used in the past, why and how they were used.
-- **Pamphlet Fact:** The official Drafting pamphlet for Requirement 7b(1) specifies that Scouts must thoroughly document drafting tools used in the past and explain the drafting tools used in the past, why and how they were used during counselor review.
+- **Common Myth:** Computer drafting has made physical measuring scales and hand compasses completely useless for modern drafters.
+- **Pamphlet Fact:** Drafters and engineers still use manual triangular scales and compasses to verify printed full-size drawings and take quick field measurements on construction sites.
 
 ![Multiple orthographic views show front, side, and top car dimensions.](/assets/pamphlet_images/drafting_p033_img1.png)
 
@@ -414,11 +414,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(2): Media Were Used Past
+#### Req 7b(2): Drafting Media Reproduction and Storage
 **Official Requirement 7b(2):** Tell what media types were used in the past and how drawings were used, stored, and reproduced. Tell how the advent of CAD has changed the media used, and discuss how these changes affect the storage or reproduction of drawings.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(2) Structured Technical Study & Explanation Matrix (Media Were Used Past)
-- **Common Myth:** When preparing Drafting Requirement 7b(2) (Media Were Used Past), Scouts sometimes overlook the concrete pamphlet benchmarks covering what media types were used in the past and how drawings were used, stored, and reproduced.
-- **Pamphlet Fact:** Counselor verification for Drafting Requirement 7b(2) requires concrete workbook evidence on media were used past, specifically addressing what media types were used in the past and how drawings were used, stored, and reproduced.
+- **Common Myth:** Traditional blueprints were produced by drawing directly onto sheets of blue paper.
+- **Pamphlet Fact:** Blueprints were photographic contact prints made by exposing translucent vellum drawings over chemically coated paper to light, turning unexposed background areas deep Prussian blue.
 
 ![Parallel railroad tracks converge in distance to demonstrate perspective.](/assets/pamphlet_images/drafting_p037_img1.png)
 
@@ -429,11 +429,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7b(3): Whether the types of media
+#### Req 7b(3): Digital Drafting Outputs and Applications
 **Official Requirement 7b(3):** Discuss whether the types of media have changed such that there are new uses the drawings, or other outputs, produced by designers. Briefly discuss how new media types are used in the industry today.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 16, p. 18)* • **Organizer (Concept & Examples Notes):** Req 7b(3) Structured Technical Study & Explanation Matrix (Discuss Whether The Types of)
-- **Common Myth:** For Drafting Requirement 7b(3), a common mistake in whether the types of media is treating whether the types of media have changed such that there are new uses the drawings, or other outputs as optional background reading.
-- **Pamphlet Fact:** Mastering Drafting Requirement 7b(3) means following the pamphlet standard for whether the types of media and recording accurate notes on whether the types of media have changed such that there are new uses the drawings, or other outputs.
+- **Common Myth:** Modern computer-aided drafting files serve only as digital pictures meant for printing onto paper.
+- **Pamphlet Fact:** Modern CAD files contain parametric data that directly drives automated CNC machine tools, 3D printers, and dynamic structural simulations without generating physical paper drawings.
 
 ![Standard electrical symbols illustrate a simple schematic circuit drawing.](/assets/pamphlet_images/drafting_p050_img1.png)
 

@@ -45,7 +45,7 @@
 - **Common Myth:** Shotgun pellets disperse so quickly that they become harmless after traveling fifty yards.
 - **Pamphlet Fact:** A shotgun pellet charge spreads radially and retains lethal velocity across several hundred yards downrange.
 
-![Step-by-step Shotgun Shooting visual guide highlighting firearm safety rules and shooting ethics positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/shotgun_shooting_p003_img1.png)
+![Shotgun Shooting Requirement 1 figure showing always point the shotgun muzzle toward an established downrange backstop or ground.](/assets/pamphlet_images/shotgun_shooting_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -73,7 +73,7 @@
 - **Common Myth:** Showing a friend an unloaded home shotgun with the action open is harmless curiosity.
 - **Pamphlet Fact:** Minor guests must never be granted unsupervised access to household firearms without parent and owner presence.
 
-![Detailed Shotgun Shooting reference illustration comparing key components and stages of shooting sports careers and hobbies for Requirement 3.](/assets/pamphlet_images/shotgun_shooting_p012_img1.png)
+![Shotgun Shooting Requirement 3 figure showing certified range safety officers manage live firing lines and supervise facility safety.](/assets/pamphlet_images/shotgun_shooting_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -133,11 +133,11 @@
 - Hunter safety education courses teach basic outdoor survival, ethical shot placement, and game regulations. Completing official coursework certifies that hunters understand local seasons, weapon restrictions, and private land access rules.
 - Req 1g Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)): Successfully complete a state hunter education course, or obtain a copy of the hunting laws for your state, then do the following: (1) Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition, AND (2) List the kinds of wildlife that can be legally hunted in your state.
 
-#### Req 1g(1): Main Points of Hunting Laws
+#### Req 1g(1): State Hunting Regulations and Firearm Laws
 **Official Requirement 1g(1):** Explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1g(1) Structured Technical Study & Explanation Matrix (Main Points of Hunting Laws)
-- **Common Myth:** In Shotgun Shooting Requirement 1g(1), many Scouts assume main points of hunting laws only requires a general overview rather than specific details on the main points of hunting laws in your state, and any special laws on the use of guns and ammunition.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 1g(1) specifies that Scouts must thoroughly document main points of hunting laws and explain the main points of hunting laws in your state, and any special laws on the use of guns and ammunition during counselor review.
+- **Common Myth:** Shotguns loaded for migratory bird hunting can hold as many shells as the tubular magazine accommodates without any physical restrictor.
+- **Pamphlet Fact:** Federal and state regulations mandate that shotguns used for migratory waterfowl hunting must be plugged to limit total ammunition capacity to no more than three shells.
 
 ![A close-up shows a foam earplug properly inserted to protect hearing on the range.](/assets/pamphlet_images/shotgun_shooting_p029_img2.png)
 
@@ -147,11 +147,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 1g(2): Wildlife That Can Be Legally
+#### Req 1g(2): Legal State Game Species Classification
 **Official Requirement 1g(2):** List the kinds of wildlife that can be legally hunted in your state.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Organizer (Concept & Examples Notes):** Req 1g(2) Structured Technical Study & Explanation Matrix (Wildlife That Can Be Legally)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 1g(2) (Wildlife That Can Be Legally), Scouts sometimes overlook the concrete pamphlet benchmarks covering the kinds of wildlife that can be legally hunted in your state.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 1g(2) requires concrete workbook evidence on wildlife that can be legally, specifically addressing the kinds of wildlife that can be legally hunted in your state.
+- **Common Myth:** Any wild duck or bird found on public marshland during autumn may be legally taken with a valid general hunting license.
+- **Pamphlet Fact:** Hunters must possess specific species endorsements and strictly identify protected waterfowl species that are subject to closed seasons or reduced bag limits.
 
 ![A trap shooter takes aim from the shooting station under instructor guidance.](/assets/pamphlet_images/shotgun_shooting_p054_img1.png)
 
@@ -224,11 +224,11 @@
 - Modern shotguns operate via break, pump, autoloader, or bolt actions, firing self-contained shotshells consisting of hull, primer, powder, wad, and pellets. Safe marksmanship requires identifying barrel stampings, selecting correct choke tubes, and maintaining proper swing-through follow-through mechanics.
 - Req 2a Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)): Option A, Shotgun Shooting (Modern Shotshell Type). Do ALL of the following: (1) Identify and explain the principal parts of a shotgun, action types, and how they function. (2) Identify and demonstrate the rules for safely storing and handling a shotgun. (3) Identify the parts of a shotgun shell and their functions. (4) Identify the various gauges of shotguns. Explain which you would choose for a particular use and why. (5) Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (6) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands. (7) Explain the basic safety rules for cleaning a shotgun, and identify the materials needed. (8) Demonstrate how to clean a shotgun properly and safely. (9) Discuss what points you would consider in selecting a shotgun. (10) Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
 
-#### Req 2a(1): Core principles and practical standards for Modern Shotshell Shotgun Shooting
+#### Req 2a(1): Shotgun Components and Mechanical Actions
 **Official Requirement 2a(1):** Identify and explain the principal parts of a shotgun, action types, and how they function.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(1) Structured Technical Study & Explanation Matrix (Principal Parts of A Shotgun)
-- **Common Myth:** In Shotgun Shooting Requirement 2a(1), many Scouts assume core principles and practical standards for modern shotshell shotgun shooting only requires a general overview rather than specific details on the principal parts of a shotgun, action types, and how they function.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2a(1) specifies that Scouts must thoroughly document core principles and practical standards for modern shotshell shotgun shooting and explain the principal parts of a shotgun, action types, and how they function during counselor review.
+- **Common Myth:** All modern shotgun safeties completely lock the firing pin and hammer to prevent accidental discharge under mechanical impact.
+- **Pamphlet Fact:** Most shotgun safeties merely block the trigger from moving rather than locking internal hammers or firing pins, meaning severe drops or mechanical failures can still cause a discharge.
 
 ![A printed score sheet tallies hits and misses across trap or skeet rounds.](/assets/pamphlet_images/shotgun_shooting_p047_img1.png)
 
@@ -238,11 +238,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(2): Core principles and practical standards for Modern Shotshell Shotgun Shooting
+#### Req 2a(2): Safe Shotgun Handling and Storage
 **Official Requirement 2a(2):** Identify and demonstrate the rules for safely storing and handling a shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(2) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling A Shotgun)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2a(2) (Core principles and practical standards for Modern Shotshell Shotgun Shooting), Scouts sometimes overlook the concrete pamphlet benchmarks covering the rules for safely storing and handling a shotgun.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2a(2) requires concrete workbook evidence on core principles and practical standards for modern shotshell shotgun shooting, specifically addressing the rules for safely storing and handling a shotgun.
+- **Common Myth:** Storing an unloaded shotgun under a bed or in an unlocked closet is completely acceptable if no ammunition is kept in the same room.
+- **Pamphlet Fact:** Firearms must always be locked in a secure cabinet or safe with ammunition stored separately in a different locked container out of reach of unauthorized individuals.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -250,11 +250,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(3): Shotgun Shell and Their Functions
+#### Req 2a(3): Modern Shotshell Components and Construction
 **Official Requirement 2a(3):** Identify the parts of a shotgun shell and their functions.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(3) Structured Technical Study & Explanation Matrix (Shotgun Shell and Their Functions)
-- **Common Myth:** For Shotgun Shooting Requirement 2a(3), a common mistake in shotgun shell and their functions is treating the parts of a shotgun shell and their functions as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 2a(3) means following the pamphlet standard for shotgun shell and their functions and recording accurate notes on the parts of a shotgun shell and their functions.
+- **Common Myth:** The plastic wad inside a shotgun shell acts purely as simple spacer material between the powder and the shot.
+- **Pamphlet Fact:** The wad forms an airtight gas seal against the barrel walls and encloses the pellets in a petal cup to prevent shot deformation along the bore.
 
 | Req 2a(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -262,11 +262,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(4): Various Gauges of Shotguns
+#### Req 2a(4): Shotgun Gauges and Application Selection
 **Official Requirement 2a(4):** Identify the various gauges of shotguns. Explain which you would choose for a particular use.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(4) Structured Technical Study & Explanation Matrix (Various Gauges of Shotguns)
-- **Common Myth:** During Shotgun Shooting Requirement 2a(4), Scouts can underestimate how directly mastery of various gauges of shotguns depends on understanding the various gauges of shotguns.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 2a(4) require complete workbook entries on various gauges of shotguns to demonstrate full understanding of the various gauges of shotguns.
+- **Common Myth:** A larger numerical gauge designation indicates a wider shotgun barrel bore with greater pellet velocity.
+- **Pamphlet Fact:** Shotgun gauge numbers run inversely to barrel diameter because smaller numbers require fewer lead spheres of that size to equal one pound.
 
 | Req 2a(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -275,11 +275,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(5): Shotgun's Failure to Fire
+#### Req 2a(5): Shotgun Ignition Malfunctions and Safety
 **Official Requirement 2a(5):** Identify the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(5) Hands-On Skill Station & EDGE Verification Checklist (Shotgun's Failure to Fire)
-- **Common Myth:** In Shotgun Shooting Requirement 2a(5), many Scouts assume shotgun's failure to fire only requires a general overview rather than specific details on the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2a(5) specifies that Scouts must thoroughly document shotgun's failure to fire and explain the causes of a shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire during counselor review.
+- **Common Myth:** Shooters who experience a quiet pop and very light recoil should quickly pump the action and fire the next shell to clear the barrel.
+- **Pamphlet Fact:** Firing a subsequent shell behind a squib load obstruction creates catastrophic pressure that can burst the barrel and cause severe injury.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -288,11 +288,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(6): Knowledge Skills and Attitude Necessary
+#### Req 2a(6): Live Range Commands and Protocols
 **Official Requirement 2a(6):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range, including understanding and following range procedures and commands.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(6) Hands-On Skill Station & EDGE Verification Checklist (Knowledge Skills and Attitude Necessary)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2a(6) (Knowledge Skills and Attitude Necessary), Scouts sometimes overlook the concrete pamphlet benchmarks covering the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2a(6) requires concrete workbook evidence on knowledge skills and attitude necessary, specifically addressing the knowledge, skills, and attitude necessary to safely shoot a shotgun on a range.
+- **Common Myth:** Shooters receiving a cease-fire command should take one final quick shot if their gun is already mounted on a moving clay.
+- **Pamphlet Fact:** A cease-fire requires immediate cessation of all shooting, finger off the trigger, unloading the firearm, opening the action, and stepping back from the firing line.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -300,11 +300,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(7): Basic Safety Rules for Cleaning
+#### Req 2a(7): Firearm Cleaning Safety and Materials
 **Official Requirement 2a(7):** Explain the basic safety rules for cleaning a shotgun, and identify the materials needed.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(7) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
-- **Common Myth:** For Shotgun Shooting Requirement 2a(7), a common mistake in basic safety rules for cleaning is treating the basic safety rules for cleaning a shotgun, and identify the materials needed as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 2a(7) means following the pamphlet standard for basic safety rules for cleaning and recording accurate notes on the basic safety rules for cleaning a shotgun, and identify the materials needed.
+- **Common Myth:** Keeping a box of ammunition on the workbench while cleaning a disassembled shotgun poses zero hazard as long as the barrel is detached.
+- **Pamphlet Fact:** All live ammunition must be removed completely from the cleaning bench and room before servicing any firearm to eliminate accidental loading hazards.
 
 | Req 2a(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -312,11 +312,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(8): Shotgun Shooting Shotgun Principles
+#### Req 2a(8): Shotgun Cleaning and Maintenance Procedures
 **Official Requirement 2a(8):** Demonstrate how to clean a shotgun properly and safely.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2a(8) Hands-On Skill Station & EDGE Verification Checklist (Shotgun Shooting Shotgun Principles)
-- **Common Myth:** During Shotgun Shooting Requirement 2a(8), Scouts can underestimate how directly mastery of shotgun shooting shotgun principles depends on understanding how to clean a shotgun properly and safely.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 2a(8) require complete workbook entries on shotgun shooting shotgun principles to demonstrate full understanding of how to clean a shotgun properly and safely.
+- **Common Myth:** Soaking the internal action and barrel with thick grease protects the shotgun best during seasonal closet storage.
+- **Pamphlet Fact:** Heavy lubricants attract dust and powder grit while thickening in cold weather, which can retard firing pin movement and cause misfires.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -324,11 +324,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(9): What points you would consider
+#### Req 2a(9): Personal Shotgun Selection and Fit
 **Official Requirement 2a(9):** Discuss what points you would consider in selecting a shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(9) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
-- **Common Myth:** In Shotgun Shooting Requirement 2a(9), many Scouts assume what points you would consider only requires a general overview rather than specific details on what points you would consider in selecting a shotgun.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2a(9) specifies that Scouts must thoroughly document what points you would consider and explain what points you would consider in selecting a shotgun during counselor review.
+- **Common Myth:** Any standard adult shotgun stock will shoot accurately if the shooter simply tilts their head down against the wood to align with the bead.
+- **Pamphlet Fact:** A shotgun must fit the shooter's body dimensions so that the eye aligns automatically along the rib without tilting or straining the head.
 
 | Req 2a(9) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -336,11 +336,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2a(10): Shoot a moving target
+#### Req 2a(10): Moving Target Fundamentals and Marksmanship
 **Official Requirement 2a(10):** Shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 12 out of 25 targets (48%) in two 25-target groups. The two groups need not be shot in consecutive order. A minimum of 50 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. Modern, age-appropriate, target shotgun models, 12-, 16-, or 20-gauge, may be used. Only commercially manufactured ammunition may be used. Reloads may not be used in Scouting America range and target activities. Shooters must shoot in rounds of 25. Rounds need not be shot continuously or on the same day. The term "round" refers to a single series of 25 shots. If using a trap field, shoot station 3 with traps set to throw straightaway targets. If using a skeet field, shoot station 7 low house.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2a(10) Structured Technical Study & Explanation Matrix (Moving Target With A Shotgun)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2a(10) (Shoot a moving target), Scouts sometimes overlook the concrete pamphlet benchmarks covering shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2a(10) requires concrete workbook evidence on shoot a moving target, specifically addressing shoot a moving target with a shotgun using the four fundamentals of firing a shot, position, mount.
+- **Common Myth:** Shooters should aim directly at the moving clay target and stop the gun swing the instant they pull the trigger.
+- **Pamphlet Fact:** Effective shotgun marksmanship requires pointing ahead of the target to establish lead and continuing the smooth barrel swing through trigger release.
 
 | Req 2a(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -361,11 +361,11 @@
 - Muzzleloading shotguns load loose black powder, over-powder cards, cushion wads, shot, and over-shot cards through the muzzle. Shooters use marked ramrods to verify firm wad seating against powder charges before capping the nipple.
 - Req 2b Standard (Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)): Option B, Muzzleloading Shotgun Shooting. Do ALL of the following: (1) Discuss with your counselor a brief history of the development of the muzzleloading shotgun. (2) Identify principal parts of muzzleloading shotguns and discuss how they function. (3) Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun. (4) Identify the various grades of black powder and explain their proper and safe use. (5) Discuss proper safety procedures pertaining to black powder storage. (6) Discuss proper components of a load. (7) Identify proper procedures and accessories used for safely loading a muzzleloading shotgun. (8) Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response to each. (9) Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands. (10) Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed. (11) Demonstrate how to clean a muzzleloading shotgun properly and safely. (12) Discuss what points you would consider in selecting a muzzleloading shotgun. (13) Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 
-#### Req 2b(1): Shotgun Shooting Origins and Evolution
+#### Req 2b(1): Muzzleloading Shotgun Historical Development
 **Official Requirement 2b(1):** Discuss with your counselor a brief history of the development of the muzzleloading shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(1) Structured Technical Study & Explanation Matrix (Shotgun Shooting Origins and Evolution)
-- **Common Myth:** In Shotgun Shooting Requirement 2b(1), many Scouts assume shotgun shooting origins and evolution only requires a general overview rather than specific details on a brief history of the development of the muzzleloading shotgun.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2b(1) specifies that Scouts must thoroughly document shotgun shooting origins and evolution and explain a brief history of the development of the muzzleloading shotgun during counselor review.
+- **Common Myth:** Early flintlock fowling pieces ignited powder charges instantaneously upon trigger release just like modern cartridge shotguns.
+- **Pamphlet Fact:** Flintlocks experienced a noticeable delay between the flint striking the frizzen and the flash traveling through the touchhole to ignite the main charge.
 
 ![A range safety officer closely supervises a young shooter firing on the range.](/assets/pamphlet_images/shotgun_shooting_p056_img1.png)
 
@@ -375,11 +375,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(2): Principal Parts of Muzzleloading Shotguns
+#### Req 2b(2): Muzzleloading Shotgun Anatomy and Mechanics
 **Official Requirement 2b(2):** Identify principal parts of muzzleloading shotguns and discuss how they function.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(2) Structured Technical Study & Explanation Matrix (Principal Parts of Muzzleloading Shotguns)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2b(2) (Principal Parts of Muzzleloading Shotguns), Scouts sometimes overlook the concrete pamphlet benchmarks covering principal parts of muzzleloading shotguns and discuss how they function.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2b(2) requires concrete workbook evidence on principal parts of muzzleloading shotguns, specifically addressing principal parts of muzzleloading shotguns and discuss how they function.
+- **Common Myth:** Modern smokeless shotshell powder can be safely substituted in a muzzleloading shotgun if loaded in smaller volumetric quantities.
+- **Pamphlet Fact:** Smokeless powder burns much faster and generates pressures that will rupture traditional muzzleloader barrels, so only black powder or approved black powder substitutes are permissible.
 
 | Req 2b(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -387,11 +387,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(3): Core principles and practical standards for Muzzleloading Shotgun Shooting Option
+#### Req 2b(3): Muzzleloading Shotgun Safety and Storage
 **Official Requirement 2b(3):** Identify and demonstrate the rules for safely storing and handling a muzzleloading shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(3) Hands-On Skill Station & EDGE Verification Checklist (Storing and Handling A Muzzleloading)
-- **Common Myth:** For Shotgun Shooting Requirement 2b(3), a common mistake in core principles and practical standards for muzzleloading shotgun shooting option is treating the rules for safely storing and handling a muzzleloading shotgun as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 2b(3) means following the pamphlet standard for core principles and practical standards for muzzleloading shotgun shooting option and recording accurate notes on the rules for safely storing and handling a muzzleloading shotgun.
+- **Common Myth:** Looking straight down the muzzle of a black powder shotgun is the proper technique to verify whether the barrel contains a charge.
+- **Pamphlet Fact:** A marked ramrod inserted down the bore is the only safe method to verify whether a muzzleloader is unloaded without pointing the barrel at anyone.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -399,11 +399,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(4): Various Grades of Black Powder
+#### Req 2b(4): Black Powder Grades and Uses
 **Official Requirement 2b(4):** Identify the various grades of black powder and explain their proper and safe use.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(4) Structured Technical Study & Explanation Matrix (Various Grades of Black Powder)
-- **Common Myth:** During Shotgun Shooting Requirement 2b(4), Scouts can underestimate how directly mastery of various grades of black powder depends on understanding the various grades of black powder and explain their proper and safe use.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 2b(4) require complete workbook entries on various grades of black powder to demonstrate full understanding of the various grades of black powder and explain their proper and safe use.
+- **Common Myth:** Finer black powder grades like FFFFg burn cleaner and deliver superior velocity when loaded into a muzzleloading shotgun barrel.
+- **Pamphlet Fact:** Loading fine FFFFg powder into the barrel causes a dangerously fast pressure spike that can rupture the breech, whereas FFg is the designated granulation for shotgun bores.
 
 | Req 2b(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -411,11 +411,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(5): Proper safety procedures pertaining to black
+#### Req 2b(5): Black Powder Storage Safety Procedures
 **Official Requirement 2b(5):** Discuss proper safety procedures pertaining to black powder storage.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(5) Structured Technical Study & Explanation Matrix (Discuss Proper Safety Procedures Pertaining)
-- **Common Myth:** In Shotgun Shooting Requirement 2b(5), many Scouts assume proper safety procedures pertaining to black only requires a general overview rather than specific details on proper safety procedures pertaining to black powder storage.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2b(5) specifies that Scouts must thoroughly document proper safety procedures pertaining to black and explain proper safety procedures pertaining to black powder storage during counselor review.
+- **Common Myth:** A standard airtight plastic food container or glass jar provides a safe homemade storage vessel for bulk black powder.
+- **Pamphlet Fact:** Non-conductive plastic can generate static electricity that ignites powder grains, while glass creates dangerous fragmentation shrapnel in a deflagration, requiring black powder to stay in its original static-safe metal or conductive plastic containers.
 
 | Req 2b(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -423,11 +423,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(6): Proper components of a load
+#### Req 2b(6): Muzzleloading Shotgun Load Components
 **Official Requirement 2b(6):** Discuss proper components of a load.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(6) Structured Technical Study & Explanation Matrix (Discuss Proper Components)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2b(6) (Proper components of a load), Scouts sometimes overlook the concrete pamphlet benchmarks covering proper components of a load.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2b(6) requires concrete workbook evidence on proper components of a load, specifically addressing proper components of a load.
+- **Common Myth:** Pouring birdshot directly on top of the black powder without intervening wads produces a functional spread as long as an over-shot card caps the muzzle.
+- **Pamphlet Fact:** Without an over-powder card and cushion wad, expanding combustion gases melt the lead shot pellets and fuse the charge into an erratic, deformed mass rather than a clean pattern.
 
 | Req 2b(6) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -435,11 +435,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(7): Procedures and Accessories
+#### Req 2b(7): Safe Muzzleloading Loading Procedures
 **Official Requirement 2b(7):** Identify proper procedures and accessories used for safely loading a muzzleloading shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(7) Structured Technical Study & Explanation Matrix (Procedures and Accessories)
-- **Common Myth:** For Shotgun Shooting Requirement 2b(7), a common mistake in procedures and accessories is treating proper procedures and accessories used for safely loading a muzzleloading shotgun as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 2b(7) means following the pamphlet standard for procedures and accessories and recording accurate notes on proper procedures and accessories used for safely loading a muzzleloading shotgun.
+- **Common Myth:** Pouring powder directly from a powder flask spout straight into the shotgun muzzle saves time without compromising range safety.
+- **Pamphlet Fact:** Pouring directly from a flask can ignite the entire powder reservoir in the shooter's hand if a smoldering ember remains in the breech from a previous shot.
 
 | Req 2b(7) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -447,11 +447,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(8): Muzzleloading Shotgun's Failure to Fire
+#### Req 2b(8): Muzzleloader Ignition Malfunction Procedures
 **Official Requirement 2b(8):** Identify the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib fire are. Explain and demonstrate proper preventive measures, and the procedures to follow in response.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(8) Hands-On Skill Station & EDGE Verification Checklist (Muzzleloading Shotgun's Failure to Fire)
-- **Common Myth:** During Shotgun Shooting Requirement 2b(8), Scouts can underestimate how directly mastery of muzzleloading shotgun's failure to fire depends on understanding the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 2b(8) require complete workbook entries on muzzleloading shotgun's failure to fire to demonstrate full understanding of the causes of a muzzleloading shotgun's failure to fire, and explain what a misfire, hangfire, and squib.
+- **Common Myth:** A muzzleloader that clicks without an immediate blast can be lowered and uncapped right away because the percussion cap already spent its energy.
+- **Pamphlet Fact:** A hangfire can smolder in the touchhole or breech channel for several seconds before suddenly firing, requiring the muzzle to stay pointed downrange for a full minute.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -460,11 +460,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(9): Knowledge Skills and Attitude Necessary
+#### Req 2b(9): Range Safety and Shooting Protocols
 **Official Requirement 2b(9):** Demonstrate the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range, including understanding and following range procedures and commands.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(9) Hands-On Skill Station & EDGE Verification Checklist (Knowledge Skills and Attitude Necessary)
-- **Common Myth:** In Shotgun Shooting Requirement 2b(9), many Scouts assume knowledge skills and attitude necessary only requires a general overview rather than specific details on the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2b(9) specifies that Scouts must thoroughly document knowledge skills and attitude necessary and explain the knowledge, skills, and attitude necessary to safely shoot a muzzleloading shotgun on a range during counselor review.
+- **Common Myth:** Priming the pan or placing a percussion cap on the nipple while standing at the loading bench speeds up relay rotation and is permitted if the hammer rests at half-cock.
+- **Pamphlet Fact:** A muzzleloader is legally and practically considered loaded and primed only on the firing line, meaning percussion caps or priming powder must never be applied at a rear loading bench.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -472,11 +472,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(10): Basic Safety Rules for Cleaning
+#### Req 2b(10): Muzzleloader Cleaning Safety and Materials
 **Official Requirement 2b(10):** Explain the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(10) Structured Technical Study & Explanation Matrix (Basic Safety Rules for Cleaning)
-- **Common Myth:** When preparing Shotgun Shooting Requirement 2b(10) (Basic Safety Rules for Cleaning), Scouts sometimes overlook the concrete pamphlet benchmarks covering the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed.
-- **Pamphlet Fact:** Counselor verification for Shotgun Shooting Requirement 2b(10) requires concrete workbook evidence on basic safety rules for cleaning, specifically addressing the basic safety rules for cleaning a muzzleloading shotgun, and identify the materials needed.
+- **Common Myth:** Standard petroleum solvents formulated for modern cartridge rifles dissolve black powder fouling salts just as effectively as water-based cleaners.
+- **Pamphlet Fact:** Black powder combustion produces hygroscopic potassium salts that only dissolve in water or specialized water-based solvents, while petroleum-based bore cleaners leave the corrosive salts intact underneath an oily film.
 
 | Req 2b(10) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -484,11 +484,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(11): Muzzleloading Shotgun
+#### Req 2b(11): Muzzleloading Shotgun Cleaning Techniques
 **Official Requirement 2b(11):** Demonstrate how to clean a muzzleloading shotgun properly and safely.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Skill Demonstration Checklist):** Req 2b(11) Hands-On Skill Station & EDGE Verification Checklist (Muzzleloading Shotgun)
-- **Common Myth:** For Shotgun Shooting Requirement 2b(11), a common mistake in muzzleloading shotgun is treating how to clean a muzzleloading shotgun properly and safely as optional background reading.
-- **Pamphlet Fact:** Mastering Shotgun Shooting Requirement 2b(11) means following the pamphlet standard for muzzleloading shotgun and recording accurate notes on how to clean a muzzleloading shotgun properly and safely.
+- **Common Myth:** Running two or three solvent-soaked patches down the barrel followed by immediate oiling is sufficient to protect a muzzleloader barrel between shooting sessions.
+- **Pamphlet Fact:** Failing to flush the bore until patches emerge completely clean and failing to thoroughly dry the steel before oiling traps moisture and corrosive residue that will pit the barrel within forty-eight hours.
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -496,11 +496,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(12): What points you would consider
+#### Req 2b(12): Muzzleloading Shotgun Selection Criteria
 **Official Requirement 2b(12):** Discuss what points you would consider in selecting a muzzleloading shotgun.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(12) Structured Technical Study & Explanation Matrix (Discuss What Points You Would)
-- **Common Myth:** During Shotgun Shooting Requirement 2b(12), Scouts can underestimate how directly mastery of what points you would consider depends on understanding what points you would consider in selecting a muzzleloading shotgun.
-- **Pamphlet Fact:** Scouting America standards for Shotgun Shooting Requirement 2b(12) require complete workbook entries on what points you would consider to demonstrate full understanding of what points you would consider in selecting a muzzleloading shotgun.
+- **Common Myth:** Selecting a muzzleloading shotgun depends solely on finding the largest available gauge to ensure the widest possible pellet spread on clay targets.
+- **Pamphlet Fact:** Proper stock dimensions, balance, and gun fit are far more critical than gauge size because an ill-fitting shotgun misaligns the eye with the rib and causes consistent misses regardless of shot volume.
 
 | Req 2b(12) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -508,11 +508,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 2b(13): Shoot a moving target
+#### Req 2b(13): Moving Target Marksmanship Qualification
 **Official Requirement 2b(13):** Shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot, position, mount, vision, and movement. Shooting score required: Hit at least 5 out of 15 targets in each of two 15-target groups. The two groups need not be shot in consecutive order. A minimum of 30 shots must be fired. Shooting skill rules: Targets may be thrown by a hand trap, manual mechanical trap, or on any trap or skeet field. If using a hand trap or manual mechanical trap, the trap operator should be at least 5 feet to the right and 3 feet to the rear of the shooter. If throwing left-handed with a hand trap, the trap operator should be at least 5 feet to the left and 3 feet to the rear of the shooter. All targets should be thrown at a reasonable speed and in the same direction. Targets should be generally thrown so as to climb in the air after leaving the trap. Scores may be fired at any time, either in formal competition or in practice, but only under approved supervision and at an approved range as noted in the Scouting America National Range and Target Activities Manual. A 10 gauge or smaller muzzleloading rifle in appropriate size for the participant may be used. Matchlock, wheellock, or flintlock firearms are not approved. Standard clay targets customarily used for trap and skeet are to be used. On a standard trap field, the shooter should be positioned 8 yards behind the trap house. The trap should be set to throw only straightaway targets. If using a skeet field, shoot station 7 low house.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 47, p. 57)* • **Organizer (Concept & Examples Notes):** Req 2b(13) Structured Technical Study & Explanation Matrix (Moving Target With A Muzzleloading)
-- **Common Myth:** In Shotgun Shooting Requirement 2b(13), many Scouts assume shoot a moving target only requires a general overview rather than specific details on shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot.
-- **Pamphlet Fact:** The official Shotgun Shooting pamphlet for Requirement 2b(13) specifies that Scouts must thoroughly document shoot a moving target and explain shoot a moving target with a muzzleloading shotgun using the four fundamentals of firing a shot during counselor review.
+- **Common Myth:** Stopping the swing at the exact moment of pulling the trigger ensures an accurate shot by aligning the muzzle directly with the moving clay bird.
+- **Pamphlet Fact:** Halting the swing when pulling the trigger causes the shot pattern to pass well behind a moving target because the clay continues traveling while the shot column travels down the barrel and through the air.
 
 | Req 2b(13) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

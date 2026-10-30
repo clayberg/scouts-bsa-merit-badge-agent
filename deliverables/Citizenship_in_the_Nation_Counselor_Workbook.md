@@ -127,7 +127,7 @@
 - **Common Myth:** A common misunderstanding is that the Supreme Court can unilaterally veto pending congressional bills.
 - **Pamphlet Fact:** Judicial review applies only to enacted laws or executive actions brought through actual legal controversies.
 
-![Detailed Citizenship in the Nation reference illustration comparing key components and stages of principles of the united states constitution for Requirement 1.](/assets/pamphlet_images/citizenship_in_the_nation_p003_img1.png)
+![Citizenship in the Nation Requirement 1 figure showing the Constitution overrides conflicting state statutes and defines fundamental.](/assets/pamphlet_images/citizenship_in_the_nation_p003_img1.png)
 
 | Branch Exercising Check | Specific Check on the Other Two Branches | Historical or Modern Example |
 | :--- | :--- | :--- |
@@ -200,7 +200,7 @@
 - **Common Myth:** A common misunderstanding is that E Pluribus Unum was chosen primarily for commercial coinage branding.
 - **Pamphlet Fact:** The Continental Congress selected the phrase for the Great Seal to symbolize thirteen sovereign states uniting.
 
-![Practical Citizenship in the Nation field visual showing proper setup, measurement, and technique for six purposes in the preamble in Requirement 2.](/assets/pamphlet_images/citizenship_in_the_nation_p007_img1.png)
+![Citizenship in the Nation Requirement 2 figure showing the introductory clause establishes six explicit governing duties intended to preserve.](/assets/pamphlet_images/citizenship_in_the_nation_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

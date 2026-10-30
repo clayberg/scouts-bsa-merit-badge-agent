@@ -160,7 +160,7 @@
 - **Common Myth:** Beginners often assume crossbreeding creates unpredictable mutts with inferior commercial and functional agricultural value.
 - **Pamphlet Fact:** Structured crossbreeding systems produce hybrid vigor that boosts offspring growth rates, vitality, and lifetime reproductive efficiency.
 
-![Step-by-step Animal Science visual guide highlighting livestock breeds, origins, and uses positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/animal_science_p003_img1.png)
+![Animal Science Requirement 1 figure showing percheron horses provide heavy pulling strength developed originally in the French.](/assets/pamphlet_images/animal_science_p003_img1.png)
 
 | Req 5b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -174,7 +174,7 @@
 - **Common Myth:** Many beginners believe artificial insemination is primarily used to eliminate the cost of feeding bulls.
 - **Pamphlet Fact:** Artificial insemination allows widespread access to genetically superior, proven sires while eliminating venereal disease transmission risks.
 
-![Detailed Animal Science reference illustration comparing key components and stages of livestock digestive health and disease prevention for Requirement 2.](/assets/pamphlet_images/animal_science_p007_img1.png)
+![Animal Science Requirement 2 figure showing abdominal pain causes horses to paw ground, sweat excessively, and roll repeatedly.](/assets/pamphlet_images/animal_science_p007_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -208,12 +208,12 @@
 - Beef systems encompass cow-calf ranches, stocker backgrounding operations, and finishing feedlots that prepare market steers. Each phase utilizes distinct feeding regimes ranging from native forage grazing to high-energy corn rations.
 - Req 6a Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option A, Beef Cattle. Do ALL of the following: (1) Visit a farm or ranch where beef cattle are produced under any of these systems: feeding market cattle for harvest, cow/calf operation (producing cattle for sale to commercial feeders), or producing purebred cattle for sale as breeding stock to others. Talk with the operator to learn how the cattle were handled, fed, weighed, and shipped. Describe what you saw and explain what you learned. If you cannot visit a cattle ranch or farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on beef cattle production. Tell about your findings. (2) Sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30 or more fattening steers; or sketch a corral plan with cutting and loading chutes for handling 50 or more beef cows and their calves at one time. (3) Make a sketch showing the principal wholesale and retail cuts of beef. Tell about the U. S. Department of Agriculture (USDA) dual grading system of beef. Tell the basis of each grade in each system. (4) Define the following terms: bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.
 
-#### Req 6a(1): Farm or Ranch Where Beef
+#### Req 6a(1): Beef Cattle Production Facility Visit
 **Official Requirement 6a(1):** Visit a farm or ranch where beef cattle are produced under any of these systems: feeding market cattle for harvest, cow/calf operation (producing cattle for sale to commercial feeders), or producing purebred cattle for sale as breeding stock to others. Talk with the operator to learn how the cattle were handled, fed, weighed, and shipped. Describe what you saw and explain what you learned. If you cannot visit a cattle ranch or farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on beef cattle production. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6a(1) Structured Technical Study & Explanation Matrix (Farm or Ranch Where Beef)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6a(1) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** In Animal Science Requirement 6a(1), many Scouts assume farm or ranch where beef only requires a general overview rather than specific details on visit a farm or ranch where beef cattle are produced under any of these systems, feeding market cattle.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6a(1) specifies that Scouts must thoroughly document farm or ranch where beef and explain visit a farm or ranch where beef cattle are produced under any of these systems, feeding market cattle during counselor review.
+- **Common Myth:** Every beef ranch raises market cattle from birth through finishing on the same property.
+- **Pamphlet Fact:** Commercial beef production divides into distinct operations including cow and calf ranches, backgrounding stocker systems, feedlots, and purebred seedstock breeding farms.
 
 ![Youth observe herd grazing behaviors, forage management, and paddock fencing on a rolling green livestock pasture.](/assets/ai_illustrations/animal_science_req_6_nano_hero.png)
 
@@ -227,11 +227,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6a(2): Feedlot to Include Its Forage
+#### Req 6a(2): Cattle Feedlot and Corral Layout
 **Official Requirement 6a(2):** Sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30 or more fattening steers; or sketch a corral plan with cutting and loading chutes for handling 50 or more beef cows and their calves at one time.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a(2) Structured Technical Study & Explanation Matrix (Feedlot to Include Its Forage)
-- **Common Myth:** When preparing Animal Science Requirement 6a(2) (Feedlot to Include Its Forage), Scouts sometimes overlook the concrete pamphlet benchmarks covering sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6a(2) requires concrete workbook evidence on feedlot to include its forage, specifically addressing sketch a plan of a feedlot to include its forage and grain storage facilities, and loading chute for 30.
+- **Common Myth:** Straight chutes with open barred fences move cattle more efficiently than curved chutes with solid sides.
+- **Pamphlet Fact:** Curved chutes with solid sides prevent cattle from seeing outside distractions and utilize their natural instinct to circle back toward their entrance.
 
 ![Beef and dairy cattle graze across an open grassy pasture on a working livestock farm.](/assets/pamphlet_images/animal_science_p015_img1.png)
 
@@ -250,11 +250,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6a(3): Sketch Showing the Principal Wholesale and Retail
+#### Req 6a(3): Beef Cuts and USDA Grading
 **Official Requirement 6a(3):** Make a sketch showing the principal wholesale and retail cuts of beef. Tell about the U. S. Department of Agriculture (USDA) dual grading system of beef. Tell the basis of each grade in each system.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6a(3) Hands-On Skill Station & EDGE Verification Checklist (Showing The Principal Wholesale and)
-- **Common Myth:** For Animal Science Requirement 6a(3), a common mistake in sketch showing the principal wholesale and retail is treating a sketch showing the principal wholesale and retail cuts of beef as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6a(3) means following the pamphlet standard for sketch showing the principal wholesale and retail and recording accurate notes on a sketch showing the principal wholesale and retail cuts of beef.
+- **Common Myth:** USDA beef quality grades and yield grades measure the exact same traits on a beef carcass.
+- **Pamphlet Fact:** Quality grades estimate palatability and tenderness based on intramuscular marbling and animal maturity, while yield grades predict the percentage of boneless retail meat yield.
 
 ![A roan Shorthorn cow stands beside a pasture fence displaying breed characteristics.](/assets/pamphlet_images/animal_science_p017_img1.png)
 
@@ -276,11 +276,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6a(4): Bull Steer Bullock Cow Heifer
+#### Req 6a(4): Beef Cattle Classification Terminology
 **Official Requirement 6a(4):** Define the following terms: bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6a(4) Structured Technical Study & Explanation Matrix (Bull Steer Bullock Cow Heifer)
-- **Common Myth:** During Animal Science Requirement 6a(4), Scouts can underestimate how directly mastery of bull steer bullock cow heifer depends on understanding define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6a(4) require complete workbook entries on bull steer bullock cow heifer to demonstrate full understanding of define the following terms, bull, steer, bullock, cow, heifer, freemartin, heiferette, and calf.
+- **Common Myth:** Any female bovine regardless of age or calving history is accurately called a cow.
+- **Pamphlet Fact:** A female bovine is a heifer until she delivers her first calf, at which point she is classified as a cow.
 
 ![A red Brahman bull shows the distinctive shoulder hump suited for warm climates.](/assets/pamphlet_images/animal_science_p017_img2.png)
 
@@ -301,11 +301,11 @@
 - Lactating dairy animals convert high-energy total mixed rations into nutrient-dense milk through advanced rumen microbial fermentation. Efficient dairy operations balance precise dry matter intake against milk yields while maintaining udder health.
 - Req 6b Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option B, Dairy. Do ALL of the following: (1) Tell how a cow or a goat converts forage and grain into milk. Explain the differences in feeds typically used for dairy cows versus those fed to beef cows. (2) Make a chart showing the components in cow's milk or goat's milk. Chart the amount of each component. (3) Explain the requirements for producing grade A milk. Tell how and why milk is pasteurized. (4) Tell about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms. (5) Define the following terms: bull, cow, steer, heifer, springer, buck, doe, and kid. (6) Visit a dairy farm or a milk processing plant. Describe what you saw and explain what you learned. If you cannot visit a dairy farm or processing plant, view a video from a breed or dairy association, or research the internet (with your parent or guardian's permission) for information on dairying. Tell about your findings.
 
-#### Req 6b(1): Tell how a cow
+#### Req 6b(1): Ruminant Digestion and Milk Synthesis
 **Official Requirement 6b(1):** Tell how a cow or a goat converts forage and grain into milk. Explain the differences in feeds typically used for dairy cows versus those fed to beef cows.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (2-Column Comparison Table):** Req 6b(1) Technical Comparison Matrix (Cow or A Goat Converts)
-- **Common Myth:** In Animal Science Requirement 6b(1), many Scouts assume tell how a cow only requires a general overview rather than specific details on how a cow or a goat converts forage and grain into milk.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6b(1) specifies that Scouts must thoroughly document tell how a cow and explain how a cow or a goat converts forage and grain into milk during counselor review.
+- **Common Myth:** Cows and goats synthesize milk directly from digested liquids without relying on microbial stomach fermentation.
+- **Pamphlet Fact:** Rumen bacteria and protozoa ferment plant fiber into volatile fatty acids that the bloodstream transports to the mammary gland for lactose and butterfat synthesis.
 
 ![An identification ear tag marks a brown dairy cow managed in a livestock herd.](/assets/pamphlet_images/animal_science_p012_img2.png)
 
@@ -316,11 +316,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(2): Showing The Components in Cow's
+#### Req 6b(2): Dairy Milk Composition and Components
 **Official Requirement 6b(2):** Make a chart showing the components in cow's milk or goat's milk. Chart the amount of each component.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Skill Demonstration Checklist):** Req 6b(2) Hands-On Skill Station & EDGE Verification Checklist (Showing The Components in Cow's)
-- **Common Myth:** When preparing Animal Science Requirement 6b(2) (Showing The Components in Cow's), Scouts sometimes overlook the concrete pamphlet benchmarks covering a chart showing the components in cow's milk or goat's milk.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6b(2) requires concrete workbook evidence on showing the components in cow's, specifically addressing a chart showing the components in cow's milk or goat's milk.
+- **Common Myth:** Whole milk consists almost entirely of fat and protein with only a small fraction of water.
+- **Pamphlet Fact:** Water accounts for approximately 87 percent of whole milk, while milk solids like butterfat, protein, and lactose make up the remaining 13 percent.
 
 ![A sturdy beef bull stands in a livestock corral ready for physical evaluation.](/assets/pamphlet_images/animal_science_p018_img1.png)
 
@@ -331,11 +331,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(3): The requirements for producing grade
+#### Req 6b(3): Grade A Standards and Pasteurization
 **Official Requirement 6b(3):** Explain the requirements for producing grade A milk. Tell how and why milk is pasteurized.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6b(3) Structured Technical Study & Explanation Matrix (Producing Grade A Milk)
-- **Common Myth:** For Animal Science Requirement 6b(3), a common mistake in the requirements for producing grade is treating the requirements for producing grade a milk as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6b(3) means following the pamphlet standard for the requirements for producing grade and recording accurate notes on the requirements for producing grade a milk.
+- **Common Myth:** Pasteurization boils milk to sterilize it completely, eliminating all nutritional value.
+- **Pamphlet Fact:** Pasteurization rapidly heats milk to controlled sub-boiling temperatures to eliminate pathogenic bacteria while preserving flavor, proteins, and vitamins.
 
 ![A prize beef bull profile illustrates structural balance and breed conformation.](/assets/pamphlet_images/animal_science_p018_img2.png)
 
@@ -346,11 +346,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(4): Equipment Used for Milking
+#### Req 6b(4): Milking Equipment and Farm Sanitation
 **Official Requirement 6b(4):** Tell about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6b(4) Structured Technical Study & Explanation Matrix (Equipment Used for Milking)
-- **Common Myth:** During Animal Science Requirement 6b(4), Scouts can underestimate how directly mastery of equipment used for milking depends on understanding about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6b(4) require complete workbook entries on equipment used for milking to demonstrate full understanding of about the kinds of equipment used for milking and the sanitation standards that must be met on dairy farms.
+- **Common Myth:** Milking machines squeeze the teat downward using mechanical rollers similar to manual hand milking.
+- **Pamphlet Fact:** Mechanical milkers utilize pulsating vacuum pressure inside a flexible teat cup liner to gently draw milk into a sanitary closed pipeline.
 
 ![A utility tractor sits beside stacked hay bales used for feeding ruminant livestock.](/assets/pamphlet_images/animal_science_p045_img1.png)
 
@@ -360,11 +360,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(5): Bull Cow Steer Heifer Springer
+#### Req 6b(5): Dairy Cattle and Goat Classification
 **Official Requirement 6b(5):** Define the following terms: bull, cow, steer, heifer, springer, buck, doe, and kid.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6b(5) Structured Technical Study & Explanation Matrix (Bull Cow Steer Heifer Springer)
-- **Common Myth:** In Animal Science Requirement 6b(5), many Scouts assume bull cow steer heifer springer only requires a general overview rather than specific details on define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6b(5) specifies that Scouts must thoroughly document bull cow steer heifer springer and explain define the following terms, bull, cow, steer, heifer, springer, buck, doe, and kid during counselor review.
+- **Common Myth:** The term springer refers to a young dairy calf born during the spring calving season.
+- **Pamphlet Fact:** A springer is a mature cow or heifer that is within a few weeks of giving birth and showing physical udder enlargement.
 
 ![Dairy cows consume mixed rations along a modern barn feeding bunk.](/assets/pamphlet_images/animal_science_p048_img1.png)
 
@@ -374,12 +374,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6b(6): Visit a dairy farm
+#### Req 6b(6): Dairy Facility Operation and Fieldwork
 **Official Requirement 6b(6):** Visit a dairy farm or a milk processing plant. Describe what you saw and explain what you learned. If you cannot visit a dairy farm or processing plant, view a video from a breed or dairy association, or research the internet (with your parent or guardian's permission) for information on dairying. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6b(6) Structured Technical Study & Explanation Matrix (Dairy Farm or A Milk)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6b(6) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** When preparing Animal Science Requirement 6b(6) (Visit a dairy farm), Scouts sometimes overlook the concrete pamphlet benchmarks covering visit a dairy farm or a milk processing plant.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6b(6) requires concrete workbook evidence on visit a dairy farm, specifically addressing visit a dairy farm or a milk processing plant.
+- **Common Myth:** Dairy cows remain standing inside milking stalls around the clock to maintain steady milk production.
+- **Pamphlet Fact:** Dairy cows spend most of their day resting in comfortable free stall barns or pastures and only enter specialized milking parlors two to three times daily.
 
 ![Laboratory scientists analyze diagnostic samples to prevent livestock disease outbreaks.](/assets/pamphlet_images/animal_science_p059_img1.png)
 
@@ -403,11 +403,11 @@
 - Domestic horses shaped human civilization through agriculture, transportation, and warfare before transitioning to modern performance and recreation. Proper equine management requires well-ventilated stall barns, secure fencing, and daily exercise turnouts.
 - Req 6c Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option C, Horse. Do ALL of the following: (1) Make a sketch of a useful saddle horse barn and exercise yard. (2) Tell about the history of the horse and the benefits it has brought to people. Using the four breeds of horses you chose in requirement 1, discuss the different special uses of each breed. (3) Define the following terms: mare, stallion, gelding, foal, colt, filly; mustang, quarter horse, draft horse, pacer, trotter; pinto, calico, palomino, roan, overo, and tobiano. (4) Visit a horse farm. Describe what you saw and explain what you learned. If you cannot visit a horse farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on horses. Tell about your findings. (5) Outline the proper feeding of a horse doing light work. Explain why the amount and kind of feed will change according to the kind of horse and the work it does. Describe what colic is, what can cause it, and its symptoms.
 
-#### Req 6c(1): Sketch of a useful saddle horse
+#### Req 6c(1): Equine Barn and Paddock Design
 **Official Requirement 6c(1):** Make a sketch of a useful saddle horse barn and exercise yard.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6c(1) Hands-On Skill Station & EDGE Verification Checklist (Useful Saddle Horse Barn and)
-- **Common Myth:** In Animal Science Requirement 6c(1), many Scouts assume sketch of a useful saddle horse only requires a general overview rather than specific details on a sketch of a useful saddle horse barn and exercise yard.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6c(1) specifies that Scouts must thoroughly document sketch of a useful saddle horse and explain a sketch of a useful saddle horse barn and exercise yard during counselor review.
+- **Common Myth:** Barbed wire fencing is an acceptable and safe containment option for horse paddocks and exercise yards.
+- **Pamphlet Fact:** Barbed wire must never be used for horses because their flight response and thin skin make them exceptionally vulnerable to severe lacerations.
 
 ![A young handler feeds fresh green forage to a horse outside a wooden barn.](/assets/pamphlet_images/animal_science_p050_img1.png)
 
@@ -425,11 +425,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(2): History of The Horse
+#### Req 6c(2): Equine Domestication History and Utility
 **Official Requirement 6c(2):** Tell about the history of the horse and the benefits it has brought to people. Using the four breeds of horses you chose in requirement 1, discuss the different special uses of each breed.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6c(2) Structured Technical Study & Explanation Matrix (History of The Horse)
-- **Common Myth:** When preparing Animal Science Requirement 6c(2) (History of The Horse), Scouts sometimes overlook the concrete pamphlet benchmarks covering about the history of the horse and the benefits it has brought to people.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6c(2) requires concrete workbook evidence on history of the horse, specifically addressing about the history of the horse and the benefits it has brought to people.
+- **Common Myth:** All modern horse breeds were developed for the single general purpose of fast riding across long distances.
+- **Pamphlet Fact:** Breeds were selectively developed over centuries for distinct functions such as heavy agricultural draft work, quick cattle sorting, sprinting speed, or smooth gaited travel.
 
 ![A prostrate dairy cow exhibits clinical symptoms of metabolic milk fever disorder.](/assets/pamphlet_images/animal_science_p060_img1.png)
 
@@ -440,11 +440,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(3): Mare Stallion Gelding Foal Colt
+#### Req 6c(3): Equine Terminology Breeds and Markings
 **Official Requirement 6c(3):** Define the following terms: mare, stallion, gelding, foal, colt, filly; mustang, quarter horse, draft horse, pacer, trotter; pinto, calico, palomino, roan, overo, and tobiano.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6c(3) Structured Technical Study & Explanation Matrix (Mare Stallion Gelding Foal Colt)
-- **Common Myth:** For Animal Science Requirement 6c(3), a common mistake in mare stallion gelding foal colt is treating define the following terms, mare, stallion, gelding, foal, colt, filly as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6c(3) means following the pamphlet standard for mare stallion gelding foal colt and recording accurate notes on define the following terms, mare, stallion, gelding, foal, colt, filly.
+- **Common Myth:** A gelding and a stallion have the identical reproductive capability and temperament in a stable.
+- **Pamphlet Fact:** A stallion is an intact adult male horse kept for breeding, whereas a gelding is a castrated male horse valued for a calm and predictable disposition.
 
 ![Cloudiness in a black calf eye demonstrates symptoms of bovine pinkeye infection.](/assets/pamphlet_images/animal_science_p064_img1.png)
 
@@ -456,12 +456,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(4): Visit a horse farm
+#### Req 6c(4): Equine Farm Operations and Management
 **Official Requirement 6c(4):** Visit a horse farm. Describe what you saw and explain what you learned. If you cannot visit a horse farm, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on horses. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6c(4) Structured Technical Study & Explanation Matrix (Horse Farm Describe What You)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6c(4) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** During Animal Science Requirement 6c(4), Scouts can underestimate how directly mastery of visit a horse farm depends on understanding visit a horse farm.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6c(4) require complete workbook entries on visit a horse farm to demonstrate full understanding of visit a horse farm.
+- **Common Myth:** Pastured horses require no daily management or hoof inspection as long as green pasture grass is available.
+- **Pamphlet Fact:** Equine operations require daily wellness checks, clean water provision, regular manure removal, and routine hoof trimming every six to eight weeks.
 
 ![A palomino mare nurses her young foal illustrating equine broodmare care.](/assets/pamphlet_images/animal_science_p077_img1.png)
 
@@ -474,11 +474,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6c(5): Outline The Proper Feeding
+#### Req 6c(5): Equine Nutrition and Colic Prevention
 **Official Requirement 6c(5):** Outline the proper feeding of a horse doing light work. Explain why the amount and kind of feed will change according to the kind of horse and the work it does. Describe what colic is, what can cause it, and its symptoms.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6c(5) Structured Technical Study & Explanation Matrix (Outline The Proper Feeding)
-- **Common Myth:** In Animal Science Requirement 6c(5), many Scouts assume outline the proper feeding only requires a general overview rather than specific details on outline the proper feeding of a horse doing light work.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6c(5) specifies that Scouts must thoroughly document outline the proper feeding and explain outline the proper feeding of a horse doing light work during counselor review.
+- **Common Myth:** Horses doing light riding should receive equal parts concentrated grain and hay to stay healthy.
+- **Pamphlet Fact:** Forage like hay or pasture must form the primary foundation of the equine diet, while concentrated grain should only supplement specific caloric deficits from heavy labor.
 
 ![Veterinary surgeons perform an operation on an anesthetized horse in an animal clinic.](/assets/pamphlet_images/animal_science_p092_img1.png)
 
@@ -501,11 +501,11 @@
 - Sheep and meat goats efficiently harvest rough browse and steep brush that cattle and horses cannot digest. Understanding retail cuts and carcass grading helps producers market quality lamb and chevon to diverse consumer markets.
 - Req 6d Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option D, Sheep or Goat. Choose one and do ALL of the following based upon the choice: (1) Make a sketch of a live lamb or goat. Show the location of the various wholesale and retail cuts. (2) Discuss how wools are sorted and graded. (3) List products that can be made from the milk. (4) Based on your choice, do ONE of the following: (a) Raise a lamb or goat from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm or ranch where sheep or goats are raised. Describe what you saw and explain what you learned. If you cannot visit a sheep or goat farm or ranch, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on sheep or goats. Tell about your findings. (5) Define the following terms for a sheep (wether, ewe, ram, and lamb) OR a goat (doe, nanny, kid, buck, and billy)
 
-#### Req 6d(1): Live Lamb or Goat
+#### Req 6d(1): Lamb And Goat Meat Cuts
 **Official Requirement 6d(1):** Make a sketch of a live lamb or goat. Show the location of the various wholesale and retail cuts.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6d(1) Hands-On Skill Station & EDGE Verification Checklist (Live Lamb or Goat)
-- **Common Myth:** In Animal Science Requirement 6d(1), many Scouts assume live lamb or goat only requires a general overview rather than specific details on a sketch of a live lamb or goat.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6d(1) specifies that Scouts must thoroughly document live lamb or goat and explain a sketch of a live lamb or goat during counselor review.
+- **Common Myth:** Retail cuts of lamb come directly from the carcass without first being divided into major wholesale primal cuts.
+- **Pamphlet Fact:** Meat processors first separate the carcass into major wholesale cuts before fabricating smaller retail cuts like chops, roasts, and stew meat.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -522,11 +522,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d(2): How wools are sorted and graded
+#### Req 6d(2): Wool Fleece Sorting And Grading
 **Official Requirement 6d(2):** Discuss how wools are sorted and graded.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6d(2) Structured Technical Study & Explanation Matrix (Discuss How Wools Are Sorted)
-- **Common Myth:** When preparing Animal Science Requirement 6d(2) (How wools are sorted and graded), Scouts sometimes overlook the concrete pamphlet benchmarks covering how wools are sorted and graded.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6d(2) requires concrete workbook evidence on how wools are sorted and graded, specifically addressing how wools are sorted and graded.
+- **Common Myth:** Wool grading depends entirely on fleece weight rather than individual fiber diameter or clean yield.
+- **Pamphlet Fact:** Wool value depends primarily on fiber fineness measured in microns alongside staple length and cleanliness rather than raw grease fleece weight.
 
 | Req 6d(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -534,11 +534,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d(3): Products That Can Be Made
+#### Req 6d(3): Dairy Sheep And Goat Products
 **Official Requirement 6d(3):** List products that can be made from the milk.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6d(3) Structured Technical Study & Explanation Matrix (Products That Can Be Made)
-- **Common Myth:** For Animal Science Requirement 6d(3), a common mistake in products that can be made is treating products that can be made from the milk as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6d(3) means following the pamphlet standard for products that can be made and recording accurate notes on products that can be made from the milk.
+- **Common Myth:** Goat milk and sheep milk produce only fluid drinking milk and cannot be processed into hard cheeses or cosmetics.
+- **Pamphlet Fact:** Dairy sheep and goat milk serves as the primary base for world-renowned artisanal cheeses, yogurt, and specialty skin care soaps.
 
 | Req 6d(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -546,12 +546,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d(4): Based on Your Choice
+#### Req 6d(4): Small Ruminant Production Recordkeeping Options
 **Official Requirement 6d(4):** Based on your choice, do ONE of the following: (a) Raise a lamb or goat from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm or ranch where sheep or goats are raised. Describe what you saw and explain what you learned. If you cannot visit a sheep or goat farm or ranch, view a video from a breed association, or research the internet (with your parent or guardian's permission) for information on sheep or goats. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6d(4) Structured Technical Study & Explanation Matrix (Based on Your Choice)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6d(4) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** During Animal Science Requirement 6d(4), Scouts can underestimate how directly mastery of based on your choice depends on understanding based on your choice, do one of the following, (a) raise a lamb or goat from weaning to market weight.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6d(4) require complete workbook entries on based on your choice to demonstrate full understanding of based on your choice, do one of the following, (a) raise a lamb or goat from weaning to market weight.
+- **Common Myth:** Completing the small ruminant option requires owning livestock even if a Scout lacks pasture or barn facilities.
+- **Pamphlet Fact:** Scouts who cannot raise a market animal may fulfill this requirement by touring an active sheep or goat operation or studying approved educational industry resources.
 
 | Req 6d(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -560,11 +560,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6d(5): For a sheep OR a goat
+#### Req 6d(5): Ovine And Caprine Herd Terminology
 **Official Requirement 6d(5):** Define the following terms for a sheep (wether, ewe, ram, and lamb) OR a goat (doe, nanny, kid, buck, and billy)
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6d(5) Structured Technical Study & Explanation Matrix (Sheep Wether Ewe Ram and)
-- **Common Myth:** In Animal Science Requirement 6d(5), many Scouts assume for a sheep or a goat only requires a general overview rather than specific details on define the following terms for a sheep (wether, ewe, ram, and lamb) or a goat.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6d(5) specifies that Scouts must thoroughly document for a sheep or a goat and explain define the following terms for a sheep (wether, ewe, ram, and lamb) or a goat during counselor review.
+- **Common Myth:** The term wether refers to a female sheep or goat that has never given birth.
+- **Pamphlet Fact:** A wether is a male sheep or goat that was castrated before reaching sexual maturity.
 
 | Req 6d(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -583,11 +583,11 @@
 - Modern pork production relies on biosecure farrow-to-finish facilities that maximize feed efficiency and lean carcass muscling. Carcass grading evaluates lean muscle percentage, backfat thickness, and loin muscle area for processor payments.
 - Req 6e Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option E, Hog. Do ALL of the following: (1) Make a sketch showing the principal wholesale and retail cuts of pork. Tell about the recommended USDA grades of pork. Tell the basis for each grade. (2) Outline in writing the proper feeding programs used from the breeding of a gilt or sow through the weaning of the litter. Discuss the feeding programs for the growth and finishing periods. (3) Do ONE of the following: (a) Raise a feeder pig from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm where hogs are produced, or visit a packing plant handling hogs. Describe what you saw and explain what you learned. If you cannot visit a hog production unit or packing plant, view a video from a packer or processor, or research the internet (with your parent or guardian's permission) for information on hogs. Tell about your findings. (4) Define the following terms: gilt, sow, barrow, and boar.
 
-#### Req 6e(1): Sketch Showing the Principal Wholesale and Retail
+#### Req 6e(1): Pork Cuts And Quality Grading
 **Official Requirement 6e(1):** Make a sketch showing the principal wholesale and retail cuts of pork. Tell about the recommended USDA grades of pork. Tell the basis for each grade.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6e(1) Hands-On Skill Station & EDGE Verification Checklist (Showing The Principal Wholesale and)
-- **Common Myth:** In Animal Science Requirement 6e(1), many Scouts assume sketch showing the principal wholesale and retail only requires a general overview rather than specific details on a sketch showing the principal wholesale and retail cuts of pork.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6e(1) specifies that Scouts must thoroughly document sketch showing the principal wholesale and retail and explain a sketch showing the principal wholesale and retail cuts of pork during counselor review.
+- **Common Myth:** USDA pork grades evaluate marbling and maturity the exact same way beef quality grades evaluate carcasses.
+- **Pamphlet Fact:** Pork grading focuses on expected cutability and lean meat yields determined by backfat thickness over the last rib rather than beef-style quality marbling scores.
 
 ![Veterinarians examine a young piglet on an exam table during clinical health screening.](/assets/pamphlet_images/animal_science_p089_img1.png)
 
@@ -607,11 +607,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e(2): Outline in Writing The Proper
+#### Req 6e(2): Swine Lifecycle Nutrition And Rations
 **Official Requirement 6e(2):** Outline in writing the proper feeding programs used from the breeding of a gilt or sow through the weaning of the litter. Discuss the feeding programs for the growth and finishing periods.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6e(2) Structured Technical Study & Explanation Matrix (Outline in Writing The Proper)
-- **Common Myth:** When preparing Animal Science Requirement 6e(2) (Outline in Writing The Proper), Scouts sometimes overlook the concrete pamphlet benchmarks covering outline in writing the proper feeding programs used from the breeding of a gilt or sow.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6e(2) requires concrete workbook evidence on outline in writing the proper, specifically addressing outline in writing the proper feeding programs used from the breeding of a gilt or sow.
+- **Common Myth:** Pregnant sows should have unlimited free-choice access to high-energy feed throughout their entire gestation period.
+- **Pamphlet Fact:** Producers strictly limit sow feed intake during gestation because overweight females suffer high embryonic mortality and difficult farrowing.
 
 | Req 6e(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -620,12 +620,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e(3): Raise a feeder pig from weaning
+#### Req 6e(3): Feeder Pig Production Experience Options
 **Official Requirement 6e(3):** Do ONE of the following: (a) Raise a feeder pig from weaning to market weight. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Visit a farm where hogs are produced, or visit a packing plant handling hogs. Describe what you saw and explain what you learned. If you cannot visit a hog production unit or packing plant, view a video from a packer or processor, or research the internet (with your parent or guardian's permission) for information on hogs. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6e(3) Structured Technical Study & Explanation Matrix (Raise A Feeder Pig From)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6e(3) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** For Animal Science Requirement 6e(3), a common mistake in raise a feeder pig from weaning is treating do one of the following, (a) raise a feeder pig from weaning to market weight as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6e(3) means following the pamphlet standard for raise a feeder pig from weaning and recording accurate notes on do one of the following, (a) raise a feeder pig from weaning to market weight.
+- **Common Myth:** Scouts can only satisfy the swine management requirement by purchasing and housing a live feeder pig.
+- **Pamphlet Fact:** Scouts without livestock facilities can complete the requirement by visiting an active hog farm, touring a packing plant, or reviewing approved virtual industry operations.
 
 | Req 6e(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -634,11 +634,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6e(4): Gilt Sow Barrow and Boar
+#### Req 6e(4): Porcine Reproductive And Gender Terminology
 **Official Requirement 6e(4):** Define the following terms: gilt, sow, barrow, and boar.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6e(4) Structured Technical Study & Explanation Matrix (Gilt Sow Barrow and Boar)
-- **Common Myth:** During Animal Science Requirement 6e(4), Scouts can underestimate how directly mastery of gilt sow barrow and boar depends on understanding define the following terms, gilt, sow, barrow, and boar.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6e(4) require complete workbook entries on gilt sow barrow and boar to demonstrate full understanding of define the following terms, gilt, sow, barrow, and boar.
+- **Common Myth:** A gilt and a sow are interchangeable terms for any adult female pig on a farm.
+- **Pamphlet Fact:** A gilt is a young female that has not yet given birth to a litter, whereas a sow has farrowed at least once.
 
 | Req 6e(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -657,11 +657,11 @@
 - Commercial egg and broiler houses utilize computer-controlled tunnel ventilation, automated watering nipples, and biosecure perimeter enclosures. Careful environmental control prevents flock respiratory illnesses, optimizes feed conversion, and maintains high egg production.
 - Req 6f Standard (Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)): Option F, Avian. Do ALL of the following: (1) Make a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation. Explain how insulation, ventilation, temperature controls, automatic lights, and other environmental controls are used to protect birds from heat, cold, and bad weather. Explain the importance of light for egg production. (2) Explain why overcrowding is dangerous for poultry flocks. (3) Tell about the grading of eggs. Describe the classes of chicken meat. (4) Do ONE of the following: (a) Manage an egg-producing flock for five months. Keep records of feed purchased, eggs sold, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Raise five chickens from hatching. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (c) Visit a commercial avian production facility. Describe what you saw and explain what you learned. If you cannot visit a commercial facility, view a video from a poultry association, or research the internet (with your parent or guardian's permission) for information on poultry production. Tell about your findings. (5) Define the following terms: chick, pullet, hen, cockerel, cock, and capon.
 
-#### Req 6f(1): Layer House or Broiler House
+#### Req 6f(1): Poultry House Environmental Control Systems
 **Official Requirement 6f(1):** Make a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation. Explain how insulation, ventilation, temperature controls, automatic lights, and other environmental controls are used to protect birds from heat, cold, and bad weather. Explain the importance of light for egg production.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Field Sketch & Diagram Canvas):** Req 6f(1) Hands-On Skill Station & EDGE Verification Checklist (Layer House or Broiler House)
-- **Common Myth:** In Animal Science Requirement 6f(1), many Scouts assume layer house or broiler house only requires a general overview rather than specific details on a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6f(1) specifies that Scouts must thoroughly document layer house or broiler house and explain a sketch of a layer house or broiler house showing nests, roosts, feeders, waterers, and means of ventilation during counselor review.
+- **Common Myth:** Ventilation in a modern commercial poultry house is used only to cool the birds when outside summer temperatures rise.
+- **Pamphlet Fact:** Ventilation operates continuously year-round to remove moisture, toxic ammonia fumes, and carbon dioxide from the building.
 
 | Sketch / Diagram Element | Required Labels & Dimensions | Field Observations & Counselor Notes |
 | :--- | :--- | :--- |
@@ -679,11 +679,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f(2): Overcrowding Is Dangerous for Poultry
+#### Req 6f(2): Poultry Flock Density Health Hazards
 **Official Requirement 6f(2):** Explain why overcrowding is dangerous for poultry flocks.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6f(2) Structured Technical Study & Explanation Matrix (Overcrowding Is Dangerous for Poultry)
-- **Common Myth:** When preparing Animal Science Requirement 6f(2) (Overcrowding Is Dangerous for Poultry), Scouts sometimes overlook the concrete pamphlet benchmarks covering why overcrowding is dangerous for poultry flocks.
-- **Pamphlet Fact:** Counselor verification for Animal Science Requirement 6f(2) requires concrete workbook evidence on overcrowding is dangerous for poultry, specifically addressing why overcrowding is dangerous for poultry flocks.
+- **Common Myth:** Adding extra birds into a poultry pen only reduces their individual physical movement without affecting flock health or mortality.
+- **Pamphlet Fact:** Overcrowding creates severe social stress that leads to flock cannibalism, poor air quality, and rapid transmission of deadly respiratory and intestinal diseases.
 
 | Req 6f(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -691,11 +691,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f(3): About the Grading of Eggs
+#### Req 6f(3): Egg Grades And Meat Classes
 **Official Requirement 6f(3):** Tell about the grading of eggs. Describe the classes of chicken meat.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6f(3) Structured Technical Study & Explanation Matrix (Grading of Eggs Describe The)
-- **Common Myth:** For Animal Science Requirement 6f(3), a common mistake in about the grading of eggs is treating about the grading of eggs as optional background reading.
-- **Pamphlet Fact:** Mastering Animal Science Requirement 6f(3) means following the pamphlet standard for about the grading of eggs and recording accurate notes on about the grading of eggs.
+- **Common Myth:** Brown eggs have higher nutritional value and receive higher USDA consumer quality grades than white eggs.
+- **Pamphlet Fact:** Egg shell color is determined entirely by hen breed genetics and has no relationship to USDA quality grades or interior nutritional content.
 
 | Req 6f(3) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -704,12 +704,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f(4): Manage An Egg-producing Flock
+#### Req 6f(4): Practical Avian Flock Management Options
 **Official Requirement 6f(4):** Do ONE of the following: (a) Manage an egg-producing flock for five months. Keep records of feed purchased, eggs sold, medication, vaccination, and mortality. Present your records to your counselor for review. (b) Raise five chickens from hatching. Keep records of feed intake, weight gains, medication, vaccination, and mortality. Present your records to your counselor for review. (c) Visit a commercial avian production facility. Describe what you saw and explain what you learned. If you cannot visit a commercial facility, view a video from a poultry association, or research the internet (with your parent or guardian's permission) for information on poultry production. Tell about your findings.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6f(4) Structured Technical Study & Explanation Matrix (Manage An Egg-producing Flock)
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Animal Science Req 6f(4) with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Common Myth:** During Animal Science Requirement 6f(4), Scouts can underestimate how directly mastery of manage an egg-producing flock depends on understanding do one of the following, (a) manage an egg-producing flock for five months.
-- **Pamphlet Fact:** Scouting America standards for Animal Science Requirement 6f(4) require complete workbook entries on manage an egg-producing flock to demonstrate full understanding of do one of the following, (a) manage an egg-producing flock for five months.
+- **Common Myth:** Flock management projects only require counting daily collected eggs or surviving birds without recording feed expenses and medical treatments.
+- **Pamphlet Fact:** Official handbook standards require comprehensive logs documenting feed purchases, medication, vaccination dates, sales, and mortality to evaluate flock profitability and health.
 
 | Req 6f(4) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -719,11 +719,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6f(5): Chick Pullet Hen Cockerel Cock
+#### Req 6f(5): Standard Poultry Classification And Terminology
 **Official Requirement 6f(5):** Define the following terms: chick, pullet, hen, cockerel, cock, and capon.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 14, p. 16)* • **Organizer (Concept & Examples Notes):** Req 6f(5) Structured Technical Study & Explanation Matrix (Chick Pullet Hen Cockerel Cock)
-- **Common Myth:** In Animal Science Requirement 6f(5), many Scouts assume chick pullet hen cockerel cock only requires a general overview rather than specific details on define the following terms, chick, pullet, hen, cockerel, cock, and capon.
-- **Pamphlet Fact:** The official Animal Science pamphlet for Requirement 6f(5) specifies that Scouts must thoroughly document chick pullet hen cockerel cock and explain define the following terms, chick, pullet, hen, cockerel, cock, and capon during counselor review.
+- **Common Myth:** The terms pullet and cockerel refer to distinct chicken breeds rather than immature female and male birds.
+- **Pamphlet Fact:** A pullet is a female chicken under one year of age before her laying cycle begins, while a cockerel is an immature male chicken under one year old.
 
 | Req 6f(5) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

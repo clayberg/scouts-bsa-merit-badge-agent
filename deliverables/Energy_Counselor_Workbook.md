@@ -54,11 +54,11 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Energy merit badge pamphlet and workbook organizer for Req 1
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 1: Energy Conservation Media Research
+- [ ] Energy field toolkit, inspection gauge, and protective eyewear for Energy Media Research Project
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 1
 
-![Illustrated Energy technical diagram of energy conservation media research for Requirement 1 field execution.](/assets/pamphlet_images/energy_p003_img1.png)
+![Energy Requirement 1 figure showing independent verification of digital claims ensures sound understanding of regional.](/assets/pamphlet_images/energy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -101,7 +101,7 @@
 - **Common Myth:** Scouts often think incandescent lightbulbs convert nearly all input electrical current into visible light.
 - **Pamphlet Fact:** Common appliances redirect input power into multiple output forms including heat, light, and sound.
 
-![Step-by-step Energy visual guide highlighting energy forms and conversion systems positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/energy_p007_img1.png)
+![Energy Requirement 2 figure showing heated toaster filaments emit infrared radiation that transfers thermal energy to bread.](/assets/pamphlet_images/energy_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

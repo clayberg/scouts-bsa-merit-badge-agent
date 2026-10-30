@@ -51,7 +51,7 @@
 - **Common Myth:** Scouts sometimes believe a great-uncle qualifies technically as a direct ancestral forebear.
 - **Pamphlet Fact:** An ancestor is strictly someone from whom an individual descends in a direct line.
 
-![Illustrated Genealogy technical diagram of core genealogy terms and charts for Requirement 1 field execution.](/assets/pamphlet_images/genealogy_p003_img1.png)
+![Genealogy Requirement 1 figure showing genealogy systematically traces bloodlines and legal relationships across multiple.](/assets/pamphlet_images/genealogy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -106,7 +106,7 @@
 - **Common Myth:** Scouts presume biographies must read like fictional novels filled with unrecorded conversational dialogue.
 - **Pamphlet Fact:** Genealogical biographies rely strictly on documented facts, dates, places, and historical context without invention.
 
-![Step-by-step Genealogy visual guide highlighting personal timelines and journals positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/genealogy_p007_img1.png)
+![Genealogy Requirement 2 figure showing structured timelines reveal geographic migrations and historical context.](/assets/pamphlet_images/genealogy_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -186,7 +186,7 @@
 - **Common Myth:** Scouts believe digital searches always return complete, error-free transcripts of historical documents.
 - **Pamphlet Fact:** Optical character recognition and automated indexing frequently produce spelling errors in digitized historical record sets.
 
-![Step-by-step Genealogy visual guide highlighting interviewing relatives and acquaintances positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/genealogy_p012_img1.png)
+![Genealogy Requirement 3 figure showing parental consent ensures proper safety and coordination before interviewing relatives.](/assets/pamphlet_images/genealogy_p012_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -431,7 +431,7 @@
 
 | Req 9 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss what you have learned about your family and your family members through your genealogical research.** | `____________________________________` | `____________________________________` |
+| **1. Discuss what you have learned about your family and your family members through your genealogical research** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Identity Discovery: Uncovering ancestral stories connects an individual's personal life with broader historic social movements.

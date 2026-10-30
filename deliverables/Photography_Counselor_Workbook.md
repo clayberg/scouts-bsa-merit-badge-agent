@@ -52,7 +52,7 @@
 - **Common Myth:** Photography hazards consist solely of dropping expensive lenses or dead camera batteries.
 - **Pamphlet Fact:** Uneven trails, vehicular traffic, and hanging power lines cause the majority of field injuries.
 
-![Step-by-step Photography visual guide highlighting field hazards and digital safety positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/photography_p003_img1.png)
+![Photography Requirement 1 figure showing secure camera straps firmly around the neck before navigating uneven outdoor terrain.](/assets/pamphlet_images/photography_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -95,7 +95,7 @@
 - **Common Myth:** Direct midday sunlight always produces the highest quality portrait lighting for faces.
 - **Pamphlet Fact:** Directional natural sunlight creates high contrast shadows that require fill flash or reflectors.
 
-![Detailed Photography reference illustration comparing key components and stages of exposure, light, and visual composition for Requirement 2.](/assets/pamphlet_images/photography_p007_img1.png)
+![Photography Requirement 2 figure showing low angle morning sunlight casts long shadows that reveal intricate physical surface.](/assets/pamphlet_images/photography_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -123,7 +123,7 @@
 - **Common Myth:** Depth of field remains identical across all focal lengths at equivalent apertures.
 - **Pamphlet Fact:** Larger aperture openings produce shallow depth of field that isolates focused foreground subjects.
 
-![Step-by-step Photography visual guide highlighting camera parts and exposure mechanics positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/photography_p012_img1.png)
+![Photography Requirement 3 figure showing glass lens elements bend light rays to converge sharply onto digital sensor planes.](/assets/pamphlet_images/photography_p012_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

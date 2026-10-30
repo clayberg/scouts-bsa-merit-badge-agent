@@ -72,7 +72,7 @@
 - **Common Myth:** Smartphone route planning tools rely strictly on static street maps without predictive statistical processing.
 - **Pamphlet Fact:** Consumer navigation applications utilize real-time machine learning algorithms to recalculate traffic routes based on sensor telemetry.
 
-![Illustrated Artificial Intelligence technical diagram of everyday applications and ai history for Requirement 2 field execution.](/assets/pamphlet_images/artificial_intelligence_p007_img1.png)
+![Artificial Intelligence Requirement 2 figure showing smart thermostats utilize predictive modeling techniques to regulate residential.](/assets/pamphlet_images/artificial_intelligence_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -86,7 +86,7 @@
 - **Common Myth:** Workplace AI tools operate exclusively as text generation bots rather than industrial monitoring engines.
 - **Pamphlet Fact:** Modern enterprise diagnostic systems process acoustic vibration telemetry to schedule proactive maintenance before mechanical failures occur.
 
-![Practical Artificial Intelligence field visual showing proper setup, measurement, and technique for core artificial intelligence terminology in Requirement 1.](/assets/pamphlet_images/artificial_intelligence_p003_img1.png)
+![Artificial Intelligence Requirement 1 figure showing artificial intelligence systems process external inputs to execute rational actions.](/assets/pamphlet_images/artificial_intelligence_p003_img1.png)
 
 | Req 2b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +150,7 @@
 - **Common Myth:** Automated household appliances evaluate ambient conditions to reprogram their own operational cycles dynamically.
 - **Pamphlet Fact:** Programmable household coffeemakers trigger brewing cycles via simple quartz timer circuits without adaptive feedback.
 
-![Step-by-step Artificial Intelligence visual guide highlighting automation principles and milestones positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/artificial_intelligence_p012_img1.png)
+![Artificial Intelligence Requirement 3 figure showing factory pick and place robots follow static coordinate scripts to package manufactured.](/assets/pamphlet_images/artificial_intelligence_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -231,7 +231,7 @@
 - [ ] Up-to-date BSA Cyber Chip / Digital Safety credentials and notebook
 - [ ] Saved project files, screenshots, or code listing for Ethical AI and Responsible Use
 
-![Step-by-step Artificial Intelligence visual guide highlighting artificial intelligence artificial intelligence core field standard reference figure positioning.](/assets/pamphlet_images/artificial_intelligence_p004_img1.png)
+![Artificial Intelligence Requirement 4 figure showing skewed training corpora cause predictive algorithms to deliver systematically unequal.](/assets/pamphlet_images/artificial_intelligence_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -294,7 +294,7 @@
 - **Common Myth:** Deepfakes are created exclusively through manual frame editing in conventional image manipulation software suites.
 - **Pamphlet Fact:** Adversarial models pit generator networks against discriminator networks to refine synthetic audio and video quality iteratively.
 
-![Detailed Artificial Intelligence reference illustration comparing key components and stages of artificial intelligence deepfakes reference figure.](/assets/pamphlet_images/artificial_intelligence_p005_img1.png)
+![Artificial Intelligence Requirement 5 figure showing deep learning models clone biological voice signatures by mapping vocal timbre and cadence.](/assets/pamphlet_images/artificial_intelligence_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -333,7 +333,7 @@
 - **Common Myth:** Language models possess internal conceptual knowledge and understand the literal meaning of their outputs.
 - **Pamphlet Fact:** Large language models calculate token probabilities based on historical training data rather than conscious reasoning.
 
-![Practical Artificial Intelligence field visual showing proper setup, measurement.](/assets/pamphlet_images/artificial_intelligence_p006_img1.png)
+![Artificial Intelligence Requirement 6 figure showing neural networks adjust synaptic weights using backpropagation algorithms across massive.](/assets/pamphlet_images/artificial_intelligence_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

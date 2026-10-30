@@ -64,7 +64,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set.** | `____________________________________` | `____________________________________` |
+| **1. Explain the following terms: obverse, reverse, reeding, clad, type set, and date set** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Obverse Face Definition: The principal coin side features national emblems, heads of state, or Liberty.
@@ -85,7 +85,7 @@
 
 | Req 3 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method.** | `____________________________________` | `____________________________________` |
+| **1. Describe three different ways to store a collection, and the benefits, drawbacks, and cost of each method** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Stapled mylar cardboard holders offer inexpensive archival protection for large coin accumulations.
@@ -134,7 +134,7 @@
 - **Common Myth:** Five-cent coins maintained an uninterrupted, identical Monticello building reverse throughout the early two thousands.
 - **Pamphlet Fact:** The 2004 and 2005 Westward Journey nickels featured special commemorative reverses honoring Lewis and Clark.
 
-![Illustrated Coin Collecting technical diagram of coin manufacturing and active mint facilities for Requirement 1 field execution.](/assets/pamphlet_images/coin_collecting_p003_img1.png)
+![Coin Collecting Requirement 1 figure showing annealed metal strips pass through blanking machines to punch out smooth circular discs.](/assets/pamphlet_images/coin_collecting_p003_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -149,7 +149,7 @@
 - **Common Myth:** Circulating ten-cent coins minted after 1964 continue to contain ninety percent pure silver metal.
 - **Pamphlet Fact:** Roosevelt dimes struck since 1965 feature a copper core bonded between copper-nickel clad outer faces.
 
-![Step-by-step Coin Collecting visual guide highlighting essential numismatic terms and sets positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/coin_collecting_p007_img1.png)
+![Coin Collecting Requirement 2 figure showing the principal coin side features national emblems, heads of state, or Liberty.](/assets/pamphlet_images/coin_collecting_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -178,7 +178,7 @@
 - **Common Myth:** All Kennedy half dollars struck after 1964 lack any silver precious metal content whatsoever.
 - **Pamphlet Fact:** Kennedy half dollars dated 1965 through 1970 contain forty percent silver, whereas 1971 pieces contain zero silver.
 
-![Detailed Coin Collecting reference illustration comparing key components and stages of coin storage methods and trade offs for Requirement 3.](/assets/pamphlet_images/coin_collecting_p012_img1.png)
+![Coin Collecting Requirement 3 figure showing stapled mylar cardboard holders offer inexpensive archival protection for large coin.](/assets/pamphlet_images/coin_collecting_p012_img1.png)
 
 | Req 4e Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -320,11 +320,11 @@
 - Attending a coin show, club meeting, or touring an official mint facility connects scouts with active collecting communities. These experiences provide opportunities to observe live auctions, view museum-quality rarities, and interview experienced numismatic specialists.
 - Req 7d Standard (Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)): Complete one of the following and report to your counselor what you experienced: (1) Attend a coin show (2) Attend a coin club meeting (3) Tour a U. S. Mint facility or museum (4) Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.
 
-#### Req 7d(1): Coin Collecting Coin Principles
+#### Req 7d(1): Coin Show Attendance and Etiquette
 **Official Requirement 7d(1):** Attend a coin show.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7d(1) Structured Technical Study & Explanation Matrix (Coin Collecting Coin Principles)
-- **Common Myth:** In Coin Collecting Requirement 7d(1), many Scouts assume coin collecting coin principles only requires a general overview rather than specific details on attend a coin show.
-- **Pamphlet Fact:** The official Coin Collecting pamphlet for Requirement 7d(1) specifies that Scouts must thoroughly document coin collecting coin principles and explain attend a coin show during counselor review.
+- **Common Myth:** Dealers at coin shows permit attendees to pick up bare coins directly by their obverse and reverse faces to inspect fine details.
+- **Pamphlet Fact:** Proper bourse etiquette requires asking permission before touching any specimen and holding unslabbed coins solely by their rims to prevent corrosion from skin oils.
 
 ![A massive canvas bag marked United States Mint holds newly produced coins.](/assets/pamphlet_images/coin_collecting_p015_img1.png)
 
@@ -334,11 +334,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d(2): Coin Club Meeting
+#### Req 7d(2): Local Coin Club Meeting Participation
 **Official Requirement 7d(2):** Attend a coin club meeting.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7d(2) Structured Technical Study & Explanation Matrix (Coin Club Meeting)
-- **Common Myth:** When preparing Coin Collecting Requirement 7d(2) (Coin Club Meeting), Scouts sometimes overlook the concrete pamphlet benchmarks covering attend a coin club meeting.
-- **Pamphlet Fact:** Counselor verification for Coin Collecting Requirement 7d(2) requires concrete workbook evidence on coin club meeting, specifically addressing attend a coin club meeting.
+- **Common Myth:** Coin club meetings are formal sales events restricted to professional dealers and adults with large financial investments.
+- **Pamphlet Fact:** Local coin clubs welcome hobbyists of all ages and focus primarily on educational presentations, collector fellowship, and modest member auctions.
 
 ![An ancient irregular metal coin illustrates early human currency systems.](/assets/pamphlet_images/coin_collecting_p021_img1.png)
 
@@ -348,11 +348,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d(3): Core principles and practical standards for Coin Shows and Numismatic Fieldwork
+#### Req 7d(3): United States Mint Facility Tour
 **Official Requirement 7d(3):** Tour a U. S. Mint facility or museum.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7d(3) Structured Technical Study & Explanation Matrix (Tour A U S Mint)
-- **Common Myth:** For Coin Collecting Requirement 7d(3), a common mistake in core principles and practical standards for coin shows and numismatic fieldwork is treating tour a u.s. mint facility or museum as optional background reading.
-- **Pamphlet Fact:** Mastering Coin Collecting Requirement 7d(3) means following the pamphlet standard for core principles and practical standards for coin shows and numismatic fieldwork and recording accurate notes on tour a u.s. mint facility or museum.
+- **Common Myth:** All United States Mint facilities strike both circulating coins and collector proof sets on identical high-speed production presses.
+- **Pamphlet Fact:** Circulating coins are struck once at high speed on standard presses, whereas proof coins are individually fed and struck multiple times at lower speeds with specially polished dies.
 
 ![A historic Spanish silver dollar shows the pillars design used in early America.](/assets/pamphlet_images/coin_collecting_p025_img2.png)
 
@@ -364,12 +364,12 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 7d(4): Tour a virtual exhibit approved
+#### Req 7d(4): Approved Virtual Numismatic Exhibit Tour
 **Official Requirement 7d(4):** Tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Organizer (Concept & Examples Notes):** Req 7d(4) Structured Technical Study & Explanation Matrix (Tour A Virtual Exhibit)
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Coin Collecting Req 7d(4) preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Common Myth:** During Coin Collecting Requirement 7d(4), Scouts can underestimate how directly mastery of tour a virtual exhibit approved depends on understanding tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.
-- **Pamphlet Fact:** Scouting America standards for Coin Collecting Requirement 7d(4) require complete workbook entries on tour a virtual exhibit approved to demonstrate full understanding of tour a virtual exhibit (with your parent or guardian's permission) approved by your counselor.
+- **Common Myth:** Browsing coin sales websites or commercial auction listings satisfies the requirement for an approved virtual museum tour.
+- **Pamphlet Fact:** A virtual tour must explore curated educational exhibits from recognized institutions such as the Smithsonian National Numismatic Collection or the American Numismatic Association Money Museum.
 
 ![The obverse of a 1924 Peace dollar shows the crowned profile of Liberty.](/assets/pamphlet_images/coin_collecting_p032_img6.png)
 

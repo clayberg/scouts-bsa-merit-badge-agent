@@ -45,7 +45,7 @@
 - **Common Myth:** Dull craft shears are safer than sharp shears when trimming thick basket stakes.
 - **Pamphlet Fact:** Dull blades slip off round reed fibers, increasing the likelihood of painful hand injuries.
 
-![Illustrated Basketry technical diagram of basketry tool safety and first aid for Requirement 1 field execution.](/assets/pamphlet_images/basketry_p003_img1.png)
+![Basketry Requirement 1 figure showing always cut tough reed splints directly away from your body using shears.](/assets/pamphlet_images/basketry_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 - [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
 - [ ] Completed sample piece and stitch log for Basket Types and Weaving Techniques
 
-![Step-by-step Basketry visual guide highlighting basket types and weaving techniques positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/basketry_p007_img1.png)
+![Basketry Requirement 2 figure showing interlacing flat parallel splints creates checkerboard patterns across the basket wall.](/assets/pamphlet_images/basketry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

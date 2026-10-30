@@ -49,7 +49,7 @@
 - **Common Myth:** Equine veterinarians use identical surgical tools and anesthesia protocols as small animal veterinary clinics.
 - **Pamphlet Fact:** Equine medicine incorporates athletic performance evaluations, reproductive ultrasound, and specialized field surgery protocols.
 
-![Step-by-step Veterinary Medicine visual guide highlighting animal species veterinary practice roles positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/veterinary_medicine_p003_img1.png)
+![Veterinary Medicine Requirement 1 figure showing small animal clinicians provide diagnostic imaging, surgical intervention.](/assets/pamphlet_images/veterinary_medicine_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -77,7 +77,7 @@
 - **Common Myth:** Exotic pets can receive standard canine and feline pharmaceutical dosages without specialized species modifications.
 - **Pamphlet Fact:** Exotic medicine demands specialized knowledge of divergent metabolic pathways, nutritional requirements, and safe handling techniques.
 
-![Practical Veterinary Medicine field visual showing proper setup, measurement.](/assets/pamphlet_images/veterinary_medicine_p012_img1.png)
+![Veterinary Medicine Requirement 3 figure showing undergraduate candidates must master organic chemistry, biochemistry, physics.](/assets/pamphlet_images/veterinary_medicine_p012_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -146,7 +146,7 @@
 - **Common Myth:** Zoonotic diseases are easily managed without tracking pathogen mutations within wild animal reservoir populations.
 - **Pamphlet Fact:** Veterinary epidemiologists track viral mutations in animal reservoirs before transmission reaches human communities.
 
-![Detailed Veterinary Medicine reference illustration comparing key components and stages of public health and specialized careers for Requirement 2.](/assets/pamphlet_images/veterinary_medicine_p007_img1.png)
+![Veterinary Medicine Requirement 2 figure showing public health veterinarians track rabies outbreaks and avian influenza vectors.](/assets/pamphlet_images/veterinary_medicine_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -269,7 +269,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Discuss with your counselor the role a veterinarian plays in the human-animal bond.** | `____________________________________` | `____________________________________` |
+| **1. Discuss with your counselor the role a veterinarian plays in the human-animal bond** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Preventive Health Preservation: Routine wellness plans protect family pets from preventable illnesses that strain household dynamics.

@@ -51,7 +51,7 @@
 - **Common Myth:** Human curiosity alone motivated governments to fund the space race in 1957.
 - **Pamphlet Fact:** National defense and ideological rivalry primarily drove early investments in satellite rockets.
 
-![Step-by-step Space Exploration visual guide highlighting purposes and benefits of space exploration positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/space_exploration_p003_img1.png)
+![Space Exploration Requirement 1 figure showing military ballistic missile advancements established foundational boosters for initial.](/assets/pamphlet_images/space_exploration_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -79,7 +79,7 @@
 - **Common Myth:** Space research produces inventions that benefit only astronauts aboard orbital space stations.
 - **Pamphlet Fact:** Synthetic materials developed for spacecraft insulation now insulate commercial architectural structures.
 
-![Detailed Space Exploration reference illustration comparing key components and stages of space pioneers and commercial spaceflight for Requirement 2.](/assets/pamphlet_images/space_exploration_p007_img1.png)
+![Space Exploration Requirement 2 figure showing theoretical rocket equations proved reaction engines could function in a vacuum environment.](/assets/pamphlet_images/space_exploration_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -144,7 +144,7 @@
 - **Common Myth:** Thicker body tubes always improve rocket flight altitude by eliminating air friction.
 - **Pamphlet Fact:** Body tubes align internal recovery elements while providing external aerodynamic structural continuity.
 
-![Detailed Space Exploration reference illustration comparing key components and stages of model rocket construction and launching for Requirement 3.](/assets/pamphlet_images/space_exploration_p012_img1.png)
+![Space Exploration Requirement 3 figure showing spiral wound kraft paper tubes provide lightweight airframe rigidity during powered flight.](/assets/pamphlet_images/space_exploration_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -416,19 +416,19 @@
         "question": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
         "options": [
           "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
-          "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+          "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless.",
           "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
           "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly."
         ],
         "choices": [
           "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
-          "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+          "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless.",
           "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
           "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly."
         ],
         "correct_index": 1,
         "correct_letter": "B",
-        "correct_answer": "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+        "correct_answer": "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless.",
         "explanation": "Correct Answer (B): BSA Guide to Safe Scouting and the Camping Pamphlet mandate 'No Flames in Tents'; carbon monoxide is colorless and odorless and causes fatal hypoxia in enclosed shelters.",
         "pamphlet_page_ref": "p. 13, p. 14"
       },
@@ -2891,8 +2891,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
-                "misconception": "In Camping Requirement 8a(1), many Scouts assume propane or butane/propane stove only requires a general overview rather than specific details on using a propane or butane/propane stove.",
-                "fact": "The official Camping pamphlet for Requirement 8a(1) specifies that Scouts must thoroughly document propane or butane/propane stove and explain using a propane or butane/propane stove during counselor review."
+                "misconception": "Opening the fuel valve completely before striking a spark produces a faster, safer ignition.",
+                "fact": "Opening the valve wide before ignition allows heavy propane gas to pool around the burner, creating a dangerous flare-up when the flame catches."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2918,14 +2918,17 @@
               "id": "8a(1)",
               "sub_req_label": "8a(1)",
               "sub_req_text": "Using a propane or butane/propane stove.",
-              "topic_title": "Req 8a(1): Propane or Butane/propane Stove",
-              "pamphlet_summary": "Propane or Butane/propane Stove: The Camping pamphlet for Requirement 8a(1) details using a propane or butane/propane stove, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 8a(1): Canister Stove Operation and Safety",
+              "pamphlet_summary": "Canister Stove Operation and Safety: Scouts operate pressurized canister stoves on a level ground surface after inspecting the rubber O-ring gasket for cracks or dirt. Lighting requires holding a lit match or spark igniter above the burner head before cracking the fuel valve open slightly (p. 58).",
               "pamphlet_excerpts": [
-                "Propane or Butane/propane Stove: The Camping pamphlet for Requirement 8a(1) details using a propane or butane/propane stove, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Canister Stove Operation and Safety: Scouts operate pressurized canister stoves on a level ground surface after inspecting the rubber O-ring gasket for cracks or dirt. Lighting requires holding a lit match or spark igniter above the burner head before cracking the fuel valve open slightly (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
               "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+              "socratic_questions": [
+                "Why should you hold your flame next to the burner head before turning the control valve?"
+              ]
             },
             {
               "sub_id": "8a(2)",
@@ -2962,8 +2965,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
-                "misconception": "When preparing Camping Requirement 8a(2) (Liquid Fuel Stove), Scouts sometimes overlook the concrete pamphlet benchmarks covering using a liquid fuel stove.",
-                "fact": "Counselor verification for Camping Requirement 8a(2) requires concrete workbook evidence on liquid fuel stove, specifically addressing using a liquid fuel stove."
+                "misconception": "Filling the fuel tank completely to the rim provides longer burn times without affecting stove performance.",
+                "fact": "Leaving an empty headspace inside the fuel tank is necessary because air must compress to build adequate operating pressure."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2989,14 +2992,17 @@
               "id": "8a(2)",
               "sub_req_label": "8a(2)",
               "sub_req_text": "Using a liquid fuel stove.",
-              "topic_title": "Req 8a(2): Liquid Fuel Stove",
-              "pamphlet_summary": "Liquid Fuel Stove: The Camping pamphlet for Requirement 8a(2) details using a liquid fuel stove, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 8a(2): Liquid Fuel Stove Field Operation",
+              "pamphlet_summary": "Liquid Fuel Stove Field Operation: Liquid fuel stoves require white gas poured through a filtered funnel into the tank, leaving an air pocket for pressurization. Pumping the plunger builds tank pressure, while preheating the generator tube vaporizes liquid fuel into a clean blue flame (p. 59).",
               "pamphlet_excerpts": [
-                "Liquid Fuel Stove: The Camping pamphlet for Requirement 8a(2) details using a liquid fuel stove, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Liquid Fuel Stove Field Operation: Liquid fuel stoves require white gas poured through a filtered funnel into the tank, leaving an air pocket for pressurization. Pumping the plunger builds tank pressure, while preheating the generator tube vaporizes liquid fuel into a clean blue flame (p. 59)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
               "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+              "socratic_questions": [
+                "What physical change must happen to liquid white gas inside the generator tube before it can burn as a steady blue flame?"
+              ]
             },
             {
               "sub_id": "8a(3)",
@@ -3028,8 +3034,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)",
               "common_misconception_pair": {
-                "misconception": "For Camping Requirement 8a(3), a common mistake in storage of extra fuel is treating proper storage of extra fuel as optional background reading.",
-                "fact": "Mastering Camping Requirement 8a(3) means following the pamphlet standard for storage of extra fuel and recording accurate notes on proper storage of extra fuel."
+                "misconception": "Storing fuel bottles and gas canisters inside a sleeping tent protects them from overnight freezing.",
+                "fact": "Fuel containers stored inside living shelters can leak volatile fumes that create severe fire and asphyxiation hazards in enclosed spaces."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3055,14 +3061,17 @@
               "id": "8a(3)",
               "sub_req_label": "8a(3)",
               "sub_req_text": "Proper storage of extra fuel.",
-              "topic_title": "Req 8a(3): Storage of Extra Fuel",
-              "pamphlet_summary": "Storage of Extra Fuel: The Camping pamphlet for Requirement 8a(3) details proper storage of extra fuel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24).",
+              "topic_title": "Req 8a(3): Camp Fuel Storage and Transportation",
+              "pamphlet_summary": "Camp Fuel Storage and Transportation: Campers store liquid fuel in designated metal bottles with child-resistant caps and secure gas canisters in upright, shaded positions away from heat sources. All fuel caches must remain outside tents and at least 20 feet away from open flames or active cook sites (p. 61).",
               "pamphlet_excerpts": [
-                "Storage of Extra Fuel: The Camping pamphlet for Requirement 8a(3) details proper storage of extra fuel, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 24)."
+                "Camp Fuel Storage and Transportation: Campers store liquid fuel in designated metal bottles with child-resistant caps and secure gas canisters in upright, shaded positions away from heat sources. All fuel caches must remain outside tents and at least 20 feet away from open flames or active cook sites (p. 61)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p024_img1.png",
               "workbook_diagram_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
-              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove."
+              "workbook_visual_caption": "Fresh fish fillets sizzle in a frying pan over a portable propane backpacking stove.",
+              "socratic_questions": [
+                "How far from your patrol cooking area and tents should extra fuel containers sit, and why is shade required?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -3662,8 +3671,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "In Camping Requirement 9b(1), many Scouts assume hike up a mountain, gaining only requires a general overview rather than specific details on hike up a mountain, gaining at least 1,000 vertical feet.",
-                "fact": "The official Camping pamphlet for Requirement 9b(1) specifies that Scouts must thoroughly document hike up a mountain, gaining and explain hike up a mountain, gaining at least 1,000 vertical feet during counselor review."
+                "misconception": "Hiking four miles along a rolling mountain ridge fulfills the vertical gain requirement as long as the trail sits at high altitude.",
+                "fact": "The requirement demands climbing at least one thousand net vertical feet from the trailhead to the summit or turnaround point."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3689,14 +3698,17 @@
               "id": "9b(1)",
               "sub_req_label": "9b(1)",
               "sub_req_text": "Hike up a mountain, gaining at least 1,000 vertical feet.",
-              "topic_title": "Req 9b(1): Hike up a mountain, gaining",
-              "pamphlet_summary": "Hike up a mountain, gaining: The Camping pamphlet for Requirement 9b(1) details hike up a mountain, gaining at least 1,000 vertical feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(1): Mountain Summit Elevation Gain Hike",
+              "pamphlet_summary": "Mountain Summit Elevation Gain Hike: Fulfilling this challenge requires calculating elevation difference using topographic contour lines rather than total trail distance. Hikers pace their ascent using the rest step technique and pack extra layers to handle rapid temperature drops on high ridges (p. 75).",
               "pamphlet_excerpts": [
-                "Hike up a mountain, gaining: The Camping pamphlet for Requirement 9b(1) details hike up a mountain, gaining at least 1,000 vertical feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Mountain Summit Elevation Gain Hike: Fulfilling this challenge requires calculating elevation difference using topographic contour lines rather than total trail distance. Hikers pace their ascent using the rest step technique and pack extra layers to handle rapid temperature drops on high ridges (p. 75)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "How can you use the index contour lines on a topographic map to verify that your route gains at least one thousand vertical feet?"
+              ]
             },
             {
               "sub_id": "9b(2)",
@@ -3733,8 +3745,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "When preparing Camping Requirement 9b(2) (Backpack Snowshoe or Cross-country Ski), Scouts sometimes overlook the concrete pamphlet benchmarks covering backpack, snowshoe, or cross-country ski for at least 4 miles.",
-                "fact": "Counselor verification for Camping Requirement 9b(2) requires concrete workbook evidence on backpack snowshoe or cross-country ski, specifically addressing backpack, snowshoe, or cross-country ski for at least 4 miles."
+                "misconception": "Dividing four miles across short day strolls over several campouts satisfies this backcountry trek requirement.",
+                "fact": "The trek must occur as a continuous four-mile journey across wilderness terrain while carrying trail gear."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3760,14 +3772,17 @@
               "id": "9b(2)",
               "sub_req_label": "9b(2)",
               "sub_req_text": "Backpack, snowshoe, or cross-country ski for at least 4 miles.",
-              "topic_title": "Req 9b(2): Backpack Snowshoe or Cross-country Ski",
-              "pamphlet_summary": "Backpack Snowshoe or Cross-country Ski: The Camping pamphlet for Requirement 9b(2) details backpack, snowshoe, or cross-country ski for at least 4 miles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(2): Four Mile Backcountry Trek Options",
+              "pamphlet_summary": "Four Mile Backcountry Trek Options: Scouts complete a minimum four-mile journey carrying wilderness gear across backcountry terrain using backpacks, snowshoes, or cross-country skis. Proper pack adjustment centers the heaviest items close to the back and maintains a group pace suited to the slowest traveler (p. 77).",
               "pamphlet_excerpts": [
-                "Backpack Snowshoe or Cross-country Ski: The Camping pamphlet for Requirement 9b(2) details backpack, snowshoe, or cross-country ski for at least 4 miles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Four Mile Backcountry Trek Options: Scouts complete a minimum four-mile journey carrying wilderness gear across backcountry terrain using backpacks, snowshoes, or cross-country skis. Proper pack adjustment centers the heaviest items close to the back and maintains a group pace suited to the slowest traveler (p. 77)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "Where should you place heavy items inside your backpack to preserve balance when navigating uneven trails or deep snow?"
+              ]
             },
             {
               "sub_id": "9b(3)",
@@ -3804,8 +3819,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "For Camping Requirement 9b(3), a common mistake in take a bike trip is treating take a bike trip of at least 15 miles or at least four hours as optional background reading.",
-                "fact": "Mastering Camping Requirement 9b(3) means following the pamphlet standard for take a bike trip and recording accurate notes on take a bike trip of at least 15 miles or at least four hours."
+                "misconception": "Riding a bicycle around a paved campground loop for several short intervals counts toward the touring trip requirement.",
+                "fact": "The bicycle trip requires a planned touring route covering fifteen continuous miles or four active hours with appropriate route navigation and trail tools."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3831,15 +3846,18 @@
               "id": "9b(3)",
               "sub_req_label": "9b(3)",
               "sub_req_text": "Take a bike trip of at least 15 miles or at least four hours.",
-              "topic_title": "Req 9b(3): Take a bike trip",
-              "pamphlet_summary": "Take a bike trip: The Camping pamphlet for Requirement 9b(3) details take a bike trip of at least 15 miles or at least four hours, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(3): Fifteen Mile Bicycle Touring Journey",
+              "pamphlet_summary": "Fifteen Mile Bicycle Touring Journey: Cyclists must complete a fifteen-mile or four-hour ride while wearing an approved bicycle helmet and obeying local traffic laws. Conducting an air, brakes, and chain inspection before departure ensures mechanical reliability on distance routes (p. 79).",
               "pamphlet_excerpts": [
-                "Take a bike trip: The Camping pamphlet for Requirement 9b(3) details take a bike trip of at least 15 miles or at least four hours, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Fifteen Mile Bicycle Touring Journey: Cyclists must complete a fifteen-mile or four-hour ride while wearing an approved bicycle helmet and obeying local traffic laws. Conducting an air, brakes, and chain inspection before departure ensures mechanical reliability on distance routes (p. 79)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
-              "title": "Req 9b(3): Take a bike trip",
+              "title": "Req 9b(3): Fifteen Mile Bicycle Touring Journey",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "What mechanical checks on your tires, brakes, and chain should you conduct before rolling out on a fifteen-mile ride?"
+              ]
             },
             {
               "sub_id": "9b(4)",
@@ -3876,8 +3894,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "During Camping Requirement 9b(4), Scouts can underestimate how directly mastery of nonmotorized trip on the water depends on understanding take a nonmotorized trip on the water of at least four hours or 5 miles.",
-                "fact": "Scouting America standards for Camping Requirement 9b(4) require complete workbook entries on nonmotorized trip on the water to demonstrate full understanding of take a nonmotorized trip on the water of at least four hours or 5 miles."
+                "misconception": "Sitting inside a canoe or kayak without fastening a life jacket is acceptable on calm lakes during mild summer weather.",
+                "fact": "BSA Safety Afloat rules require every person aboard a nonmotorized craft to wear a securely fastened life jacket at all times on the water."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3903,14 +3921,17 @@
               "id": "9b(4)",
               "sub_req_label": "9b(4)",
               "sub_req_text": "Take a nonmotorized trip on the water of at least four hours or 5 miles.",
-              "topic_title": "Req 9b(4): Nonmotorized Trip on The Water",
-              "pamphlet_summary": "Nonmotorized Trip on The Water: The Camping pamphlet for Requirement 9b(4) details take a nonmotorized trip on the water of at least four hours or 5 miles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(4): Five Mile Nonmotorized Water Trek",
+              "pamphlet_summary": "Five Mile Nonmotorized Water Trek: Paddlers complete a water excursion of at least five miles or four hours in canoes, kayaks, rowboats, or rafts under BSA Safety Afloat guidelines. Every participant must wear a properly fitted Type III life jacket and pack expedition gear in lashed dry bags (p. 81).",
               "pamphlet_excerpts": [
-                "Nonmotorized Trip on The Water: The Camping pamphlet for Requirement 9b(4) details take a nonmotorized trip on the water of at least four hours or 5 miles, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Five Mile Nonmotorized Water Trek: Paddlers complete a water excursion of at least five miles or four hours in canoes, kayaks, rowboats, or rafts under BSA Safety Afloat guidelines. Every participant must wear a properly fitted Type III life jacket and pack expedition gear in lashed dry bags (p. 81)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "How do you determine whether a life jacket fits properly before launching a canoe or kayak?"
+              ]
             },
             {
               "sub_id": "9b(5)",
@@ -3947,8 +3968,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "In Camping Requirement 9b(5), many Scouts assume out an overnight snow camping only requires a general overview rather than specific details on plan and carry out an overnight snow camping experience.",
-                "fact": "The official Camping pamphlet for Requirement 9b(5) specifies that Scouts must thoroughly document out an overnight snow camping and explain plan and carry out an overnight snow camping experience during counselor review."
+                "misconception": "Wearing all available daytime clothing inside a sleeping bag keeps a camper warmest during subfreezing nights.",
+                "fact": "Wearing tight, damp layers restricts blood circulation and traps perspiration, which causes rapid body cooling inside a sleeping bag."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3974,14 +3995,17 @@
               "id": "9b(5)",
               "sub_req_label": "9b(5)",
               "sub_req_text": "Plan and carry out an overnight snow camping experience.",
-              "topic_title": "Req 9b(5): Out An Overnight Snow Camping",
-              "pamphlet_summary": "Out An Overnight Snow Camping: The Camping pamphlet for Requirement 9b(5) details plan and carry out an overnight snow camping experience, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(5): Overnight Snow Camping Winter Expedition",
+              "pamphlet_summary": "Overnight Snow Camping Winter Expedition: Snow camping requires erecting a winter-rated tent or constructing an insulated snow shelter such as a quinzee or snow trench. Campers place a closed-cell foam pad beneath an inflatable mattress to stop ground conduction and ventilate shelters to prevent moisture buildup (p. 83).",
               "pamphlet_excerpts": [
-                "Out An Overnight Snow Camping: The Camping pamphlet for Requirement 9b(5) details plan and carry out an overnight snow camping experience, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Overnight Snow Camping Winter Expedition: Snow camping requires erecting a winter-rated tent or constructing an insulated snow shelter such as a quinzee or snow trench. Campers place a closed-cell foam pad beneath an inflatable mattress to stop ground conduction and ventilate shelters to prevent moisture buildup (p. 83)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "Why is a closed-cell foam pad beneath your air mattress essential for sleeping on packed snow?"
+              ]
             },
             {
               "sub_id": "9b(6)",
@@ -4018,8 +4042,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)",
               "common_misconception_pair": {
-                "misconception": "When preparing Camping Requirement 9b(6) (Rappel down a rappel route), Scouts sometimes overlook the concrete pamphlet benchmarks covering rappel down a rappel route of 30 feet.",
-                "fact": "Counselor verification for Camping Requirement 9b(6) requires concrete workbook evidence on rappel down a rappel route, specifically addressing rappel down a rappel route of 30 feet."
+                "misconception": "Holding the rappel brake line tightly eliminates the need for an independent safety belay line during a descent.",
+                "fact": "Scouting America climbing standards mandate a separate belay system managed by a qualified instructor to arrest any uncontrolled fall."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -4045,14 +4069,17 @@
               "id": "9b(6)",
               "sub_req_label": "9b(6)",
               "sub_req_text": "Rappel down a rappel route of 30 feet.",
-              "topic_title": "Req 9b(6): Rappel down a rappel route",
-              "pamphlet_summary": "Rappel down a rappel route: The Camping pamphlet for Requirement 9b(6) details rappel down a rappel route of 30 feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21).",
+              "topic_title": "Req 9b(6): Thirty Foot Supervised Backcountry Rappel",
+              "pamphlet_summary": "Thirty Foot Supervised Backcountry Rappel: Scouts descend a designated thirty-foot vertical rock or tower face using approved climbing webbing, harnesses, and friction devices under direct adult supervision. BSA policy mandates an independent top-rope belay system operated by a trained instructor to protect the rappeller (p. 85).",
               "pamphlet_excerpts": [
-                "Rappel down a rappel route: The Camping pamphlet for Requirement 9b(6) details rappel down a rappel route of 30 feet, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 21)."
+                "Thirty Foot Supervised Backcountry Rappel: Scouts descend a designated thirty-foot vertical rock or tower face using approved climbing webbing, harnesses, and friction devices under direct adult supervision. BSA policy mandates an independent top-rope belay system operated by a trained instructor to protect the rappeller (p. 85)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/camping_p020_img1.png",
               "workbook_diagram_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
-              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition."
+              "workbook_visual_caption": "Campers set up tents in deep snow during a cold-weather outdoor Scouting expedition.",
+              "socratic_questions": [
+                "Why must a secondary belay line protect you even when you have full control of your friction device?"
+              ]
             }
           ],
           "syllabus_bucket": "In-Class Concept",
@@ -4570,13 +4597,13 @@
       "question": "During a freezing rainstorm at camp, a patrol asks if they can bring their liquid-fuel or canister camp stove inside the tent vestibule to boil water and warm up the tent before sleeping. How should the patrol leader respond?",
       "options": [
         "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
-        "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+        "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless.",
         "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
         "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly."
       ],
       "choices": [
         "A. Allow it as long as a tent window mesh zipper is cracked open 2 inches.",
-        "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless, lethal Carbon Monoxide (CO) gas and can instantly ignite nylon tent fabric.",
+        "B. Strictly prohibit any flame or stove inside or near the tent: camp stoves produce odorless.",
         "C. Use a charcoal grill inside the tent instead since charcoal has no visible flame.",
         "D. Hang a lit propane mantle lantern from the interior ridge loop of the tent fly."
       ],

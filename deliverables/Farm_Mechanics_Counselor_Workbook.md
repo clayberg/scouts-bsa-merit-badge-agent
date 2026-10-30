@@ -49,7 +49,7 @@
 - **Common Myth:** Loose cotton clothing keeps mechanics cooler without presenting any moving machine entanglement risk.
 - **Pamphlet Fact:** Untucked shirts or loose sleeves easily wrap around spinning tractor shafts causing severe injury.
 
-![Illustrated Farm Mechanics technical diagram of farm shop safety and hazard symbols for Requirement 1 field execution.](/assets/pamphlet_images/farm_mechanics_p003_img1.png)
+![Farm Mechanics Requirement 1 figure showing impact resistant safety glasses shield eyes against high speed flying metal fragments.](/assets/pamphlet_images/farm_mechanics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -129,7 +129,7 @@
 - **Common Myth:** Diesel fuel ignites spontaneously at room temperature without requiring heat or compression.
 - **Pamphlet Fact:** Diesel engine cylinders operate at compression ratios exceeding sixteen to one without spark plugs.
 
-![Step-by-step Farm Mechanics visual guide highlighting farm equipment power and transmission positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/farm_mechanics_p007_img1.png)
+![Farm Mechanics Requirement 2 figure showing diesel cylinders compress air until extreme heat ignites atomized fuel oil.](/assets/pamphlet_images/farm_mechanics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -184,7 +184,7 @@
 - **Common Myth:** Any hardwood branch from the farm woodlot works reliably as a sledgehammer handle.
 - **Pamphlet Fact:** Steep grain runout on replacement wood handles creates weak points that snap under heavy shock.
 
-![Detailed Farm Mechanics reference illustration comparing key components and stages of hand tool maintenance and storage for Requirement 3.](/assets/pamphlet_images/farm_mechanics_p012_img1.png)
+![Farm Mechanics Requirement 3 figure showing hardwood wedges spread tool handle tenons firmly against steel eye walls.](/assets/pamphlet_images/farm_mechanics_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -300,7 +300,7 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Farm Mechanics merit badge pamphlet and workbook organizer for Req 5
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 5: Implement Dealer Preventive Maintenance Interview
+- [ ] Farm Mechanics field toolkit, inspection gauge, and protective eyewear for Implement Dealership Maintenance Consultation
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 5
 

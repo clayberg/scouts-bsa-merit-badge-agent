@@ -58,7 +58,7 @@
 - **Common Myth:** Minor fluid leaks and hot exhaust pipes present negligible injury risks during basic maintenance.
 - **Pamphlet Fact:** Crushed limbs, chemical burns, eye injuries, and thermal burns represent frequent automotive shop injuries.
 
-![Detailed Automotive Maintenance reference illustration comparing key components and stages of shop safety and vehicle registration for Requirement 1.](/assets/pamphlet_images/automotive_maintenance_p003_img1.png)
+![Automotive Maintenance Requirement 1 figure showing secure elevated vehicles on rated jack stands before placing any limb underneath.](/assets/pamphlet_images/automotive_maintenance_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -191,7 +191,7 @@
 - [ ] Lockout/de-energization verification checklist and fire extinguisher reference
 - [ ] Engineering logbook and technical specification sheet for Automotive Maintenance Requirement 2
 
-![Practical Automotive Maintenance field visual showing proper setup, measurement, and technique for fluid checks, fuses, and filters in Requirement 2.](/assets/pamphlet_images/automotive_maintenance_p007_img1.png)
+![Automotive Maintenance Requirement 2 figure showing examine fluid levels on level ground before starting or after adequate cooldown.](/assets/pamphlet_images/automotive_maintenance_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -281,7 +281,7 @@
 - **Common Myth:** The tachometer measures wheel speed over the ground rather than internal crankshaft rotation rate.
 - **Pamphlet Fact:** Tachometers indicate crankshaft revolutions per minute, allowing drivers to prevent severe mechanical over-revving.
 
-![Practical Automotive Maintenance field visual showing proper setup, measurement, and technique for dashboard gauges and warning indicators in Requirement 3.](/assets/pamphlet_images/automotive_maintenance_p012_img1.png)
+![Automotive Maintenance Requirement 3 figure showing instrument cluster dials communicate real-time operating metrics including engine speed.](/assets/pamphlet_images/automotive_maintenance_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -54,7 +54,7 @@
 - **Common Myth:** Cell phones and home Wi-Fi routers emit dangerous ionizing waves that strip atomic electrons.
 - **Pamphlet Fact:** Radiofrequency signals are nonionizing and lack the quantum energy required to break molecular bonds.
 
-![Practical Nuclear Science field visual showing proper setup, measurement, and technique for radiation principles and alara safety in Requirement 1.](/assets/pamphlet_images/nuclear_science_p003_img1.png)
+![Nuclear Science Requirement 1 figure showing electromagnetic waves with frequencies above ultraviolet possess adequate photon energy.](/assets/pamphlet_images/nuclear_science_p003_img1.png)
 
 | Comparison Dimension | External Radiation Exposure | Radioactive Material Contamination |
 | :--- | :--- | :--- |
@@ -141,7 +141,7 @@
 - **Common Myth:** Gamma rays are particulate fragments of shattered nucleons expelled during spontaneous atomic fission.
 - **Pamphlet Fact:** Gamma radiation consists of massless high energy electromagnetic photons emitted from de-exciting nuclei.
 
-![Illustrated Nuclear Science technical diagram of atomic structure and isotope models for Requirement 2 field execution.](/assets/pamphlet_images/nuclear_science_p007_img1.png)
+![Nuclear Science Requirement 2 figure showing protons and neutrons reside inside the nucleus while electrons orbit within discrete.](/assets/pamphlet_images/nuclear_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -195,7 +195,7 @@
 - **Common Myth:** Accelerators propel particles using pressurized compressed gases like pneumatic tube systems.
 - **Pamphlet Fact:** Accelerators utilize synchronized alternating radiofrequency electric fields to accelerate charged particles.
 
-![Detailed Nuclear Science reference illustration comparing key components and stages of particle accelerators and subatomic research for Requirement 3.](/assets/pamphlet_images/nuclear_science_p012_img1.png)
+![Nuclear Science Requirement 3 figure showing radiofrequency cavities supply oscillating electric fields that transfer kinetic.](/assets/pamphlet_images/nuclear_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -213,11 +213,11 @@
 - Scientists at facilities like Fermilab, CERN, or university cyclotrons probe fundamental matter by colliding accelerated particles. Visiting researchers observe massive detectors designed to measure subatomic particles and nuclear binding energies.
 - Req 3b Standard (Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)): Do ONE of the following: (1) Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons. (2) List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 
-#### Req 3b(1): Accelerator Research Lab or University
+#### Req 3b(1): Nuclear Research Facility Visit
 **Official Requirement 3b(1):** Visit an accelerator, research lab, or university and discuss with a scientist how they study the properties of the nucleus or nucleons.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3b(1) Structured Technical Study & Explanation Matrix (Accelerator Research Lab or University)
-- **Common Myth:** In Nuclear Science Requirement 3b(1), many Scouts assume accelerator research lab or university only requires a general overview rather than specific details on visit an accelerator, research lab, or university and discuss with a scientist how they study.
-- **Pamphlet Fact:** The official Nuclear Science pamphlet for Requirement 3b(1) specifies that Scouts must thoroughly document accelerator research lab or university and explain visit an accelerator, research lab, or university and discuss with a scientist how they study during counselor review.
+- **Common Myth:** Nuclear scientists observe individual protons and neutrons by placing atomic samples under high-powered optical microscopes.
+- **Pamphlet Fact:** Atomic nuclei and nucleons are far smaller than light wavelengths, requiring scientists to bombard targets with accelerated particle beams and measure resulting collision angles and energies to infer nuclear structure.
 
 ![A digital graphic displays thousands of subatomic particle trajectories after a collision.](/assets/pamphlet_images/nuclear_science_p023_img1.png)
 
@@ -227,11 +227,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 3b(2): List three particle accelerators
+#### Req 3b(2): Particle Accelerator Types And Applications
 **Official Requirement 3b(2):** List three particle accelerators and describe several experiments conducted and their associated basic science and practical applications.
 **Source:** *Official Scouting America Nuclear Science Merit Badge Pamphlet (p. 23, p. 24)* • **Organizer (Concept & Examples Notes):** Req 3b(2) Structured Technical Study & Explanation Matrix (Particle Accelerators and Describe Several)
-- **Common Myth:** When preparing Nuclear Science Requirement 3b(2) (List three particle accelerators), Scouts sometimes overlook the concrete pamphlet benchmarks covering three particle accelerators and describe several experiments conducted and their associated basic.
-- **Pamphlet Fact:** Counselor verification for Nuclear Science Requirement 3b(2) requires concrete workbook evidence on list three particle accelerators, specifically addressing three particle accelerators and describe several experiments conducted and their associated basic.
+- **Common Myth:** Particle accelerators serve only theoretical high-energy physics research and have no practical everyday applications outside advanced physics laboratories.
+- **Pamphlet Fact:** Most operational particle accelerators worldwide are compact machines deployed in hospitals and factories for cancer radiation therapy, medical isotope production, and semiconductor manufacturing.
 
 ![PET brain scans display blood flow changes before and after surgery using nuclear imaging.](/assets/pamphlet_images/nuclear_science_p041_img1.png)
 
@@ -262,7 +262,7 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 4
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 4: Classic Nuclear Physics Experiments
+- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Classic Nuclear Science Experiments
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 4
 
@@ -471,7 +471,7 @@
 
 **Gear & Readiness Checklist:**
 - [ ] Official Nuclear Science merit badge pamphlet and workbook organizer for Req 8
-- [ ] Reference diagrams, inspection checklist, and field notebook for Req 8: Careers in Nuclear Science
+- [ ] Nuclear Science field toolkit, inspection gauge, and protective eyewear for Careers In Nuclear Science
 - [ ] Manufacturer technical manual or BSA reference guide for the system studied
 - [ ] Completed observation table and counselor review notes for Req 8
 

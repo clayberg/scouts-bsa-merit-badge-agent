@@ -404,20 +404,20 @@
         "scenario_prompt": "In Health Care Professions Requirement 1, how do physicians (MD/DO), physician assistants (PAs), registered nurses (RNs), pharmacists (PharmD), and allied health technologists collaborate on an interprofessional patient care team?",
         "question": "In Health Care Professions Requirement 1, how do physicians (MD/DO), physician assistants (PAs), registered nurses (RNs), pharmacists (PharmD), and allied health technologists collaborate on an interprofessional patient care team?",
         "options": [
-          "A. Each professional operates within a defined education, state licensure, and legal scope of practice: physicians and PAs diagnosing and prescribing, pharmacists verifying medication safety and interactions, RNs delivering and coordinating bedside patient care, and allied health specialists performing diagnostic imaging, lab analysis, and physical rehabilitation.",
+          "A. Each professional operates within a defined education, state licensure.",
           "B. Every member of a hospital team performs open-heart surgery interchangeably without specialized board certification or state licensing.",
-          "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology, or adverse chemical interactions.",
+          "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology.",
           "D. Registered nurses and respiratory therapists work only in administrative billing offices and never assess patients directly."
         ],
         "choices": [
-          "A. Each professional operates within a defined education, state licensure, and legal scope of practice: physicians and PAs diagnosing and prescribing, pharmacists verifying medication safety and interactions, RNs delivering and coordinating bedside patient care, and allied health specialists performing diagnostic imaging, lab analysis, and physical rehabilitation.",
+          "A. Each professional operates within a defined education, state licensure.",
           "B. Every member of a hospital team performs open-heart surgery interchangeably without specialized board certification or state licensing.",
-          "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology, or adverse chemical interactions.",
+          "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology.",
           "D. Registered nurses and respiratory therapists work only in administrative billing offices and never assess patients directly."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Each professional operates within a defined education, state licensure, and legal scope of practice: physicians and PAs diagnosing and prescribing, pharmacists verifying medication safety and interactions, RNs delivering and coordinating bedside patient care, and allied health specialists performing diagnostic imaging, lab analysis, and physical rehabilitation.",
+        "correct_answer": "A. Each professional operates within a defined education, state licensure.",
         "explanation": "Correct Answer (A): Modern healthcare relies on coordinated interprofessional teams where medical, nursing, pharmacy, and allied health practitioners contribute specialized expertise within their licensed scope of practice to ensure safe patient outcomes.",
         "pamphlet_page_ref": "p. 16, p. 17"
       },
@@ -853,18 +853,18 @@
         "options": [
           "A. Physician Assistants can only work in surgical operating rooms, whereas APRNs can only work in outpatient clinics.",
           "B. Physician Assistants do not need a college degree, whereas APRNs must complete medical school.",
-          "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance from registered nursing education.",
+          "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance.",
           "D. APRNs are prohibited from prescribing medications in any state, whereas PAs have unlimited independent authority everywhere."
         ],
         "choices": [
           "A. Physician Assistants can only work in surgical operating rooms, whereas APRNs can only work in outpatient clinics.",
           "B. Physician Assistants do not need a college degree, whereas APRNs must complete medical school.",
-          "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance from registered nursing education.",
+          "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance.",
           "D. APRNs are prohibited from prescribing medications in any state, whereas PAs have unlimited independent authority everywhere."
         ],
         "correct_index": 2,
         "correct_letter": "C",
-        "correct_answer": "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance from registered nursing education.",
+        "correct_answer": "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance.",
         "explanation": "Correct Answer (C): While PAs and APRNs perform very similar clinical duties in diagnosing and treating patients, PAs train in a medical-model graduate program whereas APRNs build upon Registered Nurse training (p. 16).",
         "pamphlet_page_ref": "p. 16, p. 27"
       },
@@ -1716,17 +1716,17 @@
           "A. Radiologic technologists manufacture artificial limbs in a workshop, whereas radiologists fit braces on patients.",
           "B. Radiologic technologists only draw blood samples, whereas radiologists analyze tissue slides under a microscope.",
           "C. Radiologic technologists manage hospital billing records, whereas radiologists repair broken ultrasound machines.",
-          "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists who interpret the scans."
+          "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists."
         ],
         "choices": [
           "A. Radiologic technologists manufacture artificial limbs in a workshop, whereas radiologists fit braces on patients.",
           "B. Radiologic technologists only draw blood samples, whereas radiologists analyze tissue slides under a microscope.",
           "C. Radiologic technologists manage hospital billing records, whereas radiologists repair broken ultrasound machines.",
-          "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists who interpret the scans."
+          "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists."
         ],
         "correct_index": 3,
         "correct_letter": "D",
-        "correct_answer": "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists who interpret the scans.",
+        "correct_answer": "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists.",
         "explanation": "Correct Answer (D): Radiologic technologists perform diagnostic imaging procedures and work directly with radiologists, who are physicians specializing in interpreting medical images (p. 51).",
         "pamphlet_page_ref": "p. 51, p. 57"
       },
@@ -2380,14 +2380,12 @@
           "Field Example & Counselor Conference Notes"
         ],
         "row_labels": [
-          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath",
-          "2. Practical execution and real-world examples for Ethical Principles of the Physician's Oath"
+          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath"
         ],
         "rows": [
-          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath",
-          "2. Practical execution and real-world examples for Ethical Principles of the Physician's Oath"
+          "1. Discuss with your counselor your understanding of the meaning of the Physician's Oath"
         ],
-        "min_rows": 2
+        "min_rows": 1
       },
       "common_misconception_pair": {
         "misconception": "The Hippocratic Oath is a legally binding contract enforced by federal criminal courts.",
@@ -2650,20 +2648,20 @@
         "scenario_prompt": "Why is strict confidentiality between a patient and a health care provider essential for effective medical diagnosis and treatment?",
         "question": "Why is strict confidentiality between a patient and a health care provider essential for effective medical diagnosis and treatment?",
         "options": [
-          "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history that is vital for an accurate diagnosis.",
+          "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history.",
           "B. Confidentiality rules prevent health insurance companies from ever receiving diagnostic codes required to pay for medical claims.",
           "C. HIPAA prohibits nurses from sharing a child's vital signs with the pediatrician who is actively examining that child.",
           "D. Confidentiality laws only apply to surgical hospitals and never apply to outpatient pediatric offices."
         ],
         "choices": [
-          "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history that is vital for an accurate diagnosis.",
+          "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history.",
           "B. Confidentiality rules prevent health insurance companies from ever receiving diagnostic codes required to pay for medical claims.",
           "C. HIPAA prohibits nurses from sharing a child's vital signs with the pediatrician who is actively examining that child.",
           "D. Confidentiality laws only apply to surgical hospitals and never apply to outpatient pediatric offices."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history that is vital for an accurate diagnosis.",
+        "correct_answer": "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history.",
         "explanation": "Correct Answer (A): When patients trust that their personal disclosures will remain confidential, they are willing to share sensitive facts about substance use or personal habits needed for an accurate diagnosis (p. 12).",
         "pamphlet_page_ref": "p. 12, p. 14"
       },
@@ -3046,15 +3044,15 @@
       "scenario_prompt": "In Health Care Professions Requirement 1, how do physicians (MD/DO), physician assistants (PAs), registered nurses (RNs), pharmacists (PharmD), and allied health technologists collaborate on an interprofessional patient care team?",
       "question": "In Health Care Professions Requirement 1, how do physicians (MD/DO), physician assistants (PAs), registered nurses (RNs), pharmacists (PharmD), and allied health technologists collaborate on an interprofessional patient care team?",
       "options": [
-        "A. Each professional operates within a defined education, state licensure, and legal scope of practice: physicians and PAs diagnosing and prescribing, pharmacists verifying medication safety and interactions, RNs delivering and coordinating bedside patient care, and allied health specialists performing diagnostic imaging, lab analysis, and physical rehabilitation.",
+        "A. Each professional operates within a defined education, state licensure.",
         "B. Every member of a hospital team performs open-heart surgery interchangeably without specialized board certification or state licensing.",
-        "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology, or adverse chemical interactions.",
+        "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology.",
         "D. Registered nurses and respiratory therapists work only in administrative billing offices and never assess patients directly."
       ],
       "choices": [
-        "A. Each professional operates within a defined education, state licensure, and legal scope of practice: physicians and PAs diagnosing and prescribing, pharmacists verifying medication safety and interactions, RNs delivering and coordinating bedside patient care, and allied health specialists performing diagnostic imaging, lab analysis, and physical rehabilitation.",
+        "A. Each professional operates within a defined education, state licensure.",
         "B. Every member of a hospital team performs open-heart surgery interchangeably without specialized board certification or state licensing.",
-        "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology, or adverse chemical interactions.",
+        "C. Pharmacists only work at retail cash registers and have no clinical training in drug dosing, pharmacology.",
         "D. Registered nurses and respiratory therapists work only in administrative billing offices and never assess patients directly."
       ],
       "correct_index": 0,
@@ -3071,13 +3069,13 @@
       "options": [
         "A. Physician Assistants can only work in surgical operating rooms, whereas APRNs can only work in outpatient clinics.",
         "B. Physician Assistants do not need a college degree, whereas APRNs must complete medical school.",
-        "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance from registered nursing education.",
+        "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance.",
         "D. APRNs are prohibited from prescribing medications in any state, whereas PAs have unlimited independent authority everywhere."
       ],
       "choices": [
         "A. Physician Assistants can only work in surgical operating rooms, whereas APRNs can only work in outpatient clinics.",
         "B. Physician Assistants do not need a college degree, whereas APRNs must complete medical school.",
-        "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance from registered nursing education.",
+        "C. Both diagnose illnesses and prescribe medications, but PAs follow a medical-model graduate program while APRNs advance.",
         "D. APRNs are prohibited from prescribing medications in any state, whereas PAs have unlimited independent authority everywhere."
       ],
       "correct_index": 2,
@@ -3118,13 +3116,13 @@
         "A. Radiologic technologists manufacture artificial limbs in a workshop, whereas radiologists fit braces on patients.",
         "B. Radiologic technologists only draw blood samples, whereas radiologists analyze tissue slides under a microscope.",
         "C. Radiologic technologists manage hospital billing records, whereas radiologists repair broken ultrasound machines.",
-        "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists who interpret the scans."
+        "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists."
       ],
       "choices": [
         "A. Radiologic technologists manufacture artificial limbs in a workshop, whereas radiologists fit braces on patients.",
         "B. Radiologic technologists only draw blood samples, whereas radiologists analyze tissue slides under a microscope.",
         "C. Radiologic technologists manage hospital billing records, whereas radiologists repair broken ultrasound machines.",
-        "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists who interpret the scans."
+        "D. Radiologic technologists perform diagnostic imaging examinations on patients and work directly with physician radiologists."
       ],
       "correct_index": 3,
       "correct_letter": "D",
@@ -3184,13 +3182,13 @@
       "scenario_prompt": "Why is strict confidentiality between a patient and a health care provider essential for effective medical diagnosis and treatment?",
       "question": "Why is strict confidentiality between a patient and a health care provider essential for effective medical diagnosis and treatment?",
       "options": [
-        "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history that is vital for an accurate diagnosis.",
+        "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history.",
         "B. Confidentiality rules prevent health insurance companies from ever receiving diagnostic codes required to pay for medical claims.",
         "C. HIPAA prohibits nurses from sharing a child's vital signs with the pediatrician who is actively examining that child.",
         "D. Confidentiality laws only apply to surgical hospitals and never apply to outpatient pediatric offices."
       ],
       "choices": [
-        "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history that is vital for an accurate diagnosis.",
+        "A. Patients who do not trust their provider's confidentiality may withhold sensitive information about substance use or personal history.",
         "B. Confidentiality rules prevent health insurance companies from ever receiving diagnostic codes required to pay for medical claims.",
         "C. HIPAA prohibits nurses from sharing a child's vital signs with the pediatrician who is actively examining that child.",
         "D. Confidentiality laws only apply to surgical hospitals and never apply to outpatient pediatric offices."

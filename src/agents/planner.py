@@ -883,6 +883,7 @@ def _scope_req_dict_for_slide(
 
         # Scope pamphlet_excerpts to the chunk's sub-requirement summaries/texts
         sub_excerpts: List[str] = []
+        sub_socratic: List[str] = []
         for idx_s, sr in enumerate(matched_subs):
             sid = _sr_norm_id(sr, idx_s)
             sr_sum = _sanitize_no_ellipsis_or_emdash(
@@ -890,8 +891,18 @@ def _scope_req_dict_for_slide(
             )
             if sr_sum:
                 sub_excerpts.append(f"Req {sid}: {sr_sum}")
+            for sq in (sr.get("socratic_questions") or []):
+                sq_clean = _sanitize_no_ellipsis_or_emdash(str(sq).strip())
+                if sq_clean and sq_clean not in sub_socratic:
+                    sub_socratic.append(sq_clean)
         if sub_excerpts:
             scoped["pamphlet_excerpts"] = sub_excerpts + list(scoped.get("pamphlet_excerpts") or [])
+        for sq in (scoped.get("socratic_questions") or []):
+            sq_clean = _sanitize_no_ellipsis_or_emdash(str(sq).strip())
+            if sq_clean and sq_clean not in sub_socratic:
+                sub_socratic.append(sq_clean)
+        if sub_socratic:
+            scoped["socratic_questions"] = sub_socratic
 
         # Scope common_misconception_pair: pick non-generic sub-req misconception distinct from parent if present, else clear for synthesis
         parent_mp_raw = (req_data or {}).get("common_misconception_pair")
@@ -1132,6 +1143,7 @@ def _build_slide_teaching_notes(
     tpl_idx = slide_seed % 6
 
     # Consult precomputed facilitator notes (data/precomputed_facilitator_notes_149.json)
+    b_slug_hyphen = re.sub(r"[^a-z0-9]+", "-", clean_badge.lower()).strip("-")
     b_slug = re.sub(r"[^a-z0-9]+", "_", clean_badge.lower()).strip("_")
     _role_map = {
         "REQUIREMENT_INTRO": 0,
@@ -1151,7 +1163,9 @@ def _build_slide_teaching_notes(
     precomp_map = _load_precomputed_facilitator_notes()
     lookup_req_id = sub_range_label.split("-")[0] if sub_range_label else clean_req
     raw_precomp_note = (
-        precomp_map.get(f"{b_slug}::{lookup_req_id}::{role_idx}")
+        precomp_map.get(f"{b_slug_hyphen}::{lookup_req_id}::{role_idx}")
+        or precomp_map.get(f"{b_slug_hyphen}::{clean_req}::{role_idx}")
+        or precomp_map.get(f"{b_slug}::{lookup_req_id}::{role_idx}")
         or precomp_map.get(f"{b_slug}::{clean_req}::{role_idx}")
         or ""
     )
@@ -1220,7 +1234,9 @@ def _build_slide_teaching_notes(
     # rotate through distinct sub-requirement misconceptions on child slides when available, and synthesize a concrete,
     # slide-scoped subject-matter misconception whenever generic or already used on the lead slide.
     parent_mp_dict = (req_dict or {}).get("common_misconception_pair") if isinstance((req_dict or {}).get("common_misconception_pair"), dict) else {}
-    parent_myth_norm = _sanitize_no_ellipsis_or_emdash(str(parent_mp_dict.get("misconception") or parent_mp_dict.get("myth") or "")).strip().lower()
+    parent_myth = _sanitize_no_ellipsis_or_emdash(str(parent_mp_dict.get("misconception") or parent_mp_dict.get("myth") or ""))
+    parent_fact = _sanitize_no_ellipsis_or_emdash(str(parent_mp_dict.get("fact") or parent_mp_dict.get("fact_correction") or ""))
+    parent_myth_norm = parent_myth.strip().lower()
 
     misc_pair = req_data.get("common_misconception_pair") if isinstance(req_data.get("common_misconception_pair"), dict) else {}
     raw_myth = _sanitize_no_ellipsis_or_emdash(str(misc_pair.get("misconception") or misc_pair.get("myth") or ""))
@@ -1228,15 +1244,25 @@ def _build_slide_teaching_notes(
 
     sub_misc_candidates: List[Tuple[str, str]] = []
     seen_sub_myths: set = {parent_myth_norm} if parent_myth_norm else set()
-    for sr_item in list((req_dict or {}).get("sub_requirements") or []):
-        if isinstance(sr_item, dict) and isinstance(sr_item.get("common_misconception_pair"), dict):
-            sm = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("misconception") or sr_item["common_misconception_pair"].get("myth") or ""))
-            sf = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("fact") or sr_item["common_misconception_pair"].get("fact_correction") or ""))
-            sm_low = sm.strip().lower()
-            if not _is_generic_meta_misconception(sm, sf) and sm_low not in seen_sub_myths:
-                seen_sub_myths.add(sm_low)
-                sub_misc_candidates.append((sm, sf))
 
+    def _collect_sub_miscs_recursive(nodes_list: List[Any]) -> None:
+        for sr_item in nodes_list:
+            if not isinstance(sr_item, dict):
+                continue
+            if isinstance(sr_item.get("common_misconception_pair"), dict):
+                sm = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("misconception") or sr_item["common_misconception_pair"].get("myth") or ""))
+                sf = _sanitize_no_ellipsis_or_emdash(str(sr_item["common_misconception_pair"].get("fact") or sr_item["common_misconception_pair"].get("fact_correction") or ""))
+                sm_low = sm.strip().lower()
+                if not _is_generic_meta_misconception(sm, sf) and sm_low not in seen_sub_myths:
+                    seen_sub_myths.add(sm_low)
+                    sub_misc_candidates.append((sm, sf))
+            ch_list = sr_item.get("children") or sr_item.get("sub_requirements") or []
+            if ch_list:
+                _collect_sub_miscs_recursive(list(ch_list))
+
+    _collect_sub_miscs_recursive(list((req_dict or {}).get("sub_requirements") or []))
+
+    used_myths_in_deck = s_dict.get("_used_myths_in_deck")
     _specialized_archs = (
         SlideArchetype.SOCRATIC_CHECKPOINT_QUIZ.value,
         SlideArchetype.DIFFERENTIAL_COMPARISON_2COL.value,
@@ -1244,26 +1270,35 @@ def _build_slide_teaching_notes(
         SlideArchetype.STEP_BY_STEP_PROCEDURE_4CARD.value,
         SlideArchetype.WORKED_EXAMPLE_TEMPLATE.value,
     )
-    if slide_idx_in_req == 0 and not _is_generic_meta_misconception(raw_myth, raw_fact):
-        myth_txt, fact_txt = raw_myth, raw_fact
-    elif (
-        slide_idx_in_req > 0
-        and matched_sub_ids
-        and arch not in _specialized_archs
-        and not _is_generic_meta_misconception(raw_myth, raw_fact)
-        and raw_myth.strip().lower() != parent_myth_norm
-    ):
-        myth_txt, fact_txt = raw_myth, raw_fact
-    elif slide_idx_in_req > 0 and sub_misc_candidates and arch not in _specialized_archs and (slide_idx_in_req - 1) < len(sub_misc_candidates):
-        myth_txt, fact_txt = sub_misc_candidates[slide_idx_in_req - 1]
-    elif (
-        precomp_myth
-        and precomp_fact
-        and not _is_generic_meta_misconception(precomp_myth, precomp_fact)
-        and (slide_idx_in_req == 0 or precomp_myth.strip().lower() != parent_myth_norm)
-        and arch not in _specialized_archs
-    ):
-        myth_txt, fact_txt = precomp_myth, precomp_fact
+
+    chosen_pair: Optional[Tuple[str, str]] = None
+    if arch not in _specialized_archs:
+        ordered_candidates: List[Tuple[str, str]] = []
+        if slide_idx_in_req == 0:
+            if parent_myth and parent_fact:
+                ordered_candidates.append((parent_myth, parent_fact))
+            if raw_myth and raw_fact:
+                ordered_candidates.append((raw_myth, raw_fact))
+            ordered_candidates.extend(sub_misc_candidates)
+            if precomp_myth and precomp_fact:
+                ordered_candidates.append((precomp_myth, precomp_fact))
+        else:
+            if matched_sub_ids and raw_myth and raw_fact and raw_myth.strip().lower() != parent_myth_norm:
+                ordered_candidates.append((raw_myth, raw_fact))
+            if sub_misc_candidates:
+                rot_idx = (slide_idx_in_req - 1) % len(sub_misc_candidates)
+                ordered_candidates.extend(sub_misc_candidates[rot_idx:] + sub_misc_candidates[:rot_idx])
+            if precomp_myth and precomp_fact and precomp_myth.strip().lower() != parent_myth_norm:
+                ordered_candidates.append((precomp_myth, precomp_fact))
+        for cm, cf in ordered_candidates:
+            if not _is_generic_meta_misconception(cm, cf):
+                cm_low = cm.strip().lower()
+                if not isinstance(used_myths_in_deck, set) or cm_low not in used_myths_in_deck:
+                    chosen_pair = (cm, cf)
+                    break
+
+    if chosen_pair is not None:
+        myth_txt, fact_txt = chosen_pair
     else:
         myth_txt, fact_txt = _synthesize_subject_matter_misconception(
             clean_badge=clean_badge,
@@ -1281,6 +1316,11 @@ def _build_slide_teaching_notes(
             gear_checklist=gear_checklist,
             range_label=sub_range_label,
         )
+        if isinstance(used_myths_in_deck, set) and myth_txt.strip().lower() in used_myths_in_deck:
+            myth_txt = f"{myth_txt.rstrip('.!? ')} when working on \"{clean_title}\"."
+
+    if isinstance(used_myths_in_deck, set) and myth_txt:
+        used_myths_in_deck.add(myth_txt.strip().lower())
 
     # -------------------------------------------------------------------------
     # CASE 1: REQUIREMENTS OVERVIEW MATRIX (SLIDE 2)
@@ -1475,17 +1515,42 @@ def _build_slide_teaching_notes(
             f"[ASK SCOUTS FIRST] Compare a vague one-line note with this worked example for \"{clean_title}\": what specific detail in {topic_1} makes this log ready for {clean_badge} {req_display_label} sign-off?"
         )
     else:
-        curated_socratic = [
-            _sanitize_no_ellipsis_or_emdash(str(q).strip())
-            for q in (req_data.get("socratic_questions") or [])
-            if str(q).strip() and len(str(q).strip()) >= 25
-        ]
-        if curated_socratic and slide_idx_in_req < len(curated_socratic):
-            q_base = curated_socratic[slide_idx_in_req].rstrip("?.! ") + "?"
-            if slide_idx_in_req == 0:
-                ask_block = f"[ASK SCOUTS FIRST] {q_base}"
-            else:
-                ask_block = f"[ASK SCOUTS FIRST] {q_base} (Focus on {topic_1} and {topic_2} in {req_display_label}.)"
+        curated_socratic: List[str] = []
+        for q in list(req_data.get("socratic_questions") or []) + list((req_dict or {}).get("socratic_questions") or []):
+            q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
+            if len(q_c) >= 25 and q_c not in curated_socratic:
+                curated_socratic.append(q_c)
+
+        def _collect_sub_socratic_recursive(nodes_list: List[Any]) -> None:
+            for sr_item in nodes_list:
+                if not isinstance(sr_item, dict):
+                    continue
+                for q in (sr_item.get("socratic_questions") or []):
+                    q_c = _sanitize_no_ellipsis_or_emdash(str(q).strip())
+                    if len(q_c) >= 25 and q_c not in curated_socratic:
+                        curated_socratic.append(q_c)
+                ch_list = sr_item.get("children") or sr_item.get("sub_requirements") or []
+                if ch_list:
+                    _collect_sub_socratic_recursive(list(ch_list))
+
+        _collect_sub_socratic_recursive(list((req_dict or {}).get("sub_requirements") or []))
+
+        used_asks_in_deck = s_dict.get("_used_asks_in_deck")
+        if curated_socratic:
+            chosen_q = ""
+            start_q_idx = slide_idx_in_req % len(curated_socratic)
+            rotated_q = curated_socratic[start_q_idx:] + curated_socratic[:start_q_idx]
+            for cand_q in rotated_q:
+                q_norm = cand_q.rstrip("?.! ").lower()
+                if not isinstance(used_asks_in_deck, set) or q_norm not in used_asks_in_deck:
+                    chosen_q = cand_q.rstrip("?.! ") + "?"
+                    break
+            if not chosen_q:
+                base_q = rotated_q[0].rstrip("?.! ") + "?"
+                chosen_q = f"{base_q} (Focus on {topic_1} and {topic_2} on \"{clean_title}\".)"
+            if isinstance(used_asks_in_deck, set):
+                used_asks_in_deck.add(chosen_q.rstrip("?.! ").lower())
+            ask_block = f"[ASK SCOUTS FIRST] {chosen_q}"
         elif len(dedup_topics) >= 2:
             general_asks_plural = [
                 f"[ASK SCOUTS FIRST] How do {topic_1} and {topic_2} reinforce each other in {clean_badge} {req_display_label}, and where would your patrol apply both on a troop outing?",
@@ -2118,6 +2183,8 @@ def generate_slide_storyboard(
         for kw in ("deep", "camp", "detailed", "comprehensive")
     )
     used_imgs: set = set()
+    used_myths_in_deck: set = set()
+    used_asks_in_deck: set = set()
     for idx, req in enumerate(requirements):
         req_num = str(req.get("req_number", str(idx + 1)))
         req_text = _sanitize_no_ellipsis_or_emdash(str(req.get("req_text", "Complete requirement.")))
@@ -2200,6 +2267,10 @@ def generate_slide_storyboard(
                         bullet_points=core_teaching_points[:4],
                         req_dict=req,
                         safety_callout=safety,
+                        slide_dict={
+                            "_used_myths_in_deck": used_myths_in_deck,
+                            "_used_asks_in_deck": used_asks_in_deck,
+                        },
                         slide_idx_in_req=0,
                     ),
                     safety_warning=safety,
@@ -2371,6 +2442,9 @@ def generate_slide_storyboard(
             show_misc_on_this_slide = (t_idx == 1 and not slide_safety) or (t_idx == 2 and bool(safety))
             child_slide_idx_in_req = t_idx if is_deep_dive else max(0, t_idx - 1)
 
+            ts_for_notes = dict(ts)
+            ts_for_notes["_used_myths_in_deck"] = used_myths_in_deck
+            ts_for_notes["_used_asks_in_deck"] = used_asks_in_deck
             slides.append(
                 SlideSpec(
                     title=ts_title,
@@ -2391,7 +2465,7 @@ def generate_slide_storyboard(
                         visual_caption=ts_caption,
                         has_visual=bool(ts_img),
                         safety_callout=slide_safety,
-                        slide_dict=ts,
+                        slide_dict=ts_for_notes,
                         slide_idx_in_req=child_slide_idx_in_req,
                     ),
                     safety_warning=slide_safety,

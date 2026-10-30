@@ -143,7 +143,7 @@
 - **Common Myth:** Beginners assume screen printing stencils can be made from thin unvarnished paper without bleeding.
 - **Pamphlet Fact:** Durable screen stencils require solvent-resistant emulsions or water-resistant blockouts to withstand squeegee friction.
 
-![Illustrated Graphic Arts technical diagram of major commercial printing processes for Requirement 1 field execution.](/assets/pamphlet_images/graphic_arts_p003_img1.png)
+![Graphic Arts Requirement 1 figure showing water and oil separation allows planar aluminum plates to transfer ink cleanly.](/assets/pamphlet_images/graphic_arts_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -160,7 +160,7 @@
 - **Common Myth:** Users believe digital presses produce identical colors without ever calibrating raster image processors.
 - **Pamphlet Fact:** Digital presses require spectrophotometer calibration and environmental humidity control to ensure uniform color reproduction.
 
-![Step-by-step Graphic Arts visual guide highlighting halftone artwork and digital imaging positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/graphic_arts_p007_img1.png)
+![Graphic Arts Requirement 2 figure showing photographic films present uninterrupted optical density transitions.](/assets/pamphlet_images/graphic_arts_p007_img1.png)
 
 | Req 4c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -176,7 +176,7 @@
 - **Common Myth:** New printers assume relief printing plates require moisture dampening rollers like lithographic presses.
 - **Pamphlet Fact:** Relief printing functions entirely without water since non-image areas physically sit below the inking plane.
 
-![Step-by-step Graphic Arts visual guide highlighting typography layout and process selection positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/graphic_arts_p012_img1.png)
+![Graphic Arts Requirement 3 figure showing dominant focal points direct reader eyes through secondary supporting graphic.](/assets/pamphlet_images/graphic_arts_p012_img1.png)
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -77,7 +77,7 @@
 - **Common Myth:** The Magna Carta immediately created universal democratic voting rights for all citizens.
 - **Pamphlet Fact:** The Magna Carta established limits on monarchical authority and guaranteed fundamental procedural protections.
 
-![Illustrated Law technical diagram of historical legal codes and jury systems for Requirement 2 field execution.](/assets/pamphlet_images/law_p007_img1.png)
+![Law Requirement 2 figure showing ancient Babylonian stone stelae established early written laws using strict retributive.](/assets/pamphlet_images/law_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -105,7 +105,7 @@
 - **Common Myth:** Famous historic trials were merely dramatic public spectacles without lasting structural impacts on jurisprudence.
 - **Pamphlet Fact:** Historic trials established vital legal doctrines such as freedom of the press and protections against arbitrary detention.
 
-![Practical Law field visual showing proper setup, measurement, and technique for definition, sources, and functions of law in Requirement 1.](/assets/pamphlet_images/law_p003_img1.png)
+![Law Requirement 1 figure showing law provides enforceable rules of conduct established by recognized governing authority.](/assets/pamphlet_images/law_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -386,7 +386,7 @@
 - **Common Myth:** Biotechnology companies can patent naturally occurring organisms found in nature without human intervention.
 - **Pamphlet Fact:** Biotechnology regulations monitor laboratory biosafety and clinical trials while patent offices determine gene patentability.
 
-![Step-by-step Law visual guide highlighting civil law versus criminal law positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/law_p012_img1.png)
+![Law Requirement 3 figure showing preponderance of the evidence requires proving that an alleged claim is probably true.](/assets/pamphlet_images/law_p012_img1.png)
 
 | Req 11d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

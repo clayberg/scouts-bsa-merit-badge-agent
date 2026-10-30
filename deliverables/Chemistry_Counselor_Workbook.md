@@ -55,7 +55,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Chemistry and Safety
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Chemistry technical diagram of chemical safety and data sheets for Requirement 1 field execution.](/assets/pamphlet_images/chemistry_p003_img1.png)
+![Chemistry Requirement 1 figure showing section two outlines specific physical and health hazards alongside standardized.](/assets/pamphlet_images/chemistry_p003_img1.png)
 
 | Hazard / Risk Factor | How to Anticipate & Spot Early | Preventive Controls & PPE | Acute First-Aid Response |
 | :--- | :--- | :--- | :--- |
@@ -128,7 +128,7 @@
 - **Common Myth:** Stinging sensations prove that an antiseptic solution is effectively eradicating infectious bacterial contamination.
 - **Pamphlet Fact:** Pain stems from chemical irritation of exposed nerve endings rather than the antiseptic eradication process.
 
-![Step-by-step Chemistry visual guide highlighting first aid surfactants and antiseptics positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/chemistry_p007_img1.png)
+![Chemistry Requirement 2 figure showing hydrophobic tails bind nonpolar oils while hydrophilic heads interact directly.](/assets/pamphlet_images/chemistry_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -189,7 +189,7 @@
 - **Common Myth:** Caramelizing onions is chemically identical to the Maillard browning observed on seared steaks.
 - **Pamphlet Fact:** Caramelization involves pure sugar pyrolysis, whereas Maillard browning requires both sugars and amino acids.
 
-![Step-by-step Chemistry visual guide highlighting culinary reactions and ph indicators positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/chemistry_p012_img1.png)
+![Chemistry Requirement 3 figure showing reducing sugars react with amino acids to generate complex aromatic melanoidin polymer.](/assets/pamphlet_images/chemistry_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -295,7 +295,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries.** | `____________________________________` | `____________________________________` |
+| **1. Describe how chemistry can be used to reduce the environmental impacts of single-use items, such as water bottles, bags, straws, or batteries** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Bioplastic Synthesis: Corn starch fermentation produces lactic acid monomers that polymerize into compostable polylactic plastic.

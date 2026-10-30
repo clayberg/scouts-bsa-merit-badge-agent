@@ -77,7 +77,7 @@
 - [ ] Fabric shears, seam ripper, flexible measuring tape, and tailor's chalk
 - [ ] Completed sample piece and stitch log for Fiber Classifications and Fabric Production
 
-![Detailed Textile reference illustration comparing key components and stages of fiber classifications and fabric production for Requirement 2.](/assets/pamphlet_images/textile_p007_img1.png)
+![Textile Requirement 2 figure showing plant crops and animal fleeces yield staple fibers without synthetic chemical synthesis.](/assets/pamphlet_images/textile_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -108,7 +108,7 @@
 - **Common Myth:** Fabrics emerge directly from raw sheared fleece without intermediate carding or spinning steps.
 - **Pamphlet Fact:** Disorganized raw fibers must be aligned into slivers and twisted into yarns before fabric creation.
 
-![Step-by-step Textile visual guide highlighting fibers, fabrics, and everyday textiles positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/textile_p003_img1.png)
+![Textile Requirement 1 figure showing fundamental hair-like strands represent the smallest basic unit in all textile material.](/assets/pamphlet_images/textile_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -150,7 +150,7 @@
 - **Common Myth:** Modern textile manufacturing relies entirely on hand-operated wooden spinning wheels and manual looms.
 - **Pamphlet Fact:** Commercial textile plants use computerized air-jet looms running over one thousand picks per minute.
 
-![Practical Textile field visual showing proper setup, measurement, and technique for hands-on weaving, dyeing, and testing in Requirement 3.](/assets/pamphlet_images/textile_p012_img1.png)
+![Textile Requirement 3 figure showing longitudinal warp yarns must maintain uniform tautness on loom frames during weaving.](/assets/pamphlet_images/textile_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -264,7 +264,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the meaning of 10 of the following terms: warp, harness, heddle, shed, aramid, spandex, sliver, yarn, spindle, distaff, loom, cellulose, sericulture, extrusion, carbon fibers, spinneret, staple, worsted** | `____________________________________` | `____________________________________` |
+| **1. Explain the meaning of 10 of the following terms: warp, harness, heddle, shed, aramid, spandex, sliver, yarn, spindle, distaff, loom, cellulose, sericulture** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Loom Harness Function: Movable frames hold heddles to separate warp threads and form the shed.

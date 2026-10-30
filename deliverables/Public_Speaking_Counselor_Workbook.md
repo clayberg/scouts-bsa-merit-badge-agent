@@ -39,7 +39,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Give a three- to five-minute introduction of yourself to an audience such as your troop, class at school, or some other group.** | `____________________________________` | `____________________________________` |
+| **1. Give a three- to five-minute introduction of yourself to an audience such as your troop, class at school, or some other group** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Opening Hook: A compelling personal anecdote captures listener attention within the first fifteen seconds.
@@ -65,7 +65,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Prepare a three- to five-minute talk on a topic of your choice that incorporates body language and visual aids.** | `____________________________________` | `____________________________________` |
+| **1. Prepare a three- to five-minute talk on a topic of your choice that incorporates body language and visual aids** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Audience Orientation: Keep your torso turned toward the listeners while referencing charts on display.

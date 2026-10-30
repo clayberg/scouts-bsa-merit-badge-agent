@@ -42,7 +42,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain to your counselor the precautions that must be followed for the safe use and operation of a potter's tools, equipment, and other materials.** | `____________________________________` | `____________________________________` |
+| **1. Explain to your counselor the precautions that must be followed for the safe use and operation of a potter's tools, equipment, and other materials** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Wet sponges trap toxic respirable silica dust before particles become airborne hazards.
@@ -71,7 +71,7 @@
 - **Common Myth:** Potters sometimes believe pure kaolin yields the most workable material for delicate wheel projects.
 - **Pamphlet Fact:** Pure kaolin lacks necessary plasticity and requires ball clay blends to survive wheel tension.
 
-![Illustrated Pottery technical diagram of clay body properties and potters wheels for Requirement 2 field execution.](/assets/pamphlet_images/pottery_p007_img1.png)
+![Pottery Requirement 2 figure showing coarse fired grog particles open clay pores to release trapped drying moisture.](/assets/pamphlet_images/pottery_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -128,7 +128,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the meaning of the following pottery terms: bat, wedging, throwing, leather hard, bone dry, greenware, bisque, terra-cotta, grog, slip, score, earthenware, stoneware, porcelain, pyrometric cone, and glaze.** | `____________________________________` | `____________________________________` |
+| **1. Explain the meaning of the following pottery terms: bat, wedging, throwing, leather hard, bone dry, greenware, bisque, terra-cotta, grog, slip, score, earthenware, stoneware, porcelain, pyrometric cone, and glaze** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Vitrification Thermal Process: High temperatures fuse silica particles together, rendering stoneware bodies dense and nonporous.
@@ -177,7 +177,7 @@
 - **Common Myth:** Scouts sometimes believe solid clay sculptures survive firing if heated very slowly.
 - **Pamphlet Fact:** Solid clay thicker than one inch rarely dries completely and typically fractures during firing.
 
-![Practical Pottery field visual showing proper setup, measurement, and technique for pottery studio tool and kiln safety in Requirement 1.](/assets/pamphlet_images/pottery_p003_img1.png)
+![Pottery Requirement 1 figure showing wet sponges trap toxic respirable silica dust before particles become airborne hazards.](/assets/pamphlet_images/pottery_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -191,7 +191,7 @@
 - **Common Myth:** New throwers often assume pulling taller walls requires pulling upward with high wheel speed.
 - **Pamphlet Fact:** Slowing wheel speed during wall pulls prevents centrifugal force from flaring and collapsing tall cylinders.
 
-![Step-by-step Pottery visual guide highlighting drawing historical and original pottery forms positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/pottery_p012_img1.png)
+![Pottery Requirement 3 figure showing drafting cutaway profile views shows internal wall thickness alongside external.](/assets/pamphlet_images/pottery_p012_img1.png)
 
 | Req 5c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

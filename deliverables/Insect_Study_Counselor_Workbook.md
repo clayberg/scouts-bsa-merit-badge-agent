@@ -51,7 +51,7 @@
 - **Common Myth:** Scouts frequently assume that swatting aggressively at hovering wasps will frighten them away.
 - **Pamphlet Fact:** Rapid defensive flailing crushes alarm pheromone glands or agitates wasps into releasing attack chemical signals.
 
-![Practical Insect Study field visual showing proper setup, measurement, and technique for field safety and bite prevention in Requirement 1.](/assets/pamphlet_images/insect_study_p003_img1.png)
+![Insect Study Requirement 1 figure showing female worker bees inject venom through a modified egg laying ovipositor stinger structure.](/assets/pamphlet_images/insect_study_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -92,7 +92,7 @@
 - **Common Myth:** Scouts sometimes think an insect has red blood and an internal spine.
 - **Pamphlet Fact:** Insects lack an internal vertebral column and circulate clear or yellowish hemolymph through a dorsal vessel.
 
-![Illustrated Insect Study technical diagram of insect anatomy and major orders for Requirement 2 field execution.](/assets/pamphlet_images/insect_study_p007_img1.png)
+![Insect Study Requirement 2 figure showing adult insect bodies feature three primary sections named the head, thorax, and abdomen.](/assets/pamphlet_images/insect_study_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -161,7 +161,7 @@
 - **Common Myth:** Scouts often believe baby grasshoppers hatch as wormlike grubs before growing legs.
 - **Pamphlet Fact:** Grasshopper hatchlings emerge with head capsules, six legs, and compound eyes, looking like tiny wingless adults.
 
-![Step-by-step Insect Study visual guide highlighting insect metamorphosis and life cycles positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/insect_study_p012_img1.png)
+![Insect Study Requirement 3 figure showing lepidoptera pass through egg, feeding larva, stationary pupa, and winged reproductive.](/assets/pamphlet_images/insect_study_p012_img1.png)
 
 | Comparison Dimension | Complete Four Stage Butterfly Metamorphosis | Incomplete Three Stage Grasshopper Metamorphosis |
 | :--- | :--- | :--- |
@@ -307,11 +307,11 @@
 - Observing an artificial ant nest reveals the morphological division between the queen, minor workers, and soldiers. Scouts identify specific subterranean chambers dedicated to nursery brood, seed granaries, and cemetery refuse piles.
 - Req 5b Standard (Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)): Do ONE of the following: (c) 1. Observe an ant colony in a formicarium (ant farm). Find the queen and worker ants. Explain to your counselor the different chambers found within an ant colony. (d) 2. Study a hive of bees. Remove the combs and find the queen. Estimate the amount of brood and count the number of queen cells. Explain how to determine the amount of honey in the hive. (If you are allergic to bee stings, pick option (1) above.)
 
-#### Req 5b(c): Core principles and practical standards for Ant Colony or Beehive Observation
+#### Req 5b(c): Formicarium Ant Colony Chamber Architecture
 **Official Requirement 5b(c):** 1. Observe an ant colony in a formicarium (ant farm). Find the queen and worker ants. Explain to your counselor the different chambers found within an ant colony.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5b(c) Structured Technical Study & Explanation Matrix (Ant Colony in A Formicarium)
-- **Common Myth:** In Insect Study Requirement 5b(c), many Scouts assume core principles and practical standards for ant colony or beehive observation only requires a general overview rather than specific details on core principles and practical standards for ant colony or beehive observation.
-- **Pamphlet Fact:** The official Insect Study pamphlet for Requirement 5b(c) specifies that Scouts must thoroughly document core principles and practical standards for ant colony or beehive observation and explain core principles and practical standards for ant colony or beehive observation during counselor review.
+- **Common Myth:** Ants excavate tunnels randomly and store eggs, larvae, food reserves, and colony waste together within the same open spaces.
+- **Pamphlet Fact:** Ants organize their colonies into distinct specialized chambers dedicated separately to sorting brood by growth stage, stockpiling provisions, and isolating refuse in graveyard middens to prevent disease.
 
 ![A young Scout carries a long-handled sweep net ready for field bug collection.](/assets/pamphlet_images/insect_study_p039_img1.png)
 
@@ -324,11 +324,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 5b(d): Insect Study Field Standard
+#### Req 5b(d): Beehive Comb Brood and Honey Assessment
 **Official Requirement 5b(d):** 2. Study a hive of bees. Remove the combs and find the queen. Estimate the amount of brood and count the number of queen cells. Explain how to determine the amount of honey in the hive. (If you are allergic to bee stings, pick option (1) above.)
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Organizer (Concept & Examples Notes):** Req 5b(d) Structured Technical Study & Explanation Matrix (Hive of Bees Remove The)
-- **Common Myth:** When preparing Insect Study Requirement 5b(d) (Insect Study Field Standard), Scouts sometimes overlook the concrete pamphlet benchmarks covering insect study field standard.
-- **Pamphlet Fact:** Counselor verification for Insect Study Requirement 5b(d) requires concrete workbook evidence on insect study field standard, specifically addressing insect study field standard.
+- **Common Myth:** Queen bee cells look identical to standard hexagonal worker brood cells across the surface of the comb.
+- **Pamphlet Fact:** Queen cells are distinctive vertical structures resembling textured peanut shells that hang downward from comb edges rather than flush horizontal hexagons.
 
 ![A brown earwig displays its prominent rear pincers while resting on a green leaf.](/assets/pamphlet_images/insect_study_p051_img1.png)
 

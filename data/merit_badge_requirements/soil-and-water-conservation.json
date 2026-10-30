@@ -395,20 +395,20 @@
         "scenario_prompt": "How do farming and land-management practices like contour plowing, cover crops, and vegetated riparian buffers along streams protect soil and water resources?",
         "question": "How do farming and land-management practices like contour plowing, cover crops, and vegetated riparian buffers along streams protect soil and water resources?",
         "options": [
-          "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots, and filter out sediment and fertilizers before runoff reaches streams.",
+          "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots.",
           "B. They strip away the organic O and A soil horizons so rainwater can flow rapidly over bare subsoil into rivers.",
           "C. They compact clay particles into an impermeable crust that prevents groundwater aquifers from recharging.",
           "D. They channel agricultural runoff directly into storm drains to speed up stream erosion downstream."
         ],
         "choices": [
-          "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots, and filter out sediment and fertilizers before runoff reaches streams.",
+          "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots.",
           "B. They strip away the organic O and A soil horizons so rainwater can flow rapidly over bare subsoil into rivers.",
           "C. They compact clay particles into an impermeable crust that prevents groundwater aquifers from recharging.",
           "D. They channel agricultural runoff directly into storm drains to speed up stream erosion downstream."
         ],
         "correct_index": 0,
         "correct_letter": "A",
-        "correct_answer": "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots, and filter out sediment and fertilizers before runoff reaches streams.",
+        "correct_answer": "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots.",
         "explanation": "Correct Answer (A): Contour farming, cover crops, and streamside buffer strips reduce water velocity, hold topsoil in place against wind and water erosion, and trap sediment and nutrient pollution.",
         "pamphlet_page_ref": "p. 21, p. 25"
       },
@@ -2937,8 +2937,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "In Soil and Water Conservation Requirement 7a(1), many Scouts assume agricultural experiment only requires a general overview rather than specific details on an agricultural experiment.",
-                "fact": "The official Soil and Water Conservation pamphlet for Requirement 7a(1) specifies that Scouts must thoroughly document agricultural experiment and explain an agricultural experiment during counselor review."
+                "misconception": "Agricultural test stations exist only to breed high-yielding commercial crops rather than to evaluate soil and water conservation methods.",
+                "fact": "Researchers at agricultural experiment stations use specialized runoff collection flumes and soil test beds to measure exact rates of topsoil erosion and fertilizer leaching under different cultivation methods."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -2964,14 +2964,17 @@
               "id": "7a(1)",
               "sub_req_label": "7a(1)",
               "sub_req_text": "An agricultural experiment.",
-              "topic_title": "Req 7a(1): Agricultural Experiment",
-              "pamphlet_summary": "Agricultural Experiment: The Soil and Water Conservation pamphlet for Requirement 7a(1) details an agricultural experiment, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(1): Agricultural Research Experiment Station",
+              "pamphlet_summary": "Agricultural Research Experiment Station: Scouts tour research plots where agricultural scientists test experimental crop rotations, cover crops, and tillage trials to measure soil erosion and nutrient runoff rates. The field visit focuses on comparing untreated control plots with conservation test plots to evaluate how modern soil preservation techniques perform in practice (p. 31).",
               "pamphlet_excerpts": [
-                "Agricultural Experiment: The Soil and Water Conservation pamphlet for Requirement 7a(1) details an agricultural experiment, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Agricultural Research Experiment Station: Scouts tour research plots where agricultural scientists test experimental crop rotations, cover crops, and tillage trials to measure soil erosion and nutrient runoff rates. The field visit focuses on comparing untreated control plots with conservation test plots to evaluate how modern soil preservation techniques perform in practice (p. 31)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "When agricultural scientists test a new soil conservation method in the field, how do they measure whether it actually keeps more topsoil and moisture on the slope compared to conventional farming?"
+              ]
             },
             {
               "sub_id": "7a(2)",
@@ -3008,8 +3011,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "When preparing Soil and Water Conservation Requirement 7a(2) (Managed Forest or Woodlot Range), Scouts sometimes overlook the concrete pamphlet benchmarks covering a managed forest or woodlot, range, or pasture.",
-                "fact": "Counselor verification for Soil and Water Conservation Requirement 7a(2) requires concrete workbook evidence on managed forest or woodlot range, specifically addressing a managed forest or woodlot, range, or pasture."
+                "misconception": "Leaving a forest or pasture completely undisturbed by livestock or harvesting tools is always superior to active conservation management for soil health.",
+                "fact": "Controlled rotational grazing and selective timber thinning encourage vigorous root development and stimulate dense ground vegetation that protects soil far better than overgrown or stagnant stands."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3035,14 +3038,17 @@
               "id": "7a(2)",
               "sub_req_label": "7a(2)",
               "sub_req_text": "A managed forest or woodlot, range, or pasture.",
-              "topic_title": "Req 7a(2): Managed Forest or Woodlot Range",
-              "pamphlet_summary": "Managed Forest or Woodlot Range: The Soil and Water Conservation pamphlet for Requirement 7a(2) details a managed forest or woodlot, range, or pasture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(2): Managed Forest And Pasture System",
+              "pamphlet_summary": "Managed Forest And Pasture System: Scouts inspect timber tracts, grazing paddocks, or woodlots to evaluate how rotational grazing and selective harvesting maintain dense vegetative cover and stabilize topsoil. Effective management balances animal stocking rates and harvest schedules to prevent soil compaction and rainfall runoff (p. 34).",
               "pamphlet_excerpts": [
-                "Managed Forest or Woodlot Range: The Soil and Water Conservation pamphlet for Requirement 7a(2) details a managed forest or woodlot, range, or pasture, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Managed Forest And Pasture System: Scouts inspect timber tracts, grazing paddocks, or woodlots to evaluate how rotational grazing and selective harvesting maintain dense vegetative cover and stabilize topsoil. Effective management balances animal stocking rates and harvest schedules to prevent soil compaction and rainfall runoff (p. 34)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "How does rotating cattle between fenced pasture paddocks protect topsoil and creek water quality differently than letting livestock roam freely across the entire property?"
+              ]
             },
             {
               "sub_id": "7a(3)",
@@ -3079,8 +3085,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "For Soil and Water Conservation Requirement 7a(3), a common mistake in a wildlife refuge or a fish is treating a wildlife refuge or a fish or game management area as optional background reading.",
-                "fact": "Mastering Soil and Water Conservation Requirement 7a(3) means following the pamphlet standard for a wildlife refuge or a fish and recording accurate notes on a wildlife refuge or a fish or game management area."
+                "misconception": "Wildlife refuges manage land strictly for animal populations without considering soil erosion or upstream sediment control.",
+                "fact": "Refuge personnel actively build silt fences, vegetated stream buffers, and water-level dikes because sediment runoff chokes aquatic spawning grounds and ruins wetland food supplies."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3106,14 +3112,17 @@
               "id": "7a(3)",
               "sub_req_label": "7a(3)",
               "sub_req_text": "A wildlife refuge or a fish or game management area.",
-              "topic_title": "Req 7a(3): A wildlife refuge or a fish",
-              "pamphlet_summary": "A wildlife refuge or a fish: The Soil and Water Conservation pamphlet for Requirement 7a(3) details a wildlife refuge or a fish or game management area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(3): Wildlife Refuge Habitat Management Area",
+              "pamphlet_summary": "Wildlife Refuge Habitat Management Area: Scouts examine how wildlife managers construct water control structures, restore wetlands, and plant riparian buffer strips to provide animal habitat while controlling siltation. Preserving soil stability along stream banks and marshlands directly protects aquatic nesting beds and prevents sediment from degrading open water (p. 41).",
               "pamphlet_excerpts": [
-                "A wildlife refuge or a fish: The Soil and Water Conservation pamphlet for Requirement 7a(3) details a wildlife refuge or a fish or game management area, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Wildlife Refuge Habitat Management Area: Scouts examine how wildlife managers construct water control structures, restore wetlands, and plant riparian buffer strips to provide animal habitat while controlling siltation. Preserving soil stability along stream banks and marshlands directly protects aquatic nesting beds and prevents sediment from degrading open water (p. 41)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "Why would a wildlife manager at a fish hatchery or waterfowl refuge care just as much about preventing mud from washing off nearby hillsides as they do about animal populations?"
+              ]
             },
             {
               "sub_id": "7a(4)",
@@ -3145,8 +3154,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "During Soil and Water Conservation Requirement 7a(4), Scouts can underestimate how directly mastery of conservation-managed farm or ranch depends on understanding a conservation-managed farm or ranch.",
-                "fact": "Scouting America standards for Soil and Water Conservation Requirement 7a(4) require complete workbook entries on conservation-managed farm or ranch to demonstrate full understanding of a conservation-managed farm or ranch."
+                "misconception": "A conservation farm stops erosion simply by avoiding synthetic chemicals without changing mechanical tillage methods or slope planting patterns.",
+                "fact": "Conservation farms rely primarily on physical field engineering practices including contour furrows, engineered terraces, and grassed waterways that physically intercept and redirect flowing stormwater."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3172,14 +3181,17 @@
               "id": "7a(4)",
               "sub_req_label": "7a(4)",
               "sub_req_text": "A conservation-managed farm or ranch.",
-              "topic_title": "Req 7a(4): Conservation-managed Farm or Ranch",
-              "pamphlet_summary": "Conservation-managed Farm or Ranch: The Soil and Water Conservation pamphlet for Requirement 7a(4) details a conservation-managed farm or ranch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(4): Conservation Managed Farm And Ranch",
+              "pamphlet_summary": "Conservation Managed Farm And Ranch: Scouts observe applied soil and water preservation practices such as contour plowing, terrace construction, grassed waterways, and no-till seeding under a formal conservation plan. These integrated practices guide surface runoff safely off hillsides while maximizing moisture retention in the root zone (p. 28).",
               "pamphlet_excerpts": [
-                "Conservation-managed Farm or Ranch: The Soil and Water Conservation pamphlet for Requirement 7a(4) details a conservation-managed farm or ranch, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Conservation Managed Farm And Ranch: Scouts observe applied soil and water preservation practices such as contour plowing, terrace construction, grassed waterways, and no-till seeding under a formal conservation plan. These integrated practices guide surface runoff safely off hillsides while maximizing moisture retention in the root zone (p. 28)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "If you walk across a farm situated on steep rolling hills, what visible clues would show you that the farmer actively manages the land to conserve soil and water?"
+              ]
             },
             {
               "sub_id": "7a(5)",
@@ -3216,8 +3228,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "In Soil and Water Conservation Requirement 7a(5), many Scouts assume managed watershed only requires a general overview rather than specific details on a managed watershed.",
-                "fact": "The official Soil and Water Conservation pamphlet for Requirement 7a(5) specifies that Scouts must thoroughly document managed watershed and explain a managed watershed during counselor review."
+                "misconception": "A watershed consists only of the open river channel and the lakes into which surface water visibly collects.",
+                "fact": "A watershed encompasses the entire surrounding land area, including ridges, pastures, towns, and forests, that drains precipitation into a shared river system or groundwater aquifer."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3243,14 +3255,17 @@
               "id": "7a(5)",
               "sub_req_label": "7a(5)",
               "sub_req_text": "A managed watershed.",
-              "topic_title": "Req 7a(5): Managed Watershed",
-              "pamphlet_summary": "Managed Watershed: The Soil and Water Conservation pamphlet for Requirement 7a(5) details a managed watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(5): Managed Watershed Drainage Basin System",
+              "pamphlet_summary": "Managed Watershed Drainage Basin System: Scouts investigate an entire drainage basin where interconnected forests, flood control reservoirs, headwater wetlands, and agricultural lands are managed jointly to preserve water quality. Coordinating land use across the watershed minimizes downstream flash flooding and reduces reservoir siltation (p. 43).",
               "pamphlet_excerpts": [
-                "Managed Watershed: The Soil and Water Conservation pamphlet for Requirement 7a(5) details a managed watershed, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Managed Watershed Drainage Basin System: Scouts investigate an entire drainage basin where interconnected forests, flood control reservoirs, headwater wetlands, and agricultural lands are managed jointly to preserve water quality. Coordinating land use across the watershed minimizes downstream flash flooding and reduces reservoir siltation (p. 43)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "Why might a water utility manager in a city downstream spend funds planting trees and stabilizing gullies on private farmland fifty miles upstream?"
+              ]
             },
             {
               "sub_id": "7a(6)",
@@ -3287,8 +3302,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "When preparing Soil and Water Conservation Requirement 7a(6) (Soil and Water Conservation Waste-treatment Principles), Scouts sometimes overlook the concrete pamphlet benchmarks covering a waste-treatment plant.",
-                "fact": "Counselor verification for Soil and Water Conservation Requirement 7a(6) requires concrete workbook evidence on soil and water conservation waste-treatment principles, specifically addressing a waste-treatment plant."
+                "misconception": "Wastewater treatment plants purify sewage by straining it entirely through mechanical chemical filters that instantly convert sewage into municipal tap water.",
+                "fact": "Treatment facilities rely heavily on colonies of living aerobic bacteria in aeration tanks to consume dissolved organic waste before settling solids out as sludge."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3314,14 +3329,17 @@
               "id": "7a(6)",
               "sub_req_label": "7a(6)",
               "sub_req_text": "A waste-treatment plant.",
-              "topic_title": "Req 7a(6): Soil and Water Conservation Waste-treatment Principles",
-              "pamphlet_summary": "Soil and Water Conservation Waste-treatment Principles: The Soil and Water Conservation pamphlet for Requirement 7a(6) details a waste-treatment plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(6): Municipal Wastewater Treatment Facility",
+              "pamphlet_summary": "Municipal Wastewater Treatment Facility: Scouts tour primary sedimentation basins, secondary aeration tanks, and tertiary disinfection stages to see how communities remove organic solids and pathogens from wastewater. The facility protects receiving streams and downstream water users by reducing biochemical oxygen demand and clarifying the discharge (p. 56).",
               "pamphlet_excerpts": [
-                "Soil and Water Conservation Waste-treatment Principles: The Soil and Water Conservation pamphlet for Requirement 7a(6) details a waste-treatment plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Municipal Wastewater Treatment Facility: Scouts tour primary sedimentation basins, secondary aeration tanks, and tertiary disinfection stages to see how communities remove organic solids and pathogens from wastewater. The facility protects receiving streams and downstream water users by reducing biochemical oxygen demand and clarifying the discharge (p. 56)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "How do municipal treatment plants use microscopic living organisms to clean millions of gallons of dirty water before discharging it back into a local river?"
+              ]
             },
             {
               "sub_id": "7a(7)",
@@ -3353,8 +3371,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "For Soil and Water Conservation Requirement 7a(7), a common mistake in public drinking water treatment is treating a public drinking water treatment plant as optional background reading.",
-                "fact": "Mastering Soil and Water Conservation Requirement 7a(7) means following the pamphlet standard for public drinking water treatment and recording accurate notes on a public drinking water treatment plant."
+                "misconception": "Adding chlorine or other chemical disinfectants to raw water is all a municipal water utility needs to make river water clear and safe for household consumption.",
+                "fact": "Municipal plants must first add chemical coagulants like alum so microscopic silt particles clump together and settle out in clarification basins before sand filters and disinfection can work effectively."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3380,14 +3398,17 @@
               "id": "7a(7)",
               "sub_req_label": "7a(7)",
               "sub_req_text": "A public drinking water treatment plant.",
-              "topic_title": "Req 7a(7): Public Drinking Water Treatment",
-              "pamphlet_summary": "Public Drinking Water Treatment: The Soil and Water Conservation pamphlet for Requirement 7a(7) details a public drinking water treatment plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(7): Public Drinking Water Treatment Plant",
+              "pamphlet_summary": "Public Drinking Water Treatment Plant: Scouts observe the multi-step purification process that raw reservoir or river water undergoes, including chemical coagulation, flocculation, sand filtration, and chlorine disinfection. These sequential treatments eliminate suspended clay particles, microbial pathogens, and organic discoloration to safeguard public health (p. 58).",
               "pamphlet_excerpts": [
-                "Public Drinking Water Treatment: The Soil and Water Conservation pamphlet for Requirement 7a(7) details a public drinking water treatment plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Public Drinking Water Treatment Plant: Scouts observe the multi-step purification process that raw reservoir or river water undergoes, including chemical coagulation, flocculation, sand filtration, and chlorine disinfection. These sequential treatments eliminate suspended clay particles, microbial pathogens, and organic discoloration to safeguard public health (p. 58)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "What would happen if a municipal drinking water plant added chlorine to muddy river water without first removing the suspended silt and organic matter?"
+              ]
             },
             {
               "sub_id": "7a(8)",
@@ -3428,8 +3449,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "During Soil and Water Conservation Requirement 7a(8), Scouts can underestimate how directly mastery of an industry water use installation depends on understanding an industry water use installation.",
-                "fact": "Scouting America standards for Soil and Water Conservation Requirement 7a(8) require complete workbook entries on an industry water use installation to demonstrate full understanding of an industry water use installation."
+                "misconception": "Industrial plants consume vast quantities of river water once for manufacturing processes and then dump the untreated heated water directly back into the waterway.",
+                "fact": "Modern industrial facilities use evaporative cooling towers and closed recirculation loops that reuse the same water dozens of times while treating waste streams before any discharge."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3455,14 +3476,17 @@
               "id": "7a(8)",
               "sub_req_label": "7a(8)",
               "sub_req_text": "An industry water use installation.",
-              "topic_title": "Req 7a(8): An industry water use installation",
-              "pamphlet_summary": "An industry water use installation: The Soil and Water Conservation pamphlet for Requirement 7a(8) details an industry water use installation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(8): Industrial Water Conservation Installation",
+              "pamphlet_summary": "Industrial Water Conservation Installation: Scouts inspect factory recycling systems, closed-loop cooling towers, and on-site industrial wastewater treatment units designed to minimize freshwater withdrawals. The installation conserves regional water supplies and avoids thermal pollution by recirculating process cooling water rather than releasing hot effluent into nearby rivers (p. 62).",
               "pamphlet_excerpts": [
-                "An industry water use installation: The Soil and Water Conservation pamphlet for Requirement 7a(8) details an industry water use installation, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Industrial Water Conservation Installation: Scouts inspect factory recycling systems, closed-loop cooling towers, and on-site industrial wastewater treatment units designed to minimize freshwater withdrawals. The installation conserves regional water supplies and avoids thermal pollution by recirculating process cooling water rather than releasing hot effluent into nearby rivers (p. 62)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "Why is pumping hot but chemically pure cooling water directly into a local stream just as harmful to aquatic life as releasing chemical contaminants?"
+              ]
             },
             {
               "sub_id": "7a(9)",
@@ -3499,8 +3523,8 @@
               },
               "pamphlet_page_citation": "Official Scouting America Soil and Water Conservation Merit Badge Pamphlet (p. 49, p. 53)",
               "common_misconception_pair": {
-                "misconception": "In Soil and Water Conservation Requirement 7a(9), many Scouts assume soil and water conservation desalinization principles only requires a general overview rather than specific details on a desalinization plant.",
-                "fact": "The official Soil and Water Conservation pamphlet for Requirement 7a(9) specifies that Scouts must thoroughly document soil and water conservation desalinization principles and explain a desalinization plant during counselor review."
+                "misconception": "Desalination provides an inexpensive, effortless source of limitless freshwater with zero environmental side effects for any coastal community.",
+                "fact": "Desalination requires intense electrical energy to push seawater through semipermeable membranes and produces caustic high-salinity brine that can damage marine ecosystems if not dispersed carefully."
               },
               "starting_requirement_gate": null,
               "curated_resources": [
@@ -3526,14 +3550,17 @@
               "id": "7a(9)",
               "sub_req_label": "7a(9)",
               "sub_req_text": "A desalinization plant.",
-              "topic_title": "Req 7a(9): Soil and Water Conservation Desalinization Principles",
-              "pamphlet_summary": "Soil and Water Conservation Desalinization Principles: The Soil and Water Conservation pamphlet for Requirement 7a(9) details a desalinization plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49).",
+              "topic_title": "Req 7a(9): Desalination Water Purification Facility",
+              "pamphlet_summary": "Desalination Water Purification Facility: Scouts study how facilities produce potable freshwater from ocean water or brackish groundwater using high-pressure reverse osmosis membranes or thermal distillation. The tour highlights the substantial electrical energy requirements of the process as well as the environmental challenges of disposing of concentrated brine waste (p. 65).",
               "pamphlet_excerpts": [
-                "Soil and Water Conservation Desalinization Principles: The Soil and Water Conservation pamphlet for Requirement 7a(9) details a desalinization plant, outlining the core principles, practical steps, and verification criteria for your Scout Workbook (p. 49)."
+                "Desalination Water Purification Facility: Scouts study how facilities produce potable freshwater from ocean water or brackish groundwater using high-pressure reverse osmosis membranes or thermal distillation. The tour highlights the substantial electrical energy requirements of the process as well as the environmental challenges of disposing of concentrated brine waste (p. 65)."
               ],
               "workbook_diagram_url": "assets/pamphlet_images/soil_and_water_conservation_p050_img1.png",
               "workbook_diagram_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
-              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland."
+              "workbook_visual_caption": "Aerial view of contour strip cropping prevents water runoff on farmland.",
+              "socratic_questions": [
+                "If the oceans contain ninety-seven percent of the water on Earth, why do cities not build desalination plants along every coastline instead of building inland reservoirs?"
+              ]
             }
           ],
           "syllabus_bucket": "Make-Up Eligible",
@@ -4193,13 +4220,13 @@
       "scenario_prompt": "How do farming and land-management practices like contour plowing, cover crops, and vegetated riparian buffers along streams protect soil and water resources?",
       "question": "How do farming and land-management practices like contour plowing, cover crops, and vegetated riparian buffers along streams protect soil and water resources?",
       "options": [
-        "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots, and filter out sediment and fertilizers before runoff reaches streams.",
+        "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots.",
         "B. They strip away the organic O and A soil horizons so rainwater can flow rapidly over bare subsoil into rivers.",
         "C. They compact clay particles into an impermeable crust that prevents groundwater aquifers from recharging.",
         "D. They channel agricultural runoff directly into storm drains to speed up stream erosion downstream."
       ],
       "choices": [
-        "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots, and filter out sediment and fertilizers before runoff reaches streams.",
+        "A. They slow down surface water runoff, anchor the nutrient-rich topsoil (A horizon) with plant roots.",
         "B. They strip away the organic O and A soil horizons so rainwater can flow rapidly over bare subsoil into rivers.",
         "C. They compact clay particles into an impermeable crust that prevents groundwater aquifers from recharging.",
         "D. They channel agricultural runoff directly into storm drains to speed up stream erosion downstream."

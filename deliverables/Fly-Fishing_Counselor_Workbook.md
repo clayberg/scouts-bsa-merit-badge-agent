@@ -56,7 +56,7 @@
 - **Common Myth:** Smooth rubber soles provide sufficient traction on wet, mossy river rocks during heavy spring currents.
 - **Pamphlet Fact:** Studded rubber or felt soles bite through algal slime to maintain contact with river bedrock.
 
-![Illustrated Fly-Fishing technical diagram of fly-fishing hazards and first aid for Requirement 1 field execution.](/assets/pamphlet_images/fly_fishing_p003_img1.png)
+![Fly-Fishing Requirement 1 figure showing tight neoprene belts prevent river water from rapidly filling lower wader legs during falls.](/assets/pamphlet_images/fly_fishing_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -85,7 +85,7 @@
 - **Common Myth:** Yanking a barbed hook straight out backward causes minimal tissue damage to an angler.
 - **Pamphlet Fact:** Backing out an unsnipped barb tears muscle tissue unless pushed through or disengaged with string.
 
-![Step-by-step Fly-Fishing visual guide highlighting balancing fly rods and lines positioning and inspection checkpoints for Requirement 2.](/assets/pamphlet_images/fly_fishing_p007_img1.png)
+![Fly-Fishing Requirement 2 figure showing match the designated line weight printed on the rod blank to your line.](/assets/pamphlet_images/fly_fishing_p007_img1.png)
 
 | Req 1c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -245,7 +245,7 @@
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
-| **1. Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques.** | `____________________________________` | `____________________________________` |
+| **1. Demonstrate the ability to cast a fly 30 feet consistently and accurately using both overhead and roll cast techniques** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Casting Arc Boundaries: Stop the rod tip crisply between ten o'clock forward and two o'clock backward.
@@ -375,7 +375,7 @@
 
 | Req 10 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Catch one fish on a fly and identify it.** | `____________________________________` | `____________________________________` |
+| **1. Catch one fish on a fly and identify it** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Trout and salmon possess a small fleshy adipose fin between dorsal and tail.

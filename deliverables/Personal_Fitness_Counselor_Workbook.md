@@ -55,7 +55,7 @@
 - **Common Myth:** Scouts who play varsity sports possess complete physical fitness without doing additional conditioning exercises.
 - **Pamphlet Fact:** Physical fitness combines cardiovascular endurance, muscular power, flexibility, and body composition rather than mere sports dominance.
 
-![Practical Personal Fitness field visual showing proper setup, measurement, and technique for dimensions of personal fitness in Requirement 1.](/assets/pamphlet_images/personal_fitness_p003_img1.png)
+![Personal Fitness Requirement 1 figure showing complete fitness integrates physical prowess, mental alertness, emotional balance.](/assets/pamphlet_images/personal_fitness_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -97,7 +97,7 @@
 - **Common Myth:** Excelling in physical fitness offsets negligence in mental wellness, social connection, and spiritual growth.
 - **Pamphlet Fact:** Weakness in any single dimension of fitness degrades overall vitality, emotional judgment, and personal effectiveness.
 
-![Detailed Personal Fitness reference illustration comparing key components and stages of daily health and fitness habits for Requirement 3.](/assets/pamphlet_images/personal_fitness_p012_img1.png)
+![Personal Fitness Requirement 3 figure showing balanced physical fitness routines must integrate aerobic endurance, muscular.](/assets/pamphlet_images/personal_fitness_p012_img1.png)
 
 | Req 1d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -138,7 +138,7 @@
 - **Common Myth:** A sports physical examination is identical to a comprehensive annual well child pediatric exam.
 - **Pamphlet Fact:** Preventive physical exams evaluate baseline developmental markers, cardiac function, and immunization status before strenuous programs begin.
 
-![Illustrated Personal Fitness technical diagram of medical and dental examinations for Requirement 2 field execution.](/assets/pamphlet_images/personal_fitness_p007_img1.png)
+![Personal Fitness Requirement 2 figure showing annual medical evaluations detect asymptomatic conditions before strenuous.](/assets/pamphlet_images/personal_fitness_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

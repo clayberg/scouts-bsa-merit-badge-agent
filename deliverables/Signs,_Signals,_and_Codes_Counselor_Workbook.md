@@ -99,7 +99,7 @@
 - **Common Myth:** Scouts think sending Morse code faster makes messages easier to understand for the listening station.
 - **Pamphlet Fact:** Clear spacing between characters matters far more than raw sending speed during telegraphy reception.
 
-![Step-by-step Signs, Signals, and Codes visual guide highlighting morse code and sign language positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/signs_signals_and_codes_p012_img1.png)
+![Signs, Signals, and Codes Requirement 3 figure showing a dah duration equals three dits, with one dit interval between individual elements.](/assets/pamphlet_images/signs_signals_and_codes_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -115,7 +115,7 @@
 - **Common Myth:** Scouts assume American Sign Language is simply a word for word translation of spoken English.
 - **Pamphlet Fact:** American Sign Language uses its own independent grammatical structure, topical ordering, and nonmanual markers.
 
-![Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for history and importance of communication in Requirement 1.](/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png)
+![Signs, Signals, and Codes Requirement 1 figure showing claude Chappe built mechanical semaphore towers across France to transmit tactical.](/assets/pamphlet_images/signs_signals_and_codes_p003_img1.png)
 
 | Req 3b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -149,7 +149,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Brief Explanation About Semaphore
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Step-by-step Signs, Signals, and Codes visual guide highlighting signs, signals.](/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png)
+![Signs, Signals, and Codes Requirement 4 figure showing semaphore flag angles align precisely with eight compass directions radiating.](/assets/pamphlet_images/signs_signals_and_codes_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -171,7 +171,7 @@
 - **Common Myth:** Nautical flags are intended solely for spelling out full sentences word by word during voyages.
 - **Pamphlet Fact:** Most nautical flags serve as one flag or two flag codes for urgent international maritime messages.
 
-![Illustrated Signs, Signals, and Codes technical diagram of emergency and search rescue signaling for Requirement 2 field execution.](/assets/pamphlet_images/signs_signals_and_codes_p007_img1.png)
+![Signs, Signals, and Codes Requirement 2 figure showing three evenly spaced signal fires or whistle blasts indicate life threatening distress.](/assets/pamphlet_images/signs_signals_and_codes_p007_img1.png)
 
 | Comparison Dimension | Two-Flag Angular Semaphore Positions | International Maritime Signal Flag Hoists |
 | :--- | :--- | :--- |
@@ -197,11 +197,11 @@
 - Transmitting text requires snapping flags quickly into letter positions without pausing between transitions unless repeating letters. Senders cross flags low in front of the body to indicate word breaks to the receiver.
 - Req 4c Standard (Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)): After 4(a) and 4(b) have been completed, do the following: (1) Spell your first name using semaphore. Send or receive a message of six to 10 words using semaphore. (2) Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
 
-#### Req 4c(1): Spell your first name using semaphore
+#### Req 4c(1): Semaphore Name And Message Transmission
 **Official Requirement 4c(1):** Spell your first name using semaphore. Send or receive a message of six to 10 words using semaphore.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4c(1) Structured Technical Study & Explanation Matrix (Spell Your First Name Using)
-- **Common Myth:** In Signs, Signals, and Codes Requirement 4c(1), many Scouts assume spell your first name using semaphore only requires a general overview rather than specific details on spell your first name using semaphore.
-- **Pamphlet Fact:** The official Signs, Signals, and Codes pamphlet for Requirement 4c(1) specifies that Scouts must thoroughly document spell your first name using semaphore and explain spell your first name using semaphore during counselor review.
+- **Common Myth:** Signalers can transmit a complete sentence continuously without pausing or resetting their flags between individual words.
+- **Pamphlet Fact:** Senders must return both flags downward to the rest position after each word so the receiver can distinguish word boundaries.
 
 | Req 4c(1) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -218,11 +218,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 4c(2): Using illustrations or photographs, identify 10
+#### Req 4c(2): Nautical Flag Identification And Significance
 **Official Requirement 4c(2):** Using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Organizer (Concept & Examples Notes):** Req 4c(2) Structured Technical Study & Explanation Matrix (Illustrations Nautical Flags Discuss)
-- **Common Myth:** When preparing Signs, Signals, and Codes Requirement 4c(2) (Using illustrations or photographs, identify 10), Scouts sometimes overlook the concrete pamphlet benchmarks covering using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
-- **Pamphlet Fact:** Counselor verification for Signs, Signals, and Codes Requirement 4c(2) requires concrete workbook evidence on using illustrations or photographs, identify 10, specifically addressing using illustrations or photographs, identify 10 examples of nautical flags and discuss their importance.
+- **Common Myth:** Nautical flags function solely as an alphabet to spell out written words letter by letter.
+- **Pamphlet Fact:** Individual nautical flags have standardized international meanings that convey immediate navigational status and emergency warnings without spelling words.
 
 | Req 4c(2) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -249,7 +249,7 @@
 - **Common Myth:** Pressing down hard with fingertips helps readers feel subtle braille dot patterns more distinctly.
 - **Pamphlet Fact:** Heavy finger pressure dulls fingertip tactile receptors and flattens paper embossed dots over time.
 
-![Detailed Signs, Signals, and Codes reference illustration comparing key components and stages of signs, signals.](/assets/pamphlet_images/signs_signals_and_codes_p005_img1.png)
+![Signs, Signals, and Codes Requirement 5 figure showing cells consist of two parallel vertical columns containing three embossed dot positions.](/assets/pamphlet_images/signs_signals_and_codes_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -289,7 +289,7 @@
 - **Common Myth:** Sound travels at identical speeds and intensities regardless of atmospheric humidity, temperature, or wind.
 - **Pamphlet Fact:** Temperature inversions and wind shear dramatically alter sound wave propagation and perceived source location.
 
-![Practical Signs, Signals, and Codes field visual showing proper setup, measurement, and technique for signs, signals.](/assets/pamphlet_images/signs_signals_and_codes_p006_img1.png)
+![Signs, Signals, and Codes Requirement 6 figure showing acoustic alerts spread in all directions simultaneously, reaching listeners.](/assets/pamphlet_images/signs_signals_and_codes_p006_img1.png)
 
 | Comparison Dimension | Omnidirectional Acoustic Warning Signals | Line-of-Sight Silent Patrol Signals |
 | :--- | :--- | :--- |
@@ -358,7 +358,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for For THREE of the following activities
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Illustrated Signs, Signals, and Codes technical diagram of signs, signals.](/assets/pamphlet_images/signs_signals_and_codes_p008_img1.png)
+![Signs, Signals, and Codes Requirement 8 figure showing point index finger upward and rotate forearm in small circles to raise crane loads.](/assets/pamphlet_images/signs_signals_and_codes_p008_img1.png)
 
 | Req 8a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |

@@ -42,7 +42,7 @@
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings.** | `____________________________________` | `____________________________________` |
+| **1. Explain the proper safety procedures to follow when preparing surfaces and applying coatings** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Vapor Dispersion: Mechanical exhaust fans draw volatile organic compounds safely away from indoor breathing zones.
@@ -71,7 +71,7 @@
 - **Common Myth:** Unpainted lumber lasts just as long outdoors if sheltered under an overhanging porch roof.
 - **Pamphlet Fact:** Atmospheric moisture cycles warp and split unfinished wood fibers even when protected from direct rainfall.
 
-![Detailed Painting reference illustration comparing key components and stages of coating types, sheens, and applications for Requirement 2.](/assets/pamphlet_images/painting_p007_img1.png)
+![Painting Requirement 2 figure showing continuous resin films block moisture vapor intrusion that causes wood rot and warping.](/assets/pamphlet_images/painting_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -99,7 +99,7 @@
 - **Common Myth:** High gloss paints hide surface dents and uneven seams better than flat luster finishes.
 - **Pamphlet Fact:** Glossy finishes reflect light at sharp angles, making surface dips, bumps, and nail pops noticeably visible.
 
-![Step-by-step Painting visual guide highlighting surface preparation and coating safety positioning and inspection checkpoints for Requirement 1.](/assets/pamphlet_images/painting_p003_img1.png)
+![Painting Requirement 1 figure showing mechanical exhaust fans draw volatile organic compounds safely away from indoor.](/assets/pamphlet_images/painting_p003_img1.png)
 
 | Req 2c Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@
 - **Common Myth:** Any interior wall paint performs reliably on exterior handrails if applied in two thick coats.
 - **Pamphlet Fact:** Interior coatings lack exterior ultraviolet inhibitors and mildewcides, causing rapid chalking and peeling when weathered outdoors.
 
-![Step-by-step Painting visual guide highlighting patching, priming, and painting surfaces positioning and inspection checkpoints for Requirement 3.](/assets/pamphlet_images/painting_p012_img1.png)
+![Painting Requirement 3 figure showing acrylic latex caulking seals gaps around door casings to block drafts and moisture.](/assets/pamphlet_images/painting_p012_img1.png)
 
 | Req 2d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -167,7 +167,7 @@
 
 | Req 4 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet.** | `____________________________________` | `____________________________________` |
+| **1. Prepare and paint an item using harmonizing colors that you have selected using the color wheel in the Painting merit badge pamphlet** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Complementary Balance: Colors located directly opposite on the wheel create dynamic contrast and visual energy.
@@ -194,7 +194,7 @@
 
 | Req 5 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Show the right way to use, clean, maintain, and store painting equipment.** | `____________________________________` | `____________________________________` |
+| **1. Show the right way to use, clean, maintain, and store painting equipment** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Brush Cleaning: Work soapy warm water through bristles until runoff water clears of latex pigment.
@@ -221,7 +221,7 @@
 
 | Req 6 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting.** | `____________________________________` | `____________________________________` |
+| **1. Explain the importance of ladder safety, personal hygiene, and the use of personal protective equipment when painting** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Set ladder bases one foot away from walls for every four feet climb.
@@ -242,7 +242,7 @@
 
 | Req 7 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint.** | `____________________________________` | `____________________________________` |
+| **1. Explain some of the environmental and health issues concerning removing paint, applying paint, and discarding old paint** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Scraping old paint creates toxic neurotoxic lead dust requiring certified HEPA vacuum containment.

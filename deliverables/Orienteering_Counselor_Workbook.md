@@ -74,7 +74,7 @@
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Explain what orienteering is.** | `____________________________________` | `____________________________________` |
+| **1. Explain what orienteering** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Sport Definition: Point to point navigation across unfamiliar wilderness using specialized map features.
@@ -118,7 +118,7 @@
 - **Common Myth:** A navigator must walk with eyes fixed continuously on the compass dial.
 - **Pamphlet Fact:** Following a bearing requires sighting intermediate visual landmarks along the azimuth rather than staring downward at the needle.
 
-![Practical Orienteering field visual showing proper setup, measurement, and technique for first aid and injury prevention in Requirement 1.](/assets/pamphlet_images/orienteering_p003_img1.png)
+![Orienteering Requirement 1 figure showing apply moleskin directly over red friction hotspots before dermal layers separate.](/assets/pamphlet_images/orienteering_p003_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -168,7 +168,7 @@
 - **Common Myth:** Colors on topographic maps are decorative and vary according to the individual cartographer whim.
 - **Pamphlet Fact:** Topographic symbols use strict standardization: blue marks water, green marks vegetation, and black marks human structures.
 
-![Illustrated Orienteering technical diagram of fundamentals of orienteering and terrain for Requirement 2 field execution.](/assets/pamphlet_images/orienteering_p007_img1.png)
+![Orienteering Requirement 2 figure showing point to point navigation across unfamiliar wilderness using specialized map features.](/assets/pamphlet_images/orienteering_p007_img1.png)
 
 | Req 4b Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -213,7 +213,7 @@
 - **Common Myth:** Maps cannot be altered by drawing custom grid lines across the surveyed cartography.
 - **Pamphlet Fact:** Parallel magnetic meridian lines drawn across the sheet eliminate mathematical mental conversions in high speed competition.
 
-![Illustrated Orienteering technical diagram of compass features and field bearings for Requirement 3 field execution.](/assets/pamphlet_images/orienteering_p012_img1.png)
+![Orienteering Requirement 3 figure showing liquid filled capsule dampens needle oscillation for steady readings while moving.](/assets/pamphlet_images/orienteering_p012_img1.png)
 
 | Req 4d Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -504,7 +504,7 @@
 
 | Req 10 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
-| **1. Teach orienteering techniques to your patrol, troop, or crew.** | `____________________________________` | `____________________________________` |
+| **1. Teach orienteering techniques to your patrol, troop, or crew** | `____________________________________` | `____________________________________` |
 
 **Official Pamphlet Summary:**
 - Curriculum Structure: Deliver concise theory lessons followed immediately by outdoor hands on navigation exercises.

@@ -129,7 +129,7 @@
 - [ ] Field notebook, verification log sheet, and demonstration materials for Hands-On Experimentation Conduct THREE Physics
 - [ ] Buddy-pair checklist and counselor review rubric
 
-![Detailed Physics reference illustration comparing key components and stages of physics hands-on physics experiments & data analysis reference figure.](/assets/pamphlet_images/physics_p004_img1.png)
+![Physics Requirement 4 figure showing stated testable predictions must link quantifiable variables before beginning.](/assets/pamphlet_images/physics_p004_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -263,7 +263,7 @@
 - **Common Myth:** Refrigerator cooling systems operate by pumping cold air directly into food storage compartments.
 - **Pamphlet Fact:** Microwave ovens heat water molecules through dielectric resonance, while vehicle brakes convert kinetic energy into friction heat.
 
-![Practical Physics field visual showing proper setup, measurement, and technique for physics physics all around you reference figure in Requirement 5.](/assets/pamphlet_images/physics_p005_img1.png)
+![Physics Requirement 5 figure showing incompressible brake fluids transmit pedal force uniformly across caliper pistons via.](/assets/pamphlet_images/physics_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -335,11 +335,11 @@
 - Astrophysical observations reveal that visible baryonic matter cannot account for observed galactic rotational velocities or gravitational lensing. Cosmologists investigate dark matter candidates while exploring accelerating cosmic expansion driven by dark energy.
 - Req 6A Standard (Physics Test Lab Resource Guide, pp. 34-39): Option A: Unsolved Mysteries of Physics. Discuss the following with your counselor.
 
-#### Req 6A(a): Dark Matter Dark Energy Scientists
+#### Req 6A(a): Dark Matter And Dark Energy
 **Official Requirement 6A(a):** Dark Matter & Dark Energy. Scientists know it exists.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(a) Structured Technical Study & Explanation Matrix (Dark Matter Dark Energy Scientists)
-- **Common Myth:** In Physics Requirement 6A(a), many Scouts assume dark matter dark energy scientists only requires a general overview rather than specific details on dark matter & dark energy.
-- **Pamphlet Fact:** The official Physics pamphlet for Requirement 6A(a) specifies that Scouts must thoroughly document dark matter dark energy scientists and explain dark matter & dark energy during counselor review.
+- **Common Myth:** Dark matter and dark energy represent the same mysterious substance observed in different regions of space.
+- **Pamphlet Fact:** Dark matter acts as an attractive gravitational glue pulling galaxies together, while dark energy exerts a repulsive pressure accelerating cosmic expansion.
 
 ![Scouts load-testing a self-supporting wooden dowel bridge on a physics workbench.](/assets/pamphlet_images/physics_p015_img1.png)
 
@@ -350,11 +350,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6A(b): Black Holes & Wormholes
+#### Req 6A(b): Black Holes And Traversable Wormholes
 **Official Requirement 6A(b):** Black Holes & Wormholes. Can we harness their energy or travel through them.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6A(b) Structured Technical Study & Explanation Matrix (Black Holes Wormholes Can We)
-- **Common Myth:** When preparing Physics Requirement 6A(b) (Black Holes & Wormholes), Scouts sometimes overlook the concrete pamphlet benchmarks covering black holes & wormholes.
-- **Pamphlet Fact:** Counselor verification for Physics Requirement 6A(b) requires concrete workbook evidence on black holes & wormholes, specifically addressing black holes & wormholes.
+- **Common Myth:** A black hole acts like a giant cosmic vacuum cleaner actively roaming space to suck in distant planets.
+- **Pamphlet Fact:** An object orbiting a black hole experiences normal Newtonian gravity unless it crosses within the event horizon where escape velocity exceeds the speed of light.
 
 | Req 6A(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -373,11 +373,11 @@
 - Quantum information science harnesses particle superposition, wave function interference, and entanglement to perform complex algorithms. Cryogenic dilution refrigerators maintain ultra low thermal environments to prevent decoherence in superconducting qubit loops.
 - Req 6B Standard (Physics Test Lab Resource Guide, pp. 34-39): Option B: Quantum Mechanics & Computing. Discuss the following with your counselor.
 
-#### Req 6B(a): Quantum Computers How Can Super
+#### Req 6B(a): Principles Of Quantum Computing Systems
 **Official Requirement 6B(a):** Quantum Computers. How can super fast computers be made of atoms instead of microchips.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(a) Structured Technical Study & Explanation Matrix (Quantum Computers How Can Super)
-- **Common Myth:** In Physics Requirement 6B(a), many Scouts assume quantum computers how can super only requires a general overview rather than specific details on quantum computers.
-- **Pamphlet Fact:** The official Physics pamphlet for Requirement 6B(a) specifies that Scouts must thoroughly document quantum computers how can super and explain quantum computers during counselor review.
+- **Common Myth:** Quantum computers are simply faster desktop computers that run everyday programs and games at hyper speeds.
+- **Pamphlet Fact:** Quantum processors excel only at specialized mathematical tasks such as prime factorization and quantum physical simulations by taking advantage of interference among computational paths.
 
 | Req 6B(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -386,11 +386,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6B(b): Quantum Entanglement Can We Communicate
+#### Req 6B(b): Quantum Entanglement And Information Transfer
 **Official Requirement 6B(b):** Quantum Entanglement. Can we communicate instantly across space.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6B(b) Structured Technical Study & Explanation Matrix (Quantum Entanglement Can We Communicate)
-- **Common Myth:** When preparing Physics Requirement 6B(b) (Quantum Entanglement Can We Communicate), Scouts sometimes overlook the concrete pamphlet benchmarks covering quantum entanglement.
-- **Pamphlet Fact:** Counselor verification for Physics Requirement 6B(b) requires concrete workbook evidence on quantum entanglement can we communicate, specifically addressing quantum entanglement.
+- **Common Myth:** Entangled particles allow observers to transmit instant telegraph messages or voice communications across interstellar distances.
+- **Pamphlet Fact:** Measuring one entangled particle instantly determines its partner state, but retrieving meaningful information still requires a classical speed of light communication channel.
 
 | Req 6B(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -409,11 +409,11 @@
 - Modern astrophysics explores extreme relativistic environments around neutron stars, active galactic nuclei, and colliding black holes. Interferometers measure minute spacetime distortions, opening multi-messenger observational channels into cosmic evolutionary history.
 - Req 6C Standard (Physics Test Lab Resource Guide, pp. 34-39): Option C: Space Exploration & Astrophysics. Discuss the following with your counselor.
 
-#### Req 6C(a): Colonizing Mars How Can Physics
+#### Req 6C(a): Physics Of Martian Planetary Habitation
 **Official Requirement 6C(a):** Colonizing Mars. How can physics help humans live on other planets.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(a) Structured Technical Study & Explanation Matrix (Colonizing Mars How Can Physics)
-- **Common Myth:** In Physics Requirement 6C(a), many Scouts assume colonizing mars how can physics only requires a general overview rather than specific details on colonizing mars.
-- **Pamphlet Fact:** The official Physics pamphlet for Requirement 6C(a) specifies that Scouts must thoroughly document colonizing mars how can physics and explain colonizing mars during counselor review.
+- **Common Myth:** Astronauts on Mars can breathe outdoors simply by wearing warm coats because the planet holds a thick carbon dioxide atmosphere.
+- **Pamphlet Fact:** Surface atmospheric pressure on Mars is less than one percent of Earth atmospheric pressure, requiring pressurized habitats and active shielding against solar radiation.
 
 | Req 6C(a) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -422,11 +422,11 @@
 
 **Scout Notes / Demonstration Verification:** `___________________________________________________________`
 
-#### Req 6C(b): Interstellar Travel Can We Reach
+#### Req 6C(b): Mechanics Of Deep Interstellar Travel
 **Official Requirement 6C(b):** Interstellar Travel. Can we reach other stars with warp drives or solar sails.
 **Source:** *Physics Test Lab Resource Guide, pp. 34-39* • **Organizer (Concept & Examples Notes):** Req 6C(b) Structured Technical Study & Explanation Matrix (Interstellar Travel Can We Reach)
-- **Common Myth:** When preparing Physics Requirement 6C(b) (Interstellar Travel Can We Reach), Scouts sometimes overlook the concrete pamphlet benchmarks covering interstellar travel.
-- **Pamphlet Fact:** Counselor verification for Physics Requirement 6C(b) requires concrete workbook evidence on interstellar travel can we reach, specifically addressing interstellar travel.
+- **Common Myth:** Solar sails move through space by catching the physical solar wind of charged gas particles blowing from stars.
+- **Pamphlet Fact:** Solar sails generate thrust primarily from the radiation pressure of photons bouncing off highly reflective surfaces rather than ionized gas.
 
 | Req 6C(b) Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
