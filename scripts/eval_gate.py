@@ -238,7 +238,7 @@ def _compute_lexical_faithfulness(research_reqs: List[Dict[str, Any]], slides: L
         return 1.0
 
     slide_corpus = " ".join(
-        f"{s.get('title', '')} {' '.join(s.get('bullet_points', []))} {s.get('presenter_notes', '')}"
+        f"{s.get('title', '')} {s.get('verbatim_requirement_text', '')} {' '.join(s.get('bullet_points', []))} {s.get('presenter_notes', '')}"
         for s in slides
     ).lower()
     matched = sum(1 for tok in req_tokens if tok in slide_corpus)

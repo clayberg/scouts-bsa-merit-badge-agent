@@ -1513,7 +1513,12 @@ def _build_slide_teaching_notes(
         if sub_snippets:
             sub_req_summary = f"Scoped sub-requirements ({req_display_label}): " + "; ".join(sub_snippets) + ". "
 
-    if extra_insights:
+    if slide_idx_in_req == 0 and clean_req_text:
+        base_extra = " ".join(extra_insights[:1]) if extra_insights else sub_req_summary.strip()
+        supplementary_detail = (
+            f"Official BSA {req_display_label} standard: {clean_req_text} {base_extra}".strip()
+        )
+    elif extra_insights:
         supplementary_detail = " ".join(extra_insights[:2])
         if sub_req_summary and sub_range_label:
             supplementary_detail = f"{sub_req_summary}{supplementary_detail}"
