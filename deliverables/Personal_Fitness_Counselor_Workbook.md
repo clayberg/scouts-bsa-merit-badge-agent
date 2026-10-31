@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Describe a person who is physically fit.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Discontinue strenuous physical assessments immediately if a Scout experiences lightheadedness, chest discomfort, or severe shortness of breath.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 1a (Describe a person who is physically fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 1a (Describe a person who is physically fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical fitness is the ability to carry out daily tasks with vigor and alertness, without undue fatigue, with ample energy to enjoy leisure-time pursuits and meet unforeseen emergencies. It involves cardiovascular endurance, muscular strength, muscular endurance, flexibility, and proper body composition.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -55,7 +55,7 @@
 - **Common Myth:** Scouts who play varsity sports possess complete physical fitness without doing additional conditioning exercises.
 - **Pamphlet Fact:** Physical fitness combines cardiovascular endurance, muscular power, flexibility, and body composition rather than mere sports dominance.
 
-![Holistic Health diagram illustrating how complete fitness integrates physical prowess, mental alertness, emotional balance, and ethical spiritual strength.](/assets/pamphlet_images/personal_fitness_p003_img1.png)
+![Technical diagram of holistic health principles and field relationships in Personal Fitness (Requirement 1).](/assets/pamphlet_images/personal_fitness_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -68,7 +68,7 @@
 #### Req 1b: Mental and Emotional Health
 **Official Requirement 1b:** Describe a person who is mentally, emotionally, and socially fit.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 1b (Describe a person who is mentally, emotionally, and socially fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 1b (Describe a person who is mentally, emotionally, and socially fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mental, emotional, and social fitness represents the capacity to think clearly, manage emotional strain, and interact constructively with peers. A fit individual responds to setbacks with resilience and cooperates effectively within a patrol or family structure.
 - **Common Myth:** Mental fitness refers solely to academic test scores rather than emotional regulation and interpersonal maturity.
@@ -88,7 +88,7 @@
 **[Parent Directive]:** *Defining Personal Fitness. Explain to your counselor what personal fitness means to you, including*
 **Official Requirement 1c:** Describe a person who is spiritually fit.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 1c (Describe a person who is spiritually fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 1c (Describe a person who is spiritually fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Spiritual fitness involves a Scout finding meaning, purpose, and moral direction in life, guided by ethical beliefs and reverence. It reinforces ethical behavior and compassionate service toward fellow human beings.
 - **Common Myth:** Spiritual fitness requires following a specific singular doctrine rather than cultivating moral character and inner purpose.
@@ -105,7 +105,7 @@
 #### Req 1d: Holistic Balance Importance
 **Official Requirement 1d:** Explain why it is important to be fit in all of these ways.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 1d (Explain why it is important to be fit in all of these ways), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 1d (Explain why it is important to be fit in all of these ways), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Balanced fitness ensures that an individual remains stable, dependable, and capable in demanding life situations. Neglecting one component ultimately undermines performance and overall health.
 - **Common Myth:** Excelling in physical fitness offsets negligence in mental wellness, social connection, and spiritual growth.
@@ -122,7 +122,7 @@
 #### Req 1e: Scout Oath Principles Alignment
 **Official Requirement 1e:** Discuss how each aspect of personal fitness relates to the Scout Oath and Scout Law.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 1e (Discuss how each aspect of personal fitness relates to the Scout Oath and Scout Law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 1e (Discuss how each aspect of personal fitness relates to the Scout Oath and Scout Law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Every dimension of fitness directly aligns with keeping oneself physically strong, mentally awake, and morally straight. The Scout Law provides actionable benchmarks for social fitness through friendliness, courtesy, kindness, and obedience.
 - **Common Myth:** The Scout Oath serves as a ceremonial pledge rather than an actionable guide for daily physical and moral health.
@@ -145,7 +145,7 @@
 **Official Requirement 2a:** Discuss with your counselor the importance of having a physical examination each year. Discuss why overall health, immunizations, medications, allergies, and medical history are covered during an examination. Tell your counselor when you last underwent a physical examination.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 13, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always carry up to date personal health history forms and required emergency medications on every troop activity and fitness outing.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 2a (Discuss with your counselor the importance of having a physical examination each year.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 2a (Discuss with your counselor the importance of having a physical examination each year.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An annual physical exam allows a medical provider to evaluate systemic development, screen for hidden health anomalies, and assess readiness for physical conditioning. Reviewing family medical history and immunizations ensures safety across all activities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -154,7 +154,7 @@
 - **Common Myth:** A sports physical examination is identical to a comprehensive annual well child pediatric exam.
 - **Pamphlet Fact:** Preventive physical exams evaluate baseline developmental markers, cardiac function, and immunization status before strenuous programs begin.
 
-![Preventive Care diagram illustrating how annual medical evaluations detect asymptomatic conditions before strenuous physical conditioning programs begin.](/assets/pamphlet_images/personal_fitness_p007_img1.png)
+![Technical diagram of preventive care principles and field relationships in Personal Fitness (Requirement 2).](/assets/pamphlet_images/personal_fitness_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -167,7 +167,7 @@
 #### Req 2b: Preventive Dental Health Practices
 **Official Requirement 2b:** Explain why it is important to have a routine dental examination. Explain what preventive or corrective treatments your dentist can provide, and why daily oral care is an important part of staying well. Tell your counselor when you last underwent a dental examination.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 13, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 2b (Explain why it is important to have a routine dental examination. Explain what preventive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 2b (Explain why it is important to have a routine dental examination. Explain what preventive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Routine dental examinations enable early intervention against dental caries, gingivitis, and structural enamel problems. Daily oral hygiene through fluoride brushing and flossing removes plaque biofilms that cause periodontal disease.
 - **Common Myth:** Dental visits are only necessary when a tooth experiences acute pain, swelling, or visible damage.
@@ -192,7 +192,7 @@
 **Official Requirement 3a:** Explain the physical exercise you regularly do, whether your routine includes all four components of physical fitness (cardiorespiratory fitness, muscular strength and endurance, flexibility, and body composition), and how your current practices increase or decrease your likelihood of developing cardiovascular disease or other conditions in adulthood.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Avoid performance enhancing supplements, energy stimulants, or vaping substances that introduce cardiovascular strain and severe neurological risks.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3a (Explain the physical exercise you regularly do, whether your routine includes all four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3a (Explain the physical exercise you regularly do, whether your routine includes all four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A complete exercise program incorporates aerobic conditioning to strengthen the heart, resistance training for muscular development, and stretches for joint range of motion. Neglecting any component limits functional mobility and increases injury risk.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -214,7 +214,7 @@
 #### Req 3b: Harmful Substance Avoidance Strategy
 **Official Requirement 3b:** Discuss what harmful substances you consciously avoid, and how these actions affect your risk factors now and in the future.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3b (Discuss what harmful substances you consciously avoid, and how these actions affect your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3b (Discuss what harmful substances you consciously avoid, and how these actions affect your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Avoiding toxic substances preserves cellular integrity, brain development, and cardiovascular endurance during formative adolescent years. Conscious avoidance reduces future risks of hypertension, pulmonary disease, and substance use disorders.
 - **Common Myth:** Vaping flavored e-liquids introduces water vapor without harmful chemical consequences for pulmonary tissues.
@@ -231,7 +231,7 @@
 #### Req 3c: Vaccination Disease Prevention Principles
 **Official Requirement 3c:** Explain what common diseases can be prevented or mitigated by vaccinations, and whether you are immunized according to the advice of your healthcare provider and the direction of your parent or guardian.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3c (Explain what common diseases can be prevented or mitigated by vaccinations, and whether you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3c (Explain what common diseases can be prevented or mitigated by vaccinations, and whether you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vaccinations stimulate adaptive immunity against dangerous infectious pathogens such as tetanus, measles, pertussis, and influenza. Following evidence based immunization schedules preserves troop safety and community health.
 - **Common Myth:** Natural contraction of vaccine preventable infections is safer and more effective than scheduled clinical immunizations.
@@ -248,7 +248,7 @@
 #### Req 3d: Nutrition Fitness Relationship Dynamics
 **Official Requirement 3d:** Discuss how good nutrition is related to the other components of personal fitness, and if you follow a nutritious, balanced diet.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3d (Discuss how good nutrition is related to the other components of personal fitness, and if), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3d (Discuss how good nutrition is related to the other components of personal fitness, and if), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Nutrition fuels bodily energy pathways, repairs stressed muscle fibers, and regulates hormonal responses during conditioning. A balanced diet containing whole grains, lean proteins, fruits, and vegetables optimizes daily endurance.
 - **Common Myth:** Consuming high calorie processed junk food is harmless as long as an adolescent remains physically active.
@@ -265,7 +265,7 @@
 #### Req 3e: Body Weight Maintenance Fundamentals
 **Official Requirement 3e:** Discuss what a healthy weight is for you, and what you do to maintain a healthy weight.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3e (Discuss what a healthy weight is for you, and what you do to maintain a healthy weight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3e (Discuss what a healthy weight is for you, and what you do to maintain a healthy weight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Healthy weight represents a balanced ratio of lean muscle mass to body fat suited to an individual frame. Maintaining equilibrium requires matching caloric consumption with metabolic expenditure through regular active movement.
 - **Common Myth:** Healthy weight corresponds strictly to a low bathroom scale reading regardless of skeletal muscle mass.
@@ -282,7 +282,7 @@
 #### Req 3f: Restorative Sleep Importance Analysis
 **Official Requirement 3f:** Explain why getting adequate sleep is important, and whether you get enough hours of sleep each night.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3f (Explain why getting adequate sleep is important, and whether you get enough hours of sleep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3f (Explain why getting adequate sleep is important, and whether you get enough hours of sleep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Adolescents require eight to ten hours of consistent nightly sleep to support muscular repair and cognitive function. Chronic sleep deprivation impairs judgment, raises injury rates, and degrades immune resistance.
 - **Common Myth:** Sleeping five hours on weekdays can be fully compensated by oversleeping on weekend mornings.
@@ -299,7 +299,7 @@
 #### Req 3g: Social Recreation Family Support
 **Official Requirement 3g:** Discuss whether you spend quality time with your family and friends in social and recreational activities, and how you contribute to creating and maintaining a good home life.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 11, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 3g (Discuss whether you spend quality time with your family and friends in social and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 3g (Discuss whether you spend quality time with your family and friends in social and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Active participation in family traditions, shared household chores, and supportive peer recreation builds social well-being. A constructive home life provides an emotional anchor that reinforces personal confidence and accountability.
 - **Common Myth:** Social fitness refers merely to digital social media connectivity rather than active in person engagement.
@@ -323,7 +323,7 @@
 **Official Requirement 4a:** Include a measure of cardiorespiratory (aerobic) fitness: Record the time required to complete a mile walk or run as fast as you can. If you are unable to walk or run as a result of a disability that is permanent or is expected to last for longer than two years, work with your counselor to define a test with a similar degree of aerobic challenge.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 65, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 4a Physical Fitness Benchmark Assessment Matrix
 > **Guide to Safe Scouting Warning:** Execute a dynamic five minute warm-up before performing maximum effort tests to prevent acute muscle strains and ligament sprains.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 4a (Include a measure of cardiorespiratory (aerobic) fitness: Record the time required to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 4a (Include a measure of cardiorespiratory (aerobic) fitness: Record the time required to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The one-mile walk or run measures cardiorespiratory capacity and aerobic stamina under sustained physical effort. If physical limitations prevent running, alternate low-impact aerobic assessments such as swimming or cycling can be approved by the counselor.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *Measures of Physical Fitness*
 **Official Requirement 4b:** Include two measures of muscular strength and endurance: Record either the number of sit-ups done in 60 seconds OR how long a plank was held; AND, record the number of either push-ups OR pull-ups done in 60 seconds. If you are unable to complete one of these exercises safely and correctly, work with your counselor to replace it with a different exercise that measures strength and endurance.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 65, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 4b Physical Fitness Benchmark Assessment Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 4b (Include two measures of muscular strength and endurance: Record either the number of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 4b (Include two measures of muscular strength and endurance: Record either the number of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Muscular strength and endurance are measured through standardized protocols such as a 60-second sit-up or timed plank, coupled with push-ups or pull-ups. Strict adherence to proper form ensures that results reflect true functional muscular capability.
 - **Common Myth:** Performing rapid push-ups with partial elbow flexion provides an accurate measure of pectoral muscular strength.
@@ -363,7 +363,7 @@
 **[Parent Directive]:** *Measures of Physical Fitness*
 **Official Requirement 4c:** Include at least one measure of flexibility, such as a back-saver sit-and-reach test or a back scratch test.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 65, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 4c Physical Fitness Benchmark Assessment Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 4c (Include at least one measure of flexibility, such as a back-saver sit-and-reach test or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 4c (Include at least one measure of flexibility, such as a back-saver sit-and-reach test or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flexibility testing evaluates the range of motion around key joints using tools such as the back-saver sit-and-reach or back-scratch test. Adequate flexibility protects against muscular imbalances, postural defects, and lower back strains.
 - **Common Myth:** Bouncing aggressively at the end range of motion increases valid measurement reach during flexibility assessments.
@@ -386,7 +386,7 @@
 **Official Requirement 5a:** Complete each of the assessments you defined in requirement 4, and record your results.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 5a Physical Fitness Benchmark Assessment Matrix
 > **Guide to Safe Scouting Warning:** Maintain adequate hydration before and during baseline assessments, and cease exertion immediately if dizziness or nausea occurs.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 5a (Complete each of the assessments you defined in requirement 4, and record your results), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 5a (Complete each of the assessments you defined in requirement 4, and record your results), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts complete the chosen fitness tests and record exact numeric scores before undertaking any conditioning workouts. These baseline records serve as the definitive benchmark for measuring physical development throughout the program.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -408,7 +408,7 @@
 #### Req 5b: Weakness Identification Goal Setting
 **Official Requirement 5b:** Identify your weakest and strongest area of physical fitness, and choose an area to target for improvement.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 5b Physical Fitness Benchmark Assessment Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 5b (Identify your weakest and strongest area of physical fitness, and choose an area to target), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 5b (Identify your weakest and strongest area of physical fitness, and choose an area to target), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing baseline scores reveals specific physiological strengths and weaknesses across the four core components of fitness. Scouts choose their most deficient component as the primary focal target for the upcoming twelve-week program.
 - **Common Myth:** Scouts should focus their training exclusively on their strongest area to achieve elite performance.
@@ -425,7 +425,7 @@
 #### Req 5c: Three Day Dietary Logging
 **Official Requirement 5c:** Keep a log of what you eat and drink for a period of three days.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Calorie Log 5Day):** Req 5c 5-Day Daily Nutrition, Hydration & Calorie Log
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 5c (Keep a log of what you eat and drink for a period of three days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 5c (Keep a log of what you eat and drink for a period of three days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Keeping an exhaustive three-day dietary log captures every food item, beverage, and portion size consumed during normal routines. This honest record exposes nutritional deficiencies, excess refined sugars, and inadequate hydration.
 - **Common Myth:** Logging dietary intake changes natural eating patterns so drastically that recorded data becomes completely useless.
@@ -445,7 +445,7 @@
 **[Parent Directive]:** *Pre-Assessment of Physical Fitness. Before beginning the 12-week program in requirement 7, do the following*
 **Official Requirement 5d:** Based on your diet log, identify at least two improvement goals related to diet and nutrition.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 5d Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 5d (Based on your diet log, identify at least two improvement goals related to diet and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 5d (Based on your diet log, identify at least two improvement goals related to diet and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Using the three-day food diary, Scouts pinpoint areas needing adjustment and formulate two concrete nutritional goals. These goals should target realistic, healthful improvements such as increasing fresh vegetable intake or eliminating sweetened sodas.
 - **Common Myth:** Nutritional improvement goals should involve drastic calorie deprivation diets that severely restrict food intake.
@@ -467,7 +467,7 @@
 **Official Requirement 6a:** Warm-up: low-intensity movement or gentle muscle stretching before each more rigorous workout.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Step-by-Step Skill Checklist):** Req 6a Personal Fitness Program Component Design
 > **Guide to Safe Scouting Warning:** Never perform ballistic bouncing during static stretching, and use designated spotters when lifting free weights.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6a (Warm-up: low-intensity movement or gentle muscle stretching before each more rigorous workout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6a (Warm-up: low-intensity movement or gentle muscle stretching before each more rigorous workout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A proper warm-up involves five to ten minutes of low-intensity aerobic movement and dynamic mobility drills. Raising core muscle temperature increases elasticity, enhances muscle contractile efficiency, and significantly reduces acute injury risks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -488,7 +488,7 @@
 **[Parent Directive]:** *Plan the Program*
 **Official Requirement 6b:** Cardiorespiratory (aerobic) element: an activity that raises your heart and respiratory rate for 15 to 30 minutes at least three times per week.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 6b Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6b (Cardiorespiratory (aerobic) element: an activity that raises your heart and respiratory), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6b (Cardiorespiratory (aerobic) element: an activity that raises your heart and respiratory), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The aerobic component requires continuous activity such as jogging, brisk walking, swimming, or cycling that raises heart rate into the target training zone for 15 to 30 minutes. Performing this work three times weekly improves cardiovascular efficiency.
 - **Common Myth:** Cardiorespiratory exercise requires exhausting sprint intervals rather than steady continuous aerobic movement.
@@ -504,7 +504,7 @@
 **[Parent Directive]:** *Plan the Program*
 **Official Requirement 6c:** Muscular strength and endurance element: repetitive exercises that target different muscles, upper body, core, and/or legs, based on your improvement goals and potential.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 6c Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6c (Muscular strength and endurance element: repetitive exercises that target different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6c (Muscular strength and endurance element: repetitive exercises that target different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Resistance exercises target major muscle groups through bodyweight movements or external resistance performed with proper biomechanical form. Gradually increasing repetitions or resistance stimulates muscular hypertrophy, bone density, and endurance.
 - **Common Myth:** Lifting light weights for high repetitions builds muscle without any need for progressive resistance adjustments.
@@ -520,7 +520,7 @@
 **[Parent Directive]:** *Plan the Program*
 **Official Requirement 6d:** Flexibility element: movements that arch/lower/stretch/relax your back, rotate your trunk, or stretch your hamstrings.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 6d Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6d (Flexibility element: movements that arch/lower/stretch/relax your back, rotate your trunk,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6d (Flexibility element: movements that arch/lower/stretch/relax your back, rotate your trunk,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flexibility movements should gently stretch the lower back, hamstrings, quadriceps, and shoulders to maintain full joint range of motion. Consistent stretching reduces muscle stiffness, improves posture, and helps prevent lower back strain.
 - **Common Myth:** Flexibility training is an optional accessory that produces no measurable benefits for overall athletic performance.
@@ -536,7 +536,7 @@
 **[Parent Directive]:** *Plan the Program*
 **Official Requirement 6e:** Cool-down: low-intensity movement or gentle stretching to prevent muscle cramps and enhance the benefits of exercise.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Step-by-Step Skill Checklist):** Req 6e Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6e (Cool-down: low-intensity movement or gentle stretching to prevent muscle cramps and enhance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6e (Cool-down: low-intensity movement or gentle stretching to prevent muscle cramps and enhance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A structured cool-down involves low-intensity aerobic movements followed by static stretching to gradually lower heart rate and blood pressure. This practice prevents venous blood pooling, reduces post-exercise muscle soreness, and promotes recovery.
 - **Common Myth:** Stopping vigorous exercise abruptly without cooling down allows heart rate to recover much faster naturally.
@@ -552,7 +552,7 @@
 **[Parent Directive]:** *Plan the Program*
 **Official Requirement 6f:** A plan for achieving your two improvement goals related to diet and nutrition.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Step-by-Step Skill Checklist):** Req 6f Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 6f (A plan for achieving your two improvement goals related to diet and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 6f (A plan for achieving your two improvement goals related to diet and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The nutrition plan provides concrete daily steps to achieve the two dietary improvement goals established from the three-day food diary. Proper timing of wholesome meals and consistent hydration fuel workouts and accelerate recovery.
 - **Common Myth:** Following a rigorous workout program allows a person to consume unlimited sugary junk foods without consequences.
@@ -573,7 +573,7 @@
 **Official Requirement 7a:** Complete and keep a log, over 12 consecutive weeks, of the physical fitness and nutrition program you have outlined. (If your program is interrupted by illness or unavoidable conflicts for less than two weeks, you may resume where you left off, adding the missed days or weeks at the end.)
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 59, p. 74)* • **Scout Workbook Organizer (12-Week Fitness & Activity Log):** Req 7a 12-Week Consecutive Physical Fitness Execution Log
 > **Guide to Safe Scouting Warning:** Listen to physical warning signs of overtraining, ensuring adequate rest days between heavy resistance sessions to prevent overuse injuries.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 7a (Complete and keep a log, over 12 consecutive weeks, of the physical fitness and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 7a (Complete and keep a log, over 12 consecutive weeks, of the physical fitness and nutrition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Scout logs each completed workout across twelve consecutive weeks, noting exercises, duration, sets, repetitions, and perceived exertion. Regular tracking builds personal discipline and verifies compliance with the approved program outline.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -595,7 +595,7 @@
 **[Parent Directive]:** *Complete the Program. Do the following*
 **Official Requirement 7b:** During week 4 and week 8 of your program, repeat the assessments you did in requirement 5(a) before you began. Repeat the same tests for a final assessment within two weeks after completing the 12-week program. Show improvement over your pre-assessment results.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 59, p. 74)* • **Scout Workbook Organizer (4-Stage Fitness Assessment Log):** Req 7b Physical Fitness Benchmark Assessment Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 7b (During week 4 and week 8 of your program, repeat the assessments you did in requirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 7b (During week 4 and week 8 of your program, repeat the assessments you did in requirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repeating the initial physical assessments during weeks 4, 8, and after week 12 provides empirical proof of conditioning progress. These checkpoints allow the Scout and counselor to celebrate gains or refine exercises as needed.
 - **Common Myth:** Repeating assessment tests mid-program provides redundant data that offers no training adjustment value.
@@ -614,7 +614,7 @@
 **[Parent Directive]:** *Complete the Program. Do the following*
 **Official Requirement 7c:** For three days during week 8, and again during week 12, keep a log of what you eat and drink. Show improvement toward the diet and nutrition goals you set in requirement 5(d).
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 59, p. 74)* • **Scout Workbook Organizer (Calorie Log 5Day):** Req 7c 5-Day Daily Nutrition, Hydration & Calorie Log
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 7c (For three days during week 8, and again during week 12, keep a log of what you eat and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 7c (For three days during week 8, and again during week 12, keep a log of what you eat and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Logging food and beverage intake for three days during week 8 and week 12 provides objective proof of nutritional progress. Comparing these records against baseline logs demonstrates whether dietary improvement goals have been integrated into daily habits.
 - **Common Myth:** Completing the initial food log fulfills all dietary requirements without any need for follow-up tracking.
@@ -633,7 +633,7 @@
 #### Req 7d: Counselor Final Program Conference
 **Official Requirement 7d:** Discuss your results, improvements, insights, and experiences with your counselor after completing the program and assessments.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 59, p. 74)* • **Scout Workbook Organizer (Step-by-Step Skill Checklist):** Req 7d Personal Fitness Program Component Design
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 7d (Discuss your results, improvements, insights, and experiences with your counselor after), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 7d (Discuss your results, improvements, insights, and experiences with your counselor after), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The concluding conference with the counselor explores the Scout's physical transformations, mental resilience, nutritional insights, and overall program challenges. This reflective discussion helps transition temporary program habits into lifelong health commitments.
 - **Common Myth:** The final counselor conference is a formal pass or fail exam rather than an educational reflection.
@@ -655,7 +655,7 @@
 **Official Requirement 8a:** Explore three careers related to personal fitness. Research one career area by interviewing an expert in the field, visiting a site, or using other resources. Learn about training, education, expenses, job outlook, salary, and advancement. Discuss your findings and career interest with your counselor.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 84, p. 87)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Verify that fitness facilities, coaching certifications, and personal athletic equipment meet recognized safety standards before participation.
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 8a (Explore three careers related to personal fitness. Research one career area by interviewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 8a (Explore three careers related to personal fitness. Research one career area by interviewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts investigate three distinct careers such as exercise physiologist, physical therapist, or registered dietitian. Researching educational degrees, board certifications, and career outlooks through interviews reveals the dedication required in health fields.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -679,7 +679,7 @@
 **[Parent Directive]:** *Future Career or Lifestyle. Do ONE of the following*
 **Official Requirement 8b:** Explore how an area of personal fitness could contribute to a hobby or healthy lifestyle. Research education, costs, and organizations related to this activity. Discuss your findings and goals with your counselor.
 **Source:** *Official Scouting America Personal Fitness Merit Badge Pamphlet (p. 84, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal fitness Requirement 8b (Explore how an area of personal fitness could contribute to a hobby or healthy lifestyle.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Fitness Requirement 8b (Explore how an area of personal fitness could contribute to a hobby or healthy lifestyle.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine how an active hobby like trail running, martial arts, or kayaking supports lifelong health and stress management. Researching equipment costs, safety standards, and local community clubs prepares the Scout to sustain active habits into adulthood.
 - **Common Myth:** Maintaining a lifelong fitness hobby requires expensive elite equipment and formal competitive club memberships.

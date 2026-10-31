@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Labor.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-labor/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -69,7 +69,7 @@
 **Official Requirement 2a:** Find out what the organization does.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete American Labor Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 2a (Find out what the organization does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 2a (Find out what the organization does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Labor organizations maintain distinct charters outlining their specific industry jurisdiction, membership qualifications, and collective representation duties. Local chapters administer member welfare funds, job dispatch rosters, and community service projects.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -92,7 +92,7 @@
 **[Parent Directive]:** *With your counselor's and parent or guardian's approval and permission, visit the office or attend a meeting of a local*
 **Official Requirement 2b:** Share the list of issues and concerns you made for requirement 1. Ask the people you communicate with which issues are of greatest interest or concern to them and why.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 2b (Share the list of issues and concerns you made for requirement 1. Ask the people you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 2b (Share the list of issues and concerns you made for requirement 1. Ask the people you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing scout research against current union concerns highlights real-world shop floor challenges. Active labor representatives clarify which contractual issues cause the greatest friction during negotiations.
 - **Common Myth:** Scouts sometimes think union leaders and rank-and-file workers always prioritize the exact same issues.
@@ -110,7 +110,7 @@
 #### Req 2c: Union Structural Hierarchy Mapping
 **Official Requirement 2c:** Draw a diagram showing how the organization is structured, from the local to the national level, if applicable.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 2c (Draw a diagram showing how the organization is structured, from the local to the national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 2c (Draw a diagram showing how the organization is structured, from the local to the national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drawing an organizational chart illustrates how power flows from individual members up to national confederations. The diagram identifies local executive boards, joint councils, and parent international union bodies.
 - **Common Myth:** Many individuals assume national labor leaders dictate all decisions to local union halls.
@@ -187,7 +187,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5a:** Develop a timeline of significant events in the history of the American labor movement from the 1770s to the present.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 5a (Develop a timeline of significant events in the history of the American labor movement from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 5a (Develop a timeline of significant events in the history of the American labor movement from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing a chronological timeline maps key milestones from early Philadelphia shoemaker trials through twentieth-century civil rights alliances. The timeline highlights major strikes, legal landmarks, and structural transformations across American industrial history.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -209,7 +209,7 @@
 #### Req 5b: Labor Achievement Exhibit Creation
 **Official Requirement 5b:** Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show, illustrating three major achievements of the American labor movement and how those achievements affect American workers.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 5b (Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 5b (Prepare an exhibit, a scrapbook, or a computer presentation, such as a slide show,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a museum-style exhibit or digital slide deck illustrates major legal reforms won by organized labor. Focus areas include child labor restrictions, the Fair Labor Standards Act, and workplace safety laws.
 - **Common Myth:** Novices often assume child labor ended naturally due to changing social manners alone.
@@ -227,7 +227,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5c:** With your counselor's and parent or guardian's approval and permission, watch a movie that addresses organized labor in the United States. Afterward, discuss the movie with your counselor and explain what you learned.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 5c (With your counselor's and parent or guardian's approval and permission, watch a movie that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 5c (With your counselor's and parent or guardian's approval and permission, watch a movie that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Watching a counselor-approved documentary or historical film provides narrative context to intense labor struggles. Scouts analyze cinematic storytelling against documented historical records of strikes, organizing drives, and community reactions.
 - **Common Myth:** Viewers frequently confuse dramatic Hollywood embellishments with strict historical labor events.
@@ -244,7 +244,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5d:** Read a biography (with your counselor's approval) of someone who has made a contribution to the American labor movement. Explain what contribution this person has made to the American labor movement.
 **Source:** *Official Scouting America American Labor Merit Badge Pamphlet (p. 16, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american labor Requirement 5d (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Labor Requirement 5d (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reading a biography of an influential labor organizer reveals the strategic leadership required to mobilize disparate workers. Leaders like Samuel Gompers, Mother Jones, or Cesar Chavez navigated profound legal and corporate resistance.
 - **Common Myth:** Many believe labor leaders acted solely as public orators without administrative organizational roles.

@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while welding, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep a fully charged ten-pound ABC dry chemical fire extinguisher within twenty feet of hot work.
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while welding, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while welding, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anticipating fire, electrical shock, and toxic fumes requires engineering controls and active administrative safeguards. Welders position mechanical exhaust hoods and clear combustible items before striking an electric arc.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -49,7 +49,7 @@
 - **Common Myth:** Beginners often think moving combustible rags ten feet away guarantees complete fire prevention.
 - **Pamphlet Fact:** Sparks and molten slag can travel up to thirty-five feet across open shop floors.
 
-![Radiation Burn Danger diagram illustrating how arc flash creates ultraviolet radiation that causes painful corneal burns without immediate noticeable symptoms.](/assets/pamphlet_images/welding_p003_img1.png)
+![Technical diagram of radiation burn danger principles and field relationships in Welding (Requirement 1).](/assets/pamphlet_images/welding_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -62,7 +62,7 @@
 #### Req 1b: Welding Injury First Aid
 **Official Requirement 1b:** Show that you know first aid for, and the prevention of, injuries or illnesses that could occur while welding, including electrical shock, eye injuries, burns, fume inhalation, dizziness, skin irritation, and exposure to hazardous chemicals, including filler metals and welding gases.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 1b (Show that you know first aid for, and the prevention of, injuries or illnesses that could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 1b (Show that you know first aid for, and the prevention of, injuries or illnesses that could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - First aid protocols address thermal burns, arc eye flash, electric shock, and respiratory distress from gas plumes. Rapid power disconnection and cool water treatment minimize tissue trauma while awaiting medical professionals.
 - **Common Myth:** Putting greasy ointment or ice on thermal contact burns accelerates skin healing.
@@ -88,7 +88,7 @@
 **Official Requirement 2a:** With your counselor, discuss general safety precautions and safety data sheets (SDS) related to welding. Explain the importance of the SDS.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wear cuffed trousers or open top pockets that trap molten metal sparks.
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 2a (With your counselor, discuss general safety precautions and safety data sheets (SDS)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 2a (With your counselor, discuss general safety precautions and safety data sheets (SDS)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety Data Sheets inform welders about chemical exposure limits, volatile organic compounds, and dangerous decomposition gases. Reviewing section eight reveals mandatory respiratory protection and threshold limit values for welding fumes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -97,7 +97,7 @@
 - **Common Myth:** Safety Data Sheets are administrative paperwork without relevance to daily shop work.
 - **Pamphlet Fact:** Safety Data Sheets identify acute inhalation toxicity and specific fire extinguishing media for fluxes.
 
-![Chemical Data Reference diagram illustrating how safety Data Sheets document hazardous decomposition products generated during thermal decomposition of fluxes.](/assets/pamphlet_images/welding_p007_img1.png)
+![Technical diagram of chemical data reference principles and field relationships in Welding (Requirement 2).](/assets/pamphlet_images/welding_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -109,7 +109,7 @@
 #### Req 2b: Welding Apparel and Gear
 **Official Requirement 2b:** Describe the appropriate safety gear and clothing that must be worn when welding. Then, present yourself properly dressed for welding, in protective equipment, clothing, and footwear.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 2b (Describe the appropriate safety gear and clothing that must be worn when welding. Then,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 2b (Describe the appropriate safety gear and clothing that must be worn when welding. Then,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Complete personal gear includes shade-rated helmets, leather spats, flame-resistant jackets, and safety glasses with side shields. Leather gauntlet gloves protect wrists and forearms from stray arc sparks and conductive heat.
 - **Common Myth:** Athletic running shoes with rubber soles provide adequate foot protection in welding booths.
@@ -127,7 +127,7 @@
 #### Req 2c: Equipment Maintenance and Storage
 **Official Requirement 2c:** Explain and demonstrate the proper care and storage of welding equipment, tools, and protective clothing and footwear.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 13, p. 29)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 2c (Explain and demonstrate the proper care and storage of welding equipment, tools, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 2c (Explain and demonstrate the proper care and storage of welding equipment, tools, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Storing torches, cables, and protective garments in clean, dry environments prevents degradation and electrical faults. Ground clamps and electrode holders require regular examination to prevent dangerous high-resistance connections.
 - **Common Myth:** Leaving welding cables strewn across wet shop floors causes no long-term insulation damage.
@@ -205,7 +205,7 @@
 **Official Requirement 5a:** Select two welding processes, and make a list of the different components of the equipment required for each process. Discuss one advantage and one limitation for each process.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Stand to the side rather than facing gauge faces when opening high-pressure cylinder valves.
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 5a (Select two welding processes, and make a list of the different components of the equipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 5a (Select two welding processes, and make a list of the different components of the equipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating GMAW alongside SMAW reveals contrasting equipment configurations, cost factors, and portable capabilities. GMAW requires external shielding gas cylinders and wire feed mechanisms, whereas SMAW relies on flux-coated consumable sticks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -224,7 +224,7 @@
 #### Req 5b: Welding Station Setup Configuration
 **Official Requirement 5b:** Choose one welding process. Set up the process you have chosen, including gas regulators, work clamps, cables, filler materials, and equipment settings. Have your counselor inspect and approve the area for the welding process you have chosen.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 21, p. 69)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 5b (Choose one welding process. Set up the process you have chosen, including gas regulators,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 5b (Choose one welding process. Set up the process you have chosen, including gas regulators,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Setting up a welding station involves connecting cables, adjusting gas regulators, aligning wire drive rollers, and testing wire tension. Having the counselor inspect polarity, grounding, and gas flow rates prevents equipment damage and defective welds.
 - **Common Myth:** Tightening wire drive roll tension all the way prevents wire slippage inside gun liners.
@@ -248,7 +248,7 @@
 **Official Requirement 6a:** Using a metal scribe or soapstone, sketch your initial onto a metal plate, and weld a bead on the plate following the pattern of your initial.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Use steel tongs or gripping pliers when handling hot freshly welded coupon assemblies.
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6a (Using a metal scribe or soapstone, sketch your initial onto a metal plate, and weld a bead), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6a (Using a metal scribe or soapstone, sketch your initial onto a metal plate, and weld a bead), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scribing and tracing personal initials teaches precise hand-eye coordination and consistent arc travel speed along curved contours. Operators maintain a uniform standoff distance to prevent arc extinguishing or sudden wire burnback.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -273,7 +273,7 @@
 **[Parent Directive]:** *After successfully completing requirements 1 through 5, use the equipment you prepared for the welding process in 5(b) to do the following*
 **Official Requirement 6b:** Cover a small plate (approximately 3" x 3" x 1/4") with weld beads side by side."
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6b (Cover a small plate (approximately 3" x 3" x 1/4") with weld beads side by side."), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6b (Cover a small plate (approximately 3" x 3" x 1/4") with weld beads side by side."), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Covering a three-inch square plate with parallel stringer beads demonstrates overlay welding used for surface rebuilding and wear surfacing. Each overlapping pass must tie into the previous bead crown by approximately one-third to one-half width.
 - **Common Myth:** Weld padding involves laying isolated passes with gaps between successive beads.
@@ -291,7 +291,7 @@
 **[Parent Directive]:** *After successfully completing requirements 1 through 5, use the equipment you prepared for the welding process in 5(b) to do the following*
 **Official Requirement 6c:** Tack two plates together in a square groove butt joint.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6c (Tack two plates together in a square groove butt joint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6c (Tack two plates together in a square groove butt joint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aligning two flat plates with a uniform root opening prepares a square groove butt joint for structural fusion. Placing robust tack welds at both ends arrests transverse shrinkage and preserves joint spacing under thermal contraction.
 - **Common Myth:** Plates in a square butt joint must be jammed tight with zero root opening.
@@ -309,7 +309,7 @@
 **[Parent Directive]:** *After successfully completing requirements 1 through 5, use the equipment you prepared for the welding process in 5(b) to do the following*
 **Official Requirement 6d:** Weld the two plates together from 6(c) on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6d (Weld the two plates together from 6(c) on both sides), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6d (Weld the two plates together from 6(c) on both sides), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Depositing full-length beads on both sides of a butt joint produces complete joint penetration through the plate cross-section. Cleaning root pass slag or oxides before welding the reverse side prevents internal solid slag entrapment.
 - **Common Myth:** Welding only one side of a thick butt joint achieves total structural joint capacity.
@@ -327,7 +327,7 @@
 **[Parent Directive]:** *After successfully completing requirements 1 through 5, use the equipment you prepared for the welding process in 5(b) to do the following*
 **Official Requirement 6e:** Tack two plates together in a T joint, have your counselor inspect it, then weld a T joint with fillet weld on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6e (Tack two plates together in a T joint, have your counselor inspect it, then weld a T joint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6e (Tack two plates together in a T joint, have your counselor inspect it, then weld a T joint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Positioning plates perpendicular to each other forms a tee joint requiring balanced fillet welds on both vertical-horizontal corners. Maintaining a forty-five degree work angle directs arc force equally into both base plates to prevent uneven undercut.
 - **Common Myth:** Directing the arc solely onto the bottom plate naturally pulls molten puddle into the upright plate.
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *After successfully completing requirements 1 through 5, use the equipment you prepared for the welding process in 5(b) to do the following*
 **Official Requirement 6f:** Tack two plates together in a lap joint, have your counselor inspect it, then weld a lap joint with fillet weld on both sides.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 6f (Tack two plates together in a lap joint, have your counselor inspect it, then weld a lap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 6f (Tack two plates together in a lap joint, have your counselor inspect it, then weld a lap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Overlapping two flat plates creates dual corner seams where fillet welds join top and bottom edges. The welder directs the arc slightly away from the top edge to prevent melting down the exposed plate corner.
 - **Common Myth:** The exposed top edge of a lap joint requires direct arc heating to melt properly.
@@ -368,7 +368,7 @@
 **Official Requirement 7a:** Find out about three career opportunities in the welding industry. Pick one and find out the education, training, and experience required for this profession. Discuss this with your counselor, and explain why the profession might interest you.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Professional welders must maintain current OSHA ten-hour certifications before working on commercial job sites.
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 7a (Find out about three career opportunities in the welding industry. Pick one and find out), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 7a (Find out about three career opportunities in the welding industry. Pick one and find out), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating diverse careers in pipeline fabrication, underwater commercial diving, and aerospace manufacturing highlights varied educational routes. Apprenticeship programs combine paid on-the-job training with classroom metallurgy study to produce journeyman welders.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -390,7 +390,7 @@
 #### Req 7b: American Welding Society Role
 **Official Requirement 7b:** Discuss the role of the American Welding Society in the welding profession.
 **Source:** *Official Scouting America Welding Merit Badge Pamphlet (p. 36, p. 82)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For welding Requirement 7b (Discuss the role of the American Welding Society in the welding profession), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Welding Requirement 7b (Discuss the role of the American Welding Society in the welding profession), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The American Welding Society acts as the premier technical body establishing industry-wide welding codes, inspection protocols, and safety standards. AWS credentials provide globally recognized verification of welder competence and procedure qualification.
 - **Common Myth:** The American Welding Society is merely a social club for hobbyist fabricators.

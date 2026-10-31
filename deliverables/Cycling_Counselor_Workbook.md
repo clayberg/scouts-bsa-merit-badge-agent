@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Cycling.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/cycling/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in cycling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain to your counselor how to ride predictably, be conspicuous, think ahead, and ride ready.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 86, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never move a downed rider suspected of cervical spine trauma unless immediate environmental danger threatens life.
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cyclists manage risks by maintaining scanning vigilance twenty seconds ahead to spot gravel, animals, and car doors. Group formations require verbal callouts for road hazards to protect trailing riders.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Bicycle Trailside First Aid
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while cycling, including cuts, scratches, concussions, blisters, sunburn, heat exhaustion, heatstroke, hypothermia, frostbite, dehydration, insect stings, tick bites, and snakebite. Explain to your counselor why you should be able to identify the poisonous plants and poisonous animals that are found in your area.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 86, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while cycling,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while cycling,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Trailside first aid treats lacerations, friction blisters, and environmental temperature extremes during remote rides. Responders stabilize sprains with splints and monitor concussed riders for cognitive confusion.
 - **Common Myth:** Scouts experiencing muscle cramps only need plain tap water to recover full strength.
@@ -140,7 +140,7 @@
 **Official Requirement 4a:** Show points that should be checked regularly to make sure the bicycle is safe to ride.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never raise a seatpost or handlebar stem past the etched minimum insertion safety line.
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4a (Show points that should be checked regularly to make sure the bicycle is safe to ride), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4a (Show points that should be checked regularly to make sure the bicycle is safe to ride), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A systematic pre-ride inspection examines wheel true, headset tightness, quick-release clamps, and cable tension. Catching loose hardware before riding prevents catastrophic mechanical failure at road speed.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -162,7 +162,7 @@
 #### Req 4b: Saddle and Handlebar Fitting
 **Official Requirement 4b:** Show how to adjust the saddle and handlebars for a proper fit.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4b (Show how to adjust the saddle and handlebars for a proper fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4b (Show how to adjust the saddle and handlebars for a proper fit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Set saddle height so the cyclist maintains a slight five to fifteen degree knee bend at bottom stroke. Handlebars should allow comfortable elbow flex without causing excessive spinal curvature or wrist pressure.
 - **Common Myth:** A rider should be able to sit flat-footed on the ground while remaining seated on the saddle.
@@ -179,7 +179,7 @@
 #### Req 4c: Brake and Derailleur Adjustment
 **Official Requirement 4c:** Show how to adjust brakes and gear shifting (derailleurs)
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4c (Show how to adjust brakes and gear shifting (derailleurs)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4c (Show how to adjust brakes and gear shifting (derailleurs)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Adjust brake barrel adjusters to remove cable slack and center the pads squarely on the rim braking track. Set derailleur high and low limit screws so the chain cannot overshoot into the spokes or frame.
 - **Common Myth:** Derailleur limit screws control the indexing cable tension between gear shifts.
@@ -197,7 +197,7 @@
 **[Parent Directive]:** *Using a bicycle safety checklist, clean and adjust a bicycle and present it to your counselor for inspection. Do the following*
 **Official Requirement 4d:** Show all points that need regular lubrication.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4d (Show all points that need regular lubrication), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4d (Show all points that need regular lubrication), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Apply targeted bicycle lubricant to chain pivot pins, derailleur pulleys, and brake pivot points while avoiding wheel rims. Wiping off exterior fluid keeps road grime from forming grinding paste inside moving parts.
 - **Common Myth:** Thick automotive grease should be sprayed across the entire surface of the gear cassette.
@@ -214,7 +214,7 @@
 #### Req 4e: Tire Tube Flat Repair
 **Official Requirement 4e:** Show how to repair a flat by removing the tire, replacing or patching the tube, and remounting the tire.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4e (Show how to repair a flat by removing the tire, replacing or patching the tube, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4e (Show how to repair a flat by removing the tire, replacing or patching the tube, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repairing a flat tire involves unseating the bead with tire levers, patching or replacing the inner tube, and inspecting the tire casing. Checking the inside casing removes sharp thorns or wire fragments before reinstallation.
 - **Common Myth:** Metal screwdrivers work well as substitutes for plastic tire levers when prying off stubborn beads.
@@ -232,7 +232,7 @@
 **[Parent Directive]:** *Using a bicycle safety checklist, clean and adjust a bicycle and present it to your counselor for inspection. Do the following*
 **Official Requirement 4f:** Show that the bicycle meets local laws.
 **Source:** *Official Scouting America Cycling Merit Badge Pamphlet (p. 54, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cycling Requirement 4f (Show that the bicycle meets local laws), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cycling Requirement 4f (Show that the bicycle meets local laws), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Local ordinances require bicycles ridden after sunset to feature a white front headlight and red rear reflector or lamp. Many jurisdictions also mandate audible warning devices like bells and functional braking systems.
 - **Common Myth:** Wearing light-colored clothing eliminates the legal mandate for active bicycle headlights after dusk.

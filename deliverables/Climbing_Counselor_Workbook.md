@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Climbing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/climbing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -55,7 +55,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in climbing and rappelling activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** All personnel must keep buckled helmets on whenever standing inside the active crag drop zone.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hazard anticipation involves analyzing changing mountain weather, loose cliff rocks, and communication hurdles. Climbers must define retreat strategies prior to departing the base.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -77,7 +77,7 @@
 #### Req 1b: Climbing Medical Emergency Management
 **Official Requirement 1b:** Show that you know first aid for and how to prevent injuries or illnesses that could occur during climbing activities, including heat and cold reactions, dehydration, stopped breathing, sprains, abrasions, fractures, rope burns, blisters, snakebite, concussions, and insect bites or stings.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 1b (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 1b (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbers prevent thermal illnesses through proper hydration, electrolyte balance, and windproof layering. Rapid treatment of sprains and cuts prevents minor injuries from stopping descents.
 - **Common Myth:** Mild dehydration only causes thirst without impairing balance, grip strength, or cognitive judgment.
@@ -96,7 +96,7 @@
 #### Req 1c: Cardiopulmonary Resuscitation Criteria Evaluation
 **Official Requirement 1c:** Identify the conditions that must exist before performing CPR on a person.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 28, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 1c (Identify the conditions that must exist before performing CPR on a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 1c (Identify the conditions that must exist before performing CPR on a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers perform cardiopulmonary resuscitation when an unresponsive casualty shows no pulse or spontaneous breathing. Continuous chest compressions maintain vital organ perfusion until medical personnel arrive.
 - **Common Myth:** Agonal gasping indicates adequate breathing and means emergency chest compressions are unnecessary.
@@ -174,7 +174,7 @@
 **Official Requirement 4a:** Explain how the difficulty of climbs is classified, and apply classifications to the rock faces or walls where you will demonstrate your climbing skills.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Do not climb on water-soaked sandstone, which can break off under normal body weight.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 4a (Explain how the difficulty of climbs is classified, and apply classifications to the rock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 4a (Explain how the difficulty of climbs is classified, and apply classifications to the rock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Yosemite Decimal System uses class five for technical roped climbing, appending decimal difficulty subdivisions. Climbers consult guidebooks to choose routes suited to their skill level.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -196,7 +196,7 @@
 #### Req 4b: Climbing Discipline Comparative Analysis
 **Official Requirement 4b:** Explain the following: top-rope climbing, lead climbing, and bouldering.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 4b (Explain the following: top-rope climbing, lead climbing, and bouldering), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 4b (Explain the following: top-rope climbing, lead climbing, and bouldering), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Top-roping maintains an overhead rope anchor, reducing fall distance, while lead climbers clip protection as they advance. Bouldering involves lower, explosive movements protected by crash pads and spotters.
 - **Common Myth:** Top-rope climbing and lead climbing create identical forces on the belay anchor system.
@@ -214,7 +214,7 @@
 **[Parent Directive]:** *Location. Do the following*
 **Official Requirement 4c:** Evaluate the safety of a particular climbing area. Consider weather, visibility, the condition of the climbing surface, and any other environmental hazards.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 4c (Evaluate the safety of a particular climbing area. Consider weather, visibility, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 4c (Evaluate the safety of a particular climbing area. Consider weather, visibility, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Site evaluation requires examining rock quality, moisture, sun exposure, and loose debris above the route. Climbers monitor environmental changes to abort sessions before weather traps the team.
 - **Common Myth:** A sunny morning guarantees that rock conditions remain solid and safe throughout the afternoon.
@@ -231,7 +231,7 @@
 **[Parent Directive]:** *Location. Do the following*
 **Official Requirement 4d:** Determine how to summon aid to the climbing area in case of an emergency. Discuss what medical training is needed for your group when climbing and rappelling in remote areas.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 9, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 4d (Determine how to summon aid to the climbing area in case of an emergency. Discuss what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 4d (Determine how to summon aid to the climbing area in case of an emergency. Discuss what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Backcountry climbing groups identify evacuation routes, establish emergency signaling methods, and maintain wilderness first aid certifications. Precise grid coordinates help dispatchers locate injured climbers rapidly.
 - **Common Myth:** Calling nine one one from a remote crag guarantees instant medical evacuation by helicopter.
@@ -254,7 +254,7 @@
 **Official Requirement 5a:** Climbers (b) Rappellers (c) Belayers (d) Boulderers and their spotters.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never initiate an ascent or rappel until the belayer explicitly confirms readiness with the correct verbal call.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 5a (Climbers (b) Rappellers (c) Belayers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 5a (Climbers (b) Rappellers (c) Belayers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbers communicate their ascent status using distinct calls like climbing, slack, and up rope. They must await direct verbal acknowledgment from the belayer before moving.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -277,7 +277,7 @@
 **[Parent Directive]:** *Verbal signals*
 **Official Requirement 5b:** Rappellers (c) Belayers (d) Boulderers and their spotters.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 5b (Rappellers (c) Belayers (d) Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 5b (Rappellers (c) Belayers (d) Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rappellers confirm their descending system and belay backup using clear commands like on rappel. They signal off rappel only after clearing the landing zone completely.
 - **Common Myth:** Rappellers do not need verbal commands if they see their own ropes touch ground.
@@ -295,7 +295,7 @@
 **[Parent Directive]:** *Verbal signals*
 **Official Requirement 5c:** Belayers (d) Boulderers and their spotters.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 5c (Belayers (d) Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 5c (Belayers (d) Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Belayers maintain vigilant voice contact, responding promptly to requests for slack or tension. They confirm readiness only when their brake hand securely controls the rope.
 - **Common Myth:** Belayers say belay on while still adjusting rope slack in the belay device.
@@ -313,7 +313,7 @@
 **[Parent Directive]:** *Verbal signals*
 **Official Requirement 5d:** Boulderers and their spotters.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 5d (Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 5d (Boulderers and their spotters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Boulderers and spotters coordinate to guide falls safely onto protective landing crash pads. Spotters communicate their positioning to protect the boulderer head and upper spine.
 - **Common Myth:** Spotters are expected to catch a boulderer full body weight in their arms.
@@ -336,7 +336,7 @@
 **Official Requirement 6a:** Describe the kinds of rope acceptable for use in climbing and rappelling.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never step on a climbing rope, as ground grit grinds through the mantle and cuts core strands.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 6a (Describe the kinds of rope acceptable for use in climbing and rappelling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 6a (Describe the kinds of rope acceptable for use in climbing and rappelling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbing requires certified dynamic kernmantle ropes designed to absorb fall forces through controlled elongation. Static ropes are reserved exclusively for hauling gear and fixed-line rappelling.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -358,7 +358,7 @@
 #### Req 6b: Rope Physical Wear Examination
 **Official Requirement 6b:** Show how to examine a rope for signs of wear or damage.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 6b (Show how to examine a rope for signs of wear or damage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 6b (Show how to examine a rope for signs of wear or damage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rope examination combines visual scanning for sheath cuts with tactile pinching to find core gaps. Any exposed inner core fibers or flat deformities require taking the rope out of service.
 - **Common Myth:** A rope is completely safe as long as the outer colored sheath shows no tears.
@@ -375,7 +375,7 @@
 #### Req 6c: Rope Damage Prevention Methods
 **Official Requirement 6c:** Discuss ways to prevent a rope from being damaged.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 6c (Discuss ways to prevent a rope from being damaged), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 6c (Discuss ways to prevent a rope from being damaged), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbers protect ropes by using protective tarps, padding sharp rock edges, and avoiding foot traffic. Clean storage away from sunlight, heat, and corrosive chemicals extends rope lifespan.
 - **Common Myth:** Ropes can be washed using industrial detergents and dried in direct outdoor sunlight.
@@ -392,7 +392,7 @@
 #### Req 6d: Rope Retirement Decision Criteria
 **Official Requirement 6d:** Explain when and how a rope should be retired.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 6d (Explain when and how a rope should be retired), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 6d (Explain when and how a rope should be retired), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Retiring a rope is mandatory after severe high-impact falls, chemical contamination, or excessive sheath abrasion. Cut retired ropes into short utility lengths to prevent accidental life-safety reuse.
 - **Common Myth:** A climbing rope lasts indefinitely if it only gets used a few weekends annually.
@@ -410,7 +410,7 @@
 **[Parent Directive]:** *Rope. Do the following*
 **Official Requirement 6e:** Properly coil a rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 42, p. 85)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 6e (Properly coil a rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 6e (Properly coil a rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Coiling keeps climbing ropes organized, portable, and ready for immediate kink-free deployment at the crag. Butterfly and mountaineer coils allow clean flaking without forming dangerous twisted loops.
 - **Common Myth:** Stuffing a rope loosely into a duffel bag works just as well as coiling.
@@ -434,7 +434,7 @@
 **Official Requirement 7a:** Figure eight on a bight (b) Figure eight follow-through (c) Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always leave at least four inches of tail on life-safety knots to prevent slip-through under loads.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 7a (Figure eight on a bight (b) Figure eight follow-through (c) Water knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 7a (Figure eight on a bight (b) Figure eight follow-through (c) Water knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The figure eight on a bight creates a strong, reliable loop in the end or middle of a rope. It resists slipping and remains relatively easy to untie after holding a climber weight.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -457,7 +457,7 @@
 **[Parent Directive]:** *Knots*
 **Official Requirement 7b:** Figure eight follow-through (c) Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 7b (Figure eight follow-through (c) Water knot (d) Double fisherman's knot (grapevine knot)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 7b (Figure eight follow-through (c) Water knot (d) Double fisherman's knot (grapevine knot)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The figure eight follow-through is the universal standard for tying a climbing rope directly into a harness. Its symmetrical pattern makes visual inspection straightforward for both climber and belayer.
 - **Common Myth:** Clipping a carabiner into harness loops is safer than tying in directly with rope.
@@ -475,7 +475,7 @@
 **[Parent Directive]:** *Knots*
 **Official Requirement 7c:** Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 7c (Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 7c (Water knot (d) Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The water knot joins flat nylon webbing into runners and sling anchors by retracing an overhand knot. Climbers must leave substantial tails and check them frequently for movement.
 - **Common Myth:** Water knots can be tied in standard round climbing ropes instead of tubular webbing.
@@ -493,7 +493,7 @@
 **[Parent Directive]:** *Knots*
 **Official Requirement 7d:** Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 7d (Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 7d (Double fisherman's knot (grapevine knot) (e) Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The double fisherman knot joins two ropes together for multi-pitch rappels or creates closed cord loops for Prusik hitches. Its interlocking structure tightens under load to prevent accidental release.
 - **Common Myth:** A single fisherman knot holds just as securely as a double fisherman knot.
@@ -511,7 +511,7 @@
 **[Parent Directive]:** *Knots*
 **Official Requirement 7e:** Prusik hitch applied to rope.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 53, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 7e (Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 7e (Prusik hitch applied to rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Prusik hitch uses a smaller-diameter accessory cord wrapped around a climbing rope to create an ascender or backup brake. It bites the rope when weighted and slides when unweighted.
 - **Common Myth:** The accessory cord used for a Prusik can have the same diameter as the climbing rope.
@@ -535,7 +535,7 @@
 **Official Requirement 8a:** Commercially made climbing harness (b) Climbing helmet (c) Climbing or rappelling gloves.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Ensure manual harness buckles double back completely; exposed red safety warnings indicate an unbuckled fatal hazard.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 8a (Commercially made climbing harness (b) Climbing helmet (c) Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 8a (Commercially made climbing harness (b) Climbing helmet (c) Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A commercial climbing harness distributes arresting forces across the climber pelvis and upper thighs. Correct buckle closure and proper waist placement prevent accidental release during falls.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -558,7 +558,7 @@
 **[Parent Directive]:** *Harness, Helmet and Gloves*
 **Official Requirement 8b:** Climbing helmet (c) Climbing or rappelling gloves.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 8b (Climbing helmet (c) Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 8b (Climbing helmet (c) Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbing helmets safeguard against rockfall and head impacts against cliff walls during unexpected falls. Proper chin strap tension and suspension cradle adjustment keep the helmet centered.
 - **Common Myth:** Any athletic sports helmet provides equal protection against sharp falling crag rocks.
@@ -576,7 +576,7 @@
 **[Parent Directive]:** *Harness, Helmet and Gloves*
 **Official Requirement 8c:** Climbing or rappelling gloves.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 57, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 8c (Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 8c (Climbing or rappelling gloves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbing and rappelling gloves protect hands from severe friction burns during rapid rope handling. Climbers remove gloves while ascending rock faces to preserve natural tactile hold control.
 - **Common Myth:** Gloves should be worn while climbing rock faces to improve handhold grip strength.
@@ -627,7 +627,7 @@
 **Official Requirement 10a:** Explain the importance of belaying climbers and rappellers and when it is necessary.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never release your primary brake hand from the control strand for any reason while belaying.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 10a (Explain the importance of belaying climbers and rappellers and when it is necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 10a (Explain the importance of belaying climbers and rappellers and when it is necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Belaying prevents catastrophic impacts by holding rope tension throughout both ascent and descent phases. Belayers manage slack continually to minimize drop distance should climbers lose grip.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -650,7 +650,7 @@
 **[Parent Directive]:** *Belaying. Do the following*
 **Official Requirement 10b:** Belay three different climbers on three different routes.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 10b (Belay three different climbers on three different routes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 10b (Belay three different climbers on three different routes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Belaying active climbers requires vigilant posture, timely slack removal, and smooth rope feeding. Practicing across three distinct routes develops adaptability to varied climber movement cadences.
 - **Common Myth:** A belayer should keep the rope pulled as tight as possible at all times.
@@ -668,7 +668,7 @@
 **[Parent Directive]:** *Belaying. Do the following*
 **Official Requirement 10c:** Serve as a backup belayer on three different climbs.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 10c (Serve as a backup belayer on three different climbs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 10c (Serve as a backup belayer on three different climbs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Serving as a backup belayer provides an essential redundancy layer to catch accidental primary brake releases. The backup mirrors rope management while maintaining complete visual contact with the belayer.
 - **Common Myth:** The backup belayer holds the guide strand running upwards directly to the climbing anchor.
@@ -686,7 +686,7 @@
 **[Parent Directive]:** *Belaying. Do the following*
 **Official Requirement 10d:** Belay three different rappellers on three different routes.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 10d (Belay three different rappellers on three different routes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 10d (Belay three different rappellers on three different routes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Belaying rappellers provides critical external protection should the descender lose control or become incapacitated. Belayers manage dedicated safety ropes or operate ground-based bottom fireman backups.
 - **Common Myth:** Rappellers never require a belay because their descent device provides its own brake.
@@ -704,7 +704,7 @@
 **[Parent Directive]:** *Belaying. Do the following*
 **Official Requirement 10e:** Serve as a backup belayer on three different rappels.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 60, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 10e (Serve as a backup belayer on three different rappels), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 10e (Serve as a backup belayer on three different rappels), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rappelling backup belayers maintain physical control of the descent lines to stop sudden drops immediately. Operating three rappelling backups instills reflexive muscle memory for emergency descent arrest.
 - **Common Myth:** Backup belayers on rappels must stand right next to the top cliff edge.
@@ -727,7 +727,7 @@
 **Official Requirement 11a:** Show the correct way to directly tie a belay rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never tie climbing ropes solely into the harness belay loop, which wears prematurely from rope friction.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 11a (Show the correct way to directly tie a belay rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 11a (Show the correct way to directly tie a belay rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbers route the rope through both the waistbelt loop and leg loop tie-in points. Completing the figure eight follow-through ensures a secure, load-rated connection directly to the body.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -749,7 +749,7 @@
 #### Req 11b: Ascent Route Climbing Execution
 **Official Requirement 11b:** Climb at least three different routes on a rock face or climbing wall, demonstrating good technique and using verbal signals with a belayer.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 65, p. 66)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 11b (Climb at least three different routes on a rock face or climbing wall, demonstrating good), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 11b (Climb at least three different routes on a rock face or climbing wall, demonstrating good), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Climbing three distinct routes challenges Scouts to apply footwork precision, hip positioning, and weight transfer. Clear voice communication with the belayer ensures continuous protection throughout each ascent.
 - **Common Myth:** Successful climbing relies primarily on massive upper-body pull-up strength and large arm muscles.
@@ -772,7 +772,7 @@
 **Official Requirement 12a:** Show the correct way to directly tie a belay rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never bounce or slide down rappels rapidly, as excessive friction heat melts nylon rope sheaths.
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 12a (Show the correct way to directly tie a belay rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 12a (Show the correct way to directly tie a belay rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rappellers secure a secondary belay rope directly to their harness tie-in loops for safety. This independent attachment provides fall protection if the primary rappel brake fails.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -795,7 +795,7 @@
 **[Parent Directive]:** *Rappelling. Do the following*
 **Official Requirement 12b:** Using a carabiner and a rappel device, attach a rappel rope to your harness.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 12b (Using a carabiner and a rappel device, attach a rappel rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 12b (Using a carabiner and a rappel device, attach a rappel rope to your harness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attaching a tubular or figure-eight descender requires locking carabiners connected directly to the harness belay loop. Rappellers perform a physical pull test to verify gate locking.
 - **Common Myth:** A rappel carabiner can be left unlocked if the gate faces away without completing the full BSA pamphlet procedure.
@@ -813,7 +813,7 @@
 **[Parent Directive]:** *Rappelling. Do the following*
 **Official Requirement 12c:** Rappel down three different rock faces or three rappel routes on a climbing wall. Use verbal signals to communicate with a belayer, and demonstrate good rappelling technique.
 **Source:** *Official Scouting America Climbing Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 12c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For climbing Requirement 12c (Rappel down three different rock faces or three rappel routes on a climbing wall. Use), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Climbing Requirement 12c (Rappel down three different rock faces or three rappel routes on a climbing wall. Use), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Descending three routes builds confidence in body positioning, brake hand modulation, and rock wall negotiation. Smooth, steady movement prevents rope bounce and protects anchor integrity.
 - **Common Myth:** Bouncing outward off the rock face like movie stuntmen makes rappelling much safer.
@@ -853,3 +853,4 @@
 | **3. Hardware Protection** | Hardware Protection: Hang metal carabiners and belay devices to prevent corrosion and grit accumulation. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 13):** Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Climbing Requirement 13 (storing ropes, hardware, and gear) before signing the blue card.
+)

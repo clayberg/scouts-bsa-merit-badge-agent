@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Public%20Health.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/public-health/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Explain what public health is.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Avoid direct contact with unfamiliar blood, bodily fluids, animal carcasses, or discarded medical sharps.
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 1a (Explain what public health is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 1a (Explain what public health is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Public health encompasses organized scientific measures aimed at preventing disease, extending life expectancy, and promoting human health across society. These efforts rely on government sanitation, disease surveillance, immunization policies, and community education.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Infectious Pathogen Transmission Routes
 **Official Requirement 1b:** Explain how Escherichia coli (E. coli), tetanus, AIDS, encephalitis, salmonellosis, Lyme disease, and coronavirus (COVID-19) are contracted.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 1b (Explain how Escherichia coli (E. coli), tetanus, AIDS, encephalitis, salmonellosis, Lyme), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 1b (Explain how Escherichia coli (E. coli), tetanus, AIDS, encephalitis, salmonellosis, Lyme), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Specific infectious illnesses spread through distinct vectors, airborne particles, or contact with contaminated materials. Identifying the exact pathogen transmission route allows public health officials to interrupt the chain of infection.
 - **Common Myth:** Tetanus infections develop spontaneously from rusty metal rather than bacterial spores living in soil.
@@ -82,7 +82,7 @@
 #### Req 1c: Selected Communicable Disease Management
 **Official Requirement 1c:** Choose any four of the following diseases and explain how each one is contracted and possibly prevented: gonorrhea, West Nile virus, botulism, influenza, syphilis, hepatitis, emphysema, meningitis, herpes, or lead poisoning.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 1c (Choose any four of the following diseases and explain how each one is contracted and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 1c (Choose any four of the following diseases and explain how each one is contracted and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Diseases such as influenza, hepatitis, botulism, and West Nile virus spread through respiratory droplets, contaminated consumables, or mosquito vectors. Prevention requires targeted food canning temperatures, sexual barrier methods, insect repellents, and annual vaccinations.
 - **Common Myth:** Home-canned low-acid vegetables can be made safe simply by smelling or looking at the jar contents.
@@ -100,7 +100,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1d:** For all 10 diseases from 1(c), explain the type or form of the disease (viral, bacterial, environmental, toxin), any possible vectors for transmission, ways to help prevent exposure or the spread of infection, and available treatments.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 18, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 1d (For all 10 diseases from 1(c), explain the type or form of the disease (viral, bacterial,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 1d (For all 10 diseases from 1(c), explain the type or form of the disease (viral, bacterial,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Communicable illnesses are categorized by their causative agents, including viral, bacterial, toxin-mediated, or environmental sources. Transmission occurs through physical vectors, environmental reservoirs, or direct contact, which dictates the necessary barrier protections.
 - **Common Myth:** All infectious diseases require an animal or insect vector to move between hosts.
@@ -124,7 +124,7 @@
 **Official Requirement 2a:** Explain the meaning of immunization.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Adhere to sterile hypodermic injection protocols and dispose of all used needles in rigid biohazard containers.
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 2a (Explain the meaning of immunization), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 2a (Explain the meaning of immunization), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immunization introduces dead or attenuated antigens into the bloodstream to trigger an adaptive antibody response without illness. When real pathogens invade later, memory cells recognize the antigens and destroy them before infection takes hold.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -146,7 +146,7 @@
 #### Req 2b: Childhood and Adult Vaccine Schedules
 **Official Requirement 2b:** Name eight diseases against which a young child should be immunized, two diseases against which everyone should be reimmunized periodically, and one immunization everyone should receive annually.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 2b (Name eight diseases against which a young child should be immunized, two diseases against), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 2b (Name eight diseases against which a young child should be immunized, two diseases against), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Young children require immunizations against eight standard illnesses including polio, measles, mumps, rubella, pertussis, diphtheria, tetanus, and hepatitis B. Adults require periodic tetanus and diphtheria toxoid boosters every decade, alongside an annual influenza vaccine.
 - **Common Myth:** Childhood vaccinations provide permanent, lifelong protection against every communicable disease without ever needing boosters.
@@ -166,7 +166,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2c:** Using the list of diseases and conditions in requirement 1(b), discuss with your counselor those which currently have no immunization available.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 2c (Using the list of diseases and conditions in requirement 1(b), discuss with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 2c (Using the list of diseases and conditions in requirement 1(b), discuss with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Certain pathogens like the bacteria causing syphilis, gonorrhea, and Lyme disease, or the human immunodeficiency virus, currently lack widely approved preventive vaccines. Public health must rely on barrier devices, vector control, clean blood supplies, and behavioral measures.
 - **Common Myth:** Every major infectious bacterial or viral disease has an approved vaccine available at local clinics.
@@ -384,7 +384,7 @@
 **Official Requirement 6a:** Describe the health dangers from air, water, and noise pollution.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never consume prescription medications prescribed to another person, and never touch unknown powders or pills.
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 6a (Describe the health dangers from air, water, and noise pollution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 6a (Describe the health dangers from air, water, and noise pollution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Air pollution containing ozone and particulates aggravates asthma and causes cardiovascular illness. Chemical water contaminants cause gastrointestinal distress, while chronic acoustic noise above eighty-five decibels causes irreversible sensory neural hearing damage.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -406,7 +406,7 @@
 #### Req 6b: Tobacco and Alcohol Health Impacts
 **Official Requirement 6b:** Describe health dangers from tobacco use and alcohol and drug abuse.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 6b (Describe health dangers from tobacco use and alcohol and drug abuse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 6b (Describe health dangers from tobacco use and alcohol and drug abuse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tobacco smoke delivers carcinogenic tars, toxic carbon monoxide, and addictive nicotine into pulmonary and cardiovascular structures. Chronic alcohol abuse damages liver hepatocytes, degrades central nervous system functioning, and increases traumatic injury rates across communities.
 - **Common Myth:** Alcohol is a stimulant beverage because it frequently causes people to become loud and animated.
@@ -423,7 +423,7 @@
 #### Req 6c: Prescription and Illicit Drug Risks
 **Official Requirement 6c:** Describe the health dangers from abusing illegal and prescription drugs.
 **Source:** *Official Scouting America Public Health Merit Badge Pamphlet (p. 70, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For public health Requirement 6c (Describe the health dangers from abusing illegal and prescription drugs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Public Health Requirement 6c (Describe the health dangers from abusing illegal and prescription drugs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Abusing prescription opioids, tranquilizers, or illicit street drugs alters brain chemistry and generates severe physical dependency. Illicit drug contamination with synthetic opioids creates extreme risks of fatal respiratory failure and cardiovascular collapse.
 - **Common Myth:** Medications prescribed by licensed medical doctors are completely non-addictive and harmless when taken without prescription.
@@ -567,3 +567,4 @@
 | **3. Discuss what you learn with your counselor.** | Biostatisticians utilize mathematical modeling to evaluate community healthcare program outcomes and trends. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Public Health Requirement 8 (careers in public health) before signing the blue card.
+))

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Model%20Design.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/model-design-and-building/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Explain the requirements for personal safety when using modelmaking hand tools, and when to use proper protective equipment.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Cut away from hands and body along a steel straightedge resting on a non-slip mat.
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 1a (Explain the requirements for personal safety when using modelmaking hand tools, and when to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 1a (Explain the requirements for personal safety when using modelmaking hand tools, and when to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hand cutting tools require deliberate cut strokes away from fingers alongside protective eye shields. Dull blades force dangerous manual pressure that often leads to severe slips.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Digital Tool Safety Protocols
 **Official Requirement 1b:** Explain digital safety best practices when using computer design software, and digital fabrication tools.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 1b (Explain digital safety best practices when using computer design software, and digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 1b (Explain digital safety best practices when using computer design software, and digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Computer numerical control mills and filament extruders generate hot surfaces and mechanical pinch points. Operators must maintain safety interlocks and avoid wearing loose clothing around motorized carriages.
 - **Common Myth:** Novices think enclosed desktop additive manufacturing printers present zero physical burn or pinch hazards.
@@ -78,7 +78,7 @@
 #### Req 1c: Hazardous Chemical Solvent Controls
 **Official Requirement 1c:** Explain what precautions to take when using flammable or hazardous materials.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 1c (Explain what precautions to take when using flammable or hazardous materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 1c (Explain what precautions to take when using flammable or hazardous materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Liquid plastic cements and aerosol spray paints emit toxic volatile compounds that ignite near open flames. Scouts must use cross-ventilation hoods and store solvents in designated metal safety cabinets.
 - **Common Myth:** Novices believe odorless cyanoacrylate super glues do not release irritant fumes during curing.
@@ -99,7 +99,7 @@
 #### Req 2a: Technical Model Classification Categories
 **Official Requirement 2a:** Explain the uses for each of the following types of models: architectural, structural, process, mechanical, and industrial.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 2a (Explain the uses for each of the following types of models: architectural, structural,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 2a (Explain the uses for each of the following types of models: architectural, structural,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Different engineering disciplines utilize specific model categories to solve distinct spatial and functional challenges. Structural models expose internal framing, while mechanical models test physical linkages and gear assemblies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -121,7 +121,7 @@
 #### Req 2b: Digital Simulation and Drafting
 **Official Requirement 2b:** Explain to your counselor how either traditional and/or computer design tools can be used to create plans, simulate function, visualize models, and assist in constructing or fabricating parts.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 2b (Explain to your counselor how either traditional and/or computer design tools can be used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 2b (Explain to your counselor how either traditional and/or computer design tools can be used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Parametric computer design platforms allow builders to test kinematic motions and verify tolerances before physical fabrication. Three-dimensional rendering tools reveal visual balance and lighting behavior under simulated operational conditions.
 - **Common Myth:** Beginners believe computer modeling software eliminates the need to understand physical material tolerances.
@@ -138,7 +138,7 @@
 #### Req 2c: Traditional and Additive Materials
 **Official Requirement 2c:** Describe to your counselor traditional and modern materials and fabrication methods that can be used for making these models. Include physical and digital materials and methods.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 2c (Describe to your counselor traditional and modern materials and fabrication methods that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 2c (Describe to your counselor traditional and modern materials and fabrication methods that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Model builders select between wood grains, brass tubes, cast resins, and extruded thermoplastic filaments. Each material requires compatible cutting methods, surface primers, and specialized adhesives for durable construction.
 - **Common Myth:** Scouts assume modern three-dimensional printed plastic parts are superior to wood in every application.
@@ -158,7 +158,7 @@
 #### Req 3a: Scaled Technical Drawing Preparation
 **Official Requirement 3a:** Prepare the necessary plans to the proper scale.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 3a (Prepare the necessary plans to the proper scale), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 3a (Prepare the necessary plans to the proper scale), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders create orthographic views using precise architectural or engineering scale rulers. These scaled drawings serve as physical cutting templates throughout assembly.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -181,7 +181,7 @@
 **[Parent Directive]:** *Planning Your Project*
 **Official Requirement 3b:** Make a list of materials.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 3b (Make a list of materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 3b (Make a list of materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An itemized bill lists every required raw material, dimensions, structural characteristics, and estimated costs. Accurate accounting ensures adequate stock is on hand before assembly begins.
 - **Common Myth:** Novices assume they can purchase random sheets of balsa without calculating specific part dimensions.
@@ -199,7 +199,7 @@
 **[Parent Directive]:** *Planning Your Project*
 **Official Requirement 3c:** Create a list of the required tools.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 3c (Create a list of the required tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 3c (Create a list of the required tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Compiling a dedicated tooling roster guarantees proper holding fixtures, abrasive grits, and cutters are available. Specialized miniature clamps and mitre boxes ensure accurate geometric alignment.
 - **Common Myth:** Beginners believe standard kitchen knives and utility scissors can substitute for modeling razor saws.
@@ -217,7 +217,7 @@
 **[Parent Directive]:** *Planning Your Project*
 **Official Requirement 3d:** This model should be your own original work. Tell why you selected this subject.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 3d (This model should be your own original work. Tell why you selected this subject), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 3d (This model should be your own original work. Tell why you selected this subject), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The modeler documents original design goals, functional intentions, and inspiration behind the chosen subject. Explaining the subject choice validates personal investment and creative problem-solving.
 - **Common Myth:** Scouts assume modifying a commercial injection-molded kit satisfies the requirement for an original design.
@@ -233,7 +233,7 @@
 #### Req 3e: Digital Design Tool Integration
 **Official Requirement 3e:** Discuss with your counselor if you plan to integrate computer design tools to complete your project.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 3e (Discuss with your counselor if you plan to integrate computer design tools to complete your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 3e (Discuss with your counselor if you plan to integrate computer design tools to complete your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders discuss whether to utilize three-dimensional CAD software for drafting or digital fabrication output. Integrating digital tools allows virtual pre-fitting and rapid revision of detailed subassemblies.
 - **Common Myth:** Novices think using digital CAD tools reduces the required manual skill of the modeler.
@@ -255,7 +255,7 @@
 **[Parent Directive]:** *Build Your Model*
 **Official Requirement 4a:** Architectural Model. Design and build a model of a house to a scale of 1⁄4" = 1'0" (1:48 scale). Begin by creating floor plans and elevations. Include windows, doors, and structural elements. Discuss with your counselor the materials you intend to use, the amount of detail required, outside treatment (finish, shrubbery, walks, etc.), and color selections. You may choose to 3D print elements or use laser-cut parts based on using computer design. Present both your design and final model to your counselor for evaluation.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 4a (Architectural Model. Design and build a model of a house to a scale of 1⁄4" = 1'0" (1:48), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 4a (Architectural Model. Design and build a model of a house to a scale of 1⁄4" = 1'0" (1:48), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders construct a residential house model at one-quarter inch equals one foot scale. The model must feature accurate wall elevations, window openings, structural partitions, and roof trusses.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -279,7 +279,7 @@
 **[Parent Directive]:** *Build Your Model*
 **Official Requirement 4b:** Structural Model. Construct a scale model showing corner construction of a wood-frame building to a scale of 1 1⁄2" = 1'0" (1:8 scale). Begin with a structural layout showing the parts of the floor and wall frames, such as intermediate girder, joist, bridging, subfloor, sill, sole plate, stud, and rafter. Use your plans to assist in building a physical model with cardboard, foam board, or wood. Review with your counselor the parts of the structure and discuss challenges in both your design and build process, gathering the materials and supporting the structure.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 4b (Structural Model. Construct a scale model showing corner construction of a wood-frame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 4b (Structural Model. Construct a scale model showing corner construction of a wood-frame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - This model highlights structural framing conventions at one-and-a-half inches to one foot scale. Builders assemble sole plates, three-stud corner assemblies, blocking, and double top plates.
 - **Common Myth:** Beginners assume a structural corner consists of simply nailing two single studs together at ninety degrees.
@@ -299,7 +299,7 @@
 **[Parent Directive]:** *Build Your Model*
 **Official Requirement 4c:** Process Model. Design and build a model showing the plumbing system of your house to a scale of 3⁄4" = 1'0" (1:16 scale) or an agreed-upon scale. Show hot and cold-water supply, all waste returns, and venting. After creating your plan, talk to your counselor about how to begin this model, and present the scale and the materials you will use. Build the model using appropriate materials such as tubing, straws, or printed parts. After completion, present your model to your counselor, and be prepared to discuss any problems you had building this model.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 4c (Process Model. Design and build a model showing the plumbing system of your house to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 4c (Process Model. Design and build a model showing the plumbing system of your house to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders assemble a scale process model representing residential water distribution and drainage piping. Scaled pipes must distinguish hot water, cold water, soil stacks, and vent lines.
 - **Common Myth:** Scouts assume water supply lines and drain waste vent lines follow identical pipe slope rules.
@@ -318,7 +318,7 @@
 **[Parent Directive]:** *Build Your Model*
 **Official Requirement 4d:** Mechanical Model. Build a model of a mechanical device that incorporates at least two of the six simple machines. You can use digital tools to design and simulate the device before constructing it. Once your design is approved by your counselor, build a working physical model using materials such as wood, plastic, or 3D printed parts. Present your models to your counselor and be prepared to discuss materials used, the machine's function, and challenges you encountered during the construction process.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 4d (Mechanical Model. Build a model of a mechanical device that incorporates at least two of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 4d (Mechanical Model. Build a model of a mechanical device that incorporates at least two of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The mechanical model combines two or more simple machines into a functioning kinematic device. Builders must demonstrate mechanical advantage through levers, pulleys, wheel-axles, or gear trains.
 - **Common Myth:** Beginners think mechanical models only need to look functional without actually moving or transmitting force.
@@ -338,7 +338,7 @@
 **[Parent Directive]:** *Build Your Model*
 **Official Requirement 4e:** Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1" = 1'0" or 1⁄2" = 1'0" (1:12 or 1:24 scale). Begin by measuring a real vehicle and modeling it from multiple views (top, front, rear, sides). You can draw it or use computer design software. From your plans, build a physical model or use digital rendering or 3D printing to produce the final version. Discuss with your counselor which parts were most challenging.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 4e (Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1" =), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 4e (Industrial Model. Build a model of an actual passenger-carrying vehicle to a scale of 1" =), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders measure a real-world passenger vehicle to construct a scratch model at one-twelfth or one-twenty-fourth scale. Construction captures accurate aerodynamic contours, wheel tracks, and cabin proportions.
 - **Common Myth:** Novices assume vehicle curves can be approximated by eye without taking caliper measurements.
@@ -360,7 +360,7 @@
 #### Req 5a: Real World Design Inspiration
 **Official Requirement 5a:** Research real-world aircraft, submarines, and naval ships for design inspiration.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 5a (Research real-world aircraft, submarines, and naval ships for design inspiration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 5a (Research real-world aircraft, submarines, and naval ships for design inspiration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders research operational aircraft, submarines, and naval warships to uncover convincing industrial forms. Incorporating functional intakes, exhaust fairings, and armor plate bevels anchors fantasy designs in reality.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -382,7 +382,7 @@
 #### Req 5b: Spacecraft Subsystem Component Architecture
 **Official Requirement 5b:** Design individual components (such as the cockpit, living areas, engines, and storage)
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 5b (Design individual components (such as the cockpit, living areas, engines, and storage)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 5b (Design individual components (such as the cockpit, living areas, engines, and storage)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Spacecraft models require deliberate spatial planning for cockpit canopies, crew quarters, powerplants, and thrusters. Laying out functional modules ensures exterior contours reflect believable internal machinery and habitable compartments.
 - **Common Myth:** Scouts assume a fantasy spaceship exterior can be built without considering internal crew accommodation space.
@@ -402,7 +402,7 @@
 **[Parent Directive]:** *Special-Effects Fantasy Model*
 **Official Requirement 5c:** Produce a final sketch or a rendered image of the complete model from multiple angles.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 5c (Produce a final sketch or a rendered image of the complete model from multiple angles), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 5c (Produce a final sketch or a rendered image of the complete model from multiple angles), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The modeler produces multi-angle orthographic sketches or three-dimensional digital renderings of the completed vehicle. These illustrations establish color palettes, shadow lines, and structural symmetry before fabrication begins.
 - **Common Myth:** Novices think a single rough perspective sketch provides sufficient blueprint guidance for building a miniature.
@@ -421,7 +421,7 @@
 #### Req 5d: Fabrication Process Counselor Review
 **Official Requirement 5d:** Discuss your design process and scale choices with your counselor. Describe the materials (physical and/or digital) you used, how you engineered your model and discuss any difficulties you encountered and what you learned.
 **Source:** *Official Scouting America Model Design and Building Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For model design and building Requirement 5d (Discuss your design process and scale choices with your counselor. Describe the materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Model Design and Building Requirement 5d (Discuss your design process and scale choices with your counselor. Describe the materials), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The builder presents material selections, fabrication techniques, scale choices, and engineering setbacks to the counselor. This dialogue evaluates the scout's problem-solving adaptations during scratch-built assembly.
 - **Common Myth:** Scouts assume discussing construction difficulties with the counselor will lower their evaluation score.
@@ -469,3 +469,4 @@
 | **5. Discuss with your counselor both your findings and what about this profession might make it an interesting career** | Step 1 - Career Field Identification: Select an industry such as architectural modeling, automotive styling, or film special effects. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 6):** Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Model Design and Building Requirement 6 (careers in model design and prototyping) before signing the blue card.
+)))))

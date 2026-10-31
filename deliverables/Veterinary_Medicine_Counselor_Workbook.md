@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Veterinary%20Medicine.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/veterinary-medicine/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Companion or small animal medicine, and equine medicine (b) Food animal or large animal medicine (c) Exotic animal medicine (d) Marine animal medicine (mammal and fish) (e) Poultry medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always wear nitrile gloves, protective coveralls, and steel toe boots when restraining large animals in squeeze chutes.
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1a (Companion or small animal medicine, and equine medicine (b) Food animal or large animal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1a (Companion or small animal medicine, and equine medicine (b) Food animal or large animal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Companion animal clinicians deliver wellness examinations, soft tissue surgeries, and emergency trauma care for domestic pets. Equine veterinarians travel to stables to treat lameness, respiratory disorders, and gastrointestinal colic in sport horses.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 1b:** Food animal or large animal medicine (c) Exotic animal medicine (d) Marine animal medicine (mammal and fish) (e) Poultry medicine (f) Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1b (Food animal or large animal medicine (c) Exotic animal medicine (d) Marine animal medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1b (Food animal or large animal medicine (c) Exotic animal medicine (d) Marine animal medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Food animal practitioners monitor the health, nutrition, and disease transmission risks across dairy, beef, swine, and sheep herds. They design herd vaccination schedules and audit withdrawal times for agricultural medications to safeguard consumers.
 - **Common Myth:** Livestock veterinarians spend their time treating individual farm animals rather than whole commercial herds.
@@ -83,7 +83,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 1c:** Exotic animal medicine (d) Marine animal medicine (mammal and fish) (e) Poultry medicine (f) Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1c (Exotic animal medicine (d) Marine animal medicine (mammal and fish) (e) Poultry medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1c (Exotic animal medicine (d) Marine animal medicine (mammal and fish) (e) Poultry medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Exotic animal medicine treats reptiles, birds, pocket rodents, and amphibians requiring tailored biological environments and husbandry protocols. Clinicians must master unique anatomical differences like avian air sacs and reptilian renal portal vascular systems.
 - **Common Myth:** Exotic pets can receive standard canine and feline pharmaceutical dosages without specialized species modifications.
@@ -101,7 +101,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 1d:** Marine animal medicine (mammal and fish) (e) Poultry medicine (f) Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1d (Marine animal medicine (mammal and fish) (e) Poultry medicine (f) Wildlife medicine and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1d (Marine animal medicine (mammal and fish) (e) Poultry medicine (f) Wildlife medicine and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Marine veterinarians treat aquatic mammals, teleost fishes, and elasmobranchs housed in public aquaria or coastal research reserves. They analyze salinity, dissolved oxygen levels, and filtration mechanics while conducting diagnostic medical procedures on aquatic patients.
 - **Common Myth:** Marine animal veterinarians only administer medical care to stranded whales and seals on beaches.
@@ -119,7 +119,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 1e:** Poultry medicine (f) Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1e (Poultry medicine (f) Wildlife medicine and aquaculture medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1e (Poultry medicine (f) Wildlife medicine and aquaculture medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Poultry veterinarians supervise the systemic biosecurity and immunological defenses of commercial broiler and egg-laying operations. They evaluate ventilation controls, administer water-line vaccines, and examine flock mortality records to suppress infectious pathogens.
 - **Common Myth:** Poultry veterinarians treat backyard chickens using individual clinical examinations rather than flock population diagnostics.
@@ -137,7 +137,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 1f:** Wildlife medicine and aquaculture medicine.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 22, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 1f (Wildlife medicine and aquaculture medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 1f (Wildlife medicine and aquaculture medicine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildlife veterinarians manage non-domesticated populations through field immobilization, disease surveillance, and habitat health monitoring programs. Aquaculture clinicians manage finfish hatcheries and commercial shellfish beds to control fungal, bacterial, and parasitic infestations.
 - **Common Myth:** Wildlife veterinarians and aquaculture specialists rely exclusively on tranquilizer darts for all medical interventions.
@@ -161,7 +161,7 @@
 **Official Requirement 2a:** Public health medicine and zoonotic disease surveillance and control (b) The military (c) Food safety and inspection (d) Laboratory animal medicine and research (e) Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear personal protective equipment including N95 respirators, face shields, and splash aprons when collecting infectious field samples.
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 2a (Public health medicine and zoonotic disease surveillance and control (b) The military (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 2a (Public health medicine and zoonotic disease surveillance and control (b) The military (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Public health veterinarians monitor cross-species transmission events for pathogens such as rabies, leptospirosis, and West Nile virus. They collaborate with public agencies to direct vaccination programs and control vector transmission pathways.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -184,7 +184,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 2b:** The military (c) Food safety and inspection (d) Laboratory animal medicine and research (e) Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 2b (The military (c) Food safety and inspection (d) Laboratory animal medicine and research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 2b (The military (c) Food safety and inspection (d) Laboratory animal medicine and research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Veterinary Corps officers provide trauma medicine and conditioning programs for military working dogs deployed in high-risk zones. They also certify commercial food sources, evaluate drinking water potability, and mitigate biological warfare threats abroad.
 - **Common Myth:** Military veterinarians only treat the mascots and companion pets of service members on bases.
@@ -204,7 +204,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 2c:** Food safety and inspection (d) Laboratory animal medicine and research (e) Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 2c (Food safety and inspection (d) Laboratory animal medicine and research (e) Teaching and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 2c (Food safety and inspection (d) Laboratory animal medicine and research (e) Teaching and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Food safety veterinarians execute antemortem and postmortem inspections in processing plants to prevent contaminated livestock from entering commerce. They collect tissue samples for chemical residue testing and enforce sanitary handling standards.
 - **Common Myth:** Meat inspectors only observe packaged meat products after butchering and packaging are finished.
@@ -222,7 +222,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 2d:** Laboratory animal medicine and research (e) Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 2d (Laboratory animal medicine and research (e) Teaching and government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 2d (Laboratory animal medicine and research (e) Teaching and government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Laboratory animal veterinarians oversee institutional animal care programs to assure compliance with the federal Animal Welfare Act. They formulate humane enrichment strategies, refine anesthesia regimens, and train researchers in aseptic microsurgical methods.
 - **Common Myth:** Biomedical laboratory researchers determine all animal housing and pain relief standards without veterinary consultation.
@@ -240,7 +240,7 @@
 **[Parent Directive]:** *Discuss with your counselor the roles a veterinarian plays in the following*
 **Official Requirement 2e:** Teaching and government.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 2e (Teaching and government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 2e (Teaching and government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Academic veterinarians teach veterinary candidates while managing specialized referral cases and discovering novel clinical therapies. Government veterinarians author livestock transport regulations, manage national disease eradication initiatives, and certify international trade shipments.
 - **Common Myth:** Government veterinarians work exclusively as classroom teachers without managing real agricultural or regulatory emergencies.
@@ -349,7 +349,7 @@
 **Official Requirement 6a:** Visit a veterinary clinic, hospital, or veterinary referral teaching hospital that does work in one of the practices listed in requirement 1. Spend as much time as you can observing the veterinarians and their staff. Prepare a presentation on what you observed and learned at the facility and share with your counselor.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 16, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Follow hospital biosafety guidelines by standing clear of energized radiographic beams and avoiding unmonitored animal enclosures.
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 6a (Visit a veterinary clinic, hospital, or veterinary referral teaching hospital that does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 6a (Visit a veterinary clinic, hospital, or veterinary referral teaching hospital that does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a small animal or equine hospital illustrates how clinicians diagnose acute medical conditions and communicate with owners. Observers see sterile operating procedures, dental cleaning units, and digital imaging suites in daily operation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -372,7 +372,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 6b:** Spend as much time as possible with a veterinarian who works in one of the fields listed in requirement 2. Learn what special training beyond veterinary medical school may have been required for that position. Learn about any special or unusual activities required of this position. Prepare a presentation and share what you have learned about this field of veterinary medicine with your counselor. Include how this field serves the needs of the general public.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 16, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 6b (Spend as much time as possible with a veterinarian who works in one of the fields listed in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 6b (Spend as much time as possible with a veterinarian who works in one of the fields listed in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shadowing a public health, military, or research veterinarian demonstrates how medical science impacts populations and public regulations. Students learn about specialized board certifications and advanced postgraduate residencies required for non-clinical specialties.
 - **Common Myth:** Non-clinical veterinarians complete shorter educational programs because they do not manage private animal clinics.
@@ -395,7 +395,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor*
 **Official Requirement 7a:** Why would one choose this particular career field.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 7a (Why would one choose this particular career field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 7a (Why would one choose this particular career field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Choosing a veterinary field involves assessing personal aptitude for clinical medicine, epidemiology, public policy, or surgical interventions. Career paths offer distinct lifestyles ranging from rural ambulatory farm calls to metropolitan specialty centers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -418,7 +418,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor*
 **Official Requirement 7b:** What would you like about this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 7b (What would you like about this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 7b (What would you like about this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Veterinarians enjoy solving complex medical mysteries, restoring injured animals to health, and performing life-saving surgical procedures. They also value educating pet owners and mentoring younger clinic staff members throughout daily practice.
 - **Common Myth:** The primary satisfaction in veterinary medicine comes from avoiding human social interactions during workday shifts.
@@ -436,7 +436,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor*
 **Official Requirement 7c:** What would be the biggest challenges in doing this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 7c (What would be the biggest challenges in doing this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 7c (What would be the biggest challenges in doing this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Veterinarians face significant professional challenges including compassion fatigue, long working hours, and difficult end-of-life decisions. Managing client financial constraints during life-threatening animal emergencies creates intense ethical and personal stress.
 - **Common Myth:** The primary difficulty in veterinary medicine is simply memorizing pharmaceutical names and anatomy terms.
@@ -454,7 +454,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor*
 **Official Requirement 7d:** What to you has been the most surprising aspect of this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 7d (What to you has been the most surprising aspect of this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 7d (What to you has been the most surprising aspect of this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Many people are surprised by the immense amount of human communication, business administration, and psychiatric empathy required in veterinary practice. Success depends on effectively counseling anxious owners and collaborating smoothly with multi-disciplinary veterinary teams.
 - **Common Myth:** Veterinarians work almost entirely in isolation with animals without needing human interpersonal skills.
@@ -472,7 +472,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1 or 2. Discuss the following with your counselor*
 **Official Requirement 7e:** What continuing education requirements are required to maintain certification for this job.
 **Source:** *Official Scouting America Veterinary Medicine Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For veterinary medicine Requirement 7e (What continuing education requirements are required to maintain certification for this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Veterinary Medicine Requirement 7e (What continuing education requirements are required to maintain certification for this job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Veterinarians must complete state-mandated continuing education hours annually or biennially to maintain their legal practice licenses. They attend medical conferences, complete wet labs, and review scientific journals to learn emerging diagnostic techniques.
 - **Common Myth:** Once a veterinarian obtains their doctoral diploma, their formal scientific education is finished for life.
@@ -485,3 +485,4 @@
 | **3. Req 7e Practical Example & Counselor Conference Verification** | Veterinarians must complete state-mandated continuing education hours annually or biennially to maintain their legal practice licenses. They attend medical conferences, complete wet labs, and review scientific journals to learn emerging diagnostic techniques. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7e):** Scout must individually discuss Requirement 7e (What continuing education requirements are required to maintain certification for this job) to the Counselor.
+)

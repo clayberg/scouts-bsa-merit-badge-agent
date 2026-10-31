@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Salesmanship.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/salesmanship/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 #### Req 1a: Salesperson Responsibilities and Economic Impact
 **Official Requirement 1a:** Explain the responsibilities of a salesperson and how a salesperson serves customers and helps stimulate the economy.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 1a (Explain the responsibilities of a salesperson and how a salesperson serves customers and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 1a (Explain the responsibilities of a salesperson and how a salesperson serves customers and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A salesperson represents the public face of an enterprise by identifying customer requirements and delivering suitable goods. These continuous transactions fund corporate payroll, capital investments, and public tax revenues across regional economies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Business and Consumer Sales Distinctions
 **Official Requirement 1b:** Explain the differences between a business-to-business salesperson and a consumer salesperson.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 1b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 1b (Explain the differences between a business-to-business salesperson and a consumer salesperson), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 1b (Explain the differences between a business-to-business salesperson and a consumer salesperson), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Consumer transactions involve individual shoppers making swift buying decisions based on personal utility and emotional preference. Business sales feature multi-stage procurement negotiations involving committee review, formal technical specifications, and bulk volume terms.
 - **Common Myth:** Selling heavy industrial machinery uses the exact same sales methods as selling retail shoes.
@@ -84,7 +84,7 @@
 #### Req 2a: Consumer Market Research Strategy
 **Official Requirement 2a:** Research the market to be sure the product or service meets the needs of customers.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 2a (Research the market to be sure the product or service meets the needs of customers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 2a (Research the market to be sure the product or service meets the needs of customers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Market research gathers quantitative demographic data and qualitative customer preferences to evaluate competitive positioning. Analyzing buyer trends protects companies from investing production capital into unviable merchandise concepts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -107,7 +107,7 @@
 **[Parent Directive]:** *Explain why it is important for a salesperson to do the following*
 **Official Requirement 2b:** Learn all about the product to be sold.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 2b (Learn all about the product to be sold), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 2b (Learn all about the product to be sold), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sales representatives must master every dimension, material component, and operating characteristic of their catalog items. Clear technical command prevents misleading representations and establishes immediate sales authority.
 - **Common Myth:** Memorizing surface sales slogans is sufficient for closing high-value commercial transactions.
@@ -127,7 +127,7 @@
 **[Parent Directive]:** *Explain why it is important for a salesperson to do the following*
 **Official Requirement 2c:** If possible, visit the location where the product is built and learn how it is constructed. If a service is being sold, learn about the benefits of the service to the customer.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 2c (If possible, visit the location where the product is built and learn how it is constructed.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 2c (If possible, visit the location where the product is built and learn how it is constructed.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing production machinery and craftsmanship standards provides tangible evidence of physical product durability. For intangible services, representatives must clearly articulate operational time savings and direct financial returns.
 - **Common Myth:** Inspecting production factory lines is merely a public relations tour without commercial utility.
@@ -144,7 +144,7 @@
 **[Parent Directive]:** *Explain why it is important for a salesperson to do the following*
 **Official Requirement 2d:** Follow up with customers after their purchase to confirm their satisfaction and discuss their concerns about the product.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 2d (Follow up with customers after their purchase to confirm their satisfaction and discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 2d (Follow up with customers after their purchase to confirm their satisfaction and discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Systematic post-sale engagement resolves customer operational confusion and verifies that merchandise meets expected performance standards. Prompt resolution of early buyer friction establishes customer loyalty and stimulates referral business.
 - **Common Myth:** The sales relationship terminates permanently the moment customer payment clears the register.
@@ -220,7 +220,7 @@
 **[Parent Directive]:** *Do ONE of the following and keep a record (cost sheet). Use the sales techniques you have learned, and share*
 **Official Requirement 5a:** Help your unit raise funds through sales of merchandise or of tickets to a Scout event.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 5a (Help your unit raise funds through sales of merchandise or of tickets to a Scout event), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 5a (Help your unit raise funds through sales of merchandise or of tickets to a Scout event), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Youth fundraising campaigns generate operating capital for unit campouts, equipment purchases, and community service projects. Scouts apply organized territory canvassing and professional presentation habits to secure neighborhood support.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -243,7 +243,7 @@
 **[Parent Directive]:** *Do ONE of the following and keep a record (cost sheet). Use the sales techniques you have learned, and share*
 **Official Requirement 5b:** Sell your services, such as lawn raking or mowing, pet sitting, dog walking, snow shoveling, or car washing, to your neighbors. Follow up after completing the service to determine the customer satisfaction.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 5b (Sell your services, such as lawn raking or mowing, pet sitting, dog walking, snow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 5b (Sell your services, such as lawn raking or mowing, pet sitting, dog walking, snow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selling personal labor such as lawn care, car washing, or snow removal requires establishing clear service boundaries and fair hourly pricing. Conducting follow-up visits ensures client satisfaction and solidifies recurring neighborhood service agreements.
 - **Common Myth:** Service businesses require no capital tracking since labor is provided directly by the worker.
@@ -260,7 +260,7 @@
 **[Parent Directive]:** *Do ONE of the following and keep a record (cost sheet). Use the sales techniques you have learned, and share*
 **Official Requirement 5c:** Earn money through retail selling.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 30, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 5c (Earn money through retail selling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 5c (Earn money through retail selling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Retail sales environments require active customer greeting, merchandise knowledge, and efficient point-of-sale checkout operation. Associates maintain visual store displays and answer consumer inquiries to maximize daily storefront sales volume.
 - **Common Myth:** Retail selling consists solely of standing passively behind a counter until customers ask for checkout assistance.
@@ -281,7 +281,7 @@
 #### Req 6a: Sales Representative Career Interview
 **Official Requirement 6a:** Interview a salesperson and learn the following: (1) What made the person choose sales as a profession? (2) What are the most important things to remember when talking to customers? (3) How is the product sold? (4) Include your own questions.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Professional Career Interview Card
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 6a (Interview a salesperson and learn the following: (1) What made the person choose sales as a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 6a (Interview a salesperson and learn the following: (1) What made the person choose sales as a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing a field sales representative provides insights into daily prospecting routines, territory travel demands, and client communication practices. Scouts learn how professional sellers cultivate resilience and refine consultative approaches over multi-year commercial careers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -383,7 +383,7 @@
 #### Req 7a: Written Qualifications Statement Preparation
 **Official Requirement 7a:** Prepare a written statement of your qualifications and experience. Include relevant classes you have taken in school and merit badges you have earned.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 7a (Prepare a written statement of your qualifications and experience. Include relevant classes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 7a (Prepare a written statement of your qualifications and experience. Include relevant classes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a written statement of qualifications documents personal sales aptitude, scholastic performance, and extracurricular leadership roles. Framing Scouting achievements and public speaking experiences highlights practical readiness for commercial representation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -404,7 +404,7 @@
 #### Req 7b: Sales Training and Education Preparation
 **Official Requirement 7b:** Discuss with your counselor what education, experience, or training you should obtain so you are prepared to serve in a sales position.
 **Source:** *Official Scouting America Salesmanship Merit Badge Pamphlet (p. 42, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For salesmanship Requirement 7b (Discuss with your counselor what education, experience, or training you should obtain so), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Salesmanship Requirement 7b (Discuss with your counselor what education, experience, or training you should obtain so), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating academic coursework in business management, speech communication, and data analytics reveals key knowledge areas needed for commercial advancement. Ongoing professional mentoring, sales seminars, and corporate shadowing programs build practical consultative expertise.
 - **Common Myth:** Great salespeople are entirely born with natural talent and cannot be developed through training.

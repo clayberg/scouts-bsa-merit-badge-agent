@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Hiking.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/hiking/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -37,7 +37,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while hiking, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Discontinue movement immediately when lightning strikes occur within thirty seconds of thunder, seeking forested depressions rather than isolated trees.
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 1a (Explain to your counselor the most likely hazards you may encounter while hiking, and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 1a (Explain to your counselor the most likely hazards you may encounter while hiking, and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hikers mitigate trail perils by researching terrain conditions, monitoring weather shifts, and maintaining situational awareness around wildlife or steep drop-offs. Anticipating hazards through pre-trip briefings reduces accidental falls and exposure injuries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -59,7 +59,7 @@
 #### Req 1b: Wilderness Medical Emergency Care
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while hiking, including hypothermia, frostbite, dehydration, heat exhaustion, heatstroke, sunburn, hyperventilation, altitude sickness, sprained ankle, blisters, insect stings, tick bites, and snakebite.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while hiking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while hiking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wilderness first aid prioritizes treating life threats, stabilizing core body temperature, and managing environmental trauma in remote backcountry settings. Prompt intervention prevents minor ailments like blisters or mild dehydration from escalating into debilitating emergencies.
 - **Common Myth:** Rubbing frostbitten fingers vigorously with snow restores normal blood circulation safely.
@@ -84,7 +84,7 @@
 **Official Requirement 2a:** Explain and, where possible, show the points of good hiking practices including proper outdoor ethics, hiking safety in the daytime and at night, courtesy to others, choice of footwear, and proper care of feet and footwear.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** When walking along roads without sidewalks, hike facing oncoming traffic in single file and wear high visibility or reflective gear.
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 2a (Explain and, where possible, show the points of good hiking practices including proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 2a (Explain and, where possible, show the points of good hiking practices including proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe trail conduct balances personal awareness with consideration for other recreationists and wildlife. Hikers must observe right of way customs, maintain group spacing, and handle nighttime road travel with active illumination.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -107,7 +107,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important while hiking.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 2b (Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 2b (Read aloud or recite the Leave No Trace Seven Principles, and discuss why each is important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Leave No Trace Seven Principles establish a framework for minimizing human impact on wilderness ecosystems. Travelers pack out waste, respect wildlife, minimize campfire impacts, and preserve natural artifacts for future visitors.
 - **Common Myth:** Organic waste like apple cores and banana peels decomposes quickly enough to discard along trails.
@@ -127,7 +127,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2c:** Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 2c (Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 2c (Read aloud or recite the Outdoor Code, and give examples of how to follow it on a hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Outdoor Code commits Scouts to be clean in outdoor manners, careful with fire, considerate in the outdoors, and conservation minded. Applying these tenets means treating natural resources with reverence and leaving campsites cleaner than found.
 - **Common Myth:** Following the Outdoor Code only matters when camping inside designated state or national parks.
@@ -178,7 +178,7 @@
 **Official Requirement 4a:** 10-mile hike #1.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Establish a rigid turnaround time before departure, turning back regardless of distance reached if weather or pace compromises safety.
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 4a (10-mile hike #1), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 4a (10-mile hike #1), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The initial 10-mile trek tests baseline stamina, gear fit, and route navigation under controlled conditions. Scouts validate their pacing and identify gear rubbing or hydration shortcomings early.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -201,7 +201,7 @@
 **[Parent Directive]:** *Take four 10-mile hikes and one 20-mile hike, each on a different day, and each of continuous miles*
 **Official Requirement 4b:** 10-mile hike #2.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 4b (10-mile hike #2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 4b (10-mile hike #2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The second 10-mile hike reinforces endurance and allows adjustments to pack distribution and foot protection based on the first trek. Hikers explore varied topography to expand trail versatility.
 - **Common Myth:** Using identical pack weight and shoes guarantees the second hike will feel easier automatically.
@@ -219,7 +219,7 @@
 **[Parent Directive]:** *Take four 10-mile hikes and one 20-mile hike, each on a different day, and each of continuous miles*
 **Official Requirement 4c:** 10-mile hike #3.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 4c (10-mile hike #3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 4c (10-mile hike #3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The third trek builds intermediate stamina and sharpens group communication over sustained elevation changes. Scouts practice proactive hot spot management and consistent hourly calorie intake.
 - **Common Myth:** Stopping for water only during meal breaks provides sufficient hydration on rolling backcountry trails.
@@ -237,7 +237,7 @@
 **[Parent Directive]:** *Take four 10-mile hikes and one 20-mile hike, each on a different day, and each of continuous miles*
 **Official Requirement 4d:** 10-mile hike #4 (e) 20-mile hike.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 4d (10-mile hike #4 (e) 20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 4d (10-mile hike #4 (e) 20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The final 10-mile hike serves as the qualifying benchmark before attempting the grueling 20-mile endurance test. Hikers refine their self-monitoring routines and verify pack readiness for extended mileage.
 - **Common Myth:** Finishing four ten-mile hikes proves readiness for twenty miles without additional physical preparation.
@@ -255,7 +255,7 @@
 **[Parent Directive]:** *Take four 10-mile hikes and one 20-mile hike, each on a different day, and each of continuous miles*
 **Official Requirement 4e:** 20-mile hike.
 **Source:** *Official Scouting America Hiking Merit Badge Pamphlet (p. 41, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For hiking Requirement 4e (20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Hiking Requirement 4e (20-mile hike), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The 20-mile continuous hike represents the pinnacle achievement of the merit badge, requiring seven to ten hours of sustained trekking. Flawless pacing, blister mitigation, nutrition, and mental resilience are mandatory for safe completion.
 - **Common Myth:** Hiking at a rapid sprint in the morning banks extra time for afternoon exhaustion.

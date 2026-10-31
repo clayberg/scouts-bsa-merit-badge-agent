@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Horsemanship.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/horsemanship/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Describe the safety precautions you should take when handling and caring for a horse.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 25, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wrap lead ropes or reins around fingers, hands, or wrists under any circumstance.
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 1a (Describe the safety precautions you should take when handling and caring for a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 1a (Describe the safety precautions you should take when handling and caring for a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe equine handling demands continuous spatial awareness around blind spots directly ahead and behind the animal. Always maintain physical contact along the shoulder while moving around the horse.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -68,7 +68,7 @@
 #### Req 1b: Barn Fire Prevention Measures
 **Official Requirement 1b:** Describe the fire safety precautions you should take in a barn and around horses.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 25, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 1b (Describe the fire safety precautions you should take in a barn and around horses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 1b (Describe the fire safety precautions you should take in a barn and around horses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Barn fire prevention mandates absolute prohibition of smoking, heat lamps, and accumulated cobwebs near hay lofts. Aisles must stay swept clean of combustible bedding and loose hay at all times.
 - **Common Myth:** Extinguishing barn flames takes priority over releasing trapped livestock into secure holding pastures.
@@ -292,7 +292,7 @@
 **Official Requirement 9a:** Name 10 parts of the saddle and bridle that you will use, and explain how to care for this equipment.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Check girth tension again after walking into the arena before mounting your horse.
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 9a (Name 10 parts of the saddle and bridle that you will use, and explain how to care for this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 9a (Name 10 parts of the saddle and bridle that you will use, and explain how to care for this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identify parts including the pommel, cantle, seat, stirrup, skirt, crownpiece, browband, cheekpiece, throatlatch, and bit. Wash leather with damp glycerin sponge and treat with conditioner periodically.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -314,7 +314,7 @@
 #### Req 9b: Saddling and Bridling Field Demonstration
 **Official Requirement 9b:** Show how to properly saddle and bridle a horse.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 9b (Show how to properly saddle and bridle a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 9b (Show how to properly saddle and bridle a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Position the saddle pad forward on the withers and slide it back to smooth hair follicles before resting the saddle. Buckle the girth gradually in stages, and guide the bit smoothly between equine teeth without striking enamel.
 - **Common Myth:** Girths should be yanked to maximum tightness immediately upon setting the saddle on back.
@@ -331,7 +331,7 @@
 #### Req 9c: Safe Mounting and Dismounting Protocols
 **Official Requirement 9c:** Demonstrate how to safely mount and dismount a horse.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 11, p. 31)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 9c (Demonstrate how to safely mount and dismount a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 9c (Demonstrate how to safely mount and dismount a horse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Check girth tension before gathering reins in the left hand resting on the withers alongside the mane. Turn the left stirrup, place the ball of the foot in, spring upward smoothly, and lower gently into the saddle.
 - **Common Myth:** Riders should drop the reins completely slack while swinging into the saddle seat.
@@ -383,7 +383,7 @@
 **Official Requirement 11a:** Walk the horse in a straight line for 60 feet.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear an ASTM/SEI approved equestrian safety helmet with chin strap securely fastened.
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11a (Walk the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11a (Walk the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintain soft elastic contact on reins while applying gentle calf pressure to preserve steady forward momentum. Keep eyes up and shoulders aligned with horse movement across the sixty foot path.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -406,7 +406,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11b:** Walk the horse in a half-circle of not more than 16 feet in radius.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11b (Walk the horse in a half-circle of not more than 16 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11b (Walk the horse in a half-circle of not more than 16 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Guide the horse through an accurate sixteen foot radius half circle using your inside leg at girth and outside rein support. Preserve uniform walking rhythm without stalling or swinging hindquarters wide.
 - **Common Myth:** Pulling the inside rein hard across the neck properly executes a small diameter circle.
@@ -424,7 +424,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11c:** Trot or jog the horse in a straight line for 60 feet.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11c (Trot or jog the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11c (Trot or jog the horse in a straight line for 60 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ask for the jog with an energetic squeeze of lower legs while allowing slight forward rein freedom. Maintain an upright, balanced seat absorb shock through knees and ankles for sixty feet.
 - **Common Myth:** A trot has four distinct footfalls like a walk and requires aggressive rein kicking.
@@ -442,7 +442,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11d:** Trot or jog the horse in a half-circle of not more than 30 feet in radius.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11d (Trot or jog the horse in a half-circle of not more than 30 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11d (Trot or jog the horse in a half-circle of not more than 30 feet in radius), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Guide the horse into a controlled thirty foot radius half circle at the jog without losing forward cadence. Balance through your core and maintain light outside rein contact to prevent bulging shoulders.
 - **Common Myth:** Leaning toward the inside of the turn helps the trotting horse balance better.
@@ -460,7 +460,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11e:** Halt straight.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11e (Halt straight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11e (Halt straight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Execute a clean straight halt by closing your seat, softening elbows, and exerting steady backward pressure on reins. The horse should stand square, attentive, and quiet without taking crooked lateral steps.
 - **Common Myth:** Halting requires yanking backward abruptly on reins with both arms locked stiffly straight.
@@ -478,7 +478,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11f:** Back up straight four paces.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11f (Back up straight four paces), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11f (Back up straight four paces), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Apply light alternating calf pressure while restricting forward motion with non yielding reins. The horse must step backward four distinct paces in a straight line without tossing its head.
 - **Common Myth:** Backing up is done entirely by pulling reins backward into the rider stomach.
@@ -496,7 +496,7 @@
 **[Parent Directive]:** *On level ground, continuously do the following movements after safely mounting the horse*
 **Official Requirement 11g:** Halt and dismount.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 49, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 11g (Halt and dismount), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 11g (Halt and dismount), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bring the horse to a complete standstill, gather reins in the left hand on the withers, and kick both feet clear of stirrups. Swing the right leg smoothly over the cantle and drop down softly beside the horse shoulder.
 - **Common Myth:** Letting go of reins before dismounting allows a more athletic jump to earth.
@@ -522,7 +522,7 @@
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 17, p. 49)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 12a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Equine vocational sites mandate steel toe boots and protective headgear during all handling.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Horsemanship Req 12 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 12a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 12a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigate educational pathways, apprenticeships, certification costs, and daily duties of professional horse industry careers. Examine starting salaries, physical demands, and long term advancement opportunities in the chosen equine field.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -546,7 +546,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 12b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Horsemanship Merit Badge Pamphlet (p. 17, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For horsemanship Requirement 12b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Horsemanship Requirement 12b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Explore how horsemanship skills support lifelong recreational trail riding, mounted games, and horse show competition hobbies. Identify local pony clubs, breed associations, boarding expenses, and volunteer opportunities with therapeutic riding centers.
 - **Common Myth:** Riding horses is purely passive transportation requiring zero human physical exertion or core strength.

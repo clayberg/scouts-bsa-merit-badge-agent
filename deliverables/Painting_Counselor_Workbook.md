@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Painting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/painting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -66,7 +66,7 @@
 #### Req 2a: Coating Surface Preservation Benefits
 **Official Requirement 2a:** Explain three ways that coatings can improve a surface.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 2a (Explain three ways that coatings can improve a surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 2a (Explain three ways that coatings can improve a surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Coatings preserve materials by blocking destructive ultraviolet radiation, preventing moisture intrusion, and sealing porous surfaces against dirt accumulation. A properly chosen film also enhances illumination by bouncing ambient room light off walls.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -88,7 +88,7 @@
 #### Req 2b: Paint Resin Chemistry Differences
 **Official Requirement 2b:** Explain the differences between oil-based paints, acrylic-based paints, and water-based paints.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 2b (Explain the differences between oil-based paints, acrylic-based paints, and water-based paints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 2b (Explain the differences between oil-based paints, acrylic-based paints, and water-based paints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Oil based alkyds cure through oxidation into hard, rigid films thinned with mineral spirits, while water based paints use water as a volatile vehicle. Acrylic latex utilizes synthetic resins that remain flexible and resist yellowing when exposed to outdoor sunlight.
 - **Common Myth:** Water based paints and acrylic paints represent completely identical chemical mixtures with identical resin compounds.
@@ -107,7 +107,7 @@
 #### Req 2c: Finish Sheen Application Locations
 **Official Requirement 2c:** Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and explain the importance of sheen.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 2c (Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 2c (Explain where you would apply enamel paint, flat paint, wood stain, and varnish, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Enamel finishes suit high contact trim, kitchens, and cabinetry due to their dense, scrub resistant resin surfaces. Flat paint hides drywall imperfections on ceilings, wood stain highlights interior grain, and varnish builds clear protective barriers over raw timber.
 - **Common Myth:** High gloss paints hide surface dents and uneven seams better than flat luster finishes.
@@ -124,7 +124,7 @@
 #### Req 2d: Coating Functional Selection Criteria
 **Official Requirement 2d:** Tell why each is best for these uses.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 43, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 2d (Tell why each is best for these uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 2d (Tell why each is best for these uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Each coating formulation optimizes specific mechanical properties such as tensile elongation, impact hardness, or optical diffusion. Selecting the proper coating prevents premature delamination and ensures surfaces withstand routine abrasion.
 - **Common Myth:** Any interior wall paint performs reliably on exterior handrails if applied in two thick coats.
@@ -305,7 +305,7 @@
 **Official Requirement 8a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Painting Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 8a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 8a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Career paths include residential contracting, commercial project management, industrial corrosion engineering, and specialty faux finishing. Apprentices learn rigging, spray technology, estimating, and architectural specifications over several thousand field hours.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -329,7 +329,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 8b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Painting Merit Badge Pamphlet (p. 69, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For painting Requirement 8b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Painting Requirement 8b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying finishes extends to hobbies like furniture upcycling, fine art canvas painting, wooden boat restoration, and scale modeling. Engaging in decorative painting cultivates manual dexterity, color appreciation, and rewarding stress reduction.
 - **Common Myth:** Restoring antique wooden furniture with modern paint ruins all historical and aesthetic value automatically.

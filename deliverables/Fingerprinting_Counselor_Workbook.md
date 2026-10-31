@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fingerprinting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fingerprinting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -62,7 +62,7 @@
 #### Req 2a: Database Searching and Access Systems
 **Official Requirement 2a:** Explain the difference between the automated fingerprint identification systems (AFIS) now used by law enforcement agencies and the biometric fingerprint systems used to control access to computers and places like buildings and airports.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 2a (Explain the difference between the automated fingerprint identification systems (AFIS) now), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 2a (Explain the difference between the automated fingerprint identification systems (AFIS) now), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Law enforcement systems compare latent crime scene marks against massive repositories containing millions of individuals. Local access scanners simply compare a fresh scan against one credential template stored on the device.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -84,7 +84,7 @@
 #### Req 2b: Societal Identification Security Methods
 **Official Requirement 2b:** Discuss how our society uses identification systems based on tokens, passwords, and biometrics.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 35, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 2b (Discuss how our society uses identification systems based on tokens, passwords, and biometrics), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 2b (Discuss how our society uses identification systems based on tokens, passwords, and biometrics), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern communities rely on tokens, passwords, and biometrics to regulate access to sensitive assets and restricted facilities. Layered security combines items individuals own, passwords they memorize, and physical bodily characteristics they possess.
 - **Common Myth:** Biometric scanners eliminate all security risks because physical bodily features cannot be duplicated.
@@ -107,7 +107,7 @@
 #### Req 3a: Papillary Ridge Skin Locations
 **Official Requirement 3a:** Name the surfaces of the body where friction or papillary ridges are found.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 3a (Name the surfaces of the body where friction or papillary ridges are found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 3a (Name the surfaces of the body where friction or papillary ridges are found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Friction ridge skin appears exclusively on the grasping surfaces of primates, covering human palms, fingers, and feet soles. These corrugated epidermal ridges raise sweat pore openings to improve tactile friction.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -129,7 +129,7 @@
 #### Req 3b: Foundational Fingerprint Science Principles
 **Official Requirement 3b:** Name the two basic principles supporting the science of fingerprints and give a brief explanation of each principle.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 3b (Name the two basic principles supporting the science of fingerprints and give a brief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 3b (Name the two basic principles supporting the science of fingerprints and give a brief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fingerprint science rests on the dual pillars of absolute individual uniqueness and lifetime structural permanence. Every human friction ridge pattern develops uniquely in the womb and remains structurally stable until decomposition.
 - **Common Myth:** Severe surface skin scrapes will permanently erase personal fingerprint ridge patterns from the fingertips.
@@ -148,7 +148,7 @@
 #### Req 3c: Positive Forensic Identification Process
 **Official Requirement 3c:** Explain what it takes to positively identify a person using fingerprints.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 3c (Explain what it takes to positively identify a person using fingerprints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 3c (Explain what it takes to positively identify a person using fingerprints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conclusive identification relies on expert analysis of minutiae characteristics including ridge endings, bifurcations, and islands. Examiners compare the relative positions, directions, and relationships of these features against a known reference print.
 - **Common Myth:** Forensic identification requires finding a fixed universal number of matching points mandated by federal statute.
@@ -169,7 +169,7 @@
 #### Req 4a: Standard Card Inking Procedure
 **Official Requirement 4a:** Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint identification card, available from your local police department or your counselor.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 4a (Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 4a (Make both rolled and plain impressions. Make these on an 8-by-8-inch fingerprint), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Technicians record rolled prints individually in upper boxes before applying four-finger simultaneous plain impressions below. Plain impressions serve as visual quality checks to ensure fingers were recorded in their proper sequential order.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -191,7 +191,7 @@
 **[Parent Directive]:** *Take a clear set of prints using ONE of the following methods*
 **Official Requirement 4b:** Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those of another person.
 **Source:** *Official Scouting America Fingerprinting Merit Badge Pamphlet (p. 16, p. 18)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For fingerprinting Requirement 4b (Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fingerprinting Requirement 4b (Using clear adhesive tape, a pencil, and plain paper, record your own fingerprints or those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts can collect personal prints using standard graphite pencil shading, transparent adhesive tape, and white cardstock. After rubbing a clean finger across pencil graphite, tape lifts the deposit and adheres to paper.
 - **Common Myth:** Standard pencil graphite creates permanent prints that resist smearing without protective tape coverings.

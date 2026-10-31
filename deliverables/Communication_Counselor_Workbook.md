@@ -43,7 +43,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 1a:** For one day, keep a log in which you describe your communication activities. Keep track of the time and different ways you spend communicating, such as talking person-to-person, listening to teachers, listening to the radio or podcasts, watching television, using social media, reading books and other print media, and using any electronic communication device. Discuss with your counselor what your log reveals about the importance of communication in your life. Think of ways to improve your communication skills.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 1a Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 1a (For one day, keep a log in which you describe your communication activities. Keep track of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 1a (For one day, keep a log in which you describe your communication activities. Keep track of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Logging all communication across twenty-four hours uncovers personal time allocation patterns. Comparing listening time against speaking time highlights balance in personal exchanges.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -52,7 +52,7 @@
 - **Common Myth:** Scouts consider passive background music identical to intentional active audio listening time.
 - **Pamphlet Fact:** The communication log tracks intentional exchanges rather than ambient background environmental sounds.
 
-![Daily Interaction Tracking diagram illustrating how log every spoken conversation immediately to capture accurate duration and message context.](/assets/pamphlet_images/communication_p003_img1.png)
+![Technical diagram of daily interaction tracking principles and field relationships in Communication (Requirement 1).](/assets/pamphlet_images/communication_p003_img1.png)
 
 | Log Entry / Milestone | Date, Location & Conditions | Recorded Measurements & Quantitative Data | Analysis & Verification |
 | :--- | :--- | :--- | :--- |
@@ -67,7 +67,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 1b:** For three days, keep a journal of your listening experiences. Identify one example of each of the following, and discuss with your counselor when you have listened to each: obtain information, be persuaded, appreciate or enjoy something, and understand someone's feelings.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 1b 3-Day Listening Experience Journal
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 1b (For three days, keep a journal of your listening experiences. Identify one example of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 1b (For three days, keep a journal of your listening experiences. Identify one example of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tracking listening experiences across three consecutive days identifies specific conversational objectives. Differentiating between informational, critical, and empathetic listening sharpens communication awareness.
 - **Common Myth:** Listening requires only hearing audio vibrations without conscious cognitive interpretation by the receiver.
@@ -88,7 +88,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 1c:** In a small-group setting, meet with other Scouts or with friends. Have them share personal stories about significant events in their lives that affected them in some way. Take note of how each Scout participates in the group discussion and how effectively each Scout communicates their story. Report what you have learned to your counselor about the differences you observed in effective communication.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 1c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 1c (In a small-group setting, meet with other Scouts or with friends. Have them share personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 1c (In a small-group setting, meet with other Scouts or with friends. Have them share personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Meeting with peers to share formative personal stories builds mutual empathy and understanding. Taking notes during peer narratives trains listeners to remember major life events accurately.
 - **Common Myth:** Good listeners should frequently interject their own related stories during peer sharing.
@@ -106,7 +106,7 @@
 #### Req 1d: Communication Method Comparison List
 **Official Requirement 1d:** List as many ways as you can think of to communicate with others (face-to-face, by telephone, letter, email, text messages, social media, and so on). For each type of communication, discuss with your counselor an instance when that method might not be appropriate or effective.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 1d (List as many ways as you can think of to communicate with others (face-to-face, by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 1d (List as many ways as you can think of to communicate with others (face-to-face, by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cataloging communication methods contrasts instantaneous digital tools against permanent written correspondence. Examining advantages and drawbacks ensures appropriate medium selection for diverse situational contexts.
 - **Common Myth:** Digital text messages serve as direct replacements for formal written personal letters.
@@ -127,7 +127,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 2a:** Think of a creative way to describe yourself using, for example, a collage, short story or autobiography, drawing or series of photographs, or a song or skit. Using the aid you created, make a presentation to your counselor about yourself.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 2a (Think of a creative way to describe yourself using, for example, a collage, short story or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 2a (Think of a creative way to describe yourself using, for example, a collage, short story or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designing a creative aid such as a collage or autobiography reveals personal values to peers. Presenting this aid teaches Scouts how to organize personal life stories for audiences.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -136,7 +136,7 @@
 - **Common Myth:** A creative personal presentation requires displaying every possession and childhood memory chronologically.
 - **Pamphlet Fact:** Selecting three to five major artifacts creates a focused, memorable personal presentation.
 
-![Visual Aid Selection diagram illustrating how choose collages or photographs that illustrate personal background attributes and values.](/assets/pamphlet_images/communication_p007_img1.png)
+![Technical diagram of visual aid selection principles and field relationships in Communication (Requirement 2).](/assets/pamphlet_images/communication_p007_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -148,7 +148,7 @@
 #### Req 2b: Persuasive Sales Plan Demonstration
 **Official Requirement 2b:** Choose a concept, product, or service in which you have great confidence. Build a sales plan based on its good points. Try to persuade the counselor to agree with, use, or buy your concept, product, or service. After your sales talk, discuss with your counselor how persuasive you were.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 2b (Choose a concept, product, or service in which you have great confidence. Build a sales), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 2b (Choose a concept, product, or service in which you have great confidence. Build a sales), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building a persuasive sales presentation requires analyzing product benefits from the buyer perspective. Structuring the pitch around real customer needs helps close transactions effectively.
 - **Common Myth:** Effective salesmanship relies on aggressive pressure rather than understanding customer specific needs.
@@ -285,7 +285,7 @@
 **Official Requirement 7a:** Write to the editor of a magazine or your local newspaper to express your opinion or share information on any subject you choose. Send your message by fax, email, or regular mail.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Communication Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 7a (Write to the editor of a magazine or your local newspaper to express your opinion or share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 7a (Write to the editor of a magazine or your local newspaper to express your opinion or share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Writing a letter to an editor gives citizens a voice on local and national community concerns. Concise arguments supported by personal observations increase the likelihood of newspaper publication.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -306,7 +306,7 @@
 #### Req 7b: Special Interest Webpage Creation
 **Official Requirement 7b:** Create a webpage or blog of special interest to you (for instance, your troop or crew, a hobby, or a sport). Include at least three articles or entries and one photograph or illustration, and one link to some other webpage or blog that would be helpful to someone who visits the webpage or blog you have created. Note: It is not necessary to post your webpage or blog to the internet, but if you decide to do so, you must first share it with your parent or guardian and counselor and get their permission.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 7b (Create a webpage or blog of special interest to you (for instance, your troop or crew, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 7b (Create a webpage or blog of special interest to you (for instance, your troop or crew, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a specialized website involves publishing articles, graphics, and navigation tailored to an online audience. Structuring content cleanly enables visitors to locate relevant information rapidly across mobile devices.
 - **Common Myth:** Webpages do not require proofreading because online text can be updated anytime later.
@@ -324,7 +324,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7c:** Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material for your troop or crew, class at school, or other group. Include at least one article and one photograph or illustration.
 **Source:** *Official Scouting America Communication Merit Badge Pamphlet (p. 49, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For communication Requirement 7c (Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Communication Requirement 7c (Use desktop publishing to produce a newsletter, brochure, flyer, or other printed material), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Using desktop publishing tools allows organizations to produce cohesive print layouts combining text columns and images. Proper typography and visual hierarchy ensure readers absorb troop announcements and event details.
 - **Common Myth:** Desktop publishing software automatically produces readable layouts without manual design planning.

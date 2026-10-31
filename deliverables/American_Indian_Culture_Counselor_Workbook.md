@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Indian_Lore.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-indian-culture/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -88,7 +88,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3a:** Learn 10 common terms in an American Indian language and their meanings.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 17, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 3a (Learn 10 common terms in an American Indian language and their meanings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 3a (Learn 10 common terms in an American Indian language and their meanings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Learning vocabulary reveals unique cultural concepts and grammatical worldviews embedded within tribal languages. Scouts must document accurate phonetic pronunciations alongside cultural context.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -110,7 +110,7 @@
 #### Req 3b: Native American Toponym Etymology
 **Official Requirement 3b:** Identify the meaning of 10 place names of American Indian origin in the United States.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 17, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 3b (Identify the meaning of 10 place names of American Indian origin in the United States), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 3b (Identify the meaning of 10 place names of American Indian origin in the United States), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dozens of states, rivers, and cities carry names derived from Indigenous descriptive geographical observations. Tracing toponyms links modern American cartography directly to original tribal landmarks.
 - **Common Myth:** State names like Ohio or Michigan originated from European exploratory leaders.
@@ -129,7 +129,7 @@
 #### Req 3c: Distinguished Indigenous Tribal Leaders
 **Official Requirement 3c:** Name five well-known American Indian leaders, either from the past or people of today. Give their tribes or nations. Describe what they did or do now that makes them notable.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 17, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 3c (Name five well-known American Indian leaders, either from the past or people of today. Give), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 3c (Name five well-known American Indian leaders, either from the past or people of today. Give), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tribal leaders across history demonstrated exceptional military strategy, diplomacy, civil rights advocacy, and cultural preservation. Scouts examine both historical statesmen and contemporary elected officials.
 - **Common Myth:** Notable Indigenous leaders existed only during nineteenth century frontier conflicts.
@@ -150,7 +150,7 @@
 #### Req 4a: Settler Survival Without Indigenous Aid
 **Official Requirement 4a:** Describe how life might have been different for the European settlers if there had been no Native Americans to meet them when they came to this continent.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 9, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 4a (Describe how life might have been different for the European settlers if there had been no), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 4a (Describe how life might have been different for the European settlers if there had been no), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Early colonists lacked botanical knowledge, cold weather clothing, and navigation skills required for North American wilderness survival. Without Indigenous food trade and agricultural instruction, early colonies would have perished from starvation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -172,7 +172,7 @@
 #### Req 4b: Indigenous Inventions and Global Adoptions
 **Official Requirement 4b:** Describe eight things adopted by others from American Indians.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 9, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 4b (Describe eight things adopted by others from American Indians), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 4b (Describe eight things adopted by others from American Indians), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Global society adopted fundamental staples including potatoes, tomatoes, rubber, hammocks, and democratic federation structures from Indigenous societies. Scouts catalog eight distinct material and political items integrated into modern life.
 - **Common Myth:** Adopted items were limited to basic frontier survival tools and decorative clothing.
@@ -190,7 +190,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4c:** Learn a game played by a group or tribe. Teach and lead it with a Scout group.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 9, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 4c (Learn a game played by a group or tribe. Teach and lead it with a Scout group), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 4c (Learn a game played by a group or tribe. Teach and lead it with a Scout group), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Games served educational, spiritual, and physical conditioning purposes for hunting and warfare within tribal youth cohorts. Scouts master traditional rules and teach sportsmanship during an active troop session.
 - **Common Myth:** Native games were simple pastimes played without formalized rules or strategy.
@@ -210,7 +210,7 @@
 #### Req 5a: Museum Curation and Artifact Identification
 **Official Requirement 5a:** Visit a museum either in-person or virtually to see American Indian exhibitions and collections. Discuss with your counselor what you observed or learned from two exhibitions and identify 10 artifacts by tribe or nation, their shape, size, and use.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 5a (Visit a museum either in-person or virtually to see American Indian exhibitions and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 5a (Visit a museum either in-person or virtually to see American Indian exhibitions and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Museum collections exhibit material culture including pottery, basketry, quillwork, and woven textiles across regional cultures. Scouts examine curatorial context and identify ten specific historical items.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -231,7 +231,7 @@
 #### Req 5b: Contemporary Gathering Protocols and Etiquette
 **Official Requirement 5b:** Attend a contemporary American Indian gathering. Discuss with your counselor proper etiquette for attending as well as what you learned and observed during your visit.
 **Source:** *Official Scouting America American Indian Culture Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american indian culture Requirement 5b (Attend a contemporary American Indian gathering. Discuss with your counselor proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Indian Culture Requirement 5b (Attend a contemporary American Indian gathering. Discuss with your counselor proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attending a contemporary intertribal gathering or powwow requires adherence to spectator etiquette and respect for sacred songs. Scouts observe competition dancing, honor ceremonies, and social fellowship.
 - **Common Myth:** Anyone can freely join dance competitions in the arena during all songs.

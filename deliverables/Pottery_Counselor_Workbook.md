@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pottery.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pottery/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -68,7 +68,7 @@
 **Official Requirement 2a:** Explain the properties and ingredients of a good clay body for the following: (1) Making sculpture using the hand-building method (2) Throwing on the wheel.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep feet and loose clothing clear of rotating kick wheel flywheels to prevent serious pinch injuries.
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 2a (Explain the properties and ingredients of a good clay body for the following: (1) Making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 2a (Explain the properties and ingredients of a good clay body for the following: (1) Making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hand-building clays require temper like sand or grog to minimize warping during uneven moisture evaporation. Wheel bodies rely on ball clay and fine kaolin to maintain cohesiveness without tearing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -89,7 +89,7 @@
 #### Req 2b: Potter Wheel Drive Systems
 **Official Requirement 2b:** Tell how three different kinds of potter's wheels work.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 2b (Tell how three different kinds of potter's wheels work), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 2b (Tell how three different kinds of potter's wheels work), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Kick wheels use human kinetic energy transferred to a heavy stone or concrete flywheel. Electric wheels employ variable speed belts or magnetic direct drive motors, while treadle wheels utilize foot levers.
 - **Common Myth:** Students often think all non-electric potter wheels require identical kicking techniques during throwing.
@@ -170,7 +170,7 @@
 **Official Requirement 5a:** Make a slab pot, a coil pot, and a pinch pot.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Ensure all pottery is bone dry before firing to prevent explosive steam ruptures inside the kiln.
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 5a (Make a slab pot, a coil pot, and a pinch pot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 5a (Make a slab pot, a coil pot, and a pinch pot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Slab construction requires consistent thickness achieved with rolling slats, while coil pots demand gradual overlapping seams. Pinch pots develop tactile sensitivity by turning clay in hand to gauge uniform wall thickness.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -192,7 +192,7 @@
 #### Req 5b: Figurine Modeling and Venting
 **Official Requirement 5b:** Make a human or animal figurine or decorative sculpture.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 5b (Make a human or animal figurine or decorative sculpture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 5b (Make a human or animal figurine or decorative sculpture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sculpting figurines requires hollowing out thick body sections to ensure even moisture loss. Every enclosed hollow chamber must have a discrete vent hole to allow expanding hot air to escape during firing.
 - **Common Myth:** Scouts sometimes believe solid clay sculptures survive firing if heated very slowly.
@@ -210,7 +210,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5c:** Throw a functional form on a potter's wheel.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 5c (Throw a functional form on a potter's wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 5c (Throw a functional form on a potter's wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Throwing functional pottery starts with centering clay firmly over the rotational axis of the wheel head. Opening the centered ball establishes flat bottom thickness before lifting fingers upward to raise uniform walls.
 - **Common Myth:** New throwers often assume pulling taller walls requires pulling upward with high wheel speed.
@@ -228,7 +228,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5d:** Help an experienced adult to load and fire a kiln OR describe in detail how to load and fire a kiln.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 13, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 5d (Help an experienced adult to load and fire a kiln OR describe in detail how to load and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 5d (Help an experienced adult to load and fire a kiln OR describe in detail how to load and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Loading a kiln requires spacing ware evenly to maintain convective air currents and avoid cold spots. Glaze firings demand bare dry foot rings and kiln washed shelves to keep melting glass from adhering.
 - **Common Myth:** Novices assume glazed pots can touch each other in the kiln just like greenware.
@@ -280,7 +280,7 @@
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stay behind marked safety boundaries around active kiln yards to avoid severe thermal contact burns.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pottery Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 7a (Visit the kiln yard at a local college or other craft school. Learn how the different kinds), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 7a (Visit the kiln yard at a local college or other craft school. Learn how the different kinds), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electric kilns use radiant heating coils in an oxygen-rich atmosphere, while gas kilns rely on combusted fossil fuels to induce reduction. Wood and salt kilns introduce dynamic ash deposits and vapor reactions that glaze ware during firing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -301,7 +301,7 @@
 #### Req 7b: Museum and Gallery Observation
 **Official Requirement 7b:** Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features pottery. After your visit, share with your counselor what you have learned.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 7b (Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 7b (Visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio that features), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Viewing curated pottery exhibits displays how master potters resolve balance, surface texture, and functional ergonomics. Analyzing contemporary gallery vessels demonstrates innovative combinations of traditional hand methods with modern conceptual design.
 - **Common Myth:** Gallery visitors often think hand-built vessels lack the precision and durability of wheel-thrown work.
@@ -318,7 +318,7 @@
 **[Parent Directive]:** *With your parent or guardian's permission and your counselor's approval, do ONE of the following*
 **Official Requirement 7c:** Using resources from the library, magazines, the internet (with your parent or guardian's permission), and other outlets, learn about the historical and cultural importance of pottery. Share what you discovered with your counselor.
 **Source:** *Official Scouting America Pottery Merit Badge Pamphlet (p. 25, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pottery Requirement 7c (Using resources from the library, magazines, the internet (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pottery Requirement 7c (Using resources from the library, magazines, the internet (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ceramic shards serve as primary archaeological evidence dating human settlements and early agricultural storage innovations. Ancient cultures engineered distinct amphora shapes and storage jars tailored to specific marine trade routes.
 - **Common Myth:** People often believe prehistoric pottery served solely utilitarian food storage purposes without artistic intent.

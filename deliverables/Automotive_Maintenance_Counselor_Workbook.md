@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Automotive%20Maintenance.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/automotive-maintenance/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -48,7 +48,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter during automotive maintenance activities, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never crawl beneath any vehicle supported only by a hydraulic or mechanical jack without secondary rated jack stands.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1a (Explain to your counselor the hazards you are most likely to encounter during automotive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1a (Explain to your counselor the hazards you are most likely to encounter during automotive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Automotive maintenance introduces severe hazards including chemical exposure, mechanical pinch points, hot exhaust components, and heavy falling objects. Technicians anticipate risks by setting wheel chocks, confirming mechanical lockouts, and wearing appropriate protective gear.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -70,7 +70,7 @@
 #### Req 1b: Personal Protective Equipment Standards
 **Official Requirement 1b:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing a motor vehicle. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1b (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1b (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Technicians must wear fitted cotton work clothes, steel-toed footwear, and impact-resistant safety glasses while working around rotating machinery. Rings, necklaces, and loose ties present severe entanglement risks around active drive belts and cooling fans.
 - **Common Myth:** Loose clothing, rings, and sneakers are acceptable attire for light under-hood vehicle checks.
@@ -88,7 +88,7 @@
 #### Req 1c: Motor Vehicle Powertrain Architectures
 **Official Requirement 1c:** Explain the different ways motor vehicles are powered.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1c (Explain the different ways motor vehicles are powered), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1c (Explain the different ways motor vehicles are powered), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vehicles derive motive power from gasoline internal combustion, diesel compression ignition, hybrid gas-electric drivetrains, or pure battery electric motors. Each powertrain architecture requires distinct maintenance procedures and safety protocols.
 - **Common Myth:** All motor vehicles convert chemical fuel into mechanical work using traditional spark ignition internal combustion.
@@ -105,7 +105,7 @@
 #### Req 1d: High Voltage Powertrain Safety
 **Official Requirement 1d:** Explain the safety considerations when performing maintenance on a vehicle equipped with a high-voltage electrical system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1d (Explain the safety considerations when performing maintenance on a vehicle equipped with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1d (Explain the safety considerations when performing maintenance on a vehicle equipped with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High-voltage hybrid and electric drivetrains operate at potentials frequently exceeding four hundred volts direct current, marked by bright orange cabling. Technicians must observe manual service disconnect procedures and wear class zero insulated gloves rated for one thousand volts.
 - **Common Myth:** Turning off the car ignition completely eliminates high voltage shock hazards in hybrid battery packs.
@@ -122,7 +122,7 @@
 #### Req 1e: Manufacturer Maintenance Schedule Interpretation
 **Official Requirement 1e:** Review the maintenance chart in the vehicle owner's manual. Explain the requirements and time limits.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1e (Review the maintenance chart in the vehicle owner's manual. Explain the requirements and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1e (Review the maintenance chart in the vehicle owner's manual. Explain the requirements and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Owner manuals provide detailed mileage and calendar intervals for replacing vital fluids, friction materials, and air filters. Scouts must interpret both normal and severe operating schedules to preserve engine warranties.
 - **Common Myth:** Vehicle maintenance intervals depend strictly on elapsed mileage regardless of operating temperature or calendar time.
@@ -138,7 +138,7 @@
 #### Req 1f: Passenger Restraint System Dynamics
 **Official Requirement 1f:** Explain the purpose, importance, and limitations of safety belts and passive restraints.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1f (Explain the purpose, importance, and limitations of safety belts and passive restraints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1f (Explain the purpose, importance, and limitations of safety belts and passive restraints), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Three-point lap and shoulder belts secure occupants within the vehicle survival space, while supplemental restraint airbags cushion head impacts. Airbags can cause fatal concussive injuries if passengers fail to wear primary safety belts correctly.
 - **Common Myth:** Supplemental restraint airbags provide adequate crash protection even if vehicle occupants omit wearing safety belts.
@@ -155,7 +155,7 @@
 #### Req 1g: State Emissions Inspection Mandates
 **Official Requirement 1g:** Find out the requirements for your state's emissions and safety inspections (as applicable), including how often a vehicle needs to be inspected.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1g (Find out the requirements for your state's emissions and safety inspections (as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1g (Find out the requirements for your state's emissions and safety inspections (as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State safety and emissions programs verify that running gear, braking systems, illumination devices, and catalytic emission controls satisfy environmental and public safety statutes. Testing cadence typically follows annual or biennial requirements depending on local municipal regulations.
 - **Common Myth:** State vehicle inspections examine only cosmetic body panels and tailpipe smoke visibility.
@@ -172,7 +172,7 @@
 #### Req 1h: Annual Motor Vehicle Registration
 **Official Requirement 1h:** Explain the importance of registering a vehicle and find out the annual registration fee for renewing your family car's registration.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 20, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 1h (Explain the importance of registering a vehicle and find out the annual registration fee), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 1h (Explain the importance of registering a vehicle and find out the annual registration fee), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Annual state registration ensures motor vehicles satisfy mandatory liability insurance minimums and roadway safety mandates while funding highway infrastructure. Operators must pay yearly renewal fees and display validated registration stickers on the license plate.
 - **Common Myth:** Vehicle registration is a one-time purchase completed solely when buying a car from a dealer.
@@ -331,7 +331,7 @@
 **[Parent Directive]:** *General Maintenance. Do the following*
 **Official Requirement 2b:** Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper replacement of burned-out fuses.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 2b (Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 2b (Locate the fuse boxes; determine the type and size of fuses. Demonstrate the proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fuse boxes protect vehicle wiring harnesses from electrical shorts and destructive current overloads. Burned-out fuses display broken fusible metal links and must be replaced using identical amperage ratings extracted with plastic fuse pullers.
 - **Common Myth:** A blown blade fuse can be replaced with any fuse that fits physically into the slot.
@@ -347,7 +347,7 @@
 #### Req 2c: Accessory Drive Belt Inspection
 **Official Requirement 2c:** Demonstrate how to check the condition and tension of belts and hoses.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 2c (Demonstrate how to check the condition and tension of belts and hoses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 2c (Demonstrate how to check the condition and tension of belts and hoses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Technicians examine serpentine and V-belts for edge fraying, rubber cracking, longitudinal rib separation, and proper spring-loaded tensioner alignment. Radiator and heater hoses must be squeezed when cold to identify internal sponginess or heat-induced hardening.
 - **Common Myth:** Accessory drive belts only require replacement once they produce loud audible slipping squeals.
@@ -365,7 +365,7 @@
 **[Parent Directive]:** *General Maintenance. Do the following*
 **Official Requirement 2d:** Check the vehicle for proper operation of its lights, including the interior overhead lights, instrument lights, warning lights, and exterior bulbs.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 2d (Check the vehicle for proper operation of its lights, including the interior overhead), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 2d (Check the vehicle for proper operation of its lights, including the interior overhead), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A complete lighting audit encompasses headlights, daytime running lamps, turn signals, brake lamps, hazard flashers, and interior instrument clusters. Identifying burned-out bulbs ensures compliance with traffic statutes and alerts trailing motorists during deceleration.
 - **Common Myth:** Exterior vehicle lighting checks require only verifying that high-beam forward headlights illuminate.
@@ -383,7 +383,7 @@
 **[Parent Directive]:** *General Maintenance. Do the following*
 **Official Requirement 2e:** Locate and check the air filter(s)
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 16, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 2e (Locate and check the air filter(s)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 2e (Locate and check the air filter(s)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Engine and cabin air filters trap airborne dirt, pollen, and debris before air reaches the combustion chambers or vehicle interior. Pleated paper elements must be held toward a strong light source to verify light transmission through the filter media.
 - **Common Myth:** Air filter maintenance requires merely tapping dirt out of the element rather than replacement.
@@ -406,7 +406,7 @@
 **Official Requirement 3a:** Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine temperature gauge. Point each one out on the instrument cluster.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately pull over and shut off the engine if the red oil pressure light or temperature warning illuminates while driving.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 3a (Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 3a (Explain the function of the fuel gauge, speedometer, tachometer, oil pressure, and engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The instrument cluster houses the speedometer, tachometer, fuel gauge, engine coolant temperature gauge, and oil pressure indicator. Monitoring these gauges during operation prevents engine overheating, bearing seizure, and fuel exhaustion.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -427,7 +427,7 @@
 #### Req 3b: Dashboard Warning Symbol Decoding
 **Official Requirement 3b:** Explain the symbols that light up on the dashboard and the difference between the yellow and red symbols. Explain each of the indicators on the dashboard, using the owner's manual if necessary.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 3b (Explain the symbols that light up on the dashboard and the difference between the yellow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 3b (Explain the symbols that light up on the dashboard and the difference between the yellow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dashboard telltale symbols employ standardized color coding where red indicates an immediate safety threat or mechanical emergency, while yellow or amber signifies an advisory maintenance issue. A flashing yellow check engine light denotes active catalytic converter-damaging engine misfires.
 - **Common Myth:** All dashboard symbols indicate identical severity levels regardless of display color.
@@ -445,7 +445,7 @@
 #### Req 3c: Driver Information Center Alerts
 **Official Requirement 3c:** Explain the messages and alerts that may be displayed on the dashboard/driver information center including maintenance-related reminders.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 3c (Explain the messages and alerts that may be displayed on the dashboard/driver information), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 3c (Explain the messages and alerts that may be displayed on the dashboard/driver information), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern vehicles feature digital screens providing real-time text alerts, individual tire pressure monitoring figures, and dynamic service reminders. Drivers navigate steering wheel controls to clear temporary notices and retrieve pending system trouble codes.
 - **Common Myth:** Vehicle maintenance reminders are simple mechanical timers set strictly to five thousand miles.
@@ -468,7 +468,7 @@
 **Official Requirement 4a:** Explain the difference between tire manufacturer's and vehicle manufacturer's specifications and show where to find them.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Always check tire inflation pressures when tires are completely cold to prevent dangerously inaccurate low readings.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 4a (Explain the difference between tire manufacturer's and vehicle manufacturer's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 4a (Explain the difference between tire manufacturer's and vehicle manufacturer's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vehicle door jamb placards detail the exact tire dimensions and cold inflation pressures engineered for optimal braking and handling. Sidewall stampings specify only the maximum permissible pressure and load ratings of the tire casing itself.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -490,7 +490,7 @@
 #### Req 4b: Tire Pressure Inflation Protocols
 **Official Requirement 4b:** Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire and make sure it is ready for use.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 4b (Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 4b (Demonstrate how to check tire pressure and properly inflate a tire. Check the spare tire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Technicians use calibrated mechanical or digital gauges to assess tire pressures when vehicles have rested for three hours. Compact spare tires operate at significantly higher pressures, typically sixty pounds per square inch, and require routine maintenance.
 - **Common Myth:** Spare tires retain factory inflation pressure indefinitely without requiring periodic maintenance checks.
@@ -506,7 +506,7 @@
 #### Req 4c: Wheel Alignment Geometry Fundamentals
 **Official Requirement 4c:** Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and toe-in adjustments on wheel alignment.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 4c (Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 4c (Explain why wheel alignment is important to the life of a tire. Explain caster, camber, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Suspension alignment encompasses camber, caster, and toe angles which position the tire perpendicular to the road surface during cornering. Misalignment induces directional drift, steering wheel oscillation, and severe tread feathering or shoulder cupping.
 - **Common Myth:** Wheel alignment problems affect only steering wheel straightness without causing accelerated tire degradation.
@@ -522,7 +522,7 @@
 #### Req 4d: Tread Wear Indicator Evaluation
 **Official Requirement 4d:** Explain the purpose of the lateral-wear bar indicator.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 4d (Explain the purpose of the lateral-wear bar indicator), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 4d (Explain the purpose of the lateral-wear bar indicator), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lateral wear bars are raised rubber ridges molded across the base of tire grooves at a height of two thirty-seconds of an inch. When tire tread wears flush with these indicator bars, wet braking traction degrades drastically, necessitating immediate replacement.
 - **Common Myth:** Tires remain safe to drive in heavy rain as long as any visible groove remains.
@@ -539,7 +539,7 @@
 #### Req 4e: Scrap Tire Disposal Regulations
 **Official Requirement 4e:** Explain how to dispose of old tires in accordance with local laws and regulations.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 39, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 4e (Explain how to dispose of old tires in accordance with local laws and regulations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 4e (Explain how to dispose of old tires in accordance with local laws and regulations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scrap tires represent severe fire hazards and mosquito breeding grounds if dumped into municipal landfills. Federal and state statutes mandate returning exhausted tires to licensed automotive retailers or certified recycling facilities for crumb rubber reclamation.
 - **Common Myth:** Old tires can be discarded safely in municipal household trash or incinerated in open fires.
@@ -562,7 +562,7 @@
 **Official Requirement 5a:** Explain how an internal combustion engine operates. Tell the differences between gasoline and diesel engines. Explain how a gasoline-electric hybrid vehicle is powered.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Allow hot engine oil to cool sufficiently before draining to prevent deep thermal burns to hands and arms.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 5a (Explain how an internal combustion engine operates. Tell the differences between gasoline), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 5a (Explain how an internal combustion engine operates. Tell the differences between gasoline), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Four-stroke internal combustion engines execute intake, compression, power, and exhaust phases to rotate the crankshaft. Gasoline engines utilize electric spark plugs for air-fuel ignition, whereas diesel powerplants rely on high compression ratios to heat inducted air to auto-ignition temperatures.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -584,7 +584,7 @@
 #### Req 5b: Engine Oil Viscosity Classifications
 **Official Requirement 5b:** Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the viscosity rating.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 5b (Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 5b (Discuss the purpose of engine oil. Explain the API service code, the SAE number, and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Motor oil lubricates bearings, cleans internal engine sludge, cools pistons, and seals piston ring gaps against combustion blowby. The API service donut indicates engine performance classifications, while SAE numbers denote cold flow and operating viscosity ratings.
 - **Common Myth:** Thicker motor oil always provides superior engine protection compared to thin factory-recommended low-viscosity oils.
@@ -600,7 +600,7 @@
 #### Req 5c: Engine Oil Capacity Specifications
 **Official Requirement 5c:** Explain where to find the recommended oil type and the amount of oil to be used in the vehicle engine.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 30, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 5c (Explain where to find the recommended oil type and the amount of oil to be used in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 5c (Explain where to find the recommended oil type and the amount of oil to be used in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vehicle manufacturers specify distinct oil viscosities, synthetic basestock requirements, and crankcase fill volumes in the technical specifications section of the owner manual. Overfilling or underfilling an engine crankcase causes foaming, aeration, or oil starvation.
 - **Common Myth:** Every four-cylinder passenger car engine requires exactly five quarts of motor oil during changes.
@@ -623,7 +623,7 @@
 **Official Requirement 6a:** Explain the need for coolant in the cooling system, and the importance of selecting the correct coolant type for a given vehicle.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep drained antifreeze in sealed containers away from pets and wildlife because ethylene glycol tastes sweet and is lethal.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 6a (Explain the need for coolant in the cooling system, and the importance of selecting the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 6a (Explain the need for coolant in the cooling system, and the importance of selecting the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Coolant raises the boiling point of water and lowers its freezing point while circulating to dissipate extreme combustion chamber heat. Modern engines require specific chemical formulations such as organic acid technology or hybrid organic acid technology to preserve aluminum water jackets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -645,7 +645,7 @@
 #### Req 6b: Coolant Flush and Disposal
 **Official Requirement 6b:** Explain how to flush and change the engine coolant in the vehicle, and how to properly dispose of the used coolant.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 60, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 6b (Explain how to flush and change the engine coolant in the vehicle, and how to properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 6b (Explain how to flush and change the engine coolant in the vehicle, and how to properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flushing an engine cooling system requires opening the lower radiator petcock, draining spent fluid into containment pans, and flushing with distilled water. Spent antifreeze contains dissolved heavy metals like lead and copper, requiring disposal at certified hazardous waste collection sites.
 - **Common Myth:** Flushed engine coolant can be washed down storm drains or household plumbing sinks safely.
@@ -668,7 +668,7 @@
 **Official Requirement 7a:** Explain how the air and fuel systems work together and why it is necessary to have an air filter and fuel filter.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Depressurize the fuel rail before disconnecting any high-pressure fuel lines to avoid high-pressure fuel spray fires.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 7a (Explain how the air and fuel systems work together and why it is necessary to have an air), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 7a (Explain how the air and fuel systems work together and why it is necessary to have an air), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The induction system blends filtered atmospheric oxygen with pressurized fuel to achieve combustible mixtures inside cylinder heads. Air filters protect mass airflow sensors from debris, while fuel filters prevent rust and silt from clogging micron-sized injector pintles.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -690,7 +690,7 @@
 #### Req 7b: Electronic Fuel Injection Operation
 **Official Requirement 7b:** Explain how a fuel injection system works and how an onboard computer works with the fuel injection system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 7b (Explain how a fuel injection system works and how an onboard computer works with the fuel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 7b (Explain how a fuel injection system works and how an onboard computer works with the fuel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electronic fuel injection relies on an engine control module that processes throttle position, crankshaft angle, and oxygen sensor data to calculate injector pulse widths. Solenoid or piezoelectric injectors spray atomized fuel directly into intake runners or cylinder combustion bowls.
 - **Common Myth:** Carburetors and modern electronic fuel injection systems deliver fuel at identical low operating pressures.
@@ -777,7 +777,7 @@
 **[Parent Directive]:** *Ignition and Electrical Systems. Do the following*
 **Official Requirement 8b:** Explain the engine's firing order.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 8b (Explain the engine's firing order), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 8b (Explain the engine's firing order), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Engine firing orders establish the precise sequence in which individual spark plugs ignite compressed air-fuel charges across cylinders. Distributing power strokes evenly balances rotational forces along the crankshaft, preventing excessive mechanical vibration.
 - **Common Myth:** Multicylinder engines ignite fuel in simple sequential physical order from cylinder one to cylinder four.
@@ -795,7 +795,7 @@
 **[Parent Directive]:** *Ignition and Electrical Systems. Do the following*
 **Official Requirement 8c:** Explain the purpose of the spark gap.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 8c (Explain the purpose of the spark gap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 8c (Explain the purpose of the spark gap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The spark plug gap provides the physical separation across which ignition coils discharge thousands of volts to ignite the air-fuel mixture. Setting the gap to exact manufacturer tolerances ensures reliable flame kernel propagation and prevents engine misfires.
 - **Common Myth:** Spark plugs come perfectly gapped from the factory and never require verification before installation.
@@ -812,7 +812,7 @@
 #### Req 8d: Safe Battery Jumper Connections
 **Official Requirement 8d:** Demonstrate how to safely connect jumper cables to your car battery.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 8d (Demonstrate how to safely connect jumper cables to your car battery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 8d (Demonstrate how to safely connect jumper cables to your car battery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Jumping a dead vehicle battery requires strict attachment sequences to avoid sparking near explosive hydrogen gas pockets. Clamping positive cables first and ending with an unpainted engine block ground prevents hazardous battery explosions.
 - **Common Myth:** Jumper cable clamps can be attached to battery terminals in any arbitrary order.
@@ -829,7 +829,7 @@
 #### Req 8e: Electric Vehicle Range Factors
 **Official Requirement 8e:** Discuss with your counselor what factors can affect range on an electrified vehicle. Explain the procedure for recharging an electric or plug-in hybrid vehicle.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 8e (Discuss with your counselor what factors can affect range on an electrified vehicle.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 8e (Discuss with your counselor what factors can affect range on an electrified vehicle.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrified vehicle range depends on battery pack temperature, aggressive acceleration habits, aerodynamic drag, and auxiliary cabin heating loads. Recharging involves connecting dedicated Level 1, Level 2, or direct current fast-charging connectors through standardized charge ports.
 - **Common Myth:** Electric vehicle driving range remains completely unaffected by extreme sub-zero winter temperatures.
@@ -845,7 +845,7 @@
 #### Req 8f: Electrical Subsystem Dependencies
 **Official Requirement 8f:** Explain what other vehicle systems are dependent on a reliable electrical system.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 8f (Explain what other vehicle systems are dependent on a reliable electrical system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 8f (Explain what other vehicle systems are dependent on a reliable electrical system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A stable electrical system powers electronic control modules, electric power steering racks, antilock braking solenoids, and safety sensors. Voltage drops trigger sensor calibration faults and induce transmission limp-mode lockouts.
 - **Common Myth:** Engine ignition represents the only vehicle system dependent upon the battery and charging system.
@@ -869,7 +869,7 @@
 **Official Requirement 9a:** Diagram the drive train and explain the different parts.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never engage four-wheel-drive low range on dry pavement because drivetrain binding can snap axle shafts.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 9a (Diagram the drive train and explain the different parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 9a (Diagram the drive train and explain the different parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The drivetrain consists of the transmission, driveshafts, universal or constant-velocity joints, differential gears, and drive axles. These components multiply engine torque and transmit rotational power smoothly across flexible suspension geometries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -891,7 +891,7 @@
 #### Req 9b: Transmission Mechanism Comparison
 **Official Requirement 9b:** Explain the difference between automatic and standard transmissions.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 9b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 9b (Explain the difference between automatic and standard transmissions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 9b (Explain the difference between automatic and standard transmissions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Manual transmissions require driver-actuated mechanical friction clutches to disengage gears during gear changes. Automatic transmissions utilize torque converters and electronically controlled planetary gearsets to execute smooth gear ratio shifts automatically.
 - **Common Myth:** Automatic and manual transmissions share identical internal mechanical gears, clutches, and operating fluids.
@@ -909,7 +909,7 @@
 **[Parent Directive]:** *Drive Train. Do the following*
 **Official Requirement 9c:** Explain the types of automatic transmission fluid.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 9c (Explain the types of automatic transmission fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 9c (Explain the types of automatic transmission fluid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Automatic transmission fluids feature unique friction modifier formulations, detergent packages, and viscosity characteristics engineered for specific manufacturer transmissions. Utilizing unapproved fluid specifications causes internal wet clutch slippage and overheating.
 - **Common Myth:** All automatic transmission fluids are completely interchangeable across all vehicle makes and model years.
@@ -926,7 +926,7 @@
 #### Req 9d: Gearbox and Differential Lubricants
 **Official Requirement 9d:** Explain the types of lubricants used in a standard transmission, and in the differential and transfer case.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 9d (Explain the types of lubricants used in a standard transmission, and in the differential), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 9d (Explain the types of lubricants used in a standard transmission, and in the differential), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Manual transmissions, transfer cases, and differentials require high-viscosity gear lubricants engineered for extreme pressures and hypoid bevel gear shear forces. Hypoid gear lubricants protect differential ring and pinion teeth under heavy towing loads.
 - **Common Myth:** Engine motor oil provides sufficient lubrication protection for heavy differential and manual transmission gears.
@@ -943,7 +943,7 @@
 #### Req 9e: Drive Wheel Configuration Comparisons
 **Official Requirement 9e:** Explain the difference between front-wheel, rear-wheel, and four-wheel drive.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 33, p. 35)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 9e Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 9e (Explain the difference between front-wheel, rear-wheel, and four-wheel drive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 9e (Explain the difference between front-wheel, rear-wheel, and four-wheel drive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Front-wheel drive pulls vehicles with transaxle assemblies, while rear-wheel drive pushes vehicles via longitudinal driveshafts. Four-wheel drive systems utilize transfer cases to split torque across both axles for demanding off-road conditions.
 - **Common Myth:** All-wheel drive and four-wheel drive represent identical mechanical systems operating under identical driveline rules.
@@ -966,7 +966,7 @@
 **Official Requirement 10a:** Explain the brake system (including antilock systems) and how it operates.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never blow brake dust with compressed air because older friction linings may contain harmful asbestos fibers.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 10a (Explain the brake system (including antilock systems) and how it operates), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 10a (Explain the brake system (including antilock systems) and how it operates), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Brake pedals actuate master cylinders that push hydraulic fluid through steel lines to calipers and wheel cylinders. Antilock systems use wheel speed sensors and solenoid valves to modulate line pressure automatically, preventing skid lockup.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -988,7 +988,7 @@
 #### Req 10b: Disc and Drum Brake Comparison
 **Official Requirement 10b:** Explain the differences between disc and drum brake systems.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 10b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 10b (Explain the differences between disc and drum brake systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 10b (Explain the differences between disc and drum brake systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Disc brakes utilize calipers to squeeze flat friction pads against rotating cast-iron rotors exposed to cooling airflow. Drum brakes force curved brake shoes outward against the interior surface of rotating drums, retaining internal heat.
 - **Common Myth:** Drum brakes provide superior heat dissipation and wet stopping capability compared to disc brake assemblies.
@@ -1005,7 +1005,7 @@
 #### Req 10c: Brake System Condition Inspection
 **Official Requirement 10c:** Demonstrate how to check the condition of a vehicle's brake system. After checking, make recommendations for repairs (if necessary)
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 46, p. 76)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 10c (Demonstrate how to check the condition of a vehicle's brake system. After checking, make), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 10c (Demonstrate how to check the condition of a vehicle's brake system. After checking, make), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Technicians measure friction pad lining thickness, check rotor runout with dial indicators, and inspect rubber caliper boots for fluid leaks. Linings worn near minimum manufacturer specifications require immediate replacement along with hardware lubrication.
 - **Common Myth:** Brake friction pads only require replacement after loud metal-on-metal grinding noises begin during stops.
@@ -1028,7 +1028,7 @@
 **Official Requirement 11a:** Determine the value of three different vehicles you are interested in purchasing. One must be new and one must be used; the third vehicle can be new or used. For each vehicle, find out the requirements and cost of automobile insurance to include basic liability and options for collision, comprehensive, towing, and rental car. Using the three vehicles you chose and with your counselor's assistance, complete the operation/maintenance chart provided in the Automotive Maintenance merit badge pamphlet. Use this information to determine the operating cost per mile for each vehicle, and discuss what you learn with your counselor.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always loosen wheel lug nuts slightly while the tire rests on the ground before raising the vehicle.
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 11a (Determine the value of three different vehicles you are interested in purchasing. One must), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 11a (Determine the value of three different vehicles you are interested in purchasing. One must), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating vehicle purchases involves comparing dealer window prices, private party values, financing interest rates, insurance costs, and depreciation curves across new and pre-owned models. Prospective buyers utilize market valuation guides to budget comprehensive ownership costs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1052,7 +1052,7 @@
 #### Req 11b: Exterior Clear Coat Surface Detailing
 **Official Requirement 11b:** Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat paint and the precautions necessary for care. Clean the vehicle, both inside and out, and wax the exterior. Use a vinyl and rubber protectant (on vinyl tops, rubber door seals, sidewalls, etc.) and explain the importance of this protectant.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 11b (Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 11b (Choose a car cleaner and wax product for a vehicle you want to clean. Explain clear-coat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Clear-coat finishes consist of transparent acrylic paint layers that protect underlying color pigments from ultraviolet fading. Washing with dedicated pH-neutral automotive shampoo and applying non-abrasive carnauba or synthetic wax seals paint against oxidation.
 - **Common Myth:** Scrubbing vehicle paint with household abrasive cleansers removes stubborn road tar without scratching clear coat.
@@ -1071,7 +1071,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 11c:** Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack correctly on the vehicle, then change a tire correctly.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 11c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 11c (Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 11c (Locate the manufacturer's jack. Use the jack to demonstrate how to engage the jack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Changing a flat tire requires engaging the factory scissors jack under designated frame notches on flat asphalt. Loosening lug nuts before lifting and tightening them in a crisscross star pattern ensures safe wheel seating.
 - **Common Myth:** Lug nuts should be tightened in sequential clockwise order around the wheel perimeter during installation.
@@ -1087,7 +1087,7 @@
 #### Req 11d: Engine Oil and Filter Replacement
 **Official Requirement 11d:** Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the used oil and filter.
 **Source:** *Official Scouting America Automotive Maintenance Merit Badge Pamphlet (p. 58, p. 95)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For automotive maintenance Requirement 11d (Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Automotive Maintenance Requirement 11d (Perform an oil filter and oil change on a vehicle. Explain how to properly dispose of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing an oil change involves draining hot engine oil from the crankcase sump and spinning off the saturated filter canister. Technicians replace the drain plug crush washer, lubricate the new filter gasket, refill to factory capacity, and recycle used oil.
 - **Common Myth:** Used motor oil can be poured into backyard soil or storm drains without causing contamination.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Rowing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/rowing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -43,7 +43,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in rowing activities, including weather- and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately head for the nearest shore and seek low-lying shelter when thunder is heard or lightning is spotted.
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rowers encounter sudden weather shifts, river obstacles, and turbulent currents that threaten small craft stability. Crews mitigate these hazards by tracking meteorological alerts and maintaining defensive lookout headings.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -65,7 +65,7 @@
 #### Req 1b: Rowing Injuries and Thermal Illnesses
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while rowing: blisters, hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repetitive friction and extreme temperature exposure cause painful skin blisters, dehydration, heat syndromes, and rapid hypothermia. Rowers manage these conditions through proper hydration, insulating clothing, and early wound care.
 - **Common Myth:** Popping large hand blisters speeds up recovery and toughens skin for subsequent rowing sessions.
@@ -88,7 +88,7 @@
 #### Req 1c: Safety Afloat Operational Compliance
 **Official Requirement 1c:** Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to rowing activities.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 1c (Review the Scouting America Safety Afloat policy. Explain to your counselor how this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 1c (Review the Scouting America Safety Afloat policy. Explain to your counselor how this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouting America Safety Afloat mandates qualified supervision, personal flotation devices, swimming ability classification, and buddy systems during all boating activities. Compliance ensures safe rowing operations under tested emergency protocols.
 - **Common Myth:** Safety Afloat guidelines only govern troop outings that venture onto moving rivers or coastal bays.
@@ -260,7 +260,7 @@
 #### Req 4b: Competitive Rowing Regatta Participation
 **Official Requirement 4b:** Participate as a rowing team member in a competitive rowing meet. The team may be sponsored by a school, club, or Scout unit. The meet must include competition between two or more teams with different sponsors. Complete at least 10 hours of team practice prior to the meet.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 40, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 4b (Participate as a rowing team member in a competitive rowing meet. The team may be sponsored), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 4b (Participate as a rowing team member in a competitive rowing meet. The team may be sponsored), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Competitive crew rowing demands synchronized stroke ratings, precise leg drive timing, and disciplined obedience to coxswain commands. Participating in organized regattas teaches team pacing, tactical race lane discipline, and sportsmanship.
 - **Common Myth:** The fastest rowing crew simply pulls oars with the highest possible stroke frequency.
@@ -285,7 +285,7 @@
 **Official Requirement 5a:** In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull away from the pier, change positions with your passenger, and demonstrate sculling over the stern or side. Resume your rowing position, return alongside the pier, and help your passenger out of the boat.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Maintain physical contact with the pier until your passenger is securely seated on the thwart.
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 5a (In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 5a (In a fixed-seat rowboat, come alongside a pier and help a passenger into the boat. Pull), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Operators of fixed-seat rowboats must stabilize the craft against docks and supervise balanced passenger movement between seats. Single-oar sculling over the transom provides essential auxiliary propulsion when maneuvering through narrow marina slips.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -308,7 +308,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5b:** In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get out onto the pier. Help your buddy into the boat. Reverse roles with your buddy and repeat the procedure.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 5b (In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 5b (In a sliding-seat rowboat, come alongside a pier and, with your buddy assisting you, get), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sliding-seat craft have delicate outriggers and narrow shells that require specialized docking techniques and buddy assistance. Rowers must secure the dockside rigger and step cleanly onto the pier without placing weight on thin hull skin.
 - **Common Myth:** Rowers can safely step directly onto the carbon fiber hull skin inside rowing shells.
@@ -388,7 +388,7 @@
 **Official Requirement 8a:** Types of craft used in commercial, competitive, and recreational rowing (b) Four common boatbuilding materials.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always secure oarlock retaining pins or strings so hardware cannot dislodge in deep water.
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 8a (Types of craft used in commercial, competitive, and recreational rowing (b) Four common), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 8a (Types of craft used in commercial, competitive, and recreational rowing (b) Four common), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial rowboats emphasize load capacity, competitive shells prioritize hydrodynamic velocity, and recreational skiffs balance stability with ease of use. Each hull design optimizes waterline length, beam width, and freeboard for specific aquatic environments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -411,7 +411,7 @@
 **[Parent Directive]:** *Describe the following*
 **Official Requirement 8b:** Four common boatbuilding materials. Give some positive and negative points of each.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 8b (Four common boatbuilding materials. Give some positive and negative points of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 8b (Four common boatbuilding materials. Give some positive and negative points of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Builders construct rowing hulls using wood, aluminum, fiberglass, or modern carbon fiber composites. Selecting hull materials involves balancing weight, structural rigidity, production cost, weather resilience, and repair complexity.
 - **Common Myth:** Fiberglass rowboats are completely maintenance free and never suffer hull degradation from sunlight.
@@ -428,7 +428,7 @@
 **[Parent Directive]:** *Describe the following*
 **Official Requirement 8c:** Types of oarlocks used in competitive and recreational rowing.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 8c (Types of oarlocks used in competitive and recreational rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 8c (Types of oarlocks used in competitive and recreational rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Recreational rowboats often feature open horn or pinned oarlocks that simplify storage and basic handling. Competitive rowing utilizes precision swivel gates mounted on outriggers to adjust pitch angle and lock oars securely.
 - **Common Myth:** Pinned oarlocks offer superior rowing performance because the oar cannot slide away.
@@ -452,7 +452,7 @@
 **Official Requirement 9a:** The advantage of feathering oars while rowing.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never head a small rowboat beam-to or parallel to heavy breaking windblown waves.
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9a (The advantage of feathering oars while rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9a (The advantage of feathering oars while rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Feathering rotates the oar blade horizontal to the water surface during the recovery stroke. This aerodynamic maneuver minimizes wind resistance and reduces the hazard of blades catching wave crests.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -475,7 +475,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9b:** Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough water and windstorms.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9b (Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9b (Precautions regarding strong winds and heavy waves, and boat-handling procedures in rough), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High winds and crashing waves can rapidly overwhelm small rowboats through windward drifting or swamping. Rowers preserve stability by quartering into seas, ballasting weight low, and heading toward leeward shores.
 - **Common Myth:** Rowing at maximum speed is the best strategy to escape sudden open water squalls.
@@ -493,7 +493,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9c:** How to properly fit out and maintain a boat in season, and how to prepare and store a boat for winter (d) How to determine the proper length of oars.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9c (How to properly fit out and maintain a boat in season, and how to prepare and store a boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9c (How to properly fit out and maintain a boat in season, and how to prepare and store a boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Spring fitting out requires checking hardware tightness, repairing hull gelcoat, and oiling moving oarlock sockets. Winter storage demands thorough cleaning, drying, and sheltering the hull inverted off bare soil.
 - **Common Myth:** Storing a rowboat right side up uncovered outdoors prevents moisture accumulation inside bilges.
@@ -511,7 +511,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9d:** How to determine the proper length of oars.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9d (How to determine the proper length of oars), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9d (How to determine the proper length of oars), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Oar length must match the rowboat beam width between oarlocks to ensure proper mechanical leverage. Handbooks recommend dividing the beam by two, adding two inches, and multiplying by seven-fifths.
 - **Common Myth:** Taller rowers always require significantly longer oars regardless of the boat beam width.
@@ -529,7 +529,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9e:** The differences between fixed-seat and sliding-seat rowing.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 9e Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9e (The differences between fixed-seat and sliding-seat rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9e (The differences between fixed-seat and sliding-seat rowing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixed-seat craft utilize stationary thwarts that rely on back and arm power for hull propulsion. Sliding-seat shells feature rolling seats and foot stretchers that recruit major leg muscle groups.
 - **Common Myth:** Sliding-seat rowing is easier and requires less physical cardiovascular effort than fixed-seat rowing.
@@ -547,7 +547,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9f:** The different meanings of the term sculling in fixed- and sliding-seat rowing (g) The health benefits from rowing for exercise.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9f (The different meanings of the term sculling in fixed- and sliding-seat rowing (g) The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9f (The different meanings of the term sculling in fixed- and sliding-seat rowing (g) The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - In traditional boating, sculling refers to propelling a craft with a single stern oar. In competitive rowing, sculling describes rowing with two individual oars per person simultaneously.
 - **Common Myth:** The term sculling exclusively describes propelling a rowboat with one oar over the stern.
@@ -565,7 +565,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 9g:** The health benefits from rowing for exercise.
 **Source:** *Official Scouting America Rowing Merit Badge Pamphlet (p. 67, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rowing Requirement 9g (The health benefits from rowing for exercise), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rowing Requirement 9g (The health benefits from rowing for exercise), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rowing delivers low-impact aerobic exercise that simultaneously builds muscular strength and cardiovascular endurance. The rhythmic drive and recovery cycles improve joint mobility and core muscular stability without jarring impacts.
 - **Common Myth:** Rowing exercise primarily builds upper arm bicep mass while leaving leg muscles unconditioned.

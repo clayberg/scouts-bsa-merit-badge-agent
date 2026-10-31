@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Search%20and%20Rescue.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/search-and-rescue/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -288,7 +288,7 @@
 #### Req 1b: Scout Basic Essentials Preparedness
 **Official Requirement 1b:** Explain how the Scout Basic Essentials address hazards outdoors and help lost Scouts stay safe before they are rescued.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 1b (Explain how the Scout Basic Essentials address hazards outdoors and help lost Scouts stay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 1b (Explain how the Scout Basic Essentials address hazards outdoors and help lost Scouts stay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Scout Basic Essentials provide life-sustaining resources to build improvised shelters, purify water, and retain metabolic warmth. These supplies prevent minor navigation errors from turning into severe medical emergencies.
 - **Common Myth:** The Scout Basic Essentials are intended solely for comfortable day hiking along marked park trails.
@@ -305,7 +305,7 @@
 #### Req 1c: Searcher Field Pack Equipment
 **Official Requirement 1c:** Discuss how the safety gear carried by SAR team members in their field packs addresses SAR hazards.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 43, p. 47)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 1c (Discuss how the safety gear carried by SAR team members in their field packs addresses SAR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 1c (Discuss how the safety gear carried by SAR team members in their field packs addresses SAR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Field packs contain 24-hour survival gear, universal precaution items, and high-visibility flagging to support sustained search tasks. Responders configure equipment to ensure self-sufficiency without draining incident base resources.
 - **Common Myth:** Searcher pack contents mirror standard backpacking gear without requiring specialized technical search rescue tools.
@@ -328,7 +328,7 @@
 **Official Requirement 2a:** Explain how a trip plan and the buddy system help Scouts with staying found and getting found.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stop travel immediately upon realizing navigation is uncertain to avoid compounding search area radius exponentially.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 2a (Explain how a trip plan and the buddy system help Scouts with staying found and getting found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 2a (Explain how a trip plan and the buddy system help Scouts with staying found and getting found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A comprehensive trip plan lists route milestones, gear descriptions, and emergency contacts to expedite SAR response. The buddy system maintains constant accountability, ensuring immediate detection of deviations or injuries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -350,7 +350,7 @@
 #### Req 2b: Weather Impacts on Route Plans
 **Official Requirement 2b:** Explain how seasonal and daily weather changes affect Trip Plans.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 2b (Explain how seasonal and daily weather changes affect Trip Plans), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 2b (Explain how seasonal and daily weather changes affect Trip Plans), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Seasonal temperature swings and sudden mountain squalls necessitate dynamic reassessments of trail plans. Responders examine regional forecasts to avoid exposure to flash flood washes and avalanche slopes.
 - **Common Myth:** Wilderness trip plans remain static documents that parties must follow regardless of developing weather.
@@ -369,7 +369,7 @@
 #### Req 2c: Emergency Signaling Methodologies
 **Official Requirement 2c:** Explain and show how a lost Scout could send signals that would alert a ground, airborne, or water SAR team to their location.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 2c (Explain and show how a lost Scout could send signals that would alert a ground, airborne,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 2c (Explain and show how a lost Scout could send signals that would alert a ground, airborne,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ground-to-air signals must exploit visual contrast, movement, or acoustic penetration to attract search crews. Utilizing geometric formations of three markers alerts aircraft that human intervention is required.
 - **Common Myth:** Fires used for signaling should be built small and concealed under dense tree canopies.
@@ -387,7 +387,7 @@
 **[Parent Directive]:** *Staying and Getting Found. Do the following*
 **Official Requirement 2d:** Demonstrate how to use a signaling mirror.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 2d (Demonstrate how to use a signaling mirror), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 2d (Demonstrate how to use a signaling mirror), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A glass signaling mirror projects intense pinpoint flashes visible over forty miles to aerial spotters. Users align the sighting hole and fire spot onto the aircraft to ensure accurate flash alignment.
 - **Common Myth:** Waving a signal mirror randomly across the horizon effectively attracts overhead search and rescue aircraft.
@@ -404,7 +404,7 @@
 #### Req 2e: Personal Locator Beacon Operations
 **Official Requirement 2e:** Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue Coordination Center (AFRCC)
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 41, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 2e (Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 2e (Explain how a Personal Locator Beacon (PLB) works and the role of the Air Force Rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal Locator Beacons broadcast emergency 406 MHz digital pulses to orbiting satellites, alerting the AFRCC. The AFRCC validates registration data and coordinates immediate response with local rescue coordinators.
 - **Common Myth:** Personal Locator Beacons connect directly to local county sheriff radios upon emergency manual activation.
@@ -428,7 +428,7 @@
 **Official Requirement 3a:** Point out and explain the 5 D's (Date, Description, Details, Direction or Declination, Distance) of the map.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never navigate wilderness cliff bands or water crossings based solely on digital screens without visual ground confirmation.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 3a (Point out and explain the 5 D's (Date, Description, Details, Direction or Declination,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 3a (Point out and explain the 5 D's (Date, Description, Details, Direction or Declination,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The five Ds encompass date, description, details, direction or declination, and distance on standard topographic sheets. Reviewing these elements prevents navigation errors caused by outdated roads or uncorrected magnetic drift.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -450,7 +450,7 @@
 #### Req 3b: Cartographic Coordinate System Comparison
 **Official Requirement 3b:** Choose a location on the map and record the altitude, latitude, longitude, and US National Grid coordinates. Describe how these coordinate systems differ.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 3b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 3b (Choose a location on the map and record the altitude, latitude, longitude, and US National), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 3b (Choose a location on the map and record the altitude, latitude, longitude, and US National), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Coordinates specify points using latitude-longitude angular degrees or planar United States National Grid metric references. USNG standardizes interagency communication, reducing transcription mistakes during high-stress wilderness rescues.
 - **Common Myth:** Latitude and longitude coordinates use identical formatting across all civilian and military emergency teams.
@@ -469,7 +469,7 @@
 **[Parent Directive]:** *Maps. Using a map, a compass and a GPS device or app approved by your counselor, do the following*
 **Official Requirement 3c:** Orient the map and take a bearing to another map location. Estimate the distance between, and describe the terrain between, the two locations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 3c (Orient the map and take a bearing to another map location. Estimate the distance between,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 3c (Orient the map and take a bearing to another map location. Estimate the distance between,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienting a topographic map aligns local relief features with true north to confirm ground positions. Measuring bearings between coordinates enables teams to calculate terrain transit times across rugged topography.
 - **Common Myth:** A straight compass bearing guarantees an easy, linear walking path across wilderness terrain.
@@ -485,7 +485,7 @@
 #### Req 3d: Place Last Seen Containment Strategy
 **Official Requirement 3d:** Show a hypothetical place last seen and point out an area on your map that could be used for containment using natural or human-made boundaries.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 3d (Show a hypothetical place last seen and point out an area on your map that could be used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 3d (Show a hypothetical place last seen and point out an area on your map that could be used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Placing containment along natural ridges or roads restricts the search envelope around the place last seen. Confinement forces minimize perimeter expansion while hasty teams check high-probability travel corridors.
 - **Common Myth:** Search operations always begin by plunging directly into the deep woods without perimeter containment.
@@ -508,7 +508,7 @@
 **Official Requirement 4a:** Explain how a local ICS is organized and how it compares with Scouting's patrol method.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** All field units must check in at incident base to prevent freelancing and maintain personnel accountability.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 4a (Explain how a local ICS is organized and how it compares with Scouting's patrol method), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 4a (Explain how a local ICS is organized and how it compares with Scouting's patrol method), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - ICS utilizes modular organizational levels matching the patrol method's division of responsibilities under a single leader. Both systems establish manageable spans of control, direct communication paths, and clear operational objectives.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -530,7 +530,7 @@
 #### Req 4b: Community Agency Interoperability Training
 **Official Requirement 4b:** Explain how local community agencies work to train for and manage search and rescue situations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 4b (Explain how local community agencies work to train for and manage search and rescue situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 4b (Explain how local community agencies work to train for and manage search and rescue situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Municipal, county, and volunteer agencies maintain disaster readiness through recurring joint operational exercises. These collaborative programs clarify legal jurisdictions, radio interoperability channels, and equipment mobilization protocols.
 - **Common Myth:** Emergency response agencies only communicate with volunteer rescue teams when a live emergency occurs.
@@ -553,7 +553,7 @@
 **Official Requirement 5a:** Explain the official duties of a search and rescue team.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Personal safety and team security supersede search mission objectives under all hazardous operating conditions.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 5a (Explain the official duties of a search and rescue team), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 5a (Explain the official duties of a search and rescue team), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Official SAR duties center on locating missing subjects, administering initial field first aid, and coordinating patient transport. Teams must also document physical clues meticulously to support ongoing investigative operations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -575,7 +575,7 @@
 #### Req 5b: Search Environment Comparison Analysis
 **Official Requirement 5b:** Explain the differences between wilderness, urban, and water SARs.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 5b (Explain the differences between wilderness, urban, and water SARs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 5b (Explain the differences between wilderness, urban, and water SARs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wilderness SAR manages severe terrain, remote distances, and environmental exposure requiring self-sufficient mobile teams. Urban searches navigate structural collapse and hazardous materials, while water rescues manage swift currents and hypothermia.
 - **Common Myth:** Search strategies and equipment remain identical whether operating in collapsed buildings, lakes, or forests.
@@ -592,7 +592,7 @@
 #### Req 5c: Specialized Rescue Team Disciplines
 **Official Requirement 5c:** Identify four types of search and rescue teams and explain situations where they are used.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 75, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 5c (Identify four types of search and rescue teams and explain situations where they are used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 5c (Identify four types of search and rescue teams and explain situations where they are used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Specialized teams include canine units, mounted searchers, technical rope rescue squads, and unmanned aerial vehicle teams. Ground commanders deploy each specific capability based on local terrain, weather conditions, and subject vulnerability.
 - **Common Myth:** Any standard ground search team possesses the technical equipment to conduct vertical cliff rescues.
@@ -616,7 +616,7 @@
 **Official Requirement 6a:** Explain the difference between search and rescue.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Treat all search clue locations as potential crime scenes by avoiding contamination and preserving footprints.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 6a (Explain the difference between search and rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 6a (Explain the difference between search and rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Search represents the investigative process of finding a missing individual by tracking clues across terrain. Rescue encompasses medical treatment, patient packaging, and physical transport out of hazardous backcountry environments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -638,7 +638,7 @@
 #### Req 6b: Place and Point Clarification
 **Official Requirement 6b:** Explain the difference between PLS (place last seen) and LKP (last known point)
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 6b (Explain the difference between PLS (place last seen) and LKP (last known point)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 6b (Explain the difference between PLS (place last seen) and LKP (last known point)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Place last seen represents the exact geographic location where eyewitnesses last viewed the subject. Last known point designates the newest verified physical evidence, such as footprints, discarded gear, or signatures.
 - **Common Myth:** Place last seen and last known point represent identical physical coordinates on a map.
@@ -655,7 +655,7 @@
 #### Req 6c: Tactical Communications and Protocols
 **Official Requirement 6c:** Explain the importance of effective communication in SAR operations.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 6c (Explain the importance of effective communication in SAR operations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 6c (Explain the importance of effective communication in SAR operations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reliable radio discipline and structured briefing protocols keep field search teams connected with incident commanders. Accurate clue reporting ensures search sectors are updated dynamically as fresh evidence emerges.
 - **Common Myth:** Cellular texting is dependable as the primary tactical communications channel during remote wilderness searches.
@@ -672,7 +672,7 @@
 #### Req 6d: Lost Person Behavioral Modeling
 **Official Requirement 6d:** Explain how predictions of "lost person behavior" determine SAR search plans for a young child, a teenager, and an adult.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 56, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 6d (Explain how predictions of "lost person behavior" determine SAR search plans for a young), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 6d (Explain how predictions of "lost person behavior" determine SAR search plans for a young), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lost person behavior data predicts travel speeds, movement patterns, and sheltering choices based on demographic categories. Toddlers hide in dense brush when frightened, whereas adult hunters navigate along ridges and watercourses.
 - **Common Myth:** Lost people of all ages react identically by sitting down and waiting for help.
@@ -915,7 +915,7 @@
 **Official Requirement 7a:** Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit badge pamphlet or one approved by your counselor.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Searchers must maintain voice or visual contact with their assigned partner and never search alone.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 7a (Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 7a (Choose a hypothetical SAR scenario, either one presented in the Search and Rescue merit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Choosing a defined scenario establishes the subject profile, environmental conditions, and time elapsed for the exercise. Realistic parameters allow the patrol to practice genuine threat assessment and resource allocation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -938,7 +938,7 @@
 **[Parent Directive]:** *Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise*
 **Official Requirement 7b:** Develop an Incident Action Plan (IAP) for a hasty search using the scenario information.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 7b (Develop an Incident Action Plan (IAP) for a hasty search using the scenario information), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 7b (Develop an Incident Action Plan (IAP) for a hasty search using the scenario information), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Incident Action Plan formalizes operational objectives, sector boundaries, radio frequencies, and responder safety parameters. A well-crafted plan focuses initial efforts on high-probability linear features where subjects travel.
 - **Common Myth:** Hasty search teams operate most effectively by wandering outdoors without an organized written plan.
@@ -956,7 +956,7 @@
 **[Parent Directive]:** *Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise*
 **Official Requirement 7c:** Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns, personal and shared Scout Basic Essentials, and other gear.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 7c (Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 7c (Before the search begins, conduct a PAUSE briefing to review hazards, safety concerns,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The PAUSE briefing confirms that all searchers carry essential gear, understand physical hazards, and know emergency signals. Checking equipment before departure prevents search personnel from becoming secondary casualties in the field.
 - **Common Myth:** Safety briefings waste valuable minutes when teams should be running into the woods immediately.
@@ -974,7 +974,7 @@
 **[Parent Directive]:** *Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise*
 **Official Requirement 7d:** Execute the search.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 7d (Execute the search), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 7d (Execute the search), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Field teams execute assigned hasty tactics by moving deliberately along paths, drainages, and ridge lines. Responders scan terrain continuously, maintain voice contact, and preserve discovered physical clues for tracking specialists.
 - **Common Myth:** Field searchers should sprint through their assigned sectors to finish the search as quickly as possible.
@@ -992,7 +992,7 @@
 **[Parent Directive]:** *Plan and Complete a Search. Do the following with a team of Scouts, friends, or family to execute a practice SAR exercise*
 **Official Requirement 7e:** After the search, hold a team debriefing to discuss the search, problems, successful and unsuccessful tactics, and ideas for improvement.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 7e (After the search, hold a team debriefing to discuss the search, problems, successful and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 7e (After the search, hold a team debriefing to discuss the search, problems, successful and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Debriefings capture team observations, route coverage percentages, physical obstacles encountered, and newly identified clue locations. This tactical intelligence updates incident planning maps to direct subsequent operational periods.
 - **Common Myth:** The search operation ends completely the moment team members return to the incident command vehicle.
@@ -1018,7 +1018,7 @@
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 77, p. 89)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 8a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Volunteers and career professionals must adhere strictly to established incident command safety protocols and personal qualifications.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Search and Rescue Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 8a (Explore careers related to Search and Rescue merit badge or emergency management. Research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 8a (Explore careers related to Search and Rescue merit badge or emergency management. Research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Career search and rescue specialists work as national park rangers, emergency managers, conservation officers, and flight paramedics. These positions require degrees in emergency management, criminal justice, or natural resource protection.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1042,7 +1042,7 @@
 **[Parent Directive]:** *Careers. Do ONE of the following*
 **Official Requirement 8b:** Explore how you could use knowledge and skills from this merit badge to serve as a volunteer on a disaster relief team, a wilderness rescue team, or a ski patrol. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.
 **Source:** *Official Scouting America Search and Rescue Merit Badge Pamphlet (p. 77, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For search and rescue Requirement 8b (Explore how you could use knowledge and skills from this merit badge to serve as a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Search and Rescue Requirement 8b (Explore how you could use knowledge and skills from this merit badge to serve as a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care.
 - **Common Myth:** Volunteering on a wilderness search team requires no technical training or ongoing skill certifications.
@@ -1055,3 +1055,4 @@
 | **3. Discuss with your counselor what short-term and long-term goals you might have if you pursue** | Volunteer rescue squads, disaster relief groups, and ski patrols provide critical community support during wilderness emergencies. Responders undergo rigorous ongoing training in rope rescue, avalanche safety, and backcountry trauma care. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8b):** Scout must individually explain Requirement 8b (Explore how you could use knowledge and skills from this merit badge to serve as a volunteer on a disaster rel) to the Counselor.
+))

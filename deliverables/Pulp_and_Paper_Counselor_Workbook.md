@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pulp-Paper.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pulp-and-paper/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -64,7 +64,7 @@
 #### Req 2a: Silviculture Planting and Tree Harvesting
 **Official Requirement 2a:** Describe the ways the industry plants, grows, and harvests trees.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 2a (Describe the ways the industry plants, grows, and harvests trees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 2a (Describe the ways the industry plants, grows, and harvests trees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Nursery seedlings are planted mechanically or by hand during optimal dormant winter months. Mature timber tracts undergo clearcutting, seed tree retention, or selective thinning depending on species regeneration requirements.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -86,7 +86,7 @@
 #### Req 2b: Timberland Inventory and Demand Balancing
 **Official Requirement 2b:** Explain how the industry manages its forests so that the supply of trees keeps pace with the demand.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 2b (Explain how the industry manages its forests so that the supply of trees keeps pace with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 2b (Explain how the industry manages its forests so that the supply of trees keeps pace with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Foresters conduct periodic cruising surveys to measure tree diameter and stand density across parcels. Continuous yield models ensure annual cubic wood growth matches or exceeds commercial processing quotas.
 - **Common Myth:** Paper mills harvest timber without calculating future regional tree inventory.
@@ -103,7 +103,7 @@
 #### Req 2c: Sustainable Forest Management Principles
 **Official Requirement 2c:** Tell how the industry has incorporated the concepts of sustainable forest management (SFM)
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 2c (Tell how the industry has incorporated the concepts of sustainable forest management (SFM)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 2c (Tell how the industry has incorporated the concepts of sustainable forest management (SFM)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sustainable forest management protects soil fertility, watershed integrity, and biodiversity alongside commercial fiber production. Third party certification programs audit harvest operations to ensure compliance with international stewardship standards.
 - **Common Myth:** Sustainable forestry only means planting one new sapling for every felled tree.
@@ -120,7 +120,7 @@
 #### Req 2d: Industrial Papermaking Pollution Abatement
 **Official Requirement 2d:** Describe two ways the papermaking industry has addressed pollution.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 2d (Describe two ways the papermaking industry has addressed pollution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 2d (Describe two ways the papermaking industry has addressed pollution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrostatic precipitators capture airborne particulate emissions from recovery boilers before release. Primary clarifiers and secondary biological aeration basins neutralize chemical oxygen demand in mill wastewater.
 - **Common Myth:** Paper mills dump untreated bleaching chemicals directly into adjacent rivers.
@@ -141,7 +141,7 @@
 #### Req 3a: Forest Byproducts and Land Uses
 **Official Requirement 3a:** Discuss what other uses are made of the trees and the forestland owned by the pulp and paper industry.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 3a (Discuss what other uses are made of the trees and the forestland owned by the pulp and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 3a (Discuss what other uses are made of the trees and the forestland owned by the pulp and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forest tracts supply dimensional construction lumber, plywood veneers, and biomass fuel from bark offcuts. Commercial timberlands also support public watershed protection, managed wildlife hunting leases, and outdoor recreation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -163,7 +163,7 @@
 #### Req 3b: Mechanical and Chemical Pulping
 **Official Requirement 3b:** Describe two ways of getting fibers from wood, and explain the major differences between them.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 3b (Describe two ways of getting fibers from wood, and explain the major differences between them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 3b (Describe two ways of getting fibers from wood, and explain the major differences between them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanical pulping uses disc refiners to physically separate fibers, yielding high volumes of lignin rich pulp. The chemical kraft process cooks chips in caustic liquor to dissolve lignin, producing exceptionally strong cellulose fibers.
 - **Common Myth:** Mechanical pulping produces stronger paper than chemical pulping because fibers are unheated.
@@ -180,7 +180,7 @@
 #### Req 3c: Pulp Bleaching and Delignification
 **Official Requirement 3c:** Tell why some pulps are bleached, and describe the process.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 3c (Tell why some pulps are bleached, and describe the process), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 3c (Tell why some pulps are bleached, and describe the process), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pulp is bleached to remove trace brown lignin and increase optical brightness for printing. Modern mills use elemental chlorine free sequences with chlorine dioxide, oxygen, and hydrogen peroxide.
 - **Common Myth:** Bleaching paper pulp is done solely with common household chlorine laundry bleach.
@@ -283,7 +283,7 @@
 **Official Requirement 7a:** Visit a pulp mill. Describe how the mill converts wood to cellulose fibers.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Pulp and Paper Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 7a (Visit a pulp mill. Describe how the mill converts wood to cellulose fibers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 7a (Visit a pulp mill. Describe how the mill converts wood to cellulose fibers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pulp mills convert roundwood into raw cellulose fibers through debarking, chipping, and chemical digestion. Chemical recovery cycles reclaim cooking reagents from spent black liquor to generate facility power.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -304,7 +304,7 @@
 #### Req 7b: Paper Mill Operations and Sampling
 **Official Requirement 7b:** Visit a paper mill and get a sample of the paper made there. Describe the processes used for making this paper. Tell how it will be used.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 7b (Visit a paper mill and get a sample of the paper made there. Describe the processes used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 7b (Visit a paper mill and get a sample of the paper made there. Describe the processes used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paper mills blend refined pulp stocks, additives, and water before forming uniform continuous paper webs. Finished parent reels are slit and wound into targeted roll dimensions for specific publishing or conversion needs.
 - **Common Myth:** Paper comes off the machine as individual pre-cut rectangular letter sheets.
@@ -323,7 +323,7 @@
 #### Req 7c: Container and Box Plant Operations
 **Official Requirement 7c:** Visit a container plant or box plant. Describe how the plant's products are made.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 7c (Visit a container plant or box plant. Describe how the plant's products are made), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 7c (Visit a container plant or box plant. Describe how the plant's products are made), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Box converting plants run corrugators that flute paperboard medium and adhere smooth linerboards with starch adhesive. Flexographic printing, die cutting, and slotting equipment score and fold corrugated sheets into finished cartons.
 - **Common Myth:** Cardboard boxes are made by pasting several flat sheets of paper together.
@@ -339,7 +339,7 @@
 #### Req 7d: Recycled Paper Collection Facility
 **Official Requirement 7d:** Visit a recycled paper collection or sorting facility. Describe the operations there.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 7d (Visit a recycled paper collection or sorting facility. Describe the operations there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 7d (Visit a recycled paper collection or sorting facility. Describe the operations there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Collection depots receive municipal mixed paper, unwrap bales, and screen out contaminants on mechanical disc screens. Optical sorters and manual picking lines separate newspapers, sorted office paper, and corrugated cardboard into dense mill bales.
 - **Common Myth:** Recycling facilities wash and turn waste paper directly into clean pulp onsite.
@@ -356,7 +356,7 @@
 **[Parent Directive]:** *With your parent or guardian's and counselor's approval, do ONE of the following*
 **Official Requirement 7e:** Using books, magazines, your local library, the internet (with your parent or guardian's permission), and any other suitable research tool, find out how paper products are developed. Find out what role research and development play in the papermaking industry. Share what you learned with your counselor.
 **Source:** *Official Scouting America Pulp and Paper Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pulp and paper Requirement 7e (Using books, magazines, your local library, the internet (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pulp and Paper Requirement 7e (Using books, magazines, your local library, the internet (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Packaging scientists research biodegradable barrier coatings, tensile fiber bonding, and water resistant pulp blends. Development teams utilize laboratory pilot machines and computer models to prototype lightweight, recyclable containers.
 - **Common Myth:** Modern paper product design involves simple graphic art rather than chemistry or physics.

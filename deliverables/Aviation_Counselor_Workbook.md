@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Aviation.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/aviation/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -38,7 +38,7 @@
 **Official Requirement 1a:** Define "aircraft." Describe three kinds of aircraft today, and their typical uses.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never touch or rotate an aircraft propeller because the magneto grounding switch might fail.
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1a (Define "aircraft." Describe three kinds of aircraft today, and their typical uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1a (Define "aircraft." Describe three kinds of aircraft today, and their typical uses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An aircraft is any device used or intended for flight in the air. Modern categories include airplanes, rotorcraft, and gliders adapted for transport, defense, and recreational tasks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 **[Parent Directive]:** *Aviation Basics and Mechanics of Flight. Do the following*
 **Official Requirement 1b:** Provide a brief overview of the evolution of flight, and discuss three notable times in history important to aviation.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1b (Provide a brief overview of the evolution of flight, and discuss three notable times in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1b (Provide a brief overview of the evolution of flight, and discuss three notable times in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aviation history progressed from early gliders to engine-driven flight and modern high-speed air transportation. Notable milestones include the 1903 Wright flight, Lindbergh transatlantic crossing, and the moon landing.
 - **Common Myth:** The Wright brothers succeeded solely by building the first lightweight gasoline engine.
@@ -80,7 +80,7 @@
 #### Req 1c: Fixed and Rotary Wing Comparison
 **Official Requirement 1c:** Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of each.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 1c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1c (Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1c (Explain the difference between a fixed wing and a rotary wing aircraft, and the benefits of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixed-wing airplanes require forward airspeed over stationary wings to generate aerodynamic lift for long-distance transit. Rotary-wing aircraft spin dynamic airfoils around a central mast to hover and operate without runways.
 - **Common Myth:** Helicopters and airplanes generate aerodynamic lift through completely different physical laws.
@@ -97,7 +97,7 @@
 #### Req 1d: Aviation Powerplant Mechanical Operation
 **Official Requirement 1d:** Explain the operation of piston, turbine, and jet engines.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1d (Explain the operation of piston, turbine, and jet engines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1d (Explain the operation of piston, turbine, and jet engines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Piston engines convert internal fuel combustion into crankshaft rotation to turn aircraft propellers. Turbine and jet engines compress intake air, burn fuel continuously, and produce high-velocity exhaust thrust.
 - **Common Myth:** Turbojet engines use reciprocating cylinders to compress intake air before ignition occurs.
@@ -115,7 +115,7 @@
 **[Parent Directive]:** *Aviation Basics and Mechanics of Flight. Do the following*
 **Official Requirement 1e:** Using a model aircraft, describe the four forces that act on an aircraft in flight.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1e (Using a model aircraft, describe the four forces that act on an aircraft in flight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1e (Using a model aircraft, describe the four forces that act on an aircraft in flight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Every aircraft in unaccelerated flight maintains equilibrium between lift, weight, thrust, and aerodynamic drag. Changes in engine power or angle of attack disrupt this balance to alter altitude.
 - **Common Myth:** Thrust must exceed drag for an airplane to maintain constant cruise speed.
@@ -132,7 +132,7 @@
 #### Req 1f: Airfoil Lift and Bernoulli Principle
 **Official Requirement 1f:** Explain how an airfoil generates lift, specifically noting Bernoulli's principle.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1f (Explain how an airfoil generates lift, specifically noting Bernoulli's principle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1f (Explain how an airfoil generates lift, specifically noting Bernoulli's principle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Curved airfoil surfaces cause air to accelerate over the cambered upper wing area. This accelerated airflow causes a localized drop in static air pressure according to Bernoulli principle.
 - **Common Myth:** Equal transit time forces air parcels to rejoin simultaneously at the trailing edge.
@@ -149,7 +149,7 @@
 #### Req 1g: Primary Aerodynamic Flight Control Surfaces
 **Official Requirement 1g:** Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and explain how they operate to control its attitude and direction of flight.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1g (Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1g (Identify and describe the aerodynamic control surfaces on the aircraft of your choice, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ailerons control roll along the longitudinal axis, elevators control pitch along the lateral axis, and rudders control yaw along the vertical axis. Coordinating these movable surfaces enables smooth changes in flight path.
 - **Common Myth:** Turning the control wheel primarily moves the rudder to bank the aircraft.
@@ -166,7 +166,7 @@
 #### Req 1h: Single Engine Cockpit Flight Instruments
 **Official Requirement 1h:** Explain the purposes and functions of the various instruments found in a typical single-engine aircraft: attitude indicator, heading indicator, altimeter, airspeed indicator, turn and bank indicator, vertical speed indicator, compass, navigation, communication, and engine performance indicators.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 28, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 1h (Explain the purposes and functions of the various instruments found in a typical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 1h (Explain the purposes and functions of the various instruments found in a typical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pilots monitor flight attitude and navigation using pitot-static and gyroscopic cockpit instruments. The basic six-pack includes the altimeter, airspeed indicator, turn coordinator, heading indicator, attitude indicator, and vertical speed indicator.
 - **Common Myth:** The altimeter calculates height above the ground using active radar reflections.
@@ -189,7 +189,7 @@
 **Official Requirement 2a:** Build a model FPG-9. Get others in your troop or patrol to make their own model, then organize a competition to test the precision of flight and landing of the models.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Wear safety goggles when cutting foam or winding rubber motors to prevent eye injuries.
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 2a (Build a model FPG-9. Get others in your troop or patrol to make their own model, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 2a (Build a model FPG-9. Get others in your troop or patrol to make their own model, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts build the FPG-9 glider from standard foam plates to study basic wing geometry and balance. Organizing a patrol competition tests flight distance, precision spot landing, and stability under uniform rules.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -210,7 +210,7 @@
 #### Req 2b: Rubber Powered Balsa Aircraft Construction
 **Official Requirement 2b:** Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight line, with a smooth landing.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 2b (Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 2b (Build a rubber-band driven balsa wood airplane. Fly the plane for 25 feet in a straight), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Assembling a balsa wood model airplane teaches structural airframe assembly and propeller mechanics. Scouts wind the rubber motor and adjust wing incidence to achieve straight, sustained flight.
 - **Common Myth:** Tightly winding the rubber band to breaking point ensures the straightest flight path.
@@ -228,7 +228,7 @@
 #### Req 2c: Electric Drone Safety and Operations
 **Official Requirement 2c:** Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain The Recreational UAS Safety Test (TRUST) certification, and fly the aircraft with a successful take-off and landing.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 78, p. 82)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 2c (Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 2c (Build (or obtain) a fuel-driven or battery-powered electric model aircraft or drone. Obtain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Small unmanned aircraft systems rely on multiple electric motors and onboard flight controllers for stability. Passing the FAA TRUST safety exam prepares operators for safe airspace integration.
 - **Common Myth:** Recreational drone operators are exempt from federal airspace rules and safety regulations.
@@ -253,7 +253,7 @@
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Clear the propeller arc and shout CLEAR PROP before engaging any aircraft starter switch.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Aviation Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 3a (Using a flight simulator software package, set a course and fly the headings you have), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 3a (Using a flight simulator software package, set a course and fly the headings you have), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Simulators allow pilots to practice instrument scans, compass headings, and traffic patterns in a controlled environment. Pilots fly established magnetic headings from takeoff through cruise and approach to a stabilized landing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -276,7 +276,7 @@
 **[Parent Directive]:** *Flight Operations. Do TWO of the following*
 **Official Requirement 3b:** Under supervision, perform a preflight inspection of an aircraft.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 3b (Under supervision, perform a preflight inspection of an aircraft), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 3b (Under supervision, perform a preflight inspection of an aircraft), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The preflight walkaround is a systematic physical examination of the airframe, fuel system, engine, and controls before flight. Scouts verify pitot covers are removed, fuel caps are secure, and control cables are intact.
 - **Common Myth:** A quick glance at the fuel gauge inside the cockpit replaces physical tank checking.
@@ -295,7 +295,7 @@
 #### Req 3c: Aircraft Maintenance Inspections and Schedules
 **Official Requirement 3c:** Observe and/or participate in an aircraft maintenance activity. Describe the maintenance schedule and requirements for an aircraft of your choice.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 3c (Observe and/or participate in an aircraft maintenance activity. Describe the maintenance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 3c (Observe and/or participate in an aircraft maintenance activity. Describe the maintenance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Civil aircraft undergo mandatory annual inspections, 100-hour commercial checks, and progressive maintenance to remain airworthy. Certified mechanics inspect logbooks, replace worn parts, and comply with Airworthiness Directives.
 - **Common Myth:** Private aircraft maintenance occurs only when an onboard system stops functioning properly.
@@ -312,7 +312,7 @@
 **[Parent Directive]:** *Flight Operations. Do TWO of the following*
 **Official Requirement 3d:** Obtain and learn how to read an aeronautical chart. Measure a true course on the chart; correct it for magnetic variation, compass deviation, and wind drift to determine a navigational heading for an aircraft.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 3d (Obtain and learn how to read an aeronautical chart. Measure a true course on the chart;), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 3d (Obtain and learn how to read an aeronautical chart. Measure a true course on the chart;), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - VFR sectional charts depict airspace classes, navigational aids, topography, and radio communication frequencies. Navigators plot true courses and apply variation, wind drift, and deviation to determine compass headings.
 - **Common Myth:** A magnetic compass always points directly toward the geographic True North pole.
@@ -330,7 +330,7 @@
 **[Parent Directive]:** *Flight Operations. Do TWO of the following*
 **Official Requirement 3e:** With your parent or guardian's permission, take a discovery flight in an aircraft. Record the date, place, type of aircraft, and duration of flight. Report on your impressions of the flight.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 50, p. 54)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 3e Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 3e (With your parent or guardian's permission, take a discovery flight in an aircraft. Record), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 3e (With your parent or guardian's permission, take a discovery flight in an aircraft. Record), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A discovery flight introduces participants to real cockpit operations, engine startup, taxiing, and airborne maneuvers under a Certified Flight Instructor. Scouts record flight parameters in a logbook and reflect on practical flight dynamics.
 - **Common Myth:** A passenger on an introductory discovery flight is legally pilot in command.
@@ -353,7 +353,7 @@
 **Official Requirement 4a:** Visit an airport. After the visit, report on how the facilities are used, how runways are numbered, and how runways are determined to be "active."
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stay behind yellow runway hold lines until air traffic control issues explicit crossing clearance.
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 4a (Visit an airport. After the visit, report on how the facilities are used, how runways are), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 4a (Visit an airport. After the visit, report on how the facilities are used, how runways are), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Airports feature runways, taxiways, ramps, and hangars arranged for safe aircraft traffic flow. Runway numbers reflect magnetic compass orientation, and wind indicators determine which runway is currently active.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -374,7 +374,7 @@
 #### Req 4b: Air Traffic Control Facility Functions
 **Official Requirement 4b:** Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT), Terminal Radar Approach Control (TRACON), Air Route Traffic Control Center (ARTCC), or Flight Standards District Office (FSDO). Report on the operation and your impressions of the facility.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 4b (Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 4b (Visit a Federal Aviation Administration facility: Airport Traffic Control Tower (ATCT),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The air traffic system relies on tower controllers, TRACON approach radar, and en-route centers to maintain aircraft separation. Flight Service Stations provide weather briefings, flight plan filing, and inflight notices.
 - **Common Myth:** The airport control tower handles all airborne flights across the entire continental nation.
@@ -390,7 +390,7 @@
 #### Req 4c: Military Aviation Facility Defense Missions
 **Official Requirement 4c:** Visit a military aviation facility. Learn how that facility supports defense and/or civilian activities. Report on the operation and your impressions of the facility.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 4c (Visit a military aviation facility. Learn how that facility supports defense and/or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 4c (Visit a military aviation facility. Learn how that facility supports defense and/or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Military air bases maintain specialized runways, maintenance depots, and tactical squadrons to support national defense and humanitarian missions. Visiting these installations highlights joint airspace integration and specialized logistics support.
 - **Common Myth:** Military airfields operate without any coordination with civilian air traffic control authorities.
@@ -407,7 +407,7 @@
 #### Req 4d: Aviation Museum and Airshow Observation
 **Official Requirement 4d:** Visit an aviation museum or attend an air show. Report on your impressions of the museum or show, and what you learned from the experience.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 73, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 4d (Visit an aviation museum or attend an air show. Report on your impressions of the museum or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 4d (Visit an aviation museum or attend an air show. Report on your impressions of the museum or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aviation museums preserve historical aircraft and experimental airframes to educate the public on aeronautical engineering. Airshows highlight aerobatic precision, aircraft performance envelopes, and flight line safety protocols.
 - **Common Myth:** Vintage fabric aircraft in museums operated on modern digital avionics and autopilot computers.
@@ -429,7 +429,7 @@
 **Official Requirement 5a:** Explain the following: the student pilot, the recreational pilot, the remote pilot, and the private pilot certificates.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** A non-instrument rated pilot must never intentionally enter clouds or areas of reduced visibility.
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 5a (Explain the following: the student pilot, the recreational pilot, the remote pilot, and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 5a (Explain the following: the student pilot, the recreational pilot, the remote pilot, and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The FAA issues student, recreational, private, and remote pilot certificates with distinct privileges and training minimums. Each certificate level builds foundational aeronautical knowledge, flight safety discipline, and legal operational limits.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -452,7 +452,7 @@
 **[Parent Directive]:** *Personal & Professional Aviation Opportunities. Do the following*
 **Official Requirement 5b:** Describe the benefits of the instrument rating.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 5b (Describe the benefits of the instrument rating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 5b (Describe the benefits of the instrument rating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An instrument rating qualifies pilots to navigate and land in low visibility and clouds using instrument flight rules. This certification prevents spatial disorientation and dramatically improves operational utility and flight safety.
 - **Common Myth:** Basic private pilots can legally fly through thin clouds if they maintain wings level.
@@ -469,7 +469,7 @@
 #### Req 5c: Advanced Commercial and Professional Certifications
 **Official Requirement 5c:** Explain the following: the commercial pilot certificate, the airline transport pilot certificate, and certified flight instructor (CFI)
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 5c (Explain the following: the commercial pilot certificate, the airline transport pilot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 5c (Explain the following: the commercial pilot certificate, the airline transport pilot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial and Airline Transport Pilot certificates qualify aviators for revenue operations, cargo hauling, and airline service. Certified Flight Instructors provide primary flight training to train future generations of pilots.
 - **Common Myth:** A commercial pilot license allows someone to captain a Boeing 777 passenger airliner immediately.
@@ -486,7 +486,7 @@
 #### Req 5d: Youth Aviation Organizations and Programs
 **Official Requirement 5d:** Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn about their activities and membership requirements.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 5d (Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 5d (Identify an Aviation Exploring Post and/or Civil Air Patrol facility in your area. Learn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Civil Air Patrol squadrons and Aviation Exploring Posts offer youth orientation flights, aerospace education, and leadership training. Participating in these programs provides hands-on flight experience, airport tours, and mentorship.
 - **Common Myth:** Civil Air Patrol cadet programs are reserved strictly for active-duty military enlistees.
@@ -502,7 +502,7 @@
 #### Req 5e: Aeronautical Career Pathways and Requirements
 **Official Requirement 5e:** Identify three career opportunities that would use skills and knowledge in aviation. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Aviation Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5e Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For aviation Requirement 5e (Identify three career opportunities that would use skills and knowledge in aviation. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Aviation Requirement 5e (Identify three career opportunities that would use skills and knowledge in aviation. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aviation career paths extend beyond piloting to aircraft maintenance technicians, air traffic controllers, and aerospace design engineers. Each field requires rigorous training, specialized certifications, and continuous adherence to strict safety standards.
 - **Common Myth:** Aircraft maintenance technicians do not need federal licensing if they work under engineers.

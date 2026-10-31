@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Archaeology.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/archaeology/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -123,7 +123,7 @@
 **[Parent Directive]:** *Learn about a combined total of five archaeological sites located both within and outside the United States*
 **Official Requirement 4a:** For EACH site you research, point it out on a map and explain how it became known to archaeologists. Describe some of the information about the past that has been found at each site. Explain how the information gained from the study of these sites answers questions that archaeologists are asking and how the information may be important to modern people. Compare the relative ages of the sites you research.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 4a (For EACH site you research, point it out on a map and explain how it became known to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 4a (For EACH site you research, point it out on a map and explain how it became known to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Locating sites on maps links cultural developments to geographical features such as rivers, mountain passes, and fertile valleys. Examining discovery accounts reveals whether sites were found through planned survey, aerial photography, or accidental excavation during infrastructure projects.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -146,7 +146,7 @@
 #### Req 4b: Public Archaeological Presentation Delivery
 **Official Requirement 4b:** Choose ONE of the sites you picked and give a short presentation about your findings to a Cub Scout pack, your Scout troop, your school class, or another group.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 4b (Choose ONE of the sites you picked and give a short presentation about your findings to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 4b (Choose ONE of the sites you picked and give a short presentation about your findings to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Communicating archaeological research to the public bridges technical excavation reports and community education. Translating artifact assemblages into engaging stories builds public stewardship and support for cultural resource protection.
 - **Common Myth:** An archaeological presentation should only consist of a dry list of unprovenienced artifact photos.
@@ -168,7 +168,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5a:** Learn about the federal laws and international conventions that protect archaeological sites. Find out if your state, county, or local government has regulations that apply to archaeological or historic sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 5a (Learn about the federal laws and international conventions that protect archaeological), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 5a (Learn about the federal laws and international conventions that protect archaeological), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Federal laws establish criminal penalties and permit mandates for disturbing heritage resources on federal and tribal land. State and local municipal regulations provide additional layers of oversight, mandating archaeological impact assessments before municipal infrastructure projects.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -189,7 +189,7 @@
 #### Req 5b: Heritage Conservation Advocacy Groups
 **Official Requirement 5b:** Identify a national, international, or local organization that helps to protect archaeological sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 26, p. 68)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 5b (Identify a national, international, or local organization that helps to protect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 5b (Identify a national, international, or local organization that helps to protect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - National and grassroots organizations work collaboratively to purchase vulnerable archaeological parcels and educate local communities. Groups like the Archaeological Institute of America and local historic preservation trusts lobby for stricter enforcement and fund ongoing site preservation.
 - **Common Myth:** Government agencies are the sole entities responsible for rescuing and protecting endangered cultural sites.
@@ -210,7 +210,7 @@
 #### Req 6a: Site Conservation and Fragility Rationale
 **Official Requirement 6a:** Explain why it is important to protect archaeological sites.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 6a (Explain why it is important to protect archaeological sites), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 6a (Explain why it is important to protect archaeological sites), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Each intact archaeological site contains a unique record of ancient human choices, technologies, and environmental adaptations. When a site is looted or bulldozed, that chapter of human heritage is lost forever because cultural deposits do not regenerate.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -232,7 +232,7 @@
 #### Req 6b: Artifact Discovery Field Protocols
 **Official Requirement 6b:** Explain what people should do if they think they have found an artifact.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 6b (Explain what people should do if they think they have found an artifact), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 6b (Explain what people should do if they think they have found an artifact), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proper discovery protocol requires leaving items in situ without disturbing soil or adjacent objects. Taking scaled photographs and logging GPS coordinates enables professional researchers to evaluate the find without losing critical spatial relationships.
 - **Common Myth:** Washing an artifact with clean tap water and soap helps archaeologists inspect its fine details.
@@ -249,7 +249,7 @@
 #### Req 6c: Personal Cultural Heritage Guardianship
 **Official Requirement 6c:** Describe the ways in which you can be a protector of the past.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 14, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 6c (Describe the ways in which you can be a protector of the past), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 6c (Describe the ways in which you can be a protector of the past), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Individuals become effective heritage guardians by practicing Leave No Trace principles on historic trails and visiting educational exhibits. Joining site steward monitoring programs empowers volunteers to alert authorities to natural degradation and illicit looting.
 - **Common Myth:** Only individuals with professional graduate degrees in archaeology can take action to protect cultural sites.
@@ -270,7 +270,7 @@
 #### Req 7a: Museum Artifact Narrative Analysis
 **Official Requirement 7a:** Visit a museum to observe how artifacts aid in conveying history.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 7a (Visit a museum to observe how artifacts aid in conveying history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 7a (Visit a museum to observe how artifacts aid in conveying history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Museums exhibit archaeological artifacts alongside explanatory text, diagrams, and chronological reconstructions to bring ancient cultures to life. Observing how displays group related tools helps visitors understand daily routines, artistic styles, and spiritual beliefs of past societies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -293,7 +293,7 @@
 **[Parent Directive]:** *Do ONE of the following and discuss your findings with your counselor*
 **Official Requirement 7b:** Present to your counselor a significant family artifact/heirloom and discuss its history.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 7b (Present to your counselor a significant family artifact/heirloom and discuss its history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 7b (Present to your counselor a significant family artifact/heirloom and discuss its history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Family heirlooms function like historical artifacts, providing tangible connections to ancestral traditions, occupations, and migrations. Documenting an heirloom's physical condition, manufacturing marks, and oral history demonstrates how physical objects preserve personal history across generations.
 - **Common Myth:** An heirloom holds historical significance only if it was manufactured from precious metals or gemstones.
@@ -310,7 +310,7 @@
 #### Req 7c: Contemporary Household Garbology Audit
 **Official Requirement 7c:** Make a list of the trash your family throws out during one week. Discuss with your counselor what archaeologists might learn about you and your family if they found your trash a thousand years from now.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 7c (Make a list of the trash your family throws out during one week. Discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 7c (Make a list of the trash your family throws out during one week. Discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern garbology applies archaeological refuse analysis to contemporary domestic trash to uncover consumption and waste patterns. Classifying packaging, discarded foodstuffs, and durable waste demonstrates how material remnants reliably reflect real household behavior.
 - **Common Myth:** People generate trash that perfectly matches what they claim they buy and consume on written surveys.
@@ -390,7 +390,7 @@
 **Official Requirement 10a:** With your parent or guardian's and counselor's permission, assist a qualified archaeologist for at least eight hours with a project being worked on. Projects may include surveying, site monitoring, site stabilization, surface excavation, laboratory analysis, use of digital archaeological technology, or public outreach. Describe your involvement in the project, what you learned about archaeology, and the steps of archaeological inquiry. Note: Visiting an archaeological site will require advance planning. An archaeological site during study can be a dangerous place. While there, you will need to closely follow the archaeologist's directions and comply with all the safety procedures. Be aware of the changing conditions at the site.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Archaeology Req 10 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 10a (With your parent or guardian's and counselor's permission, assist a qualified archaeologist), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 10a (With your parent or guardian's and counselor's permission, assist a qualified archaeologist), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteering eight hours alongside a qualified professional archaeologist provides authentic experience in surveying, site stabilization, or laboratory cataloging. Participants experience firsthand the meticulous documentation and physical rigor required to protect cultural resources.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -415,7 +415,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 10b:** With your counselor's approval, take part in a simulated archaeological project designed by a qualified archaeologist. The project must include the use of a simulated archaeological site including artifacts and features for the site. Using the steps of archaeological inquiry, analyze the artifacts and features and document the spatial relationships of the artifacts and features at the simulated site. Explain how the environment and time can affect the interpretation of an artifact and the overall archaeological site. Tell how you would share the results of your analysis with other researchers and the public. Note: To find out how to make a simulated archaeological site, talk with a professional archaeologist, trained avocational archaeologist, museum school instructor, science teacher, advisor from a local archaeology society, or other qualified instructor.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 71, p. 74)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 10b (With your counselor's approval, take part in a simulated archaeological project designed by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 10b (With your counselor's approval, take part in a simulated archaeological project designed by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A simulated excavation reproduces the controlled stratigraphic environment of a real site without endangering actual irreplaceable cultural deposits. Using artificial sediment layers and replica artifacts, Scouts practice precise spatial plotting and scientific field recording.
 - **Common Myth:** A simulated sandbox dig is just a game that teaches nothing about scientific methods.
@@ -439,7 +439,7 @@
 **[Parent Directive]:** *Under the supervision of a qualified archaeologist or instructor, do ONE of the following*
 **Official Requirement 11a:** Help prepare an archaeological exhibit for display in a museum, visitor center, school, or other public area.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 11a (Help prepare an archaeological exhibit for display in a museum, visitor center, school, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 11a (Help prepare an archaeological exhibit for display in a museum, visitor center, school, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designing an archaeological exhibit requires organizing artifacts into a coherent narrative that explains past lifestyles to the public. Using conservation-grade mounting materials, clear descriptive signage, and context illustrations protects artifacts while informing visitors.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -462,7 +462,7 @@
 **[Parent Directive]:** *Under the supervision of a qualified archaeologist or instructor, do ONE of the following*
 **Official Requirement 11b:** Use the methods of experimental archaeology to re-create an item or to practice a skill from the past. Write a brief report explaining the experiment and its results.
 **Source:** *Official Scouting America Archaeology Merit Badge Pamphlet (p. 28, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archaeology Requirement 11b (Use the methods of experimental archaeology to re-create an item or to practice a skill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archaeology Requirement 11b (Use the methods of experimental archaeology to re-create an item or to practice a skill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Experimental archaeology involves reconstructing prehistoric tools, pottery, or textiles using only materials and tools available during that era. Documenting the manufacturing steps, time required, and tool performance tests archaeological theories about past technology and labor investment.
 - **Common Myth:** Using modern steel chisels or electric power tools is acceptable when testing prehistoric manufacturing methods.

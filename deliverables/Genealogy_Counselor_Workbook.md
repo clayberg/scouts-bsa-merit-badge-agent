@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Genealogy.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/genealogy/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 #### Req 1a: Core Lineage Vocabulary Definitions
 **Official Requirement 1a:** Explain to your counselor what the words genealogy, ancestor, and descendant mean.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 1a (Explain to your counselor what the words genealogy, ancestor, and descendant mean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 1a (Explain to your counselor what the words genealogy, ancestor, and descendant mean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ancestors precede an individual in direct ascending biological lines, whereas descendants follow downward. Genealogy is the disciplined process of documenting these connected human generations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Pedigree Chart Data Architecture
 **Official Requirement 1b:** Explain what a family tree is and what information would be kept there.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 1b (Explain what a family tree is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 1b (Explain what a family tree is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A family tree or pedigree chart maps direct biological lineage backward through time. It records standardized dates and places for birth, marriage, and death for each individual.
 - **Common Myth:** Amateur researchers assume family trees should display all siblings, cousins, aunts, and uncles.
@@ -80,7 +80,7 @@
 #### Req 1c: Family Group Record Organization
 **Official Requirement 1c:** Explain what a family group record is and what information would be kept there.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 27, p. 44)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 1c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 1c (Explain what a family group record is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 1c (Explain what a family group record is and what information would be kept there), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Family group records compile vital data for one couple and all their shared children. They link individual life events to source citations within an immediate household context.
 - **Common Myth:** Novices believe one family group sheet contains an entire multi-generational surname history.
@@ -101,7 +101,7 @@
 #### Req 2a: Chronological Life Milestone Synthesis
 **Official Requirement 2a:** Create a timeline for yourself or for a relative. Then write a short biography based on that timeline.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 2a (Create a timeline for yourself or for a relative. Then write a short biography based on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 2a (Create a timeline for yourself or for a relative. Then write a short biography based on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a timeline organizes verified life events in chronological sequence to expose research gaps. Writing a biography from that timeline transforms isolated data points into coherent biographical history.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -122,7 +122,7 @@
 #### Req 2b: Six-Week Journal Documentation
 **Official Requirement 2b:** Keep a journal for six weeks. You must write in it at least once a week.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 11, p. 12)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 2b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 2b (Keep a journal for six weeks. You must write in it at least once a week), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 2b (Keep a journal for six weeks. You must write in it at least once a week), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintaining a journal for six weeks builds regular record-keeping habits and produces primary source evidence. Weekly entries should detail personal milestones, local observations, and family interactions.
 - **Common Myth:** Students believe daily mundane activities are too unimportant to record in a genealogical journal.
@@ -171,7 +171,7 @@
 #### Req 4a: Physical Historical Resource Identification
 **Official Requirement 4a:** Name three types of physical genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 4a (Name three types of physical genealogical resources and where you can find them, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 4a (Name three types of physical genealogical resources and where you can find them, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical resources include original courthouse ledgers, library manuscripts, and engraved cemetery headstones. These tangible artifacts provide verifiable local provenance and prevent digital transcription errors.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -193,7 +193,7 @@
 #### Req 4b: Digital Database Resource Applications
 **Official Requirement 4b:** Name three types of digital genealogical resources and where you can find them, and explain how these resources can help you chart your family tree.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 4b (Name three types of digital genealogical resources and where you can find them, and explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 4b (Name three types of digital genealogical resources and where you can find them, and explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Digital resources encompass searchable census indices, digitized probate images, and remote historical newspaper archives. These tools enable rapid searching across worldwide geographic repositories from a personal computer.
 - **Common Myth:** Scouts believe digital searches always return complete, error-free transcripts of historical documents.
@@ -211,7 +211,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4c:** Obtain at least one genealogical document that supports an event that is or can be recorded on your pedigree chart or family group record.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 4c (Obtain at least one genealogical document that supports an event that is or can be recorded), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 4c (Obtain at least one genealogical document that supports an event that is or can be recorded), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Acquiring an authentic civil birth certificate, census schedule, or military muster roll validates chart entries. The document must substantiate at least one specific date, location, or relationship on record.
 - **Common Myth:** Novices think any printed certificate from a web page proves ancestral relationships conclusively.
@@ -228,7 +228,7 @@
 #### Req 4d: Source Provenance and Reliability Analysis
 **Official Requirement 4d:** Tell how you found it and how you would evaluate the genealogical information you found for requirement 4(c).
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 4d (Tell how you found it and how you would evaluate the genealogical information you found for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 4d (Tell how you found it and how you would evaluate the genealogical information you found for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating genealogical evidence requires assessing the informant's credibility and the document's physical condition. Researchers determine whether the source was created contemporaneously with the recorded life event.
 - **Common Myth:** People assume that government documents never contain factual errors regarding ages or birthplaces.
@@ -245,7 +245,7 @@
 #### Req 4e: Vital Record Repository Mapping
 **Official Requirement 4e:** Tell a likely place to find these type of genealogical records: marriage record, census record, birth record, and burial information.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 25)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 4e (Tell a likely place to find these type of genealogical records: marriage record, census), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 4e (Tell a likely place to find these type of genealogical records: marriage record, census), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Genealogical record types reside within specific civic, religious, and commercial institutions. Marriages and births occur in county clerk offices, censuses in national archives, and burials in cemetery registries.
 - **Common Myth:** Scouts expect to find local burial registers filed inside state vital statistics bureaus.
@@ -267,7 +267,7 @@
 **[Parent Directive]:** *Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides*
 **Official Requirement 5a:** A genealogical or lineage society.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 5a (A genealogical or lineage society), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 5a (A genealogical or lineage society), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lineage societies require documented proof of descent from specific historical cohorts like revolutionary soldiers or pioneers. They maintain valuable compiled application files containing verified generational proofs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -290,7 +290,7 @@
 **[Parent Directive]:** *Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides*
 **Official Requirement 5b:** A professional genealogist (someone who gets paid for doing genealogical research)
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 5b (A professional genealogist (someone who gets paid for doing genealogical research)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 5b (A professional genealogist (someone who gets paid for doing genealogical research)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional genealogists conduct client-directed research, paleographic transcriptions, and forensic lineage evaluations for compensation. They adhere to formal genealogical proof standards and maintain specialized regional knowledge.
 - **Common Myth:** People think professional genealogists simply search online subscription databases that anyone can access.
@@ -308,7 +308,7 @@
 **[Parent Directive]:** *Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides*
 **Official Requirement 5c:** A surname organization, such as your family's organization.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 5c (A surname organization, such as your family's organization), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 5c (A surname organization, such as your family's organization), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Surname organizations unite researchers investigating a single shared family name across multiple branches. They publish newsletters, aggregate global family records, and coordinate DNA surname studies.
 - **Common Myth:** Scouts believe all individuals sharing an identical surname descend from one common biological ancestor.
@@ -326,7 +326,7 @@
 **[Parent Directive]:** *Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides*
 **Official Requirement 5d:** A genealogical educational facility or institution.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 5d (A genealogical educational facility or institution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 5d (A genealogical educational facility or institution), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Genealogical educational facilities provide university lectures, methodological institutes, and instructional workshops. These institutions train researchers in methodology, record analysis, and genealogical standards.
 - **Common Myth:** Beginners think genealogical education focuses only on software tutorials rather than historical analysis.
@@ -344,7 +344,7 @@
 **[Parent Directive]:** *Contact ONE of the following individuals or institutions. Ask what genealogical services, records, or activities this individual or institution provides*
 **Official Requirement 5e:** A genealogical record repository of any type (courthouse, genealogical library, state or national archive, state library, etc.)
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 19, p. 29)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 5e Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 5e (A genealogical record repository of any type (courthouse, genealogical library, state or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 5e (A genealogical record repository of any type (courthouse, genealogical library, state or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Record repositories such as county courthouses and state archives house original permanent public records. They preserve vital civil documents, land titles, court proceedings, and probate packets.
 - **Common Myth:** Researchers assume local courthouses discard records that are older than one hundred years.
@@ -418,7 +418,7 @@
 #### Req 8a: Computer and Internet Paradigm Shift
 **Official Requirement 8a:** Explain the effect computers and the internet are having on the world of genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 8a (Explain the effect computers and the internet are having on the world of genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 8a (Explain the effect computers and the internet are having on the world of genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The internet and computing allow instant access to billions of digitized records and collaborative research platforms. They eliminate geographic isolation and enable worldwide cross-referencing of lineage data.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -440,7 +440,7 @@
 #### Req 8b: Photography and Microfilm Preservation
 **Official Requirement 8b:** Explain how photography (including microfilming) has influenced genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 8b (Explain how photography (including microfilming) has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 8b (Explain how photography (including microfilming) has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Photographic microfilming safeguarded millions of crumbling paper records from fire, decay, and damp conditions. It allowed researchers worldwide to view exact photographic facsimiles of unique original manuscripts.
 - **Common Myth:** Beginners assume microfilm is an obsolete, useless technology that genealogists no longer utilize.
@@ -457,7 +457,7 @@
 #### Req 8c: Crowdsourced Record Indexing Mechanics
 **Official Requirement 8c:** Explain how record indexing works and how that has influenced genealogy.
 **Source:** *Official Scouting America Genealogy Merit Badge Pamphlet (p. 20, p. 31)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For genealogy Requirement 8c (Explain how record indexing works and how that has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Genealogy Requirement 8c (Explain how record indexing works and how that has influenced genealogy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Record indexing converts handwritten names, dates, and places into electronic search databases through systematic data entry. This process transforms unsearchable scanned manuscript images into instantly discoverable genealogical records.
 - **Common Myth:** Scouts think computer software easily transcribes historical nineteenth-century cursive without human assistance.
@@ -497,3 +497,4 @@
 | **3. Heirloom Appreciation** | Heirloom Appreciation: Studying family history transforms old photographs, heirlooms, and letters into meaningful biographical artifacts. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 9):** Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Genealogy Requirement 9 (sharing family research discoveries) before signing the blue card.
+))

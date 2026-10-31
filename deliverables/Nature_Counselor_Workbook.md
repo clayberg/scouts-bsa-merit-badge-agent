@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Nature.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/nature/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -160,7 +160,7 @@
 **[Parent Directive]:** *Do ALL the requirements in FIVE of the following fields*
 **Official Requirement 4b:** Mammals. Do ALL of the following: (1) In the field, identify three species of wild mammals. (2) Make plaster casts of the tracks of a wild mammal.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 4b (Mammals. Do ALL of the following: (1) In the field, identify three species of wild mammals.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 4b (Mammals. Do ALL of the following: (1) In the field, identify three species of wild mammals.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Locate and identify three wild mammal species through direct observation or diagnostic scat and bedding sign. Mix plaster of Paris to create permanent casts of wild animal track impressions in mud.
 - **Common Myth:** Mammal tracks can be accurately identified in loose dry sand without measuring stride and straddle.
@@ -272,7 +272,7 @@
 **[Parent Directive]:** *Do ALL the requirements in FIVE of the following fields*
 **Official Requirement 4e:** Fish. Do ALL of the following: (1) Identify two species of fish native to your area. (2) Collect four kinds of animal food eaten by fish in the wild.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 4e (Fish. Do ALL of the following: (1) Identify two species of fish native to your area. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 4e (Fish. Do ALL of the following: (1) Identify two species of fish native to your area. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identify two indigenous fish species by fin morphology, body shape, and lateral line markings. Collect four natural aquatic organisms eaten by wild fish, including stonefly nymphs, hellgrammites, or minnows.
 - **Common Myth:** Native predatory game fish rely exclusively on commercial pellet feed or terrestrial earthworms in wild streams.
@@ -289,7 +289,7 @@
 **[Parent Directive]:** *Do ALL the requirements in FIVE of the following fields*
 **Official Requirement 4f:** Mollusks and Crustaceans. Do ALL of the following: (1) Identify five species of mollusks and crustaceans. (2) Collect, mount, and label six shells.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 17, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 4f (Mollusks and Crustaceans. Do ALL of the following: (1) Identify five species of mollusks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 4f (Mollusks and Crustaceans. Do ALL of the following: (1) Identify five species of mollusks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identify five native mollusk and crustacean species found in marine, estuarine, or freshwater ecosystems. Collect, clean, mount, and systematically label six non-living molluscan shell specimens with taxonomic data.
 - **Common Myth:** Crab exoskeletons and mollusk shells are constructed from identical biochemical compounds and organic processes.
@@ -412,7 +412,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6a:** Explain what succession is to your counselor.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 6a (Explain what succession is to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 6a (Explain what succession is to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ecological succession represents the chronological transition of species composition in an ecosystem following environmental disruption. Pioneer autotrophs stabilize harsh microclimates, facilitating colonization by successive communities until an equilibrium climax stage develops.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -434,7 +434,7 @@
 #### Req 6b: Field Habitat Seral Assessment
 **Official Requirement 6b:** Visit a natural area (forest, grassland, meadow, water feature) and explain what stage of succession (both plant and animal) the area is in. Talk about what community/succession stages may have been there before and what community/succession stages may replace what you see now. Discuss what disturbances or changes have taken place in the past to create this landscape and what changes may occur in the future to change the landscape further.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 6b (Visit a natural area (forest, grassland, meadow, water feature) and explain what stage of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 6b (Visit a natural area (forest, grassland, meadow, water feature) and explain what stage of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conduct an on-site field assessment of a chosen natural habitat to categorize its present successional seral stage. Identify resident flora and fauna indicators to predict what subsequent ecological community will replace the current species.
 - **Common Myth:** A mature climax forest will revert to barren sand overnight without a catastrophic geological disruption.
@@ -454,7 +454,7 @@
 #### Req 7a: Professional Natural Resource Careers
 **Official Requirement 7a:** Identify three career opportunities that would use skills and knowledge in Nature. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 7a (Identify three career opportunities that would use skills and knowledge in Nature. Pick one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 7a (Identify three career opportunities that would use skills and knowledge in Nature. Pick one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigate three distinct natural resource professions such as wildlife biology, park interpretation, or environmental science. Detail the academic coursework, field internships, technical certifications, and initial economic expenditures needed to enter the chosen career.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -477,7 +477,7 @@
 #### Req 7b: Amateur Natural History Pursuits
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Nature Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For nature Requirement 7b (Identify how you might use the skills and knowledge in Nature to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Nature Requirement 7b (Identify how you might use the skills and knowledge in Nature to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science.
 - **Common Myth:** Natural history hobbies are solitary passive pastimes that produce no tangible benefits for scientific research communities.
@@ -490,3 +490,4 @@
 | **3. Discuss what you learned with your counselor and share what short-term and long-term goals** | Investigate a personal naturalist pursuit such as wildlife photography, bird monitoring, or native plant propagation. Determine equipment investments, club memberships, and specialized field workshops necessary to participate meaningfully in citizen science. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7b):** Scout must individually identify Requirement 7b (Identify how you might use the skills and knowledge in Nature to pursue a personal hobby. Research the additio) to the Counselor.
+))

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/sewing-and-needlework/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -66,7 +66,7 @@
 #### Req 2a: Emergency Field Sewing Kit
 **Official Requirement 2a:** Assemble a basic sewing and repair kit and explain the purpose of each item.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2a (Assemble a basic sewing and repair kit and explain the purpose of each item), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2a (Assemble a basic sewing and repair kit and explain the purpose of each item), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A compact sewing kit contains needles, thread, small shears, safety pins, and spare buttons for field repairs. Storing these tools in a water resistant container keeps needles rust free during outdoor treks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -89,7 +89,7 @@
 **[Parent Directive]:** *Hand Sewing. Do the following*
 **Official Requirement 2b:** Thread a needle and tie a quilter's or tailor's knot in a piece of fabric.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2b (Thread a needle and tie a quilter's or tailor's knot in a piece of fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2b (Thread a needle and tie a quilter's or tailor's knot in a piece of fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Threading needles smoothly requires a clean diagonal thread cut and steady finger placement. A quilter knot forms a secure ball that cannot pull through fabric weaves.
 - **Common Myth:** Licking frayed thread ends creates the best tip for threading small needle eyes.
@@ -106,7 +106,7 @@
 #### Req 2c: Core Hand Stitch Demonstrations
 **Official Requirement 2c:** Demonstrate the following sewing techniques, including when and why each is used.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2c (Demonstrate the following sewing techniques, including when and why each is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2c (Demonstrate the following sewing techniques, including when and why each is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Running stitches baste temporary layers, while backstitches create permanent structural seams. Overcast stitches prevent cut fabric edges from unraveling under repeated washings.
 - **Common Myth:** Every hand sewing project relies on the standard running stitch for structural seams.
@@ -125,7 +125,7 @@
 **[Parent Directive]:** *Hand Sewing. Do the following*
 **Official Requirement 2d:** Sew a patch on your uniform or other fabric.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2d (Sew a patch on your uniform or other fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2d (Sew a patch on your uniform or other fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pinning patches flat prevents fabric bunching during the application of edge stitches. A blind stitch or whipstitch around the border secures the emblem cleanly.
 - **Common Myth:** Iron on adhesive backing secures uniform patches permanently without any needle stitching needed.
@@ -143,7 +143,7 @@
 **[Parent Directive]:** *Hand Sewing. Do the following*
 **Official Requirement 2e:** Sew a button onto an item.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2e (Sew a button onto an item), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2e (Sew a button onto an item), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sewing flat buttons over a toothpick creates necessary shank clearance for thick fabrics. Wrapping thread firmly around the raised thread stem reinforces the button against strain.
 - **Common Myth:** Pulling button stitches tightly against the fabric surface ensures the strongest long term bond.
@@ -161,7 +161,7 @@
 **[Parent Directive]:** *Hand Sewing. Do the following*
 **Official Requirement 2f:** Upcycle by practicing visible mending to patch a piece of clothing or material.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 2f (Upcycle by practicing visible mending to patch a piece of clothing or material), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 2f (Upcycle by practicing visible mending to patch a piece of clothing or material), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sashiko geometric stitching reinforces worn fabric while highlighting the mended area with decorative thread. Upcycling extends garment lifespans by turning structural damage into artistic textile embellishment.
 - **Common Myth:** Visible mending hides tears completely by blending camouflage thread colors into damaged cloth.
@@ -750,7 +750,7 @@
 #### Req 6a: Commercial Textile Career Investigation
 **Official Requirement 6a:** Identify three career opportunities that would use skills and knowledge in sewing and/or needlework. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 6a (Identify three career opportunities that would use skills and knowledge in sewing and/or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 6a (Identify three career opportunities that would use skills and knowledge in sewing and/or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial garment industries employ fashion designers, technical pattern makers, and industrial machine operators. Obtaining trade certifications or college fashion design degrees prepares candidates for competitive manufacturing careers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -773,7 +773,7 @@
 #### Req 6b: Personal Fiber Arts Avocation
 **Official Requirement 6b:** Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Sewing and Needlework Test Lab Resource Guide, pp. 34-39* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sewing and needlework Requirement 6b (Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sewing and Needlework Requirement 6b (Identify how you might use the skills and knowledge in sewing and/or needlework to pursue a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing needlework as a lifelong hobby provides creative relaxation and practical independence in repairing personal gear. Joining regional quilting guilds or craft associations connects makers with shared resources and skill workshops.
 - **Common Myth:** Fiber arts hobbies require expensive studio setups before a beginner can produce functional projects.

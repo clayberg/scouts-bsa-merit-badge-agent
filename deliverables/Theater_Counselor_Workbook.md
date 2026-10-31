@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Theater.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/theater/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -93,7 +93,7 @@
 **Official Requirement 3a:** Act a major part in a full-length play; or act a part in three one-act plays.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never stand beneath moving battens, and always secure tools with lanyards when working aloft.
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3a (Act a major part in a full-length play; or act a part in three one-act plays), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3a (Act a major part in a full-length play; or act a part in three one-act plays), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Actor preparation demands character research, physical blocking retention, and consistent vocal resonance. Performers sustain audience belief by pursuing psychological objectives through truthful physical actions on stage.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -115,7 +115,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3b:** Direct a play. Cast, rehearse, and stage it. The play must be at least 10 minutes long.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3b (Direct a play. Cast, rehearse, and stage it. The play must be at least 10 minutes long), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3b (Direct a play. Cast, rehearse, and stage it. The play must be at least 10 minutes long), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Directorial leadership establishes the conceptual vision, rehearsal schedule, and collaborative tone for a production. The director guides actors toward organic blocking while orchestrating technical elements into a cohesive performance.
 - **Common Myth:** A theater director simply tells actors where to stand without shaping theme or rhythm.
@@ -134,7 +134,7 @@
 #### Req 3c: Scenic Design and Scale Modeling
 **Official Requirement 3c:** Design the set for a play or a theatrical production. Make a model of it.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3c (Design the set for a play or a theatrical production. Make a model of it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3c (Design the set for a play or a theatrical production. Make a model of it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scenic design transforms physical stage space into the dramatic environment dictated by the playwright. Building a scaled three-dimensional model communicates sightlines, playing levels, and functional entrance pathways to directors and builders.
 - **Common Myth:** A set design model is decorative rather than a precise engineering and spatial tool.
@@ -150,7 +150,7 @@
 #### Req 3d: Historical Costume Design and Palette
 **Official Requirement 3d:** Design the costumes for five characters in a theatrical production set in a historical time.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3d (Design the costumes for five characters in a theatrical production set in a historical time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3d (Design the costumes for five characters in a theatrical production set in a historical time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Costume designers research historical silhouettes, textiles, and social hierarchies to define five individual characters. Sketches with fabric swatches establish visual harmony while supporting actor mobility and quick-change mechanics.
 - **Common Myth:** Costume design involves pulling random historical garments from storage without color or character palette.
@@ -167,7 +167,7 @@
 #### Req 3e: Theatrical Makeup and Character Transformation
 **Official Requirement 3e:** Show skill in hair and makeup design. Make up yourself or a friend as a historical figure, a clown, an extraterrestrial, or a monster as directed.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3e (Show skill in hair and makeup design. Make up yourself or a friend as a historical figure,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3e (Show skill in hair and makeup design. Make up yourself or a friend as a historical figure,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Theatrical makeup alters facial anatomy through the controlled placement of highlight, shadow, and prosthetic elements. Proper technique ensures facial expressions remain legible under high-intensity lighting from the back row of seats.
 - **Common Myth:** Theatrical makeup application is identical to everyday street cosmetic application techniques.
@@ -184,7 +184,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3f:** With your counselor's approval, help with the building and painting of the scenery for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3f (With your counselor's approval, help with the building and painting of the scenery for a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3f (With your counselor's approval, help with the building and painting of the scenery for a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shop scenery fabrication builds durable flats, sturdy platforms, and textured scenic surfaces using standard carpentry methods. Scenic artists apply base coats, texture washes, and dry-brushing to create realistic illusions of wood, stone, or metal.
 - **Common Myth:** Flats and platforms can be assembled with light hobby glue instead of structural fasteners.
@@ -202,7 +202,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3g:** With your counselor's approval, design the lighting for a play; or help install, focus, color, program, and operate the lighting for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3g (With your counselor's approval, design the lighting for a play; or help install, focus,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3g (With your counselor's approval, design the lighting for a play; or help install, focus,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lighting design sculpts performers and scenic geometry using controlled angle, color temperature, intensity, and focus. Programmed lighting cues guide audience focus, establish time of day, and reinforce emotional dramatic rhythm.
 - **Common Myth:** Stage lighting merely illuminates the stage so the audience can see the actors clearly.
@@ -219,7 +219,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3h:** With your counselor's approval, help install, focus, equalize, program, and operate the sound for a theatrical production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3h (With your counselor's approval, help install, focus, equalize, program, and operate the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3h (With your counselor's approval, help install, focus, equalize, program, and operate the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Theatrical audio combines microphone gain management, sound effect playback, and acoustic reinforcement for the auditorium. Technicians eliminate feedback frequencies and balance live voices against musical accompaniment across each scene.
 - **Common Myth:** Live theater sound simply involves turning up speaker volume without frequency equalization.
@@ -237,7 +237,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3i:** Serve as the stage manager for a theatrical production. Document all cues and stage setups in your calling script.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3i (Serve as the stage manager for a theatrical production. Document all cues and stage setups), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3i (Serve as the stage manager for a theatrical production. Document all cues and stage setups), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stage management serves as the central communication nexus connecting directors, actors, designers, and running crews. The stage manager records blocking in a prompt script and executes light, sound, and deck cues during performances.
 - **Common Myth:** The stage manager only tracks attendance and does not oversee live technical operations.
@@ -254,7 +254,7 @@
 **[Parent Directive]:** *Discuss with your counselor the safety precautions that should be practiced when working in a theater to protect the cast*
 **Official Requirement 3j:** Serve as musical director for a musical theater production.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 14, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3j Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 3j (Serve as musical director for a musical theater production), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 3j (Serve as musical director for a musical theater production), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Musical direction bridges the score with dramatic stage action through rigorous vocal rehearsals and orchestra leadership. The musical director instructs singers in breath control, diction, and tempo while balancing pit instruments with onstage singers.
 - **Common Myth:** The musical director only plays piano accompaniments during initial vocal auditions.
@@ -276,7 +276,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4a:** You have come into a large room. It is full of pictures, furniture, and other things of interest.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4a (You have come into a large room. It is full of pictures, furniture, and other things of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4a (You have come into a large room. It is full of pictures, furniture, and other things of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Exploring an art-filled room demands precise eye focus and varied physical postures to convey curiosity and wonder. Each observed piece of furniture or painting must occupy a fixed location in the performance area.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -298,7 +298,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4b:** As you are getting on a bus, your books fall into a puddle. By the time you pick them up, the bus has driven off.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4b (As you are getting on a bus, your books fall into a puddle. By the time you pick them up,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4b (As you are getting on a bus, your books fall into a puddle. By the time you pick them up,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - This routine contrasts the sudden shock of dropped belongings with the physical urgency of catching transport. The mime clearly defines the splash of water, soggy pages, and the receding motion of the bus.
 - **Common Myth:** Rushing for a bus can be shown by running frantically without defining the dropped books.
@@ -315,7 +315,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4c:** You have failed a school test. You are talking with your teacher, who does not buy your story.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4c (You have failed a school test. You are talking with your teacher, who does not buy your story), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4c (You have failed a school test. You are talking with your teacher, who does not buy your story), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Confronting an authority figure relies on subtle fidgeting, shifting eye contact, and defensive shoulder positioning. The performer establishes the teacher's physical presence through focused eye gaze and reactive body language.
 - **Common Myth:** A silent academic confrontation works without showing the physical presence of the unseen teacher.
@@ -332,7 +332,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4d:** You are at camp with a new Scout. You try to help them pass a cooking test. The Scout learns very slowly.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4d (You are at camp with a new Scout. You try to help them pass a cooking test. The Scout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4d (You are at camp with a new Scout. You try to help them pass a cooking test. The Scout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Demonstrating cooking to a struggling novice requires clear pantomimed kitchen utensils and deliberate instructional pauses. Expressive reactions reveal the transition from optimistic encouragement to humorous exasperation as mistakes happen.
 - **Common Myth:** Teaching cooking silently only requires stirring a pot without establishing relational dynamics.
@@ -350,7 +350,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4e:** You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4e (You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4e (You are at a banquet. The meat is good. You don't like the vegetable. The dessert is ice cream), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A formal dinner pantomime uses realistic utensil handling to reveal contrasting sensory reactions across three courses. The performer conveys pleasure for meat, disgust for vegetables, and cold sensitivity for melting ice cream.
 - **Common Myth:** Eating a meal silently looks identical regardless of food taste, temperature, or texture.
@@ -369,7 +369,7 @@
 **[Parent Directive]:** *Mime or pantomime any ONE of the following, chosen by your counselor*
 **Official Requirement 4f:** You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine.
 **Source:** *Official Scouting America Theater Merit Badge Pamphlet (p. 27, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For theater Requirement 4f (You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Theater Requirement 4f (You are a circus performer such as a juggler, high-wire artist, or lion tamer doing a routine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing an imaginary circus routine requires intense physical concentration, theatrical bravado, and simulated physical risk. Performers build suspense through shaky foot placement, sudden recovery moments, and triumphant flourishes.
 - **Common Myth:** Circus skills can be faked without showing physical strain, balance, or danger.

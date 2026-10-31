@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pets.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pets/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -117,7 +117,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4a:** Show your pet in a pet show.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pets Requirement 4a (Show your pet in a pet show), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pets Requirement 4a (Show your pet in a pet show), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Entering a sanctioned or school pet show requires advance registration, grooming, and social conditioning for unusual crowds. Handlers maintain continuous control to present the animal safely before judges and public spectators.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -140,7 +140,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4b:** Train a pet in three or more tricks or special abilities.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 21, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pets Requirement 4b (Train a pet in three or more tricks or special abilities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pets Requirement 4b (Train a pet in three or more tricks or special abilities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Training three distinct tricks requires breaking actions into successive approximations rewarded through clicker training or food lures. Consistent repetition builds reliable stimulus control across diverse home environments.
 - **Common Myth:** Older animals or non-canine species like cats and rodents cannot learn conditioned behavioral cues.
@@ -164,7 +164,7 @@
 **Official Requirement 5a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Pets Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For pets Requirement 5a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pets Requirement 5a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating pet-focused professions entails researching collegiate degrees, credentialing board examinations, and long-term employment outlooks. Documenting daily duties illustrates the realities of veterinary medicine, professional grooming, or behavioral rehabilitation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -188,7 +188,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this. Resource: Animal Hobbies (video)
 **Source:** *Official Scouting America Pets Merit Badge Pamphlet (p. 20, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pets Requirement 5b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pets Requirement 5b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing pet hobbies like canine agility, therapy animal visitation, or aviculture promotes personal physical fitness and civic engagement. Scouts analyze recurring costs such as club memberships, entry fees, and travel supplies.
 - **Common Myth:** Animal hobbies like therapy work or agility require no formal training or organization affiliation.

@@ -1,8 +1,8 @@
 # Citizenship in Society Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Citizenship%20in%20Society.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/citizenship-in-society/
+**Official Pamphlet PDF:** None  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -70,7 +70,7 @@
 #### Req 2a: Ethical Decision in Leadership History
 **Official Requirement 2a:** Research and share with your counselor an individual you feel has demonstrated positive leadership while having to make an ethical decision. (It could be someone in history, a family member, a teacher, a coach, a counselor, a clergy member, a Scoutmaster, etc.)
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 2a (Research and share with your counselor an individual you feel has demonstrated positive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 2a (Research and share with your counselor an individual you feel has demonstrated positive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify a real world leader who demonstrated principled courage while navigating a difficult ethical dilemma. The analysis highlights personal motivations and underlying moral frameworks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -91,7 +91,7 @@
 #### Req 2b: Evaluation of Ethical Leadership Outcomes
 **Official Requirement 2b:** Explain what decision and/or options that leader had, why you believe they chose their final course of action, and the outcome of that action.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 2b (Explain what decision and/or options that leader had, why you believe they chose their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 2b (Explain what decision and/or options that leader had, why you believe they chose their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts evaluate the specific options available to the selected leader and trace the subsequent social impact. Examining historical trade offs reveals the long term consequences of principled action.
 - **Common Myth:** A correct ethical decision always produces an immediate outcome that pleases every participant.
@@ -113,7 +113,7 @@
 **[Parent Directive]:** *Consider ethical decision-making*
 **Official Requirement 3a:** Think about a time you faced an ethical decision. Discuss the situation, what you did, and how it made you feel. Share if you would do anything differently in the future and if so, what that would be.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 3a (Think about a time you faced an ethical decision. Discuss the situation, what you did, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 3a (Think about a time you faced an ethical decision. Discuss the situation, what you did, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine a personal experience where they faced a tough moral dilemma and assess their reaction. Honest self appraisal provides the groundwork for improved future conduct.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -135,7 +135,7 @@
 #### Req 3b: Future Moral Dilemma Scenarios
 **Official Requirement 3b:** List three examples of ethical decisions you might have to make in the future at school, at home, in the workplace, or in your community, and what you would do. Share how your actions represent alignment with the Scout Oath and Scout Law.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 3b (List three examples of ethical decisions you might have to make in the future at school, at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 3b (List three examples of ethical decisions you might have to make in the future at school, at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify three future moral challenges across school, work, home, or community environments. Developing specific response plans prepares Scouts for everyday social pressures.
 - **Common Myth:** Ethical dilemmas only occur during major legal trials or extraordinary historical emergencies.
@@ -151,7 +151,7 @@
 #### Req 3c: Upstander Intervention Strategy Development
 **Official Requirement 3c:** Explain to your counselor how you plan to use what you have learned to assist you when that time comes, and what action(s) you can take to serve as an upstander and help other people at all times.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 16-21* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 3c (Explain to your counselor how you plan to use what you have learned to assist you when that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 3c (Explain to your counselor how you plan to use what you have learned to assist you when that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explain concrete techniques for acting as an upstander when witnessing exclusion or harassment. Structured strategies ensure interventions remain safe, supportive, and effective.
 - **Common Myth:** Being an upstander requires aggressive physical confrontation against people who treat others unfairly.
@@ -173,7 +173,7 @@
 **[Parent Directive]:** *Repeat the Scout Oath and Scout Law for your counselor*
 **Official Requirement 4a:** Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper who gets spilled on gets angry and says something that is offensive to people with disabilities; their friends laugh. What could/should you do.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 4a (Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 4a (Scenario 1: While at camp, a youth accidentally spills food on another camper. The camper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts analyze a situation where a youth uses offensive language toward people with disabilities after an accident. The discussion covers de escalation and immediate defense of human dignity.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -197,7 +197,7 @@
 **[Parent Directive]:** *Repeat the Scout Oath and Scout Law for your counselor*
 **Official Requirement 4b:** Scenario 2: Your friend confides in you that some students in school are making insulting comments about one of their identities, and that those same students created a fake social media account to impersonate your friend online and post messages. What could/should you do.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 4b (Scenario 2: Your friend confides in you that some students in school are making insulting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 4b (Scenario 2: Your friend confides in you that some students in school are making insulting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts evaluate how to support a friend targeted by malicious social media accounts and identity based insults. Safe reporting procedures and direct peer affirmation form key components of the solution.
 - **Common Myth:** Online insults and parody social accounts are harmless pranks that students should simply ignore.
@@ -216,7 +216,7 @@
 **[Parent Directive]:** *Repeat the Scout Oath and Scout Law for your counselor*
 **Official Requirement 4c:** Scenario 3: A new student in your class was born in another country (or has a parent who was born in another country). Your friends make rude comments to the student about their speech or clothes and tell the student to "go back home where you came from." What could/should you do.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 4c (Scenario 3: A new student in your class was born in another country (or has a parent who), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 4c (Scenario 3: A new student in your class was born in another country (or has a parent who), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine a scenario where classmates ridicule an immigrant student or their family background. Developing actionable welcoming habits reinforces respect for diverse cultural roots.
 - **Common Myth:** Teasing a new classmate about their accent is merely lighthearted humor without harmful intent.
@@ -237,7 +237,7 @@
 **[Parent Directive]:** *Document and discuss*
 **Official Requirement 5a:** Ideas on what you personally can do to create a welcoming environment in your Scouting unit.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 5a (Ideas on what you personally can do to create a welcoming environment in your Scouting unit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 5a (Ideas on what you personally can do to create a welcoming environment in your Scouting unit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts document practical ideas for making patrol meetings and outings accessible to every newcomer. Intentional orientation routines replace confusion with clarity and acceptance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -260,7 +260,7 @@
 **[Parent Directive]:** *Document and discuss*
 **Official Requirement 5b:** An experience you had in which you went out of your way to include another Scout(s) and what you did to make them feel included and welcomed.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 5b (An experience you had in which you went out of your way to include another Scout(s) and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 5b (An experience you had in which you went out of your way to include another Scout(s) and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts recount a specific incident where they intentionally befriended and supported an isolated fellow Scout. The reflection details how proactive outreach changed the peer experience.
 - **Common Myth:** Small individual gestures of kindness are insignificant compared to formal adult led troop programs.
@@ -280,7 +280,7 @@
 **[Parent Directive]:** *Document and discuss*
 **Official Requirement 5c:** Things you can do to help ensure all Scouts in your unit are given an opportunity to be heard and included in decision-making and planning.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 5c (Things you can do to help ensure all Scouts in your unit are given an opportunity to be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 5c (Things you can do to help ensure all Scouts in your unit are given an opportunity to be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify concrete techniques to guarantee all members contribute during patrol leaders council sessions. Giving every voice equal weight improves group cohesion and decision quality.
 - **Common Myth:** The loudest or most experienced Scouts should make all decisions to maximize efficiency during meetings.
@@ -304,7 +304,7 @@
 **Official Requirement 6a:** Share with each other what makes the different aspects of your identity meaningful/special to you.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in Society Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 6a (Share with each other what makes the different aspects of your identity meaningful/special), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 6a (Share with each other what makes the different aspects of your identity meaningful/special), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explore what elements of their own identity hold personal meaning and listen to their peer perspective. This exchange highlights the rich complexity of individual lived experiences.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -372,7 +372,7 @@
 #### Req 6c: Counselor Debrief on Peer Dialogue
 **Official Requirement 6c:** Discuss with your counselor what you learned from the discussion with the other Scout or youth.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 34-39* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 6c (Discuss with your counselor what you learned from the discussion with the other Scout or youth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 6c (Discuss with your counselor what you learned from the discussion with the other Scout or youth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts review key takeaways from their peer interview with their merit badge counselor. Synthesizing new insights strengthens personal commitments to inclusive community behavior.
 - **Common Myth:** A brief conversation with someone different cannot alter a person lifelong outlook or habits.
@@ -394,7 +394,7 @@
 **[Parent Directive]:** *Identify and interview an individual in your community, school, and/or Scouting who has had a significant positive impact in promoting*
 **Official Requirement 7a:** Discover what inspired the individual, learn about the challenges they faced, and share what you feel attributed to their success.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 7a (Discover what inspired the individual, learn about the challenges they faced, and share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 7a (Discover what inspired the individual, learn about the challenges they faced, and share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts investigate what sparked the advocate mission and analyze the significant obstacles they overcame. Recognizing the roots of resilience provides a roadmap for future civic engagement.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -416,7 +416,7 @@
 #### Req 7b: Practical Application of Community Insights
 **Official Requirement 7b:** Discuss with your counselor what you learned and how you can apply it in your life.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 40-45* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 7b (Discuss with your counselor what you learned and how you can apply it in your life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 7b (Discuss with your counselor what you learned and how you can apply it in your life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts discuss actionable lessons from the interview and plan daily applications within their peer circles. Connecting community advocacy to daily life reinforces the Scout duty to others.
 - **Common Myth:** Civil advocacy techniques only apply to professional politicians rather than ordinary student leaders.
@@ -466,7 +466,7 @@
 **[Parent Directive]:** *Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you*
 **Official Requirement 9a:** Making others feel included.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 9a (Making others feel included), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 9a (Making others feel included), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts develop proactive strategies to draw isolated individuals into classroom or extracurricular activities. Simple welcoming habits bridge social cliques and build broad community connection.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -489,7 +489,7 @@
 **[Parent Directive]:** *Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you*
 **Official Requirement 9b:** Practicing active listening.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 9b (Practicing active listening), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 9b (Practicing active listening), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts practice active listening techniques to understand the genuine needs and feelings of peers. Attentive listening establishes authentic trust and mutual respect during collaborative tasks.
 - **Common Myth:** Listening simply means staying quiet until it is your turn to speak during conversation.
@@ -509,7 +509,7 @@
 **[Parent Directive]:** *Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you*
 **Official Requirement 9c:** Creating an environment where others feel comfortable to share their ideas and perspectives.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 9c (Creating an environment where others feel comfortable to share their ideas and perspectives), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 9c (Creating an environment where others feel comfortable to share their ideas and perspectives), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts cultivate safe spaces where classmates feel confident sharing unconventional or creative concepts. Removing the fear of ridicule unleashes productive collaboration across teams.
 - **Common Myth:** People will naturally speak up in any meeting without leaders creating a supportive atmosphere.
@@ -527,7 +527,7 @@
 **[Parent Directive]:** *Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you*
 **Official Requirement 9d:** Helping others feel valued for their input and suggestions.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 9d (Helping others feel valued for their input and suggestions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 9d (Helping others feel valued for their input and suggestions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts demonstrate how to validate input from every team member during joint projects. Public recognition validates distinct talents and builds lasting morale across student groups.
 - **Common Myth:** People automatically know their work is appreciated without leaders offering verbal affirmation or recognition.
@@ -545,7 +545,7 @@
 **[Parent Directive]:** *Document and discuss with your counselor three or more areas in your life outside of Scouting where you feel you*
 **Official Requirement 9e:** Standing up for others.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 52-57* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 9e (Standing up for others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 9e (Standing up for others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts outline specific, constructive ways to intervene when peers are bullied, teased, or dismissed. Standing beside marginalized classmates fulfills the core values of civil responsibility.
 - **Common Myth:** Defending others in public always causes more embarrassment for the victim than staying silent.
@@ -592,7 +592,7 @@
 #### Req 11a: Supporting Diverse Identities in Public Settings
 **Official Requirement 11a:** Describe your ideas on how you can and will support others with different identities to feel included and heard at your school, workplace, and/or social settings in your community.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 11a (Describe your ideas on how you can and will support others with different identities to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 11a (Describe your ideas on how you can and will support others with different identities to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts outline actionable plans to ensure classmates and coworkers with unique identities feel valued. Intentional support systems eliminate workplace isolation and enhance morale.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -614,7 +614,7 @@
 #### Req 11b: Mutual Benefits of Diverse Viewpoints
 **Official Requirement 11b:** Explain how including diverse thoughts and opinions from others with different identities can: Make your interactions more positive. Help everyone benefit by considering different opinions.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 11b (Explain how including diverse thoughts and opinions from others with different identities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 11b (Explain how including diverse thoughts and opinions from others with different identities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explain how cognitive diversity and varied life experiences enrich collaborative discussions and problem solving. Teams that leverage differing viewpoints achieve broader understanding and mutual benefit.
 - **Common Myth:** Including diverse perspectives merely serves political correctness without improving actual operational performance.
@@ -632,7 +632,7 @@
 #### Req 11c: Dangers of Limiting Diverse Input
 **Official Requirement 11c:** Give three examples of how limiting diverse input can be harmful.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 11c (Give three examples of how limiting diverse input can be harmful), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 11c (Give three examples of how limiting diverse input can be harmful), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts provide three concrete examples where excluding diverse viewpoints caused severe design or organizational failures. Examining these blunders illustrates the immense danger of uncritical groupthink.
 - **Common Myth:** Teams that avoid outside opinions move faster and achieve better results through uniform consensus.
@@ -649,7 +649,7 @@
 #### Req 11d: Diverse Opinions Driving Innovation and Success
 **Official Requirement 11d:** Give three examples of how considering diverse opinions can lead to innovation and success.
 **Source:** *Official BSA Citizenship in Society Pamphlet, pp. 64-69* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in society Requirement 11d (Give three examples of how considering diverse opinions can lead to innovation and success), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in Society Requirement 11d (Give three examples of how considering diverse opinions can lead to innovation and success), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts display three real world examples where combining diverse cultural and technical viewpoints fueled breakthroughs. Collaborative diversity drives creative progress in science, business, and community welfare.
 - **Common Myth:** Creative breakthroughs are always the product of a solitary individual working in complete isolation.
@@ -662,3 +662,4 @@
 | **3. Req 11d Practical Example & Counselor Conference Verification** | Scouts display three real world examples where combining diverse cultural and technical viewpoints fueled breakthroughs. Collaborative diversity drives creative progress in science, business, and community welfare. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 11d):** Scout must individually explain Requirement 11d (Give three examples of how considering diverse opinions can lead to innovation and success) to the Counselor.
+))

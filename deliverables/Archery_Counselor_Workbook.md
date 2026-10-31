@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately cease all shooting and lower your bow upon hearing five or more whistle blasts.
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A projectile is any object propelled through space by the application of external force. Fired arrows carry high momentum that demands controlled shooting zones and constant physical respect.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -49,7 +49,7 @@
 - **Common Myth:** Arrows bounce harmlessly off wooden backstops due to low blunt impact speed.
 - **Pamphlet Fact:** Arrows travel at speeds exceeding one hundred fifty feet per second.
 
-![Projectile Energy diagram illustrating how released arrows carry significant kinetic force capable of causing fatal puncture trauma.](/assets/pamphlet_images/archery_p003_img1.png)
+![Technical diagram of projectile energy principles and field relationships in Archery (Requirement 1).](/assets/pamphlet_images/archery_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1b:** Explain the five range safety rules.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 1b (Explain the five range safety rules), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 1b (Explain the five range safety rules), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Range rules mandate keeping arrows pointed downrange, drawing only on command, and shooting designated targets. Archers must never dry fire a bow or point nocked arrows at people.
 - **Common Myth:** Safety rules only apply when another archer stands directly beside your lane.
@@ -82,7 +82,7 @@
 #### Req 1c: Range Whistle Command System
 **Official Requirement 1c:** Explain the four whistle commands used on the range.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 1c (Explain the four whistle commands used on the range), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 1c (Explain the four whistle commands used on the range), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Whistle commands standardize range cadence to coordinate shooting, retrieval, and emergency stops without verbal confusion. One blast signals shooting, two signals line approach, three signals retrieval, and five signals an immediate emergency stop.
 - **Common Myth:** Whistle commands are optional guidelines that archers can ignore during informal practice.
@@ -99,7 +99,7 @@
 #### Req 1d: Safe Target Arrow Extraction
 **Official Requirement 1d:** Explain how to safely remove arrows from the target and return them to your quiver.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 1d (Explain how to safely remove arrows from the target and return them to your quiver), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 1d (Explain how to safely remove arrows from the target and return them to your quiver), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Archers must approach targets from the side to avoid walking into exposed arrow nocks. Extract arrows by grasping the shaft close to the target face while supporting the boss with your opposite hand.
 - **Common Myth:** Yanking an arrow by its fletching is the fastest method to clear targets.
@@ -116,7 +116,7 @@
 #### Req 1e: Local Archery Legal Codes
 **Official Requirement 1e:** Tell your counselor about your local and state laws for owning and using archery equipment.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 1e (Tell your counselor about your local and state laws for owning and using archery equipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 1e (Tell your counselor about your local and state laws for owning and using archery equipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State and municipal ordinances frequently regulate where bows may be drawn and discharged. Archers must review local park codes and property ordinances before practicing outside chartered ranges.
 - **Common Myth:** Bows are exempt from municipal weapons ordinances because they do not use gunpowder.
@@ -148,7 +148,7 @@
 - **Common Myth:** Fletching feathers are purely decorative and can face any direction when loaded.
 - **Pamphlet Fact:** The index feather points perpendicular to the bowstring when nocked on traditional recurves.
 
-![Shaft Anatomy diagram illustrating how arrows consist of a point, shaft, cresting, fletching, and indexed nock.](/assets/pamphlet_images/archery_p007_img1.png)
+![Technical diagram of shaft anatomy principles and field relationships in Archery (Requirement 2).](/assets/pamphlet_images/archery_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -161,7 +161,7 @@
 #### Req 2b: Arrow Types and Profiles
 **Official Requirement 2b:** Describe three or more different types of arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 2b (Describe three or more different types of arrows), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 2b (Describe three or more different types of arrows), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Archery disciplines employ distinct arrow types including target arrows, field arrows, and flu-flu arrows. Flu-flu arrows utilize oversized spiral fletchings to rapidly decelerate shots taken at airborne targets.
 - **Common Myth:** All arrows share the same aerodynamic profile regardless of shooting discipline.
@@ -180,7 +180,7 @@
 #### Req 2c: Principal Shaft Material Selection
 **Official Requirement 2c:** Name the four principal materials for making arrow shafts.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 2c (Name the four principal materials for making arrow shafts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 2c (Name the four principal materials for making arrow shafts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Arrow shafts are manufactured from cedar wood, extruded aluminum, carbon composite, and hybrid aluminum-carbon. Each material offers specific weight, spine tolerance, and durability characteristics for distinct archers.
 - **Common Myth:** Wooden shafts provide identical grain weight and consistency to modern extruded aluminum.
@@ -236,7 +236,7 @@
 #### Req 2e: Arrow Maintenance and Storage
 **Official Requirement 2e:** Explain how to properly care for and store arrows.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 18, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 2e (Explain how to properly care for and store arrows), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 2e (Explain how to properly care for and store arrows), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Arrows must be stored vertically in individual separator tubes or specialized racks to prevent fletching deformation. Archers should keep equipment away from extreme heat, moisture, and direct sunlight.
 - **Common Myth:** Storing arrows piled loose in a gear bag prevents feather damage.
@@ -259,7 +259,7 @@
 **Official Requirement 3a:** Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm guards, shooting gloves, and quivers.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never release a bowstring using fingers without a tab or glove to avoid permanent nerve damage.
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 3a (Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 3a (Explain the proper use, care, and storage of, as well as the reasons for using tabs, arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shooting tabs and gloves protect delicate finger nerves from repetitive high-friction string abrasion. Arm guards prevent painful forearm bruising, while quivers keep sharp arrows organized safely on the shooting line.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -268,7 +268,7 @@
 - **Common Myth:** Arm guards exist solely because inexperienced archers hold bows with poor posture.
 - **Pamphlet Fact:** Arm guards prevent loose jacket fabric from deflecting bowstrings during forward acceleration.
 
-![Finger Protection diagram illustrating how finger tabs shield nerve endings from painful friction caused by taut bowstrings.](/assets/pamphlet_images/archery_p012_img1.png)
+![Technical diagram of finger protection principles and field relationships in Archery (Requirement 3).](/assets/pamphlet_images/archery_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -281,7 +281,7 @@
 #### Req 3b: Archery Terminology and Metrics
 **Official Requirement 3b:** Explain the following terms: draw length, draw weight, mechanical release, and barebow.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 25, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 3b (Explain the following terms: draw length, draw weight, mechanical release, and barebow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 3b (Explain the following terms: draw length, draw weight, mechanical release, and barebow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Draw length measures the distance from the nock point to the bow pivot point at full extension plus one and three quarters inches. Draw weight represents the mechanical pull force, while barebow shooting relies entirely on instinctive aiming without sights.
 - **Common Myth:** Draw length is determined entirely by bow length rather than human arm span.
@@ -307,7 +307,7 @@
 **Official Requirement 4a:** The difference between an end and a round.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Count arrows together at the target butt before pulling to Review the scores.
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 4a (The difference between an end and a round), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 4a (The difference between an end and a round), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An end is a specific cluster of arrows shot consecutively during a single turn on the shooting line. A round is the cumulative sum of multiple ends fired across prescribed target distances.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -330,7 +330,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 4b:** The differences among field, target, and 3-D archery.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 4b (The differences among field, target, and 3-D archery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 4b (The differences among field, target, and 3-D archery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Target archery occurs on flat fields with marked distances shooting at multicolor concentric rings. Field archery navigates rugged outdoor terrain with varied elevations, while 3-D archery uses life-size foam animal replicas.
 - **Common Myth:** Field archery takes place on manicured flat grassy fields identical to target events.
@@ -348,7 +348,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 4c:** How the five-color World Archery Federation target is scored.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 4c (How the five-color World Archery Federation target is scored), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 4c (How the five-color World Archery Federation target is scored), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The World Archery target face uses five concentric colored circles divided into ten scoring rings. Rings score from ten points in the center gold out to one point in the outer white ring.
 - **Common Myth:** The center yellow ring awards one hundred points in international target competitions.
@@ -366,7 +366,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 4d:** How the National Field Archery Association (NFAA) black-and-white field targets and blue indoor targets are scored.
 **Source:** *Official Scouting America Archery Merit Badge Pamphlet (p. 52, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For archery Requirement 4d (How the National Field Archery Association (NFAA) black-and-white field targets and blue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Archery Requirement 4d (How the National Field Archery Association (NFAA) black-and-white field targets and blue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - NFAA field targets feature black faces with a white center bullseye scoring five points for the center spot, four for the inner ring, and three for the outer ring. NFAA indoor targets feature a blue outer field with a white center scoring five points.
 - **Common Myth:** NFAA field targets use the identical ten ring color scheme as World Archery.

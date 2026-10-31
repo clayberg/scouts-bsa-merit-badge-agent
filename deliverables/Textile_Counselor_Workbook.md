@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Textile.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/textile/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -64,7 +64,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2a:** Get swatches of two natural fiber fabrics (100% cotton, linen, wool, or silk; no blends). Get swatches of two synthetic fiber fabrics (nylon, polyester, acrylic, olefin, or spandex). Get a sample of one cellulosic fabric (rayon, acetate, or lyocell)
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 2a (Get swatches of two natural fiber fabrics (100% cotton, linen, wool, or silk; no blends).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 2a (Get swatches of two natural fiber fabrics (100% cotton, linen, wool, or silk; no blends).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Gathering unblended natural, fully synthetic, and regenerated cellulosic fabric swatches enables direct physical comparison. Clean edges allow unhindered examination of yarn twists.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -86,7 +86,7 @@
 #### Req 2b: Fiber Origin and Chemical Classification
 **Official Requirement 2b:** Give the origin, major characteristics, and general content of each type of fiber obtained for 2(a). Explain the difference between a cellulosic manufactured fiber and a synthetic manufactured fiber.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 2b (Give the origin, major characteristics, and general content of each type of fiber obtained), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 2b (Give the origin, major characteristics, and general content of each type of fiber obtained), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Natural fibers derive from agricultural plants or animals, whereas synthetics originate from synthesized petroleum chemicals. Cellulosic manufactured fibers chemically dissolve natural cellulose before extruding filaments.
 - **Common Myth:** Synthetic fibers rot and decompose at similar speeds to natural protein and bast fibers.
@@ -104,7 +104,7 @@
 #### Req 2c: Fiber to Fabric Processing Sequence
 **Official Requirement 2c:** Describe the main steps in making raw fiber into yarn, and yarn into fabric.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 2c (Describe the main steps in making raw fiber into yarn, and yarn into fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 2c (Describe the main steps in making raw fiber into yarn, and yarn into fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Raw fibers undergo opening, carding, drawing, and spinning to create continuous yarn packages. Weaving on mechanical looms or interlooping on knitting frames converts these yarns into structural fabric.
 - **Common Myth:** Fabrics emerge directly from raw sheared fleece without intermediate carding or spinning steps.
@@ -122,7 +122,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2d:** Assume you will soon buy a new garment or other textile item. Tell your counselor what fiber or blend of fibers you want the item to be, and give reasons for your choice.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 2d (Assume you will soon buy a new garment or other textile item. Tell your counselor what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 2d (Assume you will soon buy a new garment or other textile item. Tell your counselor what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating intended environmental conditions helps determine optimal fiber ratios for comfort, moisture wicking, and abrasion resistance. Blending synthetic durability with natural moisture management optimizes outerwear utility.
 - **Common Myth:** A garment composed of 100 percent natural fibers is always superior for wet winter expeditions.
@@ -142,7 +142,7 @@
 #### Req 3a: Industrial Textile Facility Tour
 **Official Requirement 3a:** Visit a textile plant, textile products manufacturer, or textile school or college. Report on what you saw and learned.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3a (Visit a textile plant, textile products manufacturer, or textile school or college. Report), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3a (Visit a textile plant, textile products manufacturer, or textile school or college. Report), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Touring an operational textile mill or collegiate testing laboratory reveals commercial automation and rigorous quality assurance protocols. Observing large-scale carding machines and high-speed rapier looms illustrates industrial scale production.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -164,7 +164,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3b:** Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made yourself.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3b (Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3b (Weave a belt, headband, placemat, or wall hanging using a simple loom that you have made), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building a cardboard or wooden frame loom teaches fundamental warp tensioning and shed creation. Weaving weft yarns over and under alternating warp ends produces a stable, functional woven article.
 - **Common Myth:** Weaving can occur without creating tension across longitudinal warp threads on the frame.
@@ -184,7 +184,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3c:** With a magnifying glass, examine a woven fabric, a nonwoven fabric, and a knitted fabric. Sketch what you see. Explain how the three constructions are different.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3c (With a magnifying glass, examine a woven fabric, a nonwoven fabric, and a knitted fabric.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3c (With a magnifying glass, examine a woven fabric, a nonwoven fabric, and a knitted fabric.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Magnification reveals distinct structural matrices: interlaced perpendicular yarns in wovens, interconnected loops in knits, and random tangled fibers in nonwovens. Sketching these configurations clarifies stretch, porosity, and drape differences.
 - **Common Myth:** Knitted fabrics and woven fabrics share the same rigid square grid structure under magnification.
@@ -204,7 +204,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3d:** Make a piece of felt.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3d (Make a piece of felt), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3d (Make a piece of felt), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying warm water, mild soap, and vigorous compression to carded wool causes directional microscopic surface scales to open and interlock. The resulting nonwoven fabric requires neither spinning nor weaving to maintain integrity.
 - **Common Myth:** Synthetic nylon fibers felt together through agitation and warm water just like sheep wool.
@@ -221,7 +221,7 @@
 #### Req 3e: Natural Botanical Fabric Dyeing
 **Official Requirement 3e:** Make two natural dyes and use them to dye a garment or a piece of fabric.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3e (Make two natural dyes and use them to dye a garment or a piece of fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3e (Make two natural dyes and use them to dye a garment or a piece of fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Extracting pigments from onion skins, walnut hulls, or berries produces natural liquid dyes. Preparing fabric with alum mordant bonds botanical chromophores directly into the fiber polymer chains.
 - **Common Myth:** Natural plant dyes adhere permanently to cotton fibers without mordant pretreatments or simmering heat.
@@ -239,7 +239,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3f:** Waterproof a fabric.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3f (Waterproof a fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3f (Waterproof a fabric), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Treating porous woven textiles with molten wax blends or chemical repellents coats individual yarn surfaces without sealing breathable pores. Testing treated specimens under water droplets confirms surface tension resistance.
 - **Common Myth:** Waterproofing fabric requires completely coating it with solid impermeable rubber that stops air.
@@ -256,7 +256,7 @@
 #### Req 3g: Fiber Identification Diagnostic Testing
 **Official Requirement 3g:** Demonstrate how to identify fibers, using microscope identification or the breaking test.
 **Source:** *Official Scouting America Textile Merit Badge Pamphlet (p. 27, p. 58)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3g Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For textile Requirement 3g (Demonstrate how to identify fibers, using microscope identification or the breaking test), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Textile Requirement 3g (Demonstrate how to identify fibers, using microscope identification or the breaking test), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing flame reactions, odor emissions, residual ash characteristics, and microscopic longitudinal morphology accurately identifies unknown fibers. Cellulosic fibers burn with paper odor, whereas protein fibers burn with burning hair scent.
 - **Common Myth:** All synthetic fibers melt into identical hard black beads when exposed to flame.

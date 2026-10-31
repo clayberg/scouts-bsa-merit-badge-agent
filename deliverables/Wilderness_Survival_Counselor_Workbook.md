@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wilderness%20Survival.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/wilderness-survival/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -289,7 +289,7 @@
 #### Req 1b: Scout Basic Essentials Preparedness
 **Official Requirement 1b:** Explain how the Scout Basic Essentials address hazards of survival situations and are basic to a survival kit.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 1b (Explain how the Scout Basic Essentials address hazards of survival situations and are basic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 1b (Explain how the Scout Basic Essentials address hazards of survival situations and are basic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Carrying the ten essential systems guarantees critical life support during sudden outdoor emergencies. Each item addresses exposure, navigation, hydration, or signaling when primary gear fails.
 - **Common Myth:** Basic essentials are luxury conveniences meant only for comfortable planned weekend campouts.
@@ -306,7 +306,7 @@
 #### Req 1c: Wilderness Trip Plan Prevention
 **Official Requirement 1c:** Explain how a trip plan could help prevent a wilderness survival situation.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 53, p. 58)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 1c (Explain how a trip plan could help prevent a wilderness survival situation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 1c (Explain how a trip plan could help prevent a wilderness survival situation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Trip plans record intended routes, party size, equipment colors, and strict turnaround times. Designating a reliable home contact ensures immediate search activation when deadlines pass.
 - **Common Myth:** Filing an exact travel route is unnecessary when hiking familiar local park trails.
@@ -510,7 +510,7 @@
 #### Req 5b: Outdoor Survival Clothing Systems
 **Official Requirement 5b:** Show that you know the proper clothing to wear while in the outdoors during extremely hot and cold weather and during wet conditions.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 5b (Show that you know the proper clothing to wear while in the outdoors during extremely hot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 5b (Show that you know the proper clothing to wear while in the outdoors during extremely hot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A proper outdoor clothing system utilizes a wicking base, insulating mid layer, and waterproof outer shell. Adjusting layers before sweating prevents moisture accumulation that leads to accelerated hypothermia.
 - **Common Myth:** Heavy cotton denim pants offer adequate warmth and safety during wet winter backcountry conditions.
@@ -527,7 +527,7 @@
 #### Req 5c: Camp Wildlife Hazard Protection
 **Official Requirement 5c:** Explain how to protect yourself from bears and raccoons.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 5c (Explain how to protect yourself from bears and raccoons), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 5c (Explain how to protect yourself from bears and raccoons), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Securing aromatic food items away from sleeping shelters eliminates dangerous wildlife encounters. Storing trash in bear canisters and maintaining clean campsites keeps native scavengers disinterested.
 - **Common Myth:** Keeping snack food inside your sleeping bag protects it securely from forest wildlife.
@@ -544,7 +544,7 @@
 #### Req 5d: Forest and Snow Shelters
 **Official Requirement 5d:** Describe how to build or find survival shelters in a forest or in snow.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 5d (Describe how to build or find survival shelters in a forest or in snow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 5d (Describe how to build or find survival shelters in a forest or in snow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forested and snow-covered regions supply abundant natural building materials for emergency insulation. Snow caves and debris huts leverage trapped air pockets to maintain survivable interior temperatures.
 - **Common Myth:** Digging into snow accelerates hypothermia because ice is inherently colder than surrounding ambient air.
@@ -562,7 +562,7 @@
 **[Parent Directive]:** *Shelter. Do the following*
 **Official Requirement 5e:** Improvise a natural shelter. For the purpose of this demonstration, use techniques that have little negative impact on the environment. Spend a night in your shelter.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 43, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 5e (Improvise a natural shelter. For the purpose of this demonstration, use techniques that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 5e (Improvise a natural shelter. For the purpose of this demonstration, use techniques that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Improvising natural shelters requires using fallen limbs, leaf litter, and bark without harming live vegetation. Spending a solitary night validates the insulation quality and structural wind resistance under real conditions.
 - **Common Myth:** Chopping down live saplings is required to construct a sturdy wilderness survival debris shelter.
@@ -612,7 +612,7 @@
 **Official Requirement 7a:** Explain and show how lost or stranded Scouts could send signals to attract the attention of ground, airborne, or water search teams.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never look directly at the sun while aligning sighting holes on reflective glass signal mirrors.
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 7a (Explain and show how lost or stranded Scouts could send signals to attract the attention of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 7a (Explain and show how lost or stranded Scouts could send signals to attract the attention of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers scan vast wilderness terrain relying on visible reflections, billowing smoke columns, and rhythmic whistle calls. Deploying both visual and acoustic methods maximizes discovery probability across rugged topography.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -635,7 +635,7 @@
 **[Parent Directive]:** *Signaling. Do the following*
 **Official Requirement 7b:** Demonstrate how to use a signal mirror.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 7b (Demonstrate how to use a signal mirror), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 7b (Demonstrate how to use a signal mirror), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Glass and metal signal mirrors project intense flashes of reflected sunlight across great geographic distances. Aiming retroreflective mesh centers ensures the blinding beacon targets search aircraft directly.
 - **Common Myth:** Signal mirrors only work if the sun is positioned directly behind your intended target.
@@ -652,7 +652,7 @@
 #### Req 7c: Universal Ground Air Signals
 **Official Requirement 7c:** Describe from memory five ground-to-air signals and tell what they mean.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 36, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 7c (Describe from memory five ground-to-air signals and tell what they mean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 7c (Describe from memory five ground-to-air signals and tell what they mean), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Universal ground-to-air visual codes convey concise tactical messages to aerial reconnaissance crews. Stamping symbols like X for medical aid or V for assistance guides search operations.
 - **Common Myth:** Airborne search crews can easily read full sentences written out on open river gravel bars.
@@ -732,7 +732,7 @@
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 9, p. 22)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Always verify formal safety accreditations and medical certifications before leading outdoor wilderness educational programs.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Wilderness Survival Req 10 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 10a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 10a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Outdoor survival professions span emergency management, conservation enforcement, wildland firefighting, and experiential leadership instruction. Careers require extensive technical training, physical conditioning, risk management expertise, and specialized environmental credentials.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -756,7 +756,7 @@
 **[Parent Directive]:** *Careers. Do ONE of the following*
 **Official Requirement 10b:** Explore how you could use knowledge and skills from the Wilderness Survival merit badge to pursue a hobby or to serve as volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.
 **Source:** *Official Scouting America Wilderness Survival Merit Badge Pamphlet (p. 9, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wilderness survival Requirement 10b (Explore how you could use knowledge and skills from the Wilderness Survival merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wilderness Survival Requirement 10b (Explore how you could use knowledge and skills from the Wilderness Survival merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wilderness competencies empower individuals to serve in volunteer search groups, disaster response networks, and youth scouting patrols. Continuing education in map navigation, first aid, and survival tactics strengthens community emergency readiness.
 - **Common Myth:** Volunteer search and rescue operations accept untrained personnel during active emergency backcountry searches.

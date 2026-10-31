@@ -47,7 +47,7 @@
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Disconnect swelling or overheated electronics immediately from wall power and place on fireproof tile.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Cybersecurity Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 1a (View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 1a (View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts complete guided digital awareness viewing alongside adult leadership. The material covers defensive responses to unexpected online interactions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -56,7 +56,7 @@
 - **Common Myth:** Digital safety videos are strictly intended for adults rather than active youth users.
 - **Pamphlet Fact:** Viewing mandatory youth protection modules provides baseline rules for identifying suspicious digital interactions.
 
-![Digital Footprint Retention diagram illustrating how search engines index public profiles permanently even after local file deletion occurs.](/assets/pamphlet_images/cybersecurity_p003_img1.png)
+![Technical diagram of digital footprint retention principles and field relationships in Cybersecurity (Requirement 1).](/assets/pamphlet_images/cybersecurity_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -69,7 +69,7 @@
 #### Req 1b: Digital Footprint Protection Strategies
 **Official Requirement 1b:** Explain to your counselor how to protect your digital footprint, such as while using social media, mobile device apps, and online gaming. Show how to set privacy settings to protect your personal information, including photos of yourself or your location.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 1b (Explain to your counselor how to protect your digital footprint, such as while using social), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 1b (Explain to your counselor how to protect your digital footprint, such as while using social), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Online activities generate traceable behavioral records across multiple platform databases. Controlling application permissions curtails unwanted tracking across commercial advertising networks.
 - **Common Myth:** In-game voice chats leave no traceable records once the match session ends.
@@ -85,7 +85,7 @@
 #### Req 1c: Workstation Injury Prevention Guidelines
 **Official Requirement 1c:** Discuss first aid and prevention for potential injuries, such as eye strain, repetitive injuries, and handling electronics devices, that could occur during repeated use. Discuss how to keep yourself physically safe while using a mobile device (for example while walking or biking)
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 1c (Discuss first aid and prevention for potential injuries, such as eye strain, repetitive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 1c (Discuss first aid and prevention for potential injuries, such as eye strain, repetitive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Continuous keyboard and screen use can cause repetitive strain injuries and ocular exhaustion. Implementing structured rest intervals and workstation adjustments maintains physical wellbeing.
 - **Common Myth:** Ergonomic discomforts while working at keyboards are temporary and never cause permanent injury.
@@ -108,7 +108,7 @@
 **Official Requirement 2a:** Relate three points of the Scout law to things people do on the internet or with computers, phones, and other connected electronic devices.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never attempt unapproved penetration testing or access scanning on networks you do not own.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 2a (Relate three points of the Scout law to things people do on the internet or with computers,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 2a (Relate three points of the Scout law to things people do on the internet or with computers,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The twelve points of the Scout Law govern electronic behavior just like outdoor wilderness conduct. Scouts evaluate how their digital messages affect real people across network systems.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -117,7 +117,7 @@
 - **Common Myth:** Online anonymity removes personal accountability for hurtful commentary posted on public message boards.
 - **Pamphlet Fact:** Kindness and courtesy online require treating remote users with dignity and constructive speech.
 
-![Digital Trust Principles diagram illustrating how operating online honorably builds lasting trust between network administrators and community members.](/assets/pamphlet_images/cybersecurity_p007_img1.png)
+![Technical diagram of digital trust principles principles and field relationships in Cybersecurity (Requirement 2).](/assets/pamphlet_images/cybersecurity_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -130,7 +130,7 @@
 #### Req 2b: Ethical Conduct in Computing Environments
 **Official Requirement 2b:** Discuss with your counselor examples of ethical and unethical behavior in cyberspace. Include how to act responsibly when you encounter situations such as: coming across an unattended or unlocked computer or mobile device; observing someone type their password or seeing it written down near a computer; or discovering a website that is not properly secured. Explain why these situations require good judgment, and how the Scout Law and personal values should guide your actions.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 2b (Discuss with your counselor examples of ethical and unethical behavior in cyberspace.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 2b (Discuss with your counselor examples of ethical and unethical behavior in cyberspace.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Encountering logged-in workstations or exposed directories tests personal integrity and ethical boundaries. Ethical computing principles mandate securing the station and alerting responsible technical administrators.
 - **Common Myth:** Browsing open directories on an unlocked computer is permissible if nothing gets modified.
@@ -155,7 +155,7 @@
 **Official Requirement 3a:** Describe three types of computer systems that need protecting and explain why.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never connect personal flash drives to critical school, medical, or municipal computer terminals.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 3a (Describe three types of computer systems that need protecting and explain why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 3a (Describe three types of computer systems that need protecting and explain why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Different computational architectures require tailored defenses based on their operational roles and public connectivity. Critical targets include enterprise cloud databases, industrial control sensors, and embedded vehicular networks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -164,7 +164,7 @@
 - **Common Myth:** Automobiles run entirely on mechanical linkages without containing exploitable internal digital networks.
 - **Pamphlet Fact:** Modern vehicle engine management units and navigation clusters represent vulnerable networked computer systems.
 
-![Critical Infrastructure Defense diagram illustrating how municipal water treatment networks require continuous defenses against remote adversary unauthorized.](/assets/pamphlet_images/cybersecurity_p012_img1.png)
+![Technical diagram of critical infrastructure defense principles and field relationships in Cybersecurity (Requirement 3).](/assets/pamphlet_images/cybersecurity_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -177,7 +177,7 @@
 #### Req 3b: Foundational CIA Triad Principles
 **Official Requirement 3b:** Explain the "C. I. A. Triad", Confidentiality, Integrity, and Availability, and why these three principles are fundamental to cybersecurity.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 3b (Explain the "C. I. A. Triad", Confidentiality, Integrity, and Availability, and why these), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 3b (Explain the "C. I. A. Triad", Confidentiality, Integrity, and Availability, and why these), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The CIA Triad forms the foundational model for designing secure information technology systems. Balancing privacy, record accuracy, and operational uptime dictates architectural defense decisions.
 - **Common Myth:** The CIA Triad gives equal operational priority to confidentiality in every technical deployment.
@@ -203,7 +203,7 @@
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not download live malware samples or test exploit payloads on production machines.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Cybersecurity Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 4a (Define the terms vulnerability, threat, and exploit, and give an example of each that might), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 4a (Define the terms vulnerability, threat, and exploit, and give an example of each that might), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flaws in software logic provide pathways for attackers to execute unauthorized commands. Understanding the relationship between system weaknesses and attack vectors enables proactive defense.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -212,7 +212,7 @@
 - **Common Myth:** Software flaws become active threats automatically before any attacker writes functional exploit code.
 - **Pamphlet Fact:** A vulnerability is an unpatched flaw, whereas an exploit is code triggering it.
 
-![Vulnerability Exploitation Mechanics diagram illustrating how attackers leverage unpatched software bugs to execute unauthorized malicious computer code.](/assets/pamphlet_images/cybersecurity_p004_img1.png)
+![Technical diagram of vulnerability exploitation mechanics principles and field relationships in Cybersecurity (Requirement 4).](/assets/pamphlet_images/cybersecurity_p004_img1.png)
 
 | Req 4a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -226,7 +226,7 @@
 **[Parent Directive]:** *Cyber Threats, Vulnerabilities, and Attacks. Do the following and discuss each with your counselor*
 **Official Requirement 4b:** Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware) and find out how it works. Explain what it does and the harm it can cause.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 4b (Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 4b (Pick one type of malware (such as virus, worm, Trojan, backdoor, spyware, or ransomware)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Malicious software variants execute unauthorized behaviors ranging from stealthy surveillance to total data destruction. Studying malware execution models illustrates why automated defenses and backups are required.
 - **Common Myth:** Computer viruses and computer worms infect host machines using identical autonomous propagation techniques.
@@ -242,7 +242,7 @@
 #### Req 4c: Public Wireless Network Risks
 **Official Requirement 4c:** Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 4c (Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 4c (Identify two risks of using public Wi-Fi and describe how to reduce or avoid those risks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Open wireless networks present interception opportunities for packet sniffing and rogue access points. Using encrypted tunnels and disabling automatic connection protocols mitigates intercept risks.
 - **Common Myth:** Connecting to password-free public Wi-Fi carries no risk if browsing in private mode.
@@ -259,7 +259,7 @@
 #### Req 4d: Phishing Detection and Deception Defense
 **Official Requirement 4d:** Describe what spoofing and phishing are, and how to recognize a message or website that might be trying to trick you. Explain what steps you should take to protect yourself and others if you come across one.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 4d (Describe what spoofing and phishing are, and how to recognize a message or website that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 4d (Describe what spoofing and phishing are, and how to recognize a message or website that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Social engineering attacks rely on impersonation to manipulate users into surrendering credentials. Scrutinizing transport headers and domain records uncovers deceptive messaging campaigns.
 - **Common Myth:** Spelling mistakes are always present in fraudulent emails sent by modern cyber criminals.
@@ -313,7 +313,7 @@
 #### Req 4f: Personal Attack Surface Mapping
 **Official Requirement 4f:** Create a list of what is part of your cyber attack surface including all the ways someone could try to access your personal information or devices, such as online accounts, apps, or home networks.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 4f (Create a list of what is part of your cyber attack surface including all the ways someone), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 4f (Create a list of what is part of your cyber attack surface including all the ways someone), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An individual attack surface encompasses all entry points an attacker might target. Cataloging accounts, hardware devices, and network connections enables systematic vulnerability mitigation.
 - **Common Myth:** Personal cyber attack surfaces only include desktop computers connected directly to Ethernet cables.
@@ -338,7 +338,7 @@
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always test configuration changes on isolated test virtual machines before modifying main family systems.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Cybersecurity Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 5a (Describe three technologies that are used to defend a computer or network, such as access), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 5a (Describe three technologies that are used to defend a computer or network, such as access), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Layered defensive technologies inspect, filter, and isolate network traffic across diverse operational boundaries. Combining firewalls with intrusion detection systems delivers defense in depth across internal subnets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -347,7 +347,7 @@
 - **Common Myth:** Installing antivirus software eliminates the operational need for running network boundary firewalls.
 - **Pamphlet Fact:** Firewalls inspect incoming traffic packets against defined rule sets to filter unauthorized connections.
 
-![Firewall Packet Filtering diagram illustrating how network firewalls inspect incoming transmission packets to block unauthorized external access attempts.](/assets/pamphlet_images/cybersecurity_p005_img1.png)
+![Technical diagram of firewall packet filtering principles and field relationships in Cybersecurity (Requirement 5).](/assets/pamphlet_images/cybersecurity_p005_img1.png)
 
 | Req 5a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -557,7 +557,7 @@
 **Official Requirement 6a:** Research and explain to your counselor three situations where encryption is used in cybersecurity. For each situation, describe what kind of encryption is used and why it is important.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never disclose private cryptographic keys or master authentication passwords during patrol demonstrations.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 6a (Research and explain to your counselor three situations where encryption is used in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 6a (Research and explain to your counselor three situations where encryption is used in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cryptographic systems secure data across diverse computing contexts including full disk storage and banking transactions. Understanding symmetric and asymmetric frameworks clarifies modern privacy mechanisms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -566,7 +566,7 @@
 - **Common Myth:** Symmetric encryption algorithms require two separate keys for encryption and decryption procedures.
 - **Pamphlet Fact:** End-to-end messaging encryption ensures only communicating endpoints possess keys to read transmitted text.
 
-![Asymmetric Key Handshake diagram illustrating how public key infrastructure exchanges encryption keys safely across insecure public transmission routes.](/assets/pamphlet_images/cybersecurity_p006_img1.png)
+![Technical diagram of asymmetric key handshake principles and field relationships in Cybersecurity (Requirement 6).](/assets/pamphlet_images/cybersecurity_p006_img1.png)
 
 | Req 6a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -578,7 +578,7 @@
 #### Req 6b: Transport Encryption and Certificate Validation
 **Official Requirement 6b:** Show how you can know if your connection to a website is encrypted.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 6b (Show how you can know if your connection to a website is encrypted), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 6b (Show how you can know if your connection to a website is encrypted), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Transport Layer Security validates web server authenticity and establishes encrypted communications channels. Browsers display security certificates detailing the issuing authority, domain name, and cryptographic cipher.
 - **Common Myth:** A padlock icon in the browser address bar guarantees a website is honest.
@@ -703,7 +703,7 @@
 **Official Requirement 8a:** Learn about a cybersecurity competition, camp, or other activity you could participate in (either now or in the future). Share what you learned with your counselor, including the type of activity, time commitment, and age of participants.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Use only designated isolated laboratory ranges when running penetration testing tools during exercises.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 8a (Learn about a cybersecurity competition, camp, or other activity you could participate in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 8a (Learn about a cybersecurity competition, camp, or other activity you could participate in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - National cybersecurity programs introduce youth to cyber defense, operating system hardening, and network administration. Scouts research program guidelines, competition divisions, and required team technical competencies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -724,7 +724,7 @@
 #### Req 8b: Collaborative Cyber Competition Participation
 **Official Requirement 8b:** Participate in a cybersecurity competition with members of your troop, school, or some other group approved by your counselor. Either design your own competition or use an existing platform.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 8b (Participate in a cybersecurity competition with members of your troop, school, or some), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 8b (Participate in a cybersecurity competition with members of your troop, school, or some), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participating in structured cyber challenges allows scouts to apply defensive techniques against simulated adversarial attacks. Teams collaborate under timed conditions to identify misconfigurations and secure vulnerable systems.
 - **Common Myth:** Scoring in cybersecurity competitions relies solely on offensive exploitation of opponent team servers.
@@ -742,7 +742,7 @@
 #### Req 8c: Patrol Cybersecurity Presentation Design
 **Official Requirement 8c:** Give a presentation to your patrol, troop, or another group approved by your counselor, on a cybersecurity topic of your choice. Your presentation must include at least one demonstration and/or hands-on activity.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 8c (Give a presentation to your patrol, troop, or another group approved by your counselor, on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 8c (Give a presentation to your patrol, troop, or another group approved by your counselor, on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preparing and delivering a technical presentation strengthens instructional communication and mastery of core concepts. Scouts include practical demonstrations illustrating real-world defenses like password complexity or phishing indicators.
 - **Common Myth:** A cybersecurity demonstration requires presenting complex live terminal exploitation code to audience members.
@@ -764,7 +764,7 @@
 **Official Requirement 9a:** Identify three career opportunities that would use skills and knowledge in cybersecurity. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Follow all host facility safety and confidentiality rules during corporate engineering site visits.
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 9a (Identify three career opportunities that would use skills and knowledge in cybersecurity.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 9a (Identify three career opportunities that would use skills and knowledge in cybersecurity.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cybersecurity professionals operate across every sector of modern industry, finance, healthcare, and government service. Exploring job descriptions highlights technical requirements, salary expectations, and day-to-day responsibilities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -787,7 +787,7 @@
 #### Req 9b: Industry Workplace Observation Visit
 **Official Requirement 9b:** Visit a business or organization that does work in cybersecurity. Find out about different work roles, what they do, and how they acquired their knowledge through college degrees or certifications. Share what you learned with your counselor.
 **Source:** *Official Scouting America Cybersecurity Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For cybersecurity Requirement 9b (Visit a business or organization that does work in cybersecurity. Find out about different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Cybersecurity Requirement 9b (Visit a business or organization that does work in cybersecurity. Find out about different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an operational enterprise security department provides direct insight into professional monitoring and defense routines. Observing analysts and engineers connects academic badge requirements with real-world infrastructure defense.
 - **Common Myth:** Visiting an enterprise security operations center requires secret government clearances for teenage visitors.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Entrepreneurship.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/entrepreneurship/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -243,7 +243,7 @@
 **[Parent Directive]:** *Create a written business plan for your idea that includes all of the following*
 **Official Requirement 5b:** Market Analysis (1) Identify the types of people who would buy your product or service. (2) Identify your business's competitors, and describe their strengths and weaknesses. (3) Describe what makes your product or service unique.
 **Source:** *Official Scouting America Entrepreneurship Merit Badge Pamphlet (p. 54, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For entrepreneurship Requirement 5b (Market Analysis (1) Identify the types of people who would buy your product or service. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Entrepreneurship Requirement 5b (Market Analysis (1) Identify the types of people who would buy your product or service. (2)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Market analysis identifies precise demographic profiles and evaluates competing alternatives across price, quality, and location. Pinpointing competitor weaknesses reveals distinct market niches where a new enterprise can win customers.
 - **Common Myth:** A truly innovative product faces zero market competition in the modern economy.

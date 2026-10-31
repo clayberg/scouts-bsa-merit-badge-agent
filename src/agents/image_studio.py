@@ -2100,11 +2100,31 @@ _LAST_AI_SYNTHESIS_DIAGNOSTICS: Dict[str, Any] = {}
 _SYNTHESIS_DIAG_LOCK = threading.Lock()
 
 
+def _detect_seamless_pad_rgb(rgb: Image.Image) -> Tuple[int, int, int]:
+    """Samples the 4 corners of an RGB image to pick a seamless mat color (default warm parchment #FAF6F0)."""
+    w, h = rgb.size
+    if w < 4 or h < 4:
+        return (250, 246, 240)
+    corners = [
+        rgb.getpixel((2, 2)),
+        rgb.getpixel((w - 3, 2)),
+        rgb.getpixel((2, h - 3)),
+        rgb.getpixel((w - 3, h - 3)),
+    ]
+    avg_r = sum(c[0] for c in corners) // 4
+    avg_g = sum(c[1] for c in corners) // 4
+    avg_b = sum(c[2] for c in corners) // 4
+    # If all corners are very bright (>242), blend gently toward warm deck parchment #FAF6F0 to prevent stark white bars
+    if avg_r >= 242 and avg_g >= 242 and avg_b >= 242:
+        return (250, 246, 240)
+    return (avg_r, avg_g, avg_b)
+
+
 def compress_hero_illustration(
     raw_png_bytes: bytes,
     target_size: Tuple[int, int] = (800, 600),
 ) -> bytes:
-    """Downscales a Nano Banana / handbook PNG to 800x600 and quantizes to 8-bit 256-color indexed PNG (~65-145 KB)."""
+    """Downscales a Nano Banana / handbook PNG to 800x600 without guillotining heads/edges, quantizing to 8-bit PNG."""
     if not raw_png_bytes:
         return b""
     with Image.open(io.BytesIO(raw_png_bytes)) as im:
@@ -2112,10 +2132,17 @@ def compress_hero_illustration(
         rgb = im_src.convert("RGB")
         w, h = rgb.size
         tw, th = target_size
-        if abs((w / float(max(1, h))) - (tw / float(max(1, th)))) <= 0.18:
+        if abs((w / float(max(1, h))) - (tw / float(max(1, th)))) <= 0.14:
             fitted = rgb.resize((tw, th), Image.Resampling.LANCZOS)
         else:
-            fitted = ImageOps.fit(rgb, (tw, th), method=Image.Resampling.LANCZOS)
+            pad_rgb = _detect_seamless_pad_rgb(rgb)
+            fitted = ImageOps.pad(
+                rgb,
+                (tw, th),
+                color=pad_rgb,
+                method=Image.Resampling.LANCZOS,
+                centering=(0.5, 0.5),
+            )
         quantized = fitted.quantize(colors=256, method=Image.Quantize.FASTOCTREE)
         buf = io.BytesIO()
         quantized.save(buf, format="PNG", optimize=True, compress_level=9, dpi=(220, 220))
@@ -2343,12 +2370,19 @@ def _save_ai_image_bytes(
         im_src = im.convert("RGBA") if (im.mode == "P" and "transparency" in im.info) else im
         rgb = im_src.convert("RGB")
         w, h = rgb.size
-        if abs((w / float(max(1, h))) - (1024.0 / 768.0)) <= 0.18:
+        if abs((w / float(max(1, h))) - (1024.0 / 768.0)) <= 0.14:
             fitted = rgb.resize((1024, 768), Image.Resampling.LANCZOS)
         elif "line" in style_key and "watercolor" not in style_key:
             fitted = ImageOps.pad(rgb, (1024, 768), color=(255, 255, 255), method=Image.Resampling.LANCZOS)
         else:
-            fitted = ImageOps.fit(rgb, (1024, 768), method=Image.Resampling.LANCZOS)
+            pad_rgb = _detect_seamless_pad_rgb(rgb)
+            fitted = ImageOps.pad(
+                rgb,
+                (1024, 768),
+                color=pad_rgb,
+                method=Image.Resampling.LANCZOS,
+                centering=(0.5, 0.5),
+            )
         fitted.save(out_path, format="PNG", dpi=(220, 220))
     return out_path.exists() and os.path.getsize(str(out_path)) >= 4000
 

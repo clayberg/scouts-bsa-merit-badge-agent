@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Game%20Design.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/game-design/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1a:** Analyze four games you have played, each from a different medium. Identify the medium, player format, objectives, rules, resources, and theme (if relevant). Discuss with your counselor the play experience, what you enjoy in each game, and what you dislike. Make a chart to compare and contrast the games.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 1a (Analyze four games you have played, each from a different medium. Identify the medium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 1a (Analyze four games you have played, each from a different medium. Identify the medium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing four games from different mediums reveals how platforms dictate user interaction, pacing, and rule clarity. Designers evaluate player format, goals, and resources to understand how distinct delivery systems shape player choices.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -62,7 +62,7 @@
 #### Req 1b: Core Play Value Systems
 **Official Requirement 1b:** Describe four types of play value and provide an example of a game built around each concept. Discuss with your counselor other reasons people play games.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 38, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 1b (Describe four types of play value and provide an example of a game built around each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 1b (Describe four types of play value and provide an example of a game built around each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Play value describes the core emotional, physical, intellectual, or social reward that motivates continued engagement. Identifying these values helps designers target specific audiences and craft compelling player feedback loops.
 - **Common Myth:** Players only seek high scores and victory conditions during competitive play.
@@ -139,7 +139,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4a:** Pick a game where the players can change the rules or objectives (examples: basketball, hearts, chess, kickball). Briefly summarize the standard rules and objectives and play through the game normally.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 4a (Pick a game where the players can change the rules or objectives (examples: basketball,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 4a (Pick a game where the players can change the rules or objectives (examples: basketball,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting an established customizable game provides a known control environment for testing. Documenting its standard rules and completing a full playthrough records reference data on game length and decision points.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -161,7 +161,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4b:** Propose changes to several rules or objectives. Predict how each change will affect gameplay.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 4b (Propose changes to several rules or objectives. Predict how each change will affect gameplay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 4b (Propose changes to several rules or objectives. Predict how each change will affect gameplay), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designers formulate formal hypotheses predicting how altered constraints, victory conditions, or resources will shift strategy. Writing down expected player reactions prevents hindsight bias after observing surprising playtest results.
 - **Common Myth:** Rule modifications only affect the specific phase of play where the change occurs.
@@ -178,7 +178,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4c:** Play the game with one rule or objective change, observing how the players' actions and emotional experiences are affected by the rule change. Repeat this process with two other changes.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 4c (Play the game with one rule or objective change, observing how the players' actions and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 4c (Play the game with one rule or objective change, observing how the players' actions and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing separate playtests for three distinct rule changes isolates variables and measures human emotional reactions. Observers note changes in player frustration, excitement, decision speed, and strategic cooperation.
 - **Common Myth:** Player body language and emotional reactions matter less than quantitative score totals.
@@ -194,7 +194,7 @@
 #### Req 4d: Comparative Prediction Analysis Review
 **Official Requirement 4d:** Explain to your counselor how the changes affected the actions and experience of the players. Discuss the accuracy of your predictions.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 49, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 4d (Explain to your counselor how the changes affected the actions and experience of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 4d (Explain to your counselor how the changes affected the actions and experience of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing pre-game predictions against observed player behavior demonstrates the unpredictable nature of human agency. Discussing discrepancies with a counselor builds critical analytical insight into emergent system dynamics.
 - **Common Myth:** An incorrect prediction proves that the design experiment was a failure.
@@ -214,7 +214,7 @@
 #### Req 5a: Game Vision Statement Authoring
 **Official Requirement 5a:** Write a vision statement for your game. Identify the medium, player format, objectives, and theme of the game. If suitable, describe the setting, story, and characters.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 5a (Write a vision statement for your game. Identify the medium, player format, objectives, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 5a (Write a vision statement for your game. Identify the medium, player format, objectives, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The vision statement establishes the foundational roadmap for the game, identifying medium, player format, objectives, and setting. It keeps the designer focused on a unified creative target throughout the iterative development process.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -236,7 +236,7 @@
 #### Req 5b: Target Play Value Identification
 **Official Requirement 5b:** Describe the reason that someone would want to play your game.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 5b (Describe the reason that someone would want to play your game), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 5b (Describe the reason that someone would want to play your game), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Defining why someone would want to play highlights the game's unique selling proposition and emotional draw. Identifying the intended psychological hook helps evaluate whether prototypes deliver the promised fun.
 - **Common Myth:** A game is inherently fun if the designer personally enjoys playing it.
@@ -253,7 +253,7 @@
 #### Req 5c: Preliminary Rules and Resources
 **Official Requirement 5c:** Make a preliminary list of the rules of the game. Define the resources.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 5c (Make a preliminary list of the rules of the game. Define the resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 5c (Make a preliminary list of the rules of the game. Define the resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drafting preliminary rules establishes turn order, action economy, and win conditions while defining every tracked resource. Clear resource boundaries prevent runaway leaders and establish meaningful operational scarcity.
 - **Common Myth:** Unlimited player actions make a game feel more open and rewarding.
@@ -270,7 +270,7 @@
 **[Parent Directive]:** *Design a new game*
 **Official Requirement 5d:** Draw the game elements.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 20, p. 22)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 5d (Draw the game elements), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 5d (Draw the game elements), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drawing visual schematics of game boards, components, interfaces, or playing spaces exposes mechanical bottlenecks early. Rough dimensional sketches reveal whether cards, tokens, or layouts fit ergonomically on the play surface.
 - **Common Myth:** Game sketches must exhibit professional artistic rendering standards to be useful.
@@ -294,7 +294,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6a:** Prototype your game from requirement 5. If applicable, demonstrate to your counselor that you have addressed player safety through the rules and equipment. Record your work in your game design notebook.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 6a (Prototype your game from requirement 5. If applicable, demonstrate to your counselor that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 6a (Prototype your game from requirement 5. If applicable, demonstrate to your counselor that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a physical prototype requires transforming notebook sketches into playable cards, boards, code, or athletic equipment. Designers must evaluate physical safety, ensuring components have no sharp burrs, toxic residues, or ballistic hazards.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -317,7 +317,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6b:** Test your prototype with as many other people as you need to meet the player format. Compare the play experience to your descriptions from requirement 5(b). Correct unclear rules, holes in the rules, dead ends, and obvious rule exploits. Change at least one rule, mechanic, or objective from your first version of the game, and describe why you are making the change. Play the game again. Record in your game design notebook whether or not your change had the expected effect.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 6b (Test your prototype with as many other people as you need to meet the player format.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 6b (Test your prototype with as many other people as you need to meet the player format.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Running the first playtest tests whether human players experience the emotional engagement promised in the vision statement. The designer observes where players hesitate, ask for rule clarifications, or exploit unpredicted imbalances.
 - **Common Myth:** The designer should constantly intervene and instruct players whenever they make suboptimal moves.
@@ -336,7 +336,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6c:** Repeat 6(b) at least two more times and record the results in your game design notebook.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 69, p. 78)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 6c (Repeat 6(b) at least two more times and record the results in your game design notebook), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 6c (Repeat 6(b) at least two more times and record the results in your game design notebook), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Iterating through at least two additional playtest sessions verifies that rule tweaks solved original issues without creating new bugs. Logging each session in the design notebook documents the evolution of balanced game mechanics.
 - **Common Myth:** One successful playtest is sufficient proof that the game rules are completely finalized.
@@ -357,7 +357,7 @@
 #### Req 7a: Comprehensive Instruction Manual Drafting
 **Official Requirement 7a:** Write an instruction sheet that includes all of the information needed to play the game. Clearly describe how to set up the game, play the game, and end the game. List the game objectives.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 7a (Write an instruction sheet that includes all of the information needed to play the game.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 7a (Write an instruction sheet that includes all of the information needed to play the game.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Writing an instruction manual requires clear technical communication of component inventories, board setup, turn mechanics, and endgame triggers. Formatting rules with numbered lists, headings, and visual diagrams prevents reader confusion during unassisted play.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -380,7 +380,7 @@
 **[Parent Directive]:** *Blind test your game. Do the following*
 **Official Requirement 7b:** Share your prototype from requirement 6 with a group of players that has not played it or witnessed a previous playtest. Provide them with your instruction sheet(s) and any physical components. Watch them play the game, but do not provide them with instruction. Record their feedback in your game design notebook.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 7b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 7b (Share your prototype from requirement 6 with a group of players that has not played it or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 7b (Share your prototype from requirement 6 with a group of players that has not played it or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Providing the prototype to fresh players who have never seen the game tests the manual under real-world conditions. The designer steps back completely, taking observational notes on player body language, confusion, and rule adherence.
 - **Common Myth:** The designer should step in to correct a misread rule so the game plays smoothly.
@@ -399,7 +399,7 @@
 **[Parent Directive]:** *Blind test your game. Do the following*
 **Official Requirement 7c:** Share your game design notebook with your counselor. Discuss the player reactions to your project and what you learned about the game design process. Based on your testing, determine what you like most about your game and suggest one or more changes.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 7c (Share your game design notebook with your counselor. Discuss the player reactions to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 7c (Share your game design notebook with your counselor. Discuss the player reactions to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sharing the cumulative game design notebook with the counselor displays the progression from vision statement to refined product. Debriefing player feedback highlights personal growth in systems thinking, empathy, and technical communication.
 - **Common Myth:** The final discussion focuses only on whether the game is ready for commercial publishing.
@@ -423,7 +423,7 @@
 **Official Requirement 8a:** With your parent or guardian's permission and your counselor's approval, visit with a professional in the game development industry and ask them about their job and how it fits into the overall development process.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Game Design Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 8a (With your parent or guardian's permission and your counselor's approval, visit with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 8a (With your parent or guardian's permission and your counselor's approval, visit with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing a practicing game professional reveals how specialized disciplines collaborate within modern production pipelines. Scouts examine daily responsibilities, toolchains, milestone deadlines, and the realities of commercial product delivery.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -446,7 +446,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 8b:** Meet with a professional in game development education and discuss the skills they emphasize in the classroom.
 **Source:** *Official Scouting America Game Design Merit Badge Pamphlet (p. 23, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For game design Requirement 8b (Meet with a professional in game development education and discuss the skills they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Game Design Requirement 8b (Meet with a professional in game development education and discuss the skills they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework.
 - **Common Myth:** Game design education focuses strictly on teaching specific software coding languages.
@@ -459,3 +459,4 @@
 | **3. Req 8b Practical Example & Counselor Conference Verification** | Consulting with a game design educator highlights foundational skills taught in academic curricula and vocational programs. Discussions focus on portfolio preparation, iterative prototyping techniques, and essential interdisciplinary coursework. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8b):** Scout must individually explain Requirement 8b (Meet with a professional in game development education and discuss the skills they emphasize in the classroom) to the Counselor.
+)

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Graphic%20Arts.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/graphic-arts/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -118,7 +118,7 @@
 **[Parent Directive]:** *Produce the design you created for requirement 3 using one of the following printing processes*
 **Official Requirement 4a:** Offset lithography. Make a layout, and produce a plate using a process approved by your counselor. Run the plate and print at least 50 copies.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 4a (Offset lithography. Make a layout, and produce a plate using a process approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 4a (Offset lithography. Make a layout, and produce a plate using a process approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Offset lithography relies on aluminum plates where oleophilic image zones accept ink while hydrophilic non-image zones attract water. Scouts prepare plates, mount blankets, balance ink and water fountain solutions, and print fifty registered sheets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -141,7 +141,7 @@
 **[Parent Directive]:** *Produce the design you created for requirement 3 using one of the following printing processes*
 **Official Requirement 4b:** Screen printing. Make a hand-cut or photographic stencil and attach it to a screen that you have prepared. Mask the screen and print at least 20 copies. Resource: Screen Printing Tutorial (video)
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 4b (Screen printing. Make a hand-cut or photographic stencil and attach it to a screen that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 4b (Screen printing. Make a hand-cut or photographic stencil and attach it to a screen that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Screen printing forces thick ink through tensioned synthetic mesh masked by photographic emulsion or hand-cut stencils. Scouts squeegee ink across the screen frame onto paper or fabric to yield twenty clean copies.
 - **Common Myth:** Beginners assume screen printing stencils can be made from thin unvarnished paper without bleeding.
@@ -160,7 +160,7 @@
 **[Parent Directive]:** *Produce the design you created for requirement 3 using one of the following printing processes*
 **Official Requirement 4c:** Electronic/digital printing. Create a layout in electronic form, download it to the press or printer, and run 50 copies. If no electronic interface to the press or printer is available, you may print and scan a paper copy of the layout.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 4c (Electronic/digital printing. Create a layout in electronic form, download it to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 4c (Electronic/digital printing. Create a layout in electronic form, download it to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Digital presses generate electrostatic charges on imaging drums to attract dry or liquid toner directly onto sheets without physical plates. Scouts output fifty copies while managing raster image processing and color calibration.
 - **Common Myth:** Users believe digital presses produce identical colors without ever calibrating raster image processors.
@@ -178,7 +178,7 @@
 **[Parent Directive]:** *Produce the design you created for requirement 3 using one of the following printing processes*
 **Official Requirement 4d:** Relief printing. Create a layout in electronic form, download it to the press or printer, and run 50 copies. If no electronic interface to the press or printer is available, you may print and scan a paper copy of the layout.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 17, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 4d (Relief printing. Create a layout in electronic form, download it to the press or printer,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 4d (Relief printing. Create a layout in electronic form, download it to the press or printer,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Relief printing transfers thick oil-based ink from raised metal type, linoleum blocks, or photopolymer surfaces directly to paper under pressure. Scouts ink the raised relief surfaces and hand-crank fifty impression proofs.
 - **Common Myth:** New printers assume relief printing plates require moisture dampening rollers like lithographic presses.
@@ -199,7 +199,7 @@
 #### Req 5a: Paper Finishing Operations Management
 **Official Requirement 5a:** Discuss the finishing operations of padding, drilling, cutting, and trimming with your counselor.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 5a (Discuss the finishing operations of padding, drilling, cutting, and trimming with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 5a (Discuss the finishing operations of padding, drilling, cutting, and trimming with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Finishing operations include guillotine cutting, edge trimming, drill pressing, and adhesive padding to transform raw sheets into usable pads or pamphlets. Precision adjustments prevent crooked edges and misaligned holes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -221,7 +221,7 @@
 #### Req 5b: Bookbinding Methods and Assemblies
 **Official Requirement 5b:** Collect, describe, or identify examples of the following types of binding: perfect, spiral, plastic comb, saddle stitch, and case.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 73, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 5b (Collect, describe, or identify examples of the following types of binding: perfect, spiral,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 5b (Collect, describe, or identify examples of the following types of binding: perfect, spiral,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Binding methods range from staple-based saddle stitching for thin catalogs to thermal glue perfect binding and hardbound case binding for volumes. Scouts examine spiral wire, plastic comb, and stitched spines.
 - **Common Myth:** Readers often think saddle stitching involves sewing thread through leather saddles on antique books.
@@ -244,7 +244,7 @@
 **Official Requirement 6a:** Visit a newspaper printing plant. Follow a story from the editor to the press.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Graphic Arts Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 6a (Visit a newspaper printing plant. Follow a story from the editor to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 6a (Visit a newspaper printing plant. Follow a story from the editor to the press), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Newspaper facilities utilize high-speed web presses and automated platemakers to convert editorial reporting into thousands of daily folded publications. Scouts trace deadline stories from digital editorial desks to high-speed plate towers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -265,7 +265,7 @@
 #### Req 6b: Commercial Facility Workflow Analysis
 **Official Requirement 6b:** Visit a retail, commercial, or in-plant printing facility. Follow a project from beginning to end.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 6b (Visit a retail, commercial, or in-plant printing facility. Follow a project from beginning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 6b (Visit a retail, commercial, or in-plant printing facility. Follow a project from beginning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial and in-plant printing facilities process diverse customer print collateral using sheetfed offset, wide-format inkjet, and digital presses. Scouts follow job tickets through prepress trapping, proofing, presswork, and bindery.
 - **Common Myth:** Clients assume commercial printers print files without performing automated prepress error trapping.
@@ -281,7 +281,7 @@
 #### Req 6c: Vocational Graphic Program Evaluation
 **Official Requirement 6c:** Visit a school's graphic arts program. Find out what courses are available and what the prerequisites are.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 6c (Visit a school's graphic arts program. Find out what courses are available and what the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 6c (Visit a school's graphic arts program. Find out what courses are available and what the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Graphic communications vocational programs teach print management, graphic design software, color science, and equipment maintenance. Scouts review course catalogs and prerequisites for degrees and industry certifications.
 - **Common Myth:** Students believe high school graphic arts classes teach only basic drawing and fine arts.
@@ -298,7 +298,7 @@
 **[Parent Directive]:** *Do ONE of the following, and then describe the highlights of your visit*
 **Official Requirement 6d:** With your parent or guardian's permission, visit three websites that belong to graphic arts professional organizations and/or printing-related companies (suppliers, manufacturers, printers). Print out or download product or service information from two of the sites.
 **Source:** *Official Scouting America Graphic Arts Merit Badge Pamphlet (p. 29, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For graphic arts Requirement 6d (With your parent or guardian's permission, visit three websites that belong to graphic arts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Graphic Arts Requirement 6d (With your parent or guardian's permission, visit three websites that belong to graphic arts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Graphic arts trade organizations and equipment manufacturers publish industry research, technical specifications, and safety guidelines online. Scouts study industry websites to explore manufacturing standards and sustainable print initiatives.
 - **Common Myth:** Novices think print industry associations only represent small local stationery and photocopy shops.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Inventing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/inventing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 #### Req 1a: National Economic Development Drivers
 **Official Requirement 1a:** Explain to your counselor the role of inventors and their inventions in the economic development of the United States.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 1a (Explain to your counselor the role of inventors and their inventions in the economic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 1a (Explain to your counselor the role of inventors and their inventions in the economic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Inventors drive economic vitality by establishing commercial manufacturing sectors and expanding consumer trade. Landmark developments like the cotton gin and semiconductor revolutionized industrial efficiency throughout the nation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Humankind Health and Welfare
 **Official Requirement 1b:** List three inventions and state how they have helped humankind.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 1b (List three inventions and state how they have helped humankind), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 1b (List three inventions and state how they have helped humankind), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Transformative inventions such as refrigeration, water purification, and antibiotics reshaped daily life and survival rates globally. Examining these tools reveals how targeted engineering resolves fundamental survival challenges.
 - **Common Myth:** Only complex digital electronic inventions have produced meaningful improvements in daily human welfare.
@@ -90,7 +90,7 @@
 **Official Requirement 2a:** With your parent or guardian's permission and counselor's approval, interview an adult who has invented a useful item or process. Report what you learned to your counselor.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Inventing Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 2a (With your parent or guardian's permission and counselor's approval, interview an adult who), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 2a (With your parent or guardian's permission and counselor's approval, interview an adult who), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing a practicing inventor exposes the practical challenges of material sourcing, tooling, and commercialization. Recording these direct insights bridges the gap between theoretical sketches and physical production realities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -112,7 +112,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 2b:** Read about three inventors. Select the one you find most interesting and tell your counselor what you learned.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 65, p. 66)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 2b (Read about three inventors. Select the one you find most interesting and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 2b (Read about three inventors. Select the one you find most interesting and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating three notable inventors highlights diverse engineering paths across chemistry, mechanics, and electronics. Analyzing their laboratory methods shows how disciplined documentation enabled repeatable technological breakthroughs.
 - **Common Myth:** Historical inventors worked entirely alone without relying on earlier published scientific research.
@@ -136,7 +136,7 @@
 **Official Requirement 3a:** Define the term intellectual property. Explain which government agencies oversee the protection of intellectual property, the types of intellectual property that can be protected, how such property is protected, and why protection is necessary.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Inventing Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 3a (Define the term intellectual property. Explain which government agencies oversee the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 3a (Define the term intellectual property. Explain which government agencies oversee the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Intellectual property covers four main categories: patents, trademarks, copyrights, and trade secrets. Federal agencies like the USPTO and Copyright Office administer these legal protections to build technological investment.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -157,7 +157,7 @@
 #### Req 3b: Patent Specifications and Claims
 **Official Requirement 3b:** Explain the components of a patent and the different types of patents available.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 3b (Explain the components of a patent and the different types of patents available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 3b (Explain the components of a patent and the different types of patents available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Patent documents contain title, abstract, background, detailed technical descriptions, engineering schematics, and numbered legal claims. Inventors select utility, design, or plant patent filings based on the core nature of their invention.
 - **Common Myth:** Design patents provide legal protection for internal mechanical gears and electronic operating systems.
@@ -177,7 +177,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3c:** Examine your Scouting gear and find a patent number on a camping item you have used. With your parent or guardian's permission, use the internet to find out more about that patent. Compare the finished item with the claims and drawings in the patent. Report what you learned to your counselor.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 3c (Examine your Scouting gear and find a patent number on a camping item you have used. With), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 3c (Examine your Scouting gear and find a patent number on a camping item you have used. With), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Locating stamped patent numbers on outdoor gear connects manufactured equipment to public patent disclosures. Investigating the public patent document reveals original engineering claims, designer identities, and grant dates.
 - **Common Myth:** Patent numbers on commercial products are secret corporate tracking codes hidden from consumers.
@@ -195,7 +195,7 @@
 #### Req 3d: Patent Infringement Legal Boundaries
 **Official Requirement 3d:** Explain to your counselor the term patent infringement.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 39, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 3d (Explain to your counselor the term patent infringement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 3d (Explain to your counselor the term patent infringement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Patent infringement involves making, using, selling, or importing a patented technology without express authorization from the patent holder. Courts compare commercial products against published patent claims to determine liability and damages.
 - **Common Myth:** Changing a minor color on a product prevents all claims of patent infringement.
@@ -272,7 +272,7 @@
 **[Parent Directive]:** *Think of an item you would like to invent that would solve a problem for your family, troop, chartered organization*
 **Official Requirement 6a:** Talk to potential users of your invention and determine their needs. Then, based on what you have learned, write a statement describing the invention and how it would help solve a problem. This statement should include a detailed sketch of the invention.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 6a (Talk to potential users of your invention and determine their needs. Then, based on what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 6a (Talk to potential users of your invention and determine their needs. Then, based on what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Engaging target users uncovers daily functional frustrations and operational constraints that guide device design. Synthesizing these insights produces a focused problem statement that defines clear parameters for your invention.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -296,7 +296,7 @@
 #### Req 6b: Concept Modeling and Materials Listing
 **Official Requirement 6b:** Create a model of the invention using clay, cardboard, or any other readily available material. List the materials necessary to build a working prototype of the invention.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 6b (Create a model of the invention using clay, cardboard, or any other readily available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 6b (Create a model of the invention using clay, cardboard, or any other readily available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing preliminary models from readily available materials allows quick evaluation of geometry, balance, and reach. Compiling a detailed bill of materials identifies the exact fasteners, stocks, and components needed for functional prototypes.
 - **Common Myth:** Full scale metal prototypes must be built before testing basic physical dimensions.
@@ -313,7 +313,7 @@
 **[Parent Directive]:** *Think of an item you would like to invent that would solve a problem for your family, troop, chartered organization*
 **Official Requirement 6c:** Share the idea and the model with your counselor and potential users of your invention. Record their feedback in your notebook.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 56, p. 75)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 6c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 6c (Share the idea and the model with your counselor and potential users of your invention.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 6c (Share the idea and the model with your counselor and potential users of your invention.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Presenting conceptual models to counselors and prospective users provides critical feedback on usability, aesthetics, and feasibility. Recording every critique in a dedicated inventor logbook establishes a transparent audit trail of design revisions.
 - **Common Myth:** User feedback is only useful after the final commercial product is completely manufactured.
@@ -361,7 +361,7 @@
 #### Req 8a: Engineering Team Collaborative Fabrication
 **Official Requirement 8a:** Participate with a club or team (robotics team, science club, or engineering club) that builds a useful item. Share your experience with your counselor.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 8a (Participate with a club or team (robotics team, science club, or engineering club) that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 8a (Participate with a club or team (robotics team, science club, or engineering club) that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Joining a robotics or science club immerses Scouts in multidisciplinary teamwork where mechanical, electrical, and software disciplines converge. Documenting your contributions demonstrates how collaborative engineering solves detailed technical challenges.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -382,7 +382,7 @@
 #### Req 8b: Invention Museum Educational Exhibition
 **Official Requirement 8b:** Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation of your visit to share with a group such as your troop or patrol.
 **Source:** *Official Scouting America Inventing Merit Badge Pamphlet (p. 54, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For inventing Requirement 8b (Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Inventing Requirement 8b (Visit a museum or exhibit dedicated to an inventor or invention, and create a presentation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Touring an invention museum or technical archive highlights the incremental nature of historic industrial progress. Presenting your observations to the troop develops technical communication skills while illustrating historical engineering principles.
 - **Common Myth:** Museums only display final polished inventions without showing early developmental prototype iterations.

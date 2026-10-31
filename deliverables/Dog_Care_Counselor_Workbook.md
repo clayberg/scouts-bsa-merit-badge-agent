@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Dog%20Care.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/dog-care/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1a:** Briefly discuss the historical origin and domestication of the dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 1a (Briefly discuss the historical origin and domestication of the dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 1a (Briefly discuss the historical origin and domestication of the dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Canine domestication began when ancestral wolves scavenged hunter encampments and forged cooperative hunting bonds. Fossil records reveal mutual survival partnerships that predated agrarian civilization.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Major Breed Group Characteristics
 **Official Requirement 1b:** Describe some common characteristics of the dogs that make up each of the seven major dog groups.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 1b (Describe some common characteristics of the dogs that make up each of the seven major dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 1b (Describe some common characteristics of the dogs that make up each of the seven major dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The seven primary breed groups reflect historical functional roles ranging from pest control to sled hauling. Structural characteristics such as coat texture and stamina directly correlate with ancestral working environments.
 - **Common Myth:** Breed group classifications serve only show ring appearance rather than functional working capabilities.
@@ -82,7 +82,7 @@
 #### Req 1c: Individual Breed Profile Analysis
 **Official Requirement 1c:** Tell some specific characteristics of seven breeds of dogs (one from each major group), OR give a short history of one breed.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 12, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 1c (Tell some specific characteristics of seven breeds of dogs (one from each major group), OR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 1c (Tell some specific characteristics of seven breeds of dogs (one from each major group), OR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating individual breed profiles requires examining physical standards, temperamental tendencies, and ancestral task specializations. Detailed study demonstrates how morphology dictates modern performance and daily exercise requirements.
 - **Common Myth:** Individual purebred dogs within a breed exhibit identical temperaments regardless of working drive.
@@ -131,7 +131,7 @@
 #### Req 3a: Canine Training and Socialization
 **Official Requirement 3a:** Explain the importance of house-training, obedience training, and socialization training for your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 3a (Explain the importance of house-training, obedience training, and socialization training), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 3a (Explain the importance of house-training, obedience training, and socialization training), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Crate training leverages the denning instinct of canines to teach bladder control without physical punishment. Obedience training establishes clear human canine communication that ensures domestic harmony.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -154,7 +154,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** Explain what "responsible pet ownership" means.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 3b (Explain what "responsible pet ownership" means), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 3b (Explain what "responsible pet ownership" means), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well.
   - Responsible guardianship requires providing preventative healthcare, parasite management, and legal confinement throughout life. Owners must invest financial resources and time to maintain animal well being.
@@ -174,7 +174,7 @@
 #### Req 3c: Breed Temperament Selection Criteria
 **Official Requirement 3c:** Explain what issues (including temperament) must be considered when deciding on what breed of dog to get as a family pet.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 3c (Explain what issues (including temperament) must be considered when deciding on what breed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 3c (Explain what issues (including temperament) must be considered when deciding on what breed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Matching breed characteristics with family routines prevents animal abandonment and behavioral stress. Prospective owners must evaluate shedding, vocalization tendencies, exercise requirements, and innate working drives.
 - **Common Myth:** Physical coat color and popularity should guide family pet adoption above exercise requirements.
@@ -248,7 +248,7 @@
 #### Req 6a: Core Vaccination Immunization Protocol
 **Official Requirement 6a:** Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6a (Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6a (Discuss the proper vaccination schedule for a dog in your area from puppyhood through adulthood), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Core vaccines protect against deadly pathogens like parvovirus, distemper, adenovirus, and rabies. Serial boosters ensure protective antibody titers as maternal immunity declines during early development.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -270,7 +270,7 @@
 #### Req 6b: Parasite and Vector Prophylaxis
 **Official Requirement 6b:** Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal parasites (worms) for a dog in your area from puppyhood through adulthood.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6b (Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6b (Discuss the control methods for preventing fleas, ticks, heartworms, and intestinal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preventing fleas, ticks, heartworms, and intestinal worms requires oral or topical veterinary preventatives. Controlling environmental eggs and treating intermediate hosts stops cyclical reinfestation.
 - **Common Myth:** Visible fleas on coat fur represent the entire parasite population living in the environment.
@@ -287,7 +287,7 @@
 #### Req 6c: Canine Dental Care Hygiene
 **Official Requirement 6c:** Explain the importance of dental care and tooth brushing to your pet's health.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6c (Explain the importance of dental care and tooth brushing to your pet's health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6c (Explain the importance of dental care and tooth brushing to your pet's health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Daily dental hygiene prevents tartar buildup, gingivitis, and systemic organ damage from oral bacteria. Scouts use enzymatic pet toothpaste and finger brushes to clean the outer tooth surfaces.
 - **Common Myth:** Chewing hard bones cleans teeth adequately without requiring manual toothbrushing with veterinary paste.
@@ -304,7 +304,7 @@
 #### Req 6d: Coat and Nail Grooming
 **Official Requirement 6d:** Discuss the benefits of grooming your dog's coat and nails on a regular basis.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6d (Discuss the benefits of grooming your dog's coat and nails on a regular basis), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6d (Discuss the benefits of grooming your dog's coat and nails on a regular basis), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Frequent coat brushing removes dead hair and distributes skin oils, while nail maintenance prevents painful splayed toes. Grooming routines provide opportunities to detect cutaneous tumors and external parasites early.
 - **Common Myth:** Dog claws wear down naturally on soil and never require clipping unless they split.
@@ -321,7 +321,7 @@
 #### Req 6e: Seasonal Climate Care Adjustments
 **Official Requirement 6e:** Discuss with your counselor any seasonal conditions (like hot summers, cold winters, or extreme humidity) where you live that need to be considered for your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6e (Discuss with your counselor any seasonal conditions (like hot summers, cold winters, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6e (Discuss with your counselor any seasonal conditions (like hot summers, cold winters, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Extreme summer heat risks fatal hyperthermia, while winter freezing causes hypothermia and paw pad cracking. Handlers must adjust outdoor exercise hours and hydration based on ambient weather extremes.
 - **Common Myth:** Shaving double coated dogs in summer keeps them cooler than leaving coats natural.
@@ -338,7 +338,7 @@
 #### Req 6f: Spaying and Neutering Considerations
 **Official Requirement 6f:** Discuss with your counselor the considerations and advantages of spaying or neutering your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 55, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 6f (Discuss with your counselor the considerations and advantages of spaying or neutering your dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 6f (Discuss with your counselor the considerations and advantages of spaying or neutering your dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Surgical neutering and spaying prevent unwanted litters, reduce roaming, and eliminate uterine infections like pyometra. Gonadectomy timing should be coordinated with a veterinarian based on breed growth plates.
 - **Common Myth:** Female dogs should experience at least one heat cycle or litter before being spayed.
@@ -361,7 +361,7 @@
 **Official Requirement 7a:** Explain precautions to take in handling a hurt dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never place an emergency muzzle on a vomiting dog to avoid fatal airway aspiration.
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7a (Explain precautions to take in handling a hurt dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7a (Explain precautions to take in handling a hurt dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Approaching injured animals requires gentle movements, soft vocal tones, and physical containment techniques. Handlers must protect themselves from reflexive fear bites before addressing trauma.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -383,7 +383,7 @@
 #### Req 7b: Emergency Muzzle Application Technique
 **Official Requirement 7b:** Show how to put on an emergency muzzle.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7b (Show how to put on an emergency muzzle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7b (Show how to put on an emergency muzzle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing a temporary muzzle from cloth strips or leashes secures the mouth safely. The tie loops over the bridge of the nose and knots behind ears.
 - **Common Myth:** Emergency muzzles should be wrapped with rigid electrical tape directly around the skin.
@@ -400,7 +400,7 @@
 #### Req 7c: Wound Treatment and Bite First-Aid
 **Official Requirement 7c:** Explain how to treat wounds. Explain first aid for a dog bite.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7c Clinical Signs, First-Aid Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7c (Explain how to treat wounds. Explain first aid for a dog bite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7c (Explain how to treat wounds. Explain first aid for a dog bite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flush canine skin wounds with sterile saline and apply direct pressure to stem hemorrhage. Human bite wounds require immediate soap washing and medical attention to prevent pasteurella infection.
 - **Common Myth:** Dog saliva possesses natural antiseptic properties that heal open skin punctures without treatment.
@@ -416,7 +416,7 @@
 #### Req 7d: Canine Bandaging and Dressing Techniques
 **Official Requirement 7d:** Show how to put on a simple dressing and bandage the foot, body, or head of your dog.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7d (Show how to put on a simple dressing and bandage the foot, body, or head of your dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7d (Show how to put on a simple dressing and bandage the foot, body, or head of your dog), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dressing wounds involves sterile contact pads, cushioning cotton wrap, and protective cohesive outer tape. Proper tensioning maintains circulation while keeping protective dressings clean and dry during transport.
 - **Common Myth:** Elastic bandages should be stretched to maximum tension to keep foot dressings secure.
@@ -433,7 +433,7 @@
 #### Req 7e: Vehicular Trauma Emergency Response
 **Official Requirement 7e:** Explain what to do if a dog is hit by a car.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7e (Explain what to do if a dog is hit by a car), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7e (Explain what to do if a dog is hit by a car), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vehicular impacts often cause internal hemorrhage, pneumothorax, and spinal injuries that require rigid horizontal stretchers. Keep the dog warm with blankets while transporting immediately to veterinary trauma centers.
 - **Common Myth:** A dog hit by a car should be walked immediately to check leg fractures.
@@ -450,7 +450,7 @@
 #### Req 7f: Canine First Aid Kit Essentials
 **Official Requirement 7f:** List the things needed in every dog owner's first-aid kit.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7f (List the things needed in every dog owner's first-aid kit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7f (List the things needed in every dog owner's first-aid kit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dedicated canine medical kits contain digital thermometers, bandage shears, sterile saline, and cohesive wrap. Keeping emergency hospital contacts and poison control numbers inside saves essential diagnostic minutes.
 - **Common Myth:** Standard human travel first aid kits contain safe medications for emergency canine administration.
@@ -467,7 +467,7 @@
 #### Req 7g: Risks of Home Medical Treatment
 **Official Requirement 7g:** Tell the dangers of home treatment of a serious ailment.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7g (Tell the dangers of home treatment of a serious ailment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7g (Tell the dangers of home treatment of a serious ailment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Administering human medications or delaying diagnostic evaluation can induce fatal poisoning or organ failure. Early veterinary intervention remains essential for systemic infections, bloat, and metabolic crises.
 - **Common Myth:** Human over the counter cold medications safely relieve canine fever and respiratory congestion.
@@ -485,7 +485,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 7h:** Briefly discuss the cause and method of spread, the signs and symptoms and the methods of prevention of rabies, parvovirus, distemper, and heartworms in dogs.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 57, p. 68)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 7h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 7h (Briefly discuss the cause and method of spread, the signs and symptoms and the methods of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 7h (Briefly discuss the cause and method of spread, the signs and symptoms and the methods of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rabies, parvovirus, and distemper cause devastating viral infections, while heartworms infect cardiopulmonary vessels via mosquitoes. Prevention through immunization and vector preventatives provides the only reliable defense against mortality.
 - **Common Myth:** Canine distemper and parvovirus spread only through direct skin contact between sick dogs.
@@ -560,7 +560,7 @@
 #### Req 10a: Professional Canine Career Exploration
 **Official Requirement 10a:** Identify three career opportunities that would use skills and knowledge in working with dogs. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 10a (Identify three career opportunities that would use skills and knowledge in working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 10a (Identify three career opportunities that would use skills and knowledge in working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Veterinarians, veterinary technicians, and professional service dog trainers require specialized education and practical experience. Choosing a career path involves researching credentialing bodies, training costs, and compensation prospects.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -583,7 +583,7 @@
 #### Req 10b: Canine Sports and Lifestyle Hobbies
 **Official Requirement 10b:** Identify how you might use the skills and knowledge in working with dogs to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Dog Care Merit Badge Pamphlet (p. 74, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For dog care Requirement 10b (Identify how you might use the skills and knowledge in working with dogs to pursue a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Dog Care Requirement 10b (Identify how you might use the skills and knowledge in working with dogs to pursue a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participating in dog sports like agility, tracking, or canicross promotes personal fitness and human canine teamwork. Enthusiasts invest in specialized harnesses, safety equipment, and trial entry fees to compete.
 - **Common Myth:** Canine sports hobbies require no athletic conditioning or financial commitment beyond a backyard.

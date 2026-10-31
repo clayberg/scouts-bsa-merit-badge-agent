@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Plumbing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/plumbing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Describe how a properly working plumbing system protects your family's health and safety.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always wear safety glasses and chemical-resistant gloves when handling drain piping containing biological pathogens.
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 1a (Describe how a properly working plumbing system protects your family's health and safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 1a (Describe how a properly working plumbing system protects your family's health and safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe plumbing delivers clean drinking water while isolating dangerous pathogens and combustible gases through continuous drain traps.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Local Plumbing Health Regulations
 **Official Requirement 1b:** List five important local health regulations related to plumbing and tell how they protect health and safety.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 1b (List five important local health regulations related to plumbing and tell how they protect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 1b (List five important local health regulations related to plumbing and tell how they protect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Local municipal codes enforce plumbing standards covering pipe materials, pipe slope, venting, backflow prevention, and fixture traps.
 - **Common Myth:** Plumbing codes are optional suggestions meant to help homeowners save money on piping repairs.
@@ -80,7 +80,7 @@
 #### Req 1c: Home Plumbing Repair Precautions
 **Official Requirement 1c:** Describe the safety precautions you must take when making home plumbing repairs.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 20, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 1c (Describe the safety precautions you must take when making home plumbing repairs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 1c (Describe the safety precautions you must take when making home plumbing repairs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repair safety requires isolating water lines, locking out electrical heaters, ventilating solvent fumes, and donning protective equipment.
 - **Common Myth:** Turning off a sink faucet valve provides complete safety when cutting adjacent supply branch lines.
@@ -103,7 +103,7 @@
 **Official Requirement 2a:** Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you would make it safe from freezing.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Ensure water heaters are completely de-energized at the breaker box before draining hot water plumbing lines.
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 2a (Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 2a (Make a drawing and explain how a home hot- and cold-water supply system works. Tell how you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pressurized cold water feeds the water heater and distributes hot and cold streams throughout the building. Anti-freeze measures include foam pipe insulation, heat tape, and frost-free sillcocks with interior drain valves.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -126,7 +126,7 @@
 #### Req 2b: Drain Waste and Vent Architecture
 **Official Requirement 2b:** Make a drawing and explain the drainage system of the plumbing in a house. Show and explain the use of drains and vents.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 9, p. 14)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 2b (Make a drawing and explain the drainage system of the plumbing in a house. Show and explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 2b (Make a drawing and explain the drainage system of the plumbing in a house. Show and explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The drain-waste-vent system uses gravity to carry wastewater to the sewer while vents admit air to preserve trap water seals.
 - **Common Myth:** Vent pipes carry liquid sewage up to the roof to evaporate outside.
@@ -357,7 +357,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6b:** Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a coupling, tee, and elbow.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6b (Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6b (Cut, clean (deburr), PVC or CPVC pipe; solvent weld at least three connections to include a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Solvent welding involves deburring cut plastic ends, applying purple primer to soften mating surfaces, and joining with cement.
 - **Common Myth:** Solvent cement acts as a glue that sticks two separate pieces of plastic together like tape.
@@ -374,7 +374,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6c:** Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp fitting (using specialized tools)
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6c (Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6c (Cut PEX pipe; make at least one connection using either a quick-connect fitting or a crimp), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - PEX tubing connections use specialized crimp tools or push-fit connectors that seat against barbed brass or polyphenylsulfone fittings.
 - **Common Myth:** A standard pair of slip-joint pliers can adequately compress copper PEX crimp rings.
@@ -391,7 +391,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6d:** Solder a copper connection using a gas torch.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6d (Solder a copper connection using a gas torch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6d (Solder a copper connection using a gas torch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sweat soldering requires thoroughly cleaning copper surfaces with emery cloth, applying flux, heating the joint evenly, and applying solder.
 - **Common Myth:** Directing the open torch flame straight at the solder wire ensures the strongest joint bond.
@@ -409,7 +409,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6e:** Replace a kitchen or lavatory faucet.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6e (Replace a kitchen or lavatory faucet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6e (Replace a kitchen or lavatory faucet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Replacing a sink faucet requires shutting off undersink stop valves, disconnecting flexible supply risers, and securing mounting nuts.
 - **Common Myth:** Old crusty supply riser hoses should be reused whenever installing a brand-new faucet body.
@@ -427,7 +427,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6f:** Remove, clean or replace, and reinstall a sink or lavatory drain trap.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6f (Remove, clean or replace, and reinstall a sink or lavatory drain trap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6f (Remove, clean or replace, and reinstall a sink or lavatory drain trap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Servicing a sink P-trap involves loosening slip nuts, draining trapped water into a bucket, clearing debris, and resealing washers.
 - **Common Myth:** Slip joint nuts on sink traps require excessive tightening with a heavy pipe wrench.
@@ -445,7 +445,7 @@
 **[Parent Directive]:** *Do FOUR of the following, each under the supervision of a knowledgeable adult*
 **Official Requirement 6g:** Properly apply pipe thread tape to a pipe or a plumbing connector.
 **Source:** *Official Scouting America Plumbing Merit Badge Pamphlet (p. 15, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plumbing Requirement 6g (Properly apply pipe thread tape to a pipe or a plumbing connector), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plumbing Requirement 6g (Properly apply pipe thread tape to a pipe or a plumbing connector), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - PTFE thread sealant tape wraps snugly into male pipe threads in a clockwise direction to lubricate and seal tapered NPT joints.
 - **Common Myth:** Wrapping thread tape counterclockwise provides the exact same sealing performance as clockwise wrapping.
@@ -487,3 +487,4 @@
 | **4. Discuss what you learned with your counselor and whether you might be interested in this career.** | Specialized Pipefitter Careers: Commercial industrial pipefitters install massive high pressure steam, gas, and chemical transport systems. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7):** Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Plumbing Requirement 7 (plumbing trade careers and training pathways) before signing the blue card.
+))))

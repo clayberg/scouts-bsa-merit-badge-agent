@@ -7,7 +7,7 @@
     "title": "Rifle Instructor Guiding Scout",
     "description": "An instructor guides a youth holding a rifle to ensure safe muzzle control and handling.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
+    "source_label": "📐 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p016_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p016_img1.png",
     "custom_prompt": "",
@@ -15,17 +15,18 @@
     "alternate_rank": 0,
     "caption": "An instructor guides a youth holding a rifle to ensure safe muzzle control and handling.",
     "vision_verified": true,
-    "topic": "Rifle Instructor Guiding Scout"
+    "topic": "Rifle Instructor Guiding Scout",
+    "dhash": "768e8c83723cb6a6"
   },
   {
     "image_id": "3819b513f44784",
     "badge_name": "Rifle Shooting",
     "req_number": "3",
     "slide_title": "Concentric Bullseye Scoring Target",
-    "title": "Concentric Bullseye Scoring Target",
+    "title": "Option A and B Bullseye Scoring Target Rings",
     "description": "Concentric circular scoring rings marked with clock positions illustrate target sight alignment.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
+    "source_label": "📐 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p055_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p055_img1.png",
     "custom_prompt": "",
@@ -33,17 +34,18 @@
     "alternate_rank": 0,
     "caption": "Concentric circular scoring rings marked with clock positions illustrate target sight alignment.",
     "vision_verified": true,
-    "topic": "Option A and B Bullseye Scoring Target Rings"
+    "topic": "Option A and B Bullseye Scoring Target Rings",
+    "dhash": "b037327333b3a626"
   },
   {
     "image_id": "d218c6034b881c",
     "badge_name": "Rifle Shooting",
     "req_number": "2",
     "slide_title": "Traditional Muzzleloading Long Rifle",
-    "title": "Traditional Muzzleloading Long Rifle",
+    "title": "Option C Traditional Muzzleloading Rifle Lock",
     "description": "A classic muzzleloading rifle illustrates the external parts and ignition mechanism of antique arms.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udcd0 Official Pamphlet / Topic Figure",
+    "source_label": "📐 Official Pamphlet / Topic Figure",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p058_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p058_img1.png",
     "custom_prompt": "",
@@ -51,7 +53,8 @@
     "alternate_rank": 0,
     "caption": "A classic muzzleloading rifle illustrates the external parts and ignition mechanism of antique arms.",
     "vision_verified": true,
-    "topic": "Option C Traditional Muzzleloading Rifle Lock"
+    "topic": "Option C Traditional Muzzleloading Rifle Lock",
+    "dhash": "400fc0901f608200"
   },
   {
     "image_id": "a3061fe28071bd",
@@ -61,51 +64,54 @@
     "title": "Antlered White Tailed Deer",
     "description": "A male white-tailed deer exemplifies big game species managed through strict wildlife laws.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #1 (Req 1)",
+    "source_label": "🔄 Official Pamphlet Alternate #1 (Req 1)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p082_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p082_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 1,
+    "is_alternate": false,
+    "alternate_rank": 0,
     "caption": "A male white-tailed deer exemplifies big game species managed through strict wildlife laws.",
     "vision_verified": true,
-    "topic": "Antlered White Tailed Deer"
+    "topic": "Antlered White Tailed Deer",
+    "dhash": "e8d4311796974f25"
   },
   {
     "image_id": "296f9bcd83005c",
     "badge_name": "Rifle Shooting",
     "req_number": "2",
     "slide_title": "Cleaning A Target Rifle",
-    "title": "Cleaning A Target Rifle",
+    "title": "Option A Cleaning Modern Cartridge Rifle Bore",
     "description": "A shooter pushes a cleaning rod through the bore of a rifle during routine maintenance.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #2 (Req 2)",
+    "source_label": "🔄 Official Pamphlet Alternate #2 (Req 2)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p030_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p030_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2,
+    "is_alternate": false,
+    "alternate_rank": 0,
     "caption": "A shooter pushes a cleaning rod through the bore of a rifle during routine maintenance.",
     "vision_verified": true,
-    "topic": "Option A Cleaning Modern Cartridge Rifle Bore"
+    "topic": "Option A Cleaning Modern Cartridge Rifle Bore",
+    "dhash": "879898a7a7937a9a"
   },
   {
     "image_id": "0bea89c06ebe56",
     "badge_name": "Rifle Shooting",
     "req_number": "3",
     "slide_title": "Competitive Target Rifle Shooter",
-    "title": "Competitive Target Rifle Shooter",
+    "title": "Option B Target Air Rifle Standing Position",
     "description": "A competitor in specialized shooting apparel aims a rifle at an indoor target range.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #2 (Req 3)",
+    "source_label": "🔄 Official Pamphlet Alternate #2 (Req 3)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p038_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p038_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2,
+    "is_alternate": false,
+    "alternate_rank": 0,
     "caption": "A competitor in specialized shooting apparel aims a rifle at an indoor target range.",
     "vision_verified": true,
-    "topic": "Option B Target Air Rifle Standing Position"
+    "topic": "Option B Target Air Rifle Standing Position",
+    "dhash": "9911663b9cce8e8c"
   },
   {
     "image_id": "f1156522cddf01",
@@ -115,15 +121,16 @@
     "title": "Flying Wild Mallard Duck",
     "description": "A mallard duck in flight represents game waterfowl protected by conservation regulations.",
     "source_type": "OFFICIAL_PAMPHLET_FIGURE",
-    "source_label": "\ud83d\udd04 Official Pamphlet Alternate #2 (Req 1)",
+    "source_label": "🔄 Official Pamphlet Alternate #2 (Req 1)",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p080_img1.png",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p080_img1.png",
     "custom_prompt": "",
-    "is_alternate": true,
-    "alternate_rank": 2,
+    "is_alternate": false,
+    "alternate_rank": 0,
     "caption": "A mallard duck in flight represents game waterfowl protected by conservation regulations.",
     "vision_verified": true,
-    "topic": "Flying Wild Mallard Duck"
+    "topic": "Flying Wild Mallard Duck",
+    "dhash": "0e0f0c6ea7030b01"
   },
   {
     "image_id": "8cc909b6b75fcb",
@@ -133,7 +140,7 @@
     "title": "Rifle Shooting Positions And Alignment",
     "description": "Instructional charts demonstrate proper sight alignment, steady grip positions, and prone rifle shooting fundamentals.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "\ud83c\udf4c Nano Banana Hero",
+    "source_label": "🍌 Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1_nano_hero.png",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1_nano_hero.png",
     "custom_prompt": "",
@@ -141,7 +148,8 @@
     "alternate_rank": 0,
     "caption": "Instructional charts demonstrate proper sight alignment, steady grip positions, and prone rifle shooting fundamentals.",
     "vision_verified": true,
-    "topic": "Rifle Shooting Positions And Alignment"
+    "topic": "Rifle Shooting Positions And Alignment",
+    "dhash": "a88a8ab2b1b98a8c"
   },
   {
     "image_id": "35c22c3027273c",
@@ -151,7 +159,7 @@
     "title": "Firing Range Safety And Marksmanship",
     "description": "Range diagrams show Scouts wearing hearing protection while practicing target shooting under instructor supervision.",
     "source_type": "NANO_BANANA_AI",
-    "source_label": "\ud83c\udfa8 Nano Banana Topic Visual",
+    "source_label": "🍌 Nano Banana Visual",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1_topic_visual.png",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1_topic_visual.png",
     "custom_prompt": "",
@@ -159,7 +167,8 @@
     "alternate_rank": 0,
     "caption": "Range diagrams show Scouts wearing hearing protection while practicing target shooting under instructor supervision.",
     "vision_verified": true,
-    "topic": "Firing Range Safety And Marksmanship"
+    "topic": "Firing Range Safety And Marksmanship",
+    "dhash": "988a8a94d2c8cac8"
   },
   {
     "image_id": "15ed6cfe5300ba",
@@ -169,7 +178,7 @@
     "title": "Range Instructor Reviewing Target Scores",
     "description": "A shooting sports instructor and smiling Scout evaluate target accuracy results on an outdoor firing range.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "\ud83c\udf4c Nano Banana Hero",
+    "source_label": "🍌 Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2_nano_hero.png",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2_nano_hero.png",
     "custom_prompt": "",
@@ -177,7 +186,8 @@
     "alternate_rank": 0,
     "caption": "A shooting sports instructor and smiling Scout evaluate target accuracy results on an outdoor firing range.",
     "vision_verified": true,
-    "topic": "Range Instructor Reviewing Target Scores"
+    "topic": "Range Instructor Reviewing Target Scores",
+    "dhash": "6362e16547219191"
   },
   {
     "image_id": "b966e783a78ec4",
@@ -187,7 +197,7 @@
     "title": "Supervised Rifle Practice At Range",
     "description": "A Scout aims a rifle downrange while a range safety officer and fellow Scout observe.",
     "source_type": "NANO_BANANA_HERO",
-    "source_label": "\ud83c\udf4c Nano Banana Hero",
+    "source_label": "🍌 Nano Banana Hero",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_3_nano_hero.png",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_3_nano_hero.png",
     "custom_prompt": "",
@@ -195,7 +205,8 @@
     "alternate_rank": 0,
     "caption": "A Scout aims a rifle downrange while a range safety officer and fellow Scout observe.",
     "vision_verified": true,
-    "topic": "Supervised Rifle Practice At Range"
+    "topic": "Supervised Rifle Practice At Range",
+    "dhash": "d292d29490b28eac"
   },
   {
     "image_id": "bdc2713e66d2fa",
@@ -205,14 +216,15 @@
     "title": "Rifle Shooting Official Merit Badge Emblem",
     "description": "Official Scouting America rifle shooting Merit Badge embroidered emblem.",
     "source_type": "OFFICIAL_BADGE_ASSET",
-    "source_label": "\u269c\ufe0f Official Merit Badge Emblem",
+    "source_label": "⚜️ Official Merit Badge Emblem",
     "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/badge_emblems/rifle_shooting.png",
     "image_url": "/assets/badge_emblems/rifle_shooting.png",
     "custom_prompt": "",
     "is_alternate": false,
     "alternate_rank": 0,
     "caption": "Official Scouting America rifle shooting Merit Badge embroidered emblem.",
-    "topic": "rifle shooting Merit Badge Official Emblem"
+    "topic": "rifle shooting Merit Badge Official Emblem",
+    "dhash": "0e3b697c74591f0f"
   },
   {
     "id": "000739adecfd81",
@@ -222,15 +234,19 @@
       "1"
     ],
     "topic": "Firearm Safety and Range Stewardship: Muzzle Direction Control",
-    "caption": "Muzzle Direction Control diagram illustrating how always point the rifle barrel toward a designated safe direction downrange during handling.",
-    "description": "Muzzle Direction Control diagram illustrating how always point the rifle barrel toward a designated safe direction downrange during handling.",
+    "caption": "Technical diagram of muzzle direction control principles and field relationships in Rifle Shooting (Requirement 1).",
+    "description": "Technical diagram of muzzle direction control principles and field relationships in Rifle Shooting (Requirement 1).",
     "keywords": [
       "rifle shooting"
     ],
     "source_type": "PAMPHLET_FIGURE",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p003_img1.png",
-    "image_path": "assets/pamphlet_images/rifle_shooting_p003_img1.png",
-    "image_id": "000739adecfd81"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p003_img1.png",
+    "image_id": "000739adecfd81",
+    "title": "Firearm Safety and Range Stewardship: Muzzle Direction Control",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "dhash": "a88a8ab2b1b98a8c"
   },
   {
     "id": "72a53abf2c69ef",
@@ -240,15 +256,19 @@
       "2"
     ],
     "topic": "Supervised Range Marksmanship Qualification: Major Assembly Nomenclature",
-    "caption": "Major Assembly Nomenclature diagram illustrating how every conventional rifle consists of the barrel, the action, and the stock.",
-    "description": "Major Assembly Nomenclature diagram illustrating how every conventional rifle consists of the barrel, the action, and the stock.",
+    "caption": "Technical diagram of major assembly nomenclature principles and field relationships in Rifle Shooting (Requirement 2).",
+    "description": "Technical diagram of major assembly nomenclature principles and field relationships in Rifle Shooting (Requirement 2).",
     "keywords": [
       "rifle shooting"
     ],
     "source_type": "PAMPHLET_FIGURE",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p007_img1.png",
-    "image_path": "assets/pamphlet_images/rifle_shooting_p007_img1.png",
-    "image_id": "72a53abf2c69ef"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p007_img1.png",
+    "image_id": "72a53abf2c69ef",
+    "title": "Supervised Range Marksmanship Qualification: Major Assembly Nomencla",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "dhash": "6362e16547219191"
   },
   {
     "id": "9973c41ed1626c",
@@ -258,15 +278,19 @@
       "3"
     ],
     "topic": "Shooting Sports Career Pathways: Gunsmithing Precision Trade",
-    "caption": "Gunsmithing Precision Trade diagram illustrating how professional gunsmiths complete vocational apprenticeships learning metallurgy, machining, and firearm diagnostic repair.",
-    "description": "Gunsmithing Precision Trade diagram illustrating how professional gunsmiths complete vocational apprenticeships learning metallurgy, machining, and firearm diagnostic repair.",
+    "caption": "Technical diagram of gunsmithing precision trade principles and field relationships in Rifle Shooting (Requirement 3).",
+    "description": "Technical diagram of gunsmithing precision trade principles and field relationships in Rifle Shooting (Requirement 3).",
     "keywords": [
       "rifle shooting"
     ],
     "source_type": "PAMPHLET_FIGURE",
     "image_url": "/assets/pamphlet_images/rifle_shooting_p012_img1.png",
-    "image_path": "assets/pamphlet_images/rifle_shooting_p012_img1.png",
-    "image_id": "9973c41ed1626c"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/pamphlet_images/rifle_shooting_p012_img1.png",
+    "image_id": "9973c41ed1626c",
+    "title": "Shooting Sports Career Pathways: Gunsmithing Precision Trade",
+    "is_alternate": false,
+    "alternate_rank": 0,
+    "dhash": "d292d29490b28eac"
   },
   {
     "id": "f15fb7a412f993",
@@ -282,10 +306,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1a_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1a_nano_hero.png",
-    "image_id": "f15fb7a412f993"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1a_nano_hero.png",
+    "image_id": "f15fb7a412f993",
+    "title": "Rifle Shooting Option 1A Projectile Is and Why",
+    "slide_title": "Rifle Shooting Option 1A Projectile Is and Why",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "9999939292d2a3ac"
   },
   {
     "id": "2f8fc553345903",
@@ -301,10 +329,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1a_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1a_topic_visual.png",
-    "image_id": "2f8fc553345903"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1a_topic_visual.png",
+    "image_id": "2f8fc553345903",
+    "title": "Rifle Shooting Option 1A Projectile Is and Why",
+    "slide_title": "Rifle Shooting Option 1A Projectile Is and Why",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "400300fa07000000"
   },
   {
     "id": "8e2bea93f8d2d0",
@@ -320,10 +352,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1b_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1b_nano_hero.png",
-    "image_id": "8e2bea93f8d2d0"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1b_nano_hero.png",
+    "image_id": "8e2bea93f8d2d0",
+    "title": "Rifle Shooting Option 1B Basic Rules of Safe Gun",
+    "slide_title": "Rifle Shooting Option 1B Basic Rules of Safe Gun",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "0f0d8c4e47034904"
   },
   {
     "id": "25b7898e944b57",
@@ -339,10 +375,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1b_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1b_topic_visual.png",
-    "image_id": "25b7898e944b57"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1b_topic_visual.png",
+    "image_id": "25b7898e944b57",
+    "title": "Rifle Shooting Option 1B Basic Rules of Safe Gun",
+    "slide_title": "Rifle Shooting Option 1B Basic Rules of Safe Gun",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "71313b9796929797"
   },
   {
     "id": "fb6aee98ed836f",
@@ -358,10 +398,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1c_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1c_nano_hero.png",
-    "image_id": "fb6aee98ed836f"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1c_nano_hero.png",
+    "image_id": "fb6aee98ed836f",
+    "title": "Rifle Shooting Option 1C You Would React",
+    "slide_title": "Rifle Shooting Option 1C You Would React",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "400700fa1f000000"
   },
   {
     "id": "a82c3b1ba274a0",
@@ -377,10 +421,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1c_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1c_topic_visual.png",
-    "image_id": "a82c3b1ba274a0"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1c_topic_visual.png",
+    "image_id": "a82c3b1ba274a0",
+    "title": "Rifle Shooting Option 1C You Would React",
+    "slide_title": "Rifle Shooting Option 1C You Would React",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "9999939292d2a3ac"
   },
   {
     "id": "63109bbb468e90",
@@ -396,10 +444,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1d_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1d_nano_hero.png",
-    "image_id": "63109bbb468e90"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1d_nano_hero.png",
+    "image_id": "63109bbb468e90",
+    "title": "Rifle Shooting Option 1D Need for Types and Use",
+    "slide_title": "Rifle Shooting Option 1D Need for Types and Use",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "939b92929092a2ac"
   },
   {
     "id": "a4cbe6cc895d30",
@@ -415,10 +467,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1d_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1d_topic_visual.png",
-    "image_id": "a4cbe6cc895d30"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1d_topic_visual.png",
+    "image_id": "a4cbe6cc895d30",
+    "title": "Rifle Shooting Option 1D Need for Types and Use",
+    "slide_title": "Rifle Shooting Option 1D Need for Types and Use",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "9193b21232524a2c"
   },
   {
     "id": "b3a922308d47c1",
@@ -434,10 +490,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1e_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1e_nano_hero.png",
-    "image_id": "b3a922308d47c1"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1e_nano_hero.png",
+    "image_id": "b3a922308d47c1",
+    "title": "Rifle Shooting Option 1E Main Points of The Laws",
+    "slide_title": "Rifle Shooting Option 1E Main Points of The Laws",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "e262c5c5d101b0b1"
   },
   {
     "id": "7f97e818c5e590",
@@ -453,10 +513,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1e_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1e_topic_visual.png",
-    "image_id": "7f97e818c5e590"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1e_topic_visual.png",
+    "image_id": "7f97e818c5e590",
+    "title": "Rifle Shooting Option 1E Main Points of The Laws",
+    "slide_title": "Rifle Shooting Option 1E Main Points of The Laws",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "b3b2b2b43436424c"
   },
   {
     "id": "12fa8a80af209d",
@@ -472,10 +536,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1f_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1f_nano_hero.png",
-    "image_id": "12fa8a80af209d"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1f_nano_hero.png",
+    "image_id": "12fa8a80af209d",
+    "title": "Rifle Shooting Option 1F Hunting Is Related",
+    "slide_title": "Rifle Shooting Option 1F Hunting Is Related",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "0f0d8c4f47034b05"
   },
   {
     "id": "4bda3c96e61115",
@@ -491,10 +559,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1f_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1f_topic_visual.png",
-    "image_id": "4bda3c96e61115"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1f_topic_visual.png",
+    "image_id": "4bda3c96e61115",
+    "title": "Rifle Shooting Option 1F Hunting Is Related",
+    "slide_title": "Rifle Shooting Option 1F Hunting Is Related",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "0b0d8c4e47030b01"
   },
   {
     "id": "6784c0bdf1f66e",
@@ -511,10 +583,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1g_1_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1g_1_nano_hero.png",
-    "image_id": "6784c0bdf1f66e"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1g_1_nano_hero.png",
+    "image_id": "6784c0bdf1f66e",
+    "title": "Rifle Shooting Req 1g(1) Main Points of Hunting Laws",
+    "slide_title": "Rifle Shooting Req 1g(1) Main Points of Hunting Laws",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "9a1a93722129df1a"
   },
   {
     "id": "d9739d17ac2ee8",
@@ -531,10 +607,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1g_2_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1g_2_nano_hero.png",
-    "image_id": "d9739d17ac2ee8"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1g_2_nano_hero.png",
+    "image_id": "d9739d17ac2ee8",
+    "title": "Rifle Shooting Req 1g(2) Kinds of Wildlife",
+    "slide_title": "Rifle Shooting Req 1g(2) Kinds of Wildlife",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "898a0c94f289c8ca"
   },
   {
     "id": "3374fd3cb4426e",
@@ -550,10 +630,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1g_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1g_nano_hero.png",
-    "image_id": "3374fd3cb4426e"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1g_nano_hero.png",
+    "image_id": "3374fd3cb4426e",
+    "title": "Rifle Shooting Option 1G Successfully Complete A State Hunter",
+    "slide_title": "Rifle Shooting Option 1G Successfully Complete A State Hunter",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "288a8bf2b1bdcb8c"
   },
   {
     "id": "36258b5d2ea3ff",
@@ -569,10 +653,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1g_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1g_topic_visual.png",
-    "image_id": "36258b5d2ea3ff"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1g_topic_visual.png",
+    "image_id": "36258b5d2ea3ff",
+    "title": "Rifle Shooting Option 1G Successfully Complete A State Hunter",
+    "slide_title": "Rifle Shooting Option 1G Successfully Complete A State Hunter",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "9193929212528aac"
   },
   {
     "id": "24a9cae8c18e34",
@@ -588,10 +676,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1h_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1h_nano_hero.png",
-    "image_id": "24a9cae8c18e34"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1h_nano_hero.png",
+    "image_id": "24a9cae8c18e34",
+    "title": "Rifle Shooting Option 1H Proper Hygienic Guidelines Followed",
+    "slide_title": "Rifle Shooting Option 1H Proper Hygienic Guidelines Followed",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "385cc3633270ef1c"
   },
   {
     "id": "c54a7bdf2f6936",
@@ -607,10 +699,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1h_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1h_topic_visual.png",
-    "image_id": "c54a7bdf2f6936"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1h_topic_visual.png",
+    "image_id": "c54a7bdf2f6936",
+    "title": "Rifle Shooting Option 1H Proper Hygienic Guidelines Followed",
+    "slide_title": "Rifle Shooting Option 1H Proper Hygienic Guidelines Followed",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "da1a1b723129cb1a"
   },
   {
     "id": "c81794c82707b5",
@@ -626,10 +722,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1i_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1i_nano_hero.png",
-    "image_id": "c81794c82707b5"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1i_nano_hero.png",
+    "image_id": "c81794c82707b5",
+    "title": "Rifle Shooting Option 1I Places in Your Community",
+    "slide_title": "Rifle Shooting Option 1I Places in Your Community",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "e565310c9c9c868f"
   },
   {
     "id": "4742535e3e9e98",
@@ -645,10 +745,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1i_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1i_topic_visual.png",
-    "image_id": "4742535e3e9e98"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1i_topic_visual.png",
+    "image_id": "4742535e3e9e98",
+    "title": "Rifle Shooting Option 1I Places in Your Community",
+    "slide_title": "Rifle Shooting Option 1I Places in Your Community",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "92dad2929092a6ac"
   },
   {
     "id": "191ebbdf8062c6",
@@ -664,10 +768,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1j_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1j_nano_hero.png",
-    "image_id": "191ebbdf8062c6"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1j_nano_hero.png",
+    "image_id": "191ebbdf8062c6",
+    "title": "Rifle Shooting Option 1J List of Sources You",
+    "slide_title": "Rifle Shooting Option 1J List of Sources You",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "c3e2e3654650a190"
   },
   {
     "id": "c95c72d25b63e9",
@@ -683,10 +791,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_1j_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_1j_topic_visual.png",
-    "image_id": "c95c72d25b63e9"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_1j_topic_visual.png",
+    "image_id": "c95c72d25b63e9",
+    "title": "Rifle Shooting Option 1J List of Sources You",
+    "slide_title": "Rifle Shooting Option 1J List of Sources You",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "0f1d8c4f47034b05"
   },
   {
     "id": "9d8f452624b7d1",
@@ -696,15 +808,19 @@
       "2"
     ],
     "topic": "Rifle Shooting Req 2 Historical Origins and Evolution",
-    "caption": "Historical Origins and Evolution procedures and verification checkpoints for Rifle Shooting Requirement 2.",
-    "description": "Historical Origins and Evolution procedures and verification checkpoints for Rifle Shooting Requirement 2.",
+    "caption": "Field illustration of historical origins and evolution techniques and safety practices for Rifle Shooting (Requirement 2.).",
+    "description": "Field illustration of historical origins and evolution techniques and safety practices for Rifle Shooting (Requirement 2.).",
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2_topic_visual.png",
-    "image_id": "9d8f452624b7d1"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2_topic_visual.png",
+    "image_id": "9d8f452624b7d1",
+    "title": "Rifle Shooting Req 2 Historical Origins and Evolution",
+    "slide_title": "Rifle Shooting Req 2 Historical Origins and Evolution",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "9a0a8cb49389da98"
   },
   {
     "id": "c10ecc29b9aa6a",
@@ -721,10 +837,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2a_1_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2a_1_nano_hero.png",
-    "image_id": "c10ecc29b9aa6a"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2a_1_nano_hero.png",
+    "image_id": "c10ecc29b9aa6a",
+    "title": "Rifle Shooting Req 2a(1) Three Main Parts",
+    "slide_title": "Rifle Shooting Req 2a(1) Three Main Parts",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "169349e831768c38"
   },
   {
     "id": "447457b244521e",
@@ -741,10 +861,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2a_2_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2a_2_nano_hero.png",
-    "image_id": "447457b244521e"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2a_2_nano_hero.png",
+    "image_id": "447457b244521e",
+    "title": "Rifle Shooting Req 2a(2) Demonstrate The Rules for Safely",
+    "slide_title": "Rifle Shooting Req 2a(2) Demonstrate The Rules for Safely",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "8e96926960b133c6"
   },
   {
     "id": "a9cef4b94e4f11",
@@ -760,10 +884,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2a_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2a_nano_hero.png",
-    "image_id": "a9cef4b94e4f11"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2a_nano_hero.png",
+    "image_id": "a9cef4b94e4f11",
+    "title": "Rifle Shooting Option 2A Option A Rifle Shooting Modern",
+    "slide_title": "Rifle Shooting Option 2A Option A Rifle Shooting Modern",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "888b8cd2d18dcac8"
   },
   {
     "id": "e89b073f840d59",
@@ -779,10 +907,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2a_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2a_topic_visual.png",
-    "image_id": "e89b073f840d59"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2a_topic_visual.png",
+    "image_id": "e89b073f840d59",
+    "title": "Rifle Shooting Option 2A Option A Rifle Shooting Modern",
+    "slide_title": "Rifle Shooting Option 2A Option A Rifle Shooting Modern",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "0b0d8c4e47034b01"
   },
   {
     "id": "30875853322e69",
@@ -799,10 +931,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2b_1_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2b_1_nano_hero.png",
-    "image_id": "30875853322e69"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2b_1_nano_hero.png",
+    "image_id": "30875853322e69",
+    "title": "Rifle Shooting Req 2b(1) Three Main Parts",
+    "slide_title": "Rifle Shooting Req 2b(1) Three Main Parts",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "401f007abf000000"
   },
   {
     "id": "86017062402d34",
@@ -819,10 +955,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2b_2_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2b_2_nano_hero.png",
-    "image_id": "86017062402d34"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2b_2_nano_hero.png",
+    "image_id": "86017062402d34",
+    "title": "Rifle Shooting Req 2b(2) Demonstrate The Rules for Safely",
+    "slide_title": "Rifle Shooting Req 2b(2) Demonstrate The Rules for Safely",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "43e2e16d46219191"
   },
   {
     "id": "09529f865439af",
@@ -838,10 +978,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2b_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2b_nano_hero.png",
-    "image_id": "09529f865439af"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2b_nano_hero.png",
+    "image_id": "09529f865439af",
+    "title": "Rifle Shooting Option 2B Option B Air Rifle Shooting",
+    "slide_title": "Rifle Shooting Option 2B Option B Air Rifle Shooting",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "1c249343e072ec18"
   },
   {
     "id": "25d252ade96fbc",
@@ -857,10 +1001,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2b_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2b_topic_visual.png",
-    "image_id": "25d252ade96fbc"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2b_topic_visual.png",
+    "image_id": "25d252ade96fbc",
+    "title": "Rifle Shooting Option 2B Option B Air Rifle Shooting",
+    "slide_title": "Rifle Shooting Option 2B Option B Air Rifle Shooting",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "61185c632330cf1d"
   },
   {
     "id": "d210c262899caa",
@@ -877,10 +1025,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2c_1_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2c_1_nano_hero.png",
-    "image_id": "d210c262899caa"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2c_1_nano_hero.png",
+    "image_id": "d210c262899caa",
+    "title": "Rifle Shooting Req 2c(1) Historical Origins and Evolution",
+    "slide_title": "Rifle Shooting Req 2c(1) Historical Origins and Evolution",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "0e14349349e032ee"
   },
   {
     "id": "c255276e4b7d12",
@@ -897,10 +1049,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2c_2_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2c_2_nano_hero.png",
-    "image_id": "c255276e4b7d12"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2c_2_nano_hero.png",
+    "image_id": "c255276e4b7d12",
+    "title": "Rifle Shooting Req 2c(2) Principal Parts of Muzzleloading Rifles",
+    "slide_title": "Rifle Shooting Req 2c(2) Principal Parts of Muzzleloading Rifles",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "589a1bb23235288b"
   },
   {
     "id": "265044b30edf22",
@@ -916,10 +1072,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_HERO",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2c_nano_hero.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2c_nano_hero.png",
-    "image_id": "265044b30edf22"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2c_nano_hero.png",
+    "image_id": "265044b30edf22",
+    "title": "Rifle Shooting Option 2C Historical Origins and Evolution",
+    "slide_title": "Rifle Shooting Option 2C Historical Origins and Evolution",
+    "source_label": "🍌 Nano Banana Hero",
+    "dhash": "0c2493d3e872ee18"
   },
   {
     "id": "7f074a55f25741",
@@ -935,10 +1095,14 @@
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_2c_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_2c_topic_visual.png",
-    "image_id": "7f074a55f25741"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_2c_topic_visual.png",
+    "image_id": "7f074a55f25741",
+    "title": "Rifle Shooting Option 2C Historical Origins and Evolution",
+    "slide_title": "Rifle Shooting Option 2C Historical Origins and Evolution",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "199a0a94b699d9da"
   },
   {
     "id": "36ac030efc78b7",
@@ -948,14 +1112,18 @@
       "3"
     ],
     "topic": "Rifle Shooting Req 3 Shooting Sports Careers & Conservation",
-    "caption": "Shooting Sports Careers & Conservation procedures and verification checkpoints for Rifle Shooting Requirement 3.",
-    "description": "Shooting Sports Careers & Conservation procedures and verification checkpoints for Rifle Shooting Requirement 3.",
+    "caption": "Field illustration of shooting sports careers & conservation techniques and safety practices for Rifle Shooting (Requirement 3.).",
+    "description": "Field illustration of shooting sports careers & conservation techniques and safety practices for Rifle Shooting (Requirement 3.).",
     "keywords": [
       "rifle shooting"
     ],
-    "source_type": "NANO_BANANA_ILLUSTRATION",
+    "source_type": "NANO_BANANA_AI",
     "image_url": "/assets/ai_illustrations/rifle_shooting_req_3_topic_visual.png",
-    "image_path": "assets/ai_illustrations/rifle_shooting_req_3_topic_visual.png",
-    "image_id": "36ac030efc78b7"
+    "image_path": "/usr/local/google/home/clayberg/.gemini/jetski/scratch/scouts-bsa-merit-badge-agent/assets/ai_illustrations/rifle_shooting_req_3_topic_visual.png",
+    "image_id": "36ac030efc78b7",
+    "title": "Rifle Shooting Req 3 Shooting Sports Careers & Conservation",
+    "slide_title": "Rifle Shooting Req 3 Shooting Sports Careers & Conservation",
+    "source_label": "🍌 Nano Banana Visual",
+    "dhash": "93b3b2b63436424e"
   }
 ]

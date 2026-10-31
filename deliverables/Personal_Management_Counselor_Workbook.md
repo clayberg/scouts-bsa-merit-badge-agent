@@ -43,7 +43,7 @@
 #### Req 1a: Major Family Expense Selection
 **Official Requirement 1a:** Choose an item that your family might want to purchase that is considered a major expense.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 1a (Choose an item that your family might want to purchase that is considered a major expense), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 1a (Choose an item that your family might want to purchase that is considered a major expense), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Major purchases represent substantial financial investments that impact the overall household operating budget. Families must distinguish between routine consumer goods and significant capital commitments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -52,7 +52,7 @@
 - **Common Myth:** Any item costing more than fifty dollars qualifies as a major family expense.
 - **Pamphlet Fact:** A major expense represents a significant outlay relative to total household annual income.
 
-![Major Expense Assessment diagram illustrating how family purchases require evaluating initial retail pricing against ongoing operational maintenance costs.](/assets/pamphlet_images/personal_management_p003_img1.png)
+![Technical diagram of major expense assessment principles and field relationships in Personal Management (Requirement 1).](/assets/pamphlet_images/personal_management_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -65,7 +65,7 @@
 #### Req 1b: Family Savings Plan Development
 **Official Requirement 1b:** Write a plan that tells how your family would save money for the purchase identified in requirement 1(a). (1) Discuss the plan with your counselor. (2) Discuss the plan with your family. (3) Discuss how other family needs must be considered in this plan.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 15, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 1b (Write a plan that tells how your family would save money for the purchase identified in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 1b (Write a plan that tells how your family would save money for the purchase identified in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a savings roadmap requires calculating exact periodic contributions toward a fixed target sum. Reviewing this plan with family members ensures mutual accountability and shared sacrifice.
 - **Common Myth:** A savings plan works effectively without setting explicit weekly deposit targets or deadlines.
@@ -129,7 +129,7 @@
 #### Req 2a: Thirteen Week Budget Preparation
 **Official Requirement 2a:** Prepare a budget reflecting your expected income (allowance, gifts, wages), expenses, and savings for a period of 13 consecutive weeks.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Scout Workbook Organizer (Ledger 13Wk):** Req 2a 13-Week Personal Budget, Income & Expense Ledger
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 2a (Prepare a budget reflecting your expected income (allowance, gifts, wages), expenses, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 2a (Prepare a budget reflecting your expected income (allowance, gifts, wages), expenses, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Projecting income and expenses over thirteen weeks provides a clear picture of short term cash flow. Balancing savings alongside fixed obligations prevents reliance on debt.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -138,7 +138,7 @@
 - **Common Myth:** Budgets only need to record fixed recurring income rather than variable earnings.
 - **Pamphlet Fact:** An effective personal budget accounts for fluctuating seasonal gifts alongside predictable weekly wages.
 
-![Weekly Budget Construction diagram illustrating how tracking projected earnings against scheduled commitments prevents overdraft fees and deficit spending.](/assets/pamphlet_images/personal_management_p007_img1.png)
+![Technical diagram of weekly budget construction principles and field relationships in Personal Management (Requirement 2).](/assets/pamphlet_images/personal_management_p007_img1.png)
 
 | 13-Week Budget Period / Category | Projected Income & Allowance ($) | Actual Expenses: Needs vs. Wants ($) | Net Savings & Budget Variance ($) |
 | :--- | :--- | :--- | :--- |
@@ -195,7 +195,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2c:** Track and record your actual income, expenses, and savings for 13 consecutive weeks (the same 13-week period for which you budgeted). (You may use the forms provided in the Personal Management merit badge pamphlet, devise your own, or use a computer-generated version.) When complete, present the records showing the results to your counselor.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Scout Workbook Organizer (Ledger 13Wk):** Req 2c 13-Week Personal Budget, Income & Expense Ledger
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 2c (Track and record your actual income, expenses, and savings for 13 consecutive weeks (the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 2c (Track and record your actual income, expenses, and savings for 13 consecutive weeks (the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintaining an unbroken ledger of every receipt over thirteen weeks builds financial awareness. Systematically categorizing every expenditure highlights trends in discretionary cash usage.
 - **Common Myth:** Tracking weekly spending from memory produces accurate records for financial budget audits.
@@ -211,7 +211,7 @@
 #### Req 2d: Budget Performance Variance Evaluation
 **Official Requirement 2d:** Compare your budget with your actual income and expenses to understand when your budget worked and when it did not work. With your counselor, discuss what you might do differently the next time.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 22, p. 23)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 2d (Compare your budget with your actual income and expenses to understand when your budget), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 2d (Compare your budget with your actual income and expenses to understand when your budget), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating variances between projections and actual numbers reveals systemic underestimation of daily costs. Discussing discrepancies with a counselor identifies behavioral modifications needed for financial solvency.
 - **Common Myth:** Failing to meet budgeted targets exactly indicates total failure of the budgeting method.
@@ -232,7 +232,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3a:** The emotions you feel when you receive money.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3a (The emotions you feel when you receive money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3a (The emotions you feel when you receive money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sudden cash windfalls trigger dopamine surges that compromise rational financial planning. Learning to pause before spending allows analytical thinking to override impulsive behavior.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -241,7 +241,7 @@
 - **Common Myth:** Receiving unexpected money always leads to responsible allocation into long term savings accounts.
 - **Pamphlet Fact:** Unchecked excitement upon getting money often triggers instant gratification spending on fleeting luxuries.
 
-![Emotional Receipt Response diagram illustrating how immediate emotional highs from earning money can stimulate unplanned impulse spending habits.](/assets/pamphlet_images/personal_management_p012_img1.png)
+![Technical diagram of emotional receipt response principles and field relationships in Personal Management (Requirement 3).](/assets/pamphlet_images/personal_management_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -255,7 +255,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3b:** Your understanding of how the amount of money you have with you affects your spending habits.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3b (Your understanding of how the amount of money you have with you affects your spending habits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3b (Your understanding of how the amount of money you have with you affects your spending habits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Keeping surplus currency in a wallet creates a false sense of discretionary wealth. Limiting pocket money establishes natural spending limits during routine daily activities.
 - **Common Myth:** The physical amount of currency in a wallet does not impact spending frequency.
@@ -275,7 +275,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3c:** Your thoughts when you buy something new and your thoughts about the same item three months later. Explain the concept of buyer's remorse.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3c (Your thoughts when you buy something new and your thoughts about the same item three months), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3c (Your thoughts when you buy something new and your thoughts about the same item three months), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The excitement of purchasing novel consumer items typically evaporates within several weeks. Understanding buyer remorse prevents repetitive cycles of wasteful discretionary spending.
 - **Common Myth:** Expensive purchases always provide the same level of satisfaction months after checkout.
@@ -292,7 +292,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3d:** How hunger affects you when shopping for food items (snacks, groceries)
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3d (How hunger affects you when shopping for food items (snacks, groceries)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3d (How hunger affects you when shopping for food items (snacks, groceries)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physiological hunger impairs executive function and increases vulnerability to marketing displays. Preparing strict grocery lists prior to shopping mitigates unplanned spending spikes.
 - **Common Myth:** Physical hunger affects food volume choices but never impacts non-food retail purchasing decisions.
@@ -310,7 +310,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3e:** Your experience of an item you have purchased after seeing or hearing advertisements for it. Did the item work as well as advertised.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3e (Your experience of an item you have purchased after seeing or hearing advertisements for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3e (Your experience of an item you have purchased after seeing or hearing advertisements for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial advertising employs targeted psychological appeals to manufacture perceived consumer necessity. Comparing promotional promises against authentic consumer reviews reveals real product limitations.
 - **Common Myth:** Commercial advertisements are legally required to present completely objective views of competitor products.
@@ -327,7 +327,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3f:** Your understanding of what happens when you put money into a savings account.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3f (Your understanding of what happens when you put money into a savings account), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3f (Your understanding of what happens when you put money into a savings account), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial banks lend deposited capital to borrowers while crediting account holders compound interest. Federal deposit insurance safeguards individual account balances against institutional commercial insolvency.
 - **Common Myth:** Money deposited in bank savings accounts remains stationary in an individual designated locker.
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3g:** Charitable giving. Explain its purpose and your thoughts about it.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3g (Charitable giving. Explain its purpose and your thoughts about it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3g (Charitable giving. Explain its purpose and your thoughts about it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Allocating funds to non-profit organizations supports essential community assistance programs and civic institutions. Practicing charitable stewardship builds gratitude and tempers excessive personal consumer materialism.
 - **Common Myth:** Charitable giving only benefits the recipient organization without shaping the donor financial character.
@@ -362,7 +362,7 @@
 **[Parent Directive]:** *Discuss with your counselor FIVE of the following concepts*
 **Official Requirement 3h:** What you can do to better manage your money.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 3h (What you can do to better manage your money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 3h (What you can do to better manage your money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing financial discipline requires intentional spending boundaries and regular reconciliation of personal accounts. Automating savings transfers removes reliance on fluctuating willpower when managing discretionary funds.
 - **Common Myth:** Earning a larger salary automatically eliminates poor personal money management habits.
@@ -384,7 +384,7 @@
 **[Parent Directive]:** *Explain the following to your counselor*
 **Official Requirement 4a:** The differences between saving and investing, including reasons for using one over the other.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 4a (The differences between saving and investing, including reasons for using one over the other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 4a (The differences between saving and investing, including reasons for using one over the other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Saving focuses on safeguarding principal for near term needs through secure banking institutions. Investing commits capital to income producing assets to outpace consumer price inflation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -407,7 +407,7 @@
 **[Parent Directive]:** *Explain the following to your counselor*
 **Official Requirement 4b:** The concepts of return on investment and risk and how they are related.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 4b (The concepts of return on investment and risk and how they are related), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 4b (The concepts of return on investment and risk and how they are related), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Expected investment return correlates directly with the magnitude of financial risk undertaken. Balancing risk tolerance against growth objectives prevents panic selling during market contractions.
 - **Common Myth:** Investors can achieve high financial returns without exposing their principal to market loss.
@@ -425,7 +425,7 @@
 **[Parent Directive]:** *Explain the following to your counselor*
 **Official Requirement 4c:** The concepts of simple interest and compound interest.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 4c (The concepts of simple interest and compound interest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 4c (The concepts of simple interest and compound interest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Simple interest computes earnings solely on the original principal balance deposited. Compound interest reinvests accrued earnings, producing dramatic exponential expansion over multi decade spans.
 - **Common Myth:** Simple interest and compound interest yield identical total earnings over a thirty year period.
@@ -443,7 +443,7 @@
 **[Parent Directive]:** *Explain the following to your counselor*
 **Official Requirement 4d:** The concept of diversification in investing.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 4d (The concept of diversification in investing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 4d (The concept of diversification in investing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Diversification distributes financial capital across uncorrelated industries, sectors, and asset classes. This risk management technique insulates investors against catastrophic single company bankruptcy risks.
 - **Common Myth:** Purchasing shares of five different technology corporations provides comprehensive portfolio diversification.
@@ -461,7 +461,7 @@
 **[Parent Directive]:** *Explain the following to your counselor*
 **Official Requirement 4e:** Why it is important to save and invest for retirement.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 29, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 4e (Why it is important to save and invest for retirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 4e (Why it is important to save and invest for retirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preparing for retirement requires decades of sustained contributions to tax advantaged investment accounts. Compounding interest over extended horizons minimizes the total out of pocket savings needed.
 - **Common Myth:** Young workers should postpone saving for retirement until reaching their peak earning years.
@@ -483,7 +483,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5a:** Common stocks (b) Mutual funds (c) Life insurance (d) A certificate of deposit (CD).
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5a (Common stocks (b) Mutual funds (c) Life insurance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5a (Common stocks (b) Mutual funds (c) Life insurance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Common stocks represent fractional equity ownership in public corporations, conveying voting rights and dividend eligibility. Share prices fluctuate daily based on corporate earnings, investor sentiment, and general macroeconomic conditions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -506,7 +506,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5b:** Mutual funds (c) Life insurance (d) A certificate of deposit (CD) (e) A savings account.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5b (Mutual funds (c) Life insurance (d) A certificate of deposit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5b (Mutual funds (c) Life insurance (d) A certificate of deposit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mutual funds pool resources from numerous individual investors to build broadly diversified portfolios of assets. Professional fund managers rebalance assets according to stated investment objectives, charging ongoing expense ratios.
 - **Common Myth:** All mutual funds are managed without administrative fees or transaction expense deductions.
@@ -524,7 +524,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5c:** Life insurance (d) A certificate of deposit (CD) (e) A savings account (f) A U.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5c (Life insurance (d) A certificate of deposit (CD)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5c (Life insurance (d) A certificate of deposit (CD)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Life insurance contracts provide financial compensation to designated beneficiaries upon the policyholder death. Certain permanent policies accumulate cash value, functioning as conservative long term wealth preservation vehicles.
 - **Common Myth:** Life insurance policies function primarily as high yield speculative investment vehicles for youth.
@@ -542,7 +542,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5d:** A certificate of deposit (CD) (e) A savings account (f) A U.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5d (A certificate of deposit (CD) (e) A savings account), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5d (A certificate of deposit (CD) (e) A savings account), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A certificate of deposit commits deposited funds to a bank for a designated maturity timeframe. In exchange for illiquidity, banks pay higher fixed interest rates backed by federal deposit insurance.
 - **Common Myth:** Certificates of deposit allow penalty free cash withdrawals at any moment before maturity.
@@ -560,7 +560,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5e:** A savings account (f) A U.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5e (A savings account (f) A U), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5e (A savings account (f) A U), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Savings accounts offer secure depositories for cash reserves with immediate liquidity for emergency expenses. Modest interest rates preserve nominal capital while federal guarantees ensure safety against bank defaults.
 - **Common Myth:** Savings account interest rates consistently generate substantial real purchasing power growth over decades.
@@ -578,7 +578,7 @@
 **[Parent Directive]:** *Explain to your counselor what the following investments are and how each works*
 **Official Requirement 5f:** A U. S. savings bond.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 30, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 5f (A U. S. savings bond), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 5f (A U. S. savings bond), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - United States savings bonds are debt instruments issued by the Treasury to fund federal obligations. They provide conservative, non-marketable investments that accrue interest until reaching their designated maturity date.
 - **Common Myth:** Savings bonds are issued by private corporations and carry significant credit default hazards.
@@ -600,7 +600,7 @@
 **[Parent Directive]:** *Explain to your counselor why people might purchase the following types of insurance and how they work*
 **Official Requirement 6a:** Automobile (b) Health.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 6a (Automobile (b) Health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 6a (Automobile (b) Health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Automobile insurance provides financial indemnity against vehicular damage, medical costs, and civil liability claims. Policies divide coverage across bodily injury, property damage, collision, and comprehensive hazard clauses.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -623,7 +623,7 @@
 **[Parent Directive]:** *Explain to your counselor why people might purchase the following types of insurance and how they work*
 **Official Requirement 6b:** Health.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 6b (Health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 6b (Health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Health insurance mitigates exorbitant costs associated with illnesses, emergency hospitalizations, and specialized pharmaceutical treatments. Co-payments, deductibles, and annual out of pocket maximums dictate the insured direct financial exposure.
 - **Common Myth:** Health insurance covers one hundred percent of all medical treatments without deductibles.
@@ -641,7 +641,7 @@
 **[Parent Directive]:** *Explain to your counselor why people might purchase the following types of insurance and how they work*
 **Official Requirement 6c:** Homeowner's/renter's (d) Whole life and term life.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 6c (Homeowner's/renter's (d) Whole life and term life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 6c (Homeowner's/renter's (d) Whole life and term life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Homeowner policies cover structural dwellings, external outbuildings, and personal liability for injuries on premises. Renter insurance protects personal property within leased residences against peril, theft, and water leaks.
 - **Common Myth:** A landlord insurance policy automatically reimburses tenants for personal belongings destroyed in fires.
@@ -659,7 +659,7 @@
 **[Parent Directive]:** *Explain to your counselor why people might purchase the following types of insurance and how they work*
 **Official Requirement 6d:** Whole life and term life.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 58, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 6d (Whole life and term life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 6d (Whole life and term life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Term insurance provides pure death benefit protection over a specified duration at low cost. Whole life policies combine life coverage with permanent cash surrender value, requiring substantial premiums.
 - **Common Myth:** Whole life insurance is always the superior financial choice for young growing families.
@@ -681,7 +681,7 @@
 **[Parent Directive]:** *Explain to your counselor the following*
 **Official Requirement 7a:** What a loan is, what interest is, and how the annual percentage rate (APR) measures the true cost of a loan (b) The different ways to borrow money.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 7a (What a loan is, what interest is, and how the annual percentage rate (APR) measures the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 7a (What a loan is, what interest is, and how the annual percentage rate (APR) measures the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A loan represents borrowed principal that must be repaid alongside accrued interest charges over time. The Annual Percentage Rate standardizes borrowing expenses by combining interest rates with mandatory upfront fees.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -704,7 +704,7 @@
 **[Parent Directive]:** *Explain to your counselor the following*
 **Official Requirement 7b:** The different ways to borrow money.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 7b (The different ways to borrow money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 7b (The different ways to borrow money), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Borrowing methods range from secured mortgages and personal bank loans to peer lending and credit. Understanding collateral requirements and default penalties protects borrowers from predatory lending practices and foreclosures.
 - **Common Myth:** All borrowing methods carry identical risk profiles and legal consequences upon payment default.
@@ -722,7 +722,7 @@
 **[Parent Directive]:** *Explain to your counselor the following*
 **Official Requirement 7c:** The differences between a charge card, debit card, and credit card, including the costs and pitfalls of using these financial tools, and why it is unwise to make only the minimum payment on your credit card.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 7c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 7c (The differences between a charge card, debit card, and credit card, including the costs and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 7c (The differences between a charge card, debit card, and credit card, including the costs and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Debit cards withdraw settled bank funds, whereas credit and charge cards extend revolving credit. Making only minimum monthly payments triggers compounding finance charges that trap consumers in debt.
 - **Common Myth:** Paying the minimum credit card balance prevents all interest charges from accumulating monthly.
@@ -740,7 +740,7 @@
 **[Parent Directive]:** *Explain to your counselor the following*
 **Official Requirement 7d:** Credit reports and how personal responsibility can affect your credit report (e) Ways to reduce or eliminate debt.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 7d (Credit reports and how personal responsibility can affect your credit report (e) Ways to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 7d (Credit reports and how personal responsibility can affect your credit report (e) Ways to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Credit bureaus compile consumer repayment histories into formal reports used to compute credit scores. Maintaining low credit utilization and paying bills punctually builds creditworthiness, unlocking lower loan rates.
 - **Common Myth:** Checking personal credit reports through authorized bureaus damages your credit score rating permanently.
@@ -758,7 +758,7 @@
 **[Parent Directive]:** *Explain to your counselor the following*
 **Official Requirement 7e:** Ways to reduce or eliminate debt.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 39, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 7e (Ways to reduce or eliminate debt), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 7e (Ways to reduce or eliminate debt), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Systematic debt elimination requires freezing new borrowing and directing surplus cash toward existing balances. Prioritizing accounts by highest interest rate or lowest balance accelerates debt freedom through mathematical discipline.
 - **Common Myth:** Spreading extra debt payments equally across all balances eliminates obligations the fastest way.
@@ -779,7 +779,7 @@
 #### Req 8a: Prioritized to-Do List Formulation
 **Official Requirement 8a:** Write a to-do list of tasks or activities, such as homework assignments, chores, and personal projects, that must be done in the coming week. List these in order of importance to you.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 8a (Write a to-do list of tasks or activities, such as homework assignments, chores, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 8a (Write a to-do list of tasks or activities, such as homework assignments, chores, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drafting a comprehensive to-do list externalizes mental commitments, reducing anxiety and cognitive overload. Sorting obligations into hierarchical tiers of importance ensures primary academic and personal duties receive focus.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -800,7 +800,7 @@
 #### Req 8b: Seven Day Schedule Design
 **Official Requirement 8b:** Make a seven-day calendar or schedule. Put in your set activities, such as school classes, sports practices or games, jobs or chores, and/or Scout or place of worship or club meetings, then plan when you will do all the tasks from your to-do list between your set activities.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Time Diary 7Day):** Req 8b 7-Day Time Management Schedule & Daily Diary
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 8b (Make a seven-day calendar or schedule. Put in your set activities, such as school classes,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 8b (Make a seven-day calendar or schedule. Put in your set activities, such as school classes,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing a seven day calendar visualizes weekly commitments across school, sports, family, and scouting. Blocking dedicated time slots for fixed obligations establishes realistic boundaries for discretionary free time.
 - **Common Myth:** Weekly schedules should only contain flexible leisure plans rather than mandatory school hours.
@@ -822,7 +822,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor your understanding of time management by doing the following*
 **Official Requirement 8c:** Follow the one-week schedule you planned. Keep a daily diary or journal during each of the seven days of this week's activities, writing down when you completed each of the tasks on your to-do list compared to when you scheduled them.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Time Diary 7Day):** Req 8c 7-Day Time Management Schedule & Daily Diary
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 8c (Follow the one-week schedule you planned. Keep a daily diary or journal during each of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 8c (Follow the one-week schedule you planned. Keep a daily diary or journal during each of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing a planned schedule requires tracking actual completion times against projected blocks in a journal. Documenting disruptions and task durations creates factual data for analyzing personal productivity patterns.
 - **Common Myth:** Maintaining a daily diary requires recording only emotional impressions rather than concrete completion times.
@@ -839,7 +839,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor your understanding of time management by doing the following*
 **Official Requirement 8d:** With your counselor, review your to-do list, one-week schedule, and diary/journal to understand when your schedule worked and when it did not work. Discuss what you might do differently the next time.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8d Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 8d (With your counselor, review your to-do list, one-week schedule, and diary/journal to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 8d (With your counselor, review your to-do list, one-week schedule, and diary/journal to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reviewing schedules alongside activity logs identifies time sinks, unrealistic estimates, and common distractions. Partnering with a counselor allows refinement of planning habits to balance productivity and wellness.
 - **Common Myth:** Deviating from a planned schedule proves that calendar management tools are completely useless.
@@ -860,7 +860,7 @@
 **[Parent Directive]:** *Prepare a written project plan demonstrating the steps below, including the desired outcome*
 **Official Requirement 9a:** Define the project. What is your goal.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 9a (Define the project. What is your goal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 9a (Define the project. What is your goal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Defining a project requires establishing concrete, measurable goals that specify the ultimate intended outcome. Clearly bounded scopes prevent mission creep and establish benchmarks for evaluating project completion.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -882,7 +882,7 @@
 **[Parent Directive]:** *Prepare a written project plan demonstrating the steps below, including the desired outcome*
 **Official Requirement 9b:** Develop a timeline for your project that shows the steps you must take from beginning to completion.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 9b (Develop a timeline for your project that shows the steps you must take from beginning to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 9b (Develop a timeline for your project that shows the steps you must take from beginning to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building a project timeline establishes chronological order and assigns realistic timeframes to each phase. Identifying task dependencies prevents idle time and ensures preparation steps precede on site execution.
 - **Common Myth:** Project milestones can be executed in any random sequence without affecting completion deadlines.
@@ -900,7 +900,7 @@
 **[Parent Directive]:** *Prepare a written project plan demonstrating the steps below, including the desired outcome*
 **Official Requirement 9c:** Describe your project.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 9c (Describe your project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 9c (Describe your project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A detailed project description outlines the operational narrative, target beneficiaries, and execution environment. Articulating the purpose and procedural methodology aligns team members and external stakeholders around common standards.
 - **Common Myth:** A brief project title provides enough descriptive context for outside volunteers to execute tasks.
@@ -918,7 +918,7 @@
 **[Parent Directive]:** *Prepare a written project plan demonstrating the steps below, including the desired outcome*
 **Official Requirement 9d:** Develop a list of resources. Identify how these resources will help you achieve your goal.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 9d (Develop a list of resources. Identify how these resources will help you achieve your goal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 9d (Develop a list of resources. Identify how these resources will help you achieve your goal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identifying resources involves cataloging all tools, materials, facilities, and personnel needed for implementation. Linking specific assets to distinct tasks ensures supplies are secured before execution commences.
 - **Common Myth:** Project resources refer strictly to physical hardware while ignoring human volunteer labor requirements.
@@ -935,7 +935,7 @@
 **[Parent Directive]:** *Prepare a written project plan demonstrating the steps below, including the desired outcome*
 **Official Requirement 9e:** Develop a budget for your project.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 9e Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 9e (Develop a budget for your project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 9e (Develop a budget for your project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing a comprehensive budget demands itemizing every projected expense, permit fee, and consumable material cost. Incorporating contingency reserves protects the project from stalling due to unexpected cost overruns.
 - **Common Myth:** Budgeting for a project only requires estimating the final cost of major equipment purchases.
@@ -956,7 +956,7 @@
 #### Req 10a: Career Selection and Qualifications
 **Official Requirement 10a:** Choose a career you might want to enter after high school or college graduation. Discuss with your counselor the needed qualifications, education, skills, and experience.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 10a (Choose a career you might want to enter after high school or college graduation. Discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 10a (Choose a career you might want to enter after high school or college graduation. Discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting a career path requires investigating mandatory educational degrees, certifications, and practical workplace competencies. Discussing requirements with a counselor clarifies prerequisite coursework and timeline commitments for career entry.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -977,7 +977,7 @@
 #### Req 10b: Career Education Cost Preparation
 **Official Requirement 10b:** Explain to your counselor what the associated costs might be to pursue this career, such as tuition, school or training supplies, and room and board. Explain how you could prepare for these costs and how you might make up for any shortfall.
 **Source:** *Official Scouting America Personal Management Merit Badge Pamphlet (p. 52, p. 53)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For personal management Requirement 10b (Explain to your counselor what the associated costs might be to pursue this career, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Personal Management Requirement 10b (Explain to your counselor what the associated costs might be to pursue this career, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing career education incurs substantial expenditures including tuition, laboratory fees, books, housing, and food. Preparing viable funding strategies using savings, scholarships, and employment minimizes long term student loan obligations.
 - **Common Myth:** The total cost of college or vocational training equals only the posted semester tuition rate.

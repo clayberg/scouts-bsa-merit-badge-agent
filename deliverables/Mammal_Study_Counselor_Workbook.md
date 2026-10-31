@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Mammal%20Study.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/mammal-study/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -92,7 +92,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 3a:** Spend three hours in two different kinds of natural habitats or at different elevations for a total of six hours. List the different mammal species and how many of each you identified by sight or sign. Tell why all mammals do not live in the same kind of habitat.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 3a (Spend three hours in two different kinds of natural habitats or at different elevations for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 3a (Spend three hours in two different kinds of natural habitats or at different elevations for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing across two contrasting habitats or elevations over six total hours highlights how ecological conditions shape mammal communities. Scouts log species diversity and relative abundance across each location.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -115,7 +115,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 3b:** Spend three hours on five different days in at least a 4-acre area (about the size of 3 football fields) for a total of 15 hours. List the mammal species you identified by sight or sign.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 3b (Spend three hours on five different days in at least a 4-acre area (about the size of 3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 3b (Spend three hours on five different days in at least a 4-acre area (about the size of 3), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Surveying a designated four acre parcel across five separate days reveals temporal movement and daily habitat usage patterns. Repeated visits demonstrate how weather, time, and human presence alter mammal activity.
 - **Common Myth:** A single walk through a plot reveals every resident mammal living within the boundary.
@@ -134,7 +134,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 3c:** From study and reading, write a simple life history of one nongame mammal that lives in your area. Tell how this mammal lived before its habitat was affected in any way by humans. Tell how it reproduces, what it eats, and its natural habitat. Describe its dependency upon plants and other animals (including humans), and how they depend upon it. Describe how humans have benefited from the mammal you have chosen and whether the mammal has benefited from association with humankind.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 3c (From study and reading, write a simple life history of one nongame mammal that lives in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 3c (From study and reading, write a simple life history of one nongame mammal that lives in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching an unhunted mammal species details its reproductive cycle, dietary needs, home range, and ecological niche. The report contrasts historical pre-settlement habitats with modern human-altered landscapes.
 - **Common Myth:** Nongame mammals lack significant ecological value because humans do not hunt or harvest them.
@@ -157,7 +157,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4a:** Under the guidance of a nature center or natural history museum, make two study skins of rats or mice. Tell the uses of study skins and mounted specimens respectively.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4a (Under the guidance of a nature center or natural history museum, make two study skins of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4a (Under the guidance of a nature center or natural history museum, make two study skins of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Under licensed natural history museum guidance, scouts prepare two rodent study skins and preserve their skulls. The project contrasts round research study skins with posed lifelike public educational mounts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -179,7 +179,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4b:** Take good pictures of two kinds of mammals in the wild. Record the date(s), time of day, weather conditions, approximate distance from the animal, habitat conditions, and any other factors you feel may have influenced the animal's activity and behavior.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4b (Take good pictures of two kinds of mammals in the wild. Record the date(s), time of day,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4b (Take good pictures of two kinds of mammals in the wild. Record the date(s), time of day,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Photographing wild mammals in their natural environment demands patience, telephoto optics, and careful field logging. Each photograph requires recorded data detailing date, time, weather, distance, habitat, and observed behaviors.
 - **Common Myth:** Close-up photographs taken in commercial zoos or petting enclosures satisfy wild mammal requirements.
@@ -195,7 +195,7 @@
 #### Req 4c: Native Game Mammal Life History
 **Official Requirement 4c:** Write a life history of a native game mammal that lives in your area, covering the points outlined in requirement 3(c). List sources for this information.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4c (Write a life history of a native game mammal that lives in your area, covering the points), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4c (Write a life history of a native game mammal that lives in your area, covering the points), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - This written study explores a recreationally hunted mammal such as the cottontail rabbit or white-tailed deer. The report covers feeding habits, reproductive rates, predator interactions, historical populations, and citations.
 - **Common Myth:** Game mammals maintain stable population densities without regulated hunting seasons or forest management.
@@ -211,7 +211,7 @@
 #### Req 4d: Tracking Sandpit Construction and Baiting
 **Official Requirement 4d:** Make and bait a tracking pit. Report what mammals and other animals came to the bait.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4d (Make and bait a tracking pit. Report what mammals and other animals came to the bait), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4d (Make and bait a tracking pit. Report what mammals and other animals came to the bait), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts create a cleared, sifted tracking pit baited with non-toxic attractants to capture nocturnal animal tracks. Morning inspections record footprint dimensions, claw marks, tail drags, and associated visitor species.
 - **Common Myth:** Tracking pits attract only mammalian predators while excluding birds and common woodland rodents.
@@ -227,7 +227,7 @@
 #### Req 4e: Natural History Museum Curatorial Tour
 **Official Requirement 4e:** Visit a natural history museum. Report on how specimens are prepared and cataloged. Explain the purposes of museums.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4e (Visit a natural history museum. Report on how specimens are prepared and cataloged. Explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4e (Visit a natural history museum. Report on how specimens are prepared and cataloged. Explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a natural history repository illustrates how researchers clean, catalog, tag, and preserve mammal specimens. Scouts learn how voucher specimens document biodiversity shifts across historical centuries.
 - **Common Myth:** Natural history museums exist primarily to display mounted wildlife displays for public amusement.
@@ -244,7 +244,7 @@
 #### Req 4f: Mammal Monograph Critical Book Review
 **Official Requirement 4f:** Write a report of 500 words on a book about a mammal species.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4f (Write a report of 500 words on a book about a mammal species), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4f (Write a report of 500 words on a book about a mammal species), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts read and evaluate a comprehensive 500-word book report analyzing an authoritative volume on one mammal species. The review addresses ecology, adaptation, habitat threats, and scientific research methodologies.
 - **Common Myth:** Children stories or fictional novels about animals provide valid source material for this report.
@@ -262,7 +262,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4g:** Trace two possible food chains of carnivorous mammals from the soil through four stages to the mammal.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 4g (Trace two possible food chains of carnivorous mammals from the soil through four stages to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 4g (Trace two possible food chains of carnivorous mammals from the soil through four stages to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts trace two distinct terrestrial energy pathways starting in organic soil nutrients through primary producers and herbivores to carnivores. Diagramming illustrates four distinct trophic steps sustaining predators like bobcats or weasels.
 - **Common Myth:** Carnivorous mammals receive their nourishment entirely independent of regional soil chemistry and fertility.
@@ -339,7 +339,7 @@
 **Official Requirement 7a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mammal Study Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching a mammalogy career details college degree paths, required technical certifications, starting salaries, and primary field duties. Scouts investigate wildlife agencies, university research laboratories, and zoological parks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -363,7 +363,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Mammal Study Merit Badge Pamphlet (p. 30, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mammal study Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mammal Study Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explore how mammal study enriches outdoor recreation through tracking, wildlife photography, and citizen science monitoring. The investigation reviews equipment costs, field clubs, and conservation advocacy opportunities.
 - **Common Myth:** Participating in meaningful mammal study requires an advanced university degree and expensive laboratory equipment.

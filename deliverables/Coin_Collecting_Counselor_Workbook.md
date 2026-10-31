@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Coin%20Collecting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/coin-collecting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -118,7 +118,7 @@
 #### Req 4a: Lincoln Cent Reverse Evolutions
 **Official Requirement 4a:** Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and 2008) and a one-cent coin from the year group 2010-present. Explain how and why the one-cent coins issued in 2009 were different from either of the other two year groups.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4a (Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4a (Collect a one-cent coin from the year group: 1959-2008 (that is, dated between 1959 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Lincoln cent transitioned from Frank Gasparro Lincoln Memorial design to the Lyndall Bass Union Shield reverse in 2010. This structural revision symbolized national unity following the bicentennial anniversary of Abraham Lincoln birth.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -139,7 +139,7 @@
 #### Req 4b: Jefferson Nickel Design Changes
 **Official Requirement 4b:** Collect two five-cent coins, one from each of these year groups: 1959-2003 and 2006-present. Explain how and why the five-cent coins issued in 2004-2005 were different from either of the other two year groups.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4b (Collect two five-cent coins, one from each of these year groups: 1959-2003 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4b (Collect two five-cent coins, one from each of these year groups: 1959-2003 and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Westward Journey nickel series introduced temporary commemorative reverse designs in 2004 and 2005 honoring the Louisiana Purchase. In 2006, the Mint introduced a forward-facing Jefferson portrait alongside the restored Monticello reverse.
 - **Common Myth:** Five-cent coins maintained an uninterrupted, identical Monticello building reverse throughout the early two thousands.
@@ -156,7 +156,7 @@
 **[Parent Directive]:** *Do the following and explain to your counselor the design features, designer name, designer initials, and where to find them for each item*
 **Official Requirement 4c:** Collect a ten-cent coin from 1965-present.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4c (Collect a ten-cent coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4c (Collect a ten-cent coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - John Sinnock designed the Roosevelt dime portrait introduced in 1946 with his initials JS placed below the neck. The Coinage Act of 1965 eliminated silver from circulating dimes, transitioning them to clad alloy composition.
 - **Common Myth:** Circulating ten-cent coins minted after 1964 continue to contain ninety percent pure silver metal.
@@ -173,7 +173,7 @@
 #### Req 4d: Commemorative Quarter Series Programs
 **Official Requirement 4d:** Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State Quarter®/territories Program 1999-2009, two designs from the America the Beautiful® program 2010-2021 and two designs from the American Women Quarter® program (2022-2024). Explain the purpose of each of those programs.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4d (Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4d (Collect a twenty-five-cent coin from 1965-1998, two examples from the 50-State), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The traditional Washington quarter reverse was replaced by the 50 State Quarters program beginning in 1999 and subsequent series like America the Beautiful. Each coin honors specific state landmarks, national parks, or historic sites with distinct reverse artwork.
 - **Common Myth:** The reverse of the Washington quarter remained completely unchanged between 1965 and the present day.
@@ -190,7 +190,7 @@
 **[Parent Directive]:** *Do the following and explain to your counselor the design features, designer name, designer initials, and where to find them for each item*
 **Official Requirement 4e:** Collect a half dollar coin from 1965-present.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4e (Collect a half dollar coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4e (Collect a half dollar coin from 1965-present), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Gilroy Roberts designed the obverse portrait of John F. Kennedy, while Frank Gasparro sculpted the presidential seal reverse. Half dollars struck between 1965 and 1970 utilized a forty percent silver clad alloy before shifting to base cupronickel.
 - **Common Myth:** All Kennedy half dollars struck after 1964 lack any silver precious metal content whatsoever.
@@ -207,7 +207,7 @@
 #### Req 4f: Modern Dollar Coin Designs
 **Official Requirement 4f:** Collect a dollar coin from each of the following design groups: Susan B. Anthony (1979-1981, 1999); Sacagawea (2000-2008); and U. S. Presidents (2007-2016, 2020)
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 4f (Collect a dollar coin from each of the following design groups: Susan B. Anthony), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 4f (Collect a dollar coin from each of the following design groups: Susan B. Anthony), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern dollar coinage includes the copper-nickel Susan B. Anthony, the manganese-brass Sacagawea golden dollar, and the Presidential dollar series. Each series honors prominent historical figures while testing distinct physical diameters, edge inscriptions, and alloy formulations.
 - **Common Myth:** Modern golden dollar coins contain pure gold alloyed within their circulating metallic core.
@@ -285,7 +285,7 @@
 **Official Requirement 7a:** Collect and identify for your counselor 20 different world coins from at least seven different countries. Identify the country, major design elements, and denomination of each.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Coin Collecting Req 7 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 7a (Collect and identify for your counselor 20 different world coins from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 7a (Collect and identify for your counselor 20 different world coins from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Assembling twenty world coins from seven different countries requires identifying international denominations, symbols, and issuing authorities. Collectors consult world coin catalogs to decipher non-Latin scripts, regnal years, and national heraldry.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -306,7 +306,7 @@
 #### Req 7b: International Banknote Classification Studies
 **Official Requirement 7b:** Collect and identify for your counselor 20 different world paper money from at least seven different countries. Identify the country, major design elements, and denomination of each.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 7b (Collect and identify for your counselor 20 different world paper money from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 7b (Collect and identify for your counselor 20 different world paper money from at least seven), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - World paper money displays varied national heroes, wildlife, architecture, and innovative anti-counterfeiting security features. Collecting banknotes from multiple nations highlights diverse monetary policies and modern printing substrates like durable polymers.
 - **Common Myth:** World paper currencies rely on identical cotton-linen blend papers utilized by United States federal currency.
@@ -322,7 +322,7 @@
 #### Req 7c: Exonumia Token and Medal
 **Official Requirement 7c:** Collect and identify for your counselor 20 different tokens and/or medals. Identify the issuer and use of each.
 **Source:** *Official Scouting America Coin Collecting Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For coin collecting Requirement 7c (Collect and identify for your counselor 20 different tokens and/or medals. Identify the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Coin Collecting Requirement 7c (Collect and identify for your counselor 20 different tokens and/or medals. Identify the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Exonumia encompasses non-governmental issues including transit tokens, civil war store cards, commemorative medallions, and merchant trade scrip. Studying tokens reveals local community commercial history, private enterprise needs, and specialized die-striking methods.
 - **Common Myth:** Tokens and medals hold zero historical value because they were never struck by federal mints.

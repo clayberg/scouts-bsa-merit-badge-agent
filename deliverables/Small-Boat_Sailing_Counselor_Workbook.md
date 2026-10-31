@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Small%20Boat%20Sailing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/small-boat-sailing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -43,7 +43,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in small-boat sailing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always maintain a low crouch during tacks and jibes to clear the swinging boom path.
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Helmsmen identify dynamic risks including shifting shoals, squall lines, and swinging booms. Crew members communicate warnings before tacking to avoid traumatic blunt impact injuries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -65,7 +65,7 @@
 #### Req 1b: Nautical First Aid Treatment
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while sailing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cold water immersion triggers sudden gasping that can cause immediate submersion drowning. Sailors treat friction blisters with clean protective dressings and prevent dehydration through regular fluid consumption.
 - **Common Myth:** Shivering sailors can warm up quickly by sitting in wet sailing gear.
@@ -86,7 +86,7 @@
 #### Req 1c: Safety Afloat Sailing Protocols
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat sailing activities.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to small-boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The nine points establish qualified supervision and personal flotation requirements across all aquatic operations. Buddy pairs monitor each other during heavy weather maneuvers and maintain visual craft contact.
 - **Common Myth:** Safety Afloat rules permit unrated swimmers to skipper double handed sailing dinghies.
@@ -164,7 +164,7 @@
 **Official Requirement 4a:** Discuss the nine points of the Scouting America Safety Afloat plan.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately abort sailing outings whenever darkening cumulonimbus anvil clouds appear on upwind horizons.
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4a (Discuss the nine points of the Scouting America Safety Afloat plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4a (Discuss the nine points of the Scouting America Safety Afloat plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety Afloat establishes mandatory supervision, physical fitness standards, and designated craft boundaries. Qualified adult leaders verify weather conditions and maintain active buddy pairs throughout the float.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -186,7 +186,7 @@
 #### Req 4b: Maritime Navigation Rules Road
 **Official Requirement 4b:** Explain the rules of the road in general and any specific rules or laws that apply to your area or state.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4b (Explain the rules of the road in general and any specific rules or laws that apply to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4b (Explain the rules of the road in general and any specific rules or laws that apply to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Port tack vessels yield to starboard tack vessels, and windward vessels give way to leeward craft. Overtaking vessels must stay clear of overtaken craft regardless of sail trim configurations.
 - **Common Myth:** The boat sailing at higher speed always maintains right of way over slower vessels.
@@ -203,7 +203,7 @@
 #### Req 4c: Water and Wind Hazards
 **Official Requirement 4c:** Explain how water conditions, the hazards of weather, and heavy winds can affect both safety and performance in sailing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4c (Explain how water conditions, the hazards of weather, and heavy winds can affect both), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4c (Explain how water conditions, the hazards of weather, and heavy winds can affect both), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High winds increase heeling forces, requiring crew weight shifts and rapid sheet easing to prevent capsizes. Choppy wave conditions induce leeway drift, reduce forward boat speed, and swamp low freeboard hulls.
 - **Common Myth:** Heavier winds always improve small boat sailing performance by maximizing forward hull speed.
@@ -220,7 +220,7 @@
 #### Req 4d: Inclement Weather Response Tactics
 **Official Requirement 4d:** Discuss the warning signs of inclement weather and what to do should heavy winds develop or a storm approach.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4d (Discuss the warning signs of inclement weather and what to do should heavy winds develop or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4d (Discuss the warning signs of inclement weather and what to do should heavy winds develop or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sudden temperature drops, shifting winds, and darkening clouds indicate incoming frontal storms. Skippers should drop sails immediately, secure loose gear, and paddle toward safe harbor shelters.
 - **Common Myth:** Scouts should sail faster downwind to outrun approaching summer thunderstorm squall fronts.
@@ -238,7 +238,7 @@
 **[Parent Directive]:** *Before going afloat, do the following*
 **Official Requirement 4e:** Prepare a typical float plan.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4e (Prepare a typical float plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4e (Prepare a typical float plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A written float plan documents boat hull markings, crew identities, intended waypoints, and expected return times. Shoreside monitors use this vital record to direct rescue authorities if boats become overdue.
 - **Common Myth:** Leaving a verbal message with a friend satisfies official maritime float plan standards.
@@ -255,7 +255,7 @@
 #### Req 4f: Nautical Personal Protective Gear
 **Official Requirement 4f:** Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in warm weather and in cool weather. Explain how choosing the proper clothing, footwear, and personal gear will help keep you comfortable and safe while sailing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 4f (Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 4f (Discuss the proper clothing, footwear, and personal gear required for small-boat sailing in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proper gear includes non skid sailing shoes, polarized sunglasses with safety retainers, and snug thermal apparel. Wet suits or dry suits trap insulating layers against cold spray to preserve core warmth.
 - **Common Myth:** Barefoot sailing provides superior grip on wet fiberglass non skid deck surfaces.
@@ -304,7 +304,7 @@
 **Official Requirement 6a:** Prepare a boat for sailing, including a safety inspection.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stay in contact with the hull during capsizes and count crew members before climbing the centerboard.
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6a (Prepare a boat for sailing, including a safety inspection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6a (Prepare a boat for sailing, including a safety inspection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rigging inspection confirms hull integrity, rudder pin retention, and halyard shackle locks before launch. Crew members secure drain plugs tightly to prevent catastrophic cockpit flooding while underway.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -327,7 +327,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6b:** Get underway from a dock, mooring, or beach.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6b (Get underway from a dock, mooring, or beach), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6b (Get underway from a dock, mooring, or beach), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Departing requires pushing the bow onto a reach before trimming sheets to gather forward steerage. Helmsmen coordinate line release so wind pushes the hull cleanly into open navigation channels.
 - **Common Myth:** Trimming sails tightly against docks will pull boats cleanly away from pilings.
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6c:** Properly set sails for a round-trip course approved by your counselor that will include running, beating, and reaching, the basic points of sail. While sailing, demonstrate good helmsmanship skills.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6c (Properly set sails for a round-trip course approved by your counselor that will include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6c (Properly set sails for a round-trip course approved by your counselor that will include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Beating demands tight sail trim and lowered foils, while reaching eases sails halfway out. When running before the wind, centerboards are raised halfway to reduce underwater drag and leeway friction.
 - **Common Myth:** Sails should remain pinned tightly against the boat centerline across all points of sail.
@@ -362,7 +362,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6d:** Change direction by tacking; change direction by jibing.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6d (Change direction by tacking; change direction by jibing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6d (Change direction by tacking; change direction by jibing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tacking turns the bow through the eye of the wind while crew shifts smoothly across cockpit decks. Jibing swings the stern through the wind, demanding active boom centering to cushion crossing loads.
 - **Common Myth:** The helmsman should push the tiller abruptly to its limit when initiating a tack.
@@ -379,7 +379,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6e:** Demonstrate getting out of irons.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6e (Demonstrate getting out of irons), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6e (Demonstrate getting out of irons), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - When stalled head to wind, sailors push the boom out manually to backwind the mainsail. Reverse water flow across the reversed rudder swings the bow away onto an active sailing reach.
 - **Common Myth:** Pumping the tiller back and forth rapidly will restart forward momentum from irons.
@@ -397,7 +397,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6f:** Demonstrate the safety position.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6f (Demonstrate the safety position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6f (Demonstrate the safety position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The safety position arrests forward movement by backing the jib and lashing the helm down. The mainsail feathers harmlessly, holding the boat stable in open water for crew rest or reefing.
 - **Common Myth:** Dropping anchors is the only way to hold a sailboat stationary in deep lakes.
@@ -414,7 +414,7 @@
 #### Req 6g: Capsize and Overboard Rescue
 **Official Requirement 6g:** Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize procedures should be conducted under the close supervision of the counselor. A rescue boat should be standing by to assist, if necessary, and to tow the capsized craft to shore. Self-bailing boats are acceptable for this requirement. Extreme care should be taken to avoid personal injury and damage to the boat or equipment.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6g Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6g (Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6g (Demonstrate capsize procedures and the rescue of a person overboard. Note: Capsize), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - During capsizes, crew members stay with the hull, lower sails, and apply body weight on the centerboard. Rescuing an overboard sailor requires circling downwind and luffing alongside on a close reach.
 - **Common Myth:** Rescuers should sail directly downwind toward an overboard swimmer at full cruising speed.
@@ -432,7 +432,7 @@
 #### Req 6h: Aground Vessel Recovery Actions
 **Official Requirement 6h:** Demonstrate the procedure to take after running aground.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6h Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6h (Demonstrate the procedure to take after running aground), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6h (Demonstrate the procedure to take after running aground), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Running aground requires immediate sail easing to eliminate heeling and forward drive against shoals. Crew members raise the centerboard, shift weight aft, and use paddles to push into deeper water.
 - **Common Myth:** Trimming sails harder provides the thrust required to force a grounded boat over sandbars.
@@ -450,7 +450,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6i:** Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6i (Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6i (Accept a single line or side tow and maneuver the craft being towed safely for 20 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Towed boats raise centerboards partially and secure towlines around mast steps rather than light deck fittings. The helmsman steers directly in the towing wake to prevent violent rolling or broadside capsizes.
 - **Common Myth:** Tie towlines directly to bow mooring cleats to handle strong towing pull loads.
@@ -468,7 +468,7 @@
 **[Parent Directive]:** *Following the Scouting America Safety Afloat plan, show that you and a buddy can sail a boat properly. Do the following*
 **Official Requirement 6j:** Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow sails, and prepare the craft for unattended docking or beaching overnight or longer.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6j Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 6j (Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 6j (Upon returning to the dock, mooring, or beach, properly secure all equipment, furl or stow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Returning vessels furl sails neatly, coil running rigging, and fasten mooring spring lines securely. Booms are placed on crutches, centerboards secured, and cockpits drained to endure overnight weather.
 - **Common Myth:** Leaving sails loosely bunched in cockpit floorboards prevents mildew growth after sailing.
@@ -491,7 +491,7 @@
 **Official Requirement 7a:** Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch, and figure-eight knot. Demonstrate the use of each.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never step inside coils or bights of line resting on the deck to prevent traumatic entanglement.
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 7a (Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 7a (Show how to tie a square (reef) knot, clove hitch, two half hitches, bowline, cleat hitch,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sailors master knots including the bowline for halyard loops and figure eights for stopper knots. Clove hitches and two half hitches secure temporary mooring fenders, while cleat hitches belay halyards.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -512,7 +512,7 @@
 #### Req 7b: Line Throwing and Coiling
 **Official Requirement 7b:** Show how to heave a line, coil a line, and fake down a line.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 7b (Show how to heave a line, coil a line, and fake down a line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 7b (Show how to heave a line, coil a line, and fake down a line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heaving a line requires splitting coils evenly between throwing and holding hands before launching forward. Faking down lays cordage in alternating loops across decks to run freely through blocks without kink snarls.
 - **Common Myth:** Coiling lines tightly around your bent elbow prevents kinking when lines pay out.
@@ -531,7 +531,7 @@
 #### Req 7c: Synthetic Cordage Fiber Construction
 **Official Requirement 7c:** Discuss the kinds of lines used on sailboats and the types of fibers used in their manufacture. Explain the advantages and disadvantages of each.
 **Source:** *Official Scouting America Small-Boat Sailing Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 7c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For small-boat sailing Requirement 7c (Discuss the kinds of lines used on sailboats and the types of fibers used in their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Small-Boat Sailing Requirement 7c (Discuss the kinds of lines used on sailboats and the types of fibers used in their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern sailboats employ synthetic fibers tailored specifically to distinct deck applications and loads. Dacron resists elongation for halyards, nylon provides shock absorption for dock lines, and polypropylene floats.
 - **Common Myth:** Nylon cordage makes the ideal low stretch material for dinghy main halyard rigging.

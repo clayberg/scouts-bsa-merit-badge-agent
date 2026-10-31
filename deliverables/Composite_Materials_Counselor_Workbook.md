@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Composite%20Materials.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/composite-materials/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while working with composite materials and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with composite materials.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Work exclusively in cross-ventilated spaces with an operational eyewash station and an ABC dry chemical extinguisher.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Thermoset resins and airborne fiber reinforcement fragments present immediate inhalation risks and contact dermatitis hazards. Personal protective equipment must include fitted respirators, impervious aprons, and nitrile gloves.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -60,7 +60,7 @@
 #### Req 1b: Material Storage and Disposal
 **Official Requirement 1b:** Explain the precautions that must be taken when handling, storing, and disposing of resins, reinforcements, and other materials used in composites. Include in your discussion the importance of health, safety, and environmental responsibility and awareness.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 1b (Explain the precautions that must be taken when handling, storing, and disposing of resins,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 1b (Explain the precautions that must be taken when handling, storing, and disposing of resins,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Resin hardeners and catalyst compounds demand cool storage away from direct sunlight and metal contamination. Liquid wastes must cure into inert solid pucks before disposal in approved industrial waste streams.
 - **Common Myth:** Unused catalyzed resin blends can safely be poured down municipal shop utility sinks.
@@ -76,7 +76,7 @@
 #### Req 1c: Safety Data Sheet Interpretation
 **Official Requirement 1c:** Describe what a safety data sheet (SDS) is and tell why it is used.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 44, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 1c (Describe what a safety data sheet (SDS) is and tell why it is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 1c (Describe what a safety data sheet (SDS) is and tell why it is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety Data Sheets provide standardized sixteen-section chemical safety dossiers covering health hazards and emergency responses. Workers review exposure limits, personal protective equipment requirements, and spill containment protocols before handling materials.
 - **Common Myth:** Safety Data Sheets contain only shipping classifications and commercial marketing product descriptions.
@@ -99,7 +99,7 @@
 **Official Requirement 2a:** Explain what composite materials are. Include a brief history of composites and how they have developed.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never machine composite panels using high-speed steel bits without active local exhaust ventilation equipment.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 2a (Explain what composite materials are. Include a brief history of composites and how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 2a (Explain what composite materials are. Include a brief history of composites and how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Composite technology evolved from ancient mud bricks reinforced with straw to advanced aerospace carbon prepregs. Modern composites integrate engineered fibers into tailored thermoset or thermoplastic matrices for optimized strength.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -120,7 +120,7 @@
 #### Req 2b: Material Property Comparative Analysis
 **Official Requirement 2b:** Compare the similarities and differences between composites and wood, aluminum, copper, and steel. Describe the physical, electrical, mechanical, corrosive, flammability, cost, and other such properties. For each of these raw materials, give one example of how it can be shaped and used for a specific application.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 19, p. 20)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 2b (Compare the similarities and differences between composites and wood, aluminum, copper, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 2b (Compare the similarities and differences between composites and wood, aluminum, copper, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing composites against structural metals reveals significant advantages in strength-to-weight ratios and corrosion resistance. Metals exhibit uniform isotropic strength in all directions while composites demonstrate engineered directional load performance.
 - **Common Myth:** Aluminum conducts electrical currents and heat at identical rates as carbon fiber composite laminates.
@@ -145,7 +145,7 @@
 **Official Requirement 3a:** Discuss three different composite reinforcement materials, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Mix liquid catalysts using eye droppers while wearing full-face shields to prevent chemical corneal burns.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 3a (Discuss three different composite reinforcement materials, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 3a (Discuss three different composite reinforcement materials, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts analyze glass, carbon, and aramid fabrics to evaluate weight, tensile performance, and impact tolerance. Reviewing reinforcement Safety Data Sheets reveals mandatory ventilation thresholds and skin irritation precautions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -166,7 +166,7 @@
 #### Req 3b: Thermoset Polymer Matrix Properties
 **Official Requirement 3b:** Discuss three different resins used in composites, their positive and negative characteristics, and their uses. Obtain the SDS for each one and discuss the toxicity, disposal, and safe-handling sections for these materials. Include thermoset resins and thermoplastic resins in your discussion.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 3b (Discuss three different resins used in composites, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 3b (Discuss three different resins used in composites, their positive and negative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Thermoset resins range from economical polyesters to corrosion-resistant vinyl esters and high-strength adhesive epoxies. Chemical data sheets specify critical handling precautions, cure shrinkage rates, and VOC emission levels.
 - **Common Myth:** Polyester, vinylester, and epoxy resins use identical chemical catalysts and cure times.
@@ -186,7 +186,7 @@
 **[Parent Directive]:** *Describe how composite materials are made. Then do the following*
 **Official Requirement 3c:** For each of the three resins you chose for requirement 3(b), think of a new application that might be worth developing.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 31, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 3c (For each of the three resins you chose for requirement 3(b), think of a new application), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 3c (For each of the three resins you chose for requirement 3(b), think of a new application), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts conceptualize novel composite applications by matching unique polymer matrix capabilities to demanding environmental challenges. Advanced formulations solve structural weight challenges across renewable energy systems and biomedical prosthetics.
 - **Common Myth:** Composite resin systems have reached peak technological utility with no remaining industrial design uses.
@@ -211,7 +211,7 @@
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear certified steel-toe work boots, safety glasses, and hearing protection during manufacturing plant walkthroughs.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Composite Materials Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 4a (Visit a company that manufactures or repairs products made with composites. Discuss what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 4a (Visit a company that manufactures or repairs products made with composites. Discuss what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an active composite enterprise provides direct exposure to cleanroom prepreg layup, autoclaves, and infusion systems. Scouts observe quality control testing protocols and structural repair methods used in commercial production.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -232,7 +232,7 @@
 #### Req 4b: Composite Technical Information Research
 **Official Requirement 4b:** Find three composites-related websites. Share and discuss what you learned with your counselor.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 40, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 4b (Find three composites-related websites. Share and discuss what you learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 4b (Find three composites-related websites. Share and discuss what you learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching accredited composite trade associations and research institutes exposes scouts to cutting-edge material innovations. Web research focuses on automated manufacturing processes, recycling developments, and aerospace qualification standards.
 - **Common Myth:** Online composite forums offer verified engineering safety data comparable to professional society technical publications.
@@ -255,7 +255,7 @@
 **Official Requirement 5a:** Use composite materials to complete two projects, at least one of which must come from the Composite Materials merit badge pamphlet. The second project may come from the pamphlet OR may be one you select on your own that has been approved by your counselor in advance.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Cure all mixed resin mixing cups on fireproof concrete surfaces away from combustible shop rags.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 5a (Use composite materials to complete two projects, at least one of which must come from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 5a (Use composite materials to complete two projects, at least one of which must come from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts fabricate two functional composite articles using approved safety protocols and verified wet layup techniques. At least one project originates directly from the official merit badge pamphlet instructional guide.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -277,7 +277,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5b:** With your counselor's assistance, find an appropriate site where the projects can be safely completed under your counselor's supervision and/or the supervision of an adult approved by your counselor who is knowledgeable about composites.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 5b (With your counselor's assistance, find an appropriate site where the projects can be safely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 5b (With your counselor's assistance, find an appropriate site where the projects can be safely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe project fabrication requires an isolated workshop equipped with adequate cross-flow exhaust and spark-free electrical tools. An authorized adult supervisor monitors chemical dispensing, fire prevention protocols, and PPE compliance continuously.
 - **Common Myth:** Composite wet layups can be safely executed inside home kitchens or unventilated basements.
@@ -295,7 +295,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5c:** With your counselor, determine how the finished projects will be evaluated. Using those guidelines, evaluate the completed projects with your counselor.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 60, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 5c (With your counselor, determine how the finished projects will be evaluated. Using those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 5c (With your counselor, determine how the finished projects will be evaluated. Using those), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Counselors and scouts evaluate finished projects against predefined rubrics measuring dimensional accuracy, fiber alignment, and void reduction. Evaluating structural stiffness and edge trimming quality reinforces high manufacturing craftsmanship standards.
 - **Common Myth:** Composite project evaluations judge only aesthetic external paint color rather than structural laminate soundness.
@@ -320,7 +320,7 @@
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Wear dual-cartridge particulate respirators when machining or trimming composite hobby models on shop benchtop tools.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Composite Materials Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 6a (Explore careers related to the Composite Materials merit badge. Research one career to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 6a (Explore careers related to the Composite Materials merit badge. Research one career to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional composite careers encompass chemical engineering, computer-aided design, quality assurance, and non-destructive testing technician roles. Research explores four-year engineering degrees, vocational apprenticeship programs, starting salaries, and long-term industry demand.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -344,7 +344,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 6b:** Explore how you could use knowledge and skills from the Composite Materials merit badge to pursue a hobby or interest. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Composite Materials Merit Badge Pamphlet (p. 72, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For composite materials Requirement 6b (Explore how you could use knowledge and skills from the Composite Materials merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Composite Materials Requirement 6b (Explore how you could use knowledge and skills from the Composite Materials merit badge to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Composite fabrication skills empower hobbyists to build competitive racing drones, custom canoes, and lightweight camping equipment. Scouts investigate local maker spaces, specialized enthusiast associations, and affordable vacuum bagging equipment kits.
 - **Common Myth:** Recreational composite crafting requires expensive industrial autoclave curing vessels and cleanroom environmental controls.

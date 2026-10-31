@@ -811,6 +811,25 @@ async function resetCachedCounselorProfile() {
   }
 }
 
+function resetContainerScroll(...targets) {
+  const applyZero = () => {
+    targets.forEach((t) => {
+      if (!t) return;
+      if (typeof t === "string") {
+        document.querySelectorAll(t).forEach((el) => {
+          el.scrollTop = 0;
+          el.scrollLeft = 0;
+        });
+      } else if (typeof t === "object") {
+        if ("scrollTop" in t) t.scrollTop = 0;
+        if ("scrollLeft" in t) t.scrollLeft = 0;
+      }
+    });
+  };
+  applyZero();
+  requestAnimationFrame(applyZero);
+}
+
 function switchMainTab(targetPanelId) {
   const tabBtns = document.querySelectorAll(".m3-tab-btn[data-panel]");
   const panels = ["panel-storyboard", "panel-triage", "panel-workbook", "panel-studiokit", "panel-admin"];
@@ -825,6 +844,14 @@ function switchMainTab(targetPanelId) {
       el.classList.toggle("hidden", pId !== targetPanelId);
     }
   });
+  const activePanelEl = document.getElementById(targetPanelId);
+  if (activePanelEl) {
+    resetContainerScroll(
+      activePanelEl,
+      `#${targetPanelId} .m3-markdown-body`,
+      `#${targetPanelId} .m3-sticky-matrix-scroll`
+    );
+  }
   if (targetPanelId === "panel-admin") {
     loadAdminConsoleData();
   }
@@ -3562,8 +3589,28 @@ function hydrateWorkbench(rawResult, options = {}) {
 
   updateConstructionBadgeEmblem(result.badge_name);
   hideConstructionAnimationStage();
-  renderFilmstrip(slides);
+  state.activeSlideIdx = -1;
+  state._lastRenderedBadgeKey = String(result.badge_name || "").trim().toLowerCase();
+  renderFilmstrip(slides, { resetScroll: true });
   renderActiveSlide(-1);
+  if (typeof window !== "undefined" && typeof window.scrollTo === "function") {
+    try {
+      window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+    } catch (_e) {
+      window.scrollTo(0, 0);
+    }
+  }
+  resetContainerScroll(
+    "#slide-filmstrip-list",
+    "#workbook-markdown-preview",
+    "#workbook-markdown-body",
+    "#studiokit-agenda-preview",
+    "#studiokit-letter-preview",
+    "#pc-dock-notes-body",
+    "#fullscreen-teleprompter-drawer",
+    "#bluecard-matrix-container",
+    ".m3-sticky-matrix-scroll"
+  );
 
   // 4. Render Official Requirements, Click-to-Jump Cards & Blue Card Tracker
   renderTriageMatrix(result.research_artifact || {}, pamphletUrl, drgUrl);
@@ -3575,6 +3622,13 @@ function hydrateWorkbench(rawResult, options = {}) {
     wbPreview.innerHTML = renderMarkdownToStyledHtml(
       result.workbook_markdown || "# Counselor Workbook Generated"
     );
+    wbPreview.scrollTop = 0;
+    wbPreview.scrollLeft = 0;
+  }
+  const wbBody = document.getElementById("workbook-markdown-body");
+  if (wbBody) {
+    wbBody.scrollTop = 0;
+    wbBody.scrollLeft = 0;
   }
   ["btn-workbook-view-default", "btn-workbook-open-fillable-html", "btn-workbook-open-cpp"].forEach((id) => {
     const el = document.getElementById(id);
@@ -4127,10 +4181,18 @@ function renderRequirementJumpBar(slides) {
   }
 }
 
-function renderFilmstrip(slides) {
+function renderFilmstrip(slides, opts = {}) {
   const list = document.getElementById("slide-filmstrip-list");
   if (!list) return;
-  const savedScrollTop = list.scrollTop;
+  const curBadgeKey = String(
+    state.currentResult?.badge_name || document.getElementById("badge-select")?.value || ""
+  )
+    .trim()
+    .toLowerCase();
+  const isBadgeChange = Boolean(curBadgeKey && state._lastFilmstripBadgeKey !== curBadgeKey);
+  if (curBadgeKey) state._lastFilmstripBadgeKey = curBadgeKey;
+  const shouldResetScroll = Boolean(opts?.resetScroll) || isBadgeChange || state.activeSlideIdx === -1;
+  const savedScrollTop = shouldResetScroll ? 0 : list.scrollTop;
   list.classList.remove("hidden");
   list.innerHTML = "";
   renderRequirementJumpBar(slides);
@@ -8746,6 +8808,25 @@ function bindCounselorToolkitActions() {
     });
   };
 
+  const resetWorkbookScrollTop = (el) => {
+    if (!el) return;
+    el.scrollTop = 0;
+    el.scrollLeft = 0;
+    const wbBodyEl = document.getElementById("workbook-markdown-body");
+    if (wbBodyEl) {
+      wbBodyEl.scrollTop = 0;
+      wbBodyEl.scrollLeft = 0;
+    }
+    requestAnimationFrame(() => {
+      el.scrollTop = 0;
+      el.scrollLeft = 0;
+      if (wbBodyEl) {
+        wbBodyEl.scrollTop = 0;
+        wbBodyEl.scrollLeft = 0;
+      }
+    });
+  };
+
   document.getElementById("btn-workbook-view-default")?.addEventListener("click", () => {
     setWorkbookSegmentedActive("btn-workbook-view-default");
     if (state.currentResult) {
@@ -8756,6 +8837,7 @@ function bindCounselorToolkitActions() {
           state.currentResult.scout_workbook_markdown ||
           "# Counselor Workbook Generated";
         wbPreview.innerHTML = renderMarkdownToStyledHtml(rawMd);
+        resetWorkbookScrollTop(wbPreview);
       }
     }
   });
@@ -8805,6 +8887,7 @@ function bindCounselorToolkitActions() {
             </div>
           `;
           bindEmbeddedWorkbookIndexMatrixInteractions(wbPreview);
+          resetWorkbookScrollTop(wbPreview);
           wbPreview.scrollIntoView({ behavior: "smooth", block: "start" });
           return;
         }
@@ -8875,6 +8958,7 @@ function bindCounselorToolkitActions() {
               ${resp.cpp_html || renderMarkdownToStyledHtml(resp.cpp_markdown)}
             </div>
           `;
+          resetWorkbookScrollTop(wbPreview);
           wbPreview.scrollIntoView({ behavior: "smooth", block: "start" });
         }
       }
@@ -11205,6 +11289,9 @@ function changePresenterFontScale(delta) {
 function syncPresenterViewWindow() {
   const payload = buildPresenterSyncPayload();
   const slides = state.currentResult?.storyboard?.slides || [];
+  const syncSlideKey = `${String(state.currentResult?.badge_name || "")}::${state.activeSlideIdx}`;
+  const isNewPresenterSlide = syncSlideKey !== state._lastPresenterSyncSlideKey;
+  state._lastPresenterSyncSlideKey = syncSlideKey;
 
   // 1. Update In-Stage Split-Screen Presenter Console Dock
   const dockTitle = document.getElementById("pc-dock-slide-title");
@@ -11227,6 +11314,7 @@ function syncPresenterViewWindow() {
     dockNotes.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
     const scale = typeof state.presenterFontScale === "number" ? state.presenterFontScale : 0.86;
     dockNotes.style.fontSize = `${scale}rem`;
+    if (isNewPresenterSlide) resetContainerScroll(dockNotes, "#fullscreen-teleprompter-drawer");
   }
   if (dockNext) dockNext.textContent = payload.nextSlideTitle;
   if (dockTimer) {
@@ -11256,7 +11344,13 @@ function syncPresenterViewWindow() {
       const pvNextBtn = doc.getElementById("pv-btn-next");
       if (titleEl) titleEl.textContent = payload.slideTitle;
       if (metaEl) metaEl.textContent = `${payload.badgeName} • ${payload.slideNumberLabel} • ${payload.reqLabel}`;
-      if (notesEl) notesEl.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
+      if (notesEl) {
+        notesEl.innerHTML = payload.notesHtml || "<em>No speaker notes for this slide.</em>";
+        if (isNewPresenterSlide) {
+          notesEl.scrollTop = 0;
+          notesEl.scrollLeft = 0;
+        }
+      }
       if (nextEl) nextEl.textContent = payload.nextSlideTitle;
       if (timerEl) timerEl.textContent = payload.timerFormatted;
       if (pvPrevBtn) pvPrevBtn.disabled = state.activeSlideIdx <= -1;

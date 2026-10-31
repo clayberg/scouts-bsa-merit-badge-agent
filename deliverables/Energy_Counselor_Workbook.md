@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Energy.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/energy/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **Official Requirement 1a:** With your parent or guardian's permission, use the internet to find a blog, podcast, website, or an article on the use or conservation of energy. Discuss with your counselor what details in the article were interesting to you, the questions it raises, and what ideas it addresses that you do not understand.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Energy Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 1a (With your parent or guardian's permission, use the internet to find a blog, podcast,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 1a (With your parent or guardian's permission, use the internet to find a blog, podcast,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts locate and critically review a technical article covering electrical generation or conservation methods. The review emphasizes separating objective engineering data from speculative marketing statements.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1b:** After you have completed requirements 2 through 8, revisit your source for requirement 1(a). Explain to your counselor what you have learned in completing the requirements that helps you better understand the article.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 12, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 1b (After you have completed requirements 2 through 8, revisit your source for requirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 1b (After you have completed requirements 2 through 8, revisit your source for requirement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts reexamine their initial source using knowledge gained from completing the technical badge requirements. This retrospection tests whether the author presented viable physics or exaggerated system capabilities.
 - **Common Myth:** Scouts often think preliminary opinions on energy tech remain unchanged after studying physics.
@@ -85,7 +85,7 @@
 #### Req 2a: Device Conversion Analysis
 **Official Requirement 2a:** Explain how THREE of the following devices use energy, and explain their energy conversions: toaster, greenhouse, lightbulb, bow drill, cell phone, nuclear reactor, sauna, or electric vehicles.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 2a (Explain how THREE of the following devices use energy, and explain their energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 2a (Explain how THREE of the following devices use energy, and explain their energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explain specific energy inputs and outputs for three mechanical, thermal, or electrical devices. The explanation highlights primary working functions along with incidental conversions such as thermal dissipation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -108,7 +108,7 @@
 **[Parent Directive]:** *Show you understand energy forms and conversions by doing the following*
 **Official Requirement 2b:** Construct a system that makes at least two energy conversions and explain this to your counselor.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 40, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 2b (Construct a system that makes at least two energy conversions and explain this to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 2b (Construct a system that makes at least two energy conversions and explain this to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts assemble a multi-stage mechanism that converts energy through at least two successive forms. Demonstrating the system proves how potential or electrical power transitions through kinetic and thermal states.
 - **Common Myth:** Scouts often think a homebuilt conversion system can output more energy than input.
@@ -131,7 +131,7 @@
 #### Req 3a: System Component Identification
 **Official Requirement 3a:** Identify the parts of the system that are affected by the energy movement.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 3a (Identify the parts of the system that are affected by the energy movement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 3a (Identify the parts of the system that are affected by the energy movement), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify all mechanical components, heat exchangers, and fluid circuits directly affected by passing energy. Understanding physical degradation helps engineers monitor component lifespan and systemic performance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -154,7 +154,7 @@
 **[Parent Directive]:** *Show you understand energy efficiency by explaining to your counselor a common example of a situation where energy moves through*
 **Official Requirement 3b:** Name the system's primary source of energy.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 3b (Name the system's primary source of energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 3b (Name the system's primary source of energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify the foundational fuel, fluid flow, or chemical reactant powering the chosen operational system. Pinpointing primary sources establishes the baseline energetic potential entering subsequent conversion steps.
 - **Common Myth:** Scouts often believe batteries generate brand-new energy rather than storing previously supplied charge.
@@ -172,7 +172,7 @@
 **[Parent Directive]:** *Show you understand energy efficiency by explaining to your counselor a common example of a situation where energy moves through*
 **Official Requirement 3c:** Identify the useful outcomes of the system.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 3c (Identify the useful outcomes of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 3c (Identify the useful outcomes of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts distinguish between deliberate productive work outputs and incidental conversion byproducts within an operating machine. Calculating intended outcomes forms the numerator in standard mechanical efficiency equations.
 - **Common Myth:** Scouts often classify incidental heat output from electric motors as a useful system outcome.
@@ -190,7 +190,7 @@
 **[Parent Directive]:** *Show you understand energy efficiency by explaining to your counselor a common example of a situation where energy moves through*
 **Official Requirement 3d:** Identify the energy losses of the system.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 47, p. 73)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 3d (Identify the energy losses of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 3d (Identify the energy losses of the system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify points of parasitic energy loss caused by fluid resistance, thermal conduction, and friction. Quantifying these losses highlights targeted opportunities for mechanical and thermodynamic redesign.
 - **Common Myth:** Scouts often believe friction reduction alone can eliminate total parasitic losses in engines.
@@ -211,7 +211,7 @@
 #### Req 4a: Domestic Energy Source Accounting
 **Official Requirement 4a:** List the types of energy used in your home such as electricity, wood, oil, liquid petroleum, and natural gas, and tell how each is delivered and measured, and the current cost; OR record the transportation fuel used, miles driven, miles per gallon, and trips using your family car or another vehicle.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4a Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 4a (List the types of energy used in your home such as electricity, wood, oil, liquid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 4a (List the types of energy used in your home such as electricity, wood, oil, liquid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts catalog household fuel types, measuring units such as therms and kilowatt-hours, and local utility rates. Understanding delivery methods clarifies the economic cost per unit of heat or mechanical work.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -232,7 +232,7 @@
 #### Req 4b: Household Conservation Planning
 **Official Requirement 4b:** Describe ways you and your family can use energy resources more wisely. In preparing your discussion, consider the energy required for the things you do and use on a daily basis (cooking, showering, using lights, driving, watching TV, using the computer). Explain what is meant by sustainable energy sources. Explain how you can change your energy use through reuse and recycling.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 59, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 4b (Describe ways you and your family can use energy resources more wisely. In preparing your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 4b (Describe ways you and your family can use energy resources more wisely. In preparing your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts implement daily habits that curtail wasted domestic electricity, hot water, and space heating energy. Preparing the discussion requires assessing appliance duty cycles and personal lifestyle energy demands.
 - **Common Myth:** Scouts often think personal conservation habits produce negligible savings compared to commercial operations.
@@ -254,7 +254,7 @@
 #### Req 5a: Community Efficiency Impact Analysis
 **Official Requirement 5a:** Explain how the changes you suggest would lower costs, reduce pollution, or otherwise improve your community.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 5a (Explain how the changes you suggest would lower costs, reduce pollution, or otherwise), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 5a (Explain how the changes you suggest would lower costs, reduce pollution, or otherwise), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts calculate how specific efficiency upgrades reduce operating costs and lower greenhouse gas emissions. Improved community infrastructure also creates healthier, better-lit learning and working public environments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -276,7 +276,7 @@
 #### Req 5b: Behavioral Habit Trade-Offs
 **Official Requirement 5b:** Explain what changes to routines, habits, or convenience are necessary to reduce energy waste. Tell why people might resist the changes you suggest.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 55, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 5b (Explain what changes to routines, habits, or convenience are necessary to reduce energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 5b (Explain what changes to routines, habits, or convenience are necessary to reduce energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine why individuals resist operational adjustments such as modified thermostat ranges or consolidated commuting. Addressing social and convenience friction is critical to successfully deploying conservation programs.
 - **Common Myth:** Scouts often believe people readily adopt new conservation habits once economic benefits are stated.
@@ -297,7 +297,7 @@
 **[Parent Directive]:** *Prepare pie charts showing the following information, and explain to your counselor the important ideas each chart reveals*
 **Official Requirement 6a:** The energy resources that supply the United States with most of its energy.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 6a (The energy resources that supply the United States with most of its energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 6a (The energy resources that supply the United States with most of its energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts chart the breakdown of primary fuels supplying the nation, including petroleum, natural gas, coal, nuclear, and renewables. Analyzing these shares illustrates current dependence on subterranean geological resources.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -320,7 +320,7 @@
 **[Parent Directive]:** *Prepare pie charts showing the following information, and explain to your counselor the important ideas each chart reveals*
 **Official Requirement 6b:** The share of energy resources used by the United States that comes from other countries.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 6b (The share of energy resources used by the United States that comes from other countries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 6b (The share of energy resources used by the United States that comes from other countries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts plot the percentage of domestic energy derived from foreign imports versus domestic extraction. The data illustrates geopolitical trade relationships and energy security considerations.
 - **Common Myth:** Scouts often assume the nation imports one hundred percent of its transportation petroleum.
@@ -338,7 +338,7 @@
 **[Parent Directive]:** *Prepare pie charts showing the following information, and explain to your counselor the important ideas each chart reveals*
 **Official Requirement 6c:** The proportion of energy resources used by homes, businesses, industry, and transportation.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 6c (The proportion of energy resources used by homes, businesses, industry, and transportation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 6c (The proportion of energy resources used by homes, businesses, industry, and transportation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts compare energy consumption across transportation, industrial, commercial, and residential sectors. Visualizing sector demands reveals why electrifying transport is a central focus of modern policy.
 - **Common Myth:** Scouts often think residential home heating consumes more energy than commercial and industrial sectors.
@@ -356,7 +356,7 @@
 **[Parent Directive]:** *Prepare pie charts showing the following information, and explain to your counselor the important ideas each chart reveals*
 **Official Requirement 6d:** The fuels used to generate America's electricity.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 6d (The fuels used to generate America's electricity), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 6d (The fuels used to generate America's electricity), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts chart the fuel portfolio powering utility generators, tracking historical transitions from coal to natural gas and solar. The portfolio reveals how dispatchable generation balances intermittent renewable energy inputs.
 - **Common Myth:** Scouts often believe electricity generates from a single universal fuel source across the nation.
@@ -374,7 +374,7 @@
 **[Parent Directive]:** *Prepare pie charts showing the following information, and explain to your counselor the important ideas each chart reveals*
 **Official Requirement 6e:** The world's known and estimated primary energy resource reserves.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 72, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 6e (The world's known and estimated primary energy resource reserves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 6e (The world's known and estimated primary energy resource reserves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts graph known global fossil reserves against historical consumption rates to project long-term resource availability. Evaluating reserve estimates demonstrates the physical necessity of transitioning toward sustainable power cycles.
 - **Common Myth:** Scouts often think global oil and gas reserves remain completely unmeasured and unpredictable.
@@ -396,7 +396,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7a:** Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7a (Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7a (Biomass digesters or waste-to-energy plants (b) Cogeneration plants (c) Fossil fuel power), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts evaluate biomass digesters that convert farm manure and food scraps into pipeline-quality biomethane. Capturing methane prevents fugitive emissions while generating reliable, dispatchable renewable base-load power.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -419,7 +419,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7b:** Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7b (Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7b (Cogeneration plants (c) Fossil fuel power plants (d) Fuel cells), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts investigate combined heat and power facilities that produce electricity and process steam simultaneously. Utilizing thermal exhaust doubles fuel efficiency compared to separate conventional generation systems.
 - **Common Myth:** Scouts often believe standard industrial boilers capture all heat produced during fuel combustion.
@@ -437,7 +437,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7c:** Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7c (Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7c (Fossil fuel power plants (d) Fuel cells (e) Geothermal power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts study combined cycle plants and carbon capture systems designed to lower emissions per megawatt-hour. High-efficiency gas turbines provide critical grid balancing support for fluctuating renewable supplies.
 - **Common Myth:** Scouts often think fossil power plants operate today using identical technology from a century ago.
@@ -455,7 +455,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7d:** Fuel cells (e) Geothermal power plants (f) Nuclear power plants (g) Solar power systems.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7d (Fuel cells (e) Geothermal power plants (f) Nuclear power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7d (Fuel cells (e) Geothermal power plants (f) Nuclear power plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine proton-exchange membrane fuel cells converting chemical fuels directly into direct current electricity. Fuel cells provide zero-emission motive power for heavy transit vehicles and stationary backup generators.
 - **Common Myth:** Scouts often believe fuel cells burn hydrogen fuel using open combustion inside a chamber.
@@ -473,7 +473,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7e:** Geothermal power plants (f) Nuclear power plants (g) Solar power systems.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7e (Geothermal power plants (f) Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7e (Geothermal power plants (f) Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts analyze geothermal systems that harness earth heat to produce continuous renewable electrical energy. Closed-loop reinjection wells prevent surface contamination and sustain deep reservoir fluid pressures.
 - **Common Myth:** Scouts often assume geothermal energy works anywhere without specific volcanic or tectonic geology.
@@ -491,7 +491,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7f:** Nuclear power plants (g) Solar power systems.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7f (Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7f (Nuclear power plants (g) Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts review advanced fission designs featuring passive safety systems and accident-tolerant ceramic nuclear fuels. Nuclear plants provide high-capacity, carbon-free baseload electricity with strict regulatory safety standards.
 - **Common Myth:** Scouts often think nuclear power plants emit vast clouds of smoke during standard operations.
@@ -509,7 +509,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7g:** Solar power systems.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7g (Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7g (Solar power systems), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explore advances in perovskite-silicon tandem cells and utility-scale solar tracker mountings. Modern solar arrays incorporate battery storage systems to deliver electricity across evening peak hours.
 - **Common Myth:** Scouts often believe solar panels produce identical energy regardless of outdoor ambient operating temperatures.
@@ -527,7 +527,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7h:** Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7h (Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7h (Tidal energy, wave energy, or ocean thermal energy conversion devices (i) Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts investigate tidal barrages, oscillating water columns, and ocean thermal energy conversion heat exchangers. Offshore marine systems face high corrosion and installation expenses but offer predictable power generation.
 - **Common Myth:** Scouts often assume coastal waves deliver identical mechanical energy constantly throughout every calendar day.
@@ -545,7 +545,7 @@
 **[Parent Directive]:** *Tell what is being done to make FIVE of the following energy systems produce more usable energy*
 **Official Requirement 7i:** Wind turbines.
 **Source:** *Official Scouting America Energy Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For energy Requirement 7i (Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Energy Requirement 7i (Wind turbines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts study offshore wind towers equipped with direct-drive permanent-magnet generators and taller aerodynamic towers. Taller hub heights access stronger, more consistent air currents to increase annual capacity factors.
 - **Common Myth:** Scouts often believe wind turbines generate electric power regardless of how fast winds blow.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Architecture_Landscape.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/landscape-architecture/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -61,7 +61,7 @@
 #### Req 2a: Spatial Organization and Circulation
 **Official Requirement 2a:** Tell whether the design had separate spaces, a defined point of entry, a clear path system, and sun and shade variety.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 2a (Tell whether the design had separate spaces, a defined point of entry, a clear path system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 2a (Tell whether the design had separate spaces, a defined point of entry, a clear path system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Effective landscape design establishes defined arrival portals and intuitive circulation networks. Combining open sunny lawns with sheltered, shaded retreats provides spatial diversity for diverse visitor activities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -83,7 +83,7 @@
 #### Req 2b: Built Structure Amenity Integration
 **Official Requirement 2b:** Discuss how any structures, the designated seating, eating, or parking areas suited the overall design.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 2b (Discuss how any structures, the designated seating, eating, or parking areas suited the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 2b (Discuss how any structures, the designated seating, eating, or parking areas suited the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paved plazas, dining patios, gazebos, and parking lots must harmoniously support the landscape scale. Their orientation determines how efficiently visitors transition from vehicular arrival to quiet human activities.
 - **Common Myth:** Scouts sometimes expect parking lots to be hidden far away without direct visual connection to entryways.
@@ -100,7 +100,7 @@
 #### Req 2c: User Comfort and Safety
 **Official Requirement 2c:** Explain how the design reflected consideration for the comfort, shelter, and security of the users.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 2c (Explain how the design reflected consideration for the comfort, shelter, and security of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 2c (Explain how the design reflected consideration for the comfort, shelter, and security of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designing for human comfort requires screening cold prevailing winds while framing cooling summer breezes. Environmental safety relies on Crime Prevention Through Environmental Design principles such as natural surveillance and unobstructed pathways.
 - **Common Myth:** Beginners often think dense perimeter shrubs improve park security by completely enclosing the perimeter.
@@ -117,7 +117,7 @@
 #### Req 2d: Botanical Composition and Function
 **Official Requirement 2d:** Discuss how the choice of trees, shrubs, and ground covers used in the project contributed to its appeal and function.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 2d (Discuss how the choice of trees, shrubs, and ground covers used in the project contributed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 2d (Discuss how the choice of trees, shrubs, and ground covers used in the project contributed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vegetation choices fulfill structural functions including erosion control, noise dampening, and architectural framing. Combining evergreen backdrops with deciduous flowering canopies enhances aesthetic interest across all four seasons.
 - **Common Myth:** Students occasionally imagine plants serve purely cosmetic functions without physical or environmental utility.
@@ -167,7 +167,7 @@
 **[Parent Directive]:** *After obtaining permission from the appropriate authority, look at and study a place of worship, school grounds, or a public*
 **Official Requirement 4a:** Using a measuring tape, measure and draw the main site entry and its nearby area. Define the scale of your drawing. Be sure to include the driveway and sidewalk or path that leads to the building's main entry. Indicate any sidewalks, structures, trees and plants, lights, drains, utilities, or other site furnishings within the study area. Make two copies of this plan and save the original, then do 4(b) and 4(c) using the copies.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 4a (Using a measuring tape, measure and draw the main site entry and its nearby area. Define), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 4a (Using a measuring tape, measure and draw the main site entry and its nearby area. Define), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Measuring existing hardscape features requires establishing a fixed baseline along the building foundation. Translating field measurements onto graph paper using a defined architect scale ensures every curb, path, and driveway aligns accurately.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -194,7 +194,7 @@
 **[Parent Directive]:** *After obtaining permission from the appropriate authority, look at and study a place of worship, school grounds, or a public*
 **Official Requirement 4b:** On one copy of your site plan, use directional arrows to indicate where the water drains across the site, where ditches occur, and where water stands for a longer period of time.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 4b (On one copy of your site plan, use directional arrows to indicate where the water drains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 4b (On one copy of your site plan, use directional arrows to indicate where the water drains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Water moves across a site based on subtle elevation gradients, pooling in depressions or rushing along hard curbs. Indicating drainage routes with directional arrows identifies erosion hazards, ponding zones, and opportunities for rain gardens.
 - **Common Myth:** People often assume storm runoff naturally soaks directly into hard-packed lawn soils without moving.
@@ -214,7 +214,7 @@
 **[Parent Directive]:** *After obtaining permission from the appropriate authority, look at and study a place of worship, school grounds, or a public*
 **Official Requirement 4c:** Decide how you can make the place safer and more comfortable for those using it. Redesign the area on another copy of the plan. You may want to include new walks, covered waiting areas, benches, space-defining plantings of trees and shrubs, and drainage structures.
 **Source:** *Official Scouting America Landscape Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For landscape architecture Requirement 4c (Decide how you can make the place safer and more comfortable for those using it. Redesign), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Landscape Architecture Requirement 4c (Decide how you can make the place safer and more comfortable for those using it. Redesign), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Redesigning a public threshold requires resolving bottlenecks where vehicle lanes cut across walking corridors. Adding wide concrete paths, canopy trees for solar relief, and covered bus waiting shelters improves user comfort and physical safety.
 - **Common Myth:** Students occasionally think redesigning an entryway simply means planting new colorful annual flower beds.

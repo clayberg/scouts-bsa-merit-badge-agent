@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Truck%20Transportation.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/truck-transportation/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -68,7 +68,7 @@
 #### Req 2a: Commercial Cargo Velocity
 **Official Requirement 2a:** Describe the role of truck transportation within commerce (the movement of goods, funds, and information)
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 2a (Describe the role of truck transportation within commerce (the movement of goods, funds,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 2a (Describe the role of truck transportation within commerce (the movement of goods, funds,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Truck transportation serves as the physical backbone of commercial trade by connecting production sites to markets. Modern trucking contracts manage freight payments, bills of lading, and shipping manifests.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -90,7 +90,7 @@
 #### Req 2b: Supply Chain Logistics
 **Official Requirement 2b:** Describe how trucks fit into a company's supply chain. This could be a manufacturer, importer, wholesaler, or retailer.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 2b (Describe how trucks fit into a company's supply chain. This could be a manufacturer,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 2b (Describe how trucks fit into a company's supply chain. This could be a manufacturer,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Trucks provide flexible freight delivery directly linking distribution warehouses with retail display shelves. Manufacturing assembly schedules rely on scheduled motor deliveries to support inventory management systems.
 - **Common Myth:** Manufacturing supply chains can function smoothly using solely railway or air cargo movements.
@@ -109,7 +109,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2c:** On paper, map out how goods that are manufactured overseas are transported to a retailer in this country.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 16, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 2c (On paper, map out how goods that are manufactured overseas are transported to a retailer in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 2c (On paper, map out how goods that are manufactured overseas are transported to a retailer in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - International freight relies on container ships, harbor cranes, rail networks, and motor highway carriers. Drayage tractors haul intermodal shipping containers from marine piers to inland distribution hubs.
 - **Common Myth:** Overseas goods travel directly from foreign manufacturing plants to stores inside one single vehicle.
@@ -156,7 +156,7 @@
 #### Req 4a: Fleet Preventive Maintenance
 **Official Requirement 4a:** Find out what kind of maintenance program the company follows to help keep its fleet, drivers, and the roadway safe.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 4a (Find out what kind of maintenance program the company follows to help keep its fleet,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 4a (Find out what kind of maintenance program the company follows to help keep its fleet,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fleet maintenance programs follow structured mileage intervals for fluid analysis, brake adjustments, and tire inspections. Systematic mechanical oversight preserves road safety and prevents roadside enforcement citations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -178,7 +178,7 @@
 #### Req 4b: Fleet Dispatch Telematics
 **Official Requirement 4b:** Find out how dispatchers maintain communication with drivers on the road.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 4b (Find out how dispatchers maintain communication with drivers on the road), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 4b (Find out how dispatchers maintain communication with drivers on the road), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern fleet dispatchers coordinate transit movements through onboard computers and satellite communication networks. Digital systems transmit weather warnings, route changes, and urgent customer delivery instructions instantly.
 - **Common Myth:** Dispatch centers rely exclusively on two-way citizens band radios to reach highway drivers.
@@ -196,7 +196,7 @@
 **[Parent Directive]:** *Visit a truck terminal and complete items 4(a) through 4(e)*
 **Official Requirement 4c:** Talk with a professional truck driver about safety. Learn about the truck driver's rules of the road for safe driving. List five safe-driving rules every professional truck driver must follow.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 4c (Talk with a professional truck driver about safety. Learn about the truck driver's rules of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 4c (Talk with a professional truck driver about safety. Learn about the truck driver's rules of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional truck operators adhere to specialized safety protocols covering space management and speed control. Drivers master blind-spot awareness and pre-trip inspections to protect surrounding highway motorists.
 - **Common Myth:** Large commercial tractor-trailers stop within identical braking distances as passenger sedans.
@@ -213,7 +213,7 @@
 #### Req 4d: Electronic Logging Records
 **Official Requirement 4d:** Review the driver's log and find out what kind of information the log contains.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4d Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 4d (Review the driver's log and find out what kind of information the log contains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 4d (Review the driver's log and find out what kind of information the log contains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial motor vehicle operators document on-duty, driving, sleeper berth, and off-duty periods. Federal inspectors review these tamper-resistant digital records to enforce strict driver fatigue limitations.
 - **Common Myth:** Drivers create log entries by handwriting rough daily mileage estimates at weekly intervals.
@@ -231,7 +231,7 @@
 **[Parent Directive]:** *Visit a truck terminal and complete items 4(a) through 4(e)*
 **Official Requirement 4e:** Learn about important federal regulations that help ensure public safety.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 18, p. 30)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 4e (Learn about important federal regulations that help ensure public safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 4e (Learn about important federal regulations that help ensure public safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Federal safety regulations establish strict driver duty hour caps and mandatory drug testing protocols. These federal guidelines maintain standardized vehicle mechanical safety across every interstate commerce highway.
 - **Common Myth:** Individual highway transport companies invent their own arbitrary highway safety and operating limits.
@@ -253,7 +253,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5a:** Outline the general organization of a trucking company. Describe what each department does.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 5a (Outline the general organization of a trucking company. Describe what each department does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 5a (Outline the general organization of a trucking company. Describe what each department does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Motor carrier organizations separate freight sales, line-haul dispatch, vehicle maintenance, and safety compliance. Each division provides specialized oversight to ensure profitable and legally compliant freight transport.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -274,7 +274,7 @@
 #### Req 5b: Professional Motor Carrier Careers
 **Official Requirement 5b:** List five positions with trucking companies and describe each one.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 25, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 5b (List five positions with trucking companies and describe each one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 5b (List five positions with trucking companies and describe each one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Career paths in commercial trucking encompass operations management, mechanical maintenance, pricing analysis, and driver supervision. Each role requires specialized technical skills, industry training, and administrative competency.
 - **Common Myth:** Trucking organizations offer career opportunities exclusively for individuals holding commercial driver licenses.
@@ -348,7 +348,7 @@
 **[Parent Directive]:** *Assume that you are going to ship by truck 500 pounds of goods (freight class 65) from your town to another town 500 miles away*
 **Official Requirement 8a:** How to prepare the shipment.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 8a (How to prepare the shipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 8a (How to prepare the shipment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proper freight preparation involves stacking boxes squarely on standard wooden pallets without edge overhang. Heavy plastic stretch film and corner boards reinforce cargo stability during cross-dock forklift handling.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -371,7 +371,7 @@
 **[Parent Directive]:** *Assume that you are going to ship by truck 500 pounds of goods (freight class 65) from your town to another town 500 miles away*
 **Official Requirement 8b:** How to compare at least three carriers for time in transit and rates (c) How to choose which carrier to use (d) How to insure the shipment for damages.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 8b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 8b (How to compare at least three carriers for time in transit and rates (c) How to choose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 8b (How to compare at least three carriers for time in transit and rates (c) How to choose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shippers request price quotes and transit timetables from competing less-than-truckload commercial carriers. Evaluating carrier tariffs reveals differences in lane efficiency, direct-point coverage, and terminal transfer delays.
 - **Common Myth:** All motor freight carriers charge identical tariffs for transporting identical cargo weights and distances.
@@ -389,7 +389,7 @@
 **[Parent Directive]:** *Assume that you are going to ship by truck 500 pounds of goods (freight class 65) from your town to another town 500 miles away*
 **Official Requirement 8c:** How to choose which carrier to use (d) How to insure the shipment for damages.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 8c (How to choose which carrier to use (d) How to insure the shipment for damages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 8c (How to choose which carrier to use (d) How to insure the shipment for damages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Logistics managers evaluate carrier safety scores, on-time delivery percentages, and claims handling ratios. The optimal carrier satisfies the three-day delivery deadline while providing cost-effective transportation rates.
 - **Common Myth:** Choosing the lowest quoted transportation price always provides the most effective shipping solution.
@@ -407,7 +407,7 @@
 **[Parent Directive]:** *Assume that you are going to ship by truck 500 pounds of goods (freight class 65) from your town to another town 500 miles away*
 **Official Requirement 8d:** How to insure the shipment for damages.
 **Source:** *Official Scouting America Truck Transportation Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For truck transportation Requirement 8d (How to insure the shipment for damages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Truck Transportation Requirement 8d (How to insure the shipment for damages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Carrier bills of lading typically limit damage reimbursement to pennies per pound under published tariffs. Shippers purchase declared-value coverage or third-party cargo insurance policies to protect full inventory worth.
 - **Common Myth:** Carriers automatically reimburse full retail value for damaged cargo without declared value coverage.
@@ -476,3 +476,4 @@
 | **4. Discuss with your counselor both your findings and what about this profession might make it an interesting career** | Fleet Dispatch: Freight dispatchers assign commercial transport drivers to loads while monitoring weather and delivery appointments. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 10):** Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Truck Transportation Requirement 10 (careers in truck transportation) before signing the blue card.
+))

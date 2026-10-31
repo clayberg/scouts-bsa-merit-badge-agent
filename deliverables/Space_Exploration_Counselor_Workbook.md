@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Space%20Exploration.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/space-exploration/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Historical reasons (b) Immediate goals in terms of specific knowledge.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain clear radio communications during tracking operations to prevent field hazards around mobile antennas.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 1a (Historical reasons (b) Immediate goals in terms of specific knowledge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 1a (Historical reasons (b) Immediate goals in terms of specific knowledge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Geopolitical competition between global superpowers accelerated rocket engine development during the mid-twentieth century. Initial orbital launches demonstrated intercontinental ballistic missile capabilities alongside scientific milestones.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -65,7 +65,7 @@
 **[Parent Directive]:** *Tell the purpose of space exploration and include the following*
 **Official Requirement 1b:** Immediate goals in terms of specific knowledge.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 1b (Immediate goals in terms of specific knowledge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 1b (Immediate goals in terms of specific knowledge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immediate mission objectives prioritize measuring solar radiation, cosmic rays, and planetary atmospheric compositions. These precise physical measurements establish baseline environments for future human voyages.
 - **Common Myth:** Planetary science missions prioritize finding alien life over collecting atmospheric data.
@@ -85,7 +85,7 @@
 **[Parent Directive]:** *Tell the purpose of space exploration and include the following*
 **Official Requirement 1c:** Benefits related to Earth resources, technology, and new products (d) International relations and cooperation.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 1c (Benefits related to Earth resources, technology, and new products (d) International), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 1c (Benefits related to Earth resources, technology, and new products (d) International), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Space technology generates consumer spin-offs including scratch-resistant lenses, cordless tools, and advanced water purifiers. Remote sensing satellites monitor freshwater aquifers, agricultural crop health, and deforestation patterns.
 - **Common Myth:** Space research produces inventions that benefit only astronauts aboard orbital space stations.
@@ -103,7 +103,7 @@
 **[Parent Directive]:** *Tell the purpose of space exploration and include the following*
 **Official Requirement 1d:** International relations and cooperation.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 69, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 1d (International relations and cooperation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 1d (International relations and cooperation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Multinational cooperation enables shared tracking stations, orbital rescue agreements, and distributed development costs. Treaties designate outer space as a global commons for peaceful scientific investigation.
 - **Common Myth:** Nations launch missions completely independently without international tracking or frequency coordination.
@@ -153,7 +153,7 @@
 **Official Requirement 3a:** Body tube (b) Engine mount (c) Fins (d) Igniter (e) Launch lug.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain a safety distance of at least fifteen feet with an armed electrical launch controller.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3a (Body tube (b) Engine mount (c) Fins), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3a (Body tube (b) Engine mount (c) Fins), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The body tube acts as the main airframe housing the recovery system, motor mount, and payload. It must remain straight and undamaged to minimize aerodynamic drag during ascent.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -176,7 +176,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3b:** Engine mount (c) Fins (d) Igniter (e) Launch lug (f) Nose cone.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3b (Engine mount (c) Fins (d) Igniter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3b (Engine mount (c) Fins (d) Igniter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The engine mount secures the rocket motor inside the airframe using centering rings and engine hooks. It transfers thrust directly to the body tube while keeping the exhaust centered.
 - **Common Myth:** The motor mount holds the engine in place solely using friction fit tape.
@@ -196,7 +196,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3c:** Fins.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3c (Fins), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3c (Fins), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fins generate restoring aerodynamic forces when the rocket tilts during ascent. Their size, shape, and placement dictate the position of the aerodynamic center of pressure.
 - **Common Myth:** Curved fins provide better flight stability than completely flat, straight balsa fins.
@@ -214,7 +214,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3d:** Igniter (e) Launch lug (f) Nose cone (g) Payload (h) Recovery system.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3d (Igniter (e) Launch lug (f) Nose cone), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3d (Igniter (e) Launch lug (f) Nose cone), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The igniter contains a pyrotechnic compound ignited by an electric current from the launch controller. It must touch the propellant core inside the nozzle for reliable ignition.
 - **Common Myth:** Rocket motors ignite from a mechanical spark generated inside the launch controller.
@@ -232,7 +232,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3e:** Launch lug (f) Nose cone (g) Payload (h) Recovery system (i) Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3e (Launch lug (f) Nose cone (g) Payload), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3e (Launch lug (f) Nose cone (g) Payload), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The launch lug is a small sleeve that slides over the steel launch pad rod. It provides directional stability until the rocket reaches aerodynamic flight speed.
 - **Common Myth:** The launch lug adds significant drag and should be omitted on windy days.
@@ -250,7 +250,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3f:** Nose cone (g) Payload (h) Recovery system (i) Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3f (Nose cone (g) Payload (h) Recovery system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3f (Nose cone (g) Payload (h) Recovery system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The nose cone forms the aerodynamic forward tip of the airframe, reducing atmospheric drag. It separates at apogee to permit ejection of the recovery parachute or streamer.
 - **Common Myth:** A sharp pointed nose cone is always aerodynamically superior at subsonic launch speeds.
@@ -268,7 +268,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3g:** Payload (h) Recovery system (i) Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3g (Payload (h) Recovery system (i) Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3g (Payload (h) Recovery system (i) Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The payload compartment holds experimental sensors, electronic altimeters, or cargo without interfering with flight systems. Adding mass forward moves the vehicle center of gravity away from the fins.
 - **Common Myth:** Any extra payload placed inside a model rocket will make it completely unstable.
@@ -286,7 +286,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3h:** Recovery system (i) Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3h (Recovery system (i) Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3h (Recovery system (i) Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The recovery system consists of a shock cord, flame-resistant wadding, and a parachute or streamer. It deploys at apogee to slow descent and prevent landing impact damage.
 - **Common Myth:** Parachutes open automatically using air pressure sensors located inside the model nose cone.
@@ -304,7 +304,7 @@
 **[Parent Directive]:** *Build, launch, and recover a model rocket under the supervision of an experienced or qualified person approved by your counselor*
 **Official Requirement 3i:** Rocket engine.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 25, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 3i (Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 3i (Rocket engine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Model rocket motors use black powder or composite propellant cast inside a cardboard or phenolic casing. A delay charge permits coasting before an ejection charge activates recovery gear.
 - **Common Myth:** Rocket engines continue burning fuel at a steady rate until landing on Earth.
@@ -328,7 +328,7 @@
 **Official Requirement 4a:** The law of action-reaction (b) How rocket engines work (c) How satellites stay in orbit.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear eye protection when demonstrating pressurized air or water rocket action-reaction dynamics.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 4a (The law of action-reaction (b) How rocket engines work (c) How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 4a (The law of action-reaction (b) How rocket engines work (c) How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Newton third law of motion dictates that every action creates an equal and opposite reaction. High-velocity exhaust gases ejected rearward propel the launch vehicle forward through conservation of momentum.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -351,7 +351,7 @@
 **[Parent Directive]:** *Discuss and demonstrate each of the following*
 **Official Requirement 4b:** How rocket engines work (c) How satellites stay in orbit.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 4b (How rocket engines work (c) How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 4b (How rocket engines work (c) How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rocket engines mix fuel and oxidizer inside a high-pressure combustion chamber to generate gas. The expanding gases accelerate through a de Laval nozzle to create forward kinetic momentum.
 - **Common Myth:** Rocket engines require continuous outside air intake to burn liquid chemical fuels.
@@ -369,7 +369,7 @@
 **[Parent Directive]:** *Discuss and demonstrate each of the following*
 **Official Requirement 4c:** How satellites stay in orbit.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 4c (How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 4c (How satellites stay in orbit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A satellite remains in orbit because its horizontal velocity matches the curvature of the planet. Earth gravity continually pulls the vehicle downward, creating a continuous free fall trajectory.
 - **Common Myth:** Spacecraft orbit Earth because they travel outside the pull of Earth gravity.
@@ -387,7 +387,7 @@
 **[Parent Directive]:** *Discuss and demonstrate each of the following*
 **Official Requirement 4d:** How satellite pictures of Earth and pictures of other planets are made and transmitted.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 35, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 4d (How satellite pictures of Earth and pictures of other planets are made and transmitted), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 4d (How satellite pictures of Earth and pictures of other planets are made and transmitted), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Spacecraft cameras focus light onto charge-coupled devices that measure photon charges across pixel grids. The numerical values convert into digital radio telemetry beamed to Deep Space Network dishes.
 - **Common Myth:** Spacecraft return physical photographic film to Earth to produce planetary digital images.
@@ -410,7 +410,7 @@
 **Official Requirement 5a:** Discuss with your counselor a robotic space exploration mission and a historic crewed mission. Tell about each mission's major discoveries, its importance, and what was learned from it about the planets, moons, or regions of space explored.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Sanitize shared computer terminals and verify electrical safety cables during planetary media production.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 5a (Discuss with your counselor a robotic space exploration mission and a historic crewed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 5a (Discuss with your counselor a robotic space exploration mission and a historic crewed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing robotic probes and human spaceflight highlights trade-offs between mission cost, duration, and investigative flexibility. Crewed missions yield extensive geological fieldwork, while robotic explorers traverse decades through interstellar space.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -432,7 +432,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 5b:** Using articles from the internet, photographs and text, create a blog, website, or slide show about a current planetary mission or use magazine photographs, news clippings, and articles from the internet to make a scrapbook about a current planetary mission.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 5b (Using articles from the internet, photographs and text, create a blog, website, or slide), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 5b (Using articles from the internet, photographs and text, create a blog, website, or slide), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Documenting active planetary missions requires aggregating telemetry logs, mission updates, and processed sensor photographs. Digital portfolios organize these materials chronologically to demonstrate ongoing scientific discoveries across our solar system.
 - **Common Myth:** Planetary mission web logs only publish artist impressions rather than scientific telemetry.
@@ -449,7 +449,7 @@
 #### Req 5c: Robotic Sample Return Design
 **Official Requirement 5c:** Design a robotic mission to another planet, moon, comet, or asteroid that will return samples of its surface to Earth. Name the planet, moon, comet, or asteroid your spacecraft will visit. Show how your design will cope with the conditions of the environments of the planet, moon, comet, or asteroid.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 56, p. 59)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 5c (Design a robotic mission to another planet, moon, comet, or asteroid that will return), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 5c (Design a robotic mission to another planet, moon, comet, or asteroid that will return), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designing a robotic sample return vehicle demands precise navigation, autonomous landing systems, and surface collection tools. The craft must launch off the target body and protect pristine samples during Earth re-entry.
 - **Common Myth:** Spacecraft collect surface rock samples simply by scooping dust during high-speed flybys.
@@ -473,7 +473,7 @@
 **Official Requirement 6a:** Space shuttle or any other crewed orbital vehicle, whether government-owned (U. S. or foreign) or commercial (b) International Space Station.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Review pressurized airlock depressurization procedures to understand rapid decompression risks during EVA operations.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 6a (Space shuttle or any other crewed orbital vehicle, whether government-owned (U. S. or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 6a (Space shuttle or any other crewed orbital vehicle, whether government-owned (U. S. or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Space Shuttle fleet used solid rocket boosters, an expendable external tank, and reusable winged orbiters. It carried heavy satellites to orbit, serviced space telescopes, and ferried space station laboratory modules.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -496,7 +496,7 @@
 **[Parent Directive]:** *Describe the purpose, operation, and components of ONE of the following*
 **Official Requirement 6b:** International Space Station.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 6b (International Space Station), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 6b (International Space Station), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The International Space Station consists of interconnected pressurized modules built by an international consortium of nations. It serves as a microgravity laboratory supported by automated cargo resupply capsules and crew transports.
 - **Common Myth:** The International Space Station was launched into orbit fully assembled on one rocket.
@@ -520,7 +520,7 @@
 **Official Requirement 7a:** Source of energy (b) How it will be constructed (c) Life-support system (d) Purpose and function.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear eye protection and dust filtration masks when cutting foam or plaster habitat models.
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 7a (Source of energy (b) How it will be constructed (c) Life-support system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 7a (Source of energy (b) How it will be constructed (c) Life-support system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Planetary bases require reliable energy from photovoltaic arrays, fuel cells, or compact nuclear fission reactors. Systems must supply continuous power throughout extreme day-night cycles and planetary dust storms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -543,7 +543,7 @@
 **[Parent Directive]:** *Design an inhabited base located within our solar system, such as Titan, asteroids, or other locations that humans might want*
 **Official Requirement 7b:** How it will be constructed (c) Life-support system (d) Purpose and function.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 7b (How it will be constructed (c) Life-support system (d) Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 7b (How it will be constructed (c) Life-support system (d) Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Construction methods integrate pre-fabricated expandable modules with robotic excavation and 3D printing techniques. Using local regolith reduces launch mass requirements and shields structures from micrometeoroid impacts.
 - **Common Myth:** Outposts must be fabricated entirely on Earth and ferried complete via single launches.
@@ -561,7 +561,7 @@
 **[Parent Directive]:** *Design an inhabited base located within our solar system, such as Titan, asteroids, or other locations that humans might want*
 **Official Requirement 7c:** Life-support system (d) Purpose and function.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 7c (Life-support system (d) Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 7c (Life-support system (d) Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Life-support systems regulate atmospheric pressure, maintain oxygen-nitrogen balance, and remove exhaled carbon dioxide. Closed-loop recycling purifies graywater and urine to achieve sustainable, long-term crew survival.
 - **Common Myth:** Life support systems can vent waste air continuously without running out of gases.
@@ -579,7 +579,7 @@
 **[Parent Directive]:** *Design an inhabited base located within our solar system, such as Titan, asteroids, or other locations that humans might want*
 **Official Requirement 7d:** Purpose and function.
 **Source:** *Official Scouting America Space Exploration Merit Badge Pamphlet (p. 83, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For space exploration Requirement 7d (Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Space Exploration Requirement 7d (Purpose and function), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A base mission profile defines scientific goals, geological sampling priorities, and resource extraction workflows. Facilities house crew quarters, pressurized laboratories, airlocks, and launch infrastructure for exploratory sorties.
 - **Common Myth:** Establishing a permanent planetary habitat serves only as an emergency lifeboat for Earth.
@@ -622,3 +622,4 @@
 | **4. Discuss with your counselor both your findings and what about this profession might make it an interesting career** | Advanced Technician Roles: Precision fabricators assemble composite carbon fiber airframes and test high-pressure fuel lines. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8):** Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Space Exploration Requirement 8 (aerospace engineering and space careers) before signing the blue card.
+)

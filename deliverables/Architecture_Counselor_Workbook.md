@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Architecture_Landscape.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/architecture/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Tour your community and list the different types of buildings you see. Try to identify buildings that can be associated with a specific period of history or style of architecture. Make a sketch of the building you most admire.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 1a Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 1a (Tour your community and list the different types of buildings you see. Try to identify), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 1a (Tour your community and list the different types of buildings you see. Try to identify), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts walk local streets to inventory civic, residential, and commercial building typologies. Measured visual notes highlight distinctive masonry patterns, rooflines, and era-specific ornamental flourishes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Historic Landmark Societal Evaluation
 **Official Requirement 1b:** Select a historical architectural achievement that has had a major impact on society. Using resources such as the internet (with your parent or guardian's permission), books, and magazines, find out how this achievement has influenced the world today. Tell your counselor what you learned.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 1b (Select a historical architectural achievement that has had a major impact on society. Using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 1b (Select a historical architectural achievement that has had a major impact on society. Using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating landmark structures demonstrates how master builders solved major spatial and civic challenges. Scouts investigate archival drawings, engineering innovations, and the societal shifts sparked by monumental construction.
 - **Common Myth:** Ancient architectural monuments functioned purely as religious art without practical engineering utility.
@@ -85,7 +85,7 @@
 **[Parent Directive]:** *In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to "Travel and camp on durable*
 **Official Requirement 2a:** The term sustainable architecture. Identify three features typical of green buildings.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 2a (The term sustainable architecture. Identify three features typical of green buildings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 2a (The term sustainable architecture. Identify three features typical of green buildings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sustainable architecture balances energy efficiency, occupant health, and natural resource stewardship. Standard green building features include rainwater catchment cisterns, daylighting light shelves, and high-performance continuous exterior insulation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -107,7 +107,7 @@
 **[Parent Directive]:** *In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to "Travel and camp on durable*
 **Official Requirement 2b:** The difference between renewable building materials and recycled building materials, and how each can be used in construction.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 2b (The difference between renewable building materials and recycled building materials, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 2b (The difference between renewable building materials and recycled building materials, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Renewable materials regenerate through biological processes within short harvesting rotations like timber and straw. Recycled materials repurpose post-consumer or post-industrial waste streams like crushed concrete aggregates and reclaimed copper roofing.
 - **Common Myth:** Recycled construction materials have inferior structural strength compared to virgin mined substances.
@@ -125,7 +125,7 @@
 **[Parent Directive]:** *In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to "Travel and camp on durable*
 **Official Requirement 2c:** The relationship of architecture with its surrounding environment and the community.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 2c (The relationship of architecture with its surrounding environment and the community), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 2c (The relationship of architecture with its surrounding environment and the community), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Contextual architecture responds directly to surrounding landscape contours, wind patterns, and civic traffic flows. Thoughtful public plazas and pedestrian pathways connect private interior spaces to wider community neighborhoods.
 - **Common Myth:** Architects only focus on property boundaries rather than adjacent streets or watersheds.
@@ -143,7 +143,7 @@
 **[Parent Directive]:** *In following the Leave No Trace Seven Principles and the Outdoor Code, Scouts pledge to "Travel and camp on durable*
 **Official Requirement 2d:** How entire buildings can be reused rather than torn down when they no longer serve their original purpose.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 2d (How entire buildings can be reused rather than torn down when they no longer serve their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 2d (How entire buildings can be reused rather than torn down when they no longer serve their), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Adaptive reuse repurposes disused architectural structures for modern residential, commercial, or educational functions. Retaining foundational masonry walls keeps immense volumes of demolition debris out of local landfills.
 - **Common Myth:** Demolishing an old structure and rebuilding from scratch is always cheaper and greener.
@@ -167,7 +167,7 @@
 **Official Requirement 3a:** With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect. Ask to see the scale model of a building and the drawings that a builder would use to construct this building. Discuss why the different building materials were selected. Look at the details in the drawings and the model to see how the materials and components are attached to each other during construction.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 3a (With your parent or guardian's and counselor's permission and approval, arrange to meet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 3a (With your parent or guardian's and counselor's permission and approval, arrange to meet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an architectural studio reveals the transition from preliminary creative concept to technical building documentation. Architects display physical foam-board models, computer-aided drafting software, and comprehensive project specification binders.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -192,7 +192,7 @@
 **Official Requirement 3b:** With your parent or guardian's and counselor's permission and approval, arrange to meet with an architect at a construction site. Ask the architect to bring drawings that the builder uses to construct the building. While at the site, discuss why the different building materials being used were selected. Discuss how the different building materials and components are attached to each other during construction. Note: To visit a construction site will require advance planning. You will need permission from a parent or guardian, counselor, the architect, and the construction site manager. A construction site is a very dangerous place. While there, you will need to closely follow the site manager's directions and comply with all the safety procedures, including wearing a hard hat, protective eyewear, and proper footwear. Be aware of the changing conditions at the site, and stay with the architect or site manager.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Architecture Req 3b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 3b (With your parent or guardian's and counselor's permission and approval, arrange to meet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 3b (With your parent or guardian's and counselor's permission and approval, arrange to meet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Meeting on an active jobsite connects two-dimensional construction blueprints with three-dimensional physical framing. The architect explains how builders interpret foundation details, structural steel joints, and mechanical rough-ins on site.
 - **Common Myth:** General contractors can alter wall locations on site without consulting the architect.
@@ -210,7 +210,7 @@
 #### Req 3c: Client Program Interview Process
 **Official Requirement 3c:** Interview someone who might be your client (such as a prospective homeowner or business owner) if you were an architect. Find out what your client's requirements would be for designing a new home or business building. Write a short program including a list of requirements for the project, the functions of the building and site, how the functions relate to one another, and the goals of the project.
 **Source:** *Official Scouting America Architecture Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For architecture Requirement 3c (Interview someone who might be your client (such as a prospective homeowner or business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Architecture Requirement 3c (Interview someone who might be your client (such as a prospective homeowner or business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing a prospective building owner establishes the architectural program by cataloging functional requirements and aesthetic goals. Architects assess budget limits, square footage targets, accessibility guidelines, and anticipated family or business growth.
 - **Common Myth:** Clients give architects exact dimensions and wall placements during initial programming meetings.

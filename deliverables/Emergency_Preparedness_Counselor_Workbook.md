@@ -48,7 +48,7 @@
 **Official Requirement 1a:** Discuss with your counselor the aspects of emergency preparedness and include in your discussion the kinds of questions that are important to ask yourself as you consider each of these: prevention, protection, mitigation, response, and recovery.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 22, p. 68)* • **Scout Workbook Organizer (5-Column Hazard Assessment Matrix):** Req 1a Five-Mission Emergency Management Matrix (6 Columns)
 > **Guide to Safe Scouting Warning:** Never conduct physical drills in areas with unmapped structural or utility hazards.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 1a (Discuss with your counselor the aspects of emergency preparedness and include in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 1a (Discuss with your counselor the aspects of emergency preparedness and include in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts analyze critical self-reflection questions across prevention, preparedness, response, and recovery. Evaluating potential hazards before events occur determines appropriate supply reserves and action thresholds.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -57,7 +57,7 @@
 - **Common Myth:** Emergency questions only matter once an evacuation order is officially issued.
 - **Pamphlet Fact:** Proactive questioning uncovers critical supply shortages and structural hazards beforehand.
 
-![Mitigation Phase diagram illustrating how structural hardening and hazard reduction lower community vulnerability before disasters strike.](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
+![Technical diagram of mitigation phase principles and field relationships in Emergency Preparedness (Requirement 1).](/assets/pamphlet_images/emergency_preparedness_p003_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -464,7 +464,7 @@
 **Official Requirement 2a:** At a family meeting, discuss the situations on the chart you created for requirement 1(b) and make emergency plans for sheltering-in-place and for evacuation of your home. Discuss your family meeting and plans with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Scout Workbook Organizer (5-Column Hazard Assessment Matrix):** Req 2a Five-Mission Emergency Management Matrix (6 Columns)
 > **Guide to Safe Scouting Warning:** Ensure window locks and security bars have functional interior quick-release mechanisms.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 2a (At a family meeting, discuss the situations on the chart you created for requirement 1(b)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 2a (At a family meeting, discuss the situations on the chart you created for requirement 1(b)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Family meetings establish decision triggers for staying indoors versus evacuating residential structures. Clear roles prevent chaotic delays when regional emergencies mandate rapid relocation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -473,7 +473,7 @@
 - **Common Myth:** Sheltering-in-place simply means locking exterior doors and staying inside normally.
 - **Pamphlet Fact:** Chemical sheltering requires sealing vents, windows, and doors with plastic sheeting.
 
-![Shelter Protocols diagram illustrating how sealing interior rooms protects residents from airborne chemical or radiological plumes.](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
+![Technical diagram of shelter protocols principles and field relationships in Emergency Preparedness (Requirement 2).](/assets/pamphlet_images/emergency_preparedness_p007_img1.png)
 
 | Emergency Situation | Prevention | Protection | Mitigation | Response | Recovery |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -490,7 +490,7 @@
 **[Parent Directive]:** *Planning for Family Emergencies. Do the following*
 **Official Requirement 2b:** Develop and practice a plan of escape for your family in case of fire in your home. Draw a floor plan with escape routes and a map with a safe meeting place. Discuss your family's home escape plan with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 2b (Develop and practice a plan of escape for your family in case of fire in your home. Draw a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 2b (Develop and practice a plan of escape for your family in case of fire in your home. Draw a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Detailed floorplans diagram two clear exits from every living space and bedroom. Practicing fire escape routes builds muscle memory necessary for zero-visibility smoky environments.
 - **Common Myth:** Scouts can safely search burning houses to rescue pets during evacuations.
@@ -512,7 +512,7 @@
 **[Parent Directive]:** *Planning for Family Emergencies. Do the following*
 **Official Requirement 2c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a family disaster kit for sheltering-in-place and for evacuation of your home. Review the needs and uses of the items in a kit with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 26, p. 31)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 2c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 2c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Disaster kits must store one gallon of water per person per day. Portable go-bags ensure essential prescription medications and emergency documents accompany evacuees.
 - **Common Myth:** Standard camping gear without modifications serves as a complete disaster kit.
@@ -537,7 +537,7 @@
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Disconnect electric power before inspecting suspect appliance cords or utility panels.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 3a (Using a home safety checklist included in the Emergency Preparedness merit badge pamphlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 3a (Using a home safety checklist included in the Emergency Preparedness merit badge pamphlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conducting systematic residential walkthroughs identifies overlooked fire, chemical, and structural risks. Documenting findings prompts homeowners to replace dead smoke detector batteries and clear blocked exits.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -546,7 +546,7 @@
 - **Common Myth:** Smoke alarms remain fully functional as long as the test button beeps.
 - **Pamphlet Fact:** Sensor degradation requires replacing entire smoke detector units every ten years.
 
-![Electrical Inspection diagram illustrating how frayed cords and overloaded extension circuits present severe residential fire hazards.](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
+![Technical diagram of electrical inspection principles and field relationships in Emergency Preparedness (Requirement 3).](/assets/pamphlet_images/emergency_preparedness_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -560,7 +560,7 @@
 **Official Requirement 3b:** Develop emergency prevention plans for five family activities outside the home, as approved by your counselor. (Examples are taking a picnic to a park, seeing a movie, attending a worship service, an outing at a beach, traveling to visit a relative, or attending a ball game or concert.) Each plan should include an analysis of possible hazards, proposals to prevent, protect from, mitigate, respond to, and recover from emergencies, and the reasons for the actions that you propose.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Emergency Preparedness Req 3b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 3b (Develop emergency prevention plans for five family activities outside the home, as approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 3b (Develop emergency prevention plans for five family activities outside the home, as approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing prevention plans for public outings requires evaluating crowds, transit hazards, and environmental extremes. Formulating contingency protocols ensures family members know reunion sites if separated.
 - **Common Myth:** Public venues provide sufficient security and medical staff to eliminate personal planning.
@@ -585,7 +585,7 @@
 **Official Requirement 4a:** Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never step into flooded basements or puddles containing submerged power lines.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 4a (Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 4a (Live household electric wire (b) A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Household current can cause ventricular fibrillation and muscular lockup. Rescuers must shut off the breaker or push wires using dry nonconductive broom handles.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -608,7 +608,7 @@
 **[Parent Directive]:** *Dangerous Situations. Show how you could save a person from the following dangerous situations without putting yourself in danger*
 **Official Requirement 4b:** A structure filled with carbon monoxide (c) Clothes on fire.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 4b (A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 4b (A structure filled with carbon monoxide (c) Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Carbon monoxide is an odorless, colorless gas that causes rapid unconsciousness. Rescuers must ventilate the space from outside and summon firefighters equipped with self-contained breathing apparatus.
 - **Common Myth:** Holding your breath allows a quick dash inside to rescue unconscious victims.
@@ -626,7 +626,7 @@
 **[Parent Directive]:** *Dangerous Situations. Show how you could save a person from the following dangerous situations without putting yourself in danger*
 **Official Requirement 4c:** Clothes on fire.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 4c (Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 4c (Clothes on fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Victims whose clothing is burning often panic and run, fanning flames. Forcing the victim to the ground, smothering flames with non-synthetic blankets, and rolling extinguishes the fire.
 - **Common Myth:** Running toward water while clothes are burning quickly extinguishes clothing flames.
@@ -644,7 +644,7 @@
 **[Parent Directive]:** *Dangerous Situations. Show how you could save a person from the following dangerous situations without putting yourself in danger*
 **Official Requirement 4d:** Drowning, using nonswimming rescues (including accidents on ice)
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 4d (Drowning, using nonswimming rescues (including accidents on ice)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 4d (Drowning, using nonswimming rescues (including accidents on ice)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuing drowning individuals without swimming follows the reach, throw, row, and go sequence. Ice accidents require distributing rescuer weight across ladders or ropes while staying off weak ice.
 - **Common Myth:** Strong swimmers should immediately dive into water to rescue struggling swimmers.
@@ -667,7 +667,7 @@
 **Official Requirement 5a:** Show three ways of attracting and communicating with rescue aircraft or drones.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never aim signal mirrors directly at aircraft cockpits during final landing approaches.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 5a (Show three ways of attracting and communicating with rescue aircraft or drones), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 5a (Show three ways of attracting and communicating with rescue aircraft or drones), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ground symbols measuring at least ten feet long communicate clear distress messages to aircraft pilots. Creating high contrast using rocks, branches, or stamped snow ensures clear aerial visibility.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -689,7 +689,7 @@
 #### Req 5b: Wilderness Ground Searcher Signals
 **Official Requirement 5b:** Show ways to attract the attention of searchers on the ground if you are lost in the wilderness.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 5b (Show ways to attract the attention of searchers on the ground if you are lost in the wilderness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 5b (Show ways to attract the attention of searchers on the ground if you are lost in the wilderness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lost hikers attract ground searchers by blowing whistles in bursts of three and hanging bright garments. Staying in one location prevents confusing tracking dogs and ground search teams.
 - **Common Myth:** Yelling loudly repeatedly is more effective than carrying an emergency whistle.
@@ -706,7 +706,7 @@
 #### Req 5c: Marine Distress Signaling Equipment
 **Official Requirement 5c:** Show ways to attract the attention of searchers on the water if you are stranded with a capsized or disabled motorboat or sailboat.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 40, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 5c (Show ways to attract the attention of searchers on the water if you are stranded with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 5c (Show ways to attract the attention of searchers on the water if you are stranded with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stranded boaters deploy orange smoke, pyrotechnic flares, and day-glo distress flags to alert passing ships. Remaining with capsized or disabled vessels provides searchers a vastly larger visual target.
 - **Common Myth:** Swimming away from a disabled boat toward distant shores improves survival odds.
@@ -756,7 +756,7 @@
 **Official Requirement 7a:** Describe the National Incident Management System (NIMS) and the local Incident Command System (ICS)
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Volunteers must report strictly to designated staging areas and avoid spontaneous self-dispatching.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 7a (Describe the National Incident Management System (NIMS) and the local Incident Command), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 7a (Describe the National Incident Management System (NIMS) and the local Incident Command), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - NIMS standardizes disaster response across municipal, state, and federal operational entities. ICS provides a scalable on-scene management structure with distinct sections for operations, planning, logistics, and finance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -778,7 +778,7 @@
 #### Req 7b: Community Disaster Leadership Preparation
 **Official Requirement 7b:** Find out how your community and its leaders work to manage and to train for disasters. Discuss this information with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 7b (Find out how your community and its leaders work to manage and to train for disasters.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 7b (Find out how your community and its leaders work to manage and to train for disasters.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Municipalities conduct multi-agency tabletop drills, functional exercises, and full-scale disaster simulations. Emergency management directors maintain redundant emergency operations centers to coordinate resources during community crises.
 - **Common Myth:** Municipal disaster plans focus entirely on law enforcement and armed national guard deployment.
@@ -794,7 +794,7 @@
 #### Req 7c: Troop Emergency Service Integration
 **Official Requirement 7c:** Discuss how a Scout troop can help in an emergency situation using ICS.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 7c (Discuss how a Scout troop can help in an emergency situation using ICS), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 7c (Discuss how a Scout troop can help in an emergency situation using ICS), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scout troops operate under logistics or planning sections to provide auxiliary communications, sandbagging, or shelter support. Scouts never enter hazardous zones, adhering strictly to tasks assigned by certified adult supervisors.
 - **Common Myth:** Scout patrols should deploy independently to perform direct urban search and rescue.
@@ -900,7 +900,7 @@
 #### Req 8b: Troop Mobilization Plan Formulation
 **Official Requirement 8b:** Prepare a written plan for mobilizing your troop when needed to do emergency service. If your troop already has a mobilization plan, present the plan to your counselor and tell your part in making the plan work.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 8b (Prepare a written plan for mobilizing your troop when needed to do emergency service. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 8b (Prepare a written plan for mobilizing your troop when needed to do emergency service. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mobilization plans outline step-by-step phone cascades, gear requirements, and secure staging areas. Redundant communication channels ensure patrols assemble efficiently even when commercial telecommunication grids fail.
 - **Common Myth:** A mobilization plan only requires an email list or group text thread.
@@ -917,7 +917,7 @@
 **[Parent Directive]:** *Emergency Service. Do the following*
 **Official Requirement 8c:** Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by your counselor, prepare or inspect a personal emergency service pack for a mobilization call. Explain the needs and uses of the contents to your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 8c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 8c (Using a checklist in the Emergency Preparedness merit badge pamphlet or one approved by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal service packs contain protective work gloves, flashlights, rain gear, water, and first aid supplies. Packing durable items in waterproof bags ensures readiness for immediate deployment in severe weather.
 - **Common Myth:** Pack weight does not matter since emergency deployment supplies will stay in vehicles.
@@ -934,7 +934,7 @@
 **[Parent Directive]:** *Emergency Service. Do the following*
 **Official Requirement 8d:** Take part in an emergency service project, either a real one or a practice exercise, with a Scouting troop or a community agency or at Scout camp or at a school. Review what you learned and practiced with your counselor.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 82, p. 84)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 8d (Take part in an emergency service project, either a real one or a practice exercise, with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 8d (Take part in an emergency service project, either a real one or a practice exercise, with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participating in simulated drills allows youth to practice communication, casualty staging, and supply distribution under realistic conditions. Debriefing after exercises uncovers operational delays and refines emergency protocols.
 - **Common Myth:** Mock disaster exercises are simple games that require minimal serious tactical discipline.
@@ -984,7 +984,7 @@
 **Official Requirement 10a:** Interview an emergency services coordinator or a civil servant about their work in disaster management. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10a Professional Career Interview Card
 > **Guide to Safe Scouting Warning:** Observe safety perimeters and official permissions when visiting municipal emergency operations centers.
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 10a (Interview an emergency services coordinator or a civil servant about their work in disaster), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 10a (Interview an emergency services coordinator or a civil servant about their work in disaster), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing an emergency services coordinator reveals the administrative complexities of managing municipal disaster responses. Learning about daily logistics and interagency coordination highlights the preparation behind community crisis management.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1006,7 +1006,7 @@
 #### Req 10b: Emergency Service Career Exploration
 **Official Requirement 10b:** Identify three career opportunities that would use skills and knowledge in emergency services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 10b (Identify three career opportunities that would use skills and knowledge in emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 10b (Identify three career opportunities that would use skills and knowledge in emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching careers in paramedic services, emergency logistics, and industrial hygiene outlines educational and certification prerequisites. Understanding physical, psychological, and regulatory standards clarifies career readiness for crisis response.
 - **Common Myth:** A college degree alone qualifies candidates for high-level incident command positions.
@@ -1024,7 +1024,7 @@
 #### Req 10c: Preparedness Lifestyle and Hobbies
 **Official Requirement 10c:** Identify how you might use the skills and knowledge in the field of emergency preparedness to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Emergency Preparedness Merit Badge Pamphlet (p. 81, p. 88)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For emergency preparedness Requirement 10c (Identify how you might use the skills and knowledge in the field of emergency preparedness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Emergency Preparedness Requirement 10c (Identify how you might use the skills and knowledge in the field of emergency preparedness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying emergency skills to wilderness survival, amateur radio, and fitness builds a resilient lifestyle. Pursuing amateur radio licensing or volunteer search groups builds practical technical readiness.
 - **Common Myth:** Preparedness hobbies require extreme bunker construction and isolationist survival philosophies.

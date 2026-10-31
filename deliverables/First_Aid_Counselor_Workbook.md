@@ -58,7 +58,7 @@
 **Official Requirement 1a:** Explain the steps necessary to assess and handle a first aid emergency, including a safety evaluation of the scene.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never enter an unsafe environment such as an active roadway, burning structure, or energized electrical hazard zone.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1a (Explain the steps necessary to assess and handle a first aid emergency, including a safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1a (Explain the steps necessary to assess and handle a first aid emergency, including a safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Assessing an emergency begins with scanning for continuing physical threats to rescuers and bystanders. Once the area is secure, the responder systematically assesses patient consciousness, breathing, and circulatory integrity.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -80,7 +80,7 @@
 #### Req 1b: Calling Help from Any Location
 **Official Requirement 1b:** Tell how you would obtain emergency medical assistance from your home and from a remote location on a wilderness camping trip.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1b (Tell how you would obtain emergency medical assistance from your home and from a remote), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1b (Tell how you would obtain emergency medical assistance from your home and from a remote), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Urban homes rely on wireline or cellular nine one one dispatchers who receive immediate location data. Backcountry expeditions require satellite communication messengers or written notes carried by paired runners.
 - **Common Myth:** Cellular phones reliably connect to emergency dispatch operators anywhere in remote backcountry regions.
@@ -99,7 +99,7 @@
 #### Req 1c: Infection Control and Universal Precautions
 **Official Requirement 1c:** Demonstrate the precautions you must take to reduce the risk of transmitting an infection between you and the victim while administering first aid, including the safe disposal of used first aid supplies.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1c (Demonstrate the precautions you must take to reduce the risk of transmitting an infection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1c (Demonstrate the precautions you must take to reduce the risk of transmitting an infection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Standard precautions require personal protective equipment including medical gloves and pocket masks for all fluid contact. Contaminated dressings and personal protective equipment must be sealed in marked hazardous waste containers.
 - **Common Myth:** Washing bare hands with river water provides adequate defense against bloodborne pathogen transmission.
@@ -116,7 +116,7 @@
 #### Req 1d: Airway and Breathing Management
 **Official Requirement 1d:** Demonstrate evaluation of and management of a patient's airway and breathing.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1d (Demonstrate evaluation of and management of a patient's airway and breathing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1d (Demonstrate evaluation of and management of a patient's airway and breathing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Airway evaluation involves opening the oral passage using appropriate maneuvers based on mechanism of injury. Management includes clearing obstructions and observing chest movement to confirm adequate tidal volume.
 - **Common Myth:** Tipping a trauma patient head backward aggressively is safe when neck fractures are suspected.
@@ -133,7 +133,7 @@
 #### Req 1e: Thorough Head to Toe Examination
 **Official Requirement 1e:** Demonstrate a thorough examination of an accident victim.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1e (Demonstrate a thorough examination of an accident victim), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1e (Demonstrate a thorough examination of an accident victim), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The physical examination follows the primary survey to identify non-life-threatening lacerations, fractures, and contusions. Responders examine anatomical regions sequentially while noting pain, deformities, swelling, and circulatory status.
 - **Common Myth:** Checking only the initial painful injury site provides sufficient medical assessment during an accident.
@@ -151,7 +151,7 @@
 **[Parent Directive]:** *Handling a First Aid Emergency. Do the following*
 **Official Requirement 1f:** Discuss why shock is an emergency.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1f (Discuss why shock is an emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1f (Discuss why shock is an emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shock represents circulatory collapse where tissues and vital organs receive inadequate oxygenated blood flow. Without immediate intervention, cellular starvation triggers irreversible multi-system organ failure and sudden cardiac death.
 - **Common Myth:** Shock simply means emotional fright after an unexpected trauma and resolves without physical intervention.
@@ -168,7 +168,7 @@
 #### Req 1g: Triage Principles and Multiple Victims
 **Official Requirement 1g:** Define the term triage and describe examples of triage situations that you may encounter.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 1g (Define the term triage and describe examples of triage situations that you may encounter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 1g (Define the term triage and describe examples of triage situations that you may encounter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Triage categorizes multiple casualties to allocate limited emergency resources for the greatest overall survival. Patients are rapidly assigned priority tags based on respiratory rate, perfusion status, and mental responsiveness.
 - **Common Myth:** Responders should treat whichever injured individual screams the loudest before evaluating quiet victims.
@@ -192,7 +192,7 @@
 **Official Requirement 2a:** Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of the form including information on immunizations, allergies, medications, health history, and medical examinations to providing first aid at Scouting events.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 93, p. 101)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Analysis & Counselor Review Matrix
 > **Guide to Safe Scouting Warning:** Inspect medical kits prior to every outing to replace expired sterile items and replenish consumed bandages.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 2a (Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 2a (Obtain a copy of the Scout Annual Health and Medical Record and discuss the importance of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The medical form provides emergency care providers with essential data regarding baseline chronic illnesses and severe allergies. Current tetanus vaccination dates determine clinical prophylaxis needs following puncture wounds or animal bites.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -280,7 +280,7 @@
 **Official Requirement 3a:** Closed wounds, such as a bruise (contusion) or a hematoma.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3a First-Aid Assessment, Treatment & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never touch a victim who is still in direct contact with a live electrical wire or circuit.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3a (Closed wounds, such as a bruise (contusion) or a hematoma), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3a (Closed wounds, such as a bruise (contusion) or a hematoma), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Contusions and hematomas result from blunt impact damaging capillaries while the overlying epidermis remains intact. Cold compresses applied for twenty minutes limit subcutaneous swelling and reduce localized pain.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -303,7 +303,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3b:** Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c) Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3b First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3b (Superficial, partial thickness, and full thickness thermal (heat) burns or scalds (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Thermal burns range from superficial redness to full-thickness charring that destroys nerves and vascular beds. Responders cool thermal injuries with clean water and apply loose, dry, non-adherent sterile dressings.
 - **Common Myth:** Coating severe heat scalds with butter or petroleum ointment soothes damaged dermal tissue effectively.
@@ -321,7 +321,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3c:** Chemical burns (d) Electrical burns (e) Sunburn (f) Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3c First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3c (Chemical burns (d) Electrical burns (e) Sunburn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3c (Chemical burns (d) Electrical burns (e) Sunburn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Chemical burns require immediate dry powder removal followed by continuous irrigation with water for twenty minutes. Responders remove contaminated clothing during flushing to prevent prolonged caustic contact with underlying tissues.
 - **Common Myth:** Pouring a chemical base over an acid burn safely neutralizes the substance on human skin.
@@ -339,7 +339,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3d:** Electrical burns (e) Sunburn (f) Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3d First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3d (Electrical burns (e) Sunburn (f) Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3d (Electrical burns (e) Sunburn (f) Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical currents cause internal tissue damage along conduction pathways and can disrupt normal cardiac rhythm. Responders must verify power de-energization before approaching, then evaluate for cardiac arrest and dual burn wounds.
 - **Common Myth:** A person shocked by low voltage house wiring never requires medical evaluation if conscious.
@@ -357,7 +357,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3e:** Sunburn (f) Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3e First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3e (Sunburn (f) Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3e (Sunburn (f) Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sunburn results from ultraviolet radiation damaging the cellular layers of exposed skin. First aid focuses on cool moist compresses, oral rehydration, and avoiding popping protective epidermal blisters.
 - **Common Myth:** Scouts cannot develop severe sunburns when hiking outdoors under cloudy overcast mountain skies.
@@ -375,7 +375,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3f:** Snow blindness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3f First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3f (Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3f (Snow blindness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Snow blindness occurs when solar ultraviolet rays reflect off snowfields and inflame unprotected corneal tissues. Treatment requires resting the eyes in darkness, applying cool damp compresses, and using dark eye protection.
 - **Common Myth:** Snow blindness creates permanent physical blindness immediately upon stepping onto sunny snowfields.
@@ -393,7 +393,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3g:** Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3g First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3g (Immersion foot, frostnip, frostbite, and ice burns (h) Abrasions, such as chafing and rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cold injuries range from non-freezing immersion foot to deep ice crystallization within freezing tissue cells. Responders gently warm extremities with warm water baths only when subsequent refreezing can be prevented.
 - **Common Myth:** Rubbing snow vigorously onto frozen fingers restores blood circulation and warms damaged tissue safely.
@@ -411,7 +411,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3h:** Abrasions, such as chafing and rope burns.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3h First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3h (Abrasions, such as chafing and rope burns), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3h (Abrasions, such as chafing and rope burns), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Abrasions and rope burns strip the protective outer epidermal layer, introducing dirt and foreign debris. First aid requires thorough irrigation using clean potable water, gentle drying, and protective antibiotic ointment dressings.
 - **Common Myth:** Leaving dirt particles inside road rash promotes faster scab formation and natural skin healing.
@@ -429,7 +429,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3i:** Blisters on the hands, feet, buttocks, and shoulders.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3i First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3i (Blisters on the hands, feet, buttocks, and shoulders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3i (Blisters on the hands, feet, buttocks, and shoulders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Blisters develop when repetitive mechanical shear separates skin layers, filling the space with sterile fluid. Prevention relies on friction-reducing tape, while care involves donut-shaped moleskin padding to relieve direct pressure.
 - **Common Myth:** Puncturing every blister with an unsterilized needle relieves pressure and expedites backcountry travel.
@@ -449,7 +449,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3j:** Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from poisonous plants.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3j First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3j (Puncture wounds from splinters, rope splinters, nails, and fish hooks (k) Rash from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Punctures push bacteria and foreign matter deep into underlying tissues without creating open bleeding margins. Responders encourage slight bleeding, wash thoroughly with potable water, and refer the patient for tetanus evaluation.
 - **Common Myth:** Deep dirty puncture wounds heal best when immediately sealed with waterproof skin adhesives.
@@ -467,7 +467,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3k:** Rash from poisonous plants.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3k First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3k (Rash from poisonous plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3k (Rash from poisonous plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Urushiol resin binds to skin proteins within minutes, triggering delayed hypersensitivity allergic contact dermatitis. Washing skin with soap within twenty minutes removes unbound oil, while calamine lotion relieves itching.
 - **Common Myth:** Poison ivy blister fluid spreads the allergic rash to other parts of your body.
@@ -485,7 +485,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3l:** Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3l First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3l (Bug bites of chiggers, ticks, mosquitoes, and biting gnats (m) Bee stings (n) Bites of spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Insect bites cause local histamine release, while ticks transmit pathogens such as Lyme disease spirochetes. Ticks are removed by pulling steadily backward with tweezers, followed by washing the site with soap.
 - **Common Myth:** Smothering an attached tick with petroleum jelly or burning it prompts safe head detachment.
@@ -503,7 +503,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3m:** Bee stings (n) Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3m First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3m (Bee stings (n) Bites of spiders (o) Sting of a scorpion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3m (Bee stings (n) Bites of spiders (o) Sting of a scorpion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hymenoptera stings inject venom that causes localized erythema, edema, and intense immediate burning pain. Responders scrape the retained stinger away, apply a cold pack, and monitor for systemic anaphylaxis.
 - **Common Myth:** Squeezing an embedded honeybee stinger with bare fingers prevents further venom sac emptying.
@@ -521,7 +521,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3n:** Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3n First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3n (Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3n (Bites of spiders (o) Sting of a scorpion (p) Bite of a pet or wild mammal or human), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bites from black widow or brown recluse spiders cause neurotoxic or localized cytotoxic tissue reactions. Responders clean the bite site, apply cold packs, immobilize the extremity, and seek medical assessment.
 - **Common Myth:** Every spider bite requires deep surgical cutting and mechanical suction of underlying tissue venom.
@@ -539,7 +539,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3o:** Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3o First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3o (Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3o (Sting of a scorpion (p) Bite of a pet or wild mammal or human (q) Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scorpion envenomation introduces neurotoxins that produce severe localized numbness, radiating pain, and hypersensitivity. First aid consists of washing the sting site, applying cold compresses, and monitoring pediatric vital signs.
 - **Common Myth:** Applying a tight venous tourniquet to an arm neutralizes dangerous desert scorpion venom.
@@ -557,7 +557,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3p:** Bite of a pet or wild mammal or human (q) Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3p First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3p (Bite of a pet or wild mammal or human (q) Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3p (Bite of a pet or wild mammal or human (q) Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mammalian and human bites introduce polymicrobial oral pathogens deep into soft tissues, creating high infection risk. Responders irrigate the wound thoroughly with potable water and seek evaluation for rabies and antibiotic therapy.
 - **Common Myth:** A domestic dog bite requires no cleaning if the skin appears only slightly broken.
@@ -575,7 +575,7 @@
 **[Parent Directive]:** *Wounds with No External Bleeding. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 3q:** Bite of a venomous snake.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 14, p. 82)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 3q First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 3q (Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 3q (Bite of a venomous snake), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Venomous snakebites cause severe localized swelling, ecchymosis, systemic coagulopathy, and intense radiating pain. Responders keep the patient calm and stationary, remove restrictive jewelry, and arrange urgent medical evacuation.
 - **Common Myth:** Cutting an X over snake fangs and sucking venom removes toxins from blood vessels.
@@ -599,7 +599,7 @@
 **Official Requirement 4a:** A nosebleed.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always record the exact application time on a tourniquet band and never loosen it in the field.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 4a (A nosebleed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 4a (A nosebleed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Epistaxis commonly originates from ruptured capillaries along the anterior nasal septum. Patients should sit upright, lean forward, and pinch the soft lower nostrils continuously for ten minutes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -622,7 +622,7 @@
 **[Parent Directive]:** *Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 4b:** An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or a shallow cut (laceration)
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 4b (An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 4b (An open wound with mild or moderate bleeding, such as a scratch or a scrape (abrasions), or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Minor scratches and shallow lacerations present minimal blood loss but require cleaning to prevent infection. First aid includes irrigating with potable water, applying direct pressure, and placing a sterile adhesive dressing.
 - **Common Myth:** Pouring pure hydrogen peroxide into scrapes promotes superior tissue regeneration without cellular damage.
@@ -640,7 +640,7 @@
 **[Parent Directive]:** *Bleeding Wounds. Describe the symptoms and signs of, show first aid for, and explain prevention of these wounds*
 **Official Requirement 4c:** An open wound with severe bleeding such as a deep cut on an arm or leg.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 4c (An open wound with severe bleeding such as a deep cut on an arm or leg), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 4c (An open wound with severe bleeding such as a deep cut on an arm or leg), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Deep extremity lacerations can sever major arteries and veins, producing life-threatening rapid blood volume loss. Responders maintain uninterrupted direct pressure with sterile dressings and prepare for immediate tourniquet application.
 - **Common Myth:** Lifting a soaked gauze pad repeatedly to inspect clotting speeds up natural physiological hemostasis.
@@ -659,7 +659,7 @@
 #### Req 4d: Appropriate Tourniquet Application
 **Official Requirement 4d:** Explain when it is appropriate and is not appropriate to use one or more tourniquets. List some of the benefits and dangers of using a tourniquet. Demonstrate the application of a tourniquet without tightening it.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 37, p. 40)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 4d (Explain when it is appropriate and is not appropriate to use one or more tourniquets. List), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 4d (Explain when it is appropriate and is not appropriate to use one or more tourniquets. List), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A commercial tourniquet is indicated when direct pressure cannot control catastrophic limb hemorrhage. Responders tighten the windlass until bleeding stops, write the time on the device, and maintain continuous monitoring.
 - **Common Myth:** Improvised wire tourniquets are safer for controlling bleeding than purpose-built commercial windlass devices.
@@ -683,7 +683,7 @@
 **Official Requirement 5a:** Choking (b) Asthmatic attack.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not perform a blind finger sweep in a choking victim mouth because it can impact objects.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 5a (Choking (b) Asthmatic attack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5a (Choking (b) Asthmatic attack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Complete airway obstruction prevents vocalization, coughing, and ventilation, producing rapid asphyxiation. Responders deliver alternating series of five back blows and five abdominal thrusts until the object expels.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -706,7 +706,7 @@
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
 **Official Requirement 5b:** Asthmatic attack.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 5b (Asthmatic attack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5b (Asthmatic attack), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Asthma triggers bronchial inflammation, mucosal edema, and smooth muscle spasms that severely restrict exhalation. First aid involves keeping the patient seated upright, assisting with prescribed inhalers, and maintaining calm reassurance.
 - **Common Myth:** Forcing an asthmatic person to lie flat on their back opens restricted bronchial airways.
@@ -726,7 +726,7 @@
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
 **Official Requirement 5c:** Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation injuries (e) Altitude sickness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5c (Anaphylaxis from an insect bite or sting or from food or product allergy (d) Inhalation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anaphylaxis is a life-threatening systemic hypersensitivity reaction causing airway edema, wheezing, and profound vascular hypotension. The immediate treatment is an intramuscular injection of epinephrine into the outer mid-thigh.
 - **Common Myth:** Oral antihistamines alone work rapidly enough to reverse airway closing during severe systemic anaphylaxis.
@@ -744,7 +744,7 @@
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
 **Official Requirement 5d:** Inhalation injuries (e) Altitude sickness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 5d (Inhalation injuries (e) Altitude sickness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5d (Inhalation injuries (e) Altitude sickness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Inhalation of hot smoke, carbon monoxide, or toxic chemical vapors causes airway burns and hypoxia. Responders remove the patient to fresh air without endangering themselves and monitor respiratory stability closely.
 - **Common Myth:** Entering a smoke-filled room without a respirator is safe if you cover your mouth.
@@ -762,7 +762,7 @@
 **[Parent Directive]:** *Breathing Emergencies. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions affecting breathing*
 **Official Requirement 5e:** Altitude sickness.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 5e (Altitude sickness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 5e (Altitude sickness), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ascending to high elevations reduces barometric pressure, decreasing oxygen availability and causing acute altitude sickness. Symptoms include headache, nausea, and ataxia, requiring immediate cessation of ascent or prompt lower-altitude descent.
 - **Common Myth:** Drinking extra coffee provides effective medical treatment for developing high altitude pulmonary edema.
@@ -786,7 +786,7 @@
 **Official Requirement 6a:** Fainting (b) Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6a First-Aid Assessment, Treatment & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Do not restrain a seizing individual or place any objects inside their mouth during convulsions.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6a (Fainting (b) Hypoglycemia (c) Seizure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6a (Fainting (b) Hypoglycemia (c) Seizure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Syncope occurs when transient reduction of blood flow to the brain causes sudden, brief loss of consciousness. Responders position the patient supine, loosen constrictive clothing, and ensure normal breathing returns promptly.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -809,7 +809,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6b:** Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6b First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6b (Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6b (Hypoglycemia (c) Seizure (d) Drug overdose and alcohol poisoning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hypoglycemia develops when blood glucose drops below normal levels, causing confusion, diaphoresis, and eventual unconsciousness. Conscious patients receive oral glucose or sweet juice, while unconscious individuals require urgent nine one one dispatch.
 - **Common Myth:** An unconscious diabetic individual should be forced to swallow granulated sugar or soda immediately.
@@ -829,7 +829,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6c:** Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6c First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6c (Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6c (Seizure (d) Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Seizures result from abnormal electrical activity in the brain, causing sudden motor convulsions and altered awareness. First aid requires clearing nearby hazards, cushioning the head, and placing the patient in recovery position afterward.
 - **Common Myth:** Holding down a seizing person arms and legs prevents dangerous bodily injury during convulsions.
@@ -847,7 +847,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6d:** Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6d First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6d (Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6d (Drug overdose and alcohol poisoning (e) Underwater hypoxic blackout (f) Cold water shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Overdose from opioids or toxic alcohol levels depresses the central nervous system, leading to respiratory arrest. Responders administer nasal naloxone for suspected opioids, maintain an open airway, and monitor chest rise.
 - **Common Myth:** Walking an overdose victim around outdoors or giving them black coffee restores respiratory drive.
@@ -865,7 +865,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6e:** Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6e First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6e (Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6e (Underwater hypoxic blackout (f) Cold water shock and drowning (g) Lightning strike and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Underwater hypoxic blackout occurs when swimmers deliberately hyperventilate, driving carbon dioxide levels down without increasing oxygen. The brain loses consciousness from hypoxia before carbon dioxide builds up sufficiently to stimulate breathing.
 - **Common Myth:** Hyperventilating before swimming underwater increases blood oxygen saturation far above normal human levels.
@@ -883,7 +883,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6f:** Cold water shock and drowning (g) Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6f First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6f (Cold water shock and drowning (g) Lightning strike and electric shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6f (Cold water shock and drowning (g) Lightning strike and electric shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sudden immersion in cold water triggers rapid hyperventilation, cardiac strain, and early muscular incapacitation. First aid involves prompt extrication from water, removing wet clothing, gentle rewarming, and treating for near drowning.
 - **Common Myth:** Swimming vigorously immediately after plunging into freezing water prevents hypothermia and cold incapacitation.
@@ -901,7 +901,7 @@
 **[Parent Directive]:** *Loss of Consciousness. Describe the symptoms and signs of, show first aid for, and explain prevention of these conditions causing*
 **Official Requirement 6g:** Lightning strike and electric shock.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 72)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 6g First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 6g (Lightning strike and electric shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 6g (Lightning strike and electric shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lightning strikes deliver massive electrical energy that causes cardiac arrest, cutaneous flash burns, and blunt trauma. Responders immediately perform CPR on pulseless non-breathing victims, as cardiac standstill can be reversed.
 - **Common Myth:** Touching a person struck by lightning transfers dangerous residual electrical charge to the rescuer.
@@ -925,7 +925,7 @@
 **Official Requirement 7a:** Explain what a heart attack is.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Ensure nobody is touching the patient when an automated external defibrillator delivers an electrical shock.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7a (Explain what a heart attack is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7a (Explain what a heart attack is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A myocardial infarction happens when atherosclerotic plaque rupture or a blood clot obstructs a coronary artery. Deprived of oxygenated blood, heart muscle cells rapidly experience ischemic damage and begin dying.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -947,7 +947,7 @@
 #### Req 7b: Heart Attack Signs and Care
 **Official Requirement 7b:** Describe the symptoms and signs of a heart attack and first aid for this condition.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7b (Describe the symptoms and signs of a heart attack and first aid for this condition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7b (Describe the symptoms and signs of a heart attack and first aid for this condition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Signs include crushing chest tightness radiating to the jaw, neck, back, or left arm, accompanied by sweating. First aid requires calling nine one one, keeping the patient calm, and administering chewable aspirin.
 - **Common Myth:** Heart attack pain always presents as sharp, localized left-sided chest pain that stabs intermittently.
@@ -964,7 +964,7 @@
 #### Req 7c: Conditions Requiring Immediate CPR
 **Official Requirement 7c:** Describe the conditions that must exist before performing CPR on a person.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7c (Describe the conditions that must exist before performing CPR on a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7c (Describe the conditions that must exist before performing CPR on a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - CPR is indicated solely when an individual is completely unresponsive and exhibits absent or abnormal agonal breathing. Responders quickly verify lack of responsiveness and inadequate breathing before starting chest compressions without delay.
 - **Common Myth:** CPR should be started on anyone who feels dizzy or faints while remaining responsive.
@@ -981,7 +981,7 @@
 #### Req 7d: Proper Chest Compression Technique
 **Official Requirement 7d:** Demonstrate proper CPR technique using a training device approved by your counselor.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7d (Demonstrate proper CPR technique using a training device approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7d (Demonstrate proper CPR technique using a training device approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High-quality CPR maintains an adult compression depth of two to two point four inches at continuous speed. Responders perform thirty chest compressions followed by two ventilations, allowing full chest wall recoil between compressions.
 - **Common Myth:** Soft shallow chest compressions are sufficient to circulate oxygenated blood during adult cardiac arrest.
@@ -1000,7 +1000,7 @@
 #### Req 7e: Automated External Defibrillator Purpose
 **Official Requirement 7e:** Explain the use of an automated external defibrillator (AED)
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7e (Explain the use of an automated external defibrillator (AED)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7e (Explain the use of an automated external defibrillator (AED)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An AED analyzes heart rhythms to detect shockable ventricular fibrillation and pulseless ventricular tachycardia dysrhythmias. Defibrillation momentarily stops chaotic electrical activity, allowing the heart natural pacemaker to reestablish an organized rhythm.
 - **Common Myth:** An automated external defibrillator will shock a healthy beating heart if pads are attached.
@@ -1017,7 +1017,7 @@
 #### Req 7f: Operating an AED Safely
 **Official Requirement 7f:** Demonstrate or simulate the proper use of an AED, using an AED training device if available.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7f (Demonstrate or simulate the proper use of an AED, using an AED training device if available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7f (Demonstrate or simulate the proper use of an AED, using an AED training device if available), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Operating an AED involves powering the unit, attaching adhesive pads to bare skin, and following audible prompts. Responders stand clear during rhythm analysis and shock delivery, resuming chest compressions immediately after every discharge.
 - **Common Myth:** Responders must manually diagnose electrocardiogram waveforms on screen before triggering an AED shock.
@@ -1034,7 +1034,7 @@
 #### Req 7g: Community AED Locations
 **Official Requirement 7g:** Identify the typical location(s) of one or more AED(s) at public facilities in your community, such as, your school, place of worship, unit meeting place, sports facilities, and/or camp or by using a smartphone app. Discuss the reasons for choosing locations like these.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 7g (Identify the typical location(s) of one or more AED(s) at public facilities in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 7g (Identify the typical location(s) of one or more AED(s) at public facilities in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - AED units are mounted in high-traffic public locations including community schools, athletic centers, and transit stations. Visible signage identifies wall-mounted cabinets containing units equipped with adult and pediatric electrode pads.
 - **Common Myth:** AED devices are kept exclusively inside locked hospital pharmacy rooms and private physician offices.
@@ -1056,7 +1056,7 @@
 **Official Requirement 8a:** Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a sprain, a dislocation, a simple fracture, and a compound fracture.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 8a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Always check distal circulation sensation and motor function before and after applying any splint or bandage.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 8a (Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 8a (Explain the similarities and differences in a strain, a muscle tear, a tendon rupture, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Strains damage muscles or connecting tendons, whereas sprains stretch or rupture stabilizing fibrous joint ligaments. Fractures represent cracked or broken bones, while dislocations occur when bones displace entirely from normal joint articulations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1078,7 +1078,7 @@
 #### Req 8b: Muscle Strain and Tendon Care
 **Official Requirement 8b:** Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a tendon rupture.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 8b (Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 8b (Describe the symptoms and signs of and first aid for a muscle strain, a muscle tear, and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Muscle strains and tendon ruptures produce localized tenderness, weakness, swelling, and palpable structural defects. Initial care utilizes rest, ice packs wrapped in cloth, mild compression, and elevation to limit internal hemorrhage.
 - **Common Myth:** Aggressively massaging a torn hamstring immediately after injury accelerates muscle fiber reconnection and repair.
@@ -1095,7 +1095,7 @@
 #### Req 8c: Sprain, Fracture, and Dislocation Signs
 **Official Requirement 8c:** Describe the symptoms and signs of, and potential complications of, a sprain, a fracture, and a dislocation.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 8c (Describe the symptoms and signs of, and potential complications of, a sprain, a fracture,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 8c (Describe the symptoms and signs of, and potential complications of, a sprain, a fracture,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sprains, fractures, and dislocations produce acute pain, swelling, ecchymosis, and loss of normal joint function. Complications include neurovascular impingement, permanent articular cartilage degradation, chronic joint instability, and secondary tissue necrosis.
 - **Common Myth:** A broken arm causes significant complications only if bone ends pierce through the skin.
@@ -1112,7 +1112,7 @@
 #### Req 8d: Applying Slings and Roller Bandages
 **Official Requirement 8d:** Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or collarbone fractures (2) Elastic wrap and cravat bandages for ankle sprain (3) Elastic wrap and cravat bandages for wrist sprain or hand injury.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 8d (Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 8d (Demonstrate bandages for these injuries: (1) Arm slings for forearm or upper arm or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Arm slings support the forearm while a swathe binds the extremity against the chest to immobilize shoulder bones. Cravat bandages and figure-eight elastic wraps support sprained ankles and knees without creating arterial occlusion.
 - **Common Myth:** An arm sling should hang loosely so the forearm dangles well below the waistline.
@@ -1211,7 +1211,7 @@
 **Official Requirement 9a:** Describe the symptoms and signs of, relationships between, possible complications of, and prevention of head, neck, and back injuries.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never move a suspected spinal injury patient neck or back to improve their sleeping position.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 9a (Describe the symptoms and signs of, relationships between, possible complications of, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 9a (Describe the symptoms and signs of, relationships between, possible complications of, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Head injuries frequently accompany cervical spine trauma due to violent forces transmitted through the neck. Possible complications include permanent quadriplegia, intracranial hemorrhage, neurological deficit, and fatal central respiratory depression.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1233,7 +1233,7 @@
 #### Req 9b: Concussion Signs and First Aid
 **Official Requirement 9b:** Describe the symptoms and signs of and first aid for a concussion.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 9b (Describe the symptoms and signs of and first aid for a concussion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 9b (Describe the symptoms and signs of and first aid for a concussion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A concussion represents a traumatic brain injury that temporarily disrupts normal cerebral neurological functioning. Symptoms include headache, confusion, dizziness, photophobia, and nausea, demanding complete cognitive and physical rest.
 - **Common Myth:** An athlete diagnosed with a mild concussion may safely reenter competitive sports the same afternoon.
@@ -1252,7 +1252,7 @@
 #### Req 9c: Bandaging Open Head Wounds
 **Official Requirement 9c:** Demonstrate first aid for an open head wound with a triangular or other bandage.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 9c (Demonstrate first aid for an open head wound with a triangular or other bandage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 9c (Demonstrate first aid for an open head wound with a triangular or other bandage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scalp lacerations bleed profusely due to high vascularity within the dense subcutaneous cranial layers. Responders apply sterile dressings secured by triangular bandages folded as broad cravats or full cranial caps.
 - **Common Myth:** Scalp lacerations bleed minimally and should be left uncovered to dry in open air.
@@ -1269,7 +1269,7 @@
 #### Req 9d: Stabilizing Neck and Back Injuries
 **Official Requirement 9d:** Demonstrate first aid for someone with a suspected neck or back injury.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 41, p. 56)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 9d Clinical Signs, First-Aid Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 9d (Demonstrate first aid for someone with a suspected neck or back injury), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 9d (Demonstrate first aid for someone with a suspected neck or back injury), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - First aid for suspected spinal injury requires holding the head and neck aligned manually in neutral position. Responders reassure the patient, instruct them to remain completely still, and summon emergency medical services.
 - **Common Myth:** Rolling a patient with suspected spinal injuries onto their stomach relieves pressure on vertebrae.
@@ -1292,7 +1292,7 @@
 **Official Requirement 10a:** Describe the conditions under which an injured person should and should not be moved.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always lift using your leg muscles while keeping your back straight to prevent spinal injury.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 10a (Describe the conditions under which an injured person should and should not be moved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 10a (Describe the conditions under which an injured person should and should not be moved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Injured individuals should not be moved until emergency responders arrive and injuries are stabilized. Movement is indicated exclusively when impending hazards such as fire, flooding, or rockfalls threaten life.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1315,7 +1315,7 @@
 **[Parent Directive]:** *Moving a Patient. Do the following*
 **Official Requirement 10b:** If a sick or an injured person must be moved, tell how you would decide the best method. Demonstrate these methods.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 10b (If a sick or an injured person must be moved, tell how you would decide the best method.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 10b (If a sick or an injured person must be moved, tell how you would decide the best method.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting transport methods requires evaluating rescuer capabilities, patient injuries, path distances, and available materials. Techniques range from one-person ankle pulls across smooth floors to two-person seat carries over trails.
 - **Common Myth:** A single rescuer should attempt a fireman carry across rough rocky mountain terrain alone.
@@ -1334,7 +1334,7 @@
 **[Parent Directive]:** *Moving a Patient. Do the following*
 **Official Requirement 10c:** By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 10c (By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 10c (By yourself and with a partner, demonstrate how to transport a person from a smoke-filled room), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Smoke inhalation and heated toxic gases rise toward ceilings, making floor-level air significantly safer. Responders crawl low beneath smoke layers, utilizing a shirt drag or blanket carry to extract victims.
 - **Common Myth:** Rescuers in smoke-filled buildings should stand fully erect to carry victims quickly in arms.
@@ -1352,7 +1352,7 @@
 **[Parent Directive]:** *Moving a Patient. Do the following*
 **Official Requirement 10d:** By yourself and with a partner, demonstrate how to transport a person with a sprained ankle for at least 25 yards.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 10d (By yourself and with a partner, demonstrate how to transport a person with a sprained ankle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 10d (By yourself and with a partner, demonstrate how to transport a person with a sprained ankle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Transferring a patient with lower limb injuries requires offloading weight from the affected joint. Two rescuers position themselves on either side of the patient, providing walking support or a two-handed seat.
 - **Common Myth:** A person with a sprained ankle should be forced to hop unsupported across rough terrain.
@@ -1370,7 +1370,7 @@
 **[Parent Directive]:** *Moving a Patient. Do the following*
 **Official Requirement 10e:** With helpers under your supervision, improvise a stretcher and move a presumably unconscious person for at least 25 yards.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 15, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 10e (With helpers under your supervision, improvise a stretcher and move a presumably), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 10e (With helpers under your supervision, improvise a stretcher and move a presumably), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Improvised litters are constructed using sturdy poles slid through inverted heavy jacket sleeves or wrapped blankets. Rescuers must test the improvised stretcher with an uninjured person before transporting a heavy patient.
 - **Common Myth:** Buttoning coats over poles creates a stretcher that never requires testing before patient placement.
@@ -1394,7 +1394,7 @@
 **Official Requirement 11a:** Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immerse heatstroke victims in cold water immediately, as delaying cooling leads to fatal brain damage.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11a (Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11a (Dehydration and over-hydration (b) Heat cramps and muscle pain after exertion (c) Heat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dehydration reduces blood volume and impairs sweating, whereas over-hydration dilutes vital blood electrolytes causing cerebral edema. Prevention involves monitoring urine color and balancing water intake with electrolyte-containing foods during sustained exertion.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1417,7 +1417,7 @@
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
 **Official Requirement 11b:** Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure (f) Hypothermia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11b (Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11b (Heat cramps and muscle pain after exertion (c) Heat exhaustion (d) Heat stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heat cramps are painful, involuntary muscle spasms occurring during heavy physical labor in warm environments. First aid includes resting in shade, gently stretching affected muscles, and consuming fluids containing balanced electrolytes.
 - **Common Myth:** Vigorously kneading a cramping calf muscle immediately releases underlying sodium electrolyte deficiency spasms.
@@ -1435,7 +1435,7 @@
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
 **Official Requirement 11c:** Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure (f) Hypothermia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11c (Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11c (Heat exhaustion (d) Heat stroke (e) Chest pains associated with cold exposure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heat exhaustion develops when heavy perspiration depletes body fluids and salts without adequate replacement. Signs include pale, cool, clammy skin, fatigue, and normal mental status, managed by shade and fan cooling.
 - **Common Myth:** A person with heat exhaustion always has dry skin and high fevers above critical thresholds.
@@ -1455,7 +1455,7 @@
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
 **Official Requirement 11d:** heatstroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11d (heatstroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11d (heatstroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heatstroke occurs when thermoregulatory mechanisms fail, raising core temperature above one hundred four degrees Fahrenheit. Manifestations include altered mental state, confusion, coma, and demands urgent whole-body immersion in ice water.
 - **Common Myth:** Waiting for an ambulance to arrive before starting cooling is acceptable for heatstroke victims.
@@ -1473,7 +1473,7 @@
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
 **Official Requirement 11e:** Chest pains associated with cold exposure (f) Hypothermia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11e (Chest pains associated with cold exposure (f) Hypothermia), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11e (Chest pains associated with cold exposure (f) Hypothermia), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cold exposure increases peripheral vascular resistance and cardiac oxygen demand, triggering ischemic myocardial chest pain. First aid requires immediately stopping exertion, moving indoors to warmth, and dialing nine one one.
 - **Common Myth:** Chest pain experienced while shoveling snow in freezing temperatures is simply pulled chest muscles.
@@ -1491,7 +1491,7 @@
 **[Parent Directive]:** *Heat- and Cold-Related Conditions*
 **Official Requirement 11f:** Hypothermia.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 59, p. 63)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 11f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 11f (Hypothermia), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 11f (Hypothermia), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hypothermia develops when heat loss exceeds heat production, lowering internal body temperature below ninety-five degrees. Treatment involves removing wet clothes, wrapping in warm windproof blankets, and avoiding rough physical movements.
 - **Common Myth:** Giving hot black coffee or alcohol warms up a hypothermic backcountry camper safely.
@@ -1515,7 +1515,7 @@
 **Official Requirement 12a:** Reactions associated with at least three stressful situations, such as mountain backpacking, rappelling, a ropes course, speaking before an audience, making a phone call to an adult, taking a swim test, missing home, lighting a match, trying out for a sports team, meeting someone for the first time, or other stressful circumstances.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never leave an individual who expresses suicidal intent or severe self-harm ideation unattended.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 12a (Reactions associated with at least three stressful situations, such as mountain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 12a (Reactions associated with at least three stressful situations, such as mountain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High-stress activities like rappelling or public speaking trigger physiological fight-or-flight responses including trembling and sweating. Recognizing these symptoms as natural biological reactions helps individuals regain composure through controlled breathing exercises.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1538,7 +1538,7 @@
 **[Parent Directive]:** *Mental Health Conditions. Describe the following*
 **Official Requirement 12b:** The actions that you and others should take to prepare for and manage these situations.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 12b (The actions that you and others should take to prepare for and manage these situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 12b (The actions that you and others should take to prepare for and manage these situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Managing situational stress involves thorough advance preparation, incremental skill practice, and supportive patrol communication. Leaders should encourage controlled diaphragmatic breathing, provide clear expectations, and avoid high-pressure social shaming.
 - **Common Myth:** Ignoring personal anxiety and forcing unprepared youth into scary challenges cures phobias reliably.
@@ -1556,7 +1556,7 @@
 **[Parent Directive]:** *Mental Health Conditions. Describe the following*
 **Official Requirement 12c:** The indications that someone might be a danger to themselves or others.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 12c (The indications that someone might be a danger to themselves or others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 12c (The indications that someone might be a danger to themselves or others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Signs that someone may present a danger include verbalizing hopelessness, dramatic mood swings, and sudden social isolation. Additional red flags involve reckless behavior, collecting lethal means, and preoccupation with death or self-harm.
 - **Common Myth:** People who talk openly about wanting to harm themselves are only seeking casual attention.
@@ -1574,7 +1574,7 @@
 **[Parent Directive]:** *Mental Health Conditions. Describe the following*
 **Official Requirement 12d:** The actions that you should take if you suspect that someone might be a danger to themselves or others.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 17, p. 102)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 12d (The actions that you should take if you suspect that someone might be a danger to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 12d (The actions that you should take if you suspect that someone might be a danger to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - When someone threatens self-harm or violence, responders must stay with the person and maintain calm presence. Scouts must immediately alert qualified adult leaders, call emergency dispatch, or dial the national suicide lifeline.
 - **Common Myth:** Promising a struggling friend to keep their suicidal thoughts a secret demonstrates true loyalty.
@@ -1598,7 +1598,7 @@
 **Official Requirement 13a:** Object in the eye.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13a First-Aid Assessment, Treatment & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Cover both eyes with protective shields when an impaled object penetrates one eye globe.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 13a (Object in the eye), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13a (Object in the eye), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Foreign particles on the cornea or conjunctiva cause severe tearing, photophobia, and risk corneal scratching. Responders flush the eye gently with potable water and cover impaled objects without applying direct pressure.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1621,7 +1621,7 @@
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*
 **Official Requirement 13b:** Broken, chipped, loosened, or knocked out tooth.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13b First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 13b (Broken, chipped, loosened, or knocked out tooth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13b (Broken, chipped, loosened, or knocked out tooth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A knocked-out tooth should be handled exclusively by the enamel crown, avoiding damage to delicate periodontal ligaments. Rinse briefly with water if dirty, place in milk or physiological saline, and seek dental care within thirty minutes.
 - **Common Myth:** A knocked-out permanent tooth can never be successfully reimplanted into its alveolar socket.
@@ -1639,7 +1639,7 @@
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*
 **Official Requirement 13c:** Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13c First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 13c (Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13c (Vomiting and diarrhea associated with food poisoning (d) Abdominal pain (e) Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Food poisoning stems from ingested bacterial toxins, causing acute vomiting, abdominal cramping, and watery diarrhea. First aid emphasizes oral rehydration solutions taken in small, frequent sips to replace fluid and electrolyte deficits.
 - **Common Myth:** Withholding all liquids for forty-eight hours cures acute bacterial food poisoning diarrhea quickly.
@@ -1657,7 +1657,7 @@
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*
 **Official Requirement 13d:** Abdominal pain (e) Stroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13d First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 13d (Abdominal pain (e) Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13d (Abdominal pain (e) Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Acute abdominal pain may signal serious surgical conditions such as acute appendicitis, bowel obstruction, or internal bleeding. Responders place the patient in a comfortable position, avoid giving food or drink, and arrange medical assessment.
 - **Common Myth:** Giving heavy pain relievers and laxatives cures acute appendicitis safely at home.
@@ -1675,7 +1675,7 @@
 **[Parent Directive]:** *Miscellaneous Conditions. Describe the symptoms and signs of, show first aid for, and explain prevention of the following conditions*
 **Official Requirement 13e:** Stroke.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 63, p. 80)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 13e First-Aid Assessment, Treatment & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 13e (Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 13e (Stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stroke results from sudden cerebral ischemia or intracranial hemorrhage interrupting oxygen delivery to brain tissue. Responders utilize the FAST assessment to identify facial asymmetry, arm drift, and speech abnormalities, dispatching nine one one instantly.
 - **Common Myth:** Giving an aspirin to someone having a stroke is always safe before hospital scanning.
@@ -1727,7 +1727,7 @@
 **Official Requirement 15a:** Visit an emergency medical station house or training center in person. From the medical first responders that you meet during your visit, learn about how they serve their community and about their careers. Discuss with your counselor what you learned during your tour and interviews.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 15a Field Visit & Professional Observation Log
 > **Guide to Safe Scouting Warning:** Follow station safety rules and maintain situational awareness when touring operational emergency facilities.
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 15a (Visit an emergency medical station house or training center in person. From the medical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 15a (Visit an emergency medical station house or training center in person. From the medical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a station house provides direct observation of ambulance equipment, dispatch communications, and daily emergency operations. Responders explain community response roles, incident command protocols, and multi-agency cooperation during regional disasters.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -1749,7 +1749,7 @@
 #### Req 15b: Interviewing an EMS Professional
 **Official Requirement 15b:** Interview an emergency medical services professional about their work. Learn about how they chose this career and about their duties. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 15b Professional Career Interview Card
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 15b (Interview an emergency medical services professional about their work. Learn about how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 15b (Interview an emergency medical services professional about their work. Learn about how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing emergency medical professionals reveals the career motivations, emotional resilience, and technical expertise required for pre-hospital care. Discussions explore typical shift schedules, stressful field encounters, and the personal fulfillment of saving lives.
 - **Common Myth:** Paramedics make career choices purely based on driving ambulances at high speeds through traffic.
@@ -1768,7 +1768,7 @@
 #### Req 15c: Exploring EMS Career Paths
 **Official Requirement 15c:** Identify three career opportunities that would use skills and knowledge in emergency medical services. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities, and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 15c Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 15c (Identify three career opportunities that would use skills and knowledge in emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 15c (Identify three career opportunities that would use skills and knowledge in emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Emergency services careers include basic emergency medical technicians, advanced paramedics, flight nurses, and tactical rescue specialists. Career research examines prerequisite anatomy coursework, extensive hospital clinical rotations, field internships, and national testing.
 - **Common Myth:** Working on an ambulance requires no formal college degrees or national board testing.
@@ -1786,7 +1786,7 @@
 #### Req 15d: Volunteer and Wilderness Rescue Pursuits
 **Official Requirement 15d:** Identify how you might use the skills and knowledge in the field of emergency medical services to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America First Aid Merit Badge Pamphlet (p. 25, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 15d Personal Hobby, Service & Preparedness Application
-- **Socratic Prompt (Ask Scouts First):** For first aid Requirement 15d (Identify how you might use the skills and knowledge in the field of emergency medical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For First Aid Requirement 15d (Identify how you might use the skills and knowledge in the field of emergency medical), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Emergency medical skills enhance personal outdoor hobbies such as mountaineering, whitewater kayaking, search and rescue, and ski patrol. Advanced wilderness first responder certifications prepare outdoor enthusiasts to manage severe environmental emergencies independently.
 - **Common Myth:** Emergency medical knowledge is completely useless outside of working inside an ambulance or hospital.

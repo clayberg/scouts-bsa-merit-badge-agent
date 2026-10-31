@@ -92,7 +92,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3a:** Pick a current world event. In relation to this current event, discuss with your counselor how a country's national interest and its relationship with other countries might affect areas such as its security, its economy, its values, and the health of its citizens.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 3a (Pick a current world event. In relation to this current event, discuss with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 3a (Pick a current world event. In relation to this current event, discuss with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing a global event reveals how sovereign security concerns, commercial priorities, and historical pacts dictate official foreign responses. Diplomats balance domestic political pressures with treaty obligations when managing international tensions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -101,7 +101,7 @@
 - **Common Myth:** Countries enter foreign alliances out of pure generosity without assessing their own strategic interests.
 - **Pamphlet Fact:** Sovereign foreign policy aims primarily to protect national security, trade wealth, and political independence.
 
-![Sovereign Defense diagram illustrating how national military readiness safeguards maritime transit corridors and continental borders from external aggression.](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
+![Technical diagram of sovereign defense principles and field relationships in Citizenship In The World (Requirement 3).](/assets/pamphlet_images/citizenship_in_the_world_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@
 #### Req 3b: Geography and Global Partnerships
 **Official Requirement 3b:** Select a foreign country and discuss with your counselor how its geography, natural resources, and climate influence its economy and its global partnerships with other countries.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 32, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 3b (Select a foreign country and discuss with your counselor how its geography, natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 3b (Select a foreign country and discuss with your counselor how its geography, natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical terrain, coastline access, and mineral deposits define a nation's trading capacity and diplomatic alliances. Landlocked states depend on cooperative cross-border transit corridors with maritime neighbors to maintain viable international trade.
 - **Common Myth:** Landlocked countries possess the exact same trade access as nations with extensive deepwater seaports.
@@ -138,7 +138,7 @@
 **Official Requirement 4a:** Explain international law and how it differs from national law. Explain the role of international law and how international law can be used as a tool for conflict resolution.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the World Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 4a (Explain international law and how it differs from national law. Explain the role of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 4a (Explain international law and how it differs from national law. Explain the role of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - National law originates from sovereign domestic legislatures and is enforced by domestic courts and local police authorities. International law stems from treaties and customs among sovereign nations without a central global enforcement agency.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -160,7 +160,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 4b:** Using resources such as major daily newspapers, the internet (with your parent or guardian's permission), and news magazines, observe a current issue that involves international trade, foreign exchange, balance of payments, tariffs, and free trade. Explain what you have learned. Include in your discussion an explanation of why countries must cooperate in order for world trade and global competition to thrive.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 64, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 4b (Using resources such as major daily newspapers, the internet (with your parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 4b (Using resources such as major daily newspapers, the internet (with your parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cross-border trade agreements establish uniform customs tariffs, import quotas, and sanitary standards for manufactured products and foodstuffs. Unilateral trade restrictions often lead to retaliatory tariffs that disrupt global supply chains.
 - **Common Myth:** Import tariffs are paid directly by exporting foreign governments rather than domestic importing companies.
@@ -347,7 +347,7 @@
 #### Req 5a: Constitutional and Nonconstitutional Governance
 **Official Requirement 5a:** Discuss the differences between constitutional and nonconstitutional governments.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 5a (Discuss the differences between constitutional and nonconstitutional governments), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 5a (Discuss the differences between constitutional and nonconstitutional governments), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constitutional governments submit official state actions to fundamental legal principles and independent judicial review. Nonconstitutional regimes exercise absolute authority where legal codes are modified at the ruler's whim.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -369,7 +369,7 @@
 #### Req 5b: Global Forms of Government
 **Official Requirement 5b:** Name at least five different types of governments currently in power in the world.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 5b (Name at least five different types of governments currently in power in the world), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 5b (Name at least five different types of governments currently in power in the world), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Contemporary world governments include federal republics, constitutional monarchies, absolute monarchies, single-party socialist states, and military dictatorships. Each system establishes distinct procedures for selecting leaders and passing binding national legislation.
 - **Common Myth:** Every nation with a prime minister functions identically to the United States federal presidency.
@@ -386,7 +386,7 @@
 #### Req 5c: Cartographic Government Distribution
 **Official Requirement 5c:** Show on a world map countries that use each of these five different forms of government.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 23, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 5c (Show on a world map countries that use each of these five different forms of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 5c (Show on a world map countries that use each of these five different forms of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Plotting political systems across world maps demonstrates how historical colonial empires and revolutionary movements shaped regional governing structures. Democratic republics predominate across the Americas while monarchies remain clustered in Europe and the Middle East.
 - **Common Myth:** Geographic neighbors on the same continent always adopt similar constitutional forms of government.
@@ -407,7 +407,7 @@
 #### Req 6a: Diplomatic Representation and Accreditation
 **Official Requirement 6a:** Explain how a government is represented abroad and how the United States government is accredited to international organizations.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 6a (Explain how a government is represented abroad and how the United States government is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 6a (Explain how a government is represented abroad and how the United States government is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Governments maintain embassies in foreign capital cities and dispatch permanent missions to intergovernmental organizations like the United Nations. Ambassadors must formally present letters of credence signed by their head of state to the host nation's leader.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -429,7 +429,7 @@
 #### Req 6b: Foreign Relations Service Agencies
 **Official Requirement 6b:** Describe the roles of the following in the conduct of foreign relations: ambassador, consul, Bureau of Global Public Affairs, United States and Foreign Commercial Service.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 6b (Describe the roles of the following in the conduct of foreign relations: ambassador,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 6b (Describe the roles of the following in the conduct of foreign relations: ambassador,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Diplomatic personnel execute foreign policy through coordinated overseas bureaus and specialized trade services. The Bureau of Global Public Affairs explains national policy while the Commercial Service expands trade opportunities.
 - **Common Myth:** Embassies handle only military defense issues while ignoring commercial business and tourism matters.
@@ -446,7 +446,7 @@
 #### Req 6c: Passports and Travel Visas
 **Official Requirement 6c:** Explain the purpose of a passport and visa for international travel.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 85, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 6c (Explain the purpose of a passport and visa for international travel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 6c (Explain the purpose of a passport and visa for international travel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Passports serve as official proof of national identity and citizenship issued by the traveler's home government. Entry visas represent official permission granted by a foreign government allowing temporary entry for specific authorized purposes.
 - **Common Myth:** A travel visa and a passport are identical documents issued by the same domestic office.
@@ -469,7 +469,7 @@
 **Official Requirement 7a:** Visit the website of the U. S. State Department. Learn more about an issue you find interesting that is discussed on this website.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the World Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 7a (Visit the website of the U. S. State Department. Learn more about an issue you find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 7a (Visit the website of the U. S. State Department. Learn more about an issue you find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The official State Department website publishes country fact sheets, diplomatic travel warnings, and human rights reports. Exploring these digital archives explains current bilateral relationships and global development programs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -492,7 +492,7 @@
 #### Req 7b: International Media Analysis
 **Official Requirement 7b:** Visit the website of an international news organization or foreign government, OR examine a foreign newspaper available at your local library, bookstore, or newsstand. Find a news story about a human right realized in the United States that is not recognized in another country.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 7b (Visit the website of an international news organization or foreign government, OR examine a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 7b (Visit the website of an international news organization or foreign government, OR examine a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reading foreign news publications exposes readers to regional priorities and alternative viewpoints on international diplomacy. Comparing international editorial coverage highlights how cultural backgrounds shape public perception of world events.
 - **Common Myth:** All international news networks report identical perspectives on major global economic conflicts.
@@ -508,7 +508,7 @@
 #### Req 7c: Intercultural Youth Exchange
 **Official Requirement 7c:** Visit with a student or Scout from another country and discuss the typical values, holidays, ethnic foods, and traditions practiced or enjoyed there.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 7c (Visit with a student or Scout from another country and discuss the typical values,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 7c (Visit with a student or Scout from another country and discuss the typical values,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Direct conversation with foreign students reveals how daily school life, family obligations, and national holidays differ globally. Sharing personal stories builds empathy and dispels stereotypes about other cultures.
 - **Common Myth:** Youth from foreign nations share few interests or daily concerns with American teenagers.
@@ -525,7 +525,7 @@
 #### Req 7d: World Scouting Movement Events
 **Official Requirement 7d:** Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as the World Scout Jamboree, World Scout Moot, World Scout Congress, Jamboree Over The Air, or Jamboree Over The Internet. Attendance at a national or regional Jamboree sponsored by a WOSM-National Scout Organization is also allowed.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 7d (Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 7d (Attend or participate in a World Organization of the Scouting Movement (WOSM) event such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The World Organization of the Scout Movement coordinates global events like the World Scout Jamboree and Jamboree On The Air. Scouts worldwide participate in shared radio networks and campouts to build international brotherhood.
 - **Common Myth:** Scouting America is an isolated organization with no formal ties to scouts in other nations.
@@ -541,7 +541,7 @@
 #### Req 7e: Local International Cultural Festivals
 **Official Requirement 7e:** Participate in or attend an international event in your area, such as an ethnic festival, concert, or play.
 **Source:** *Official Scouting America Citizenship in the World Merit Badge Pamphlet (p. 9, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the world Requirement 7e (Participate in or attend an international event in your area, such as an ethnic festival,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the World Requirement 7e (Participate in or attend an international event in your area, such as an ethnic festival,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attending local ethnic heritage festivals offers firsthand experience with traditional performing arts, ethnic cuisines, and historical crafts. Community celebrations demonstrate how immigrant traditions enrich local civic culture.
 - **Common Myth:** Ethnic heritage festivals display manufactured tourist attractions rather than authentic community cultural traditions.

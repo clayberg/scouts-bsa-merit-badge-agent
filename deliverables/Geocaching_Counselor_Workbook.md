@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Geocaching.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/geocaching/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in geocaching activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never place hands or feet into uninspected hollow logs, rock piles, or dense brush.
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts encounter venomous reptiles, toxic flora, heat exhaustion, and uneven terrain during off-trail searches. Proper anticipation involves checking local land warnings and carrying specialized extraction gear.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Search Injury First Aid
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in geocaching activities, including cuts, scrapes, snakebite, insect stings, tick bites, exposure to poisonous plants, heat and cold reactions (sunburn, heatstroke, heat exhaustion, hypothermia), and dehydration.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 1b (Discuss first aid and prevention for the types of injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 1b (Discuss first aid and prevention for the types of injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Common injuries include severe ankle sprains, tick bites, deep thorns, and heat cramps. Prompt treatment requires immediate cleaning, immobilization, and proper wilderness response protocols.
 - **Common Myth:** Snakebite treatment requires cutting the puncture marks and attempting venom extraction.
@@ -83,7 +83,7 @@
 #### Req 1c: Electronic Navigation Trip Planning
 **Official Requirement 1c:** Discuss how to properly plan an activity that uses GPS, including using the buddy system, sharing your plan with others, and considering the weather, route, and proper attire.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 66, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 1c (Discuss how to properly plan an activity that uses GPS, including using the buddy system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 1c (Discuss how to properly plan an activity that uses GPS, including using the buddy system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe expeditions demand filed travel itineraries, matched hiking buddies, and appropriate thermal clothing. Planning prevents catastrophic stranding caused by dead receiver batteries or sudden cold fronts.
 - **Common Myth:** A functional GPS unit eliminates the necessity of leaving travel plans with home contacts.
@@ -105,7 +105,7 @@
 **[Parent Directive]:** *Discuss the following with your counselor*
 **Official Requirement 2a:** Why you should never bury a cache.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 2a (Why you should never bury a cache), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 2a (Why you should never bury a cache), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Burying caches creates destructive ground disturbance and raises public security concerns regarding buried items. Regulations require every container to rest above the existing mineral soil line.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -128,7 +128,7 @@
 **[Parent Directive]:** *Discuss the following with your counselor*
 **Official Requirement 2b:** How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly hide, post, maintain, and dismantle a geocache.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 2b (How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 2b (How to use proper geocaching etiquette when hiding or seeking a cache, and how to properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hiders must monitor moisture seals, replace soggy logbooks, and archive abandoned geocaches responsibly. Searchers must re-hide containers precisely where found without drawing bystander attention.
 - **Common Myth:** Moving a poorly hidden cache to a better hiding spot helps the cache owner.
@@ -148,7 +148,7 @@
 **[Parent Directive]:** *Discuss the following with your counselor*
 **Official Requirement 2c:** The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 54, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 2c (The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 2c (The Leave No Trace Seven Principles and the Outdoor Code as they apply to geocaching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts apply conservation ethics by sticking to durable trails and packing out discarded trash. Minimizing campfire impacts and respecting wildlife maintains natural habitat quality during searches.
 - **Common Myth:** Geocachers may dismantle rock walls or break tree branches to expose hidden containers.
@@ -222,7 +222,7 @@
 #### Req 5a: Topographic Map and Compass Skills
 **Official Requirement 5a:** Show you know how to use a map and compass and explain why this is important for geocaching.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 5a (Show you know how to use a map and compass and explain why this is important for geocaching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 5a (Show you know how to use a map and compass and explain why this is important for geocaching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienting a paper map with a baseplate compass establishes geographic orientation regardless of satellite reception. Understanding map legends and contour intervals enables accurate route planning across rough terrain.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -244,7 +244,7 @@
 #### Req 5b: Navigation Technologies Comparison Analysis
 **Official Requirement 5b:** Explain the similarities and differences between GPS navigation and standard map-reading skills and describe the benefits of each.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 27, p. 29)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 5b (Explain the similarities and differences between GPS navigation and standard map-reading), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 5b (Explain the similarities and differences between GPS navigation and standard map-reading), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - GPS units calculate real-time transit speed and exact latitude coordinates instantly under open skies. Traditional orienteering requires manual triangulation but operates indefinitely without electrical batteries or satellite access.
 - **Common Myth:** Electronic navigation tools eliminate the practical necessity of traditional terrestrial orienteering skills.
@@ -324,7 +324,7 @@
 **Official Requirement 8a:** If a Cache to Eagle® series exists in your council, visit at least three of the locations in the series. Describe the projects that each cache you visit highlights, and explain how the Cache to Eagle® program helps share our Scouting service with the public.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Geocaching Req 8 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 8a (If a Cache to Eagle® series exists in your council, visit at least three of the locations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 8a (If a Cache to Eagle® series exists in your council, visit at least three of the locations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Council Cache to Eagle series guide the public to significant Eagle Scout service project installations across parks and historic landmarks. Visiting these sites illustrates how youth service projects benefit community infrastructure over decades.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -346,7 +346,7 @@
 **Official Requirement 8b:** Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release your Travel Bug into a public geocache and, with your parent or guardian's permission, monitor its progress at www. Geocaching.com for 30 days. Keep a log, and share this with your counselor at the end of the 30-day period.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8b Quantitative Field Observation & Activity Log
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Geocaching Req 8b with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 8b (Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 8b (Create a Scouting-related Travel Bug® that promotes one of the values of Scouting. Release), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a Scout-themed travel bug attaches a tracking tag to an emblem promoting the Scout Law. Tracking its movement through online logs demonstrates cooperative community dynamics across geographic distances.
 - **Common Myth:** Trackable travel bugs become the permanent property of whoever finds them first.
@@ -367,7 +367,7 @@
 **Official Requirement 8c:** Set up and hide a public geocache, following the guidelines in the Geocaching merit badge pamphlet. Before doing so, share with your counselor a three-month maintenance plan for the geocache where you are personally responsible for those three months. After setting up the geocache, with your parent or guardian's permission, follow the logs online for 30 days and share them with your counselor. You must archive the geocache when you are no longer maintaining it.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Geocaching Req 8c with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 8c (Set up and hide a public geocache, following the guidelines in the Geocaching merit badge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 8c (Set up and hide a public geocache, following the guidelines in the Geocaching merit badge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Publishing a public cache requires landowner consent, precise coordinate averaging, and a committed three-month upkeep schedule. Active stewardship prevents geolitter and protects sensitive environmental zones from excessive foot traffic.
 - **Common Myth:** Any sealed disposable food container functions effectively as a permanent outdoor geocache.
@@ -385,7 +385,7 @@
 #### Req 8d: Cache in Trash Out
 **Official Requirement 8d:** Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at public geocaches or at a CITO event. Then, either create CITO containers to leave at public caches, or host a CITO event for your unit or for the public.
 **Source:** *Official Scouting America Geocaching Merit Badge Pamphlet (p. 42, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geocaching Requirement 8d (Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geocaching Requirement 8d (Explain what Cache In Trash Out (CITO) means, and describe how you have practiced CITO at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cache In Trash Out events mobilize outdoor enthusiasts to collect garbage along trails while searching for containers. Leaving collection bags at cache locations encourages all visitors to steward public lands.
 - **Common Myth:** Picking up litter along trails is secondary to logging the physical cache.

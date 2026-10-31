@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Reading.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/reading/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1a:** Take a tour of a library. Discuss with your counselor how the library is organized and what resources and/or services are offered in the library.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 1a (Take a tour of a library. Discuss with your counselor how the library is organized and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 1a (Take a tour of a library. Discuss with your counselor how the library is organized and what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A guided facility tour introduces public zones, media archives, and specialized patron services. Reference librarians explain organizational boundaries dividing fiction, periodicals, and non-print digital materials.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1b:** Learn how to search for material using a library's card catalog or computerized catalog by author, title, and subject.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 1b (Learn how to search for material using a library's card catalog or computerized catalog by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 1b (Learn how to search for material using a library's card catalog or computerized catalog by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Computerized library catalogs use controlled vocabularies to index materials across searchable fields. Searching by subject headings yields broader relevant results than searching by title keywords alone.
 - **Common Myth:** New researchers assume searching a single keyword returns every relevant book in stock.
@@ -83,7 +83,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1c:** In a library, search the card catalog or computerized catalog for six books of four different types, such as poetry, fiction, nonfiction, and biographies.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 1c (In a library, search the card catalog or computerized catalog for six books of four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 1c (In a library, search the card catalog or computerized catalog for six books of four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting materials across poetry, fiction, nonfiction, and biography demonstrates versatility across different literary sections. Each category occupies designated call number ranges or separate shelving areas.
 - **Common Myth:** Beginners often think all book genres are mixed together by publication year.
@@ -101,7 +101,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1d:** With the assistance of your counselor or the librarian, see if you can locate on the shelves the six books you selected.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 1d (With the assistance of your counselor or the librarian, see if you can locate on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 1d (With the assistance of your counselor or the librarian, see if you can locate on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stack navigation requires reading shelf markers from left to right and top to bottom. Call numbers correspond to exact positions marked on shelf ranges.
 - **Common Myth:** Readers sometimes think books are placed randomly wherever shelf space is available.
@@ -118,7 +118,7 @@
 #### Req 1e: Patron Library Card Registration
 **Official Requirement 1e:** Explain what a library card is, why it is needed, and how to get one.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 21, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 1e (Explain what a library card is, why it is needed, and how to get one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 1e (Explain what a library card is, why it is needed, and how to get one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A library card links individual patrons to the circulation database and lending policies. Registration requires presenting official identification and contact documentation at the front desk.
 - **Common Myth:** Some believe a library card requires payment of recurring annual membership fees.
@@ -139,7 +139,7 @@
 #### Req 2a: Author Works Exploration
 **Official Requirement 2a:** Identify a book you have enjoyed. Find out what other books the author has written.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 2a (Identify a book you have enjoyed. Find out what other books the author has written), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 2a (Identify a book you have enjoyed. Find out what other books the author has written), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating an author's broader catalog helps readers discover prequel novels, related short stories, or independent stand-alone works. Reference bibliographies provide accurate chronological lists of original publication dates.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -161,7 +161,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** Look at one or more "best books" lists. These can be based on year, subject, or even all time. Identify at least one book you would like to read.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 2b (Look at one or more "best books" lists. These can be based on year, subject, or even all), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 2b (Look at one or more "best books" lists. These can be based on year, subject, or even all), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Award lists such as the Michael L. Printz or Caldecott evaluate books against rigorous literary standards. Selecting from vetted lists introduces readers to notable cultural perspectives and complex storytelling structures.
 - **Common Myth:** Beginners often assume best books lists reflect only commercial sales figures.
@@ -182,7 +182,7 @@
 #### Req 3a: Written Book Review Composition
 **Official Requirement 3a:** Write a review of the book. Include what you liked and/or didn't like about the book. Include whether you would recommend this book, and if so, who might enjoy reading it.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 3a (Write a review of the book. Include what you liked and/or didn't like about the book.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 3a (Write a review of the book. Include what you liked and/or didn't like about the book.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An effective written review balances brief plot orientation with thoughtful analysis of literary elements. Reviewers identify strengths, point out flaws, and specify ideal reader demographics.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -203,7 +203,7 @@
 **[Parent Directive]:** *Read four different types of books, such as poetry, fiction, nonfiction, or biographies. Do one of the following for each book you have read*
 **Official Requirement 3b:** Watch a movie based on the book. What was the same between the book and movie? What was different? Which did you enjoy more? Discuss this with your counselor.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 3b (Watch a movie based on the book. What was the same between the book and movie? What was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 3b (Watch a movie based on the book. What was the same between the book and movie? What was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing a written narrative with its cinematic adaptation highlights differences between prose interiority and visual storytelling. Analyzing narrative cuts, character composites, and pacing alterations sharpens analytical judgment.
 - **Common Myth:** Viewers believe cinematic adaptations are always inferior copies of original books.
@@ -222,7 +222,7 @@
 #### Req 3c: Patrol Book Talk Delivery
 **Official Requirement 3c:** Give a book talk to your class, troop, or patrol.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 3c (Give a book talk to your class, troop, or patrol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 3c (Give a book talk to your class, troop, or patrol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A book talk acts like a commercial designed to hook listeners and inspire them to read the title. Presenters highlight dramatic conflicts, read compelling excerpts, and withhold final resolutions.
 - **Common Myth:** Speakers think a book talk should explain the entire storyline through the final chapter.
@@ -303,7 +303,7 @@
 **Official Requirement 6a:** Read to a sick, blind, or homebound person in a hospital or in an extended-care facility.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Reading Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 6a (Read to a sick, blind, or homebound person in a hospital or in an extended-care facility), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 6a (Read to a sick, blind, or homebound person in a hospital or in an extended-care facility), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reading aloud to hospital patients or homebound individuals requires clear vocal modulation, patience, and empathetic engagement. Volunteers adjust their reading pace to match listener comfort and preferences.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -325,7 +325,7 @@
 #### Req 6b: Library Facility Volunteer Assistance
 **Official Requirement 6b:** Perform volunteer work at your school library or a public library.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 6b (Perform volunteer work at your school library or a public library), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 6b (Perform volunteer work at your school library or a public library), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteering in school or public libraries involves shelving returned materials, repairing torn bindings, and preparing seasonal book displays. These operational tasks support staff and keep collections organized for patrons.
 - **Common Myth:** Volunteers assume library tasks consist solely of checking out books at the desk.
@@ -343,7 +343,7 @@
 **[Parent Directive]:** *With your counselor's and parent or guardian's permission, choose ONE of the following activities and devote at least four hours*
 **Official Requirement 6c:** Read stories to younger children, in a group or individually.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 6c (Read stories to younger children, in a group or individually), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 6c (Read stories to younger children, in a group or individually), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sharing books with younger children stimulates early childhood language acquisition and builds lifelong reading enthusiasm. Readers use expressive character voices and interactive open-ended questions to maintain youthful attention.
 - **Common Myth:** Presenters assume children stay engaged during long readings without visual interaction.
@@ -361,7 +361,7 @@
 **[Parent Directive]:** *With your counselor's and parent or guardian's permission, choose ONE of the following activities and devote at least four hours*
 **Official Requirement 6d:** Organize a book swap in your troop, school, or place of worship.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 6d (Organize a book swap in your troop, school, or place of worship), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 6d (Organize a book swap in your troop, school, or place of worship), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Organizing a book exchange allows participants to trade finished titles for fresh reading material at zero cost. Organizers establish genre sorting tables, trade guidelines, and collection schedules.
 - **Common Myth:** Organizers think a book swap operates smoothly without predetermined exchange rules.
@@ -379,7 +379,7 @@
 **[Parent Directive]:** *With your counselor's and parent or guardian's permission, choose ONE of the following activities and devote at least four hours*
 **Official Requirement 6e:** Organize a book drive to collect books. Donate them to an organization in need.
 **Source:** *Official Scouting America Reading Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reading Requirement 6e (Organize a book drive to collect books. Donate them to an organization in need), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reading Requirement 6e (Organize a book drive to collect books. Donate them to an organization in need), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A successful book drive involves advertising donation goals, setting up secure collection bins, and inspecting donated items. Collected books are sorted by reading level and delivered to local charities.
 - **Common Myth:** Donors assume charitable recipients can accept severely damaged or moldy books.

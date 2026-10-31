@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scholarship.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/scholarship/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -35,7 +35,7 @@
 #### Req 1a: Sustained Academic Grade Average
 **Official Requirement 1a:** Show that you have had an average grade of B or higher (80% or higher) for one term or semester.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 1a (Show that you have had an average grade of B or higher (80% or higher) for one term or semester), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 1a (Show that you have had an average grade of B or higher (80% or higher) for one term or semester), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts document an overall B average or eighty percent benchmark across all registered subjects during a full school term. Counselors review cumulative score sheets rather than isolated test papers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -57,7 +57,7 @@
 #### Req 1b: Measurable Academic Grade Improvement
 **Official Requirement 1b:** Show that for one term or semester you have improved your school grades over the previous period.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 1b (Show that for one term or semester you have improved your school grades over the previous), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 1b (Show that for one term or semester you have improved your school grades over the previous), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts track progress across consecutive academic terms to display significant upward grade movement. Evidence includes grade point gains or raised individual course standings verified by report cards.
 - **Common Myth:** Every single class must show an increased letter grade to prove academic progress.
@@ -82,7 +82,7 @@
 **Official Requirement 2a:** Make a list of educational places located where you live (other than schools). Visit one, and report on how you used the place for self-education.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scholarship Req 2 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 2a (Make a list of educational places located where you live (other than schools). Visit one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 2a (Make a list of educational places located where you live (other than schools). Visit one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify cultural and scientific institutions outside their school district, such as botanical gardens or public archives. The Scout visits one site to study a specific topic independently.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -104,7 +104,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 2b:** With your counselor's and your parent or guardian's approval, interview two professionals (other than teachers or other professionals at your school) with established careers. Find out where they were educated, what training they received, and how their education and training have helped prepare them for the career they have chosen. Find out how they continue to educate themselves. Discuss what you find out with your counselor.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 2b Professional Career Interview Card
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 2b (With your counselor's and your parent or guardian's approval, interview two professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 2b (With your counselor's and your parent or guardian's approval, interview two professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts secure parental and counselor approval before questioning two experienced professionals outside their school faculty. The interviews explore educational preparation, career paths, and technical knowledge necessary for professional success.
 - **Common Myth:** Interviews can be conducted spontaneously without prior adult permissions or structured advance questions.
@@ -124,7 +124,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 2c:** Using a daily planner, show your counselor how you keep track of assignments and activities, and discuss how you manage your time.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 2c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 2c (Using a daily planner, show your counselor how you keep track of assignments and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 2c (Using a daily planner, show your counselor how you keep track of assignments and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts maintain a daily calendar or planner application to balance class deadlines, extracurriculars, and personal responsibilities. Demonstrating time blocking techniques shows how intentional scheduling prevents procrastination.
 - **Common Myth:** Planners only need to list exam dates rather than daily assignment steps and activity blocks.
@@ -141,7 +141,7 @@
 #### Req 2d: Academic Research Methodology Evaluation
 **Official Requirement 2d:** Discuss the advantages and disadvantages of the different methods of research available to you for school assignments, such as the library, books and periodicals, and the internet.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 41, p. 47)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2d Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 2d (Discuss the advantages and disadvantages of the different methods of research available to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 2d (Discuss the advantages and disadvantages of the different methods of research available to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts compare traditional print references against digital search engines, evaluating speed, depth, and information reliability. The discussion contrasts open internet claims with curated academic databases and peer reviewed texts.
 - **Common Myth:** Digital search engine results provide identical credibility and accuracy as curated library reference texts.
@@ -188,7 +188,7 @@
 #### Req 4a: Extracurricular Activity Team Participation
 **Official Requirement 4a:** Show that you have taken part in an extracurricular school activity, and discuss with your counselor the benefits of participation and what you learned about the importance of teamwork.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 4a (Show that you have taken part in an extracurricular school activity, and discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 4a (Show that you have taken part in an extracurricular school activity, and discuss with your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts participate actively in school athletics, music, debate, or specialized academic clubs. The Scout discusses with the counselor how joint effort and shared practice raise overall group performance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -210,7 +210,7 @@
 #### Req 4b: Academic Team Project Contribution
 **Official Requirement 4b:** Discuss your participation in a school project during the past semester where you were a part of a team. Tell about the positive contributions you made to the team and the project.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 52, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 4b (Discuss your participation in a school project during the past semester where you were a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 4b (Discuss your participation in a school project during the past semester where you were a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts evaluate their role within a multi student curricular assignment completed over the previous semester. Discussion highlights tangible project deliverables and how individual contributions supported peer team members.
 - **Common Myth:** A group project presentation requires an equal distribution of speaking time to be valid.
@@ -230,7 +230,7 @@
 #### Req 5a: Lifelong Personal Education Reflection
 **Official Requirement 5a:** Write a report of 250 to 300 words about how the education you receive in school will be of value to you in the future and how you will continue to educate yourself in the future.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 5a (Write a report of 250 to 300 words about how the education you receive in school will be of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 5a (Write a report of 250 to 300 words about how the education you receive in school will be of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts write an analytical essay on how foundational schooling prepares them for adult citizenship and professional life. The text details deliberate strategies for continuing personal education through reading and independent study.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -252,7 +252,7 @@
 #### Req 5b: Career Goals Academic Alignment
 **Official Requirement 5b:** Write a report of 250 to 300 words about two careers that interest you and how specific classes and good scholarship in general will help you achieve your career goals.
 **Source:** *Official Scouting America Scholarship Merit Badge Pamphlet (p. 61, p. 63)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scholarship Requirement 5b (Write a report of 250 to 300 words about two careers that interest you and how specific), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scholarship Requirement 5b (Write a report of 250 to 300 words about two careers that interest you and how specific), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success.
 - **Common Myth:** General career ambition alone overcomes deficits in foundational math, science, or language coursework.
@@ -265,3 +265,4 @@
 | **3. Req 5b Practical Example & Counselor Conference Verification** | Scouts research two careers of personal interest and map required coursework and scholarship habits to those vocations. The essay demonstrates how mastery in specific academic subjects supports long term occupational success. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 5b):** Scout must individually explain Requirement 5b (Write a report of 250 to 300 words about two careers that interest you and how specific classes and good schol) to the Counselor.
+))

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Animal%20Science.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/animal-science/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -148,7 +148,7 @@
 **Official Requirement 5a:** Explain how agricultural producers make desired improvements to their stock through breeding practices and programs.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 15, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Store and handle liquid nitrogen refrigerant tanks with cryogenic gloves and protective face shields.
-- **Socratic Prompt (Ask Scouts First):** For animal science Requirement 5a (Explain how agricultural producers make desired improvements to their stock through), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animal Science Requirement 5a (Explain how agricultural producers make desired improvements to their stock through), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Producers utilize objective performance testing and statistical Expected Progeny Differences to choose superior replacement animals. Systematic selection raises overall herd averages for economic traits while culling undesirable physical faults.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -170,7 +170,7 @@
 #### Req 5b: Purebred and Crossbreeding Systems
 **Official Requirement 5b:** Explain the terms pure breeding and cross breeding.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 15, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animal science Requirement 5b (Explain the terms pure breeding and cross breeding), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animal Science Requirement 5b (Explain the terms pure breeding and cross breeding), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pure breeding mates animals within one breed to maintain genetic uniformity, breed standards, and predictable ancestral pedigrees. Crossbreeding combines two or more distinct breeds to capitalize on hybrid vigor and combine complementary traits.
 - **Common Myth:** Beginners often assume crossbreeding creates unpredictable mutts with inferior commercial and functional agricultural value.
@@ -187,7 +187,7 @@
 #### Req 5c: Modern Livestock Reproductive Technologies
 **Official Requirement 5c:** List two modern technologies used in the production of horses, dairy cattle, beef cattle, sheep, hogs, poultry, or goats, and tell what the advantages are of using the technology.
 **Source:** *Official Scouting America Animal Science Merit Badge Pamphlet (p. 15, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animal science Requirement 5c (List two modern technologies used in the production of horses, dairy cattle, beef cattle,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animal Science Requirement 5c (List two modern technologies used in the production of horses, dairy cattle, beef cattle,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Advanced reproductive technologies include artificial insemination, embryo transfer, semen sexing, and genomic marker-assisted selection. These methods enable producers to propagate top genetics rapidly while minimizing disease transmission between herds.
 - **Common Myth:** Many beginners believe artificial insemination is primarily used to eliminate the cost of feeding bulls.
@@ -787,3 +787,4 @@
 | **3. Discuss this with your counselor, and explain why this profession might interest** | Animal Geneticist Roles: Geneticists analyze livestock genomic sequencing data to identify inherited markers for disease resistance. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Animal Science Requirement 7 (careers in animal science) before signing the blue card.
+))

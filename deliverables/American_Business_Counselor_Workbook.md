@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Business.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-business/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -36,7 +36,7 @@
 #### Req 1a: Free Enterprise Core Characteristics
 **Official Requirement 1a:** Explain four features of the free enterprise system in the United States. Describe the difference between freedom and license. Tell how the Scout Oath and Scout Law apply to business and free enterprise.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 1a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 1a (Explain four features of the free enterprise system in the United States. Describe the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 1a (Explain four features of the free enterprise system in the United States. Describe the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Private ownership, price systems, competition, and economic incentives form the foundation of American commerce. True freedom honors legal contracts and ethical boundaries rather than destructive lawless license.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -58,7 +58,7 @@
 #### Req 1b: Industrial Revolution Historical Milestones
 **Official Requirement 1b:** Describe the Industrial Revolution and tell about the major developments that marked the start of the modern industrial era in the United States. Discuss three people who had a great influence on business or industry in the United States and describe what each did.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 1b (Describe the Industrial Revolution and tell about the major developments that marked the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 1b (Describe the Industrial Revolution and tell about the major developments that marked the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanized textile production and steam power accelerated nineteenth-century manufacturing across the United States. Industrial leaders like Andrew Carnegie and Henry Ford standardized mass production methods.
 - **Common Myth:** The Industrial Revolution started in America immediately after the Revolutionary War ended.
@@ -76,7 +76,7 @@
 #### Req 1c: Five Primary Business Sectors
 **Official Requirement 1c:** Identify and describe to your counselor the five primary areas of business.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 1c (Identify and describe to your counselor the five primary areas of business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 1c (Identify and describe to your counselor the five primary areas of business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Enterprises integrate accounting, finance, economics, marketing, and management to deliver commercial goods. Each discipline contributes essential data and leadership required for sustainable corporate operations.
 - **Common Myth:** Marketing consists exclusively of purchasing print advertisements and social media commercials.
@@ -93,7 +93,7 @@
 #### Req 1d: Organized Labor Movement History
 **Official Requirement 1d:** Explain the history of labor unions in the United States and the importance of labor unions and employers working together. Identify two major labor unions currently in existence.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 1d (Explain the history of labor unions in the United States and the importance of labor unions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 1d (Explain the history of labor unions in the United States and the importance of labor unions), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Labor unions formed collective bargaining units to secure fair wages, safe factories, and standard workweeks. Modern labor organizations like the AFL-CIO negotiate workplace contracts directly with corporate management.
 - **Common Myth:** Labor unions emerged primarily to eliminate company profitability and dismantle corporate structures.
@@ -109,7 +109,7 @@
 #### Req 1e: Global Economic Interdependence Factors
 **Official Requirement 1e:** Discuss with your counselor how business impacts the local, national, and global economy.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 19, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 1e (Discuss with your counselor how business impacts the local, national, and global economy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 1e (Discuss with your counselor how business impacts the local, national, and global economy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Local businesses provide payroll taxes and jobs while interacting with international supply chains. Currency valuations, international trade agreements, and global logistics shape domestic pricing.
 - **Common Myth:** A neighborhood retail shop remains entirely unaffected by disruptions in overseas container shipping.
@@ -130,7 +130,7 @@
 #### Req 2a: Three Core Financial Statements
 **Official Requirement 2a:** Explain the three basic types of financial statements (income statement, balance sheet, and statement of cash flows). Discuss with your counselor how each statement can help business leaders make better decisions.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 2a (Explain the three basic types of financial statements (income statement, balance sheet, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 2a (Explain the three basic types of financial statements (income statement, balance sheet, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The balance sheet provides a point-in-time snapshot of assets, liabilities, and owner equity. Income statements and cash flow statements measure operational profitability and liquidity over specific accounting periods.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -151,7 +151,7 @@
 #### Req 2b: Macroeconomic Monetary Policy Impacts
 **Official Requirement 2b:** Explain how changes in interest rates, taxes, and government spending affect the flow of money into or out of business and industry.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 2b (Explain how changes in interest rates, taxes, and government spending affect the flow of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 2b (Explain how changes in interest rates, taxes, and government spending affect the flow of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Central bank interest rate increases raise borrowing costs, reducing capital expenditures across manufacturing sectors. Federal tax rates and stimulus spending directly influence disposable consumer income and commercial investment.
 - **Common Myth:** Higher federal interest rates automatically accelerate corporate hiring and equipment purchasing.
@@ -170,7 +170,7 @@
 #### Req 2c: Business Capital Acquisition Methods
 **Official Requirement 2c:** Explain how a sole proprietorship, partnership, or limited liability company gets its capital. Discuss and explain four ways a corporation obtains capital.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 2c (Explain how a sole proprietorship, partnership, or limited liability company gets its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 2c (Explain how a sole proprietorship, partnership, or limited liability company gets its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sole proprietorships and partnerships rely on personal savings, angel investors, or commercial bank debt. Corporations raise vast capital through retained earnings, issuing common stock, corporate bonds, or venture equity.
 - **Common Myth:** Issuing corporate bonds dilutes the voting power of existing corporate shareholders.
@@ -186,7 +186,7 @@
 #### Req 2d: Commercial Business Insurance Portfolios
 **Official Requirement 2d:** Name five kinds of insurance useful to business. Describe their purposes.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 48, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 2d (Name five kinds of insurance useful to business. Describe their purposes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 2d (Name five kinds of insurance useful to business. Describe their purposes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Enterprises purchase property, general liability, workers' compensation, product liability, and business interruption policies. These coverages protect balance sheet solvency following physical disasters, employee injuries, or legal claims.
 - **Common Myth:** Standard commercial property insurance automatically compensates a business for lost customer revenue after storms.
@@ -207,7 +207,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3a:** Explain the place of profit in business.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 3a (Explain the place of profit in business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 3a (Explain the place of profit in business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Profit signals efficient resource allocation in competitive markets by directing capital toward high-demand goods. It covers enterprise risk and provides necessary funding for business growth and modernization.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -229,7 +229,7 @@
 #### Req 3b: Sustainable Business Practices Implementation
 **Official Requirement 3b:** Describe to your counselor green marketing and sustainable business practices.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 3b (Describe to your counselor green marketing and sustainable business practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 3b (Describe to your counselor green marketing and sustainable business practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Green marketing promotes products with verified environmental benefits, such as biodegradable components or energy conservation. Sustainable companies design closed-loop manufacturing systems that reduce raw material consumption and carbon emissions.
 - **Common Myth:** Green marketing simply involves adding green colored graphics to standard plastic product packaging.
@@ -248,7 +248,7 @@
 #### Req 3c: Corporate Ethical Decision Making
 **Official Requirement 3c:** Explain how ethics plays a role in business decision making.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 3c (Explain how ethics plays a role in business decision making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 3c (Explain how ethics plays a role in business decision making), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ethical management requires honesty with consumers, fair treatment of staff, and compliance with environmental regulations. Principled governance builds customer loyalty and prevents catastrophic legal penalties or public boycotts.
 - **Common Myth:** Corporate decisions are entirely ethical as long as they do not violate criminal statutes.
@@ -265,7 +265,7 @@
 #### Req 3d: Retail Operational Model Comparison
 **Official Requirement 3d:** Discuss the differences between operating a brick-and-mortar business versus an online business.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 20, p. 44)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3d Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 3d (Discuss the differences between operating a brick-and-mortar business versus an online business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 3d (Discuss the differences between operating a brick-and-mortar business versus an online business), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical storefronts offer direct customer service, immediate product delivery, and high real estate lease expenses. E-commerce platforms operate with automated server warehouses, global reach, and substantial shipping logistics.
 - **Common Myth:** E-commerce retailers eliminate overhead expenses because they operate without commercial physical locations.
@@ -340,7 +340,7 @@
 #### Req 6a: Specialized Business Career Exploration
 **Official Requirement 6a:** Choose one of the primary areas of business and identify three career opportunities. Select one and research the education, training, and experience required for this career. Discuss this with your counselor and explain why this interests you.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 38, p. 42)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 6a (Choose one of the primary areas of business and identify three career opportunities. Select), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 6a (Choose one of the primary areas of business and identify three career opportunities. Select), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Careers in finance, marketing, accounting, management, or economics offer specialized career tracks. Professionals in these fields complete undergraduate degrees, earn professional credentials, and build domain expertise.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -360,7 +360,7 @@
 #### Req 6b: Executive Leadership Informational Interview
 **Official Requirement 6b:** Select a business leader and interview this individual to learn more about his or her company and career path. Discuss the role ethics plays in making business decisions. Share what you have learned with your counselor.
 **Source:** *Official Scouting America American Business Merit Badge Pamphlet (p. 38, p. 42)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6b Professional Career Interview Card
-- **Socratic Prompt (Ask Scouts First):** For american business Requirement 6b (Select a business leader and interview this individual to learn more about his or her), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Business Requirement 6b (Select a business leader and interview this individual to learn more about his or her), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing a business leader reveals how theoretical management concepts apply to daily operational challenges. Discussions highlight the central role personal ethics plays when executives navigate complex commercial decisions.
 - **Common Myth:** Business executives base major organizational decisions exclusively on short-term quarterly profit numbers.
@@ -373,3 +373,4 @@
 | **3. Daily Responsibilities, Training & Advice for Scouts** | Interviewing a business leader reveals how theoretical management concepts apply to daily operational challenges. Discussions highlight the central role personal ethics plays when executives navigate complex commercial decisions. |
 
 **Counselor Verification Standard (Req 6b):** Scout must individually identify Requirement 6b (Select a business leader and interview this individual to learn more about his or her company and career path) to the Counselor.
+)

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Animation.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/animation/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -36,7 +36,7 @@
 **[Parent Directive]:** *General Knowledge. Do the following*
 **Official Requirement 1a:** In your own words, describe to your counselor what animation is.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animation Requirement 1a (In your own words, describe to your counselor what animation is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animation Requirement 1a (In your own words, describe to your counselor what animation is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Animation relies on the brain retaining an image for a fraction of a second after it disappears. This physiological trait allows sequential still pictures to appear as continuous fluid motion.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -58,7 +58,7 @@
 #### Req 1b: Historical Milestones in Animation
 **Official Requirement 1b:** Discuss with your counselor a brief history of animation.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animation Requirement 1b (Discuss with your counselor a brief history of animation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animation Requirement 1b (Discuss with your counselor a brief history of animation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Animation history spans from Victorian parlor toys to Windsor McCay and the golden age of studio cel animation. Digital computers later introduced three dimensional rendering and computer generated character rigging.
 - **Common Myth:** Scouts frequently think digital computers invented modern character animation principles.
@@ -229,7 +229,7 @@
 **[Parent Directive]:** *Animation in our World. Do the following*
 **Official Requirement 4a:** Tour an animation studio or a business where animation is used, either in person, via video, or via the internet. Share what you have learned with your counselor.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animation Requirement 4a (Tour an animation studio or a business where animation is used, either in person, via), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animation Requirement 4a (Tour an animation studio or a business where animation is used, either in person, via), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tour an animation studio or commercial enterprise that applies animated graphics to view practical production environments. Observe how artists, technical directors, and sound engineers collaborate on complex projects.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -250,7 +250,7 @@
 #### Req 4b: Future Applications of Animation
 **Official Requirement 4b:** Discuss with your counselor how animation might be used in the future to make your life more enjoyable and productive.
 **Source:** *Official Scouting America Animation Merit Badge Pamphlet (p. 66, p. 91)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For animation Requirement 4b (Discuss with your counselor how animation might be used in the future to make your life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Animation Requirement 4b (Discuss with your counselor how animation might be used in the future to make your life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Explore how advancements in real time computing, spatial headsets, and simulated training environments will reshape education and productivity. Discuss with your counselor how interactive visual media improves communication.
 - **Common Myth:** Novices often consider future animation advancements solely as improvements in graphic resolution.

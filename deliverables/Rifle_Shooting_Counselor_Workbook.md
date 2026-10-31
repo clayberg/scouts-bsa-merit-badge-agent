@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Rifle%20Shooting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/rifle-shooting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -35,7 +35,7 @@
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately obey any cease-fire command called by anyone on the shooting line by opening the rifle action and stepping back.
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A projectile is an object propelled through the air by external kinetic force. Rifles launch projectiles at extreme speeds that can penetrate obstacles across vast distances.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -57,7 +57,7 @@
 #### Req 1b: Fundamental Gun Safety Rules
 **Official Requirement 1b:** Explain the basic rules of safe gun handling that apply to all firearms.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1b (Explain the basic rules of safe gun handling that apply to all firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1b (Explain the basic rules of safe gun handling that apply to all firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe gun handling relies on three primary discipline rules created by the National Rifle Association. These rules prevent unintentional discharges from causing personal injury or property damage.
 - **Common Myth:** Keeping a finger on the trigger helps a shooter react faster safely.
@@ -76,7 +76,7 @@
 #### Req 1c: Peer Firearm Inquiry Protocol
 **Official Requirement 1c:** Describe how you would react if a friend visiting your home asked to see your or your family's firearm.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1c (Describe how you would react if a friend visiting your home asked to see your or your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1c (Describe how you would react if a friend visiting your home asked to see your or your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Curiosity from visiting guests regarding firearms must be met with firm safety boundaries. Never display or handle household firearms without direct parental consent and adult supervision.
 - **Common Myth:** Showing an unloaded family rifle to a visiting friend is harmless entertainment.
@@ -93,7 +93,7 @@
 #### Req 1d: Eye and Hearing Protection
 **Official Requirement 1d:** Explain the need for, types, and use of eye protection and hearing protection.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1d (Explain the need for, types, and use of eye protection and hearing protection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1d (Explain the need for, types, and use of eye protection and hearing protection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shooting sports expose participants to explosive sound pressure and high velocity debris. Quality ear muffs and impact rated glasses prevent irreversible sensory organ trauma.
 - **Common Myth:** Placing foam earplugs loosely in the ear canal provides full sound protection.
@@ -110,7 +110,7 @@
 #### Req 1e: Firearm Statutes and Regulations
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1e (Explain the main points of the laws for owning and using guns in your community and state), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1e (Explain the main points of the laws for owning and using guns in your community and state), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State and municipal laws regulate the purchase, transportation, and storage of rifles. Gun owners are strictly responsible for knowing and obeying jurisdictional firearm statutes.
 - **Common Myth:** Federal firearm regulations override every municipal ordinance regarding recreational target discharge.
@@ -127,7 +127,7 @@
 #### Req 1f: Wildlife Conservation and Harvesting
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1f (Explain how hunting is related to the wise use of renewable wildlife resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1f (Explain how hunting is related to the wise use of renewable wildlife resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Regulated hunting serves as a primary tool for wildlife management and habitat conservation. Excise taxes on hunting arms fund ecological preservation through the Pittman-Robertson Act.
 - **Common Myth:** Hunting reduces overall animal populations without providing any ecological or financial benefit.
@@ -182,7 +182,7 @@
 #### Req 1h: Range Hygiene and Lead
 **Official Requirement 1h:** Explain to your counselor the proper hygienic guidelines followed while shooting.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1h (Explain to your counselor the proper hygienic guidelines followed while shooting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1h (Explain to your counselor the proper hygienic guidelines followed while shooting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Discharged ammunition expels lead dust and chemical residues onto hands and range surfaces. Thoroughly washing with cold water and soap prevents systemic heavy metal absorption.
 - **Common Myth:** Washing hands with warm soapy water removes heavy metal residues most effectively.
@@ -199,7 +199,7 @@
 #### Req 1i: Community Target Shooting Facilities
 **Official Requirement 1i:** Identify places in your community where you can join or be a part of range and target activities.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1i (Identify places in your community where you can join or be a part of range and target), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1i (Identify places in your community where you can join or be a part of range and target), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Local shooting clubs, youth leagues, and commercial ranges offer structured marksmanship programs. These vetted venues provide certified instruction and controlled backstop environments for practice.
 - **Common Myth:** Target shooting is permitted on any public open space outside city limits.
@@ -216,7 +216,7 @@
 #### Req 1j: Firearm Education Resource Network
 **Official Requirement 1j:** Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Rifle Shooting Merit Badge Pamphlet (p. 17, p. 18)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1j Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For rifle shooting Requirement 1j (Discuss with your counselor a list of sources you could contact for information on firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Rifle Shooting Requirement 1j (Discuss with your counselor a list of sources you could contact for information on firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Organizations such as the National Rifle Association and state wildlife agencies publish safety curricula. Range safety officers and merit badge counselors connect youth to vetted educational literature.
 - **Common Myth:** Commercial social media forums provide the most reliable firearm safety instruction.

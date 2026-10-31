@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Orienteering.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/orienteering/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -105,7 +105,7 @@
 **Official Requirement 3a:** Explain how a compass works. Describe the features of an orienteering compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep compasses away from metal belt buckles, radios, and pocketknives during sighting to prevent magnetic deflection errors.
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 3a (Explain how a compass works. Describe the features of an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 3a (Explain how a compass works. Describe the features of an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienteering compasses feature liquid capsules, rotating bezels, index pointers, and clear rulers designed for flat map interaction. Earth magnetic core aligns the floating needle along magnetic flux lines.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -127,7 +127,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** In the field, show how to take a compass bearing and follow it.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 10, p. 20)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 3b (In the field, show how to take a compass bearing and follow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 3b (In the field, show how to take a compass bearing and follow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Taking a field bearing involves pointing the travel arrow at an object and revolving the housing to encase the needle. Following that bearing requires walking toward intermediate natural landmarks along that line.
 - **Common Myth:** A navigator must walk with eyes fixed continuously on the compass dial.
@@ -172,7 +172,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4b:** Point out and name 10 symbols on a topographic map.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 4b (Point out and name 10 symbols on a topographic map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 4b (Point out and name 10 symbols on a topographic map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Topographic map symbols translate natural and artificial landscape elements into identifiable icons. Reading symbols accurately allows navigators to anticipate cliffs, bogs, towers, trails, and stone walls.
 - **Common Myth:** Colors on topographic maps are decorative and vary according to the individual cartographer whim.
@@ -189,7 +189,7 @@
 #### Req 4c: Magnetic Declination Principles
 **Official Requirement 4c:** Explain the meaning of declination. Tell why you must consider declination when using map and compass together.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 4c (Explain the meaning of declination. Tell why you must consider declination when using map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 4c (Explain the meaning of declination. Tell why you must consider declination when using map), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Declination represents the angular difference between true geographic north and magnetic north at your specific location. Navigators must adjust compass dials or draw magnetic lines to reconcile map bearings with ground travel.
 - **Common Myth:** Magnetic compass needles point directly toward the geographic North Pole axis.
@@ -205,7 +205,7 @@
 #### Req 4d: Magnetic North Meridian Alignment
 **Official Requirement 4d:** Show a topographic map with magnetic north-south lines.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 4d (Show a topographic map with magnetic north-south lines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 4d (Show a topographic map with magnetic north-south lines), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienteering maps provide preprinted blue or black magnetic north meridian lines spaced across the entire surface. Drawing magnetic lines across USGS maps allows direct compass alignment without arithmetic.
 - **Common Myth:** Maps cannot be altered by drawing custom grid lines across the surveyed cartography.
@@ -222,7 +222,7 @@
 #### Req 4e: Map Scale Distance Measurement
 **Official Requirement 4e:** Show how to measure distances on a map using an orienteering compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 4e (Show how to measure distances on a map using an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 4e (Show how to measure distances on a map using an orienteering compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Distance measurement requires matching the baseplate millimeter scale against the map ratio bar. Measuring straight line segments between controls provides precise ground yardage before accounting for contour climbs.
 - **Common Myth:** Straight map measurements accurately reflect the actual foot distance traversed across mountain slopes.
@@ -239,7 +239,7 @@
 #### Req 4f: Field Map Compass Orientation
 **Official Requirement 4f:** Show how to orient a map using a compass.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 4f (Show how to orient a map using a compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 4f (Show how to orient a map using a compass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienting a map aligns its features with the real terrain by turning the sheet until compass needle matches meridian lines. This visual technique allows direct comparison between map symbols and visible physical landmarks.
 - **Common Myth:** Topographic maps must always be held with the printed north text facing upright.
@@ -290,7 +290,7 @@
 **Official Requirement 6a:** Identify 20 international control description symbols. Tell the meaning of each symbol.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Identify linear catching features beyond the control site to prevent navigating beyond safe map boundaries.
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 6a (Identify 20 international control description symbols. Tell the meaning of each symbol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 6a (Identify 20 international control description symbols. Tell the meaning of each symbol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The International Orienteering Federation establishes a universal visual vocabulary representing landforms, water features, vegetation, and man made structures. Learning these twenty basic glyphs allows competitors to identify features across international events.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -311,7 +311,7 @@
 #### Req 6b: Control Description Sheet Interpretation
 **Official Requirement 6b:** Show a control description sheet and explain the information provided.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 6b (Show a control description sheet and explain the information provided), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 6b (Show a control description sheet and explain the information provided), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A control description sheet provides course length, total elevation climb, control order, codes, and eight descriptive feature columns. Reading these columns informs the competitor whether the marker hangs at a cliff foot or top.
 - **Common Myth:** Control description sheets only provide the sequential control number and the three digit flag code.
@@ -328,7 +328,7 @@
 #### Req 6c: Navigational Strategies and Terminology
 **Official Requirement 6c:** Explain the following terms and tell when you would use them: attack point, collecting feature, catching feature, aiming off, contouring, reading ahead, handrail, relocation, and rough versus fine orienteering.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 38, p. 42)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 6c (Explain the following terms and tell when you would use them: attack point, collecting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 6c (Explain the following terms and tell when you would use them: attack point, collecting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Orienteering strategy relies on specific navigational concepts including attack points, collecting features, handrails, catching features, contouring, and relocation. Mastering these strategies prevents disorientation and optimizes transit speed between checkpoints.
 - **Common Myth:** Aiming off indicates poor compass handling and inaccurate straight line navigation habits.
@@ -352,7 +352,7 @@
 **Official Requirement 7a:** Take part in three orienteering events. One of these must be a cross-country course. Note: While orienteering is primarily an individual sport, Scouting America Youth Protection procedures call for using the buddy system. Requirement 7(a) can be completed by pairs or groups of Scouts.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Buddies must remain within conversational distance throughout the entire course regardless of individual running capabilities.
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 7a (Take part in three orienteering events. One of these must be a cross-country course. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 7a (Take part in three orienteering events. One of these must be a cross-country course. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Competitors complete three orienteering meets, including one standard point to point cross country course. Navigators must complete each course partnered with a buddy, maintaining continuous mutual oversight.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -376,7 +376,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 7b:** After each event, write a report with (1) a copy of the master map and control description sheet, (2) a copy of the route you took on the course, (3) a discussion of how you could improve your time between control points, and (4) a list of your major weaknesses on this course. Describe what you could do to improve.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 7b (After each event, write a report with (1) a copy of the master map and control description), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 7b (After each event, write a report with (1) a copy of the master map and control description), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Writing an event report involves submitting master maps, control descriptions, and an overlay of the actual route taken. The report critiques navigation mistakes, pace calculations, and alternative route choices.
 - **Common Myth:** A post race report only requires recording the final elapsed finish time.
@@ -399,7 +399,7 @@
 **Official Requirement 8a:** Set up a cross-country course that is at least 2,000 meters long with at least five control markers. Prepare the master map and control description sheet.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not place control points near dangerous hazards like deep quarries, highway crossings, or fast rivers.
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 8a (Set up a cross-country course that is at least 2,000 meters long with at least five control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 8a (Set up a cross-country course that is at least 2,000 meters long with at least five control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Design a 2,000 meter cross country course with five control markers visited in specified numerical order. Prepare a master map with red control circles and a corresponding IOF description sheet.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -421,7 +421,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 8b:** Set up a score orienteering course with at least 12 control points and a time limit of at least 60 minutes. Set point values for each control. Prepare the master map and control description sheet.
 **Source:** *Official Scouting America Orienteering Merit Badge Pamphlet (p. 30, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For orienteering Requirement 8b (Set up a score orienteering course with at least 12 control points and a time limit of at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Orienteering Requirement 8b (Set up a score orienteering course with at least 12 control points and a time limit of at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Establish a score orienteering course containing at least twelve control points with variable point values and a sixty minute time limit. Create the master map and assign penalties for overdue returns.
 - **Common Myth:** All checkpoints on a score orienteering course must carry identical point values.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Forestry.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/forestry/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **[Parent Directive]:** *Prepare a field notebook, make a collection, and identify 15 species of trees, wild shrubs, or vines in a local forested area*
 **Official Requirement 1a:** The characteristics of leaf, twig, cone, or fruiting bodies.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 1a (The characteristics of leaf, twig, cone, or fruiting bodies), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 1a (The characteristics of leaf, twig, cone, or fruiting bodies), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Twig anatomy provides year-round identification characteristics through bud arrangement, lenticels, and pith architecture. Cones and fruit capsules confirm species within difficult genera.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 **[Parent Directive]:** *Prepare a field notebook, make a collection, and identify 15 species of trees, wild shrubs, or vines in a local forested area*
 **Official Requirement 1b:** The habitat in which these trees, shrubs, or vines are found.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 1b (The habitat in which these trees, shrubs, or vines are found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 1b (The habitat in which these trees, shrubs, or vines are found), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forest microclimates dictate specific plant associations based on aspect, slope position, and drainage class. Certain indicator species delineate wetlands, rocky ridges, or deep alluvial soils.
 - **Common Myth:** Forest tree species disperse evenly across landscapes regardless of soil moisture or elevation.
@@ -84,7 +84,7 @@
 **[Parent Directive]:** *Prepare a field notebook, make a collection, and identify 15 species of trees, wild shrubs, or vines in a local forested area*
 **Official Requirement 1c:** The important ways each tree, shrub, or vine is used by humans or wildlife and whether the species is native or was introduced to the area (If it is not native, explain whether it is considered invasive or potentially invasive.)
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 1c (The important ways each tree, shrub, or vine is used by humans or wildlife and whether the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 1c (The important ways each tree, shrub, or vine is used by humans or wildlife and whether the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Native species supply critical forage and nesting cavities tailored to indigenous wildlife life cycles. Non-native trees often escape cultivation and aggressively displace diverse native understory communities.
 - **Common Myth:** Introduced non-native trees provide identical ecological services as endemic native forest vegetation.
@@ -105,7 +105,7 @@
 #### Req 2a: Wood Anatomy and Utilization
 **Official Requirement 2a:** Collect and identify wood samples of 10 species of trees. List several ways the wood of each species can be used.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 2a (Collect and identify wood samples of 10 species of trees. List several ways the wood of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 2a (Collect and identify wood samples of 10 species of trees. List several ways the wood of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wood identification relies on cell porosity, ray width, color, and grain patterns. Commercial utilization separates dense construction lumber from pulpwood, veneer, and specialty furniture woods.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -126,7 +126,7 @@
 #### Req 2b: Annual Radial Growth Variations
 **Official Requirement 2b:** Find and examine three stumps, logs, or core samples that show variations in the growth rate of their ring patterns. In the field notebook you prepared for requirement 1, describe the location or origin of each example (including elevation, aspect, slope, and the position on the slope), and discuss possible reasons for the variations in growth rate. Photograph or sketch each example.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 2b (Find and examine three stumps, logs, or core samples that show variations in the growth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 2b (Find and examine three stumps, logs, or core samples that show variations in the growth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cross-sectional ring patterns reflect competition dynamics, sudden canopy releases, and climatic moisture extremes. Analyzing ring cores reveals suppression periods followed by thinning releases.
 - **Common Myth:** Tree rings only record the chronological age of a tree without environmental clues.
@@ -147,7 +147,7 @@
 #### Req 2c: Forest Pathology and Insect Injuries
 **Official Requirement 2c:** Find and examine two types of animal, insect, or disease damage to trees. In the field notebook you prepared for requirement 1, identify the damage, explain how the damage was caused, and describe the effects of the damage on the trees. Photograph or sketch each example.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 28, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 2c (Find and examine two types of animal, insect, or disease damage to trees. In the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 2c (Find and examine two types of animal, insect, or disease damage to trees. In the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forest pathogens include primary borers, defoliating caterpillars, heartwood decay fungi, and parasitic cankers. Evaluating vascular injury reveals whether the tree can compartmentalize the structural infection.
 - **Common Myth:** Insect damage on trees is purely cosmetic and rarely threatens overall tree survival.
@@ -323,7 +323,7 @@
 #### Req 3b: Municipal Watershed Supply Sources
 **Official Requirement 3b:** Tell which watershed or other source your community relies on for its water supply.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 45, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 3b (Tell which watershed or other source your community relies on for its water supply), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 3b (Tell which watershed or other source your community relies on for its water supply), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forested watersheds naturally scrub nutrients, sediments, and organic contaminants from precipitation. Identifying local water reservoirs highlights the municipal importance of protecting upstream headwater forests.
 - **Common Myth:** Tap water purification is entirely artificial and independent of upstream wilderness watershed health.
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *Describe what forest management means, including the following*
 **Official Requirement 4a:** Multiple-use management (b) Sustainable forest management.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 4a (Multiple-use management (b) Sustainable forest management), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 4a (Multiple-use management (b) Sustainable forest management), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Multiple-use principles harmonize recreation, range forage, timber, watershed health, and wildlife habitat across forested tracts. Land managers zone specific forest parcels to resolve competing resource demands.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -368,7 +368,7 @@
 **[Parent Directive]:** *Describe what forest management means, including the following*
 **Official Requirement 4b:** Sustainable forest management.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 4b (Sustainable forest management), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 4b (Sustainable forest management), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sustainable forestry balances present wood consumption with the regenerative capacity of future timber cohorts. It conserves topsoil integrity, genetic diversity, and hydrological cycles across multiple rotations.
 - **Common Myth:** Sustained-yield forestry prevents any cutting of mature trees to maintain old-growth forest conditions.
@@ -386,7 +386,7 @@
 **[Parent Directive]:** *Describe what forest management means, including the following*
 **Official Requirement 4c:** Even-aged and uneven-aged management and the silvicultural systems associated with each (d) Intermediate cuttings.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 4c (Even-aged and uneven-aged management and the silvicultural systems associated with each (d)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 4c (Even-aged and uneven-aged management and the silvicultural systems associated with each (d)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Even-aged systems include clearcutting, seed-tree, and shelterwood methods tailored for shade-intolerant species. Uneven-aged systems use single-tree or group selection to build continuous, multi-tiered canopy cover.
 - **Common Myth:** Even-aged clearcut harvesting is an unscientific practice that permanently ruins forest regeneration capacity.
@@ -404,7 +404,7 @@
 **[Parent Directive]:** *Describe what forest management means, including the following*
 **Official Requirement 4d:** Intermediate cuttings.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 4d (Intermediate cuttings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 4d (Intermediate cuttings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Intermediate treatments include cleanings, liberations, thinnings, and improvement cuts applied between regeneration and final harvest. These entries enhance overall timber quality, reduce pest vulnerability, and accelerate merchantable stem diameters.
 - **Common Myth:** Every intermediate timber cutting is designed to maximize immediate cash profits for landowners.
@@ -422,7 +422,7 @@
 **[Parent Directive]:** *Describe what forest management means, including the following*
 **Official Requirement 4e:** The role of prescribed burning and related forest-management practices.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 55, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 4e (The role of prescribed burning and related forest-management practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 4e (The role of prescribed burning and related forest-management practices), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Prescribed fire eliminates hazardous fuel ladders, prepares bare mineral seedbeds, and controls invasive competitors. Controlled low-intensity surface burning stimulates germination in fire-adapted species like longleaf pine.
 - **Common Myth:** All forest fires are destructive disasters that completely obliterate woodland ecosystems and soils.
@@ -445,7 +445,7 @@
 **Official Requirement 5a:** Visit a managed public or private forest area with the manager or a forester who is familiar with it. Write a brief report describing the type of forest, the management objectives, and the forestry techniques used to achieve the objectives.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Forestry Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 5a (Visit a managed public or private forest area with the manager or a forester who is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 5a (Visit a managed public or private forest area with the manager or a forester who is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Managed forest tours reveal how silvicultural prescriptions achieve landowner goals like wildlife hunting or timber revenue. Foresters balance canopy density, invasive plant suppression, and natural seedling regeneration across stands.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -597,7 +597,7 @@
 **[Parent Directive]:** *With your parent or guardian's and counselor's approval, do ONE of the following*
 **Official Requirement 5c:** Take part in a forest-fire prevention campaign in cooperation with your local fire warden, state wildfire agency, forester, or counselor. Write a brief report describing the campaign, how it will help prevent wildfires, and your part in it.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 71, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 5c (Take part in a forest-fire prevention campaign in cooperation with your local fire warden,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 5c (Take part in a forest-fire prevention campaign in cooperation with your local fire warden,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Community wildfire prevention campaigns teach homeowners how to maintain defensible buffer zones clear of dry vegetation. Working with forestry wardens empowers Scouts to distribute essential wildfire awareness materials.
 - **Common Myth:** Wildfires are almost exclusively ignited by natural lightning strikes in remote backcountry wilderness.
@@ -620,7 +620,7 @@
 **Official Requirement 6a:** Inventory the trees within a specific area above (campsite, road, trail, street, etc.) that may be a hazard to structures or people. Note the species and hazardous condition, and suggest a remedy (removal or trimming). Make your list available to the proper authority or agency.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 20, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear a hard hat and maintain distance from hung-up limbs or actively failing canopy branches.
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 6a (Inventory the trees within a specific area above (campsite, road, trail, street, etc.) that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 6a (Inventory the trees within a specific area above (campsite, road, trail, street, etc.) that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hazard tree inventories document specific structural defects including co-dominant stems, root decay, and dead limbs. Scouts map targets such as buildings, roadways, or camping zones beneath defective trees.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -640,7 +640,7 @@
 #### Req 6b: Professional Hazard Report Review
 **Official Requirement 6b:** Review a hazardous tree report done by a professional for this area and visit those trees and the results of the prescription to prune or remove them.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 20, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 6b (Review a hazardous tree report done by a professional for this area and visit those trees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 6b (Review a hazardous tree report done by a professional for this area and visit those trees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reviewing certified arborist reports demonstrates professional hazard rating systems and risk mitigation prescriptions. Visiting treated trees verifies whether crown reduction, cabling, or felling mitigated the target hazard.
 - **Common Myth:** Tree service contractors make felling decisions based solely on casual exterior visual checks.
@@ -661,7 +661,7 @@
 #### Req 7a: Forest Degradation Ecological Threats
 **Official Requirement 7a:** Describe the consequences to forests that result from FIVE of the following elements: wildfire, absence of fire, destructive insects, loss of pollinating insect population, tree diseases, air pollution, overgrazing, deer or other wildlife overpopulation, improper harvest, and urbanization.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 7a (Describe the consequences to forests that result from FIVE of the following elements:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 7a (Describe the consequences to forests that result from FIVE of the following elements:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Forests face severe threats from invasive borers, root rots, overgrazing, acid precipitation, and catastrophic crown fires. Understanding ecological disturbance agents enables foresters to implement proactive cultural and silvicultural countermeasures.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -683,7 +683,7 @@
 #### Req 7b: Ecological Threat Mitigation Strategies
 **Official Requirement 7b:** Explain what can be done to reduce the consequences you discussed in 7(a).
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 7b (Explain what can be done to reduce the consequences you discussed in 7(a)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 7b (Explain what can be done to reduce the consequences you discussed in 7(a)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mitigating forest health threats requires targeted thinning, planting disease-resistant tree cultivars, and enforcing international timber quarantines. Controlled burns consume heavy fuel accumulations, mitigating catastrophic wildfire potential across landscapes.
 - **Common Myth:** Forest managers are powerless to slow down or mitigate native insect epidemics once started.
@@ -700,7 +700,7 @@
 #### Req 7c: Wildfire Discovery and Suppression
 **Official Requirement 7c:** Describe what you should do if you discover a forest fire and how a professional firefighting crew might control it. Name your state or local wildfire control agency.
 **Source:** *Official Scouting America Forestry Merit Badge Pamphlet (p. 36, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For forestry Requirement 7c (Describe what you should do if you discover a forest fire and how a professional), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Forestry Requirement 7c (Describe what you should do if you discover a forest fire and how a professional), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anyone spotting a wildland fire must immediately evacuate to safety and report coordinates to authorities. Professional crews deploy Pulaskis, bulldozers, water-dropping aircraft, and backburns to starve flames at bare firelines.
 - **Common Myth:** Forest fires are fought using the exact same heavy equipment as urban house fires.
@@ -745,3 +745,4 @@
 | **3. How These Professionals Serve the Community & Key Takeaways** | Public Interface: Foresters collaborate with private landowners, timber corporations, conservation groups, and recreationists. |
 
 **Counselor Verification Standard (Req 8):** Review the Scout's written plan, menu, checklist, or preparation log before sign-off for Forestry Requirement 8 (forestry careers and professional duties) before signing the blue card.
+))

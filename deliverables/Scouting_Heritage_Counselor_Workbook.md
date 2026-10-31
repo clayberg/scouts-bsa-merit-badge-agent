@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scouting%20Heritage.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/scouting-heritage/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -347,7 +347,7 @@
 **Official Requirement 4a:** Attend either a Scouting America National Jamboree, OR World Scout Jamboree, OR a national Scouting America high-adventure base. While there, keep a journal documenting your day-to-day experiences. Upon your return, report to your counselor what you did, saw, and learned. You may include photos, brochures, and other documents in your report.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4a Quantitative Field Observation & Activity Log
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Scouting Heritage Req 4 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For scouting heritage Requirement 4a (Attend either a Scouting America National Jamboree, OR World Scout Jamboree, OR a national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scouting Heritage Requirement 4a (Attend either a Scouting America National Jamboree, OR World Scout Jamboree, OR a national), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - National Jamborees and high-adventure bases challenge youth through rugged outdoor living and inter-troop fellowship. Keeping a detailed daily journal captures technical trail accomplishments and personal growth for future historical study.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -370,7 +370,7 @@
 #### Req 4b: National Scouting Museum Functions
 **Official Requirement 4b:** Write or visit the National Scouting Museum. Obtain information about this facility. Give a short report on what you think the role of this museum is in the Scouting program.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scouting heritage Requirement 4b (Write or visit the National Scouting Museum. Obtain information about this facility. Give a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scouting Heritage Requirement 4b (Write or visit the National Scouting Museum. Obtain information about this facility. Give a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The National Scouting Museum preserves irreplaceable artistic collections, historic handbooks, and operational records of the movement. Visiting or corresponding with staff reveals how curators conserve century-old artifacts to educate visiting patrols.
 - **Common Myth:** The National Scouting Museum serves strictly as a storage warehouse closed to public educational tours.
@@ -387,7 +387,7 @@
 #### Req 4c: Local Memorabilia and Exhibits
 **Official Requirement 4c:** Visit an exhibit of Scouting memorabilia or a local museum with a Scouting history gallery, or (with your parent or guardian's permission and counselor's approval) visit with someone in your council who is recognized as a dedicated Scouting historian or memorabilia collector. Learn what you can about the history of Scouting America. Give a short report to your counselor on what you saw and learned.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 46, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scouting heritage Requirement 4c (Visit an exhibit of Scouting memorabilia or a local museum with a Scouting history gallery,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scouting Heritage Requirement 4c (Visit an exhibit of Scouting memorabilia or a local museum with a Scouting history gallery,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Regional exhibits and private collections display council shoulder insignias, vintage uniforms, and local camp photographs. Studying curated local items shows how national scouting standards adapted within specific hometown communities over generations.
 - **Common Myth:** Only official national facilities possess authentic historical scouting collections worth examining for heritage study.
@@ -522,7 +522,7 @@
 **Official Requirement 9a:** Explore careers related to Scouting. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. With permission of your parent or guardian, your research methods may include an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 46)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Scouting Heritage Req 9 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For scouting heritage Requirement 9a (Explore careers related to Scouting. Research one career to learn about the training and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scouting Heritage Requirement 9a (Explore careers related to Scouting. Research one career to learn about the training and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional Scouters manage council budgets, direct community fundraising campaigns, and coordinate district volunteer committees. Researching this career path reveals education requirements, salary structures, and advancement opportunities across regional service centers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -546,7 +546,7 @@
 **[Parent Directive]:** *Careers. Do ONE of the following*
 **Official Requirement 9b:** Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Research any training needed, expenses, and how you could serve as a unit, district, council, regional, or national volunteer. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Scouting Heritage Merit Badge Pamphlet (p. 38, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For scouting heritage Requirement 9b (Explore how you could use knowledge and skills from this merit badge to serve as a Scouting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scouting Heritage Requirement 9b (Explore how you could use knowledge and skills from this merit badge to serve as a Scouting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteer leaders guide troops, conduct district roundtables, and deliver merit badge instruction across local communities. Exploring volunteer roles highlights the administrative structures, adult training courses, and time commitments required to sustain units.
 - **Common Myth:** Adult volunteer positions in scouting require no specialized role training or ongoing continuing education courses.
@@ -559,3 +559,4 @@
 | **3. Discuss with your counselor what short-term and long-term goals** | Volunteer leaders guide troops, conduct district roundtables, and deliver merit badge instruction across local communities. Exploring volunteer roles highlights the administrative structures, adult training courses, and time commitments required to sustain units. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 9b):** Scout must individually prepare Requirement 9b (Explore how you could use knowledge and skills from this merit badge to serve as a Scouting volunteer. Researc) to the Counselor.
+))

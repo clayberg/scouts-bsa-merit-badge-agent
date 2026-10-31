@@ -2653,14 +2653,18 @@ def generate_slide_storyboard(
                     or norm_cap_chk in bullet_norms_on_slide
                     or any(norm_cap_chk and (norm_cap_chk in bn or bn in norm_cap_chk) and len(bn) > 20 for bn in bullet_norms_on_slide)
                 ):
-                    raw_ts_cap = f"Official {clean_badge} visual reference for Requirement {req_num} illustrating {clean_section_title}."
+                    raw_ts_cap = (
+                        f"Field illustration of {clean_section_title.lower()} principles and safety checkpoints "
+                        f"for {clean_badge} (Requirement {req_num})."
+                    )
                 ts_caption = _ensure_complete_caption_sentence(raw_ts_cap, max_chars=160)
                 if any(
                     re.sub(r"[^a-z0-9]+", " ", ts_caption.lower()).strip() == bn
                     for bn in bullet_norms_on_slide
                 ):
                     ts_caption = _ensure_complete_caption_sentence(
-                        f"Official {clean_badge} visual reference for Requirement {req_num} illustrating {clean_section_title}.",
+                        f"Field illustration of {clean_section_title.lower()} principles and safety checkpoints "
+                        f"for {clean_badge} (Requirement {req_num}).",
                         max_chars=160,
                     )
             else:

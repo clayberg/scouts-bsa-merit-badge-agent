@@ -68,7 +68,7 @@
 #### Req 2a: Ecosystem Multi-Sensory Observation Area
 **Official Requirement 2a:** Choose an area approved by your counselor and observe (sight, sound, and smell) its ecosystem over a two-day period.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 2a (Choose an area approved by your counselor and observe (sight, sound, and smell) its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 2a (Choose an area approved by your counselor and observe (sight, sound, and smell) its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Two days of structured multi-sensory observation uncover microclimate variations and shifting animal behaviors. Documenting auditory and olfactory cues identifies crepuscular wildlife presence.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -77,7 +77,7 @@
 - **Common Myth:** Scouts often think a brief five-minute daytime walk captures complete ecosystem activity.
 - **Pamphlet Fact:** Sensory tracking over multiple days reveals cyclic behaviors invisible during single visits.
 
-![Abiotic Influences diagram illustrating how soil mineral chemistry and solar radiation regulate plant growth across terrestrial ecosystems.](/assets/pamphlet_images/environmental_science_p007_img1.png)
+![Technical diagram of abiotic influences principles and field relationships in Environmental Science (Requirement 2).](/assets/pamphlet_images/environmental_science_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -90,7 +90,7 @@
 #### Req 2b: Biotic and Abiotic Interactions
 **Official Requirement 2b:** Make notes about the living, nonliving (e. g., rocks), and formerly living components. Include information about interactions among the components, including the food chain, predators, native species, and invasive species, and identify how human activities have affected the ecosystem.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 68, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 2b (Make notes about the living, nonliving (e. g., rocks), and formerly living components.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 2b (Make notes about the living, nonliving (e. g., rocks), and formerly living components.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Classifying ecosystem components into biotic, abiotic, and detrital categories clarifies nutrient cycling. Trophic links demonstrate how detritivores recycle minerals back into living biomass.
 - **Common Myth:** Scouts often assume dead logs and dry leaves are nonliving rather than formerly living matter.
@@ -115,7 +115,7 @@
 **Official Requirement 3a:** Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects of PM are, and what is being done to reduce PM in the air. Then, perform an experiment to test for particulates that contribute to air pollution.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear eye protection and gloves when handling soil/water samples or lab reagents.
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 3a (Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 3a (Learn what Particulate Matter (PM) is, how PM gets into the air, what the harmful effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Particulate matter consists of complex microscopic liquid droplets and solid fragments suspended in air. Trapping particles on adhesive surfaces quantifies local airborne contamination.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -124,7 +124,7 @@
 - **Common Myth:** Scouts often think airborne dust particles always fall harmlessly to the ground immediately.
 - **Pamphlet Fact:** Fine particulates penetrate deep into alveoli and trigger systemic respiratory inflammation.
 
-![Particle Dimensions diagram illustrating how microscopic airborne particles smaller than ten microns penetrate deep into bronchial airways.](/assets/pamphlet_images/environmental_science_p012_img1.png)
+![Technical diagram of particle dimensions principles and field relationships in Environmental Science (Requirement 3).](/assets/pamphlet_images/environmental_science_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -136,7 +136,7 @@
 #### Req 3b: Transportation Systems Emission Comparison
 **Official Requirement 3b:** Discuss how air pollution and transportation affect each other by giving at least three examples. Then, compare two modes of transportation (e. g., gasoline-powered vs. electric vehicles, gasoline-powered car vs. bicycle, etc.). Resources: Your Car's Exhaust (video) Air Quality and Transportation (video) (c) Learn about the Clean Air Act.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 3b (Discuss how air pollution and transportation affect each other by giving at least three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 3b (Discuss how air pollution and transportation affect each other by giving at least three), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Transportation corridors generate significant nitrogen oxides, unburned hydrocarbons, and fine carbon soot. Comparative analysis between combustion engines and electric transit reveals distinct emission profiles.
 - **Common Myth:** Scouts often believe private passenger vehicles produce less cumulative pollution than diesel locomotives.
@@ -156,7 +156,7 @@
 **[Parent Directive]:** *Air Pollution. Do ONE of the following and discuss with your counselor*
 **Official Requirement 3c:** Learn about the Clean Air Act. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done to achieve the law's goals. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 3c (Learn about the Clean Air Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 3c (Learn about the Clean Air Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Passed in 1970, the Clean Air Act establishes National Ambient Air Quality Standards for major pollutants. Ongoing regulatory efforts focus on cross-state air pollution and ground-level ozone reduction.
 - **Common Myth:** Scouts often assume federal air pollution laws immediately halted all industrial emissions nationwide.
@@ -179,7 +179,7 @@
 **Official Requirement 4a:** Identify where your community sources water, how it is treated, and disposed. Obtain and review a water quality report from your area.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Use the Buddy System and check for ticks and poisonous plants during field study.
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 4a (Identify where your community sources water, how it is treated, and disposed. Obtain and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 4a (Identify where your community sources water, how it is treated, and disposed. Obtain and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Municipal water utilities publish annual reports disclosing source origins and contaminant test results. Understanding treatment sequences confirms how pathogens and toxic residues are eliminated.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -200,7 +200,7 @@
 #### Req 4b: Hydrological Flooding and Drought
 **Official Requirement 4b:** Identify a local or regional area that experiences periodic flooding and/or drought. Collect facts on prior event(s) and investigate the environmental impacts of these extreme events.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 4b (Identify a local or regional area that experiences periodic flooding and/or drought.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 4b (Identify a local or regional area that experiences periodic flooding and/or drought.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hydrological extremes alter river geomorphology and displace local freshwater aquatic organisms. Comparing historic rainfall records with flood plain encroachment clarifies human vulnerabilities to drought.
 - **Common Myth:** Scouts often believe that periodic flooding is entirely unnatural and always destroys ecosystems.
@@ -217,7 +217,7 @@
 **[Parent Directive]:** *Water Pollution. Do ONE of the following and discuss with your counselor*
 **Official Requirement 4c:** Learn about the Clean Water Act. Make notes on when it was passed, its environmental goals, what progress has been made and what remains to be done to achieve the law's goals. Describe the impact, benefits, and costs of the law as well as what is required to implement and enforce the law.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 45, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 4c (Learn about the Clean Water Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 4c (Learn about the Clean Water Act. Make notes on when it was passed, its environmental goals,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Enacted in 1972, the Clean Water Act aims to restore chemical and biological integrity to waters. Permitting systems control industrial factory discharges into rivers and lakes.
 - **Common Myth:** Scouts often think the Clean Water Act regulates private residential drinking wells.
@@ -239,7 +239,7 @@
 **[Parent Directive]:** *Land Pollution. Do ONE of the following and discuss with your counselor*
 **Official Requirement 5a:** In an area (yard, park, golf course, farm, etc.) approved by your counselor, make a list of the pesticides, herbicides, and fertilizers used and how often they are applied. Identify the benefits of their use and the environmental impact, including effects on non-target species (including humans), what happens if the chemicals infiltrate into the groundwater, and what happens to any runoff of the chemicals.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 5a (In an area (yard, park, golf course, farm, etc.) approved by your counselor, make a list of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 5a (In an area (yard, park, golf course, farm, etc.) approved by your counselor, make a list of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Documenting synthetic lawn chemicals reveals active herbicide ingredients applied to landscaped turf. Overapplication leads to groundwater leaching and unintended mortality of beneficial organisms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -261,7 +261,7 @@
 **[Parent Directive]:** *Land Pollution. Do ONE of the following and discuss with your counselor*
 **Official Requirement 5b:** Learn about the erosion process and identify an example of where erosion occurs. Determine where the eroded material ends up and how erosion can be minimized.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 5b (Learn about the erosion process and identify an example of where erosion occurs. Determine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 5b (Learn about the erosion process and identify an example of where erosion occurs. Determine), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Water and wind detach vulnerable topsoil particles when protective root networks are removed. Eroded sediment blankets gravel riverbeds, smothering benthic macroinvertebrates and fish egg clutches.
 - **Common Myth:** Scouts often believe erosion is only a natural geological event that humans cannot alter.
@@ -278,7 +278,7 @@
 **[Parent Directive]:** *Land Pollution. Do ONE of the following and discuss with your counselor*
 **Official Requirement 5c:** Learn about a land pollution incident that led to a site being listed on Environmental Protection Agency's Superfund National Priority List. Identify what caused the incident, what the effects were on the environment, what remediation has been done, and the current condition of the site.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 47, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 5c (Learn about a land pollution incident that led to a site being listed on Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 5c (Learn about a land pollution incident that led to a site being listed on Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Severe industrial spills and unmonitored chemical dumping create hazardous Superfund sites. Strict federal remediation protocols pump, treat, or encapsulate contaminated groundwater plumes.
 - **Common Myth:** Scouts often think Superfund sites are simply ordinary local trash dumps.
@@ -302,7 +302,7 @@
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain safe, respectful distances from wild animal nests, burrows, and forage zones.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Environmental Science Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 6a (Do research on one endangered species found in your state. Learn about its natural habitat,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 6a (Do research on one endangered species found in your state. Learn about its natural habitat,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching a regional endangered species highlights local habitat dependencies and population limiting factors. Understanding ecological niches reveals specific food and territory requirements for survival.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -325,7 +325,7 @@
 #### Req 6b: Recovered Species Case Study
 **Official Requirement 6b:** Do research on one species that was endangered or threatened but that has now recovered. Learn about how the species recovered, and what its new status is. Prepare a 100-word report on the species and include a drawing or photo. Present your report to your patrol or troop.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 6b (Do research on one species that was endangered or threatened but that has now recovered.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 6b (Do research on one species that was endangered or threatened but that has now recovered.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Targeted legal bans on persistent toxins and hunting prohibitions facilitated notable species recoveries. Reviewing historical population rebounds demonstrates the effectiveness of federal habitat preservation programs.
 - **Common Myth:** Scouts often believe that once a species becomes endangered, it cannot recover.
@@ -344,7 +344,7 @@
 **[Parent Directive]:** *Rare, Threatened, or Endangered Species. Do ONE of the following and discuss with your counselor*
 **Official Requirement 6c:** With your parent or guardian and counselor's approval, work with a natural resource professional to identify a completed project that has been designed to improve the habitat for a threatened or endangered species in your area. Visit the site and report on what you saw to your patrol or troop.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 56, p. 93)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 6c (With your parent or guardian and counselor's approval, work with a natural resource), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 6c (With your parent or guardian and counselor's approval, work with a natural resource), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Collaborating with wildlife biologists reveals techniques used to reestablish degraded regional habitats. Active management projects include installing stream culverts, planting canopy trees, and clearing brush.
 - **Common Myth:** Scouts often think human habitat intervention always worsens conditions for sensitive native species.
@@ -365,7 +365,7 @@
 **[Parent Directive]:** *Pollution Prevention, Resource Recovery, and Conservation. Do ONE of the following and discuss with your counselor*
 **Official Requirement 7a:** Determine five ways to conserve resources or use resources more efficiently in your home, school, or camp. Practice at least two of these methods for at least one week.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 7a (Determine five ways to conserve resources or use resources more efficiently in your home,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 7a (Determine five ways to conserve resources or use resources more efficiently in your home,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tracking domestic water and electrical usage highlights simple changes that lower resource consumption. Practicing targeted conservation techniques confirms how everyday habits directly reduce environmental impacts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -386,7 +386,7 @@
 #### Req 7b: Resource Recovery Material Audit
 **Official Requirement 7b:** Explain Resource Recovery and why it is important to reduce pollution. Collect samples or take photos of 10 items that can demonstrate the principle of Reduce, Reuse, Recycle. Explain your collection, how these materials are currently handled, and potential improvements.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 7b (Explain Resource Recovery and why it is important to reduce pollution. Collect samples or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 7b (Explain Resource Recovery and why it is important to reduce pollution. Collect samples or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Resource recovery extracts valuable secondary raw materials from municipal municipal solid waste streams. Examining real items demonstrates practical differences among waste reduction, reuse, and material recycling.
 - **Common Myth:** Scouts often believe recycling products is always better than reusing existing items.
@@ -403,7 +403,7 @@
 #### Req 7c: Household Hazardous Waste Disposal
 **Official Requirement 7c:** Identify five items in your household that will become hazardous waste. Explain how they should be properly stored, what special care is needed for disposal, and proper disposal options available in your area.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 52, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 7c (Identify five items in your household that will become hazardous waste. Explain how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 7c (Identify five items in your household that will become hazardous waste. Explain how they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Common domestic products contain solvents and heavy metals requiring specialized hazardous disposal. Municipal drop-off sites isolate these toxic compounds from groundwater and local landfills.
 - **Common Myth:** Scouts often assume leftover paint and motor oil can go down storm drains.
@@ -424,7 +424,7 @@
 **[Parent Directive]:** *Pollination. Do ONE of the following and discuss with your counselor*
 **Official Requirement 8a:** Investigate pollination and its importance to our environment and ecosystems. Make a list of five pollinators and the plants that attract them in your region. Explain the importance of pollinators and what Scouts can do to support pollinators in their area.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 8a (Investigate pollination and its importance to our environment and ecosystems. Make a list), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 8a (Investigate pollination and its importance to our environment and ecosystems. Make a list), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Native pollinators have coevolved with specific local plants, establishing specialized mutualistic ecological bonds. Creating regional pollinator inventories demonstrates how insect diversity sustains wild flowering plant communities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -446,7 +446,7 @@
 #### Req 8b: Pollination Field Observation Survey
 **Official Requirement 8b:** Visit an area with flowering plants during pollination season for an hour to observe pollination. Record which pollinators are attracted to which plant. Explain the importance of pollinators and what Scouts can do to support pollinators in their area.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 8b (Visit an area with flowering plants during pollination season for an hour to observe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 8b (Visit an area with flowering plants during pollination season for an hour to observe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conducting an hourly observational field census reveals how foraging insects interact with flowers. Recording insect visitation rates highlights flower morphology adaptations designed to ensure cross-pollination.
 - **Common Myth:** Scouts often think insects visit flowers randomly without any preference or pattern.
@@ -464,7 +464,7 @@
 **[Parent Directive]:** *Pollination. Do ONE of the following and discuss with your counselor*
 **Official Requirement 8c:** Learn about the importance of pollination to agriculture, including the economic costs and benefits. Identify four crop-pollinator pairs. Explain the relationship of pollinators to agriculture.
 **Source:** *Official Scouting America Environmental Science Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For environmental science Requirement 8c (Learn about the importance of pollination to agriculture, including the economic costs and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Environmental Science Requirement 8c (Learn about the importance of pollination to agriculture, including the economic costs and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial agriculture relies on managed pollinators to achieve fruit set and commercial crop yields. Quantifying crop dependencies demonstrates the multi-billion-dollar economic value of healthy pollinator populations.
 - **Common Myth:** Scouts often think staple grains like corn and wheat require insect pollination.

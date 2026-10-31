@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Railroading.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/railroading/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -38,7 +38,7 @@
 #### Req 1a: Freight Train Operational Types
 **Official Requirement 1a:** Name three types of modern freight trains. Explain why unit trains are more efficient than mixed freight trains.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 1a (Name three types of modern freight trains. Explain why unit trains are more efficient than), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 1a (Name three types of modern freight trains. Explain why unit trains are more efficient than), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Freight trains operate as unit, intermodal, or mixed manifest services depending on customer supply chains. Unit trains haul one bulk cargo directly from origin to destination without intermediate switching.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -59,7 +59,7 @@
 #### Req 1b: Class I Railroad Networks
 **Official Requirement 1b:** Name one Class I or regional railroad. Explain what major cities it serves, the locations of major terminals, service facilities, and crew change points, and the major commodities it carries.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 1b (Name one Class I or regional railroad. Explain what major cities it serves, the locations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 1b (Name one Class I or regional railroad. Explain what major cities it serves, the locations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Class I railroads maintain extensive transcontinental route networks connecting major manufacturing hubs, sea ports, and inland terminals. Operating divisions place service shops and crew change points approximately every one hundred miles.
 - **Common Myth:** Railroad crews operate a single freight train continuously from origin all the way to destination.
@@ -78,7 +78,7 @@
 **[Parent Directive]:** *Do THREE of the following*
 **Official Requirement 1c:** Using models or pictures, identify 10 types of railroad freight or passenger cars. Explain the purpose of each type of car.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 1c (Using models or pictures, identify 10 types of railroad freight or passenger cars. Explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 1c (Using models or pictures, identify 10 types of railroad freight or passenger cars. Explain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Railroads employ specialized cars including boxcars, covered hoppers, tank cars, gondolas, and flatcars engineered for specific ladings. Passenger equipment incorporates climate control, vestibules, and crash-energy management structures for passenger protection.
 - **Common Myth:** Any dry bulk commodity like grain or cement can be carried in open-top hopper cars.
@@ -94,7 +94,7 @@
 #### Req 1d: Locomotive Propulsion and Truck Mechanics
 **Official Requirement 1d:** Explain how a modern diesel or electric locomotive develops power. Explain the terms dynamic braking and radial steering trucks.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 1d (Explain how a modern diesel or electric locomotive develops power. Explain the terms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 1d (Explain how a modern diesel or electric locomotive develops power. Explain the terms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Diesel locomotives combine internal combustion engines with electric alternators to energize traction motors on each axle. Dynamic braking reverses motor polarity to dissipate momentum as heat through roof resistor grids.
 - **Common Myth:** Dynamic braking wears down traditional composite brake shoes against the steel wheels during mountain descents.
@@ -114,7 +114,7 @@
 #### Req 2a: Amtrak History and Journey Planning
 **Official Requirement 2a:** Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for making a trip by rail between two cities at least 500 miles apart. List the times of departure and arrival at your destination, the train number and name, and the type of service you want.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 2a (Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 2a (Explain the purpose and formation of Amtrak. Explain, by the use of a timetable, a plan for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Amtrak was created under the Rail Passenger Service Act of 1970 to take over passenger operations from private railroads. Planning long-distance trips requires reading timetables to calculate transit times, connections, and onboard services.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -136,7 +136,7 @@
 #### Req 2b: Urban Rail Transit Categories
 **Official Requirement 2b:** List and explain the various forms of public/mass transit using rail.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 27, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 2b (List and explain the various forms of public/mass transit using rail), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 2b (List and explain the various forms of public/mass transit using rail), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Urban rail transit systems include heavy rail subways, light rail transit, commuter rail, and streetcars. Each transit mode provides distinct capacities, track geometry standards, and electrical power distribution systems.
 - **Common Myth:** Streetcars and commuter rail systems operate at the same operating speeds and carry identical passenger capacities.
@@ -161,7 +161,7 @@
 **Official Requirement 3a:** Name four departments of a railroad company. Describe what each department does.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Railroading Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 3a (Name four departments of a railroad company. Describe what each department does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 3a (Name four departments of a railroad company. Describe what each department does), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Railroads organize operations into transportation, mechanical, engineering, and marketing departments. Transportation moves the trains, mechanical maintains rolling stock, engineering maintains track infrastructure, and marketing secures freight contracts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -182,7 +182,7 @@
 #### Req 3b: Railroad Career Pathway Selection
 **Official Requirement 3b:** Tell about the opportunities in railroading that interest you most and why.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 3b (Tell about the opportunities in railroading that interest you most and why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 3b (Tell about the opportunities in railroading that interest you most and why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rail industry careers offer pathways in locomotive operations, computer dispatching, signal electronics, and freight logistics. Candidates benefit from apprenticeships, technical certifications, and mechanical engineering coursework.
 - **Common Myth:** Modern train dispatching requires conductors to speak by radio to tower switchmen along tracks.
@@ -201,7 +201,7 @@
 #### Req 3c: Rail Industry Support Infrastructure
 **Official Requirement 3c:** Name four rail support industries. Describe the function of each one.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 3c (Name four rail support industries. Describe the function of each one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 3c (Name four rail support industries. Describe the function of each one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The rail sector depends on locomotive builders, track component manufacturers, communications equipment suppliers, and leasing companies. These external partners provide the rolling assets and physical track materials necessary for commercial service.
 - **Common Myth:** Railroads smelt their own steel rails and construct their own locomotives in internal workshops.
@@ -218,7 +218,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 3d:** With your parent or guardian's and counselor's approval, interview someone employed in the rail industry. Learn what that person does and how this person became interested in railroading. Find out what type of schooling and training is required for this position.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 51, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 3d (With your parent or guardian's and counselor's approval, interview someone employed in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 3d (With your parent or guardian's and counselor's approval, interview someone employed in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing an active or retired railroader provides practical insight into industry working conditions, shift schedules, and safety protocols. Discussions highlight career development steps and ongoing technological changes in rail operations.
 - **Common Myth:** Railroad employees work regular eight-hour weekday shifts with fixed weekends off throughout their careers.
@@ -241,7 +241,7 @@
 **Official Requirement 4a:** Explain the purpose of Operation Lifesaver and its mission.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never walk on or between the rails because railroad tracks are private property and walking there is illegal trespassing.
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 4a (Explain the purpose of Operation Lifesaver and its mission), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 4a (Explain the purpose of Operation Lifesaver and its mission), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Operation Lifesaver is a non-profit organization dedicated to ending collisions, deaths, and injuries at highway-rail grade crossings and on railroad property. The program promotes safety through public education, engineering improvements, and law enforcement partnerships.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -263,7 +263,7 @@
 #### Req 4b: Track Safety Rule Fundamentals
 **Official Requirement 4b:** List 9 track basic safety tips to remember when you are around a railroad track.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 4b (List 9 track basic safety tips to remember when you are around a railroad track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 4b (List 9 track basic safety tips to remember when you are around a railroad track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must remember that trains overhang tracks by at least three feet, can move at any time on any track, and move quietly. Walking on railroad tracks or bridges is dangerous trespassing.
 - **Common Myth:** You will always hear a train approaching from behind in time to step off the tracks safely.
@@ -280,7 +280,7 @@
 #### Req 4c: Pedestrian Track Proximity Rules
 **Official Requirement 4c:** List 9 safety considerations that should be followed when walking near a railroad track.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 4c (List 9 safety considerations that should be followed when walking near a railroad track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 4c (List 9 safety considerations that should be followed when walking near a railroad track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pedestrians near tracks must cross only at designated public crossings, look both ways, and never cross behind a passing train without checking adjacent tracks. Avoid distractions such as headphones and smartphones when near rail corridors.
 - **Common Myth:** Once a train finishes passing a multi-track crossing, it is immediately safe to step.
@@ -297,7 +297,7 @@
 #### Req 4d: Motorist Grade Crossing Guidelines
 **Official Requirement 4d:** Tell your counselor what a driver can do to safely operate near tracks.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 4d (Tell your counselor what a driver can do to safely operate near tracks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 4d (Tell your counselor what a driver can do to safely operate near tracks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Motorists must yield to trains, stop at least fifteen feet back from active warning signals, and never drive around lowered crossing gates. If a vehicle stalls on tracks, occupants must evacuate immediately and run toward the direction of an oncoming train at a forty-five degree angle away from the tracks.
 - **Common Myth:** Drivers can safely weave around lowered crossing gates if they do not see a train approaching.
@@ -314,7 +314,7 @@
 #### Req 4e: Transit Platform Passenger Safety
 **Official Requirement 4e:** Explain safety precautions when using a light rail or commuter train.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 38, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 4e (Explain safety precautions when using a light rail or commuter train), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 4e (Explain safety precautions when using a light rail or commuter train), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commuter and light rail passengers must stand behind tactile platform warning strips and wait for trains to stop before approaching doors. Watch the gap between platform and car when boarding, and avoid electrified third rails or overhead catenary wires.
 - **Common Myth:** Light rail transit vehicles can stop as quickly as a passenger automobile when running in city streets.
@@ -336,7 +336,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5a:** Passive signs and active signs.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5a (Passive signs and active signs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5a (Passive signs and active signs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Passive signs provide static regulatory notices, warnings, and crossing information without electrical train detection. Active signs feature electrical sensors that trigger flashing red lights, bells, and descending gate arms when trains approach.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -359,7 +359,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5b:** Devices at the crossing (flashing red lights, with or without bells, flashing red lights and gates, and cantilever flashing lights)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5b (Devices at the crossing (flashing red lights, with or without bells, flashing red lights), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5b (Devices at the crossing (flashing red lights, with or without bells, flashing red lights), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Active warning devices include mast-mounted flashing red lights, audible warning bells, automatic barrier gates, and overhead cantilever structures. These devices warn road users that a train is occupying or approaching the crossing.
 - **Common Myth:** Flashing red lights at a railroad crossing indicate that drivers may proceed if no train is visible.
@@ -377,7 +377,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5c:** Markings on the road (pavement markings and stop bars)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5c (Markings on the road (pavement markings and stop bars)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5c (Markings on the road (pavement markings and stop bars)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pavement markings consist of an X symbol, the letters RR, and transverse stop lines painted on the asphalt approaching tracks. Stop bars indicate the exact point where vehicles must stop when signals activate.
 - **Common Myth:** Stop bars painted on the road allow motorists to stop their tires on top of the line.
@@ -395,7 +395,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5d:** Signs before the crossing (advance warning sign, advance warning sign for side streets, no train horn sign, and low ground clearance grade crossing sign)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5d (Signs before the crossing (advance warning sign, advance warning sign for side streets, no), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5d (Signs before the crossing (advance warning sign, advance warning sign for side streets, no), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Advance warning signs include yellow circular signs, side-street intersection warnings, quiet zone notices, and low ground clearance placards. These signs alert drivers to adjust speed and anticipate tracks ahead.
 - **Common Myth:** A round yellow railroad advance warning sign indicates that tracks are located directly at the sign.
@@ -413,7 +413,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5e:** Signs along the railroad property (no trespassing sign)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5e (Signs along the railroad property (no trespassing sign)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5e (Signs along the railroad property (no trespassing sign)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - No trespassing signs along railroad rights-of-way identify private property boundaries and warn of legal prosecution. Railroad tracks and surrounding ballast shoulders are strictly off-limits to unauthorized pedestrians.
 - **Common Myth:** Railroad rights-of-way outside city limits are public property open for hiking, jogging, and recreational off-roading.
@@ -431,7 +431,7 @@
 **[Parent Directive]:** *Explain the appearance and meaning of the following rail signs and signals*
 **Official Requirement 5f:** Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track sign, stop sign, and yield sign)
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 39, p. 42)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 5f Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 5f (Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 5f (Signs at the crossing (crossbuck sign, emergency notification system sign, multiple track), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Signs at the crossing include the crossbuck, multiple track number plates, stop or yield signs, and emergency contact plaques. Multiple track signs tell motorists how many individual tracks they must cross.
 - **Common Myth:** A crossbuck sign alone means the motorist always has the right of way over approaching trains.
@@ -452,7 +452,7 @@
 #### Req 6a: Block Signals and Aspects
 **Official Requirement 6a:** Explain how railroad signals operate and show two basic signal types using color or configuration.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 6a (Explain how railroad signals operate and show two basic signal types using color or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 6a (Explain how railroad signals operate and show two basic signal types using color or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Block signals use color lights or semaphores to communicate track occupancy and speed restrictions to locomotive engineers. Signal aspects indicate clear, approach, or stop based on low-voltage electric circuits running through the rails.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -475,7 +475,7 @@
 **[Parent Directive]:** *Do EACH of the following*
 **Official Requirement 6b:** Explain the meaning of three horn signals.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 6b (Explain the meaning of three horn signals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 6b (Explain the meaning of three horn signals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Engineers sound standardized whistle and horn codes to communicate intentions to crews, track workers, and the public. The grade crossing warning sequence consists of two long blasts, one short blast, and one final long blast.
 - **Common Myth:** Locomotive engineers blow the horn randomly at road crossings whenever they see a car approaching.
@@ -492,7 +492,7 @@
 #### Req 6c: Emergency Trackside Hand Signals
 **Official Requirement 6c:** Describe a way to signal a train for an emergency stop.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 6c (Describe a way to signal a train for an emergency stop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 6c (Describe a way to signal a train for an emergency stop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - In an emergency, any person can signal a train to stop by waving a hand, lantern, flag, or cloth horizontally across the tracks. Engineers treat any violent or frantic waving near the right-of-way as an immediate stop signal.
 - **Common Myth:** Locomotives only stop for red electric block signals and cannot respond to manual hand gestures.
@@ -509,7 +509,7 @@
 #### Req 6d: End of Train Devices
 **Official Requirement 6d:** Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end device), used on the last car of most freight trains.
 **Source:** *Official Scouting America Railroading Merit Badge Pamphlet (p. 30, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For railroading Requirement 6d (Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Railroading Requirement 6d (Explain the use and function of the EOTD (end-of-train device), or FRED (flashing rear end), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - End-of-Train devices mounted on the final car replace traditional cabooses by monitoring brake pipe air pressure and motion. The unit transmits radio telemetry to the locomotive cab and can trigger emergency brake applications from the rear.
 - **Common Myth:** The flashing red light on the last freight car is merely an unpowered reflector or decorative battery marker.
@@ -751,3 +751,4 @@
 | **4. Explain to your counselor what you saw.** | Scout must individually explain Requirement 7b(4) (Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two inte) to the Counselor. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7b(4)):** Scout must individually explain Requirement 7b(4) (Plan a trip by rail between two points. Obtain a schedule and explain when the train should arrive at two inte) to the Counselor.
+))))))

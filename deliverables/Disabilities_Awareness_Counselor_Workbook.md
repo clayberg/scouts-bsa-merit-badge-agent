@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Disabilities%20Awareness.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/disabilities-awareness/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 #### Req 1a: Core Disabilities Vocabulary Framework
 **Official Requirement 1a:** Explain and discuss with your counselor the following disabilities awareness terms: disability, accessibility, adaptation, accommodation, invisible disability, and person-first language.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 1a (Explain and discuss with your counselor the following disabilities awareness terms:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 1a (Explain and discuss with your counselor the following disabilities awareness terms:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Foundational terminology distinguishes between physical impairments and societal barriers created by inaccessible environments. Precise vocabulary allows Scouts to discuss civil protections, individual adaptations, and identity preferences accurately.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Disability Etiquette and Communication
 **Official Requirement 1b:** Explain why proper disability etiquette is important, and how it may differ depending on the specific disability. Give three examples.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 9, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 1b (Explain why proper disability etiquette is important, and how it may differ depending on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 1b (Explain why proper disability etiquette is important, and how it may differ depending on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proper etiquette requires speaking directly to the individual rather than through an accompanying interpreter or companion. Eye-level positioning and normal conversational tone ensure dignity across mobility, visual, and auditory interactions.
 - **Common Myth:** Shouting or exaggerating speech helps individuals who are deaf or hard of hearing understand.
@@ -112,7 +112,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3a:** Talk with a Scout who has a disability and learn about the Scout's experiences taking part in Scouting activities and earning different merit badges. Discuss what you have learned with your counselor.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 3a (Talk with a Scout who has a disability and learn about the Scout's experiences taking part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 3a (Talk with a Scout who has a disability and learn about the Scout's experiences taking part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts with disabilities utilize official alternative advancement requirements and Individual Scout Advancement Plans to complete rank milestones. Structured interviews reveal how modified patrol duties and adaptive gear ensure full troop participation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -134,7 +134,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3b:** Talk with an individual who has a disability and learn about this person's experiences and the activities in which this person likes to participate. Discuss what you have learned with your counselor.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 3b (Talk with an individual who has a disability and learn about this person's experiences and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 3b (Talk with an individual who has a disability and learn about this person's experiences and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conversing with an adult or youth with a disability highlights community navigation, hobbies, and personal achievements. The discussion emphasizes personal agency, social connections, and daily routines beyond medical treatment.
 - **Common Myth:** People with disabilities define their personal identities solely around their diagnosed medical condition.
@@ -151,7 +151,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3c:** Learn how people with disabilities take part in a particular adaptive sport or recreational activity. Discuss what you have learned with your counselor.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 3c (Learn how people with disabilities take part in a particular adaptive sport or recreational), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 3c (Learn how people with disabilities take part in a particular adaptive sport or recreational), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Adaptive athletics employ specialized equipment such as sport wheelchairs, seated volleyball nets, and audible goalballs to facilitate athletic competition. Governing bodies modify competitive regulations while maintaining rigorous cardiovascular and strategic rigor.
 - **Common Myth:** Adaptive sports are simplified recreational games that lack true competitive athletic rigor.
@@ -168,7 +168,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3d:** Learn about independent living aids such as service animals, canes, and augmentative communication devices such as captioned telephones and videophones. Discuss with your counselor how people use such aids.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 3d (Learn about independent living aids such as service animals, canes, and augmentative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 3d (Learn about independent living aids such as service animals, canes, and augmentative), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Assistive technology spans low-tech white canes to high-tech augmentative communication tablets and teletype videophones. Service animals undergo years of specialized behavioral training to perform specific tasks mitigating handler impairments.
 - **Common Myth:** Any obedient domestic pet wearing a purchased vest qualifies as a certified service animal.
@@ -184,7 +184,7 @@
 #### Req 3e: Disability Awareness Simulation Activity
 **Official Requirement 3e:** Plan or participate in an activity that helps others understand what a person with a visible or invisible disability experiences. Discuss what you have learned with your counselor.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 11, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 3e (Plan or participate in an activity that helps others understand what a person with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 3e (Plan or participate in an activity that helps others understand what a person with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Designing an empathy simulation requires respectful guidelines, clear instructional goals, and safe physical parameters. Participants navigate controlled obstacles using blindfolds, earplugs, or mobility aids to examine environmental obstacles.
 - **Common Myth:** Awareness simulations are fun games designed to see who navigates obstacles the fastest.
@@ -370,7 +370,7 @@
 **Official Requirement 5a:** Present a counselor-approved disabilities awareness program to a Cub Scout pack or other group. During your presentation, explain and use person-first language.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Disabilities Awareness Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 5a (Present a counselor-approved disabilities awareness program to a Cub Scout pack or other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 5a (Present a counselor-approved disabilities awareness program to a Cub Scout pack or other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Delivering an awareness presentation to Cub Scouts teaches inclusive play, person-first language, and respectful peer interactions. Interactive activities and visual aids help younger youth recognize that all children share similar interests and emotions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -391,7 +391,7 @@
 #### Req 5b: Agency Volunteer Service Commitment
 **Official Requirement 5b:** Find out about disabilities awareness education programs in your school or school system, or contact a disability advocacy agency. Volunteer with a program or agency for eight hours.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 5b (Find out about disabilities awareness education programs in your school or school system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 5b (Find out about disabilities awareness education programs in your school or school system,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteering eight hours with a specialized agency provides direct support for inclusive recreation, tutoring, or vocational coaching. Scouts follow staff direction to build an encouraging, dignified environment for all participating clients.
 - **Common Myth:** Volunteers must hold specialized medical certifications to provide any helpful assistance at disability agencies.
@@ -408,7 +408,7 @@
 **[Parent Directive]:** *Explain what advocacy is. Do ONE of the following*
 **Official Requirement 5c:** Using resources such as disability advocacy agencies, government agencies, the internet (with your parent or guardian's permission), and news magazines, learn about myths and misconceptions that influence the general public's understanding of people with disabilities. List 10 myths and misconceptions about people with disabilities and learn the facts about each myth. Share your list with your counselor, then use it to make a presentation to a Cub Scout pack or other group.
 **Source:** *Official Scouting America Disabilities Awareness Merit Badge Pamphlet (p. 19, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For disabilities awareness Requirement 5c (Using resources such as disability advocacy agencies, government agencies, the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Disabilities Awareness Requirement 5c (Using resources such as disability advocacy agencies, government agencies, the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating pervasive cultural myths uncovers misconceptions surrounding cognitive capabilities, employment productivity, and personal independence. Scouts use credible government and advocacy resources to contrast historic prejudices against objective data.
 - **Common Myth:** Employees with disabilities show higher rates of workplace absenteeism and lower productivity than peers.
@@ -474,3 +474,4 @@
 | **3. Discuss what you learn with your counselor, and tell why this profession interests** | Assistive Technology: Rehabilitation engineers fabricate custom mechanical linkages, computerized switches, and specialized seating mobility systems. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7):** Ask the Scout to explain each concept in their own words using their completed organizer notes for Disabilities Awareness Requirement 7 (service professions and career pathways) before signing the blue card.
+))

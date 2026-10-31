@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Whitewater.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/whitewater/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -51,7 +51,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in whitewater activities, including branches and trees in water along a shore and stretching across the stream, rocks, hydraulics over ledges or low-head dams, strong wind, low water or air temperature, and thunder and lightning storms. Explain what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never stand up in fast moving water above shin depth to avoid lethal foot entrapment in rocky riverbeds.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fallen trees, brush piles, and undercut rocks form strainers that let river current pass through while catching solid objects. Paddlers must steer clear of riverbanks where fallen timber creates deadly entrapment zones.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -72,7 +72,7 @@
 #### Req 1b: Whitewater Injuries and Illnesses
 **Official Requirement 1b:** Review with your counselor the prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in whitewater activities: cold-water shock; hypothermia; head, neck, and back injuries; heat-related illnesses; sunburn; dehydration; blisters; bruises; cuts; sprains and strains; shoulder dislocation; and submersion injuries.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 1b (Review with your counselor the prevention, symptoms, and first-aid treatment for the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 1b (Review with your counselor the prevention, symptoms, and first-aid treatment for the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immersion in cold river water causes rapid heat loss leading to hypothermia, cold shock, and loss of fine motor skills. First aid priorities include immediate wet layer removal, insulation against wind chill, and warm caloric rehydration.
 - **Common Myth:** Hypothermia only occurs in near freezing winter water conditions rather than summer mountain rivers.
@@ -95,7 +95,7 @@
 #### Req 1c: Safety Afloat Policy Guidelines
 **Official Requirement 1c:** Discuss with your counselor the Scouting America Safety Afloat policy and the American Whitewater safety guidelines, including the use of helmet and life jackets.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 21, p. 23)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 1c (Discuss with your counselor the Scouting America Safety Afloat policy and the American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 1c (Discuss with your counselor the Scouting America Safety Afloat policy and the American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouting America Safety Afloat and American Whitewater guidelines establish operational safety baselines for all river outings. These protocols mandate qualified adult supervision, physical fitness, dedicated craft spacing, and mandatory protective gear.
 - **Common Myth:** Lifejackets are optional on calm river pools between major whitewater rapid sections.
@@ -118,7 +118,7 @@
 **Official Requirement 2a:** Demonstrate understanding of the following river features by drawing lines to show the flow of water: upstream V, downstream V, riffle, eddy with an eddy line, ledge, river bend, shallows, current at different depths, drop, horizon line, and hydraulic.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Always bank scout any rapid where the downstream horizon line drops out of view from your cockpit.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 2a (Demonstrate understanding of the following river features by drawing lines to show the flow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 2a (Demonstrate understanding of the following river features by drawing lines to show the flow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Downstream Vs indicate deep river channels between rocks, whereas upstream Vs indicate submerged boulders splitting the current. Recognizing eddy lines, shallows, and river bends enables paddlers to anticipate hydraulic pressure against the hull.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -140,7 +140,7 @@
 #### Req 2b: Wave Trains and Hydraulics
 **Official Requirement 2b:** Describe how waves form including standing waves and wave trains.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 2b (Describe how waves form including standing waves and wave trains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 2b (Describe how waves form including standing waves and wave trains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Standing waves and wave trains develop when fast river water slows suddenly upon entering deeper or wider river channels. These stationary waveforms stay in place as water rushes through them, creating rhythmic splash sequences.
 - **Common Myth:** River waves travel across the water surface toward shore just like ocean beach waves.
@@ -159,7 +159,7 @@
 #### Req 2c: Boat Edging and Tilting
 **Official Requirement 2c:** Explain how to tilt or edge the boat without leaning your body (1) When entering and exiting an eddy. (2) When ferrying in downstream and upstream directions.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 2c (Explain how to tilt or edge the boat without leaning your body (1) When entering and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 2c (Explain how to tilt or edge the boat without leaning your body (1) When entering and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers must tilt or edge the boat using hips and knees without shifting upper torso weight outside the centerline. Lifting the upstream gunwale or chine prevents fast moving water from catching the edge and flipping the craft.
 - **Common Myth:** Leaning your head and upper torso over the side provides the stability needed for crossing eddy lines.
@@ -175,7 +175,7 @@
 #### Req 2d: River Scouting and Portaging
 **Official Requirement 2d:** Explain when, why, and how you should scout a river while ashore, while on the river, and when you should portage your boat.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 30, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 2d (Explain when, why, and how you should scout a river while ashore, while on the river, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 2d (Explain when, why, and how you should scout a river while ashore, while on the river, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouting reveals hidden strainers, shallow rocks, and severe hydraulic reversals that cannot be evaluated from boat level. Paddlers must portage their craft whenever a rapid exceeds group skill or lacks clean rescue options.
 - **Common Myth:** Experienced paddlers can scout all Class II and Class III rapids entirely from their boats.
@@ -199,7 +199,7 @@
 **Official Requirement 3a:** If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers from the Canoeing merit badge to the satisfaction of your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Secure all loose paddle leashes and cockpit lines that could tangle hands or legs during a capsize.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 3a (If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 3a (If you will be using a canoe to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Canoeists demonstrate established flatwater strokes including forward power strokes, backstrokes, draws, and prys to satisfy prerequisite standards. Precise boat handling and partner communication confirm readiness for dynamic river currents.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -222,7 +222,7 @@
 **[Parent Directive]:** *Before doing requirements 4 through 12, earn the Canoeing merit badge if you will be using a canoe to earn this merit badge*
 **Official Requirement 3b:** If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers from the Kayaking merit badge to the satisfaction of your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 56, p. 62)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 3b (If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 3b (If you will be using a kayak to earn this merit badge, demonstrate strokes and maneuvers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Kayakers demonstrate prerequisite strokes including sweeps, reverse strokes, and bracing to verify foundational boat control. Demonstrating a stable low brace confirms the core reflexes needed to prevent river capsizes.
 - **Common Myth:** Reaching far backward during kayak stroke recovery increases overall forward propulsion across river pools.
@@ -346,7 +346,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4c:** Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1) Demonstrate the following strokes: bow draw, rudder, and sculling draw. (2) Demonstrate a high brace and low brace.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 50, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 4c (Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 4c (Option C, Solo Kayaker. Do ALL of the following strokes and techniques on calm water: (1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Solo kayakers demonstrate bow draws, trailing rudders, and sculling draws to refine fine directional control. Practicing low braces and high braces builds the automatic reflexes required to avoid capsizes in turbulence.
 - **Common Myth:** A kayaker relies solely on forward sweeps to turn the boat in narrow channels.
@@ -370,7 +370,7 @@
 **Official Requirement 5a:** Explain the International Scale of River Difficulty and apply the scale to the stretch of river approved by your counselor.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never run a river section when spring flood runoff raises water levels into flood stage classifications.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 5a (Explain the International Scale of River Difficulty and apply the scale to the stretch of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 5a (Explain the International Scale of River Difficulty and apply the scale to the stretch of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The International Scale classifies river stretches based on wave intensity, rock frequency, passage width, and rescue accessibility. Class I and Class II rivers provide ideal learning environments with open passages and low consequences.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -392,7 +392,7 @@
 #### Req 5b: River Difficulty Factor Assessment
 **Official Requirement 5b:** Identify the specific characteristics of the river that are factors in your classification according to the International Scale.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 5b (Identify the specific characteristics of the river that are factors in your classification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 5b (Identify the specific characteristics of the river that are factors in your classification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers evaluate specific river characteristics such as gradient, constriction, water temperature, and obstacle density to classify sections. Recognizing how these variables interact enables crews to avoid unexpectedly hazardous river environments.
 - **Common Myth:** Only the presence of large waterfalls determines whether a river section is rated difficult.
@@ -409,7 +409,7 @@
 #### Req 5c: Flow Rates and Seasonal Changes
 **Official Requirement 5c:** Discuss how the level of flow changes a river from one class to another and what effects different flow rates have on the features of a river and its hazards.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 34, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 5c (Discuss how the level of flow changes a river from one class to another and what effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 5c (Discuss how the level of flow changes a river from one class to another and what effects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Changes in water discharge alter wave shapes, open new channels, and submerge rocks into dangerous hydraulic holes. Low water exposes sharp rocks, while high flow drastically increases current velocity and reduces rescue reaction times.
 - **Common Myth:** Higher water levels always make river rapids smoother and easier for open boats to navigate.
@@ -460,7 +460,7 @@
 **Official Requirement 7a:** If completing this merit badge in a canoe, describe the various types of canoes used on moving water and how they differ in design, materials, and purpose.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never paddle moving water in a canoe without fully inflated bow and stern flotation bags installed.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 7a (If completing this merit badge in a canoe, describe the various types of canoes used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 7a (If completing this merit badge in a canoe, describe the various types of canoes used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Whitewater canoes utilize heavy rocker, round chines, and durable materials like Royalex or polyethylene to deflect river impacts. Specialized outfitting such as thigh straps, pedestals, and full flotation bags keeps swamped canoes manageable.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -481,7 +481,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7b:** If completing this merit badge in a kayak, describe the various types of kayaks used on moving water and explain how they differ in design, materials, and purpose.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 39, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 7b (If completing this merit badge in a kayak, describe the various types of kayaks used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 7b (If completing this merit badge in a kayak, describe the various types of kayaks used on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Whitewater kayaks range from high volume creek boats that resurface quickly to low volume playboats designed for surfing waves. Snug hip pads, aggressive thigh braces, and adjustable backbands link the paddler to the craft.
 - **Common Myth:** All whitewater kayaks handle identically regardless of hull length, volume distribution, or deck design.
@@ -561,7 +561,7 @@
 **Official Requirement 10a:** Launch and land.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always lean downstream toward the rock when your boat washes broadside against an obstacle to prevent pinning.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10a (Launch and land), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10a (Launch and land), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Launching and landing in moving water requires staging from calm eddies and maintaining three points of contact. Paddlers enter and exit carefully to avoid slipping on slick riverbed rocks or getting swept prematurely.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -584,7 +584,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10b:** Paddle forward in a straight line at least 10 boat lengths.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10b (Paddle forward in a straight line at least 10 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10b (Paddle forward in a straight line at least 10 boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers maintain forward momentum and boat speed exceeding water velocity to hold straight lines through turbulence. Consistent power strokes with core rotation keep the boat tracking directly over chaotic wave trains.
 - **Common Myth:** Floating passively with current keeps a boat more stable than paddling vigorously through standing waves.
@@ -602,7 +602,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10c:** Backpaddle in a straight line at least five boat lengths.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10c (Backpaddle in a straight line at least five boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10c (Backpaddle in a straight line at least five boat lengths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Backpaddling slows downstream velocity relative to the riverbed, allowing paddlers to position their boats laterally. Executing five controlled boat lengths in reverse proves precise blade placement and stern control in moving current.
 - **Common Myth:** Backpaddling in moving water is dangerous and should never be used while descending rapids.
@@ -620,7 +620,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10d:** Ferry upstream from both sides of the river.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10d (Ferry upstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10d (Ferry upstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An upstream ferry uses river current against an angled hull to transport the boat laterally across the river. Paddlers set a thirty-degree bow angle, tilt downstream, and stroke steadily to reach the opposite bank.
 - **Common Myth:** Pointing the bow straight across the river current moves the boat sideways without losing downstream position.
@@ -638,7 +638,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10e:** Ferry downstream from both sides of the river.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10e (Ferry downstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10e (Ferry downstream from both sides of the river), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Downstream ferrying moves the boat laterally across current while drifting slowly downstream under complete reverse stroke control. Paddlers angle the stern toward the target bank and backpaddle smoothly while maintaining downstream tilt.
 - **Common Myth:** Downstream ferrying requires high speed forward paddling straight toward downstream rocks and obstacles.
@@ -656,7 +656,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10f:** Eddy turn from both sides of an eddy.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10f (Eddy turn from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10f (Eddy turn from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Eddy turns bring the boat from the main current across the shear line into calm, protected water. Paddlers drive across the line, tilt into the eddy, and plant a bow draw to spin smoothly upstream.
 - **Common Myth:** Boats naturally slide into eddies without any adjustment to paddler body posture or hull edge.
@@ -674,7 +674,7 @@
 **[Parent Directive]:** *Wearing a proper life jacket and being appropriately dressed for the weather and water conditions, perform the following skills in*
 **Official Requirement 10g:** Peel out from both sides of an eddy.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 46, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 10g (Peel out from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 10g (Peel out from both sides of an eddy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Peeling out transitions a stationary boat from an eddy back into the downstream flow of the main river. The paddler accelerates forward at an angle, tilts the downstream edge, and enters the current decisively.
 - **Common Myth:** Paddlers should leave eddies slowly without tilting the hull to avoid tipping in turbulent water.
@@ -698,7 +698,7 @@
 **Official Requirement 11a:** Self-rescue and procedures when capsized in moving water, including a wet exit if necessary.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wrap a rescue throw rope around hands, wrists, or body parts under any circumstances.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 11a (Self-rescue and procedures when capsized in moving water, including a wet exit if necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 11a (Self-rescue and procedures when capsized in moving water, including a wet exit if necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Self-rescue begins with an immediate wet exit, releasing sprayskirts and pushing free from swamped cockpits. Swimmers adopt the defensive whitewater swim position with feet up and pointed downstream toward safety.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -721,7 +721,7 @@
 **[Parent Directive]:** *Explain and demonstrate the following to your counselor*
 **Official Requirement 11b:** Proper use of a throw rope to rescue a swimmer in whitewater.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 11b (Proper use of a throw rope to rescue a swimmer in whitewater), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 11b (Proper use of a throw rope to rescue a swimmer in whitewater), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers deploy throw bags by aiming directly across the swimmer chest, holding the bitter end securely. Maintaining a braced stance allows the rescuer to absorb rope tension and pendulum the swimmer to the bank.
 - **Common Myth:** Rescuers should coil wet throw rope in large loops around their elbows before throwing again.
@@ -739,7 +739,7 @@
 **[Parent Directive]:** *Explain and demonstrate the following to your counselor*
 **Official Requirement 11c:** Proper technique for receiving a throw rope as a swimmer.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 11c (Proper technique for receiving a throw rope as a swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 11c (Proper technique for receiving a throw rope as a swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - When receiving a throw rope, the swimmer grabs the line, rolls onto their back, and holds the line over their shoulder. This posture creates an air pocket in the bow wave while the rescuer pendulums them ashore.
 - **Common Myth:** Swimmers should grab the throw line with both hands and pull hard against the shore rescuer.
@@ -757,7 +757,7 @@
 **[Parent Directive]:** *Explain and demonstrate the following to your counselor*
 **Official Requirement 11d:** Portaging, where portaging would be appropriate, and when and how to do it.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 11d (Portaging, where portaging would be appropriate, and when and how to do it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 11d (Portaging, where portaging would be appropriate, and when and how to do it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Portaging involves carrying craft and gear around unrunnable rapids, dangerous logjams, or hazardous low head dams. Paddlers scout safe trail routes and carry boats using balanced team lifts across slippery terrain.
 - **Common Myth:** Experienced whitewater paddlers run every rapid and view portaging as a failure of skill.
@@ -775,7 +775,7 @@
 **[Parent Directive]:** *Explain and demonstrate the following to your counselor*
 **Official Requirement 11e:** The whitewater buddy system using at least three persons and three craft.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 71, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 11e (The whitewater buddy system using at least three persons and three craft), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 11e (The whitewater buddy system using at least three persons and three craft), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The whitewater buddy system requires a minimum pod of three boats and three capable paddlers for moving water trips. This structure ensures that if one craft capsizes, a second craft assists while the third provides downstream rescue.
 - **Common Myth:** Two boats are sufficient to provide complete mutual safety on whitewater river trips.
@@ -799,7 +799,7 @@
 **Official Requirement 12a:** Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule, equipment, safety precautions, and emergency procedures.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never tie long loose painter ropes across open canoe thwarts where they could snag a swimmer legs.
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 12a (Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 12a (Help to prepare a written plan, specifying the route (put-ins and takeouts), schedule,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts prepare a written plan specifying put-in and takeout locations, river mileage, weather forecasts, and emergency contacts. This document ensures clear schedules, equipment redundancy, and designated evacuation routes along the river corridor.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -822,7 +822,7 @@
 **[Parent Directive]:** *Participate in one or more whitewater trips using either a canoe or kayak on a Class I and/or Class II river*
 **Official Requirement 12b:** Determine local rules and obtain permission from landowners and land managers in advance.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 12b (Determine local rules and obtain permission from landowners and land managers in advance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 12b (Determine local rules and obtain permission from landowners and land managers in advance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers must determine local river regulations, respect private property lines, and obtain landowner permissions prior to launching. Securing access rights for put-ins, takeouts, and portage paths prevents legal disputes and ensures community goodwill.
 - **Common Myth:** Scouts have legal rights to cross any private riverbank to scout rapids or launch boats.
@@ -839,7 +839,7 @@
 #### Req 12c: Safety Afloat Compliance Standards
 **Official Requirement 12c:** Explain what steps have been taken to comply with Scouting America Safety Afloat and the American Whitewater safety guidelines.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 12c (Explain what steps have been taken to comply with Scouting America Safety Afloat and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 12c (Explain what steps have been taken to comply with Scouting America Safety Afloat and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Trips must comply fully with Scouting America Safety Afloat and American Whitewater safety codes for moving water. Key provisions include trained adult leaders, swimming classifications, buddy pair tracking, and continuous equipment inspections.
 - **Common Myth:** Wearing a lifejacket is the only requirement necessary to fulfill Safety Afloat guidelines on rivers.
@@ -856,7 +856,7 @@
 #### Req 12d: Gear Stowage and Lashing
 **Official Requirement 12d:** Show how to protect personal and group equipment from water and how to load and secure the containers in boats to be used in the trip. Execute the plans with other paddlers.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 12d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 12d (Show how to protect personal and group equipment from water and how to load and secure the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 12d (Show how to protect personal and group equipment from water and how to load and secure the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal and group gear must be packed inside durable dry bags and secured firmly to canoe thwarts or kayak bulkheads. Securing loads low along the centerline prevents water immersion, protects equipment, and preserves secondary hull stability.
 - **Common Myth:** Tying dry bags to the top of canoe gunwales keeps them drier and easier to reach.
@@ -872,7 +872,7 @@
 #### Req 12e: Post Trip Plan Evaluation
 **Official Requirement 12e:** Explain to your counselor how well your plans worked for each trip taken.
 **Source:** *Official Scouting America Whitewater Merit Badge Pamphlet (p. 44, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 12e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For whitewater Requirement 12e (Explain to your counselor how well your plans worked for each trip taken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Whitewater Requirement 12e (Explain to your counselor how well your plans worked for each trip taken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - After completing the six-hour river journey, Scouts review the trip plan with their counselor to evaluate execution and timing. They discuss how actual water levels, rapid classifications, and weather conditions compared to their pre-trip predictions.
 - **Common Myth:** Completing the river run means the trip plan succeeded perfectly without any need for review.

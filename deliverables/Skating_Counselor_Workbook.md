@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Skating.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/skating/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -35,7 +35,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with skating and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never skate onto frozen open water without checking ice depth with an auger to confirm four inches of clear ice.
-- **Socratic Prompt (Ask Scouts First):** For skating Requirement 1a (Explain to your counselor the most likely hazards associated with skating and what you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Skating Requirement 1a (Explain to your counselor the most likely hazards associated with skating and what you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Skaters must scan operational areas for ice ruts, surface debris, pedestrian obstacles, and blind corners before initiating drills. Establishing predictable directional flow inside rinks prevents high-impact cross-traffic collisions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -57,7 +57,7 @@
 #### Req 1b: Acute Skating First Aid
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while skating, including hypothermia, frostbite, lacerations, abrasions, fractures, sprains and strains, concussions, blisters, heat-related reactions, and shock.
 **Source:** *Official Scouting America Skating Merit Badge Pamphlet (p. 89, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For skating Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while skating,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Skating Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while skating,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Trauma protocols mandate stabilizing suspected cervical spine injuries and controlling skate lacerations with direct pressure and sterile dressings. Suspected concussions require immediate removal from activity and evaluation under return-to-play protocols.
 - **Common Myth:** Scouts sometimes think rubbing frostbitten fingers vigorously restores blood flow without causing tissue damage.
@@ -1098,3 +1098,4 @@
 | **(e) Footplant tricks.** | Skateboarding Trick Categories and Demonstration: Scouts expand technical control by mastering three distinct maneuvers chosen from flat ground, flip, grind, grab, or footplant disciplines. Practicing tricks across varied categories builds spatial awareness, board balance, and landing coordination (p. 75). | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 2d(14)):** Scout must individually explain Requirement 2d(14) (Demonstrate THREE skateboarding tricks from the following types: (a) Flat ground tricks (b) Flip and shove-it ) to the Counselor.
+))

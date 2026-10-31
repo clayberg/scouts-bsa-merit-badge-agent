@@ -54,7 +54,7 @@
 - **Common Myth:** Weather and climate mean the exact same atmospheric condition over short durations.
 - **Pamphlet Fact:** Weather describes daily atmospheric fluctuations whereas climate represents thirty year statistical averages of conditions.
 
-![Watch Condition Protocols diagram illustrating how severe weather watches indicate atmospheric parameters support rapid severe convective storm development.](/assets/pamphlet_images/weather_p007_img1.png)
+![Technical diagram of watch condition protocols principles and field relationships in Weather (Requirement 2).](/assets/pamphlet_images/weather_p007_img1.png)
 
 | Req 1 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -297,7 +297,7 @@
 **Source:** *Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Wear eye protection and handle sheet metal blades safely when cutting mechanical wind vanes.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Weather Req 10 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For weather Requirement 10a (Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Weather Requirement 10a (Make one of the following instruments: wind vane, anemometer, rain gauge, or hygrometer.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building an instrument such as a rain gauge or anemometer requires sturdy construction and unobstructed outdoor placement. Maintaining a seven day daily log trains scouts to record precise barometric, wind, and precipitation trends.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -319,7 +319,7 @@
 #### Req 10b: Operational Meteorology Facility Field Study
 **Official Requirement 10b:** Visit a National Weather Service office or talk with a local radio or television weathercaster, private meteorologist, local agricultural extension service officer, or university meteorology instructor. Find out what type of weather is most dangerous or damaging to your community. Determine how severe weather and flood warnings reach the homes in your community.
 **Source:** *Official Scouting America Weather Merit Badge Pamphlet (p. 61, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For weather Requirement 10b (Visit a National Weather Service office or talk with a local radio or television), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Weather Requirement 10b (Visit a National Weather Service office or talk with a local radio or television), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a weather forecasting facility exposes scouts to advanced Doppler radar imagery, computer numerical models, and upper air soundings. Consulting a professional meteorologist reveals how regional forecast offices issue timely life safety warnings.
 - **Common Myth:** Television weathercasters create every weather prediction independently without utilizing federal National Weather Service data.

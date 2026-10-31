@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fly-Fishing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fly-fishing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fly-fishing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Name and explain five safety practices you should always follow while fly-fishing.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always cinch a wide wading belt around the waist before entering any flowing stream.
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Swift river currents can sweep an angler into logjams, requiring upstream positioning and cautious footwork. Slippery rocks demand studded felt soles and wading staffs to prevent catastrophic submersions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -67,7 +67,7 @@
 #### Req 1b: Angler Medical Concern Management
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fly-fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 1b (Discuss the prevention of and treatment for the following health concerns that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 1b (Discuss the prevention of and treatment for the following health concerns that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dehydration accelerates cold fatigue, so anglers must drink clean water throughout long stream outings. Insect repellents and antiseptic ointments prevent infection from biting midges and bramble puncture wounds.
 - **Common Myth:** Drinking clear mountain creek water directly from the stream is completely safe while wading.
@@ -86,7 +86,7 @@
 #### Req 1c: Embedded Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a hook that has lodged in someone's arm.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 77, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 1c (Explain how to remove a hook that has lodged in someone's arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 1c (Explain how to remove a hook that has lodged in someone's arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - When a hook penetrates flesh past the barb, push it through to snip the point before reversing. Alternatively, the string yank method loops heavy mono around the bend while depressing the shank.
 - **Common Myth:** Yanking a barbed hook straight out backward causes minimal tissue damage to an angler.
@@ -137,7 +137,7 @@
 **Official Requirement 3a:** Tie backing to the arbor of a fly reel spool using an arbor knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Moisten all monofilament knots with saliva or water before seating to prevent friction burn damage.
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 3a (Tie backing to the arbor of a fly reel spool using an arbor knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 3a (Tie backing to the arbor of a fly reel spool using an arbor knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The arbor knot fastens backing line directly to the reel arbor center spool. A secondary overhand knot in the tag end jams against the primary loop under tension.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -159,7 +159,7 @@
 #### Req 3b: Backing to Line Connection
 **Official Requirement 3b:** Tie backing to the fly line using a nail (tube) knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 3b (Tie backing to the fly line using a nail (tube) knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 3b (Tie backing to the fly line using a nail (tube) knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A nail knot binds braided Dacron backing to the rear end of your vinyl fly line. Wrapping backing coils neatly creates a low-profile splice that passes easily through rod guides.
 - **Common Myth:** Looping bulky overhand knots between backing and fly line travels smoothly through narrow guides.
@@ -179,7 +179,7 @@
 **[Parent Directive]:** *Demonstrate how to tie proper knots to prepare a fly rod for fishing*
 **Official Requirement 3c:** Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 3c (Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 3c (Attach a leader to the fly line using a nail (tube) knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anglers connect the heavy leader butt section to the fly line tip using a nail knot or welded loops. This junction transfers casting energy smoothly from the weighted line to the delicate leader.
 - **Common Myth:** Tying a thick leader butt to fly line with an arbitrary granny knot transfers energy.
@@ -197,7 +197,7 @@
 **[Parent Directive]:** *Demonstrate how to tie proper knots to prepare a fly rod for fishing*
 **Official Requirement 3d:** Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 3d (Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 3d (Add a tippet to a leader using a surgeon's knot or a loop-to-loop connection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The double surgeon knot joins replacement tippet material to a tapered leader butt. Overlapping both strands and pulling four tags simultaneously locks the knot without damaging thin nylon.
 - **Common Myth:** A surgeon knot requires five full line twists to hold light tippet sections securely.
@@ -214,7 +214,7 @@
 #### Req 3e: Terminal Fly Attachment Knots
 **Official Requirement 3e:** Tie a fly onto the terminal end of the leader using an improved clinch knot.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 3e (Tie a fly onto the terminal end of the leader using an improved clinch knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 3e (Tie a fly onto the terminal end of the leader using an improved clinch knot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The improved clinch knot secures small fly hooks to thin tippet monofilament. Passing the tag end back through the secondary loop prevents the wrap from uncoiling under sudden strikes.
 - **Common Myth:** Standard clinch knots without the final tag tuck never slip under strong trout strikes.
@@ -320,7 +320,7 @@
 **Official Requirement 7a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of the Leave No Trace Seven Principles and the Outdoor Code on fly-fishing resources.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never stand directly below unstable undercut stream banks while releasing fish in deep river bends.
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 7a (Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 7a (Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Practicing Leave No Trace along rivers protects sensitive riparian corridors from compaction and erosion. Anglers pack out all clipped leader scraps, which otherwise entangle waterfowl and terrestrial wildlife.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -341,7 +341,7 @@
 #### Req 7b: Catch Release Revival Techniques
 **Official Requirement 7b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fly-Fishing Merit Badge Pamphlet (p. 88, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fly-fishing Requirement 7b (Discuss the meaning and importance of catch and release. Describe how to properly release a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fly-Fishing Requirement 7b (Discuss the meaning and importance of catch and release. Describe how to properly release a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Catch and release preserves sport fisheries by returning mature breeding stock unharmed to the waterway. Anglers cradle the fish underwater, supporting the belly while water circulates over the gills.
 - **Common Myth:** Moving a tired fish rapidly back and forth in river current speeds up gill revival.

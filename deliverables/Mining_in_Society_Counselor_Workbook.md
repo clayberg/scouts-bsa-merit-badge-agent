@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Mining%20in%20Society.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/mining-in-society/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Select 10 different minerals. For each one, name a product for which the mineral is used.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wash hands thoroughly with soap and water after handling raw mineral samples to prevent accidental ingestion of heavy metal dusts.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 1a (Select 10 different minerals. For each one, name a product for which the mineral is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 1a (Select 10 different minerals. For each one, name a product for which the mineral is used), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts match ten specific mineral specimens with manufactured consumer items. Common examples include quartz in glass, fluorite in toothpaste, and hematite in steel tools.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Mining in Agricultural Production
 **Official Requirement 1b:** Explain the role mining has in producing and processing things that are grown.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 1b (Explain the role mining has in producing and processing things that are grown), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 1b (Explain the role mining has in producing and processing things that are grown), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Agricultural operations depend on mined mineral fertilizers, lime soil conditioning agents, and metal tractor components. Without mineral inputs, modern crop yields decline rapidly.
 - **Common Myth:** Crops only require water and sunlight to grow at commercial scale without mineral supplementation.
@@ -83,7 +83,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1c:** From the list of minerals you chose for requirement 1(a), determine the countries where those minerals can be found, and discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 21, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 1c (From the list of minerals you chose for requirement 1(a), determine the countries where), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 1c (From the list of minerals you chose for requirement 1(a), determine the countries where), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mineral ore deposits are distributed unevenly across Earth because of past tectonic and volcanic processes. Nations trade raw ores and concentrates across international shipping corridors.
 - **Common Myth:** Every continent contains equal commercial concentrations of precious and industrial metals.
@@ -136,7 +136,7 @@
 **Official Requirement 3a:** The miner's personal protective equipment is worn and used, including a hard hat, safety glasses, earplugs, dust mask or respirator, self-rescue device, and high-visibility vest.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always maintain line of sight with heavy equipment operators and stay outside haul truck blind spots.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 3a (The miner's personal protective equipment is worn and used, including a hard hat, safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 3a (The miner's personal protective equipment is worn and used, including a hard hat, safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Underground miners wear cap lamps, hard hats, safety glasses, high-visibility clothing, hearing protectors, and belt-mounted self-rescuers. Each item mitigates a specific physical or atmospheric hazard encountered along active headings.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -159,7 +159,7 @@
 **[Parent Directive]:** *Discuss with your counselor the potential hazards a miner may encounter at an active mine and the protective measures used*
 **Official Requirement 3b:** Miners protect their hands and feet from impact, pinch, vibration, slipping, and tripping/falling hazards.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 3b (Miners protect their hands and feet from impact, pinch, vibration, slipping, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 3b (Miners protect their hands and feet from impact, pinch, vibration, slipping, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Metatarsal safety boots prevent crushing fractures from falling rocks and equipment pinch points. Kevlar-reinforced gloves shield miners from high-pressure hydraulic leaks, sharp jagged ores, and vibration injuries.
 - **Common Myth:** Standard steel-toe work boots provide complete protection across the top bones of a miner's foot.
@@ -179,7 +179,7 @@
 **[Parent Directive]:** *Discuss with your counselor the potential hazards a miner may encounter at an active mine and the protective measures used*
 **Official Requirement 3c:** Monitoring equipment warns miners of imminent danger, and how robots, drones, and other technology may be used in mine rescues.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 74, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 3c (Monitoring equipment warns miners of imminent danger, and how robots, drones, and other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 3c (Monitoring equipment warns miners of imminent danger, and how robots, drones, and other), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixed sensors and handheld monitors measure methane, oxygen, and carbon monoxide concentrations continuously. During emergency mine collapses, autonomous drones and tracked robotic crawlers explore unstable tunnels ahead of human rescuers.
 - **Common Myth:** Miners still rely primarily on canaries to detect toxic carbon monoxide inside active shafts.
@@ -233,7 +233,7 @@
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Wear eye protection and heat resistant gloves when observing high temperature smelting furnaces or acid leaching circuits.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5a (With your parent or guardian's approval and your counselor's assistance, use the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5a (With your parent or guardian's approval and your counselor's assistance, use the internet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts utilize approved online digital portals to explore two different extraction operations, such as an underground salt mine and a surface copper pit. Comparing both facilities highlights differing ventilation systems, haulage fleets, and ground support methods.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -257,7 +257,7 @@
 **Official Requirement 5b:** With your parent or guardian's permission and counselor's approval, visit a mining or minerals exhibit at a museum. Find out about the history of the museum's exhibit and the type of mining it represents. Give three examples of how mineral resources have influenced history.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5b preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5b (With your parent or guardian's permission and counselor's approval, visit a mining or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5b (With your parent or guardian's permission and counselor's approval, visit a mining or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Museum mineral collections display geological specimens, historical prospecting artifacts, and scale models of extraction facilities. Reviewing curated exhibits demonstrates how regional mineral extraction shaped local industrial settlements.
 - **Common Myth:** Mining history museums preserve only antique pickaxes and hand-cranked wooden ore carts.
@@ -275,7 +275,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5c:** With your parent or guardian's permission and counselor's approval, visit an active mine. Find out about the tasks required to explore, plan, permit, mine, and process the resource mined at that site. Take photographs, if allowed, and request brochures from your visit. Share photos, brochures, and what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5c (With your parent or guardian's permission and counselor's approval, visit an active mine.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5c (With your parent or guardian's permission and counselor's approval, visit an active mine.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an operational mine allows scouts to observe geology, environmental compliance, and heavy mobile machinery firsthand. Scouts follow mine lifecycle stages from core drilling exploration through environmental permitting and final ore beneficiation.
 - **Common Myth:** A mining company begins full-scale excavation as soon as an ore deposit is identified.
@@ -295,7 +295,7 @@
 **Official Requirement 5d:** With your parent or guardian's permission and counselor's approval, visit a mining equipment manufacturer or supplier. Discuss the types of equipment produced or supplied there, and in what part of the mining process this equipment is used. Take photographs if allowed, and request brochures from your visit. Share photos, brochures, and what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Mining in Society Req 5d preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5d (With your parent or guardian's permission and counselor's approval, visit a mining), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5d (With your parent or guardian's permission and counselor's approval, visit a mining), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tours of equipment fabrication facilities show how heavy continuous miners, draglines, and haulers are built and maintained. Scouts study engineering design specifications, structural steel welding, and computerized hydraulic control systems.
 - **Common Myth:** Mining machinery manufacturers construct equipment using standard off-the-shelf automotive engine components.
@@ -313,7 +313,7 @@
 #### Req 5e: Rock Reduction and Refining
 **Official Requirement 5e:** Discuss with your counselor two methods used to reduce rock in size, one of which uses a chemical process to extract a mineral. Explain the difference between smelting and refining.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5e Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5e (Discuss with your counselor two methods used to reduce rock in size, one of which uses a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5e (Discuss with your counselor two methods used to reduce rock in size, one of which uses a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ore processing involves mechanical crushing followed by chemical extraction like heap leaching with dilute acid. Smelting thermally separates molten metallic elements from waste slag, while refining purifies the crude metal electrochemically.
 - **Common Myth:** Smelting produces high-purity finished metal ready for manufacturing without any subsequent processing.
@@ -330,7 +330,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5f:** Learn about the history of a local mine, including what is or was mined there, how the deposit was found, the mining techniques and processes used, and how the mined resource is or was used. Find out from a historian, community leader, or business person how mining has affected your community. Note any social, cultural, or economic consequences of mining in your area. Share what you have learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 33, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 5f (Learn about the history of a local mine, including what is or was mined there, how the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 5f (Learn about the history of a local mine, including what is or was mined there, how the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts research the founding history, discovery methods, extraction technology, and economic impacts of a historic local mine. Historical analysis shows how mineral extraction built regional infrastructure and how closure prompted community economic transitions.
 - **Common Myth:** Historic local mines closed exclusively because every single trace of subsurface mineral was extracted.
@@ -354,7 +354,7 @@
 **Official Requirement 6a:** Choose a modern mining site. Find out what is being done to help control environmental impacts. Share what you have learned about mining and sustainability.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stay clear of high-pressure water cannons and chemical water treatment ponds when visiting environmental remediation facilities.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 6a (Choose a modern mining site. Find out what is being done to help control environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 6a (Choose a modern mining site. Find out what is being done to help control environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Contemporary mining operations implement water treatment plants, mist dust suppression cannons, and lined tailings storage facilities. Sustainable practices focus on recycling water, minimizing carbon emissions, and reducing total surface footprint.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -376,7 +376,7 @@
 #### Req 6b: Reclamation and Scouting Ethics
 **Official Requirement 6b:** Explain reclamation as it is used in mining and how mine reclamation pertains to the Leave No Trace Seven Principles and the Outdoor Code.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 6b (Explain reclamation as it is used in mining and how mine reclamation pertains to the Leave), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 6b (Explain reclamation as it is used in mining and how mine reclamation pertains to the Leave), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mine reclamation involves reshaping excavated overburden, re-spreading native topsoil, and planting native grasses and trees. This process mirrors the Outdoor Code and Leave No Trace principles by restoring disturbed natural landscapes.
 - **Common Myth:** Reclamation consists merely of spreading grass seed over rocky mine waste without soil remediation.
@@ -393,7 +393,7 @@
 #### Req 6c: Post-Mining Land Transformation
 **Official Requirement 6c:** Discuss with your counselor what values society has about returning the land to the benefit of wildlife and people after mining has ended. Discuss the transformation of the Summit Bechtel Reserve from a mine site to its current role.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 39, p. 82)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 6c (Discuss with your counselor what values society has about returning the land to the benefit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 6c (Discuss with your counselor what values society has about returning the land to the benefit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Society values transforming decommissioned industrial mines into productive assets like wildlife preserves, solar farms, and parks. A prime example is the Summit Bechtel Reserve in West Virginia, built on reclaimed surface coal mine property.
 - **Common Myth:** Reclaimed mine property cannot safely support high-adventure human activities or complex permanent infrastructure.
@@ -418,7 +418,7 @@
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Use cut-resistant gloves and safety goggles when sorting discarded metal scrap for recycling analysis.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Mining in Society Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 7a (Explore the anticipated benefits of interplanetary mining. Learn how NASA and private), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 7a (Explore the anticipated benefits of interplanetary mining. Learn how NASA and private), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Space agencies and commercial firms explore extracting water ice, platinum group metals, and rare earths from asteroids and the Moon. In-situ resource utilization eliminates the enormous rocket fuel cost of lifting heavy materials into orbit from Earth.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -441,7 +441,7 @@
 #### Req 7b: Ocean Floor Mineral Extraction
 **Official Requirement 7b:** Identify three minerals found dissolved in seawater or found on the ocean floor, and list three places where the ocean is mined today. Share this information with your counselor, and discuss the chief incentives for mining the oceans for minerals, the reclamation necessary after mining is over, and any special concerns when mining minerals from the ocean. Find out what sustainability problems arise from mining the oceans. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 7b (Identify three minerals found dissolved in seawater or found on the ocean floor, and list), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 7b (Identify three minerals found dissolved in seawater or found on the ocean floor, and list), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Oceans contain dissolved minerals such as magnesium and salt, while abyssal seafloors harbor potato-sized polymetallic nodules. Commercial dredging occurs in coastal zones for diamonds, heavy mineral sands, and construction aggregates.
 - **Common Myth:** The open ocean floor is entirely devoid of valuable solid mineral deposits.
@@ -460,7 +460,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7c:** Learn what metals and minerals are recycled after their original use has ended. List four metals and two nonmetals, and find out how each can be recycled. Find out how recycling affects the sustainability of natural resources and how this idea is related to mining. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 7c (Learn what metals and minerals are recycled after their original use has ended. List four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 7c (Learn what metals and minerals are recycled after their original use has ended. List four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Recycling steel, aluminum, copper, lead, concrete aggregates, and glass reduces the demand for newly extracted virgin ores. Reclaiming metals conserves substantial energy, cuts greenhouse gas emissions, and reduces mine landfill waste.
 - **Common Myth:** Nonmetallic mineral products like concrete and construction aggregate cannot be recycled after demolition.
@@ -479,7 +479,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7d:** With your parent or guardian's permission, use the internet and other resources to determine the current price of gold, copper, aluminum, or other commodities like cement or coal, and find out the five-year price trend for two of these. Report your findings to your counselor.
 **Source:** *Official Scouting America Mining in Society Merit Badge Pamphlet (p. 13, p. 34)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For mining in society Requirement 7d (With your parent or guardian's permission, use the internet and other resources to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Mining in Society Requirement 7d (With your parent or guardian's permission, use the internet and other resources to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commodity exchanges determine daily spot prices for copper, gold, aluminum, cement, and coal based on supply and demand. Tracking price histories reveals how economic growth, new technology, and geopolitical tensions affect mining investments.
 - **Common Myth:** Mining companies fix commodity mineral prices arbitrarily without reference to global trade exchanges.

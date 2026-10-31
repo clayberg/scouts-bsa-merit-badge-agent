@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fish%20and%20Wildlife.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fish-and-wildlife-management/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -147,7 +147,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5a:** Construct, erect, and check regularly at least two artificial nest boxes (wood duck, bluebird, squirrel, etc.) and keep written records for one nesting season.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 5a (Construct, erect, and check regularly at least two artificial nest boxes (wood duck,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 5a (Construct, erect, and check regularly at least two artificial nest boxes (wood duck,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing species-specific nest boxes provides vital cavity nesting sites where dead timber has been cleared. Scouts clean, mount, and monitor boxes weekly through the spring nesting cycle, logging clutch sizes and fledging success.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -170,7 +170,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5b:** Construct, erect, and check regularly bird feeders and keep written records daily over a two-week period of the kinds of birds visiting the feeders.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 5b (Construct, erect, and check regularly bird feeders and keep written records daily over a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 5b (Construct, erect, and check regularly bird feeders and keep written records daily over a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bird feeders provide supplemental cold-weather calories while serving as excellent stations for systematic population counts. Scouts log avian visitors daily for two consecutive weeks, identifying species diversity and behavioral patterns.
 - **Common Myth:** Any standard wild bird seed blend attracts the same species of native woodland birds.
@@ -188,7 +188,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5c:** Develop and implement a fishery improvement project or a backyard wildlife habitat improvement project. Share the results with your counselor.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 5c (Develop and implement a fishery improvement project or a backyard wildlife habitat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 5c (Develop and implement a fishery improvement project or a backyard wildlife habitat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Habitat improvement projects install physical cover like brush piles, rock weirs, or native vegetation plantings to resolve specific environmental bottlenecks. Scouts design the installation to expand food, water, or shelter for local fauna.
 - **Common Myth:** Dumping random yard debris in a heap creates ideal habitat for all local small mammals.
@@ -204,7 +204,7 @@
 #### Req 5d: Wildlife Blind Construction and Observation
 **Official Requirement 5d:** Design and construct a wildlife blind near a game trail, water hole, salt lick, bird feeder, or birdbath and take good photographs or make sketches from the blind of any combination of 10 wild birds, mammals, reptiles, or amphibians.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 5d (Design and construct a wildlife blind near a game trail, water hole, salt lick, bird), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 5d (Design and construct a wildlife blind near a game trail, water hole, salt lick, bird), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observation blinds conceal human scent, movement, and silhouettes near natural wildlife activity centers. Scouts build concealed blinds near water sources or game trails to photograph and sketch unalarmed wild animals.
 - **Common Myth:** Wildlife blinds must be built with artificial camouflage tarps regardless of surrounding natural brush.
@@ -227,7 +227,7 @@
 **Official Requirement 6a:** Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles, amphibians, and fish. Write down when and where each animal was seen.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 6a Quantitative Field Observation & Activity Log
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Fish and Wildlife Management Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 6a (Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 6a (Observe and record 25 species of wildlife. Your list may include mammals, birds, reptiles,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing twenty-five wild species requires methodical exploration of varied microhabitats such as wetlands, fields, and forest canopies. Scouts record the precise time, date, GPS coordinates or location, and behavioral actions for each organism.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -249,7 +249,7 @@
 #### Req 6b: State Legal Wildlife Status Roster
 **Official Requirement 6b:** List the wildlife species in your state that are classified as endangered, threatened, exotic, non-native, game species, furbearers, or migratory game birds. Discuss with your counselor management practices in place or being developed for at least three of these species.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 6b (List the wildlife species in your state that are classified as endangered, threatened,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 6b (List the wildlife species in your state that are classified as endangered, threatened,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State agencies classify wildlife into legal categories such as endangered, game, furbearer, and invasive exotic species. Scouts research these classifications to understand harvest rules, ecological roles, and protective statutory frameworks.
 - **Common Myth:** Classifying an animal as a game species means hunters can harvest unlimited numbers year-round.
@@ -266,7 +266,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 6c:** Start a scrapbook of North American fish and wildlife. Insert markers to divide the book into separate parts for mammals, birds, reptiles, amphibians, and fish. Collect articles on such subjects as life histories, habitat, behavior, and feeding habits on all of the five categories and place them in your notebook accordingly. Articles and pictures may be taken from newspapers or science, nature, and outdoor magazines, or from other sources including the internet (with your parent or guardian's permission). Enter at least five articles on mammals, five on birds, five on reptiles, five on amphibians, and five on fish. Put each animal on a separate sheet in alphabetical order. Include pictures whenever possible.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 6c (Start a scrapbook of North American fish and wildlife. Insert markers to divide the book), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 6c (Start a scrapbook of North American fish and wildlife. Insert markers to divide the book), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Curating a taxonomic scrapbook organizes articles, photos, and life-history accounts across five vertebrate classes. Scouts analyze biological adaptations, distribution maps, and conservation initiatives documented in print and field media.
 - **Common Myth:** A wildlife scrapbook only needs pretty animal pictures cut out from outdoor magazines.
@@ -290,7 +290,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7a:** Determine the age of five species of fish from scale samples or identify various age classes of one species in a lake and report the results.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 7a (Determine the age of five species of fish from scale samples or identify various age), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 7a (Determine the age of five species of fish from scale samples or identify various age), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fish scales grow outward forming concentric circuli, with tightly spaced rings called annuli marking slow winter growth. By viewing scales under magnification, scouts calculate the precise age of multiple fish species.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -312,7 +312,7 @@
 #### Req 7b: Creel Census Angler Survey Execution
 **Official Requirement 7b:** Conduct a creel census on a small lake to estimate catch per unit effort and report the results to your counselor.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 7b (Conduct a creel census on a small lake to estimate catch per unit effort and report the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 7b (Conduct a creel census on a small lake to estimate catch per unit effort and report the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A creel census interviews anglers at boat docks to record fishing hours, species targeted, and total catch retained or released. Scouts calculate catch-per-unit-effort ratios to help biologists gauge harvest pressure and stocking efficiency.
 - **Common Myth:** Creel surveys are law enforcement inspections designed solely to catch anglers exceeding daily bag limits.
@@ -332,7 +332,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7c:** Examine the stomach contents of three fish and record the findings. It is not necessary to catch any fish for this option.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 7c Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 7c (Examine the stomach contents of three fish and record the findings. It is not necessary to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 7c (Examine the stomach contents of three fish and record the findings. It is not necessary to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dissecting the stomach cavities of caught or harvested fish reveals current forage bases and predatory adaptations. Scouts examine, identify, and tally aquatic insects, crustaceans, and minnows found inside the digestive tract.
 - **Common Myth:** Predatory game fish consume only smaller fish rather than insects and freshwater invertebrates.
@@ -348,7 +348,7 @@
 #### Req 7d: Native Freshwater Micro Ecosystem Aquarium
 **Official Requirement 7d:** Make a freshwater aquarium. Include at least four species of native plants and four species of animal life, such as whirligig beetles, freshwater shrimp, tadpoles, water snails, and golden shiners. After 60 days of observation, discuss with your counselor the life cycles, food chains, and management needs you have recognized. Before completing this requirement, check local laws on releasing these organisms back into the wild, and follow your counselor's direction in disposing of these organisms humanely and safely.
 **Source:** *Official Scouting America Fish and Wildlife Management Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fish and wildlife management Requirement 7d (Make a freshwater aquarium. Include at least four species of native plants and four species), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fish and Wildlife Management Requirement 7d (Make a freshwater aquarium. Include at least four species of native plants and four species), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing a native freshwater aquarium replicates a local pond or stream food web in a balanced container. Scouts collect native aquatic plants, snails, tadpoles, and insects to observe nutrient cycling and dissolved oxygen dynamics.
 - **Common Myth:** Tropical fish food and artificial chemical additives should be used in a native wild aquarium.

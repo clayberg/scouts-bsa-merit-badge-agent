@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Bird%20Study.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/bird-study/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -71,7 +71,7 @@
 #### Req 2a: Perched Bird Topographic Anatomy
 **Official Requirement 2a:** Sketch or trace a perched bird and then label 15 different parts of the bird.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 2a (Sketch or trace a perched bird and then label 15 different parts of the bird), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 2a (Sketch or trace a perched bird and then label 15 different parts of the bird), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts sketch a perched songbird to label fifteen precise topographic landmarks spanning the head, back, breast, and tail. This detailed anatomical diagram builds the visual vocabulary required to describe subtle plumage variations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -95,7 +95,7 @@
 #### Req 2b: Avian Wing Feather Classification
 **Official Requirement 2b:** Sketch or trace an extended wing and label six types of wing feathers.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 18, p. 19)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 2b (Sketch or trace an extended wing and label six types of wing feathers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 2b (Sketch or trace an extended wing and label six types of wing feathers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts trace an extended wing and label primaries, secondaries, tertials, greater coverts, alula, and scapulars. This exercise demonstrates how wing feather architecture supports aerodynamic lift and directional flight control.
 - **Common Myth:** All wing feathers share identical quill structures and anchor directly to the humerus.
@@ -120,7 +120,7 @@
 #### Req 3a: Optics Specification Number Mechanics
 **Official Requirement 3a:** Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 3a (Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 3a (Explain what the specification numbers mean on binoculars, a spotting scope, or a monocular), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The specification numbers signify linear image magnification power and the entrance pupil diameter in millimeters. These ratios govern image brightness, depth of field, and optical resolution under dim forest canopies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -142,7 +142,7 @@
 #### Req 3b: Eyepiece Diopter Focus Calibration
 **Official Requirement 3b:** Show how to adjust the eyepiece and how to focus for proper viewing.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 3b (Show how to adjust the eyepiece and how to focus for proper viewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 3b (Show how to adjust the eyepiece and how to focus for proper viewing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts adjust the central hinge for eye width, then focus the left barrel before adjusting the independent right diopter ring. Proper focus calibration ensures crisp, stereoscopic depth perception during rapid bird tracking.
 - **Common Myth:** Both binocular barrels focus simultaneously without adjusting individual eye strengths independently.
@@ -161,7 +161,7 @@
 #### Req 3c: Coated Optical Lens Maintenance
 **Official Requirement 3c:** Show how to properly care for and clean the lenses.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 3c (Show how to properly care for and clean the lenses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 3c (Show how to properly care for and clean the lenses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Optics care requires blowing loose grit off elements with a bulb blower prior to applying lens cleaning solution. Microfiber cloths stored in sealed containers prevent abrasive field dust from scratching delicate anti reflective coatings.
 - **Common Myth:** Household glass cleaner and paper towels are ideal for maintaining expensive coated binocular lenses.
@@ -178,7 +178,7 @@
 #### Req 3d: Viewing Device Habitat Deployment
 **Official Requirement 3d:** Describe when and where each type of viewing device would be most effective.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 3d (Describe when and where each type of viewing device would be most effective), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 3d (Describe when and where each type of viewing device would be most effective), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Handheld binoculars excel in brushy habitats where wide fields of view enable rapid subject acquisition. Heavy spotting scopes with sturdy tripods dominate open mudflats, estuaries, and cliffs where birds linger far away.
 - **Common Myth:** Spotting scopes are universally superior to binoculars across all birding field environments.
@@ -200,7 +200,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4a:** Seabird (b) Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4a (Seabird (b) Plover (c) Falcon or hawk), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4a (Seabird (b) Plover (c) Falcon or hawk), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts evaluate seabird range maps to trace open ocean wintering grounds versus isolated oceanic nesting colonies. Understanding pelagic ranges explains why pelagic species rarely appear along continental interiors without major storms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -223,7 +223,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4b:** Plover (c) Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4b (Plover (c) Falcon or hawk (d) Warbler or vireo), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4b (Plover (c) Falcon or hawk (d) Warbler or vireo), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Plover range maps illustrate extreme latitudinal shifts between high arctic tundra breeding grounds and tropical coastal wintering beaches. Interpreting these maps highlights critical intertidal stopover sites essential for refueling during migration.
 - **Common Myth:** Shorebird plovers stay in the same temperate coastal mudflats throughout their lives.
@@ -241,7 +241,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4c:** Falcon or hawk (d) Warbler or vireo (e) Heron or egret (f) Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4c (Falcon or hawk (d) Warbler or vireo (e) Heron or egret), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4c (Falcon or hawk (d) Warbler or vireo (e) Heron or egret), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Raptor distribution maps delineate broad summer hunting territories, steep ridge migration flyways, and southern wintering valleys. Tracking these movements reveals how raptor geography mirrors rodent cycles and thermal updraft availability.
 - **Common Myth:** Hawks and falcons maintain identical hunting territories during summer and winter seasons.
@@ -259,7 +259,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4d:** Warbler or vireo (e) Heron or egret (f) Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4d (Warbler or vireo (e) Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4d (Warbler or vireo (e) Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Warbler and vireo maps depict long distance journeys between North American breeding canopies and Central American wintering forests. Reviewing these ranges illustrates the vulnerability of species dependent on two distinct forest ecosystems.
 - **Common Myth:** Warblers remain in deciduous northern forests year round by eating tree seeds.
@@ -277,7 +277,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4e:** Heron or egret (f) Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4e (Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4e (Heron or egret (f) Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heron and egret range maps detail expansive year round ranges in southern estuaries and seasonal summer expansions northwards. The maps highlight how northern ice cover dictates seasonal departures toward open water.
 - **Common Myth:** Herons and egrets are universally nonmigratory because they nest near water year round.
@@ -295,7 +295,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to use a bird field guide*
 **Official Requirement 4f:** Sparrow.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 10, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 4f (Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 4f (Sparrow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Native sparrow range maps reveal diverse wintering, breeding, and year round distributions across North American grasslands and scrublands. Interpreting sparrow maps prevents confusing indigenous native sparrows with introduced, nonmigratory Old World species.
 - **Common Myth:** All sparrows are uniform urban residents that never travel away from human settlements.
@@ -317,7 +317,7 @@
 **[Parent Directive]:** *Observe and be able to identify 20 species of wild birds*
 **Official Requirement 5a:** Note the date and time.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 5a (Note the date and time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 5a (Note the date and time), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts record the calendar date and precise military time for every wild bird encounter. Documenting timestamps contextualizes observation data relative to dawn chorus peaks and seasonal light shifts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -340,7 +340,7 @@
 **[Parent Directive]:** *Observe and be able to identify 20 species of wild birds*
 **Official Requirement 5b:** Note the location and habitat.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 5b (Note the location and habitat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 5b (Note the location and habitat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts document exact geographic positions and detailed vegetative layers such as mature pine forest or brackish marsh. Precise habitat notes explain why particular bird species occupy localized niches within a larger geographic territory.
 - **Common Myth:** Listing the city or town provides sufficient geographic detail for avian ecological studies.
@@ -357,7 +357,7 @@
 #### Req 5c: Foraging Ecology Dietary Documentation
 **Official Requirement 5c:** Describe the bird's main feeding habitat and list two types of food that the bird is likely to eat.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 5c (Describe the bird's main feeding habitat and list two types of food that the bird is likely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 5c (Describe the bird's main feeding habitat and list two types of food that the bird is likely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts record the physical foraging zone alongside two specific dietary components consumed by the target species. Detailed dietary notes connect beak morphology directly to local ecological resource partitioning.
 - **Common Myth:** All songbirds consume identical mixtures of wild seeds dropped on the forest floor.
@@ -375,7 +375,7 @@
 **[Parent Directive]:** *Observe and be able to identify 20 species of wild birds*
 **Official Requirement 5d:** Note whether the bird is a migrant or a summer, winter, or year-round resident of your area.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 48, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 5d (Note whether the bird is a migrant or a summer, winter, or year-round resident of your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 5d (Note whether the bird is a migrant or a summer, winter, or year-round resident of your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts categorize each recorded species as a permanent resident, summer breeder, winter visitor, or seasonal migrant. Determining residency status connects field sightings to continental migration patterns and regional phenology.
 - **Common Myth:** Any bird seen in winter automatically remains in that exact location during breeding season.
@@ -397,7 +397,7 @@
 **[Parent Directive]:** *Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat*
 **Official Requirement 6a:** Beak.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 6a (Beak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 6a (Beak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts analyze beak adaptations including hooked raptor raptorial beaks, spear like heron bills, and conical finch bills. Bill morphology reveals how mechanical forces and feeding specializations govern food acquisition.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -420,7 +420,7 @@
 **[Parent Directive]:** *Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat*
 **Official Requirement 6b:** Body.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 6b (Body), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 6b (Body), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine how avian body size and mass distribution correlate with energetic flight requirements and habitat demands. Streamlined bodies reduce hydrodynamic drag in divers while compact bodies provide agility through dense brush.
 - **Common Myth:** All birds possess equally lightweight, hollow bones to maximize high altitude soaring capability.
@@ -438,7 +438,7 @@
 **[Parent Directive]:** *Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat*
 **Official Requirement 6c:** Leg and foot.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 6c (Leg and foot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 6c (Leg and foot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts compare feet structures including palmate swimming webs, zygodactyl climbing digits, and powerful raptorial talons. Leg length and toe orientation dictate whether a bird wades, runs, hops, perches, or grasps prey.
 - **Common Myth:** Bird feet consist of simple rigid claws that require constant muscle tension to grip.
@@ -456,7 +456,7 @@
 **[Parent Directive]:** *Describe to your counselor how certain orders of birds are uniquely adapted to a specific habitat*
 **Official Requirement 6d:** Feathers/plumage.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 29, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 6d (Feathers/plumage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 6d (Feathers/plumage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts investigate how feather microstructure provides waterproofing, acoustic dampening, cryptic camouflage, and thermal regulation across diverse climates. Plumage density and feather modifications adapt birds directly to extreme environmental challenges.
 - **Common Myth:** Feather layers serve only to generate flight and display bright decorative mating colors.
@@ -697,7 +697,7 @@
 #### Req 9a: Avian Feeder Construction Maintenance
 **Official Requirement 9a:** Build a bird feeder and put it in an appropriate place in your yard or another location.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 9a (Build a bird feeder and put it in an appropriate place in your yard or another location), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 9a (Build a bird feeder and put it in an appropriate place in your yard or another location), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts build a wooden bird feeder and mount it in a predator safe location with clear escape cover. Feeder maintenance requires scrubbing seed trays periodically with bleach solutions to prevent fatal fungal and bacterial epidemics.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -719,7 +719,7 @@
 #### Req 9b: Avian Birdbath Installation Care
 **Official Requirement 9b:** Build a birdbath and put it in an appropriate place.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 9b (Build a birdbath and put it in an appropriate place), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 9b (Build a birdbath and put it in an appropriate place), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts construct a shallow birdbath providing sloping edges and textured perches for safe drinking and preening. Routine maintenance involves scrubbing algae and replacing stagnant water daily to interrupt mosquito breeding cycles.
 - **Common Myth:** Deep garden ornamental pools are ideal bathing and drinking spots for small wild songbirds.
@@ -736,7 +736,7 @@
 #### Req 9c: Native Plant Backyard Sanctuary
 **Official Requirement 9c:** Build a backyard sanctuary for birds by planting trees and shrubs for food and cover.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 9c (Build a backyard sanctuary for birds by planting trees and shrubs for food and cover), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 9c (Build a backyard sanctuary for birds by planting trees and shrubs for food and cover), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts plant native trees, shrubs, and perennials that provide continuous berries, seeds, and insect forage across seasons. Establishing multi layered native plant arrangements delivers structural shelter, nesting substrates, and natural predator protection.
 - **Common Myth:** Exotic ornamental flowering plants provide superior nutritional value for native wild bird populations.
@@ -753,7 +753,7 @@
 #### Req 9d: Approved Nest Box Construction
 **Official Requirement 9d:** Build a nest box for a species of your choice using plans approved by your counselor.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 9d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 9d (Build a nest box for a species of your choice using plans approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 9d (Build a nest box for a species of your choice using plans approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts build an approved nest box featuring proper ventilation, drainage holes, cleanout panels, and precise entrance hole diameters. Regular inspection and end of season cleaning prevent parasite infestations and evict nonnative competitors like house sparrows.
 - **Common Myth:** Any wooden box with a large hole provides suitable shelter for native cavity nesters.
@@ -770,7 +770,7 @@
 #### Req 9e: Backyard Habitat Architectural Plan
 **Official Requirement 9e:** Describe the elements of a backyard bird habitat for a given area and draw a plan for one, including lists of birds you hope to attract, appropriate plantings for food, cover, and nesting.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 82, p. 88)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 9e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 9e (Describe the elements of a backyard bird habitat for a given area and draw a plan for one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 9e (Describe the elements of a backyard bird habitat for a given area and draw a plan for one,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts design a comprehensive yard habitat diagram incorporating multi tiered native plantings, fresh water, and nesting sites. The plan lists target bird species and maps structural cover that shields songbirds from predators and storms.
 - **Common Myth:** Drawing a simple yard sketch with one tree constitutes a comprehensive bird habitat plan.
@@ -793,7 +793,7 @@
 #### Req 10a: Conservation Status Classification Criteria
 **Official Requirement 10a:** Explain the differences between extinct, endangered, and threatened.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 10a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 10a (Explain the differences between extinct, endangered, and threatened), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 10a (Explain the differences between extinct, endangered, and threatened), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explain the precise legal criteria separating extinct, endangered, and threatened wildlife categories under conservation statutes. Understanding these definitions clarifies how wildlife agencies allocate recovery funds and enact legal protection protocols.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -815,7 +815,7 @@
 #### Req 10b: Imperiled Species Recovery Dynamics
 **Official Requirement 10b:** Identify a bird species that is on the endangered or threatened list. Explain what caused their decline. Discuss with your counselor what can be done to reverse this trend and what can be done to help remove the species from the endangered or threatened list.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 10b (Identify a bird species that is on the endangered or threatened list. Explain what caused), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 10b (Identify a bird species that is on the endangered or threatened list. Explain what caused), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts research an endangered or threatened bird species, analyzing the primary environmental pressures that caused its population collapse. Discussions evaluate ongoing recovery efforts including habitat acquisition, captive breeding programs, and cross border flyway protections.
 - **Common Myth:** Endangered species naturally rebound within two breeding seasons once hunting seasons are closed.
@@ -832,7 +832,7 @@
 #### Req 10c: Migratory Bird Threat Mitigation
 **Official Requirement 10c:** Explain how we can address birds that are in decline before they get to an endangered or threatened list. List how we can protect habitat. Identify threats that migratory birds face and how to protect food supply for birds.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 31, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 10c (Explain how we can address birds that are in decline before they get to an endangered or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 10c (Explain how we can address birds that are in decline before they get to an endangered or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts identify widespread mortality factors confronting migratory birds including illuminated glass towers, outdoor cats, and agricultural chemicals. Developing proactive conservation strategies focuses on preserving contiguous habitats and establishing wildlife friendly building and landscaping practices.
 - **Common Myth:** Songbird population drops are caused entirely by deforestation occurring in foreign tropical nations.
@@ -905,7 +905,7 @@
 #### Req 13a: Professional Ornithological Career Pathways
 **Official Requirement 13a:** Identify three career opportunities that would use skills and knowledge in Bird Study. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 13a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 13a (Identify three career opportunities that would use skills and knowledge in Bird Study. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 13a (Identify three career opportunities that would use skills and knowledge in Bird Study. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts research three ornithology related careers such as wildlife biologist, refuge manager, or environmental consultant. They examine degree prerequisites, field survey certifications, expected salaries, and scientific duties for one selected vocation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -928,7 +928,7 @@
 #### Req 13b: Recreational Bird Watching Avocation
 **Official Requirement 13b:** Identify how you might use the skills and knowledge in Bird Study to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Bird Study Merit Badge Pamphlet (p. 52, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bird study Requirement 13b (Identify how you might use the skills and knowledge in Bird Study to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bird Study Requirement 13b (Identify how you might use the skills and knowledge in Bird Study to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts explore bird watching as a lifelong recreational hobby, detailing equipment needs, field guide selections, and club memberships. They identify local birding organizations and citizen science databases that support ongoing skill development.
 - **Common Myth:** Bird watching as a hobby requires spending thousands of dollars on high end optics immediately.

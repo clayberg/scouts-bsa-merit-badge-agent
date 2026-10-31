@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Snow%20Sports.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/snow-sports/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while participating in snow sport activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stay at least ten feet away from evergreen tree trunks to avoid falling into hidden tree wells.
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anticipating mountain hazards involves evaluating changing weather, terrain obstacles, and trail traffic before descending. Prevention relies on proper spacing, speed control, and carrying emergency shelter supplies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -62,7 +62,7 @@
 #### Req 1b: Cold Weather First Aid
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries or illnesses that could occur while participating in snow sports, including hypothermia, frostbite, shock, dehydration, sunburn, concussion, fractures, bruises, sprains, and strains. Tell how to apply splints.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 22, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 1b (Discuss first aid and prevention for the types of injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 1b (Discuss first aid and prevention for the types of injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cold injuries range from frostbite and hypothermia to acute mountain sickness and severe fractures. Immediate treatment prioritizes moving the patient out of the wind, dry insulation, and gentle rewarming.
 - **Common Myth:** Rubbing frostbitten skin with snow stimulates circulation and thaws frozen tissues safely.
@@ -86,7 +86,7 @@
 **Official Requirement 2a:** Explain why every snow sport participant should be prepared to render first aid in the event of an accident.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never remove an injured skier's boots on the snow because severe swelling and frostbite can occur instantly.
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 2a (Explain why every snow sport participant should be prepared to render first aid in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 2a (Explain why every snow sport participant should be prepared to render first aid in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participants must maintain emergency readiness because alpine isolation delays commercial emergency medical response. Immediate buddy care shields trauma victims from rapid environmental temperature drops.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -108,7 +108,7 @@
 #### Req 2b: Ski Patrol Accident Reporting
 **Official Requirement 2b:** Explain the procedure used to report an accident to the local ski patrol or local emergency personnel.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 19, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 2b (Explain the procedure used to report an accident to the local ski patrol or local emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 2b (Explain the procedure used to report an accident to the local ski patrol or local emergency), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reporting a trail incident requires delivering specific data including trail name, tower number, and injury description. Messengers should memorize exact landmarks or call the emergency dispatch number directly.
 - **Common Myth:** Shouting down the mountain is the standard way to summon ski patrol.
@@ -215,7 +215,7 @@
 **Official Requirement 6a:** Explain the elements of the Your Responsibility Code that is in effect at the location where you will ski, snowboard, or snowshoe. Explain why each person must follow this code.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never stop in the middle of a blind trail crest or underneath terrain park jumps.
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 6a (Explain the elements of the Your Responsibility Code that is in effect at the location), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 6a (Explain the elements of the Your Responsibility Code that is in effect at the location), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Your Responsibility Code outlines universal rules of conduct on ski slopes to eliminate reckless collisions. Following these rules ensures that every skier remains in control, avoids stopping in blind spots, and uses retention devices.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -234,7 +234,7 @@
 #### Req 6b: SMART Style Park Safety
 **Official Requirement 6b:** Explain the SMART Style safety program. Tell why it is important and how it applies to participants at snow sport venues like terrain parks and pipes.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 6b (Explain the SMART Style safety program. Tell why it is important and how it applies to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 6b (Explain the SMART Style safety program. Tell why it is important and how it applies to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The SMART Style program establishes safety rules specifically designed for terrain parks, pipes, and feature zones. Riders must start small, make a plan, always look, respect features, and take it easy.
 - **Common Myth:** Riders can jump immediately into advanced park features without inspecting landings first.
@@ -250,7 +250,7 @@
 #### Req 6c: Avalanche Safety and Precautions
 **Official Requirement 6c:** Explain the precautions pertaining to avalanche safety, including the responsibility of individuals regarding avalanche safety.
 **Source:** *Official Scouting America Snow Sports Merit Badge Pamphlet (p. 15, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For snow sports Requirement 6c (Explain the precautions pertaining to avalanche safety, including the responsibility of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Snow Sports Requirement 6c (Explain the precautions pertaining to avalanche safety, including the responsibility of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Avalanche safety requires assessing snowpack stability, recognizing slope angles between thirty and forty-five degrees, and carrying rescue gear. Backcountry travelers must travel one at a time across exposed avalanche paths.
 - **Common Myth:** Ski patrol bombs all backcountry peaks, making sidecountry terrain completely avalanche-proof.

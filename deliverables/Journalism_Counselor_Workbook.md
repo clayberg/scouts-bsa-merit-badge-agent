@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Journalism.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/journalism/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -163,7 +163,7 @@
 **Official Requirement 3a:** Choose a current or an unusual event of interest to you, and write either a hard news article OR a feature article about the event. Gear the article for print OR online OR audio OR video journalism. Share your article with your counselor.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Journalism Req 3 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 3a (Choose a current or an unusual event of interest to you, and write either a hard news), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 3a (Choose a current or an unusual event of interest to you, and write either a hard news), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Writing an event article requires selecting an appropriate style suited to either breaking news urgency or feature depth. Reporters tailor sentence structure and descriptive pacing to match the target print, audio, or digital publication format.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -186,7 +186,7 @@
 **[Parent Directive]:** *Discuss the differences between a hard news story and a feature story. Explain what the five W's and H are. Then do ONE of the following*
 **Official Requirement 3b:** With your parent or guardian's permission and counselor's approval, interview someone in your community who is influential because of his or her leadership, talent, career, or life experiences. Then present to your counselor either a written or oral report telling what you learned about this person.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 3b Professional Career Interview Card
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 3b (With your parent or guardian's permission and counselor's approval, interview someone in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 3b (With your parent or guardian's permission and counselor's approval, interview someone in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Profile interviews require preparing open ended questions that prompt insightful responses about community service, professional milestones, and leadership philosophy. Interviewers take precise shorthand notes and confirm direct quotations before publication.
 - **Common Myth:** Good profile interviews rely entirely on spontaneous conversation without advance research or prepared question lists.
@@ -206,7 +206,7 @@
 **[Parent Directive]:** *Discuss the differences between a hard news story and a feature story. Explain what the five W's and H are. Then do ONE of the following*
 **Official Requirement 3c:** With your parent or guardian's permission and counselor's approval, read an autobiography written by a journalist you want to learn more about. Write an article that tells what you learned about this person and the contributions this person has made to the field of journalism.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 3c (With your parent or guardian's permission and counselor's approval, read an autobiography), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 3c (With your parent or guardian's permission and counselor's approval, read an autobiography), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing an autobiography written by a veteran journalist reveals historical ethics dilemmas, investigative methods, and newsroom operational pressures. Scouts write reflective summaries highlighting how the author navigated censorship, personal danger, and source verification challenges.
 - **Common Myth:** Autobiographies written by journalists focus solely on personal adventure rather than newsgathering ethics.
@@ -222,7 +222,7 @@
 #### Req 3d: Scouting Event Article Composition
 **Official Requirement 3d:** Attend a Scouting event and write a 200-word article (feature or hard news) about the event. Use either the inverted pyramid style or the chronological style. Review the article with your counselor, then submit it to your community newspaper or Scouting America local council or district newsletter for consideration.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 68, p. 74)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 3d (Attend a Scouting event and write a 200-word article (feature or hard news) about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 3d (Attend a Scouting event and write a 200-word article (feature or hard news) about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Covering a Scouting event demands accurate reporting of troop activities, competitive outcomes, and leadership recognitions within a concise word limit. Authors select between chronological storytelling and inverted pyramid structure, submitting copy for editorial review.
 - **Common Myth:** Articles written about local Scouting activities do not require factual attribution or editorial review.
@@ -243,7 +243,7 @@
 #### Req 4a: Dual Structure Article Production
 **Official Requirement 4a:** Write two articles about the event, one using the inverted pyramid style and one using the chronological style.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 4a (Write two articles about the event, one using the inverted pyramid style and one using the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 4a (Write two articles about the event, one using the inverted pyramid style and one using the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Producing both inverted pyramid and chronological articles on the same event demonstrates how structural choices alter narrative pacing. Inverted pyramid highlights immediate outcomes, whereas chronological structure tracks the unfolding timeline.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -266,7 +266,7 @@
 **[Parent Directive]:** *Attend a public event and do ONE of the following*
 **Official Requirement 4b:** Using a radio, television, or podcasting style, write a news story, a feature story, and a critical review of the event.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 4b (Using a radio, television, or podcasting style, write a news story, a feature story, and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 4b (Using a radio, television, or podcasting style, write a news story, a feature story, and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Broadcast journalists write distinct scripts for hard news updates, descriptive feature segments, and critical arts or event reviews. Scripts incorporate technical production cues, speaker timings, and integrated audio actualities.
 - **Common Myth:** A critical review is simply a reporter's personal rant without objective artistic or organizational standards.
@@ -284,7 +284,7 @@
 **[Parent Directive]:** *Attend a public event and do ONE of the following*
 **Official Requirement 4c:** Take a series of photographs to help tell the story of the event in pictures. Include news photos and feature photos in your presentation. Write a brief synopsis of the event as well as captions for your photos.
 **Source:** *Official Scouting America Journalism Merit Badge Pamphlet (p. 25, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For journalism Requirement 4c (Take a series of photographs to help tell the story of the event in pictures. Include news), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Journalism Requirement 4c (Take a series of photographs to help tell the story of the event in pictures. Include news), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Photojournalism uses unposed visual compositions to convey narrative truth alongside informative newspaper cutlines. Photographers balance wide establishing scenes with expressive close up shots of key participants.
 - **Common Myth:** Photojournalists are allowed to alter digital images and remove background objects to create better compositions.
@@ -325,3 +325,4 @@
 | **4. Discuss what you learned with your counselor and whether you might be interested in this career.** | Digital Specialization: Data journalists analyze public datasets using code to build interactive investigative graphic maps. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 5):** Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Journalism Requirement 5 (exploring journalism careers and training) before signing the blue card.
+)))))))))

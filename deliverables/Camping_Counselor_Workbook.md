@@ -47,7 +47,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in camping activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Evacuate any camper exhibiting altered mental state, slurred speech, or cessation of shivering immediately.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Backcountry travelers anticipate loose terrain, widowmaker tree branches, and venomous wildlife by conducting advance route surveys. Patrol leaders establish safe perimeter distances from fast water, steep scree, and animal attractants.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -56,7 +56,7 @@
 - **Common Myth:** Campers assume wild animals only enter campsites if food remains unattended inside cooking kettles.
 - **Pamphlet Fact:** Micro-scents on unwashed clothing or scented lip balm attract bears and rodents into tents.
 
-![Hypothermia Prevention diagram illustrating how wet clothing accelerates core temperature drop even during mild sixty degree rainstorms.](/assets/pamphlet_images/camping_p003_img1.png)
+![Technical diagram of hypothermia prevention principles and field relationships in Camping (Requirement 1).](/assets/pamphlet_images/camping_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -69,7 +69,7 @@
 #### Req 1b: Wilderness Weather Awareness and Preparation
 **Official Requirement 1b:** Discuss with your counselor why it is important to be aware of weather conditions before and during your camping activities. Tell how you can prepare should the weather turn bad during your campouts.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 1b (Discuss with your counselor why it is important to be aware of weather conditions before), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 1b (Discuss with your counselor why it is important to be aware of weather conditions before), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts track barometric shifts, cloud formations, and regional meteorological alerts before departure and throughout the trek. Bad weather requires establishing emergency shelter sites and securing tarps before rainfall begins.
 - **Common Myth:** Scouts believe lightning danger passes as soon as torrential rain stops falling overhead.
@@ -87,7 +87,7 @@
 #### Req 1c: Wilderness First Aid Medical Response
 **Official Requirement 1c:** Show that you know first aid for and how to prevent injuries or illnesses that could occur while camping, including hypothermia, frostbite, heat reactions, dehydration, altitude sickness, insect stings, tick bites, snakebite, blisters, and hyperventilation.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 13, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 1c (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 1c (Show that you know first aid for and how to prevent injuries or illnesses that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Managing backcountry injuries requires stabilizing core body temperatures, replacing lost fluids, and immobilizing joint trauma. Prompt recognition of heat stroke, frostbite, and dehydration prevents severe tissue necrosis or shock.
 - **Common Myth:** Scouts often think vigorous rubbing warms up frostbitten extremities quickly and safely.
@@ -119,7 +119,7 @@
 - **Common Myth:** Scouts think burying apple cores and food scraps protects wilderness ecosystems from trash accumulation.
 - **Pamphlet Fact:** Organic food scraps attract opportunistic wildlife and take years to decompose in cold climates.
 
-![Durable Surface Travel diagram illustrating how restrict foot traffic to established rocky paths to prevent fragile alpine soil erosion.](/assets/pamphlet_images/camping_p007_img1.png)
+![Technical diagram of durable surface travel principles and field relationships in Camping (Requirement 2).](/assets/pamphlet_images/camping_p007_img1.png)
 
 | Req 2 Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -138,7 +138,7 @@
 **Official Requirement 3a:** Compass (b) GPS receiver (c) Smartphone with a GPS app.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never enter remote backcountry terrain without a physical calibrated compass and waterproofed topographical map.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 3a (Compass (b) GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 3a (Compass (b) GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An orienting compass establishes precise magnetic bearings by aligning the needle with the internal orienting arrow. Compensating for regional magnetic variance ensures straight cross-country travel through unmarked woodland terrain.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -147,7 +147,7 @@
 - **Common Myth:** Beginners believe a compass needle always points toward true geographic North Pole coordinates.
 - **Pamphlet Fact:** Magnetic needles align toward Earth's magnetic north pole, which shifts from true geographic north.
 
-![Contour Line Analysis diagram illustrating how closely spaced brown contour lines indicate steep cliffs requiring planned route detours.](/assets/pamphlet_images/camping_p012_img1.png)
+![Technical diagram of contour line analysis principles and field relationships in Camping (Requirement 3).](/assets/pamphlet_images/camping_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -161,7 +161,7 @@
 **[Parent Directive]:** *Make a written plan for an overnight trek and show how to get to your camping spot by using a topographical map and one of the following*
 **Official Requirement 3b:** GPS receiver (c) Smartphone with a GPS app.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 3b (GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 3b (GPS receiver (c) Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dedicated global positioning receivers triangulate position through line-of-sight radio signals from orbital satellites. Ruggedized receivers calculate elevation, track speed, and record breadcrumb trail coordinates in harsh weather.
 - **Common Myth:** Users assume satellite navigation receivers maintain precision accuracy under dense rainforest canopies.
@@ -181,7 +181,7 @@
 **[Parent Directive]:** *Make a written plan for an overnight trek and show how to get to your camping spot by using a topographical map and one of the following*
 **Official Requirement 3c:** Smartphone with a GPS app.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 3c (Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 3c (Smartphone with a GPS app), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Smartphone navigation apps require pre-downloading offline topographical map layers before leaving cellular service ranges. Conserving phone battery involves engaging low-power modes and storing the handset against cold air.
 - **Common Myth:** Campers assume mobile phone navigation apps work automatically without pre-downloading topographical basemaps.
@@ -204,7 +204,7 @@
 **Official Requirement 4a:** Make a duty roster showing how your patrol is organized for an actual overnight campout. List assignments for each member.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never permit cooks who handled raw meat to prepare clean water or sanitize utensils.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 4a (Make a duty roster showing how your patrol is organized for an actual overnight campout.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 4a (Make a duty roster showing how your patrol is organized for an actual overnight campout.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A patrol duty roster establishes accountable shifts for water collection, cooking, dishwashing, and fire safety. Posting the physical schedule centrally ensures every Scout executes their assigned task on time.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -226,7 +226,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4b:** Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout, including creating the duty roster, menu planning, equipment needs, general planning, and setting up camp.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 22, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 4b (Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 4b (Help a Scout patrol or a Webelos Scout unit in your area prepare for an actual campout,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Guiding a Webelos den through camp preparation involves reviewing gear checklists, simplified menu planning, and safety rules. Older Scouts facilitate successful transitions by demonstrating proper tent pitching and outdoor cooking fundamentals.
 - **Common Myth:** Older Scouts assume younger Webelos already understand how to manage individual backcountry gear.
@@ -249,7 +249,7 @@
 **Official Requirement 5a:** Prepare a list of clothing you would need for overnight campouts in both warm and cold weather. Explain the term "layering."
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Inspect footwear for broken laces and pressure points before departure to prevent disabling wilderness blisters.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 5a (Prepare a list of clothing you would need for overnight campouts in both warm and cold), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 5a (Prepare a list of clothing you would need for overnight campouts in both warm and cold), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The outdoor layering principle balances base wicking, middle insulating, and outer protective garments to regulate perspiration and body heat. Removing insulating layers before heavy physical activity prevents sweat accumulation that leads to cold injury.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -270,7 +270,7 @@
 #### Req 5b: Camp Footwear and Blister Protection
 **Official Requirement 5b:** Discuss footwear for different kinds of weather and how the right footwear is important for protecting your feet.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 5b (Discuss footwear for different kinds of weather and how the right footwear is important for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 5b (Discuss footwear for different kinds of weather and how the right footwear is important for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Appropriate hiking boots feature rigid outsoles, supportive ankle collars, and breathable waterproof membranes for variable terrain. Pairing boots with wool hiking socks and thin synthetic liners minimizes friction against skin.
 - **Common Myth:** Scouts think brand-new rigid leather boots can be worn directly on extended hiking treks.
@@ -287,7 +287,7 @@
 #### Req 5c: Camping Equipment Storage and Maintenance
 **Official Requirement 5c:** Explain the proper care and storage of camping equipment (clothing, footwear, bedding)
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 5c (Explain the proper care and storage of camping equipment (clothing, footwear, bedding)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 5c (Explain the proper care and storage of camping equipment (clothing, footwear, bedding)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Camp gear must be completely dried, cleaned of soil, and aired out before long-term storage in cool, dry closets. Compressing synthetic or down sleeping bags inside tight stuff sacks crushes loft and degrades thermal ratings.
 - **Common Myth:** Campers believe storing slightly damp tents inside zipped bags does not cause permanent damage.
@@ -304,7 +304,7 @@
 #### Req 5d: Scout Basic Essentials Kit
 **Official Requirement 5d:** List the Scout Basic Essentials necessary for any campout, and explain why each item is needed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 5d (List the Scout Basic Essentials necessary for any campout, and explain why each item is needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 5d (List the Scout Basic Essentials necessary for any campout, and explain why each item is needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Scout Basic Essentials provide survival insurance against unexpected weather changes, navigational disorientation, or medical trauma. Carrying first aid supplies, extra food, water containers, fire starters, and emergency shelter ensures readiness.
 - **Common Myth:** Scouts think basic essentials are only necessary on remote multi-day wilderness backpacking expeditions.
@@ -322,7 +322,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5e:** Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed and equipped for an overnight campout.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 29, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 5e (Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 5e (Present yourself to your Scoutmaster with your pack for inspection. Be correctly clothed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Presenting a pack for Scoutmaster inspection demonstrates personal preparedness, proper weight balance, and weather readiness. The Scout must be dressed in appropriate outdoor layers with critical gear accessible without unrolling bedding.
 - **Common Myth:** Scouts assume pack inspections only check whether the pack contains a sleeping bag.
@@ -344,7 +344,7 @@
 **Official Requirement 6a:** Describe the features of four types of tents, when and where they could be used, and how to care for tents. Working with another Scout, pitch a tent.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never operate fuel stoves, candles, or chemical lanterns inside enclosed tent sleeping quarters.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 6a (Describe the features of four types of tents, when and where they could be used, and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 6a (Describe the features of four types of tents, when and where they could be used, and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shelter designs include dome, A-frame, geodesic, and tarp tents tailored for specific seasonal wind and snow loads. Regular tent maintenance includes drying fabrics completely, brushing zippers clean, and storing poles unstrung.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -365,7 +365,7 @@
 #### Req 6b: Camp Sanitation and Water Treatment
 **Official Requirement 6b:** Discuss the importance of camp sanitation and tell why water treatment is essential. Then demonstrate two ways to treat water.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 6b (Discuss the importance of camp sanitation and tell why water treatment is essential. Then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 6b (Discuss the importance of camp sanitation and tell why water treatment is essential. Then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Treating surface water with boiling, hollow-fiber microfilters, or chemical halogen agents eliminates waterborne protozoa and bacteria. Maintaining camp kitchen sanitation prevents gastrointestinal outbreaks caused by contaminated communal cookware.
 - **Common Myth:** Campers believe ceramic microfiltration filters remove all environmental viral particles from backcountry water.
@@ -381,7 +381,7 @@
 #### Req 6c: Campsite Terrain Selection Factors
 **Official Requirement 6c:** Describe the factors to be considered in deciding where to pitch your tent.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 6c (Describe the factors to be considered in deciding where to pitch your tent), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 6c (Describe the factors to be considered in deciding where to pitch your tent), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting safe tent sites requires surveying overhead branches for dead wood and identifying natural rain runoff channels. Pitching shelters on durable gravel or packed soil protects delicate plant ecosystems from long-term damage.
 - **Common Myth:** Scouts believe hollow depression basins offer the most protected spots for pitching tents.
@@ -398,7 +398,7 @@
 #### Req 6d: Backpack Frame System Selection
 **Official Requirement 6d:** Tell the difference between internal- and external-frame packs. Discuss the advantages and disadvantages of each.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6d Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 6d (Tell the difference between internal- and external-frame packs. Discuss the advantages and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 6d (Tell the difference between internal- and external-frame packs. Discuss the advantages and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - External-frame packs provide elevated lash points and excellent ventilation for heavy gear loads on level trails. Internal-frame packs hug the body closely to provide superior balance along rough, uneven mountain trails.
 - **Common Myth:** Scouts assume external-frame packs are inherently superior for traversing steep, off-trail mountain scrambles.
@@ -414,7 +414,7 @@
 #### Req 6e: Sleeping Bag Selection and Care
 **Official Requirement 6e:** Discuss the types of sleeping bags and what kind would be suitable for different conditions. Explain the proper care of your sleeping bag and how to keep it dry. Make a comfortable ground bed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 37, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 6e (Discuss the types of sleeping bags and what kind would be suitable for different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 6e (Discuss the types of sleeping bags and what kind would be suitable for different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mummy and rectangular sleeping bags utilize either water-resistant synthetic fiber fills or lightweight down plumes for insulation. Pairing bags with closed-cell foam or insulated air mattresses isolates the body from ground-conducted cold.
 - **Common Myth:** Campers believe a thick sleeping bag alone keeps them warm without a ground pad.
@@ -437,7 +437,7 @@
 **Official Requirement 7a:** Make a checklist of personal and patrol gear that will be needed.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Ensure loaded pack weight never exceeds twenty-five percent of the Scout's total body weight.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 7a (Make a checklist of personal and patrol gear that will be needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 7a (Make a checklist of personal and patrol gear that will be needed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comprehensive gear checklists categorize personal clothing, sleeping insulation, hygiene products, and shared patrol cooking equipment. Checking items off during pre-trip patrol meetings prevents missing essential supplies at the trailhead.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -460,7 +460,7 @@
 **[Parent Directive]:** *Prepare for an overnight campout with your patrol by doing the following*
 **Official Requirement 7b:** Pack your own gear and your share of the patrol equipment and food for proper carrying. Show that your pack is right for quickly getting what is needed first, and that it has been assembled properly for comfort, weight, balance, size, and neatness.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 42, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 7b (Pack your own gear and your share of the patrol equipment and food for proper carrying.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 7b (Pack your own gear and your share of the patrol equipment and food for proper carrying.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Balancing a pack requires distributing bulky light sleeping gear at the bottom and heavy items against the lumbar spine. Essential navigation tools and rain gear must remain in exterior pouches for rapid emergency retrieval.
 - **Common Myth:** Scouts believe strapping heavy tents to the outside bottom of packs creates ideal balance.
@@ -545,7 +545,7 @@
 #### Req 8b: Lightweight Backpacking Stove Selection
 **Official Requirement 8b:** Discuss the advantages and disadvantages of different types of lightweight cooking stoves.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 8b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 8b (Discuss the advantages and disadvantages of different types of lightweight cooking stoves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 8b (Discuss the advantages and disadvantages of different types of lightweight cooking stoves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Backpacking stoves range from lightweight canister units to cold-weather liquid white gas burners and wood-burning biomass units. Evaluating stoves involves weighing cold-weather reliability, fuel availability, boiling efficiency, and packed weight.
 - **Common Myth:** Scouts assume isobutane canister stoves perform with equal high efficiency in sub-freezing winter snow.
@@ -562,7 +562,7 @@
 #### Req 8c: Patrol Meal Planning and Nutrition
 **Official Requirement 8c:** Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or float trip. Give recipes and make a food list for your patrol. Plan two breakfasts, three lunches, and two suppers. Discuss how to protect your food against bad weather, animals, and contamination.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 8c (Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 8c (Prepare a camp menu. Explain how the menu would differ from a menu for a backpacking or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Planning backcountry menus requires balancing caloric density, perishable shelf life, and weight constraints against trip mileage. Patrol food lists include measured portions for breakfasts, lunches, and dinners with recipes tailored to available cookware.
 - **Common Myth:** Scouts think packing heavy canned foods is ideal for high-mileage mountain backpacking treks.
@@ -581,7 +581,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 8d:** While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for your patrol from the meals you have planned for requirement 8(c). At least one of those meals must be a trail meal requiring the use of a lightweight stove.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 24, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 8d (While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 8d (While camping in the outdoors, cook at least one breakfast, one lunch, and one dinner for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing planned patrol meals in camp demonstrates heat regulation, food safety hygiene, and organized timing. Cooking requires sanitizing preparation surfaces, thoroughly cooking meats, and cleaning all utensils using sanitized wash stations.
 - **Common Myth:** Scouts believe scraping food scraps into camp bushes is acceptable if pots look clean.
@@ -604,7 +604,7 @@
 **Official Requirement 9a:** Camp for at least 20 nights at designated Scouting activities or events. One long-term camping experience of up to six consecutive nights may be applied toward this requirement. Two nights may be counted toward the total for each additional long-term camping trip. Each night must be spent either under the sky, in a tent you have pitched yourself (if a tent is provided and already set up, you do not need to pitch your own), in a hammock that is safely strung outdoors, in a lean-to, or other three-sided shelter with an open front. Nights spent in indoor lock-in events, cabin camping, hotel stays, or other covered accommodations do not count toward the 20 nights.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Scout Workbook Organizer (20-Night Camping Experience Log):** Req 9a 20-Night Scouting Camping Log (Up to 6 Consecutive Long-Term Camp Nights)
 > **Guide to Safe Scouting Warning:** Use personal protective equipment including work gloves and safety glasses during manual conservation trail maintenance.
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 9a (Camp for at least 20 nights at designated Scouting activities or events. One long-term), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 9a (Camp for at least 20 nights at designated Scouting activities or events. One long-term), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must camp for at least twenty nights under tents or outdoor shelters during official Scouting excursions. A maximum of six consecutive nights from one long-term summer camp may be credited toward this total.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -755,7 +755,7 @@
 **[Parent Directive]:** *Show experience in camping by doing the following*
 **Official Requirement 9c:** On any of these camping experiences, perform a conservation project approved by the landowner or land managing agency. This can be done alone or with others.
 **Source:** *Official Scouting America Camping Merit Badge Pamphlet (p. 21, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For camping Requirement 9c (On any of these camping experiences, perform a conservation project approved by the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Camping Requirement 9c (On any of these camping experiences, perform a conservation project approved by the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing a conservation project requires coordination with local park rangers or private landowners to address actual environmental needs. Projects like erosion control, trail water-bar construction, or invasive weed eradication restore public outdoor resources.
 - **Common Myth:** Scouts think picking up casual trail litter fulfills the formal conservation project requirement.

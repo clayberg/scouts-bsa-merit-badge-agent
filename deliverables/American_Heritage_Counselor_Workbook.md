@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Heritage.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-heritage/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -69,7 +69,7 @@
 **Official Requirement 2a:** Select two individuals from American history, one a political leader (a president, senator, etc.) and the other a private citizen (a writer, religious leader, etc.). Find out about each person's accomplishments and compare the contributions each has made to America's heritage.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2a Technical Comparison Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your American Heritage Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 2a (Select two individuals from American history, one a political leader (a president, senator,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 2a (Select two individuals from American history, one a political leader (a president, senator,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing an elected official with a private reformer highlights the complementary roles of institutional authority and citizen activism. Both pathways shaped American laws and cultural standards through different levers of power.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -91,7 +91,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 2b:** With your counselor's approval, choose an organization that has promoted some type of positive change in American society. Find out why the organization believed this change was necessary and how it helped to accomplish the change. Discuss how this organization is related to events or situations from America's past.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 2b (With your counselor's approval, choose an organization that has promoted some type of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 2b (With your counselor's approval, choose an organization that has promoted some type of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating advocacy groups reveals how organized citizens identified societal injustices and campaigned for statutory changes. These organizations built public support through published bulletins, public demonstrations, and legislative lobbying.
 - **Common Myth:** Social reform organizations were created by government mandates rather than voluntary citizen initiatives.
@@ -111,7 +111,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 2c:** With your counselor's approval, interview two veterans of the U. S. military. Find out what their experiences were like. Ask the veterans what they believe they accomplished.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 2c (With your counselor's approval, interview two veterans of the U. S. military. Find out what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 2c (With your counselor's approval, interview two veterans of the U. S. military. Find out what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing military veterans provides vital eyewitness documentation of American defense operations and military culture. Scouts record personal narratives regarding training, deployment duties, and the meaning of national service.
 - **Common Myth:** All military veterans share identical combat perspectives regardless of their specific era or branch.
@@ -131,7 +131,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 2d:** With your counselor's approval, interview three people in your community of different ages and occupations. Ask these people what America means to them, what they think is special about this country, and what American traditions they feel are important to preserve.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 38, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 2d (With your counselor's approval, interview three people in your community of different ages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 2d (With your counselor's approval, interview three people in your community of different ages), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Surveying diverse community members uncovers wide-ranging perspectives on democratic heritage, economic opportunity, and civic duty. This cross-section demonstrates how national values apply across varied demographic backgrounds.
 - **Common Myth:** Community members of different age groups view American civic ideals in uniform ways.
@@ -151,7 +151,7 @@
 #### Req 3a: Current Events in History
 **Official Requirement 3a:** Select a topic related to the United States that is currently in the news. Describe to your counselor what is happening. Explain how today's events are related to or affected by the events and values of America's past.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 3a (Select a topic related to the United States that is currently in the news. Describe to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 3a (Select a topic related to the United States that is currently in the news. Describe to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing a current news issue through a historical lens reveals long-term constitutional and economic trends. Connecting contemporary events to historical roots helps citizens understand the underlying causes of modern policy challenges.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -174,7 +174,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** For the following, describe its adoption, tell about any changes since its adoption, and explain how each one continues to influence Americans today: the flag, the Pledge of Allegiance, the Great Seal of the United States, the motto, and the national anthem.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 3b (For the following, describe its adoption, tell about any changes since its adoption, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 3b (For the following, describe its adoption, tell about any changes since its adoption, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - National symbols represent evolving civic ideals that Congress modified periodically to reflect territorial expansion and changing national commitments. Studying these emblems illuminates how Americans express unity and shared constitutional values.
 - **Common Myth:** The American flag and the Pledge of Allegiance remained unchanged since their initial adoption.
@@ -193,7 +193,7 @@
 #### Req 3c: Family Genealogical Roots
 **Official Requirement 3c:** Research your family's history. Find out how various events and situations in American history affected your family. If your family immigrated to America, tell the reasons why. Share what you find with your counselor.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 19, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 3c (Research your family's history. Find out how various events and situations in American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 3c (Research your family's history. Find out how various events and situations in American), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tracing genealogy reveals how federal legislation, military conflicts, and industrialization directly influenced family migration decisions. Scouts discover their family heritage as an integral thread within the larger American history.
 - **Common Myth:** Family histories contain only personal memories unconnected to national historical movements and economic eras.
@@ -215,7 +215,7 @@
 #### Req 4a: National Historic Register Mapping
 **Official Requirement 4a:** Explain the National Register of Historic Places and how a property becomes eligible for listing in the National Register of Historic Places. Make a map of your local area, marking the points of historical interest. Tell about any National Register properties in your area. Share the map with your counselor, and describe the historical points you have indicated.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 4a (Explain the National Register of Historic Places and how a property becomes eligible for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 4a (Explain the National Register of Historic Places and how a property becomes eligible for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The National Register serves as the official national list of historic properties deemed worthy of preservation. Properties achieve listing by demonstrating significant associations with historic events, individuals, architecture, or archaeological data.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -240,7 +240,7 @@
 #### Req 4b: Local Historical Event Investigation
 **Official Requirement 4b:** Research an event of historical importance that took place in or near your area. If possible, visit the place. Tell your counselor about the event and how it affected local history. Describe how the area looked then and what it now looks like.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 4b (Research an event of historical importance that took place in or near your area. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 4b (Research an event of historical importance that took place in or near your area. If), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating local history highlights how regional incidents shaped broader county and state development. Visiting local sites allows Scouts to examine physical terrain and architecture associated with historical turning points.
 - **Common Myth:** Significant historical events took place exclusively in major capital cities or famous battlegrounds.
@@ -258,7 +258,7 @@
 #### Req 4c: Neighborhood Origins and Evolution
 **Official Requirement 4c:** Find out when, why, and how your town or neighborhood started, and what ethnic, national, or racial groups played a part. Find out how the area has changed over the past 50 years and try to explain why.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 4c (Find out when, why, and how your town or neighborhood started, and what ethnic, national,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 4c (Find out when, why, and how your town or neighborhood started, and what ethnic, national,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Examining local community origins reveals the diverse immigrant groups and industries that established municipal infrastructure. Tracking changes over five decades shows how suburbanization, transportation, and economics altered town character.
 - **Common Myth:** Local town boundaries and ethnic demographic distributions remained unchanged throughout twentieth-century industrial expansion.
@@ -275,7 +275,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 4d:** Take an active part in a program about an event or person in American history. Report to your counselor about the program, the part you took, and the subject.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 4d (Take an active part in a program about an event or person in American history. Report to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 4d (Take an active part in a program about an event or person in American history. Report to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Active involvement in historic commemorations gives Scouts practical experience in public interpretation and primary source presentation. Scouts learn to portray historical figures or explain period equipment accurately to the general public.
 - **Common Myth:** Historic reenactments are simple theatrical plays that do not require factual research or accuracy.
@@ -291,7 +291,7 @@
 #### Req 4e: Historic Trail Site Survey
 **Official Requirement 4e:** Visit a historic trail or walk in your area. After your visit, share with your counselor what you have learned. Discuss the importance of this location and explain why you think it might qualify for National Register listing.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 40, p. 44)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 4e (Visit a historic trail or walk in your area. After your visit, share with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 4e (Visit a historic trail or walk in your area. After your visit, share with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Walking historic trails or heritage paths grounds historical study in physical geography and historic transport corridors. Scouts observe how natural barriers like rivers and ridges directed early trade, migration, and military movements.
 - **Common Myth:** A historic trail is simply a modern recreational path that happens to pass through woods.
@@ -313,7 +313,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5a:** Watch two motion pictures (with the approval and permission of your counselor and parent or guardian) that are set in some period of American history. Describe to your counselor how accurate each film is with regard to the historical events depicted and also with regard to the way the characters are portrayed.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 5a (Watch two motion pictures (with the approval and permission of your counselor and parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 5a (Watch two motion pictures (with the approval and permission of your counselor and parent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts review period films to separate historical reality from dramatic fiction. Evaluating movie accuracy teaches Scouts to detect cinematic embellishments and compare dramatizations with textbook records.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -335,7 +335,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5b:** Read a biography (with your counselor's approval) of someone who has made a contribution to America's heritage. Tell some things you admire about this individual and some things you do not admire. Explain why you think this person has made a positive or a negative contribution to America's heritage.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 5b (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 5b (Read a biography (with your counselor's approval) of someone who has made a contribution to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reading an in-depth biography uncovers the complex motivations and decisions of prominent figures in American heritage. Scouts analyze admirable leadership traits alongside the difficult choices and setbacks that shaped the individual's life.
 - **Common Myth:** Biographies only list celebrated heroic actions while omitting personal failures and professional controversies.
@@ -353,7 +353,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5c:** Listen to recordings of popular songs from various periods of American history. Share five of these songs with your counselor, and describe how each song reflects the way people felt about the period in which it was popular. If a recording is not available, have a copy of the lyrics available.
 **Source:** *Official Scouting America American Heritage Merit Badge Pamphlet (p. 48, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american heritage Requirement 5c (Listen to recordings of popular songs from various periods of American history. Share five), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Heritage Requirement 5c (Listen to recordings of popular songs from various periods of American history. Share five), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Listening to historical songs uncovers how ordinary citizens expressed hope, grief, and political protests during distinct eras. Musical lyrics provide vivid emotional snapshots of wartime mobilization, labor struggles, and social reform movements.
 - **Common Myth:** Historical songs were written purely for entertainment and carried no serious political or social commentary.

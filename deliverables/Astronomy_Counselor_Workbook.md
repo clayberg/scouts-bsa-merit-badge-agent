@@ -43,7 +43,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in astronomy activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never observe the Sun through unfiltered optics because instant permanent retinal blindness occurs.
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts encounter tripping hazards, sudden weather shifts, and nocturnal wildlife during outdoor sessions. Careful site reconnaissance and red light usage mitigate disorientation and physical impact injuries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -52,7 +52,7 @@
 - **Common Myth:** Observing hazards only happen while using optical equipment rather than navigating the dark site.
 - **Pamphlet Fact:** Tripping over equipment in low light causes common injuries during nighttime observing sessions.
 
-![Red Light Discipline diagram illustrating how red light flashlights protect pupil dilation and preserve human night vision adaptation.](/assets/pamphlet_images/astronomy_p003_img1.png)
+![Technical diagram of red light discipline principles and field relationships in Astronomy (Requirement 1).](/assets/pamphlet_images/astronomy_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -65,7 +65,7 @@
 #### Req 1b: Field Illness and Eye Care
 **Official Requirement 1b:** Explain first aid for injuries or illnesses such as heat and cold reactions, dehydration, bites and stings, and damage to your eyes that could occur during observations.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 1b (Explain first aid for injuries or illnesses such as heat and cold reactions, dehydration,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 1b (Explain first aid for injuries or illnesses such as heat and cold reactions, dehydration,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - First aid protocols address hypothermia, dehydration, insect stings, and eye trauma during observing. Rapid warming, shelter access, and oral rehydration prevent mild cold reactions from escalating.
 - **Common Myth:** Hypothermia only occurs during winter observing runs rather than windy autumn evenings.
@@ -84,7 +84,7 @@
 #### Req 1c: Cold Weather Observation Apparel
 **Official Requirement 1c:** Describe the proper clothing and other precautions for safely making observations at night and in cold weather.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 1c (Describe the proper clothing and other precautions for safely making observations at night), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 1c (Describe the proper clothing and other precautions for safely making observations at night), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stagnant telescope viewing requires insulated boots, thermal headwear, and breathable windproof outer garments. Moisture wicking base layers keep observers dry and warm throughout long overnight watches.
 - **Common Myth:** Heavy winter jackets alone provide sufficient insulation for prolonged stationary nighttime telescope viewing.
@@ -101,7 +101,7 @@
 #### Req 1d: Safe Solar Observation Methods
 **Official Requirement 1d:** Explain how to safely observe the Sun, objects near the Sun and solar eclipses.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 11, p. 13)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 1d (Explain how to safely observe the Sun, objects near the Sun and solar eclipses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 1d (Explain how to safely observe the Sun, objects near the Sun and solar eclipses), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Direct solar viewing requires certified ISO twelve one two three two compliant filters. Pinhole projection boxes provide safe indirect methods for tracking progress during solar eclipses.
 - **Common Myth:** Stacking multiple ordinary sunglasses provides sufficient filtration to view a solar eclipse safely.
@@ -149,7 +149,7 @@
 #### Req 3a: Binocular and Telescope Fundamentals
 **Official Requirement 3a:** Explain why binoculars and telescopes are important astronomical tools. Demonstrate or explain how these tools are used.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 3a (Explain why binoculars and telescopes are important astronomical tools. Demonstrate or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 3a (Explain why binoculars and telescopes are important astronomical tools. Demonstrate or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Binoculars provide wide field views that orient observers before using high magnification telescope barrels. Binocular optics use prisms to yield upright stereoscopic images of nebulae and star clusters.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -158,7 +158,7 @@
 - **Common Myth:** Binoculars lack sufficient optical power to display astronomical targets like the lunar surface.
 - **Pamphlet Fact:** Binoculars offer wide field stereoscopic viewing ideal for sweeping extended open star clusters.
 
-![Aperture Light Gathering diagram illustrating how larger objective lenses collect more light photons to brighten dim celestial targets.](/assets/pamphlet_images/astronomy_p012_img1.png)
+![Technical diagram of aperture light gathering principles and field relationships in Astronomy (Requirement 1).](/assets/pamphlet_images/astronomy_p012_img1.png)
 
 | Skill Station Step | Required Technique & Safety Standard | Buddy / Counselor Sign-Off Notes |
 | :--- | :--- | :--- |
@@ -170,7 +170,7 @@
 #### Req 3b: Astronomical Telescope Optical Designs
 **Official Requirement 3b:** Describe the similarities and differences of several types of astronomical telescopes, including at least one that observes light beyond the visible part of the spectrum (i. e., radio, X-ray, ultraviolet, or infrared)
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 3b (Describe the similarities and differences of several types of astronomical telescopes,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 3b (Describe the similarities and differences of several types of astronomical telescopes,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Refractor, reflector, and catadioptric designs use specific combinations of lenses and mirrors to focus visible light. Radio telescopes employ large parabolic metal surfaces to focus long invisible radio wavelengths.
 - **Common Myth:** All astronomical telescopes capture visible light rays using glass lenses or coated glass mirrors.
@@ -189,7 +189,7 @@
 #### Req 3c: Telescope Accessories and Instruments
 **Official Requirement 3c:** Explain the purposes of three instruments used with astronomical telescopes.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 3c (Explain the purposes of three instruments used with astronomical telescopes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 3c (Explain the purposes of three instruments used with astronomical telescopes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Instruments such as finderscopes, star diagonals, Barlow lenses, and color filters expand telescope capabilities. Eyepieces determine magnification while color filters enhance contrast on planetary surface features.
 - **Common Myth:** Eyepiece filters increase the total light entering the optical tube assembly from space.
@@ -206,7 +206,7 @@
 #### Req 3d: Optical Instrument Maintenance Protocols
 **Official Requirement 3d:** Describe the proper care and storage of telescopes and binoculars both at home and in the field.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 62, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 3d (Describe the proper care and storage of telescopes and binoculars both at home and in the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 3d (Describe the proper care and storage of telescopes and binoculars both at home and in the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Telescopes require dry, dust free indoor storage with objective dust covers firmly in place. Field equipment must equilibrate to ambient air temperatures to prevent dew condensation from damaging optics.
 - **Common Myth:** Eyepieces and mirrors should be cleaned frequently with standard commercial glass cleaning sprays.
@@ -229,7 +229,7 @@
 **Official Requirement 4a:** Identify in the sky 10 constellations, at least four of which are in the zodiac.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4a Night-Sky Constellation Observation Chart (10 Total, 4+ in Zodiac)
 > **Guide to Safe Scouting Warning:** Use red-lens flashlights during night observing to preserve night vision and prevent tripping hazards.
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 4a (Identify in the sky 10 constellations, at least four of which are in the zodiac), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 4a (Identify in the sky 10 constellations, at least four of which are in the zodiac), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observers locate zodiacal constellations along the ecliptic band using bright anchor stars and asterisms. Seasonal shifts bring different constellations into view as Earth completes its annual solar orbit.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -252,7 +252,7 @@
 #### Req 4b: Conspicuous Magnitude Star Locations
 **Official Requirement 4b:** Identify in the sky eight conspicuous stars, five of which are of magnitude 1 or brighter.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 4b (Identify in the sky eight conspicuous stars, five of which are of magnitude 1 or brighter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 4b (Identify in the sky eight conspicuous stars, five of which are of magnitude 1 or brighter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigational stars like Sirius, Vega, Rigel, and Arcturus define the bright zero and first magnitudes. Magnitude measurements calibrate relative stellar brightness visible through binoculars and naked eye observation.
 - **Common Myth:** A higher numerical magnitude value corresponds to a brighter star in the night sky.
@@ -269,7 +269,7 @@
 #### Req 4c: Circumpolar Constellation Motion Sketches
 **Official Requirement 4c:** Make two sketches of the Big Dipper or Cassiopeia from direct observation. In one sketch, show the Big Dipper's or Cassiopeia's orientation in the early evening sky. Make another sketch, showing its position several hours later. In both sketches, show the North Star and the horizon. Record the date and time each sketch was made.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 4c (Make two sketches of the Big Dipper or Cassiopeia from direct observation. In one sketch,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 4c (Make two sketches of the Big Dipper or Cassiopeia from direct observation. In one sketch,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts sketch the Big Dipper or Cassiopeia hours apart to record diurnal rotational shifts. Aligning the pointer stars shows the stationary center of rotation anchored near Polaris.
 - **Common Myth:** The Big Dipper remains in a fixed sky orientation throughout an entire night.
@@ -289,7 +289,7 @@
 #### Req 4d: Milky Way Galactic Structure
 **Official Requirement 4d:** Explain what we see when we look at the Milky Way.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 4d (Explain what we see when we look at the Milky Way), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 4d (Explain what we see when we look at the Milky Way), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Viewing the Milky Way reveals our interior perspective through the flat disc of our spiral galaxy. Billions of unresolved stars blend together with interstellar dust clouds to form the luminous band.
 - **Common Myth:** The Milky Way is a cloud of glowing gas rather than billions of distant stars.
@@ -312,7 +312,7 @@
 **Official Requirement 5a:** List the names of the five most visible planets. Explain which ones can appear in phases similar to lunar phases and which ones cannot, and explain why.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Astronomy Req 5 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 5a (List the names of the five most visible planets. Explain which ones can appear in phases), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 5a (List the names of the five most visible planets. Explain which ones can appear in phases), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mercury, Venus, Mars, Jupiter, and Saturn form the classical five visible naked eye planets. Only Mercury and Venus exhibit crescent and gibbous phases because their orbits lie inside Earth orbit.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -334,7 +334,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5b:** Using the internet (with your parent or guardian's permission) and other resources, find out when each of the five most visible planets that you identified in requirement 5(a) will be observable in the evening sky during the next 12 months, then compile this information in the form of a chart or table.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 5b Five Naked-Eye Planets 12-Month Visibility & Motion Chart
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 5b (Using the internet (with your parent or guardian's permission) and other resources, find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 5b (Using the internet (with your parent or guardian's permission) and other resources, find), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Astronomy software, star charts, and astronomical almanacs predict planetary coordinates and rise times throughout the year. Tracking orbital positions enables observers to schedule optimal viewing sessions during planetary oppositions.
 - **Common Myth:** Planets rise and set at identical clock times each night like distant stars.
@@ -353,7 +353,7 @@
 #### Req 5c: Planetary Motion Along Ecliptic
 **Official Requirement 5c:** Describe the motion of the planets across the sky.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 5c (Describe the motion of the planets across the sky), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 5c (Describe the motion of the planets across the sky), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Planets move eastward along the ecliptic path against the background history of fixed constellations. When Earth overtakes a slower outer planet, that planet appears to reverse direction in retrograde motion.
 - **Common Myth:** Planets remain permanently fixed in their positions relative to the background constellations.
@@ -370,7 +370,7 @@
 #### Req 5d: Direct Telescopic Planetary Observation
 **Official Requirement 5d:** Observe a planet and describe what you saw.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 35, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 5d (Observe a planet and describe what you saw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 5d (Observe a planet and describe what you saw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing a planet through high magnification reveals cloud bands, ring systems, or attendant orbital moons. Observers sketch visible surface characteristics and log atmospheric seeing conditions during the telescopic session.
 - **Common Myth:** Small telescopes instantly display bright colors on planetary surfaces identical to spacecraft photos.
@@ -391,7 +391,7 @@
 #### Req 6a: Lunar Topography and Landmark Sketching
 **Official Requirement 6a:** Sketch the face of the Moon and indicate five seas and five craters. Label these landmarks.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 6a (Sketch the face of the Moon and indicate five seas and five craters. Label these landmarks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 6a (Sketch the face of the Moon and indicate five seas and five craters. Label these landmarks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drawing the Moon requires identifying prominent features such as Mare Imbrium and crater Tycho. Observing near the terminator reveals sharp topographical relief across crater rims, central peaks, and ejecta blankets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -414,7 +414,7 @@
 #### Req 6b: Multi Night Lunar Tracking Sketches
 **Official Requirement 6b:** Sketch the phase and position of the Moon, at the same hour and place, for four nights (or days) within a one-week period by direct observation. Include landmarks on the horizon such as hills, trees, and buildings. Explain the changes you observe.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 6b (Sketch the phase and position of the Moon, at the same hour and place, for four nights (or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 6b (Sketch the phase and position of the Moon, at the same hour and place, for four nights (or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Daily observations at a consistent hour demonstrate the eastward orbital motion of the Moon. Recording horizon reference points illustrates daily phase transitions from crescent through gibbous forms.
 - **Common Myth:** The Moon rises at the exact same hour and horizon position every evening.
@@ -433,7 +433,7 @@
 #### Req 6c: Lunar Orbital Gravitational Mechanics
 **Official Requirement 6c:** List the factors that keep the Moon in orbit around Earth.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 6c (List the factors that keep the Moon in orbit around Earth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 6c (List the factors that keep the Moon in orbit around Earth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Earth gravitational force continuously accelerates the Moon inward while forward orbital velocity provides centripetal balance. This delicate equilibrium maintains a stable elliptical trajectory roughly two hundred thirty eight thousand miles away.
 - **Common Myth:** There is zero gravity in space holding the Moon in its path around Earth.
@@ -451,7 +451,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6d:** With the aid of diagrams, explain the relative positions of the Sun, Earth, and the Moon at the times of lunar and solar eclipses, and at the times of new, first-quarter, full, and last-quarter phases of the Moon.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 43, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 6d (With the aid of diagrams, explain the relative positions of the Sun, Earth, and the Moon at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 6d (With the aid of diagrams, explain the relative positions of the Sun, Earth, and the Moon at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Relative spatial alignments of Sun, Earth, and Moon produce regular recurring lunar phases each month. Eclipses require the Moon to cross orbital node points directly aligned with the Sun and Earth.
 - **Common Myth:** Lunar phases are caused by Earth casting a dark shadow on the Moon surface.
@@ -472,7 +472,7 @@
 #### Req 7a: Solar Composition and Terrestrial Radiation
 **Official Requirement 7a:** Describe the composition of the Sun, its relationship to other stars, and some effects of its radiation on Earth's weather and communications.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 7a (Describe the composition of the Sun, its relationship to other stars, and some effects of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 7a (Describe the composition of the Sun, its relationship to other stars, and some effects of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Sun is a yellow dwarf star composed primarily of ionized hydrogen and helium plasma. Solar wind and coronal mass ejections bombard Earth magnetosphere, causing auroras and radio communication blackouts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -494,7 +494,7 @@
 #### Req 7b: Sunspot Dynamics and Solar Activity
 **Official Requirement 7b:** Define sunspots and describe some of the effects they may have on solar radiation.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 7b (Define sunspots and describe some of the effects they may have on solar radiation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 7b (Define sunspots and describe some of the effects they may have on solar radiation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sunspots represent regions of intense magnetic activity that suppress normal convective plasma heat transfer. Sunspot frequencies fluctuate along an eleven year cycle, altering solar flare output and ultraviolet emissions.
 - **Common Myth:** Sunspots are permanent burned out carbon holes floating across the solar photosphere layer.
@@ -511,7 +511,7 @@
 #### Req 7c: Stellar Classification and Color Temperature
 **Official Requirement 7c:** Identify at least one red star, one blue star, and one yellow star (other than the Sun). Explain the meaning of these colors.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 9, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 7c (Identify at least one red star, one blue star, and one yellow star (other than the Sun).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 7c (Identify at least one red star, one blue star, and one yellow star (other than the Sun).), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stellar color directly reflects photospheric temperature, classified through standard spectral types O, B, A, F, G, K, and M. Observers identify blue stars like Rigel, yellow stars like Capella, and red supergiants like Betelgeuse.
 - **Common Myth:** All night stars share identical temperatures and differ in color only because of atmospheric dust.
@@ -533,7 +533,7 @@
 **Official Requirement 8a:** Visit a planetarium or astronomical observatory. Submit a written report, a scrapbook, OR a video presentation afterward to your counselor that includes the following information: activities occurring there, exhibits and displays you saw, telescopes and other instruments being used, and celestial objects you observed.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Astronomy Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8a (Visit a planetarium or astronomical observatory. Submit a written report, a scrapbook, OR a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8a (Visit a planetarium or astronomical observatory. Submit a written report, a scrapbook, OR a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an observatory or planetarium demonstrates professional telescope mechanics, digital sensor systems, and sky projection technologies. Scouts prepare detailed logs describing optical mounts, primary apertures, and ongoing research programs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -554,7 +554,7 @@
 #### Req 8b: Ten Target Field Observation Session
 **Official Requirement 8b:** Plan and participate in an observation session that includes using binoculars or a telescope and includes at least 10 celestial objects beyond those observed in requirement 4. These might be lunar features, Messier objects, additional constellations or planets, or artificial satellites including the International Space Station. List the celestial objects you want to observe and find each in a star chart, guidebook or by using an app. Prepare a log or notebook. Discuss with your counselor what you hope to observe prior to your observation session. Review your log or notebook with your counselor afterward.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8b (Plan and participate in an observation session that includes using binoculars or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8b (Plan and participate in an observation session that includes using binoculars or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Planning a ten object observing program involves choosing double stars, open clusters, nebulae, and prominent galaxies. Scouts log environmental conditions, instrument specs, and detailed descriptions of each target object viewed.
 - **Common Myth:** Looking directly at faint deep sky objects reveals their finest structural details through eyepieces.
@@ -573,7 +573,7 @@
 #### Req 8c: Troop Star Party Event Leadership
 **Official Requirement 8c:** Plan and host a star party for your Scout troop or other group such as your class at school. Use binoculars or a telescope to show and explain celestial objects to the group.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8c (Plan and host a star party for your Scout troop or other group such as your class at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8c (Plan and host a star party for your Scout troop or other group such as your class at), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hosting a troop star party requires preparing equipment, choosing accessible celestial targets, and teaching sky navigation. Scouts explain eyepiece etiquette and point out prominent constellations to participating youth and adults.
 - **Common Myth:** Star parties should focus exclusively on faint, hard to find distant deep sky galaxies.
@@ -590,7 +590,7 @@
 **[Parent Directive]:** *With your counselor's approval and guidance, do ONE of the following*
 **Official Requirement 8d:** Help an astronomy club in your community hold a star party that is open to the public.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8d (Help an astronomy club in your community hold a star party that is open to the public), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8d (Help an astronomy club in your community hold a star party that is open to the public), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Assisting an amateur astronomy club exposes Scouts to community outreach, diverse optical gear, and public teaching. Volunteers manage visitor queues, guide parking away from observation fields, and explain basic telescope mechanics.
 - **Common Myth:** Community astronomy clubs require members to hold university science degrees before assisting events.
@@ -608,7 +608,7 @@
 **[Parent Directive]:** *With your counselor's approval and guidance, do ONE of the following*
 **Official Requirement 8e:** Personally take a series of photographs or digital images of the movement of the Moon, a planet, an asteroid, meteor, or a comet. In your visual display, label each image and include the date and time it was taken. Show all positions on a star chart or map. Show your display at school or at a troop meeting. Explain the changes you observed.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8e (Personally take a series of photographs or digital images of the movement of the Moon, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8e (Personally take a series of photographs or digital images of the movement of the Moon, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Astrophotography requires tracking mounts, proper camera adapters, and controlled exposure times to prevent motion blur. Labeling visual displays with shutter speeds, f numbers, and dates creates an educational portfolio.
 - **Common Myth:** Handheld smartphones pointed through an eyepiece can capture publication grade deep sky photos instantly.
@@ -627,7 +627,7 @@
 **[Parent Directive]:** *With your counselor's approval and guidance, do ONE of the following*
 **Official Requirement 8f:** With your parent or guardian's and counselor's approval, use online observing opportunities such as SkyNet to observe planets, comets, galaxies, and/or the sun. Describe your experience to your counselor.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 64, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 8f (With your parent or guardian's and counselor's approval, use online observing opportunities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 8f (With your parent or guardian's and counselor's approval, use online observing opportunities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Web platforms like Skynet provide remote access to research grade telescopes positioned at premier global observatories. Scouts schedule image requests, select exposure filters, and download raw astronomical data files for analysis.
 - **Common Myth:** Online robotic telescopes require live manual joystick control during the scheduled imaging exposure run.
@@ -647,7 +647,7 @@
 #### Req 9a: Professional Astronomy Career Pathways
 **Official Requirement 9a:** Identify three career opportunities that would use skills and knowledge in astronomy. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 9a (Identify three career opportunities that would use skills and knowledge in astronomy. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 9a (Identify three career opportunities that would use skills and knowledge in astronomy. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Astronomical careers span research astrophysics, optical engineering, software development, and planetarium educational curation. Candidates require extensive university education, doctoral research experience, and mastery of scientific computer programming languages.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -670,7 +670,7 @@
 #### Req 9b: Personal Astronomy Hobby and Societies
 **Official Requirement 9b:** Identify how you might use the skills and knowledge in astronomy to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Astronomy Merit Badge Pamphlet (p. 75, p. 76)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For astronomy Requirement 9b (Identify how you might use the skills and knowledge in astronomy to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Astronomy Requirement 9b (Identify how you might use the skills and knowledge in astronomy to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Amateur astronomy thrives through national organizations like the Astronomical League and citizen science research initiatives. Hobbyists build observational skills using simple binoculars, homemade Dobsonians, and regional astronomy club shared equipment.
 - **Common Myth:** Amateur astronomy requires spending thousands of dollars on high end computerized telescope equipment.

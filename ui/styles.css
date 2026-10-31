@@ -950,11 +950,21 @@ html, body {
 
 .m3-slide-right-visual > img,
 #stage-diagram-img {
-  width: 100%;
-  max-height: 220px;
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 260px;
   object-fit: contain;
+  object-position: center top;
   border-radius: 8px;
+  display: block;
+  margin: 0 auto;
   background: transparent;
+}
+
+.m3-widescreen-slide[data-archetype="FULL_BLEED_IMAGE_EXPLAINER"] .m3-slide-right-visual > img,
+.m3-widescreen-slide[data-archetype="FULL_BLEED_IMAGE_EXPLAINER"] #stage-diagram-img {
+  max-height: 330px !important;
 }
 
 /* Option C Hybrid Slide Visual Source Pill & Thumbnail Popover */
@@ -1098,9 +1108,10 @@ html, body {
   min-width: 56px;
   max-height: 42px !important;
   object-fit: cover !important;
+  object-position: center 15% !important;
   border-radius: 6px !important;
   border: 1px solid #CBD5E1;
-  background: #FFFFFF;
+  background: #FAF6F0;
   flex-shrink: 0;
 }
 
@@ -2788,9 +2799,10 @@ html, body {
   width: 48px;
   height: 32px;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 5px;
   border: 1px solid #CBD5E1;
-  background: #F8FAFC;
+  background: #FAF6F0;
   flex-shrink: 0;
 }
 

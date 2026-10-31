@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Sculpture.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/sculpture/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -65,7 +65,7 @@
 **Official Requirement 2a:** Model in clay a life-size human head. Then sculpt in modeling clay, carve in wood or plaster, or use 3D modeling software to make a small-scale model of an animal or person. Explain to your counselor the method and tools you used to sculpt the figure.
 **Source:** *Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Sculpture Req 2 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For sculpture Requirement 2a (Model in clay a life-size human head. Then sculpt in modeling clay, carve in wood or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sculpture Requirement 2a (Model in clay a life-size human head. Then sculpt in modeling clay, carve in wood or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sculpting a life-size human head requires building a sturdy armature and establishing primary cranial proportions before refining facial features. Small scale animal or human figures allow sculptors to explore gesture, mass, and balance across clay, carved blocks, or digital polygon meshes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -87,7 +87,7 @@
 #### Req 2b: Plaster Mold Making and Casting
 **Official Requirement 2b:** Make a plaster mold of a fruit or vegetable. In this mold, make a copy of the fruit or vegetable. Explain to your counselor the method and tools you used to make the copy.
 **Source:** *Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For sculpture Requirement 2b (Make a plaster mold of a fruit or vegetable. In this mold, make a copy of the fruit or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sculpture Requirement 2b (Make a plaster mold of a fruit or vegetable. In this mold, make a copy of the fruit or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a waste mold of produce requires embedding the subject to its midline in clay and applying plaster mixed to a creamy consistency. Liquid soap or petroleum jelly acts as a necessary parting agent to ensure the positive cast releases cleanly from the negative mold.
 - **Common Myth:** Plaster casts will release easily from plaster molds without applying any separator or barrier coat.
@@ -108,7 +108,7 @@
 **Official Requirement 2c:** With your parent or guardian's permission and your counselor's approval, visit a museum, art exhibit, art gallery, artists' co-op, or artist's studio. After your visit, share with your counselor what you have learned. Discuss the importance of visual arts and how it strengthens social tolerance and helps stimulate cultural, intellectual, and personal development.
 **Source:** *Official Scouting America Sculpture Merit Badge Pamphlet (p. 23, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Sculpture Req 2c preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For sculpture Requirement 2c (With your parent or guardian's permission and your counselor's approval, visit a museum,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sculpture Requirement 2c (With your parent or guardian's permission and your counselor's approval, visit a museum,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an art museum, co-op, or working sculptor studio reveals how professional artists handle spatial composition, dynamic lighting, and pedestal mounting. Observers evaluate how physical materials, surface textures, and scale convey expressive meaning to viewers moving through three dimensional space.
 - **Common Myth:** Three dimensional sculptures are meant to be viewed from only a single direct frontal vantage point.
@@ -132,7 +132,7 @@
 **Official Requirement 3a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career. Resources: 12 Careers for Sculptors (website) How To Become an Artist/Sculptor (video) Craft Artist Careers (video)
 **Source:** *Official Scouting America Sculpture Merit Badge Pamphlet (p. 59, p. 60)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 3a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Sculpture Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For sculpture Requirement 3a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sculpture Requirement 3a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching sculptural careers involves examining educational degrees in fine arts or industrial design, apprentice training pathways, and entry level compensation rates. Candidates explore daily duties such as client commission management, technical material selection, and collaborative team fabrication across creative industries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -157,7 +157,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 3b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Sculpture Merit Badge Pamphlet (p. 59, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For sculpture Requirement 3b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Sculpture Requirement 3b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing sculpture as a personal hobby requires identifying accessible home studio materials, budgeting for tools, and connecting with local community guilds. Amateur sculptors maintain creative momentum through juried community center exhibitions, regional woodcarving associations, and online craft networks.
 - **Common Myth:** Sculpting at home demands purchasing industrial kilns and expensive heavy machinery immediately.

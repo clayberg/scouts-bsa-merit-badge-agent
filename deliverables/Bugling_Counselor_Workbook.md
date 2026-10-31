@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Music%20Bugling.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/bugling/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -63,7 +63,7 @@
 #### Req 2a: Acoustic Brass Sound Generation
 **Official Requirement 2a:** Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to other brass wind instruments.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For bugling Requirement 2a (Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bugling Requirement 2a (Explain and demonstrate how the bugle makes sound, and explain how the bugle is related to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The performer creates standing sound waves by buzzing lips into the mouthpiece cup. Unlike trumpets with valves that redirect tubing, the bugle relies entirely on air velocity and embouchure control.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -86,7 +86,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** Compose a bugle call for your troop or patrol to signal a common group activity, such as assembling for mealtime or striking a campsite. Play the call that you have composed before your unit or patrol.
 **Source:** *Official Scouting America Bugling Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For bugling Requirement 2b (Compose a bugle call for your troop or patrol to signal a common group activity, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Bugling Requirement 2b (Compose a bugle call for your troop or patrol to signal a common group activity, such as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts compose an original call using the natural pitches of middle C, G, C, E, and G. The composition must convey an unambiguous message through distinct cadence and dynamic contrast.
 - **Common Myth:** Scouts often think an original bugle call can include chromatic scale accidentals.

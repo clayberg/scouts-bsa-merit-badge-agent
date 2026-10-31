@@ -94,7 +94,7 @@
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
 **Official Requirement 3a:** The function of each branch of government.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 3a (The function of each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 3a (The function of each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The legislative branch creates statutory policies, the executive branch enforces federal regulations, and the judicial branch interprets statutes. Each branch operates within clear boundaries defined in the first three constitutional articles.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -117,7 +117,7 @@
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
 **Official Requirement 3b:** Why it is important to divide powers among different branches (c) How each branch checks and balances the others.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Civic & Constitutional Study Organizer):** Req 3b Separation of Powers Study Organizer
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 3b (Why it is important to divide powers among different branches (c) How each branch checks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dividing governmental functions among separate departments prevents tyrannical concentration of unchecked authority. This institutional division guarantees that no single leader or council exercises unrestrained national power.
 - **Common Myth:** A common misunderstanding is that dividing power was intended to maximize bureaucratic administrative speed.
@@ -137,7 +137,7 @@
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
 **Official Requirement 3c:** How each branch checks and balances the others.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Civic & Constitutional Study Organizer):** Req 3c Checks & Balances Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 3c (How each branch checks and balances the others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 3c (How each branch checks and balances the others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The constitutional framework equips each governing branch with legal tools to resist overreach by the others. Vetoes, confirmations, impeachments, and judicial rulings maintain continuous dynamic equilibrium between departments.
 - **Common Myth:** A common misunderstanding is that the Supreme Court can unilaterally veto pending congressional bills.
@@ -155,7 +155,7 @@
 **[Parent Directive]:** *List the three branches of the United States government. Explain*
 **Official Requirement 3d:** How citizens can be involved in each branch of government.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 27, p. 33)* • **Scout Workbook Organizer (Civic & Constitutional Study Organizer):** Req 3d Citizen Participation in Each Branch Organizer
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 3d (How citizens can be involved in each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 3d (How citizens can be involved in each branch of government), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Citizens influence branches through voting for legislators, serving on federal juries, and submitting executive agency comments. Grassroots petitioning, public testimony, and legal advocacy ensure civic voices shape national decision making.
 - **Common Myth:** A common misunderstanding is that voting in presidential elections is the only citizen civic duty.
@@ -177,7 +177,7 @@
 **[Parent Directive]:** *Discuss the importance of*
 **Official Requirement 4a:** Declaration of Independence.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 4a (Declaration of Independence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 4a (Declaration of Independence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Thomas Jefferson drafted this document in 1776 to justify separation from British monarchy based upon unalienable rights. It established the bedrock principle that people retain the right to alter unjust governments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -200,7 +200,7 @@
 **[Parent Directive]:** *Discuss the importance of*
 **Official Requirement 4b:** Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 4b (Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 4b (Bill of Rights (the first 10 Amendments to the Constitution) and the 14th Amendment), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Bill of Rights guarantees personal liberties, while the Fourteenth Amendment ensures due process and equal protection across all states. Together, they shield citizens from arbitrary federal and state governmental intrusions.
 - **Common Myth:** A common misunderstanding is that the original Bill of Rights automatically bound state governments in 1791.
@@ -218,7 +218,7 @@
 **[Parent Directive]:** *Discuss the importance of*
 **Official Requirement 4c:** E Pluribus Unum, the traditional United States motto.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 15, p. 22)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 4c (E Pluribus Unum, the traditional United States motto), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 4c (E Pluribus Unum, the traditional United States motto), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Adopted by the Continental Congress in 1782, E Pluribus Unum translates from Latin as out of many, one. The phrase signifies how independent states and diverse populations unite into a single cohesive democratic republic.
 - **Common Myth:** A common misunderstanding is that E Pluribus Unum was chosen primarily for commercial coinage branding.
@@ -267,7 +267,7 @@
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
 **Official Requirement 6a:** Who the author was (b) What the historical context was.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6a (Who the author was (b) What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6a (Who the author was (b) What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching the author reveals their personal background, public office, and moral motivations during the historical period. Their life experiences explain their credibility and unique perspective on pressing national dilemmas.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -290,7 +290,7 @@
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
 **Official Requirement 6b:** What the historical context was.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6b (What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6b (What the historical context was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Every significant speech emerged from specific historical circumstances like wartime conflict, economic depression, or civil rights struggles. Analyzing the setting reveals what conditions pushed the nation toward a critical crossroad.
 - **Common Myth:** A common misunderstanding is that speeches occur in isolation without influence from surrounding events.
@@ -308,7 +308,7 @@
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
 **Official Requirement 6c:** What difficulties the nation faced that the author wished to discuss (d) What the author said.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6c (What difficulties the nation faced that the author wished to discuss (d) What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The speaker aimed to address severe national difficulties such as armed rebellion, racial injustice, or international threats. Identifying these hurdles clarifies why the speaker chose to intervene with a public address.
 - **Common Myth:** A common misunderstanding is that historic speeches addressed only minor disagreements between political parties.
@@ -326,7 +326,7 @@
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
 **Official Requirement 6d:** What the author said.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6d (What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6d (What the author said), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The core of the speech presents the speaker's main thesis, moral appeals, and recommended course of public action. Summarizing these key arguments demonstrates comprehension of the speaker's primary intent.
 - **Common Myth:** A common misunderstanding is that the speech text contains only poetic phrases without policy ideas.
@@ -344,7 +344,7 @@
 **[Parent Directive]:** *With your counselor's approval, choose a speech of national historical importance. Explain*
 **Official Requirement 6e:** Why the speech is important to the nation's history.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6e (Why the speech is important to the nation's history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6e (Why the speech is important to the nation's history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A speech earns historical stature by altering public debate, inspiring statutory reform, or redefining American founding values. Evaluating its enduring impact shows how words can shift the direction of a society.
 - **Common Myth:** A common misunderstanding is that a speech's importance ends as soon as the applause concludes.
@@ -361,7 +361,7 @@
 #### Req 6f: Personal Passage Reflection
 **Official Requirement 6f:** Choose a sentence or two from the speech that has significant meaning to you, and tell your counselor why.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 42, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 6f (Choose a sentence or two from the speech that has significant meaning to you, and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 6f (Choose a sentence or two from the speech that has significant meaning to you, and tell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting a meaningful passage prompts personal reflection on constitutional values and civic duty today. Explaining your selection helps connect historical wisdom to modern responsibilities as an active citizen.
 - **Common Myth:** A common misunderstanding is that any famous soundbite fulfills this requirement without personal connection.
@@ -386,7 +386,7 @@
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Follow Youth Protection buddy system and parental accompaniment rules when touring federal facilities or historic landmarks.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Nation Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 7a (Visit a place that is listed as a National Historic Landmark or that is on the National), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 7a (Visit a place that is listed as a National Historic Landmark or that is on the National), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a National Historic Landmark brings American heritage to life through preserved architecture, artifacts, and guided interpretations. Scouts learn how specific events at that site contributed to national progress and identity.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -408,7 +408,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 7b:** Tour your state capitol building or the U. S. Capitol. Tell your counselor what you learned about the capitol, its function, and the history.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 7b (Tour your state capitol building or the U. S. Capitol. Tell your counselor what you learned), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 7b (Tour your state capitol building or the U. S. Capitol. Tell your counselor what you learned), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Touring a state capitol or the United States Capitol displays where legislative representatives draft and debate bills. Observing chamber floors and public galleries highlights the open nature of republican governance.
 - **Common Myth:** A common misunderstanding is that state capitols perform the exact same functions as the federal Capitol.
@@ -426,7 +426,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 7c:** Tour a federal facility. Explain to your counselor what you saw and what you learned about its function in the local community and how it serves this nation.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 7c (Tour a federal facility. Explain to your counselor what you saw and what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 7c (Tour a federal facility. Explain to your counselor what you saw and what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Touring a federal facility like a district court, military depot, or weather station demonstrates administrative government in action. Scouts discover how federal employees provide critical daily services to regional communities.
 - **Common Myth:** A common misunderstanding is that federal facilities operate completely independently of their local community needs.
@@ -442,7 +442,7 @@
 #### Req 7d: National Monument in-Depth Research
 **Official Requirement 7d:** Choose a United States national monument that interests you. Using books, brochures, the internet (with your parent or guardian's permission), and other resources, find out more about the monument. Tell your counselor what you learned, and explain why the monument is important to this country's citizens.
 **Source:** *Official Scouting America Citizenship in the Nation Merit Badge Pamphlet (p. 45, p. 46)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the nation Requirement 7d (Choose a United States national monument that interests you. Using books, brochures, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Nation Requirement 7d (Choose a United States national monument that interests you. Using books, brochures, the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching a national monument uncovers the history, engineering, and cultural significance behind its public dedication. Scouts investigate why the nation chose to memorialize specific figures or events with a monument.
 - **Common Myth:** A common misunderstanding is that national monuments are created solely by acts of the United States Congress.

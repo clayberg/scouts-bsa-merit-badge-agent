@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/FireSafety.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fire-safety/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Explain the concept of fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Thermal decomposition creates toxic, invisible gases such as carbon monoxide and hydrogen cyanide before visible flames emerge.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 1a (Explain the concept of fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 1a (Explain the concept of fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fire is rapid oxidation that transforms combustible materials into heated gas compounds. Solids and liquids must undergo pyrolysis or vaporization before flaming ignition occurs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -68,7 +68,7 @@
 #### Req 1b: Fire Tetrahedron and Products
 **Official Requirement 1b:** Name the parts of the fire tetrahedron and the products of combustion.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 1b (Name the parts of the fire tetrahedron and the products of combustion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 1b (Name the parts of the fire tetrahedron and the products of combustion), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The fire tetrahedron models the four elements necessary to maintain flaming combustion. Removing any single component halts the ongoing chemical process and extinguishes the fire.
 - **Common Myth:** A traditional fire triangle contains all necessary factors required to explain flaming combustion.
@@ -86,7 +86,7 @@
 **[Parent Directive]:** *Science of and Hazards of Fire. Do the following*
 **Official Requirement 1c:** Describe the life cycle of a fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 1c (Describe the life cycle of a fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 1c (Describe the life cycle of a fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fires develop through distinct stages comprising incipient, growth, fully developed, and decay phases. Flashover represents a sudden transition driven by radiant heat feedback from ceiling smoke layers.
 - **Common Myth:** A structure fire expands at a steady, linear rate from initial ignition to decay.
@@ -104,7 +104,7 @@
 **[Parent Directive]:** *Science of and Hazards of Fire. Do the following*
 **Official Requirement 1d:** Explain the three methods of heat transfer.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 1d (Explain the three methods of heat transfer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 1d (Explain the three methods of heat transfer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heat moves via conduction through physical solids, convection across moving fluids and gases, and thermal radiation across open spaces. Convective currents drive hot gases upward while radiation ignites adjacent combustible objects.
 - **Common Myth:** Heat travels through building spaces exclusively through rising hot air currents.
@@ -128,7 +128,7 @@
 **Official Requirement 2a:** Explain the different classes of fires.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Discharging water onto energized electrical gear or deep cooking grease causes immediate electrocution or explosive fireball spread.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 2a (Explain the different classes of fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 2a (Explain the different classes of fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fires are grouped into distinct classes based on the chemical nature of the burning fuel. Each class dictates specific extinguishing tactics to avoid accelerating flame spread.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -150,7 +150,7 @@
 #### Req 2b: Extinguishing Agent Compatibility Selection
 **Official Requirement 2b:** Identify the different classes of fire extinguishers and which should be used for each class of fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 2b (Identify the different classes of fire extinguishers and which should be used for each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 2b (Identify the different classes of fire extinguishers and which should be used for each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Extinguishers contain tailored agents such as water, carbon dioxide, dry chemicals, or wet potassium salts. Using an incompatible extinguisher risks explosive spattering, toxic reactions, or operator shock.
 - **Common Myth:** A standard clean-agent carbon dioxide extinguisher leaves corrosive residues on electronic wiring.
@@ -167,7 +167,7 @@
 #### Req 2c: Extinguisher and Blanket Operation
 **Official Requirement 2c:** Demonstrate how to use a fire extinguisher and a fire blanket.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 2c (Demonstrate how to use a fire extinguisher and a fire blanket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 2c (Demonstrate how to use a fire extinguisher and a fire blanket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Operators execute the PASS method while maintaining a safe retreat path away from the fire. Fire blankets smother localized kitchen fires when carefully laid across the vessel rim.
 - **Common Myth:** Tossing a fire blanket loosely from afar seals off oxygen from a burning skillet.
@@ -190,7 +190,7 @@
 **Official Requirement 3a:** Explain and demonstrate the technique of stop, drop, roll, cool, and call.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never remove charred clothing melted onto burn wounds, as tearing loose fabric strips away underlying dermis.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 3a (Explain and demonstrate the technique of stop, drop, roll, cool, and call), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 3a (Explain and demonstrate the technique of stop, drop, roll, cool, and call), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stop, drop, roll, cool, and call halts clothing combustion and limits dermal damage. Covering the eyes and mouth protects the respiratory tract from inhaling superheated thermal gases.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -212,7 +212,7 @@
 #### Req 3b: Fabric Flammability and Burns
 **Official Requirement 3b:** Describe how clothing fires occur, how to prevent them, and how clothing can prevent or contribute to burn injuries.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 3b (Describe how clothing fires occur, how to prevent them, and how clothing can prevent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 3b (Describe how clothing fires occur, how to prevent them, and how clothing can prevent or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Garment fit and fiber composition determine clothing fire risk and burn severity. Tight-fitting natural fibers ignite less readily than loose flowing synthetic fabrics that melt into dermal tissue.
 - **Common Myth:** All natural plant and animal fibers resist flame ignition equally when exposed to sparks.
@@ -229,7 +229,7 @@
 #### Req 3c: Common Burn Injury Causes
 **Official Requirement 3c:** Identify the most frequent causes of burn injuries and how to prevent them.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 3c (Identify the most frequent causes of burn injuries and how to prevent them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 3c (Identify the most frequent causes of burn injuries and how to prevent them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scalds, contact burns, and radiant heat account for most home burn casualties. Keeping hot appliance cords tucked away and lowering water heater thermostats minimizes accidental thermal contact.
 - **Common Myth:** Open flame contact causes nearly all severe household burn injuries treated in trauma centers.
@@ -246,7 +246,7 @@
 #### Req 3d: Airway Burns and Poisoning
 **Official Requirement 3d:** Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon monoxide (CO) poisoning.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 3d (Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 3d (Review the prevention of, symptoms and signs of, and treatment of airway burns and carbon), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Inhaling hot smoke causes swelling of the laryngeal airway, resulting in rapid asphyxiation. Carbon monoxide binds to blood hemoglobin, depriving vital organs of oxygen despite unlabored breathing.
 - **Common Myth:** Victims suffering from lethal carbon monoxide poisoning cough violently due to pungent irritant fumes.
@@ -269,7 +269,7 @@
 **Official Requirement 4a:** Explain the four classifications of fire origin (natural, accidental, incendiary, or undetermined) and give an example of each.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Structural stability collapses unpredictably in burned buildings where floor joists and roof trusses have experienced fire degradation.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 4a (Explain the four classifications of fire origin (natural, accidental, incendiary, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 4a (Explain the four classifications of fire origin (natural, accidental, incendiary, or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fire origins fall into natural, accidental, incendiary, or undetermined categories. Scientific investigation tests physical evidence against multiple working hypotheses to eliminate implausible ignition sources.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -291,7 +291,7 @@
 #### Req 4b: Arson Evidence and Prosecution
 **Official Requirement 4b:** Describe how a fire classified as incendiary might lead to criminal prosecution of a person charged with arson.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 4b (Describe how a fire classified as incendiary might lead to criminal prosecution of a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 4b (Describe how a fire classified as incendiary might lead to criminal prosecution of a person), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Incendiary fires involve deliberate ignition where a person knew the property should not burn. Legal arson investigations require rigorous forensic documentation to support criminal court proceedings.
 - **Common Myth:** Accidental electrical short circuits can result in criminal arson charges against the property owner.
@@ -314,7 +314,7 @@
 **Official Requirement 5a:** Describe how to prevent the frequent causes of home fires, including unattended cooking, electricity, smoking, clothes dryers, and rechargeable batteries.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never attempt to extinguish a flaming grease pan with water; slide a metal lid over the skillet to smother flames.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5a (Describe how to prevent the frequent causes of home fires, including unattended cooking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5a (Describe how to prevent the frequent causes of home fires, including unattended cooking,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cooking, overloaded electrical circuits, and neglected dryer lint filters cause most household structure fires. Vigilant appliance monitoring and dedicated charging surfaces prevent catastrophic ignition events.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -336,7 +336,7 @@
 #### Req 5b: Seasonal and Holiday Fire Risks
 **Official Requirement 5b:** Describe how to prevent frequent causes of seasonal and holiday-related home fires, including fires related to home heating, holiday trees, candles, and fireworks.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5b (Describe how to prevent frequent causes of seasonal and holiday-related home fires,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5b (Describe how to prevent frequent causes of seasonal and holiday-related home fires,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Space heaters, dried holiday trees, and seasonal decorations create severe winter fire risks. Maintaining three feet of clear space around heaters and watering trees daily prevents flash ignition.
 - **Common Myth:** Freshly cut evergreen trees cannot ignite once decorated with modern low-voltage electric light strands.
@@ -353,7 +353,7 @@
 #### Req 5c: Candle Safety and Extinguishment
 **Official Requirement 5c:** Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then with your family, how to safely use candles.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5c (Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5c (Demonstrate how to safely light and extinguish a candle. Discuss with your counselor, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Candles require stable noncombustible bases located far from curtains and circulating room drafts. Snuffing candle flames with a bell snuffer eliminates flying sparks and splattered molten wax.
 - **Common Myth:** Extinguishing candles by blowing hard across the jar opening prevents hot wax spatter.
@@ -370,7 +370,7 @@
 **[Parent Directive]:** *Fire Safety at Home. Do the following*
 **Official Requirement 5d:** Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one approved by your counselor, and with the help of an adult, inspect a home (or a similar building near where you live or at a camp) for fire safety hazards. Present your completed checklist to your counselor and discuss your findings.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5d (Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5d (Using the Home Fire Safety Checklist in the Fire Safety merit badge pamphlet or one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Home safety checklists systematically identify structural hazards, combustible storage risks, and egress impediments. Periodic inspections ensure detection alarms and emergency ladders remain operable.
 - **Common Myth:** A casual glance through living spaces identifies all hidden electrical and fire exit hazards.
@@ -387,7 +387,7 @@
 **[Parent Directive]:** *Fire Safety at Home. Do the following*
 **Official Requirement 5e:** Determine if, and what types of, smoke and CO alarms are required in homes in your community. List what types of smoke and CO alarms your home has, their locations, and their expiration dates.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5e (Determine if, and what types of, smoke and CO alarms are required in homes in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5e (Determine if, and what types of, smoke and CO alarms are required in homes in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Smoke alarms detect combustion particles using photoelectric or ionization sensors, while carbon monoxide alarms measure toxic gas concentration. Local building codes dictate mandatory alarm placement on every level and outside sleeping rooms.
 - **Common Myth:** A ceiling smoke detector detects lethal carbon monoxide emissions leaking from cracked furnace heat exchangers.
@@ -403,7 +403,7 @@
 #### Req 5f: Alarm Testing and Replacement
 **Official Requirement 5f:** Demonstrate maintenance of smoke and CO alarms to your counselor and review plans to replace expired alarms.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5f (Demonstrate maintenance of smoke and CO alarms to your counselor and review plans to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5f (Demonstrate maintenance of smoke and CO alarms to your counselor and review plans to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Regular maintenance involves monthly button testing, vacuuming dust from sensor chambers, and annual battery replacement. Units surpassing their ten-year lifespan must be decommissioned and replaced with modern alarms.
 - **Common Myth:** Changing alkaline batteries annually allows smoke alarms to function indefinitely without complete unit replacement.
@@ -421,7 +421,7 @@
 **[Parent Directive]:** *Fire Safety at Home. Do the following*
 **Official Requirement 5g:** Develop a home fire-escape plan and a fire-drill schedule with your family, draw a floor plan of your home with exits marked and a map showing your family meeting point, and conduct a home fire drill.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 5g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5g (Develop a home fire-escape plan and a fire-drill schedule with your family, draw a floor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5g (Develop a home fire-escape plan and a fire-drill schedule with your family, draw a floor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Home fire escape plans designate two clear exits per room and an immovable outdoor meeting location. Practicing escape drills under low-visibility simulated conditions trains household members to crawl beneath heat.
 - **Common Myth:** Family members should gather on the front porch right outside the burning home doorway.
@@ -440,7 +440,7 @@
 #### Req 5h: Gas Leak and Smoke Actions
 **Official Requirement 5h:** Explain what to do and what not to do if you smell natural gas and if you smell smoke.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5h (Explain what to do and what not to do if you smell natural gas and if you smell smoke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5h (Explain what to do and what not to do if you smell natural gas and if you smell smoke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Natural gas contains mercaptan odorant to alert occupants to explosive atmospheric fuel leaks. Detecting gas or smoke requires immediate evacuation without touching electrical switches, phones, or doorbells.
 - **Common Myth:** Opening all windows to air out natural gas leaks before leaving the house is safe.
@@ -457,7 +457,7 @@
 #### Req 5i: Emergency Fire Reporting Procedures
 **Official Requirement 5i:** Explain how you would report a fire to have the fire department respond.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 5i (Explain how you would report a fire to have the fire department respond), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 5i (Explain how you would report a fire to have the fire department respond), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Calling emergency services requires stating the exact street address, current fire location, and trapped occupant status. Callers must remain calm and stay on the line until instructed to hang up.
 - **Common Myth:** Emergency dispatch systems automatically pinpoint exact mobile phone room locations without caller confirmation.
@@ -480,7 +480,7 @@
 **Official Requirement 6a:** Explain what flammable and combustible liquids are commonly used in homes and how to safely store them.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never fill portable gasoline cans inside vehicle trunks or plastic truck beds where static electricity discharges spark vapors.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 6a (Explain what flammable and combustible liquids are commonly used in homes and how to safely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 6a (Explain what flammable and combustible liquids are commonly used in homes and how to safely), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flammable liquids flash readily at ambient room temperatures, whereas combustible liquids require external preheating to ignite. Both categories require storage in original sealed containers inside dedicated steel cabinets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -502,7 +502,7 @@
 #### Req 6b: Engine Refueling Procedures
 **Official Requirement 6b:** Describe the safe way to refuel a liquid-fueled engine, such as a lawn mower, outboard motor, farm machine, or automobile with fuel from an approved container.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 6b (Describe the safe way to refuel a liquid-fueled engine, such as a lawn mower, outboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 6b (Describe the safe way to refuel a liquid-fueled engine, such as a lawn mower, outboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Refueling machinery requires a completely cooled engine, an outdoor well-ventilated space, and grounded dispensing nozzles. Placing safety cans directly on the ground prevents static electrical discharges during fuel transfer.
 - **Common Myth:** Refueling small power equipment while the engine idles saves starter battery life safely.
@@ -519,7 +519,7 @@
 #### Req 6c: Hazardous Chemical Waste Disposal
 **Official Requirement 6c:** Describe the options available for safely disposing of unwanted flammable, combustible, and hazardous substances in your community.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 6c (Describe the options available for safely disposing of unwanted flammable, combustible, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 6c (Describe the options available for safely disposing of unwanted flammable, combustible, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Leftover solvents, gasoline, and oily paint thinners require disposal through designated municipal hazardous waste collection programs. Dumping volatile petroleum products into domestic drains or soil violates environmental laws and creates explosion hazards.
 - **Common Myth:** Drying out leftover flammable liquid cans with open flames destroys toxic chemical residues safely.
@@ -542,7 +542,7 @@
 **Official Requirement 7a:** Explain how public buildings are designed for fire safety.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never use passenger elevators during a building fire emergency, as shafts draw smoke and cars may lose power.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 7a (Explain how public buildings are designed for fire safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 7a (Explain how public buildings are designed for fire safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Public building designs integrate passive fire barriers, self-closing fire doors, and pressurized stairwells. These structural features divide large buildings into isolated smoke compartments that protect escaping occupants.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -564,7 +564,7 @@
 #### Req 7b: Commercial Fire Suppression Equipment
 **Official Requirement 7b:** Explain what fire safety systems and equipment can be found in public buildings.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 7b (Explain what fire safety systems and equipment can be found in public buildings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 7b (Explain what fire safety systems and equipment can be found in public buildings), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial properties integrate automated water sprinkler networks, manual pull stations, duct smoke detectors, and voice evacuation systems. Central monitoring panels relay alarm signals directly to regional emergency response dispatch centers.
 - **Common Myth:** Smoke alarms in commercial high-rises sound only on the specific floor where smoke is detected.
@@ -583,7 +583,7 @@
 #### Req 7c: Public Space Evacuation Precautions
 **Official Requirement 7c:** Explain what fire safety precautions you should take when you are in a public building.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 7c (Explain what fire safety precautions you should take when you are in a public building), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 7c (Explain what fire safety precautions you should take when you are in a public building), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Patrons in crowded venues must identify secondary emergency exits and note path obstructions immediately upon arrival. When alarms sound, occupants should calmly walk toward the nearest illuminated exit sign rather than main entrances.
 - **Common Myth:** Exiting through the primary public entrance is always the quickest route during theater fires.
@@ -606,7 +606,7 @@
 **Official Requirement 8a:** Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never leave an open campfire unattended for any duration; a sudden wind gust can launch burning embers into trees.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8a (Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8a (Explain how the Leave No Trace Seven Principles and the Outdoor Code apply to camping fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Outdoor Code and Leave No Trace guidelines prioritize using established fire rings and collecting dead fallen wood. Wildfire risks dictate using lightweight backpacking stoves where wood gathering strips fragile natural ecosystems.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -628,7 +628,7 @@
 #### Req 8b: Match Handling and Differences
 **Official Requirement 8b:** Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it. Explain the similarities and differences between safety matches and strike-anywhere matches.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 8b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8b (Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8b (Demonstrate lighting a match safely, the proper way to extinguish it, and to dispose of it.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lighting matches requires closing the matchbook cover and striking away from the body. Extinguished matchsticks must be felt with fingers to confirm zero heat before disposal in fire pits.
 - **Common Myth:** Safety matches ignite on any rough rock surface when struck with sufficient physical pressure.
@@ -644,7 +644,7 @@
 #### Req 8c: Flint and Steel Ignition
 **Official Requirement 8c:** Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching a spark to create a flame. Extinguish the flame safely using one of the principles of the fire tetrahedron.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8c (Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8c (Explain and demonstrate making sparks with flint and steel or with a ferro rod and catching), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Striking high-carbon steel against sharp chert or flint casts sparks onto dry charred cotton cloth or fungus tinder. Nurturing the resulting ember inside a dry fibrous tinder nest produces sustainable open flames.
 - **Common Myth:** Flint and steel tools produce hot open flames instantly without requiring specialized dry tinder.
@@ -660,7 +660,7 @@
 #### Req 8d: Charcoal Fire Management
 **Official Requirement 8d:** Demonstrate the safe way to start a charcoal fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8d (Demonstrate the safe way to start a charcoal fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8d (Demonstrate the safe way to start a charcoal fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Charcoal chimney starters provide safe, chemical-free ignition for Dutch oven cookery. Coals must burn until coated with gray ash before cooking begins, and doused thoroughly before campsite departure.
 - **Common Myth:** Squirt additional lighter fluid onto smoldering charcoal briquettes to accelerate cooking coal temperature rise.
@@ -677,7 +677,7 @@
 #### Req 8e: Campsite Fire Lay Structures
 **Official Requirement 8e:** Describe three common campsite fire lays. Collect, prepare, and set up tinder, kindling, and fuel for a campfire following the Leave No Trace Seven Principles and the Outdoor Code. Ignite your fire lay and safely extinguish your fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8e (Describe three common campsite fire lays. Collect, prepare, and set up tinder, kindling,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8e (Describe three common campsite fire lays. Collect, prepare, and set up tinder, kindling,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tepee, log cabin, and lean-to fire lays provide specific airflow dynamics for varying cooking and heating requirements. Fuel must be sorted by diameter into tinder shavings, finger-sized kindling, and wrist-sized fuel logs.
 - **Common Myth:** Large oak fuel logs ignite directly from paper match flames without intermediate kindling sticks.
@@ -695,7 +695,7 @@
 **[Parent Directive]:** *Fire Safety at Camp. Do the following*
 **Official Requirement 8f:** Demonstrate using a camp stove.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8f (Demonstrate using a camp stove), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8f (Demonstrate using a camp stove), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Camp stoves provide controlled heat with minimal environmental footprint when operated on flat noncombustible ground. Lighting burners requires lighting the match first before gently opening control valves to prevent pooling vapor flare-ups.
 - **Common Myth:** Turning camp stove gas valves fully open before striking matches prevents fuel canister vapor locks.
@@ -712,7 +712,7 @@
 #### Req 8g: Campsite Fire Defense Perimeter
 **Official Requirement 8g:** Explain how to set up and keep a campsite safe from fire.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8g Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8g (Explain how to set up and keep a campsite safe from fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8g (Explain how to set up and keep a campsite safe from fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintaining a fire-safe campsite requires twenty feet of clearance between open flames, sleeping tents, and tree limbs. Keeping full water buckets and shovels beside active rings ensures instantaneous response to escaped embers.
 - **Common Myth:** Pitching tents within three feet of campfire rings keeps sleeping bags warm safely overnight.
@@ -730,7 +730,7 @@
 **[Parent Directive]:** *Fire Safety at Camp. Do the following*
 **Official Requirement 8h:** Develop a lesson plan to teach a fire safety skill or topic, such as lighting a candle or a match or a charcoal fire or a lantern or a camp stove or using flint and steel or setting up a fire lay. Review your lesson plan with your counselor. Teach your skill or topic to one or more Scouts using the EDGE method.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 8h (Develop a lesson plan to teach a fire safety skill or topic, such as lighting a candle or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 8h (Develop a lesson plan to teach a fire safety skill or topic, such as lighting a candle or a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Structured lesson plans outline specific behavioral objectives, required safety gear, step-by-step demonstrations, and supervised practical rehearsals. Instructors verify that learners understand hazard controls before handling ignition tools or fuel appliances.
 - **Common Myth:** Lecturing Scouts about fire prevention rules without hands-on practice builds practical field proficiency.
@@ -753,7 +753,7 @@
 **Official Requirement 9a:** List causes of wildland fires and ways to prevent them.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never attempt to outrun an advancing uphill wildland fire on foot; fires travel faster uphill due to preheated brush.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 9a (List causes of wildland fires and ways to prevent them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 9a (List causes of wildland fires and ways to prevent them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildland fires stem from lightning strikes, equipment sparks, downed power transmission lines, and escaped agricultural debris burns. Defensible space landscaping and seasonal burn bans mitigate ignition vectors across wildland-urban interface zones.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -775,7 +775,7 @@
 #### Req 9b: Wildfire Socioeconomic Environmental Impacts
 **Official Requirement 9b:** Explain the social, economic, and environmental consequences of wildland fires.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 9b (Explain the social, economic, and environmental consequences of wildland fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 9b (Explain the social, economic, and environmental consequences of wildland fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildfires destroy timber reserves, wipe out residential communities, pollute municipal watersheds, and incur billions in fire suppression expenses. Long-term impacts include chronic respiratory ailments, lost tourism revenue, and severe debris flows during post-fire rainstorms.
 - **Common Myth:** Wildfires produce only short-term economic losses limited strictly to destroyed timber acreage value.
@@ -800,7 +800,7 @@
 **Official Requirement 10a:** Visit a fire station in-person. Identify the various types of fire service vehicles. From the firefighters you meet during your visit, learn about the fire prevention activities in your community and about their careers. Discuss with your counselor what you learned during your tour and interviews.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10a Field Visit & Professional Observation Log
 > **Guide to Safe Scouting Warning:** Maintain a safe distance of twenty feet from operating emergency apparatus outriggers and high-pressure hose discharge gates.
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 10a (Visit a fire station in-person. Identify the various types of fire service vehicles. From), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 10a (Visit a fire station in-person. Identify the various types of fire service vehicles. From), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting a municipal fire station reveals how modern emergency crews operate engines, ladder trucks, heavy rescues, and medic ambulances. Firefighters lead community risk reduction programs, commercial building code inspections, and public smoke alarm installations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -822,7 +822,7 @@
 #### Req 10b: Fire Protection Career Opportunities
 **Official Requirement 10b:** Identify three career opportunities that would use skills and knowledge in the field of fire safety. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Fire Safety Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 10b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fire safety Requirement 10b (Identify three career opportunities that would use skills and knowledge in the field of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fire Safety Requirement 10b (Identify three career opportunities that would use skills and knowledge in the field of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fire safety careers extend across municipal firefighting, industrial safety management, fire protection engineering, and forensic arson investigation. Professional qualifications demand degrees in fire science, national certifications, paramedic licensure, and physical agility assessments.
 - **Common Myth:** Career paths in fire safety are limited strictly to shift firefighters riding emergency response vehicles.

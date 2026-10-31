@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wood%20Carving.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/wood-carving/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while wood carving, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never carve toward your body or toward fingers supporting the wooden workpiece.
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while wood carving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while wood carving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Blade slips and flying wood chips present acute hazards during rough shaping cuts. Wearing specialized safety gear and establishing clear spatial boundaries prevents severe cuts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -62,7 +62,7 @@
 #### Req 1b: Carving First Aid Techniques
 **Official Requirement 1b:** Show that you know first aid for injuries that could occur while wood carving, including minor cuts and scratches and splinters.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 15, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 1b (Show that you know first aid for injuries that could occur while wood carving, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 1b (Show that you know first aid for injuries that could occur while wood carving, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Carving incidents typically involve minor slice wounds or deep wood splinters. Prompt cleansing and antiseptic application prevent bacterial contamination from raw timber.
 - **Common Myth:** Squeezing around an embedded wood splinter pushes it out quickly without tools.
@@ -88,7 +88,7 @@
 **Official Requirement 2a:** Earn the Totin' Chip recognition.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never carve while standing or walking, and never leave open blades resting on benches.
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 2a (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 2a (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Totin Chip certification requires demonstrating safe handling, transport, and maintenance of pocketknives and axes. Scouts learn the outdoor code alongside responsible edge stewardship.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -110,7 +110,7 @@
 #### Req 2b: Carving Safety Checklist Review
 **Official Requirement 2b:** Discuss with your counselor your understanding of the Safety Checklist for Carving.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 8, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 2b (Discuss with your counselor your understanding of the Safety Checklist for Carving), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 2b (Discuss with your counselor your understanding of the Safety Checklist for Carving), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The carving checklist reviews lighting, seating posture, cut-resistant equipment, and blade condition before work starts. Adhering to each item minimizes fatigue and accidental tool contact.
 - **Common Myth:** Carving while sitting cross-legged on the ground provides adequate cutting stability.
@@ -135,7 +135,7 @@
 **Official Requirement 3a:** Explain to your counselor, orally or in writing, the care and use of five types of tools that you may use in a carving project.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep sharpening strokes trailing away from fingers and never test sharpness by dragging skin across edges.
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 3a (Explain to your counselor, orally or in writing, the care and use of five types of tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 3a (Explain to your counselor, orally or in writing, the care and use of five types of tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Five essential tools include the carving knife, straight gouge, skew chisel, parting tool, and riffler rasp. Protecting tool edges with wooden racks and wiping them with light camellia oil stops rust.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -157,7 +157,7 @@
 #### Req 3b: Sharpening Device Maintenance and Operation
 **Official Requirement 3b:** Tell your counselor how to care for and use several types of sharpening devices, then demonstrate that you know how to use these devices.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 32)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 3b (Tell your counselor how to care for and use several types of sharpening devices, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 3b (Tell your counselor how to care for and use several types of sharpening devices, then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sharpening systems combine oilstones, waterstones, slipstones, and strop blocks. Slipstones with contoured radiuses allow hone access into tight concave gouge flutes without flattening factory profiles.
 - **Common Myth:** High speed motorized grinding wheels sharpen delicate wood carving gouges safely and effectively.
@@ -183,7 +183,7 @@
 **Official Requirement 4a:** Paring cut (b) Basic cut and push cut (c) V cut (d) Stop cut or score line.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Ensure the supporting thumb wears a leather thumb guard during paring and levering cuts.
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 4a (Paring cut (b) Basic cut and push cut (c) V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 4a (Paring cut (b) Basic cut and push cut (c) V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The paring cut draws the knife edge toward the carver using the thumb of the cutting hand as a fulcrum. Maintaining a thick leather thumb guard prevents accidental puncture during delicate detailing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -206,7 +206,7 @@
 **[Parent Directive]:** *Using a piece of scrap wood or a project on which you are working, show your counselor that you know how to do the following*
 **Official Requirement 4b:** Basic cut and push cut (c) V cut (d) Stop cut or score line.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 4b (Basic cut and push cut (c) V cut (d) Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 4b (Basic cut and push cut (c) V cut (d) Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The basic cut slices wood moving away from the body while the push cut adds the opposite thumb against the blade spine. This dual-hand engagement generates controlled leverage without blade slippage.
 - **Common Myth:** Push cuts require locking elbows and pushing with full body weight behind the blade.
@@ -224,7 +224,7 @@
 **[Parent Directive]:** *Using a piece of scrap wood or a project on which you are working, show your counselor that you know how to do the following*
 **Official Requirement 4c:** V cut.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 4c (V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 4c (V cut), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The V-cut removes a triangular prism of waste by making two angled incisions that intersect at an apex. Precise angle symmetry creates crisp, shadow-defining grooves for lettering and decorative borders.
 - **Common Myth:** Both sides of a V-cut can be carved simultaneously using a standard straight knife.
@@ -242,7 +242,7 @@
 **[Parent Directive]:** *Using a piece of scrap wood or a project on which you are working, show your counselor that you know how to do the following*
 **Official Requirement 4d:** Stop cut or score line.
 **Source:** *Official Scouting America Wood Carving Merit Badge Pamphlet (p. 28, p. 39)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wood carving Requirement 4d (Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wood Carving Requirement 4d (Stop cut or score line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A stop cut scores a vertical boundary that halts adjoining slicing cuts and prevents split runout. Slicing wood toward the score line creates clean shadow lines around raised relief elements.
 - **Common Myth:** A shallow scratch line on timber acts as a functional stop cut boundary.

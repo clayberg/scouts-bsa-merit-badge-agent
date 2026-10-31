@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Chess.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/chess/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 #### Req 1a: Origins of Modern Chess
 **Official Requirement 1a:** Discuss with your counselor the history of the game of chess.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 1a (Discuss with your counselor the history of the game of chess), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 1a (Discuss with your counselor the history of the game of chess), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Early chess variants simulated four divisions of the Indian military including infantry, cavalry, elephants, and chariots. Arab players preserved tactical treatises after absorbing the game from Sassanid Persia.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Historic Champion Career Analysis
 **Official Requirement 1b:** Research a famous chess player and what accomplishments made him or her famous. Discuss with your counselor.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 19, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 1b (Research a famous chess player and what accomplishments made him or her famous. Discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 1b (Research a famous chess player and what accomplishments made him or her famous. Discuss), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching a prominent world champion reveals key tactical breakthroughs and rigorous personal training habits. Scouts explain how their chosen player altered competitive tournament play and theory.
 - **Common Myth:** Historic champions won games purely through natural instinct without studying opening theory.
@@ -84,7 +84,7 @@
 **[Parent Directive]:** *Discuss with your counselor the following*
 **Official Requirement 2a:** Why chess is considered a game of planning and strategy.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 13, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 2a (Why chess is considered a game of planning and strategy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 2a (Why chess is considered a game of planning and strategy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Strategy provides the broad blueprint while tactical combinations execute immediate short term targets. Formulating plans requires evaluating material balance, king safety, and positional control.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -107,7 +107,7 @@
 **[Parent Directive]:** *Discuss with your counselor the following*
 **Official Requirement 2b:** The benefits of playing chess, including developing critical thinking skills, concentration skills, and decision-making skills, and how these skills can help you in other areas of your life.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 13, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 2b (The benefits of playing chess, including developing critical thinking skills, concentration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 2b (The benefits of playing chess, including developing critical thinking skills, concentration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Systematic board evaluation cultivates critical thinking skills and long duration concentration under time pressure. These analytical habits assist students when resolving complex academic and personal challenges.
 - **Common Myth:** Chess skills remain isolated on the board without transferring to real life.
@@ -127,7 +127,7 @@
 **[Parent Directive]:** *Discuss with your counselor the following*
 **Official Requirement 2c:** Sportsmanship and chess etiquette.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 13, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 2c (Sportsmanship and chess etiquette), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 2c (Sportsmanship and chess etiquette), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Respectful behavior creates a fair competitive environment governed by universal standards of dignity. Players shake hands before contesting games and record moves without disturbing adjacent boards.
 - **Common Myth:** Distracting an opponent through talking or gestures is acceptable competitive psychology.
@@ -149,7 +149,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor that you know each of the following. Then, using Scouting EDGE to teach someone who does*
 **Official Requirement 3a:** The name of each chess piece (b) How to set up a chessboard.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 24, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 3a (The name of each chess piece (b) How to set up a chessboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 3a (The name of each chess piece (b) How to set up a chessboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Each chess piece carries distinct values, operational mobility, and capture mechanics across the board. Scouts name the king, queen, rook, bishop, knight, and pawn accurately.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -172,7 +172,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor that you know each of the following. Then, using Scouting EDGE to teach someone who does*
 **Official Requirement 3b:** How to set up a chessboard.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 24, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 3b (How to set up a chessboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 3b (How to set up a chessboard), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proper setup places white pieces on the first two ranks and black pieces on ranks seven and eight. The queen always occupies the central square matching her own army color.
 - **Common Myth:** Board orientation does not matter as long as back ranks align properly.
@@ -192,7 +192,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor that you know each of the following. Then, using Scouting EDGE to teach someone who does*
 **Official Requirement 3c:** How each chess piece moves and captures, including: four rules of castling, en passant captures, pawn promotion, check, ways to get out of check, and checkmate (d) The five ways a game can end in a draw.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 24, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 3c (How each chess piece moves and captures, including: four rules of castling, en passant), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 3c (How each chess piece moves and captures, including: four rules of castling, en passant), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Understanding piece ranges, check evasion, pawn promotion, castling, and en passant governs lawful play. Players escape check through moving the king, capturing the attacker, or interposing pieces.
 - **Common Myth:** A player may only promote a pawn to pieces previously captured by opponents.
@@ -210,7 +210,7 @@
 **[Parent Directive]:** *Demonstrate to your counselor that you know each of the following. Then, using Scouting EDGE to teach someone who does*
 **Official Requirement 3d:** The five ways a game can end in a draw.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 24, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 3d (The five ways a game can end in a draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 3d (The five ways a game can end in a draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Games conclude peacefully via stalemate, threefold repetition, fifty move rule, mutual agreement, or insufficient mating material. Recognizing draw thresholds prevents unnecessary resignations in difficult or impoverished endings.
 - **Common Myth:** Stalemate awards the victory to the player possessing superior material on board.
@@ -231,7 +231,7 @@
 #### Req 4a: Algebraic Chess Notation Systems
 **Official Requirement 4a:** Demonstrate scorekeeping using the algebraic system of chess notation.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 4a (Demonstrate scorekeeping using the algebraic system of chess notation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 4a (Demonstrate scorekeeping using the algebraic system of chess notation), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Algebraic notation records piece moves, captures, castling, and check using letters, symbols, and grid coordinates. Keeping a neat scoresheet creates an objective record for verifying three fold repetition claims.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -253,7 +253,7 @@
 #### Req 4b: Phases of Chess Combat
 **Official Requirement 4b:** Discuss the differences between the opening, the middle game, and the endgame.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 4b (Discuss the differences between the opening, the middle game, and the endgame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 4b (Discuss the differences between the opening, the middle game, and the endgame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The opening mobilizes forces, the middlegame executes strategic plans, and the endgame converts advantages into victory. Evaluating phase shifts enables players to transition pieces into optimal roles as material clears.
 - **Common Myth:** The king must always stay safely tucked in the corner during endgames.
@@ -270,7 +270,7 @@
 #### Req 4c: Opening Principles and Systems
 **Official Requirement 4c:** Explain four opening principles. Demonstrate for your counselor the first five moves of the following openings: Ruy Lopez, French Defense, Queen's Gambit Declined, Sicilian Defense.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 4c (Explain four opening principles. Demonstrate for your counselor the first five moves of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 4c (Explain four opening principles. Demonstrate for your counselor the first five moves of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Core opening principles include controlling the four central squares, developing minor pieces, and castling early. Scouts demonstrate opening moves for the Ruy Lopez, French, Queen Gambit, and Sicilian.
 - **Common Myth:** Launching early queen attacks usually wins games quickly against prepared defensive structures.
@@ -287,7 +287,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4d:** On a chessboard, demonstrate Scholar's Mate, Fool's Mate, Légal Mate, Fried Liver Attack, and Noah's Ark Trap.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 37, p. 38)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 4d (On a chessboard, demonstrate Scholar's Mate, Fool's Mate, Légal Mate, Fried Liver Attack,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 4d (On a chessboard, demonstrate Scholar's Mate, Fool's Mate, Légal Mate, Fried Liver Attack,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Studying classic traps highlights the severe dangers of neglecting king safety and central defense. Demonstrating tactical mates like Legal Mate reinforces piece coordination and deflection ideas.
 - **Common Myth:** Fool Mate happens frequently in scholastic tournaments against knowledgeable opening players.
@@ -308,7 +308,7 @@
 #### Req 5a: Strategic Elements and Evaluation
 **Official Requirement 5a:** Explain four of the following elements of chess strategy: exploiting weaknesses, force, king safety, pawn structure, space, tempo, and clock management.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 5a (Explain four of the following elements of chess strategy: exploiting weaknesses, force,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 5a (Explain four of the following elements of chess strategy: exploiting weaknesses, force,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Strategic chess elements include pawn structures, open files, space advantages, piece activity, and king safety. Understanding these elements enables players to exploit structural weaknesses in the opponent camp.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -330,7 +330,7 @@
 #### Req 5b: Tactical Motifs and Combinations
 **Official Requirement 5b:** Explain any five of these chess tactics: clearance sacrifice, decoy, discovered attack, double check, double attack, fork, interposing, overloading, overprotecting, pin, skewer, remove the defender, zwischenzug, and zugzwang.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 5b (Explain any five of these chess tactics: clearance sacrifice, decoy, discovered attack,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 5b (Explain any five of these chess tactics: clearance sacrifice, decoy, discovered attack,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tactical devices create immediate threats that capture material or disrupt defensive piece coordination. Scouts explain mechanisms behind forks, pins, skewers, discovered attacks, and clearance sacrifices.
 - **Common Myth:** A fork must involve a knight rather than any other attacking chess piece.
@@ -446,7 +446,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5e:** Set up and solve five direct-mate problems provided by your counselor.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 67, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 5e (Set up and solve five direct-mate problems provided by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 5e (Set up and solve five direct-mate problems provided by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Solving assigned direct mate problems builds calculating discipline and sharpens tactical pattern recognition. Scouts explain each forcing move sequence leading directly to checkmate within the specified move count.
 - **Common Myth:** Direct mate puzzles have multiple winning solutions of equal move length and value.
@@ -495,7 +495,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7a:** Play at least three games of chess with other Scouts and/or your counselor. Replay the games from your score sheets and discuss with your counselor how you might have played each game differently.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 43, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 7a (Play at least three games of chess with other Scouts and/or your counselor. Replay the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 7a (Play at least three games of chess with other Scouts and/or your counselor. Replay the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts play three games with peers, record moves carefully, and reconstruct each game with the counselor. Candid discussion identifies missed tactical opportunities and alternative strategic planning avenues.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -517,7 +517,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7b:** Play in a scholastic (youth) chess tournament and use your score sheets from that tournament to replay your games with your counselor. Discuss with your counselor how you might have played each game differently.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 43, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 7b (Play in a scholastic (youth) chess tournament and use your score sheets from that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 7b (Play in a scholastic (youth) chess tournament and use your score sheets from that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participating in a sanctioned scholastic tournament tests chess skills against rated peers in formal settings. Replaying these tournament scoresheets with a counselor uncovers performance trends under competitive pressure.
 - **Common Myth:** Scholastic tournaments do not require players to maintain accurate algebraic notation scoresheets.
@@ -534,7 +534,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7c:** Organize and run a chess tournament with at least four players, plus you. Have each competitor play at least two games.
 **Source:** *Official Scouting America Chess Merit Badge Pamphlet (p. 43, p. 64)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For chess Requirement 7c (Organize and run a chess tournament with at least four players, plus you. Have each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Chess Requirement 7c (Organize and run a chess tournament with at least four players, plus you. Have each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Organizing a small tournament requires preparing pairing charts, securing boards and clocks, and tracking standings. The organizer enforces tournament rules, manages round schedules, and calculates final match points.
 - **Common Myth:** Organizing a tournament requires no advance pairing preparation or score tracking records.

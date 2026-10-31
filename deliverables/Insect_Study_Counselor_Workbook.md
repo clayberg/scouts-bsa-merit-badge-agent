@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Insect%20Study.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/insect-study/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with exposure to ants and bees and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Carry an autoinjector epinephrine pen if prescribed and evacuate immediately upon any signs of wheezing or throat tightening.
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 1a (Explain to your counselor the most likely hazards associated with exposure to ants and bees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 1a (Explain to your counselor the most likely hazards associated with exposure to ants and bees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identifying subterranean and aerial nests prevents catastrophic defensive swarming during field expeditions. Maintaining situational awareness allows observers to retreat safely before defensive chemical pheromones recruit nestmates.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Insect Bite Medical Treatment
 **Official Requirement 1b:** Discuss the prevention of and treatment for health concerns that could occur while working with ants and bees, including insect bites and anaphylactic shock.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 36, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while working), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while working), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Localized reactions require cleansing, cold compresses, and antihistamines to reduce acute inflammation. Systemic anaphylactic emergencies demand instantaneous administration of prescribed autoinjector epinephrine and emergency evacuation.
 - **Common Myth:** Scouts sometimes believe that systemic anaphylaxis symptoms always develop hours after the initial sting.
@@ -86,7 +86,7 @@
 #### Req 2a: Arthropod Distinguishing Diagnostic Characteristics
 **Official Requirement 2a:** Tell how insects are different from other animals.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 2a (Tell how insects are different from other animals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 2a (Tell how insects are different from other animals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Insects differ from vertebrates by possessing an external cuticle composed of chitin rather than internal bones. Their open circulatory system uses hemolymph instead of closed hemoglobin blood vessels.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -108,7 +108,7 @@
 #### Req 2b: Arachnid and Myriapod Differentiation
 **Official Requirement 2b:** Show how insects are different from millipedes and spiders.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 2b (Show how insects are different from millipedes and spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 2b (Show how insects are different from millipedes and spiders), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparing bodily segmentation separates insects from millipedes which bear dozens of legs across repeated trunk rings. Spiders fuse the head and thorax into a cephalothorax while bearing eight legs and chelicerae.
 - **Common Myth:** Scouts frequently guess that millipedes possess a thousand legs and inflict venomous stings.
@@ -128,7 +128,7 @@
 **[Parent Directive]:** *Anatomy. Do the following*
 **Official Requirement 2c:** Point out and name the main parts of an insect.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 2c (Point out and name the main parts of an insect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 2c (Point out and name the main parts of an insect), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The head houses the compound eyes, ocelli, and mouthparts while the thorax coordinates movement through attached wings and legs. The abdomen contains digestive organs, excretory Malpighian tubules, and reproductive genitalia.
 - **Common Myth:** Scouts often assume that an insect breathes through mouthparts on its head.
@@ -145,7 +145,7 @@
 #### Req 2d: Major Insect Taxonomic Orders
 **Official Requirement 2d:** Describe the characteristics that distinguish the major orders of insects.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 16, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 2d (Describe the characteristics that distinguish the major orders of insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 2d (Describe the characteristics that distinguish the major orders of insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Entomologists classify insects by wing architecture, mouthparts, and developmental transformations across orders like Coleoptera, Lepidoptera, and Diptera. Hymenoptera, Odonata, and Hemiptera exhibit distinct venation and specialized adaptations.
 - **Common Myth:** Scouts commonly believe all winged insects have four functional flight wings of identical texture.
@@ -166,7 +166,7 @@
 #### Req 3a: Comparative Life Cycle Analysis
 **Official Requirement 3a:** Compare the life histories of a butterfly and a grasshopper. Tell how they are different.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 3a (Compare the life histories of a butterfly and a grasshopper. Tell how they are different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 3a (Compare the life histories of a butterfly and a grasshopper. Tell how they are different), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Butterflies exhibit four life stages where caterpillars feed voraciously before restructuring within a pupa. Grasshoppers emerge as nymphs that molt through several instars directly into winged adults without pupating.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -188,7 +188,7 @@
 **[Parent Directive]:** *Life Cycles. Do the following*
 **Official Requirement 3b:** Raise an insect through complete metamorphosis from its larval stage to its adult stage (e. g., raise a butterfly or moth from a caterpillar). (Some insects are endangered species and are protected by federal or state law. Every species is found only in its own special type of habitat. Be sure to check natural resources authorities in advance to be sure that you will not be collecting any species that is known to be protected or endangered, or in any habitat where collecting is prohibited. In most cases, all specimens should be returned at the location of capture after the requirement has been met. Check with your counselor for those instances where the return of these specimens would not be appropriate.)
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 3b (Raise an insect through complete metamorphosis from its larval stage to its adult stage (e.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 3b (Raise an insect through complete metamorphosis from its larval stage to its adult stage (e.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rearing non-endangered caterpillars requires providing fresh, pesticide-free host leaves and sufficient humidity until pupation occurs. Adult emergence requires vertical perches where the imago pumps hemolymph into damp wing veins.
 - **Common Myth:** Scouts sometimes think an emerging butterfly can fly immediately upon exiting its chrysalis shell.
@@ -213,7 +213,7 @@
 #### Req 4a: Ethical Outdoor Field Ethics
 **Official Requirement 4a:** Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to insect study. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code during field observation, specimen collection, and identification.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 4a (Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 4a (Discuss the importance of the Leave No Trace Seven Principles and the Outdoor Code as they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying the Outdoor Code and Leave No Trace principles protects fragile insect habitats from destructive sampling. Scouts leave natural objects undisturbed, prevent vegetation trampling, and respect wildlife microhabitats.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -234,7 +234,7 @@
 #### Req 4b: Live Habitat Species Survey
 **Official Requirement 4b:** Observe 20 different live species of insects in their habitat. In your observations, include at least four orders of insects.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 4b (Observe 20 different live species of insects in their habitat. In your observations,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 4b (Observe 20 different live species of insects in their habitat. In your observations,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing twenty live insect species across four taxonomic orders highlights anatomical variation across terrestrial and aquatic ecosystems. Searching riparian zones, meadows, and tree canopies reveals specialized niche adaptations.
 - **Common Myth:** Scouts frequently expect to find all required species on the mowed turf of a campsite.
@@ -250,7 +250,7 @@
 #### Req 4c: Taxonomic Scrapbook Collection
 **Official Requirement 4c:** Make a scrapbook of the 20 insects you observe in 4(b). Include photographs, sketches, illustrations, and articles. Label each insect with its common and scientific names, where possible. Share your scrapbook with your counselor. Resources: How To Start a Bug Collection (video) How To Make an Insect Collection: Spreading (video) Collecting Insects: Tools and Supplies (video) Insect Collecting, Tools & Tips (video)
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 4c (Make a scrapbook of the 20 insects you observe in 4(b). Include photographs, sketches,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 4c (Make a scrapbook of the 20 insects you observe in 4(b). Include photographs, sketches,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing an organized scrapbook integrates field photography, anatomical sketches, and binomial scientific naming conventions. Detailed records track observation dates, microhabitat parameters, and geographical locations.
 - **Common Myth:** Scouts commonly think that common folk names are standardized across all field guide literature.
@@ -269,7 +269,7 @@
 **[Parent Directive]:** *Observation and Analysis. Do the following*
 **Official Requirement 4d:** From your scrapbook collection, select eight species of insects and identify what role they play in the ecosystem.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 35, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 4d (From your scrapbook collection, select eight species of insects and identify what role they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 4d (From your scrapbook collection, select eight species of insects and identify what role they), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating eight selected species highlights critical ecosystem services including pollination, predation, herbivory, and organic decomposition. Understanding food web connections clarifies how insect populations maintain healthy ecological stability.
 - **Common Myth:** Scouts frequently view all herbivorous insects purely as harmful pests that damage landscapes.
@@ -290,7 +290,7 @@
 #### Req 5a: Eusocial Versus Solitary Behaviors
 **Official Requirement 5a:** Tell things that make social insects different from solitary insects.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 67, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 5a (Tell things that make social insects different from solitary insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 5a (Tell things that make social insects different from solitary insects), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Eusocial insects cooperate to raise offspring while solitary insects lay eggs and abandon them without parental care. Solitary bees and wasps provision individual cells and live without reproductive caste specialization.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -358,7 +358,7 @@
 #### Req 6a: Trophic Food Web Linkages
 **Official Requirement 6a:** Tell how insects fit in the food web of other insects, fish, birds, and mammals.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 6a (Tell how insects fit in the food web of other insects, fish, birds, and mammals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 6a (Tell how insects fit in the food web of other insects, fish, birds, and mammals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Insects occupy multiple consumer levels, serving as primary herbivores, fierce predators, and scavengers. Their vast biomass sustains higher trophic predators including amphibians, reptiles, freshwater fish, and insectivorous mammals.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -380,7 +380,7 @@
 #### Req 6b: Insect Plant Pollination Services
 **Official Requirement 6b:** Explain the role insects serve as pollinators for plants.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 46, p. 80)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 6b (Explain the role insects serve as pollinators for plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 6b (Explain the role insects serve as pollinators for plants), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bees, flies, beetles, and butterflies transport pollen between blossoms, enabling sexual fertilization and seed set in angiosperms. Without insect cross-pollination, fruit production and wild plant regeneration would collapse dramatically.
 - **Common Myth:** Scouts frequently assume that honeybees are the only insect species capable of pollinating plants.
@@ -401,7 +401,7 @@
 #### Req 7a: Honeybee Symbiosis and Colony Collapse
 **Official Requirement 7a:** Explain the symbiotic relationship between bees and humankind. Explain what colony collapse disorder (CCD) is and some of the possible causes. Discuss how CCD affects our food supply.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 7a (Explain the symbiotic relationship between bees and humankind. Explain what colony collapse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 7a (Explain the symbiotic relationship between bees and humankind. Explain what colony collapse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bees provide agricultural pollination while humans construct protective hives and supply supplemental winter nutrition. Colony collapse disorder stems from multifaceted stresses including Varroa mites, poor forage nutrition, pathogens, and systemic pesticides.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -423,7 +423,7 @@
 #### Req 7b: Ecological Pest Management Alternatives
 **Official Requirement 7b:** Describe three alternatives to insecticides as a way of preventing crop injury and subsequent yield loss. Explain the advantages and disadvantages of these alternatives. Resources: Ultimate Pest Control Guide for Farmers (video) 4 Ways Nuclear Techniques Help Feed the World (video)
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 75, p. 90)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 7b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 7b (Describe three alternatives to insecticides as a way of preventing crop injury and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 7b (Describe three alternatives to insecticides as a way of preventing crop injury and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Integrated pest management utilizes biological control agents, crop rotation, and mating disruption pheromone traps to limit pest outbreaks. These cultural and biological methods protect waterways and prevent pest resistance while reducing reliance on chemical insecticides.
 - **Common Myth:** Scouts commonly believe organic pest alternatives kill pest insects instantly just like chemical sprays.
@@ -444,7 +444,7 @@
 #### Req 8a: Monarch Butterfly Migration Biology
 **Official Requirement 8a:** Tell the migration route of an insect (e. g., monarch butterfly). Discuss the challenges they face and how Scouts can contribute to their success.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 8a (Tell the migration route of an insect (e. g., monarch butterfly). Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 8a (Tell the migration route of an insect (e. g., monarch butterfly). Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Eastern monarchs undertake an extraordinary international migration between Canadian summer breeding grounds and central Mexican mountain forests. Scouts support their survival by establishing pollinator waystations filled with native milkweeds and autumnal nectar sources.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -465,7 +465,7 @@
 #### Req 8b: Endangered Insect Species Conservation
 **Official Requirement 8b:** Find out about an insect that is a threatened or endangered species. Discuss the challenges they face and how Scouts can contribute to their success.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 22, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 8b (Find out about an insect that is a threatened or endangered species. Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 8b (Find out about an insect that is a threatened or endangered species. Discuss the challenges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Human activities have driven rare insects like the American burying beetle and Mitchell's satyr butterfly toward extinction. Protecting contiguous wetlands, managing native grasslands, and eliminating light pollution provide vital refuges for vanishing species.
 - **Common Myth:** Scouts sometimes assume that only large mammals and birds appear on the endangered species list.
@@ -485,7 +485,7 @@
 #### Req 9a: Entomological Career Identification
 **Official Requirement 9a:** Identify three career opportunities that would use skills and knowledge in Insect Study. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career. Resources: Meet an Entomologist (video) Entomologist (video)
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 9a (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 9a (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Entomology offers diverse career paths in agricultural pest consulting, municipal vector disease control, and academic biodiversity research. Each profession leverages insect physiology and behavioral ecology to solve real-world problems.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -508,7 +508,7 @@
 #### Req 9b: Vocational Qualifications and Education
 **Official Requirement 9b:** Identify three career opportunities that would use skills and knowledge in Insect Study. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Insect Study Merit Badge Pamphlet (p. 91, p. 93)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For insect study Requirement 9b (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Insect Study Requirement 9b (Identify three career opportunities that would use skills and knowledge in Insect Study.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Becoming a professional research entomologist requires obtaining a bachelor of science degree in biology or entomology. Advanced roles often demand graduate degrees, board certification by the Entomological Society of America, and published research.
 - **Common Myth:** Scouts frequently guess that working with insects requires no formal college degrees or scientific certifications.
@@ -522,3 +522,4 @@
 | **[Req 9b] 4. Discuss what you learned with your counselor and whether you might be interested in this career.** | Scout must individually identify Requirement 9b (Identify three career opportunities that would use skills and knowledge in Insect Study. Pick one and research) to the Counselor. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 9b):** Scout must individually identify Requirement 9b (Identify three career opportunities that would use skills and knowledge in Insect Study. Pick one and research) to the Counselor.
+)))

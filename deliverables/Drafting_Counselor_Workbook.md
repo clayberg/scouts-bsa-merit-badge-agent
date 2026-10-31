@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Drafting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/drafting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -38,7 +38,7 @@
 #### Req 1a: Preliminary Layout Rough Sketch
 **Official Requirement 1a:** Make a rough sketch for each of your project drawings to determine the correct size of paper to format.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 1a (Make a rough sketch for each of your project drawings to determine the correct size of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 1a (Make a rough sketch for each of your project drawings to determine the correct size of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts create proportional thumbnail sketches to balance view placement, notes, and dimension clearances. Calculating overall object proportions on rough paper ensures selection of appropriate final drawing paper sheets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Format TWO sheets of drawing paper with proper borders and title blocks, one for your manual project (see requirement 2)*
 **Official Requirement 1b:** Using either single-stroke vertical or slant Gothic lettering, fill in all important information in the title block sections of the formatted paper.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 30, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 1b (Using either single-stroke vertical or slant Gothic lettering, fill in all important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 1b (Using either single-stroke vertical or slant Gothic lettering, fill in all important), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Title blocks require uniform single stroke Gothic characters crafted within light horizontal guidelines. Scouts record critical technical data including scale, part name, drafter identity, and completion date.
 - **Common Myth:** Decorative calligraphy and lowercase cursive writing are acceptable choices in drafting title blocks.
@@ -87,7 +87,7 @@
 **[Parent Directive]:** *Using the formatted sheet of paper you prepared for your manual project, produce a pencil drawing as it would be used for manufacturing*
 **Official Requirement 2a:** Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction. Properly print a bill of materials for at least three of the raw materials or components in the project.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 2a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 2a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Architectural drafting communicates spatial layout, wall thickness, door swings, and fixture locations using architectural scales. Standard floor plans represent building assemblies through convention symbols and precise fractional dimensions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -111,7 +111,7 @@
 **[Parent Directive]:** *Using the formatted sheet of paper you prepared for your manual project, produce a pencil drawing as it would be used for manufacturing*
 **Official Requirement 2b:** Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations. Properly print a bill of materials for at least three of the raw materials or components in the assembly.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 2b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 2b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanical drawings show multiple orthographic projections or isometric views to define manufactured component geometry. Drafters apply engineering scales and standard dimensioning rules to specify exact physical tolerances.
 - **Common Myth:** Isometric drawings provide complete dimensions needed for tooling without requiring orthographic projections.
@@ -132,7 +132,7 @@
 **[Parent Directive]:** *Using the formatted sheet of paper you prepared for your manual project, produce a pencil drawing as it would be used for manufacturing*
 **Official Requirement 2c:** Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 24, p. 50)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 2c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 2c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical schematics employ standard graphic symbols to illustrate electronic circuits and interconnection logic. Drafters include comprehensive bills of materials listing part numbers, descriptions, and component quantities.
 - **Common Myth:** Electrical schematics must depict exact physical component dimensions and wire routing lengths accurately.
@@ -156,7 +156,7 @@
 **[Parent Directive]:** *Produce a computer-aided design (CAD) drawing as it would be used in manufacturing*
 **Official Requirement 3a:** Architectural: Make a scale drawing of an architectural project. The architectural drawing may be a floor plan; electrical, plumbing, or mechanical service plan; elevation plan; or landscaping plan. Use an architect's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and considerations necessary for construction.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 3a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 3a (Architectural: Make a scale drawing of an architectural project. The architectural drawing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Architectural CAD drawings utilize parametric walls, window blocks, and standard dimension styles to delineate building structures. Layer management enables drafters to toggle trade specific service overlays like electrical or plumbing runs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -180,7 +180,7 @@
 **[Parent Directive]:** *Produce a computer-aided design (CAD) drawing as it would be used in manufacturing*
 **Official Requirement 3b:** Mechanical: Make a scale drawing of some mechanical device or interesting object. The mechanical drawing may be of the orthographic (third-angle) or isometric style. Use an engineer's scale and show dimensions to communicate the actual size of features. Include any important sectional drawings, notes, and manufacturing considerations.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 3b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 3b (Mechanical: Make a scale drawing of some mechanical device or interesting object. The), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanical CAD software generates precise component models using parametric sketches, geometric constraints, and feature extrusions. Scouts generate multiview layout sheets containing orthographic projections, section views, and engineering dimensions.
 - **Common Myth:** Mechanical CAD packages require manual redrawing of every individual two dimensional orthographic view.
@@ -201,7 +201,7 @@
 **[Parent Directive]:** *Produce a computer-aided design (CAD) drawing as it would be used in manufacturing*
 **Official Requirement 3c:** Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill of materials including all of the major electrical components used in the circuit. Use standard drawing symbols to represent the electronic components.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 25, p. 50)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 3c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 3c (Electrical: Draw a simple schematic of a radio or electronic circuit. Properly print a bill), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical CAD systems provide standard schematic symbol libraries for resistors, capacitors, and solid state semiconductors. Connecting symbols with smart wire nets allows automatic extraction of accurate bills of materials.
 - **Common Myth:** Every electrical schematic symbol in CAD must be drawn manually from loose lines.
@@ -225,7 +225,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4a:** Present a copy of your drawings from requirements 2 and 3, either in paper or digital format to your counselor. Your counselor will return a redlined version of your drawings indicating to add/remove/change a feature, material, BOM QTY, etc.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 4a (Present a copy of your drawings from requirements 2 and 3, either in paper or digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 4a (Present a copy of your drawings from requirements 2 and 3, either in paper or digital), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts present completed drawings to counselors who act as engineering supervisors reviewing production documentation. Counselors mark corrections using red pencil or digital annotation tools to simulate industrial review processes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -244,7 +244,7 @@
 #### Req 4b: Drawing Revision Delta Implementation
 **Official Requirement 4b:** Make the correction from the redline, identify it on the drawings with a revision marker, and add a revision block.
 **Source:** *Official Scouting America Drafting Merit Badge Pamphlet (p. 22, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For drafting Requirement 4b (Make the correction from the redline, identify it on the drawings with a revision marker,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Drafting Requirement 4b (Make the correction from the redline, identify it on the drawings with a revision marker,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts implement redlined engineering changes accurately and document every edit within an official revision block. Delta callout symbols identify modified features on drawing sheets to facilitate rapid quality inspections.
 - **Common Myth:** Placing revision notes in the title block eliminates any need for sheet markers.
@@ -459,3 +459,4 @@
 | **4. Discuss what you learned with your counselor and whether you might be interested in this career.** | Industry Outlook: Growing construction and manufacturing automation drives steady demand for skilled digital drafters. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8):** Quiz the Scout on each specimen, symbol, or component identified in their organizer table for Drafting Requirement 8 (drafting careers and educational pathways) before signing the blue card.
+)

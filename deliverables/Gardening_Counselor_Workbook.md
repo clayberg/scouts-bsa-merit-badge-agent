@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Gardening.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/gardening/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards associated with gardening and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep rake tines turned down toward the soil surface and store all cutting blades sheathed or hung securely.
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 1a (Explain to your counselor the most likely hazards associated with gardening and what you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 1a (Explain to your counselor the most likely hazards associated with gardening and what you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sunburn, dehydration, and sharp mechanical implements pose persistent dangers during seasonal plot preparation. Gardeners anticipate these risks by wearing protective gear and scheduling rest breaks in shaded areas.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Garden Injury First Aid
 **Official Requirement 1b:** Discuss the prevention of and treatment for health concerns that could occur while gardening, including cuts, scratches, puncture wounds, insect bites, anaphylactic shock, heat reactions, and reactions from exposure to pesticides and fertilizers.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 42, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 1b (Discuss the prevention of and treatment for health concerns that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immediate first aid prevents secondary bacterial infections from soil organisms like tetanus. Promptly treat heat cramps with rest, cooling measures, and balanced electrolyte fluids.
 - **Common Myth:** Minor scrapes from rusted metal tools require care only if active bleeding persists.
@@ -87,7 +87,7 @@
 #### Req 2a: Vegetable Crop Cultivation Methods
 **Official Requirement 2a:** Grow six vegetables, three from seeds and three from seedlings, through harvest.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 2a (Grow six vegetables, three from seeds and three from seedlings, through harvest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 2a (Grow six vegetables, three from seeds and three from seedlings, through harvest), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vegetables demand balanced nitrogen for foliar growth and potassium for root expansion. Sowing seeds alongside transplanted starts teaches complementary irrigation and harvest schedules.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -109,7 +109,7 @@
 #### Req 2b: Ornamental Flower Care Techniques
 **Official Requirement 2b:** Grow six flowers, three from seeds and three from seedlings, through flowering.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 45, p. 47)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 2b (Grow six flowers, three from seeds and three from seedlings, through flowering), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 2b (Grow six flowers, three from seeds and three from seedlings, through flowering), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flowering annuals and perennials enhance garden biodiversity while attracting specialized pollinators to adjacent crops. Soil pH and drainage dictate blossom pigmentation, stem rigidity, and root vigor.
 - **Common Myth:** Annual flowering plants flourish best when seed pods form naturally on mature stems.
@@ -133,7 +133,7 @@
 **[Parent Directive]:** *Give the nutritional value of the following*
 **Official Requirement 3a:** Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 3a (Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 3a (Three root or tuber crops (b) Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Subterranean storage organs such as carrots, beets, and potatoes store energy as starch. These dense roots and tubers deliver essential potassium, iron, and antioxidant compounds.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -156,7 +156,7 @@
 **[Parent Directive]:** *Give the nutritional value of the following*
 **Official Requirement 3b:** Three vegetables that bear above the ground (c) Three fruits.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 3b (Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 3b (Three vegetables that bear above the ground (c) Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aboveground vegetables including broccoli, green beans, and leafy greens capture direct solar energy. Their edible tissues provide concentrated vitamin K, folates, and dietary roughage.
 - **Common Myth:** Aboveground vegetables lack complex minerals because those elements remain locked inside soil roots.
@@ -176,7 +176,7 @@
 **[Parent Directive]:** *Give the nutritional value of the following*
 **Official Requirement 3c:** Three fruits.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 41, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 3c (Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 3c (Three fruits), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mature fruit bodies protect developing botanical seeds while concentrating sugars and organic acids. They provide essential ascorbic acid, bioflavonoids, and soluble pectin fibers.
 - **Common Myth:** Botanical fruits contain the exact same sugar and fiber profiles as vegetative stems.
@@ -311,7 +311,7 @@
 **Official Requirement 8a:** Build a compost bin and maintain it for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8a Hands-On Skill Station & EDGE Verification Checklist
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Gardening Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8a (Build a compost bin and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8a (Build a compost bin and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aerobic composting combines carbon rich brown materials with nitrogen rich green materials. Regular turning injects atmospheric oxygen to feed heat producing thermophilic decomposers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -333,7 +333,7 @@
 #### Req 8b: Vermicomposting Bin System Care
 **Official Requirement 8b:** Build a vermicompost bin (worm compost bin) and maintain it for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8b (Build a vermicompost bin (worm compost bin) and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8b (Build a vermicompost bin (worm compost bin) and maintain it for 90 days), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vermiculture uses specialized Eisenia fetida worms to process kitchen vegetable scraps into castings. Managing bedding moisture and neutral pH prevents anaerobic odors in the bin.
 - **Common Myth:** Common earthworms dug from garden soil perform effectively inside closed indoor worm bins.
@@ -350,7 +350,7 @@
 #### Req 8c: Hydroponic Garden System Maintenance
 **Official Requirement 8c:** Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants. Maintain this garden through harvest or flowering, or for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8c (Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8c (Build a hydroponic garden containing three vegetables or herbs, or three ornamental plants.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hydroponic farming suspends plant roots in oxygenated nutrient solution without traditional soil media. Managing water temperature, dissolved salts, and light cycles ensures vigorous vegetable production.
 - **Common Myth:** Plants grown in hydroponic water reservoirs do not require supplemental root zone oxygen.
@@ -366,7 +366,7 @@
 #### Req 8d: Aquatic Water Garden Design
 **Official Requirement 8d:** Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep), or in the ground as a small, decorative pond no larger than 6 by 3 feet and 24 inches deep. Maintain the water garden for 90 days.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8d (Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8d (Build one water garden, either in a container (at least 12 by 6 inches and 6 inches deep),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Water gardens balance aquatic plants, surface shading, and biological filtration in a shallow reservoir. Establishing biological equilibrium prevents stagnant conditions while creating microhabitats for beneficial wildlife.
 - **Common Myth:** Clear decorative garden ponds require continuous chemical algaecide treatments to stay clean.
@@ -382,7 +382,7 @@
 #### Req 8e: Honey Super Hive Management
 **Official Requirement 8e:** Prepare a honey super for use on a hive or colony. Remove a filled honey super from the hive or colony and prepare the honey for sale.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8e (Prepare a honey super for use on a hive or colony. Remove a filled honey super from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8e (Prepare a honey super for use on a hive or colony. Remove a filled honey super from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Beekeepers add honey supers above queen excluders to harvest surplus nectar converted to honey. Extracting, filtering, and bottling honey requires sanitary handling and moisture testing under eighteen percent.
 - **Common Myth:** Removing a honey super causes permanent catastrophic starvation to the parent bee colony.
@@ -399,7 +399,7 @@
 **Official Requirement 8f:** Grow a garden of your own using soil from seed or plantings to harvest or for 90 days, whichever is earlier. This can be an outdoor garden or indoors using appropriate containers, and should include at least three types of plants approved by your counselor.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 27, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Gardening Req 8f preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 8f (Grow a garden of your own using soil from seed or plantings to harvest or for 90 days,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 8f (Grow a garden of your own using soil from seed or plantings to harvest or for 90 days,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cultivating a dedicated plot or container garden demonstrates season long crop management skills. Regular watering, staking, mulching, and weeding sustain plant vitality through the harvest period.
 - **Common Myth:** Pouring high concentration liquid synthetic fertilizer compensates completely for compacted clay soil.
@@ -419,7 +419,7 @@
 #### Req 9a: Horticultural Career Investigation
 **Official Requirement 9a:** Identify three career opportunities that would use skills and knowledge in gardening. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 9a (Identify three career opportunities that would use skills and knowledge in gardening. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 9a (Identify three career opportunities that would use skills and knowledge in gardening. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Careers in commercial plant science encompass greenhouse operation, agricultural inspection, plant breeding, and arboriculture. Entering these fields requires coursework in botany, soil chemistry, pathology, and business administration.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -442,7 +442,7 @@
 #### Req 9b: Gardening for Personal Wellness
 **Official Requirement 9b:** Identify how you might use the skills and knowledge in gardening to pursue a personal hobby and/or healthy lifestyle. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Gardening Merit Badge Pamphlet (p. 64, p. 97)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For gardening Requirement 9b (Identify how you might use the skills and knowledge in gardening to pursue a personal hobby), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Gardening Requirement 9b (Identify how you might use the skills and knowledge in gardening to pursue a personal hobby), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hobby gardening provides lifelong outdoor recreation, improves mental well being, and delivers nutritious homegrown food. Participating in community garden clubs and master gardener seminars connects hobbyists with regional expertise.
 - **Common Myth:** Backyard gardening yields insufficient physical activity to qualify as meaningful personal wellness.

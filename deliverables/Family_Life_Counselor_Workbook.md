@@ -2,7 +2,7 @@
 **Classification:** EAGLE-REQUIRED MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Family%20Life.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/family-life/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -149,7 +149,7 @@
 **[Parent Directive]:** *Plan and carry out a project that involves the participation of your family. After completing the project, discuss the following*
 **Official Requirement 5a:** The objective or goal of the project.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For family life Requirement 5a (The objective or goal of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Family Life Requirement 5a (The objective or goal of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Clearly articulating the target objective gives every participant a tangible benchmark for success before physical labor begins. A well conceived goal aligns expectations and prevents wasted materials or duplicated effort.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -172,7 +172,7 @@
 **[Parent Directive]:** *Plan and carry out a project that involves the participation of your family. After completing the project, discuss the following*
 **Official Requirement 5b:** How individual members of your family participated (c) The results of the project.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For family life Requirement 5b (How individual members of your family participated (c) The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Family Life Requirement 5b (How individual members of your family participated (c) The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Documenting how each person contributed highlights the importance of equitable work sharing and age-appropriate assignment. Effective leadership acknowledges varied capabilities and ensures nobody feels excluded or overwhelmed.
 - **Common Myth:** Every family member must perform identical heavy manual labor tasks during the project.
@@ -190,7 +190,7 @@
 **[Parent Directive]:** *Plan and carry out a project that involves the participation of your family. After completing the project, discuss the following*
 **Official Requirement 5c:** The results of the project.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 20, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For family life Requirement 5c (The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Family Life Requirement 5c (The results of the project), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing the final outcome against the original plan reveals practical insights into teamwork, scheduling, and project scoping. Reflecting on shared success builds confidence and strengthens ongoing household collaboration.
 - **Common Myth:** A project is considered failed if unexpected setbacks altered the initial aesthetic outcome.
@@ -211,7 +211,7 @@
 #### Req 6a: Meeting Planning and Protocol
 **Official Requirement 6a:** Discuss with your counselor how to plan and carry out a family meeting.
 **Source:** *Official Scouting America Family Life Merit Badge Pamphlet (p. 33, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For family life Requirement 6a (Discuss with your counselor how to plan and carry out a family meeting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Family Life Requirement 6a (Discuss with your counselor how to plan and carry out a family meeting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Planning ahead involves selecting an appropriate time free of outside distractions and establishing ground rules for civil turn taking. Discussing facilitation strategies with a counselor equips the Scout with tools to maintain order and positivity.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -385,3 +385,4 @@
 | **3. Resource Provision** | Resource Provision: Guardians provide food, shelter, healthcare, and educational opportunities through continuous personal sacrifice. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 7):** Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Family Life Requirement 7 (effective parenting roles and responsibilities) before signing the blue card.
+))

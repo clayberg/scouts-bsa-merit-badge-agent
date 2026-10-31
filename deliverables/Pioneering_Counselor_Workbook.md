@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Pioneering.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/pioneering/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -45,7 +45,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you might encounter while participating in pioneering activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Mandatory hard hats protect crew members within the swinging radius of raised timber spars.
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 1a (Explain to your counselor the most likely hazards you might encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 1a (Explain to your counselor the most likely hazards you might encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Riggers must anticipate environmental exposures, falling timber, and high-tension rope failures prior to construction. Establishing designated spotters and marking drop lines prevents severe crushing incidents on site.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -67,7 +67,7 @@
 #### Req 1b: Field Injury Treatment Protocols
 **Official Requirement 1b:** Discuss the prevention of, and first-aid treatment for, injuries and conditions that could occur while working on pioneering projects, including rope splinters, rope burns, cuts, scratches, insect bites and stings, hypothermia, dehydration, heat exhaustion, heatstroke, sunburn, and falls.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 11, p. 50)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 1b (Discuss the prevention of, and first-aid treatment for, injuries and conditions that could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 1b (Discuss the prevention of, and first-aid treatment for, injuries and conditions that could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Prompt wound cleaning, cold compression, and limb elevation stabilize minor pioneering injuries in camp. Deep punctures from timber splinters or rope burns require immediate antiseptic dressing.
 - **Common Myth:** Rope friction burns heal faster when left open to circulate fresh air.
@@ -92,7 +92,7 @@
 **Official Requirement 2a:** Demonstrate the West Country method of whipping a rope.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never wrap tensioned ropes around your hands while pulling frapping turns tight.
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 2a (Demonstrate the West Country method of whipping a rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 2a (Demonstrate the West Country method of whipping a rope), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The West Country whipping secures frayed stranded cordage using a series of alternating overhand knots tied on opposite sides. Finishing with a firm square knot locks the twine permanently in place.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -114,7 +114,7 @@
 #### Req 2b: Mechanical Knots and Tackle
 **Official Requirement 2b:** Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two half hitches, clove hitch on a bight, butterfly knot, roundturn with two half hitches, and rolling hitch.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 2b (Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 2b (Demonstrate how to tie a rope tackle and the following knots: clove hitch formed as two), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Friction hitches and midline loops create mechanical purchase systems without specialized hardware pulleys. The rope tackle multiplies pulling force to tighten guys and bridge foot ropes securely.
 - **Common Myth:** A standard bowline can substitute for a butterfly knot in midline pulls.
@@ -133,7 +133,7 @@
 #### Req 2c: Structural Lashing Applications
 **Official Requirement 2c:** Demonstrate and explain when to use the following lashings: square, diagonal, round, shear, tripod, and floor lashing.
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 20, p. 36)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 2c (Demonstrate and explain when to use the following lashings: square, diagonal, round, shear,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 2c (Demonstrate and explain when to use the following lashings: square, diagonal, round, shear,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Different pole intersections require distinct lashing configurations to resist shear and rotational forces. Square lashings hold perpendicular contacts, while shear lashings join parallel spars for sheer legs.
 - **Common Myth:** Square lashings can secure poles that cross at thirty degree acute angles.
@@ -157,7 +157,7 @@
 **Official Requirement 3a:** Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Clear the surrounding swing area before raising assembled flagpole staves into vertical position.
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 3a (Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 3a (Using square and tripod lashings from requirement 2(c), build a Tripod Wash Station (or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A tripod wash station utilizes three equal spars bound with a tripod lashing and reinforced by horizontal perimeter braces. The structure suspends water containers and washbasins at convenient camp working heights.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -180,7 +180,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** Using rolling hitches or roundturns with two half hitches, and round lashings from requirements 2(b) and 2(c), build a 15-foot Scout Stave Flagpole (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 3b (Using rolling hitches or roundturns with two half hitches, and round lashings from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 3b (Using rolling hitches or roundturns with two half hitches, and round lashings from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Joining multiple Scout staves with round lashings creates a tall, lightweight vertical mast. Anchoring guy lines with rolling hitches or roundturns allows precise vertical leveling in variable winds.
 - **Common Myth:** Two round lashings per stave joint provide equal rigidity to one long lashing.
@@ -198,7 +198,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3c:** Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from requirements 2(b) and 2(c), build a Simple Camp Table (or with your counselor's permission, another camp gadget of your own design)
 **Source:** *Official Scouting America Pioneering Merit Badge Pamphlet (p. 67, p. 68)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For pioneering Requirement 3c (Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Pioneering Requirement 3c (Using shear, square, and floor lashings, clove hitches on a bight, and rope tackles from), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building a functional camp table combines shear legs, horizontal support rails, and woven branch tabletops. Tight floor lashings secure uniform platform branches to provide a stable, level dining surface.
 - **Common Myth:** Table top branches can be secured loosely since gravity holds them down.
@@ -373,3 +373,4 @@
 | **2. Carefully plan the project, assembling and organizing all the materials, referring to the points under Safe Pioneering, and complying with the height restrictions in the Guide to Safe Scouting** | Tension main bridge cables using double rope tackles tied to primary log anchors. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 9):** Observe the Scout perform the live hands-on skill demonstration and verify proper technique for Pioneering Requirement 9 (full-size pioneering structure construction) before signing the blue card.
+)

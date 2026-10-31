@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Electricity.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/electricity/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Explain how to turn off power for a particular circuit and the whole house in the event of an emergency.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never make direct physical contact with an energized person or equipment before verifying total circuit de-energization.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1a (Explain how to turn off power for a particular circuit and the whole house in the event of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1a (Explain how to turn off power for a particular circuit and the whole house in the event of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Service panels house individual branch circuit breakers along with a primary main disconnect. Throwing the main breaker cuts all incoming utility electrical potential from distribution buses.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -68,7 +68,7 @@
 #### Req 1b: Live Conductor Victim Extraction
 **Official Requirement 1b:** Demonstrate how to rescue a person touching a live wire in the home.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1b (Demonstrate how to rescue a person touching a live wire in the home), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1b (Demonstrate how to rescue a person touching a live wire in the home), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Direct physical contact with a live victim transfers dangerous electrical current directly into the rescuer. Rescuers must use dry, nonconductive objects to push live wires away.
 - **Common Myth:** Beginners often believe wearing regular rubber sneakers allows safe physical contact with live electrical victims.
@@ -87,7 +87,7 @@
 #### Req 1c: Downed Utility Wire Evacuation
 **Official Requirement 1c:** Describe how to safely get out of a car in an accident if you suspect a utility wire is on the car.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1c (Describe how to safely get out of a car in an accident if you suspect a utility wire is on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1c (Describe how to safely get out of a car in an accident if you suspect a utility wire is on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Downed lines charge vehicle frames and surrounding soil, generating hazardous voltage gradients across the ground surface. Occupants must jump clear without contacting the metal frame and shuffle away.
 - **Common Myth:** Beginners often believe stepping out one foot at a time safely grounds an occupant leaving an energized vehicle.
@@ -104,7 +104,7 @@
 #### Req 1d: Electrical Shock Triage Protocol
 **Official Requirement 1d:** Show how to render first aid to a person who is unconscious from an apparent electrical shock.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1d (Show how to render first aid to a person who is unconscious from an apparent electrical shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1d (Show how to render first aid to a person who is unconscious from an apparent electrical shock), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical current passing across the human torso can arrest respiratory function and disrupt cardiac rhythm. Responders must initiate cardiopulmonary resuscitation and deploy automated external defibrillators immediately.
 - **Common Myth:** Beginners often believe electrical shock victims retain an electrical charge that harms medical first responders.
@@ -122,7 +122,7 @@
 **[Parent Directive]:** *Demonstrate that you know how to respond to electrical emergencies by doing the following*
 **Official Requirement 1e:** Show how to treat an electrical burn.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1e (Show how to treat an electrical burn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1e (Show how to treat an electrical burn), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical current generates intense resistive heat that travels through dense internal tissues between entry and exit contact wounds. First aiders cover visible wounds with clean dry dressings without applying ointments.
 - **Common Myth:** Beginners often believe electrical burns only harm the superficial epidermal layer visible at contact points.
@@ -139,7 +139,7 @@
 #### Req 1f: Class C Electrical Suppression
 **Official Requirement 1f:** Explain what to do in the event of an electrical fire.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1f (Explain what to do in the event of an electrical fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1f (Explain what to do in the event of an electrical fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical fires ignite when overloaded conductors or arcing components ignite nearby framing or wiring insulation. De-energizing the circuit precedes suppression using nonconductive Class C extinguishing agents.
 - **Common Myth:** Beginners often believe small amounts of household tap water can safely quench sparking baseboard electrical fires.
@@ -156,7 +156,7 @@
 #### Req 1g: Lightning Storm Shelter Protocol
 **Official Requirement 1g:** Explain what to do if caught out in the open during an electrical storm.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 69)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 1g (Explain what to do if caught out in the open during an electrical storm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 1g (Explain what to do if caught out in the open during an electrical storm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Lightning seeks the path of least impedance to earth, creating deadly ground currents near strike locations. Scouts caught outdoors must assume a low crouching stance with feet together away from isolated trees.
 - **Common Myth:** Beginners often believe lying completely flat across wet ground minimizes lightning strike danger in open fields.
@@ -239,7 +239,7 @@
 **Official Requirement 4a:** Explain the difference between direct current and alternating current, the advantages and disadvantages of each, and give a practical example of the use of each type.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Never connect external direct current power sources across household alternating current receptacles under any circumstances.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 4a (Explain the difference between direct current and alternating current, the advantages and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 4a (Explain the difference between direct current and alternating current, the advantages and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Direct current flows continuously in a single direction, making it ideal for portable battery devices and electronics. Alternating current reverses polarity sixty times per second, enabling efficient high voltage grid transmission via step down transformers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -262,7 +262,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4b:** Explain three ways that electricity is produced.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 28, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 4b (Explain three ways that electricity is produced), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 4b (Explain three ways that electricity is produced), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electrical energy generation converts mechanical, chemical, light, thermal, or pressure energy into moving electric charge. Rotating magnetic coils, electrochemical cells, and photovoltaic semiconductors represent the primary generation methods.
 - **Common Myth:** Beginners often believe spinning turbine generators create brand new electrical charges out of nothing.
@@ -312,7 +312,7 @@
 **Official Requirement 6a:** Define what overloading an electric circuit means. Tell what you have done to make sure your home circuits are not overloaded.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never replace a blown fuse with a higher rated fuse or bridge terminals with metallic bypass jumpers.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 6a (Define what overloading an electric circuit means. Tell what you have done to make sure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 6a (Define what overloading an electric circuit means. Tell what you have done to make sure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An overloaded circuit draws higher current than the distribution wire and breaker are rated to carry safely. Distributing high wattage appliances across separate circuits keeps thermal stress within design parameters.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -334,7 +334,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 6b:** Determine if there is an overload on a branch circuit by either getting the current draw from all the equipment plugged into the circuit or use the power equation to calculate the current draws.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 6b (Determine if there is an overload on a branch circuit by either getting the current draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 6b (Determine if there is an overload on a branch circuit by either getting the current draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts calculate branch circuit demand by summing device nameplate wattages and dividing by one hundred twenty volts. If calculated total amperes exceed eighty percent of breaker capacity, loads require redistribution.
 - **Common Myth:** Beginners often believe small kitchen appliances draw negligible electrical current regardless of their heating elements.
@@ -351,7 +351,7 @@
 #### Req 6c: Overcurrent Protective Device Operation
 **Official Requirement 6c:** Explain why a fuse blows and a circuit breaker trips.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 6c (Explain why a fuse blows and a circuit breaker trips), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 6c (Explain why a fuse blows and a circuit breaker trips), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fuses contain sacrificial metal strips calibrated to melt when excessive current produces destructive heat. Circuit breakers use bimetallic thermal elements or electromagnets to release a spring loaded mechanical latch.
 - **Common Myth:** Beginners often believe circuit breakers burn out internal components each time an overcurrent event occurs.
@@ -368,7 +368,7 @@
 #### Req 6d: Overcurrent Device Triage Procedures
 **Official Requirement 6d:** Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to safely reset the circuit breaker.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 46, p. 48)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 6d (Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 6d (Tell how to find a blown fuse and a tripped circuit breaker in your home. Show how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A blown screw-in fuse shows a blackened glass window or broken metal link inside the plug body. Resetting a tripped breaker requires pushing the lever to off to engage the spring before turning.
   - A blown screw-in fuse shows a blackened glass window or broken metal link inside the plug body. Resetting a tripped breaker requires pushing the lever to off to engage the spring before turning on.
@@ -421,7 +421,7 @@
 **Official Requirement 8a:** Read a meter associated with an electric bill. Determine the total power used since the bill, and the cost of that power.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Keep a safe distance from glass meter enclosures and never tamper with utility company security tags.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 8a (Read a meter associated with an electric bill. Determine the total power used since the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 8a (Read a meter associated with an electric bill. Determine the total power used since the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electric meters register cumulative energy consumption using either cyclometer digital numbers or five geared analog dials. Multiplying the kilowatt-hour difference by the rate tariff calculates the total baseline energy expense.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -442,7 +442,7 @@
 #### Req 8b: Utility Tariff Fee Analysis
 **Official Requirement 8b:** Explain other charges on the bill that were taxes or fees.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 8b (Explain other charges on the bill that were taxes or fees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 8b (Explain other charges on the bill that were taxes or fees), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electric bills itemize generation charges, delivery tariffs, and statutory taxes or administrative surcharges. These separate line items support grid maintenance, public assistance programs, and local municipal franchise fees.
 - **Common Myth:** Beginners often believe the total electric bill represents only the pure cost of generated electricity.
@@ -459,7 +459,7 @@
 #### Req 8c: Household Energy Conservation Practices
 **Official Requirement 8c:** Discuss with your counselor five ways your family can conserve energy.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 57, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 8c (Discuss with your counselor five ways your family can conserve energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 8c (Discuss with your counselor five ways your family can conserve energy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Residential energy conservation targets major thermal loads such as space conditioning, water heating, and refrigeration. Installing programmable thermostats, sealing air leaks, and utilizing high efficiency luminaires dramatically lower energy draw.
 - **Common Myth:** Beginners often believe turning off small led charger indicator lights saves huge quantities of household power.
@@ -483,7 +483,7 @@
 **Official Requirement 9a:** Electrical terms: current, energy, power, resistance, and voltage.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Ensure electrical test equipment probes maintain proper insulation and correct multimeter measurement settings before contact.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 9a (Electrical terms: current, energy, power, resistance, and voltage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 9a (Electrical terms: current, energy, power, resistance, and voltage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Current represents the flow of electric charge, while voltage expresses electrical potential difference between points. Resistance quantifies opposition to current flow, and power represents the time rate of energy consumption.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -506,7 +506,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 9b:** Units of measure: ampere (amps), ohms, volts, watts, and watt-hours.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 9b (Units of measure: ampere (amps), ohms, volts, watts, and watt-hours), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 9b (Units of measure: ampere (amps), ohms, volts, watts, and watt-hours), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Amperes measure current volume, volts quantify electrical pressure, and ohms express conductor resistance. Watts measure instantaneous electrical power, while watt-hours quantify total energy expended over time.
 - **Common Myth:** Beginners often believe watts and watt-hours measure the exact same physical property in electrical systems.
@@ -524,7 +524,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 9c:** Electrical conditions: generating source with example, ground, open circuit, overvoltage, potential difference, and short circuit.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 9c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 9c (Electrical conditions: generating source with example, ground, open circuit, overvoltage,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 9c (Electrical conditions: generating source with example, ground, open circuit, overvoltage,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - An open circuit completely breaks continuity, halting all current flow, whereas a short circuit bypasses load resistance entirely. Overvoltage conditions deliver excessive potential difference that can damage sensitive semiconductor components.
 - **Common Myth:** Beginners often believe an open circuit causes fuses to blow and conductors to catch fire.
@@ -542,7 +542,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 9d:** Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI), insulator, inverter, rectifier, rheostat, substation, surge protection, solar panel, transformer, transmission and distribution systems, and wind turbine.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 29, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 9d (Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 9d (Equipment and their use: circuit, conductor, Ground Fault Circuit Interrupter (GFCI),), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Inverters convert direct current into alternating current, while rectifiers change alternating current into direct current. Ground fault circuit interrupters monitor current balance between ungrounded and neutral lines to prevent electrocution.
 - **Common Myth:** Beginners often believe transformers change alternating current into direct current electricity during power delivery.
@@ -566,7 +566,7 @@
 **Official Requirement 10a:** Connect a buzzer, bell, or light with a battery. Have a key or switch in the line.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Disconnect all DC power supplies before rearranging jumper wires or changing component circuit configurations.
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10a (Connect a buzzer, bell, or light with a battery. Have a key or switch in the line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10a (Connect a buzzer, bell, or light with a battery. Have a key or switch in the line), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A basic control circuit places a mechanical switch or telegraph key in series with an electrical load and battery. Closing the switch provides an unbroken conductive path for current flow to activate the device.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -587,7 +587,7 @@
 #### Req 10b: Direct Current Motor Assembly
 **Official Requirement 10b:** Make and run a simple electric motor (from a kit is acceptable, if approved by your counselor ahead of time)
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10b (Make and run a simple electric motor (from a kit is acceptable, if approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10b (Make and run a simple electric motor (from a kit is acceptable, if approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electric motors convert direct current electrical energy into mechanical rotational torque through magnetic field interactions. Commutators or scraped coil leads alternate rotor magnetic polarity at each half rotation to sustain continuous turning.
 - **Common Myth:** Beginners often believe electric motors run purely on mechanical momentum once started without continuous magnetic repulsion.
@@ -604,7 +604,7 @@
 #### Req 10c: Variable Rheostat Resistance Construction
 **Official Requirement 10c:** Build a simple rheostat. Show that it works.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10c (Build a simple rheostat. Show that it works), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10c (Build a simple rheostat. Show that it works), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A rheostat acts as a variable resistor by moving a sliding contact along a coiled resistive wire. Lengthening the conductor path increases circuit resistance, reducing current flow to dim lamps or slow motors.
 - **Common Myth:** Beginners often believe rheostats change circuit current by creating physical barriers that trap electrons.
@@ -620,7 +620,7 @@
 #### Req 10d: Double Throw Switching Mechanism
 **Official Requirement 10d:** Build a single-pole, double-throw switch. Show that it works.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 10d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10d (Build a single-pole, double-throw switch. Show that it works), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10d (Build a single-pole, double-throw switch. Show that it works), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A single pole double throw switch incorporates a movable center contact that pivots between two alternate terminal positions. This configuration routes supply current selectively to one of two distinct indicator loads.
 - **Common Myth:** Beginners often believe double throw switches can connect both load outputs to power simultaneously.
@@ -636,7 +636,7 @@
 #### Req 10e: Three Way Lighting Control
 **Official Requirement 10e:** Explain how 3-way switch wiring works in a lighting circuit.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 10e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10e (Explain how 3-way switch wiring works in a lighting circuit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10e (Explain how 3-way switch wiring works in a lighting circuit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Three-way switching circuits use two single pole double throw switches linked by a pair of traveler conductors. Flipping either switch completes or interrupts the circuit path regardless of the other switch position.
 - **Common Myth:** Beginners often believe three-way switches require complex internal computers to coordinate multi-location lighting control.
@@ -654,7 +654,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 10f:** Connect two lights together in a series circuit along with a battery and a switch. Then connect the same circuit in parallel. Discuss the differences in the two circuits.
 **Source:** *Official Scouting America Electricity Merit Badge Pamphlet (p. 48, p. 49)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 10f Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For electricity Requirement 10f (Connect two lights together in a series circuit along with a battery and a switch. Then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electricity Requirement 10f (Connect two lights together in a series circuit along with a battery and a switch. Then), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Series circuits provide a single conductive loop where total resistance equals the sum of individual component resistances. Parallel circuits provide independent conductive branches where each branch receives full source voltage.
 - **Common Myth:** Beginners often believe series circuits draw more total current from batteries than parallel circuits.

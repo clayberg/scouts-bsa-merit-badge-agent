@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Woodwork.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/woodwork/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in woodwork activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards. Explain what precautions you should take to safely use your tools.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Tie back long hair, roll sleeves above elbows, remove all jewelry, and never wear gloves when operating rotating machinery.
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Woodworkers must anticipate mechanical pinch points, sharp edge slips, and toxic wood dusts before cutting lumber. Mitigating these hazards relies on firm clamping, push sticks, well fitted personal protective equipment, and clear floor spaces.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Woodworking First Aid and Treatment
 **Official Requirement 1b:** Show that you know first aid for injuries that could occur while woodworking, including splinters, scratches, cuts, severe bleeding, and shock. Tell what precautions must be taken to help prevent loss of eyesight or hearing, and explain why and when it is necessary to use a dust mask.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 1b (Show that you know first aid for injuries that could occur while woodworking, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 1b (Show that you know first aid for injuries that could occur while woodworking, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Minor shop injuries require immediate washing, antiseptic treatment, and clean dressings to avoid bacterial infection from wooden pathogens. Deep lacerations demand firm direct pressure with sterile pads, elevation, and immediate professional emergency response.
 - **Common Myth:** Wood splinters can safely remain beneath the skin if they do not cause immediate pain.
@@ -80,7 +80,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 1c:** Earn the Totin' Chip recognition.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 36)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 1c (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 1c (Earn the Totin' Chip recognition), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Totin Chip confirms safe handling, sharpening, transport, and maintenance protocols for pocketknives, axes, and saws. Demonstrating respect for cutting zones and blade covers preserves personal safety and team workshop privileges.
 - **Common Myth:** Earning a Totin Chip once grants lifetime authorization to use woods tools without further review.
@@ -103,7 +103,7 @@
 **Official Requirement 2a:** Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned, graded, and sized.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Inspect recycled or reclaimed timber with a metal detector before machining to avoid striking hidden nails or screws with blades.
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 2a (Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 2a (Describe how timber is grown, harvested, and milled. Tell how lumber is cured, seasoned,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Logs undergo debarking and bandsaw headrig conversion into rough green planks before controlled seasoning reduces internal water content below twelve percent. Lumber graders then evaluate structural knots, pitch pockets, and checks to assign Select or Common quality classifications.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -124,7 +124,7 @@
 #### Req 2b: Wood Species Collection and Identification
 **Official Requirement 2b:** Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief qualities of each. Give the best uses of each.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 14, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 2b (Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 2b (Collect and label blocks of six kinds of wood useful in woodworking. Describe the chief), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Woodworkers must collect sample blocks representing distinct species such as oak, maple, pine, walnut, cherry, and cedar to evaluate varied workability. Each species exhibits distinct hardness ratings, porous grain structures, natural decay resistances, and ideal construction applications.
 - **Common Myth:** Balsa wood is classified as a softwood because it is lightweight and soft enough to dent with a fingernail.
@@ -147,7 +147,7 @@
 **Official Requirement 3a:** Show the proper care, use, and storage of all working tools and equipment that you own or use at home or school.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never place fingers across the cutting edge to test sharpness; shave thumbnail surfaces or test cuts on scrap softwood instead.
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 3a (Show the proper care, use, and storage of all working tools and equipment that you own or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 3a (Show the proper care, use, and storage of all working tools and equipment that you own or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Woodworking tools function best when cutter blades remain retracted, metal components stay protected from rust with camellia oil, and moving gears receive light lubrication. Organizing tools in dedicated wall racks or fitted wooden chests prevents accidental edge dulling caused by contact with other steel tools.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -170,7 +170,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** Sharpen correctly the cutting edges of two different tools.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 34, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 3b (Sharpen correctly the cutting edges of two different tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 3b (Sharpen correctly the cutting edges of two different tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sharpening edge tools like bench chisels and hand plane irons requires establishing a consistent twenty-five to thirty-degree bevel using a honing guide across successive abrasive grits. Polishing the flat back and stropping the apex removes the wire burr, leaving an edge capable of cleanly shaving end grain.
 - **Common Myth:** A grinding wheel alone produces a finished, ready-to-use edge for woodworking hand tools.
@@ -252,7 +252,7 @@
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Keep both hands positioned behind the cutting edge of carving gouges, chisels, and drawknives during shaping operations.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Woodwork Req 6 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 6a (Make working drawings of a project needing beveled or rounded edges and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 6a (Make working drawings of a project needing beveled or rounded edges and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating beveled and rounded edge profiles softens sharp edges, enhances tactile comfort, and prevents finish chipping on furniture corners. Woodworkers layout stop lines with marking gauges and execute the profiles using block planes, rasps, spokeshaves, and sanding blocks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -274,7 +274,7 @@
 #### Req 6b: Curved and Incised Cutting Operations
 **Official Requirement 6b:** Make working drawings of a project needing curved or incised cuttings and build it.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 6b (Make working drawings of a project needing curved or incised cuttings and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 6b (Make working drawings of a project needing curved or incised cuttings and build it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Curved work requires cutting complex internal and external contours using coping saws, compass saws, or scroll saws along scribed templates. Relief cuts prevent blade binding in tight radiuses, while incised surface carving utilizes sharp vee tools and gouges driven with controlled mallet strikes.
 - **Common Myth:** A coping saw blade can make sharp ninety-degree turns in thick lumber without relief cuts.
@@ -291,7 +291,7 @@
 #### Req 6c: Precision Joinery Frame Construction
 **Official Requirement 6c:** Make working drawings of a project needing miter, dowel, or mortise and tenon joints and build it.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 6c (Make working drawings of a project needing miter, dowel, or mortise and tenon joints and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 6c (Make working drawings of a project needing miter, dowel, or mortise and tenon joints and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building projects with miter, dowel, or mortise and tenon joints demands precise squaring and marking with striking knives to ensure smooth mating faces. Tenons must fit snugly into mortises with hand pressure alone, allowing sufficient clearance for a thin, even film of wood adhesive.
 - **Common Myth:** Dowel joints hold securely regardless of grain orientation or depth into the mating pieces.
@@ -308,7 +308,7 @@
 #### Req 6d: Cabinet Making and Inset Hinges
 **Official Requirement 6d:** Make a cabinet, box, or something else with a door or lid fastened with inset hinges.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 6d (Make a cabinet, box, or something else with a door or lid fastened with inset hinges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 6d (Make a cabinet, box, or something else with a door or lid fastened with inset hinges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing small cabinets or lidded boxes with inset hinges requires building square casework, flat flush doors, and chiseling precise shallow mortises called gains. Accurately hung inset hinges ensure uniform reveal gaps around the door perimeter and prevent binding against the cabinet frame.
 - **Common Myth:** Cabinet doors with inset hinges can be cut to the exact size of the face frame opening.
@@ -326,7 +326,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 6e:** Help make wooden toys for children OR help carry out a woodworking service project approved by your counselor for a charitable organization.
 **Source:** *Official Scouting America Woodwork Merit Badge Pamphlet (p. 62, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For woodwork Requirement 6e (Help make wooden toys for children OR help carry out a woodworking service project approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Woodwork Requirement 6e (Help make wooden toys for children OR help carry out a woodworking service project approved), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fabricating wooden toys for children or completing community service projects introduces batch production, repetitive part templating, and child-safe construction standards. All components must be rounded to eliminate sharp corners, fastened without exposed metal hardware, and finished exclusively with non-toxic oils or waterborne coatings.
 - **Common Myth:** Any standard commercial oil-based wood stain is safe for children's wooden toys once dry.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Oceanography.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/oceanography/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -96,7 +96,7 @@
 **Official Requirement 3a:** Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3a Technical Comparison Matrix
 > **Guide to Safe Scouting Warning:** Swim parallel to the shoreline rather than fighting seaward flows if caught inside a rip current.
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 3a (Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 3a (Point out the differences among the storm surge, tsunami, tidal wave, and tidal bore), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Storm surges result from coastal wind pileup and low atmospheric pressure, whereas tsunamis stem from sudden seafloor seismic displacement. True tidal waves and bores arise exclusively from astronomical gravitational pulls funneled into narrow estuaries.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -118,7 +118,7 @@
 #### Req 3b: Sea Swell and Surf Distinctions
 **Official Requirement 3b:** Explain the difference between sea, swell, and surf.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 3b (Explain the difference between sea, swell, and surf), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 3b (Explain the difference between sea, swell, and surf), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sea describes chaotic, steep waves driven by local winds directly within an active storm fetch. Swells represent mature, rounded wave trains that have traveled far beyond their storm origin into coastal surf zones.
 - **Common Myth:** Scouts often confuse local choppy wind waves with distant oceanic swells.
@@ -138,7 +138,7 @@
 **[Parent Directive]:** *Describe the characteristics of ocean waves and do the following*
 **Official Requirement 3c:** Explain how breakers are formed.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 3c (Explain how breakers are formed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 3c (Explain how breakers are formed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Breakers form when water depth decreases to roughly one point three times the incoming wave height, causing bottom friction. This drag slows the wave base while the crest continues forward, steepening until it curls and collapses.
 - **Common Myth:** Scouts think waves break because surface winds push the crest forward faster than normal.
@@ -155,7 +155,7 @@
 #### Req 3d: Rip Current Dynamics and Safety
 **Official Requirement 3d:** Explain what a rip current is, how to avoid them, and what to do if you are caught in one.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 18, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 3d (Explain what a rip current is, how to avoid them, and what to do if you are caught in one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 3d (Explain what a rip current is, how to avoid them, and what to do if you are caught in one), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rip currents are narrow, powerful channels of water moving rapidly away from the shore through breaches in offshore sandbars. Swimmers must remain calm and swim parallel to the coastline to escape the seaward flow before heading ashore.
 - **Common Myth:** Scouts frequently believe rip currents act as undertows that drag swimmers beneath the surface.
@@ -177,7 +177,7 @@
 **[Parent Directive]:** *Draw a cross-section of underwater topography. Name and put on your drawing the following*
 **Official Requirement 4a:** Continental shelf (b) Continental slope (c) Abyssal plain.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 4a (Continental shelf (b) Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 4a (Continental shelf (b) Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The continental shelf forms a gently sloping submerged extension of the continental landmass extending seaward to an average depth of one hundred thirty meters. It supports abundant fisheries and high biological productivity due to sunlight penetration and nutrient runoff.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -200,7 +200,7 @@
 **[Parent Directive]:** *Draw a cross-section of underwater topography. Name and put on your drawing the following*
 **Official Requirement 4b:** Continental slope (c) Abyssal plain.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 4b (Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 4b (Continental slope (c) Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The continental slope marks the true transition boundary between thick continental granite crust and thin oceanic basalt bedrock. Submarine canyons frequently dissect this steep incline, transporting coastal sediment into deep oceanic basins via turbidity currents.
 - **Common Myth:** Scouts often believe the slope is a vertical cliff dropping straight down thousands of feet.
@@ -218,7 +218,7 @@
 **[Parent Directive]:** *Draw a cross-section of underwater topography. Name and put on your drawing the following*
 **Official Requirement 4c:** Abyssal plain.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 14, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 4c (Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 4c (Abyssal plain), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Abyssal plains are vast, remarkably level plains on the deep ocean floor lying between four and six thousand meters depth. Thick layers of marine sediment blanket underlying volcanic bedrock, creating some of the flattest terrain on Earth.
 - **Common Myth:** Scouts assume abyssal plains are completely barren of sediment due to high water pressures.
@@ -295,7 +295,7 @@
 #### Req 7a: Plankton Sampling Net Construction
 **Official Requirement 7a:** Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it from a rowboat. Do this for about 20 minutes. Save the sample. Examine it under a microscope or high-power glass. Identify the three most common types of plankton in the sample. Note: May be done in lakes or streams.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7a (Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7a (Make a plankton net. Tow the net by a dock, wade with it, hold it in a current, or tow it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Construct a conical plankton net using fine stocking mesh, wire ring, and collection vial to sample aquatic life. Tow the net slowly through coastal waters for twenty minutes, then examine concentrated specimens under magnification.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -318,7 +318,7 @@
 #### Req 7b: Coral Reef Evolution Modeling
 **Official Requirement 7b:** Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of an atoll from a fringing reef through a barrier reef. Describe the Darwinian theory of coral reef formation.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7b (Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7b (Make a series of models (clay or plaster and wood) of a volcanic island. Show the growth of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Build sequential physical models illustrating how coral structures transition from fringing reefs to barrier reefs and atolls. Document how gradual volcanic island subsidence balances upward coral growth according to Charles Darwin subsidence theory.
 - **Common Myth:** Scouts frequently believe atolls form directly on coral that grew up from deep ocean trenches.
@@ -335,7 +335,7 @@
 #### Req 7c: Water Column Thermal Profiling
 **Official Requirement 7c:** Measure the water temperature at the surface, midwater, and bottom of a body of water four times daily for five consecutive days. You may measure depth with a rock tied to a line. Make a Secchi disk to measure turbidity (how much suspended sedimentation is in the water). Measure the air temperature. Note the cloud cover and roughness of the water. Show your findings (air and water temperature, turbidity) on a graph. Tell how the water temperature changes with air temperature.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7c (Measure the water temperature at the surface, midwater, and bottom of a body of water four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7c (Measure the water temperature at the surface, midwater, and bottom of a body of water four), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Measure water temperatures at surface, mid-depth, and benthic levels four times daily across five consecutive days. Chart your recorded temperature gradients over time to analyze solar warming, night cooling, and thermal stratification.
 - **Common Myth:** Scouts believe shallow water bodies maintain identical temperatures from surface to muddy bottom throughout daytime.
@@ -353,7 +353,7 @@
 #### Req 7d: Inshore Sediment Transport Modeling
 **Official Requirement 7d:** Make a model showing the inshore sediment movement by littoral currents, tidal movement, and wave action. Include such formations as high and low waterlines, low-tide terrace, berm, and coastal cliffs. Show how offshore bars are built up and torn down.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7d (Make a model showing the inshore sediment movement by littoral currents, tidal movement,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7d (Make a model showing the inshore sediment movement by littoral currents, tidal movement,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Construct a littoral drift wave tank model demonstrating how longshore currents transport sediment along coastlines. Feature dynamic sand formations including low-tide terraces, berms, and barrier spits created by angled wave action.
 - **Common Myth:** Scouts think beach sand simply moves straight in and out with rising and falling tides.
@@ -370,7 +370,7 @@
 #### Req 7e: Wave Generator and Coastal Structures
 **Official Requirement 7e:** Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties, and breakwaters affect these patterns.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7e Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7e (Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7e (Make a wave generator. Show reflection and refraction of waves. Show how groins, jetties,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Build a wave generator in a shallow basin to observe physical wave reflection and refraction around coastal structures. Test how hard engineering interventions like groins, jetties, and breakwaters alter incoming wave energy and deposition.
 - **Common Myth:** Scouts often confuse groins and jetties with offshore breakwaters designed to dissipate wave energy.
@@ -388,7 +388,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7f:** With your counselor's and parent or guardian's approval and permission, track and monitor satellite images available on the internet for a specific location for three weeks. Describe what you have learned to your counselor.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 23, p. 70)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 7f Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 7f (With your counselor's and parent or guardian's approval and permission, track and monitor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 7f (With your counselor's and parent or guardian's approval and permission, track and monitor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Monitor online satellite imagery of a selected marine area over three weeks to track dynamic oceanographic processes. Analyze satellite observations of sea surface temperature anomalies, phytoplankton chlorophyll concentrations, or major oceanic current movements.
 - **Common Myth:** Scouts assume ocean satellites only take standard optical photographs like a common digital camera.
@@ -410,7 +410,7 @@
 **Official Requirement 8a:** Write a 500-word report on a book about oceanography approved by your counselor.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Oceanography Req 8 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 8a (Write a 500-word report on a book about oceanography approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 8a (Write a 500-word report on a book about oceanography approved by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Read an approved scientific book detailing ocean exploration, marine geology, or biological oceanography. Author a five-hundred-word critical report summarizing central research methodologies, marine discoveries, and scientific conclusions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -432,7 +432,7 @@
 #### Req 8b: Marine Facility Educational Visit
 **Official Requirement 8b:** Visit one of the following and write a 500-word report about your visit. (1) Oceanographic research ship (2) Oceanographic institute, marine laboratory, or marine aquarium.
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 8b (Visit one of the following and write a 500-word report about your visit. (1) Oceanographic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 8b (Visit one of the following and write a 500-word report about your visit. (1) Oceanographic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tour an oceanographic research vessel, marine laboratory, or public aquarium to observe active marine scientific work. Document research equipment, biological holding systems, and ongoing experiments in a detailed five-hundred-word report.
 - **Common Myth:** Scouts think public aquariums and commercial tourist boats operate identically to scientific research laboratories.
@@ -448,7 +448,7 @@
 #### Req 8c: Oceanographic Careers Troop Presentation
 **Official Requirement 8c:** Explain to your troop, in a five-minute prepared speech, "Why Oceanography Is Important" or describe "Career Opportunities in Oceanography." (Before making your speech, show your speech outline to your counselor for approval.)
 **Source:** *Official Scouting America Oceanography Merit Badge Pamphlet (p. 57, p. 62)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 8c Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For oceanography Requirement 8c (Explain to your troop, in a five-minute prepared speech, "Why Oceanography Is Important" or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Oceanography Requirement 8c (Explain to your troop, in a five-minute prepared speech, "Why Oceanography Is Important" or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Prepare and deliver a five-minute educational speech to your troop addressing ocean importance or career pathways. Review the speech outline with your counselor beforehand, explaining professional opportunities across diverse marine industries.
 - **Common Myth:** Scouts assume careers in ocean science are limited entirely to training dolphins at aquariums.

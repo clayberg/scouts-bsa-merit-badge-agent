@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/psychology/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -38,7 +38,7 @@
 #### Req 1a: Foundational Behavioral Principles
 **Official Requirement 1a:** Define psychology in your own words and explain its impact on daily life.
 **Source:** *Psychology Test Lab Resource Guide, pp. 4-9* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 1a (Define psychology in your own words and explain its impact on daily life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 1a (Define psychology in your own words and explain its impact on daily life), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Psychology provides foundational frameworks for evaluating sensory perception, memory storage, and emotional adaptation across daily routines. Understanding behavioral reinforcement patterns allows individuals to navigate group dynamics and personal habits effectively.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -60,7 +60,7 @@
 #### Req 1b: Pioneering Psychological Contributors
 **Official Requirement 1b:** Identify two famous psychologists and describe their contributions to the field.
 **Source:** *Psychology Test Lab Resource Guide, pp. 4-9* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 1b (Identify two famous psychologists and describe their contributions to the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 1b (Identify two famous psychologists and describe their contributions to the field), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pioneering figures such as William James and Ivan Pavlov transformed speculative philosophy into rigorous empirical science. Their discoveries concerning classical conditioning, functionalism, and cognitive stages continue guiding modern therapeutic and educational practices.
 - **Common Myth:** Early psychological pioneers only formulated philosophical theories without running structured laboratory experiments.
@@ -81,7 +81,7 @@
 #### Req 2a: Behavioral Leadership Script Construction
 **Official Requirement 2a:** Write a script for a short (1-2 minute) skit that demonstrates how a leader might apply the study of psychology to better lead a group. Share your script with your counselor.
 **Source:** *Psychology Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 2a (Write a script for a short (1-2 minute) skit that demonstrates how a leader might apply the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 2a (Write a script for a short (1-2 minute) skit that demonstrates how a leader might apply the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Writing a psychological scenario requires defining clear character motivations, acute environmental stressors, and evidence-based leadership interventions. The script must demonstrate practical conflict mediation, empathetic boundary setting, and proactive morale building.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -103,7 +103,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** With the help of others, rehearse and perform your skit for your counselor (in-person or by recorded video). Explain to your counselor the plot and discuss the connections between psychology and leadership that are shown in your skit.
 **Source:** *Psychology Test Lab Resource Guide, pp. 10-15* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 2b (With the help of others, rehearse and perform your skit for your counselor (in-person or by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 2b (With the help of others, rehearse and perform your skit for your counselor (in-person or by), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rehearsal and live performance bring psychological concepts to life through tone modulation, eye contact, and body language. Post-performance debriefs allow actors and counselors to evaluate how specific communication styles affect interpersonal trust.
 - **Common Myth:** Rehearsing skits adds no learning value beyond reading the written text silently.
@@ -124,7 +124,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3a:** In your own words, define mental health.
 **Source:** *Psychology Test Lab Resource Guide, pp. 16-21* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 3a (In your own words, define mental health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 3a (In your own words, define mental health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mental health represents an ongoing continuum of psychological wellness, emotional resilience, and productive community participation. It shapes how people handle daily stress, relate to others, and make decisions throughout development.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -146,7 +146,7 @@
 #### Req 3b: Risk Mitigation and Resilience
 **Official Requirement 3b:** Discuss with your counselor the concepts of protective factors, risk factors, and resilience for the mental health of youth close to your age in your community. Share ideas about how your community could strengthen the resilience of young people.
 **Source:** *Psychology Test Lab Resource Guide, pp. 16-21* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 3b (Discuss with your counselor the concepts of protective factors, risk factors, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 3b (Discuss with your counselor the concepts of protective factors, risk factors, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Youth mental health depends on the dynamic equilibrium between external vulnerabilities and internal protective assets. Building strong social connections and healthy emotional outlets equips youth to rebound from major life disruptions.
 - **Common Myth:** Resilience is an unchangeable genetic trait that individuals either possess or lack entirely.
@@ -167,7 +167,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 4a:** For two weeks, create a tracking log and record daily how you spend your time at school, in Scouting, and at each of your other activities with your friends, family, and others close to you. Think about how these things made you feel and draw your own emoji next to each entry to summarize your feelings from each experience.
 **Source:** *Psychology Test Lab Resource Guide, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 4a (For two weeks, create a tracking log and record daily how you spend your time at school, in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 4a (For two weeks, create a tracking log and record daily how you spend your time at school, in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A two-week tracking log requires recording daily commitments across academic, familial, social, and Scouting domains. Concurrently recording emotional valences uncovers how environmental settings impact immediate subjective well-being.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -190,7 +190,7 @@
 #### Req 4b: Longitudinal Behavioral Pattern Review
 **Official Requirement 4b:** Review your two-week tracking log with your counselor and discuss the trends you notice about the activities you did and the emotions you felt.
 **Source:** *Psychology Test Lab Resource Guide, pp. 22-27* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 4b (Review your two-week tracking log with your counselor and discuss the trends you notice), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 4b (Review your two-week tracking log with your counselor and discuss the trends you notice), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Analyzing longitudinal tracking records uncovers significant behavioral trends, such as procrastination spirals or rejuvenation routines. Counselors guide youth to identify how deliberate lifestyle shifts can mitigate chronic adolescent fatigue.
 - **Common Myth:** Looking over personal activity logs provides no useful psychological insights beyond obvious schedules.
@@ -212,7 +212,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5a:** In your own words, define empathy and give examples of how you might show empathy to others.
 **Source:** *Psychology Test Lab Resource Guide, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 5a (In your own words, define empathy and give examples of how you might show empathy to others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 5a (In your own words, define empathy and give examples of how you might show empathy to others), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Empathy is the capacity to comprehend another person's emotional state and communicate genuine understanding. Demonstrating empathy strengthens interpersonal rapport and de-escalates hostility in stressful group environments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -234,7 +234,7 @@
 #### Req 5b: Resilience Cultivation Through Adversity
 **Official Requirement 5b:** Discuss the importance of resilience and how Scouting experiences develop resilience.
 **Source:** *Psychology Test Lab Resource Guide, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For psychology Requirement 5b (Discuss the importance of resilience and how Scouting experiences develop resilience), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Psychology Requirement 5b (Discuss the importance of resilience and how Scouting experiences develop resilience), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Resilience represents the psychological capacity to recover from adversity, trauma, or significant sources of stress. Scouting builds resilience through progressive outdoor challenges that test problem-solving under real environmental friction.
 - **Common Myth:** Resilience means an individual never experiences stress, sorrow, or physical exhaustion.

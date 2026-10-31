@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Fishing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/fishing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -43,7 +43,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in fishing activities, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wade into unknown currents without a snug wading belt and wading staff.
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Angling environments present rapid current changes, submerged debris, and sudden electrical storms. Scouts reduce danger by monitoring weather reports and surveying shorelines prior to rigging tackle.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -65,7 +65,7 @@
 #### Req 1b: Waterfront First Aid and Prevention
 **Official Requirement 1b:** Discuss the prevention of and treatment for the following health concerns that could occur while fishing: cuts and scratches, puncture wounds, insect bites, hypothermia, dehydration, heat exhaustion, heatstroke, and sunburn.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 1b (Discuss the prevention of and treatment for the following health concerns that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 1b (Discuss the prevention of and treatment for the following health concerns that could occur), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fishing injuries include fish spine punctures, dehydration, hypothermia, and insect bites. Cleaning punctures with clean water and seeking professional care prevents aquatic bacterial infections.
 - **Common Myth:** Puncture wounds from catfish spines require only basic wiping with river water.
@@ -84,7 +84,7 @@
 #### Req 1c: Barbed Hook Extraction Methods
 **Official Requirement 1c:** Explain how to remove a barbed hook that is lodged in someone's arm.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 1c (Explain how to remove a barbed hook that is lodged in someone's arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 1c (Explain how to remove a barbed hook that is lodged in someone's arm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A hook barb lodged below the skin requires careful string yank extraction or surgical advancement. If the hook is lodged near eyes or arteries, immediate medical transport is required.
 - **Common Myth:** Pulling a barbed hook directly backward with pliers is the standard extraction method.
@@ -101,7 +101,7 @@
 #### Req 1d: Essential Waterfront Safety Practices
 **Official Requirement 1d:** Name and explain five safety practices you should always follow while fishing.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 15, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 1d (Name and explain five safety practices you should always follow while fishing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 1d (Name and explain five safety practices you should always follow while fishing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anglers maintain casting buffers, wear protective eyewear, store lures securely, use flotation gear, and monitor weather. Adhering to these five protocols prevents common hook and water accidents.
 - **Common Myth:** Experienced anglers can safely fish alone in isolated waters without notifying others.
@@ -241,7 +241,7 @@
 **Official Requirement 6a:** Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code. Discuss the positive effects of Leave No Trace Seven Principles and the Outdoor Code on fishing resources.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Pack out all discarded nylon lines and lead sinkers to prevent fatal wildlife poisoning.
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 6a (Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 6a (Explain the importance of practicing Leave No Trace Seven Principles and the Outdoor Code.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anglers protect fragile riverbank soils and surrounding vegetation by treading on durable surfaces and packing out discarded tackle. Adhering to the Outdoor Code ensures that clean waterways and undisturbed habitats endure for future generations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -262,7 +262,7 @@
 #### Req 6b: Catch and Release Techniques
 **Official Requirement 6b:** Discuss the meaning and importance of catch and release. Describe how to properly release a fish safely to the water.
 **Source:** *Official Scouting America Fishing Merit Badge Pamphlet (p. 45, p. 88)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For fishing Requirement 6b (Discuss the meaning and importance of catch and release. Describe how to properly release a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Fishing Requirement 6b (Discuss the meaning and importance of catch and release. Describe how to properly release a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe catch and release demands quick landing times, barbless hooks, wet hands, and minimal exposure to air. Reviving an exhausted fish in moving water replenishes oxygen levels before the fish swims free.
 - **Common Myth:** Lifting a fish vertically by its jaw or gills causes no internal anatomical harm.

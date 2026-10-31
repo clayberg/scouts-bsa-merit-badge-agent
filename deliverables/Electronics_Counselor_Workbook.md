@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Electronics.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/electronics/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -66,7 +66,7 @@
 #### Req 2a: Schematic Diagram Drafting Standards
 **Official Requirement 2a:** Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or integrated circuits. Use the correct symbols. Label all parts.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 2a (Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 2a (Draw a simple schematic diagram. It must show resistors, capacitors, and transistors or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Drafting an accurate schematic requires using standardized symbols for passive devices, transistors, and integrated circuits. Every component symbol must include clear terminal designations and values to allow repeatable assembly.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -92,7 +92,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** Tell the purpose of each part.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 2b (Tell the purpose of each part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 2b (Tell the purpose of each part), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Each electronic component performs a unique role, such as resisting current, filtering frequencies, or switching paths. Explaining their distinct tasks demonstrates how simple building blocks combine to create complex functional circuits.
 - **Common Myth:** Resistors and capacitors perform identical electrical functions in active direct current circuits.
@@ -115,7 +115,7 @@
 #### Req 3a: Soldering and Desoldering Techniques
 **Official Requirement 3a:** Show the right way to solder and desolder.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 3a (Show the right way to solder and desolder), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 3a (Show the right way to solder and desolder), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must demonstrate clean soldering and desoldering techniques using appropriate flux and thermal transfer methods. Mastering both processes ensures reliable solder joints without bridging adjacent conductive pads.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -137,7 +137,7 @@
 #### Req 3b: Component Thermal Protection Methods
 **Official Requirement 3b:** Show how to avoid heat damage to electronic components.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 3b (Show how to avoid heat damage to electronic components), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 3b (Show how to avoid heat damage to electronic components), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Semiconductors possess low thermal thresholds that require protective heatsinks during terminal soldering. Diverting heat away from component bodies protects internal silicon structures from overheating and catastrophic failure.
 - **Common Myth:** Silicon components cannot be permanently damaged by common pencil soldering iron temperatures.
@@ -156,7 +156,7 @@
 #### Req 3c: Printed Circuit Board Assembly
 **Official Requirement 3c:** Tell about the function of a printed circuit board. Tell what precautions should be observed when soldering printed circuit boards.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 13, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 3c (Tell about the function of a printed circuit board. Tell what precautions should be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 3c (Tell about the function of a printed circuit board. Tell what precautions should be), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Printed circuit boards provide rigid mechanical support and etched copper conductor paths between electronic components. Careful soldering prevents copper trace delamination, lifted pads, and accidental solder bridges across fine-pitch conductor tracks.
 - **Common Myth:** Circuit board traces are solid wire cables embedded inside plastic sheets.
@@ -176,7 +176,7 @@
 #### Req 4a: Control Digital and Analog Applications
 **Official Requirement 4a:** Discuss each of the following with your counselor: (1) How to use electronics for a control purpose. (2) Explain the basic principles of digital logic. (3) How to use electronics for three different analog applications.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 4a (Discuss each of the following with your counselor: (1) How to use electronics for a control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 4a (Discuss each of the following with your counselor: (1) How to use electronics for a control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electronics applications split into continuous analog processing, discrete digital logic switching, and automated system control. Scouts explore how control loops monitor sensors and how logic gates evaluate binary statements.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -198,7 +198,7 @@
 #### Req 4b: Decimal and Binary Conversion
 **Official Requirement 4b:** Show how to change three decimal numbers into binary numbers and three binary numbers into decimal numbers.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 4b (Show how to change three decimal numbers into binary numbers and three binary numbers into), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 4b (Show how to change three decimal numbers into binary numbers and three binary numbers into), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Converting numbers between decimal and binary demonstrates how digital computers store and compute numerical data. Scouts practice successive division and place value addition to translate numbers between base ten and base two.
 - **Common Myth:** Binary numbers simply append zeros to decimal numbers without changing the underlying base.
@@ -215,7 +215,7 @@
 #### Req 4c: Electronic Project Construction
 **Official Requirement 4c:** Choose ONE of the following THREE projects. For your project, find or create a schematic diagram. To the best of your ability, explain to your counselor how the circuit you built operates. (1) A control device (2) A digital circuit (3) An analog circuit.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 10, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 4c (Choose ONE of the following THREE projects. For your project, find or create a schematic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 4c (Choose ONE of the following THREE projects. For your project, find or create a schematic), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts choose, construct, and explain an electronic project such as an audio oscillator, digital counter, or light sensor. Explaining circuit operation tests the scout's understanding of signal flow, power distribution, and component interactions.
 - **Common Myth:** Any electronic project works reliably by connecting parts randomly without checking a schematic.
@@ -236,7 +236,7 @@
 #### Req 5a: Ohm Law Problem Solving
 **Official Requirement 5a:** Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 5a (Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 5a (Show how to solve a simple problem involving current, voltage, and resistance using Ohm's law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Solving Ohm's law problems requires manipulating the mathematical equation relating electromotive force, current, and resistance. Scouts calculate current draw, dropping resistor values, and power dissipation for basic DC circuits.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -258,7 +258,7 @@
 #### Req 5b: Electronic Test Equipment Operation
 **Official Requirement 5b:** Tell about the need for and the use of test equipment in electronics. Name three types of test equipment. Tell how they operate.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 5b (Tell about the need for and the use of test equipment in electronics. Name three types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 5b (Tell about the need for and the use of test equipment in electronics. Name three types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electronic testing relies on multimeters, oscilloscopes, and logic probes to verify circuit performance and locate faults. Proper instrument operation requires selecting correct measurement ranges and connecting probes safely into active circuits.
 - **Common Myth:** An oscilloscope only measures static direct current resistance values across disconnected component terminals.
@@ -275,7 +275,7 @@
 #### Req 5c: Resistor Color Code Identification
 **Official Requirement 5c:** Demonstrate to your counselor how to read the colored bands of a resistor to determine its resistance value.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 5c (Demonstrate to your counselor how to read the colored bands of a resistor to determine its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 5c (Demonstrate to your counselor how to read the colored bands of a resistor to determine its), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reading resistor color bands enables quick identification of component values and manufacturing tolerance ratings. Scouts decode standardized color rings to determine whether a resistor matches schematic design specifications.
 - **Common Myth:** Resistor color bands indicate physical wattage rating rather than the electrical resistance in ohms.
@@ -292,7 +292,7 @@
 #### Req 5d: Board Assembly Technology Comparison
 **Official Requirement 5d:** Explain the differences between Through Hole and Surface Mount assembly technologies and give three advantages of each.
 **Source:** *Official Scouting America Electronics Merit Badge Pamphlet (p. 76, p. 78)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5d Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For electronics Requirement 5d (Explain the differences between Through Hole and Surface Mount assembly technologies and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Electronics Requirement 5d (Explain the differences between Through Hole and Surface Mount assembly technologies and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Through-hole and surface mount technologies represent the two primary methods for populating printed circuit boards. Surface mount components save board space, reduce parasitic capacitance, and lower manufacturing costs in modern consumer devices.
 - **Common Myth:** Surface mount components cannot be soldered or assembled in high-volume automated manufacturing factories.

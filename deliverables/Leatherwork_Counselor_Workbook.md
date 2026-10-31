@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Leatherwork.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/leatherwork/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -37,7 +37,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while using leatherwork tools and materials, and what you should do to anticipate, help prevent, mitigate, or lessen these hazards.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never cut toward holding fingers, and always cap rotary cutters between individual bench operations.
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while using), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must anticipate tool slippage by securing damp hides firmly against stable cutting mats. Proper posture keeps free hands behind the travel line of rotary blades and stitching awls.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -59,7 +59,7 @@
 #### Req 1b: Leatherwork First Aid Protocols
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while working with leather, including minor cuts and scratches, puncture wounds, ingested poisoning, and reactions from exposure to chemicals such as dyes, cements, and finishes used in leatherworking.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 10, p. 11)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immediate first aid protocols address swift laceration management and eye decontamination from liquid stains. Accidental solvent ingestion mandates immediate Poison Control contact rather than induced vomiting.
 - **Common Myth:** Rinsing leather chemical splashes with cold water always neutralizes severe dermal toxicity.
@@ -85,7 +85,7 @@
 **Official Requirement 2a:** Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Avoid breathing dry buffing dust produced during mechanical split suede sanding operations.
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 2a (Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 2a (Where leather comes from (b) Kinds of hides that are used to make leather (c) Five types of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Commercial leather derives almost exclusively as a co product of the livestock meat packing industry. Unprocessed skins quickly rot without rapid salting and controlled storage before tannery processing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -108,7 +108,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 2b:** Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for each type of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 2b (Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 2b (Kinds of hides that are used to make leather (c) Five types of leather (d) Best uses for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tanners select specific animal skins like cowhide, sheepskin, pigskin, and goat based on grain tightness. Steer hide yields thick tooling leather, while sheepskins offer soft pliable garment linings.
 - **Common Myth:** All mammalian hides possess identical fiber structures and uniform cross sectional densities.
@@ -128,7 +128,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 2c:** Five types of leather (d) Best uses for each type of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 2c (Five types of leather (d) Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 2c (Five types of leather (d) Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Primary market categories include vegetable tanned leather, chrome tanned hides, oil tanned stock, suede, and rawhide. Each material undergoes distinctive chemical baths that dramatically shift working characteristics.
 - **Common Myth:** Bonded leather consists of solid hide sheets pressed together with natural pine resins.
@@ -146,7 +146,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 2d:** Best uses for each type of leather.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 15, p. 21)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 2d (Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 2d (Best uses for each type of leather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Selecting appropriate leather weights ensures personal projects endure mechanical stress and weather exposure. Heavy vegetable bends suit protective sheaths, whereas chrome tanned hides excel in flexible moccasins.
 - **Common Myth:** Soft garment suede serves effectively for load bearing outdoor belt construction projects.
@@ -170,7 +170,7 @@
 **Official Requirement 3a:** Pattern layout and transfer (b) Cutting leather (c) Punching holes (d) Carving or stamping surface designs.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Secure steel straightedges with hand clamps to prevent slips while slicing heavy leather bends.
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3a (Pattern layout and transfer (b) Cutting leather (c) Punching holes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3a (Pattern layout and transfer (b) Cutting leather (c) Punching holes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Patterns transfer onto cased leather by tracing lines through tracing film using smooth styluses. Proper alignment preserves hide grain direction and avoids irregular stretching during final assembly.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -193,7 +193,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3b:** Cutting leather (c) Punching holes (d) Carving or stamping surface designs.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3b (Cutting leather (c) Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3b (Cutting leather (c) Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cutting leather requires sharp rotary blades or head knives guided along heavy metal rulers. Workpieces rest flat upon self healing cutting mats to protect blade apexes from chipping.
 - **Common Myth:** Pressing blades through thick leather in single cuts ensures completely vertical edges.
@@ -213,7 +213,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3c:** Punching holes (d) Carving or stamping surface designs.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3c (Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3c (Punching holes (d) Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rotary and drive punches create circular openings for lace, hardware, and stitching channels. Punches must stand vertically to produce straight bores through thick multi layer laminated seams.
 - **Common Myth:** Steel hole punches operate safely against steel metal bench vices without damage.
@@ -231,7 +231,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3d:** Carving or stamping surface designs.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3d (Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3d (Carving or stamping surface designs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Carving begins by incising outlines with swivel knives followed by decorative beveling stamps. Consistent mallet pressure controls depth and shading across geometric or floral leather motifs.
 - **Common Myth:** Swivel knives should slice through half the total thickness of thin leather.
@@ -249,7 +249,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3e:** Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3e (Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3e (Applying dye or stain and finish to the project (f) Assembly by lacing or stitching (g)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Liquid dyes penetrate unsealed vegetable leather fibers using wool daubers or airbrush sprayers. Acrylic topcoats seal pigments and shield grain from environmental moisture and skin oils.
 - **Common Myth:** Applying heavy coats of thick oil dye hides uneven initial surface stamping.
@@ -267,7 +267,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3f:** Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3f (Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3f (Assembly by lacing or stitching (g) Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts join assembled panels using waxed thread saddle stitching or decorative leather lacing. Consistent thread tension ensures seams remain water resistant and visually balanced across runs.
 - **Common Myth:** Single needle lock stitches hold stronger than hand sewn interlocking saddle stitches.
@@ -285,7 +285,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3g:** Setting snaps and rivets (h) Dressing edges.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3g (Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3g (Setting snaps and rivets (h) Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hardware installation utilizes dedicated setting anvils that cup curved rivet heads during swaging. Correct post length allows stems to flare securely without tearing surrounding hide fibers.
 - **Common Myth:** Striking snap setters with steel carpenters hammers prevents internal post barrel distortion.
@@ -303,7 +303,7 @@
 **[Parent Directive]:** *Make one or more articles of leather that use at least five of the following steps*
 **Official Requirement 3h:** Dressing edges.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 19, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 3h (Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 3h (Dressing edges), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Dressing edges involves beveling sharp corners, applying gum tragacanth, and burnishing with grooved wheels. Smooth edges protect exposed laminations against moisture absorption and long term delamination.
 - **Common Myth:** Sanding edges with coarse sandpaper produces smooth factory grade edge burnishing shine.
@@ -355,7 +355,7 @@
 **Official Requirement 5a:** Learn about the commercial tanning process. Report about it to your counselor.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear splash goggles and chemical aprons when mixing acidic pickling liquors for home tanning.
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 5a (Learn about the commercial tanning process. Report about it to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 5a (Learn about the commercial tanning process. Report about it to your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Industrial tanneries wash, flesh, pickle, and tumble hides in rotating chemical drums containing chromium or vegetable extracts. Mechanical splitters and heated vacuum driers ensure uniform thickness and consistent moisture balance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -377,7 +377,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5b:** Tan the skin of a small animal. Describe the safety precautions you will take and the tanning method that you used.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 5b (Tan the skin of a small animal. Describe the safety precautions you will take and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 5b (Tan the skin of a small animal. Describe the safety precautions you will take and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Small animal tanning demands thorough fleshing, salting, and soaking in aluminum alum or brain solutions. Constant mechanical stretching over breaking beams while drying prevents collagen fibers from stiffening into rawhide.
 - **Common Myth:** Leaving thin fat layers on skins keeps dried home tanned leather naturally supple.
@@ -394,7 +394,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 5c:** Recondition or show that you can take proper care of your shoes, a baseball glove, a saddle, furniture, or other articles of leather. Discuss with your counselor the advantages or disadvantages of leather vs. synthetic materials.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 5c (Recondition or show that you can take proper care of your shoes, a baseball glove, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 5c (Recondition or show that you can take proper care of your shoes, a baseball glove, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reconditioning restores flexibility to dry articles by dissolving dirt with saddle soap and replenishing natural oils. Periodic maintenance preserves tensile strength, prevents surface cracking, and extends gear service life.
 - **Common Myth:** Petroleum jelly serves as an ideal waterproof dressing for fine equestrian saddles.
@@ -410,7 +410,7 @@
 #### Req 5d: Professional Leathercraft Enterprise Exploration
 **Official Requirement 5d:** Visit a leather-related business. This could be a leathercraft supply company, a tannery, a leather goods or shoe factory, or a saddle shop. Report on your visit to your counselor.
 **Source:** *Official Scouting America Leatherwork Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For leatherwork Requirement 5d (Visit a leather-related business. This could be a leathercraft supply company, a tannery, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Leatherwork Requirement 5d (Visit a leather-related business. This could be a leathercraft supply company, a tannery, a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting leather businesses reveals specialized machinery including splitters, clicking presses, and heavy duty walking foot stitchers. Craftsmen demonstrate professional workflow stages from whole side inspection to final buffing.
 - **Common Myth:** Industrial leather manufacturers construct all commercial goods using automated synthetic textile machinery.

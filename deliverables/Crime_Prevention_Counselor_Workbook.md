@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Crime%20Prevention.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/crime-prevention/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -45,7 +45,7 @@
 **Official Requirement 1a:** Why we have criminal laws.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never confront active statutory offenders or intervene directly during commission of violent or property offenses.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 1a (Why we have criminal laws), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 1a (Why we have criminal laws), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Criminal statutes codify collective community values into enforceable standards that deter destructive behavior. Penal codes establish objective penalties to resolve disputes without private retaliation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -68,7 +68,7 @@
 **[Parent Directive]:** *Laws and Society. Discuss the following with your counselor*
 **Official Requirement 1b:** The types of crimes, including property crimes, crimes against people, white collar crime, and environmental crime (c) Why people commit crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 1b (The types of crimes, including property crimes, crimes against people, white collar crime,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 1b (The types of crimes, including property crimes, crimes against people, white collar crime,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Criminal law categorizes violations into personal violence, property theft, financial deception, and environmental damage. Each category requires targeted investigative tools and statutory deterrence frameworks.
 - **Common Myth:** True criminal behavior exclusively involves physical violence or overt burglary against residential property.
@@ -88,7 +88,7 @@
 **[Parent Directive]:** *Laws and Society. Discuss the following with your counselor*
 **Official Requirement 1c:** Why people commit crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 1c (Why people commit crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 1c (Why people commit crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Offenders act under varying combinations of economic pressure, addiction, psychological instability, and environmental temptation. Criminology analyzes these motivators to design effective preventive interventions.
 - **Common Myth:** People commit crimes solely because of inherent bad nature rather than preventable social conditions.
@@ -106,7 +106,7 @@
 **[Parent Directive]:** *Laws and Society. Discuss the following with your counselor*
 **Official Requirement 1d:** Why everyone should follow the law even when no one is watching (e) The meaning of crime prevention.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 1d (Why everyone should follow the law even when no one is watching (e) The meaning of crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 1d (Why everyone should follow the law even when no one is watching (e) The meaning of crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal integrity compels voluntary legal compliance to preserve mutual trust across civil society. Adherence to legal statutes without external enforcement forms the cornerstone of public order.
 - **Common Myth:** Laws only carry binding authority when active law enforcement patrols monitor immediate individual conduct.
@@ -124,7 +124,7 @@
 **[Parent Directive]:** *Laws and Society. Discuss the following with your counselor*
 **Official Requirement 1e:** The meaning of crime prevention.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 11, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 1e (The meaning of crime prevention), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 1e (The meaning of crime prevention), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Crime prevention involves proactive strategies that eliminate criminal opportunity and mitigate community risk factors. Multi-sector collaboration builds neighborhood resilience against illegal activity before offenses happen.
 - **Common Myth:** Crime prevention consists entirely of rapid police response times following an emergency call.
@@ -148,7 +148,7 @@
 **Official Requirement 2a:** Citizens, including youth (b) Schools.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain designated observer roles during community watch patrols and report observations from safe, locked vehicles.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2a (Citizens, including youth (b) Schools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2a (Citizens, including youth (b) Schools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Civic engagement empowers community members to eliminate vulnerabilities and alert authorities to suspicious activity. Youth contributors reinforce public safety through peer leadership and environmental stewardship.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -171,7 +171,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2b:** Schools.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2b (Schools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2b (Schools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Educational systems provide structured spaces that teach conflict resolution and identify adolescent risk factors early. School safety teams integrate architectural access control with behavioral support services.
 - **Common Myth:** Educational institutions contribute to public safety solely by punishing students after classroom infractions happen.
@@ -191,7 +191,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2c:** Neighborhood, social, and civic groups, including youth groups (d) Private security (e) Law enforcement agencies (f) Courts (g) Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2c (Neighborhood, social, and civic groups, including youth groups (d) Private security (e) Law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2c (Neighborhood, social, and civic groups, including youth groups (d) Private security (e) Law), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Civic groups build social capital and reinforce positive behavioral norms across diverse demographic cohorts. Community youth initiatives reduce delinquent behavior by providing constructive recreational and educational activities.
 - **Common Myth:** Social service organizations duplicate law enforcement functions without producing measurable reductions in local crime.
@@ -209,7 +209,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2d:** Private security (e) Law enforcement agencies (f) Courts (g) Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2d (Private security (e) Law enforcement agencies (f) Courts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2d (Private security (e) Law enforcement agencies (f) Courts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Private security teams protect specific physical assets through access screening, perimeter monitoring, and patrol presence. These non-sworn personnel report criminal violations directly to sworn municipal law enforcement.
 - **Common Myth:** Private security personnel possess identical statutory arrest authority and search powers as municipal police.
@@ -227,7 +227,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2e:** Law enforcement agencies (f) Courts (g) Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2e (Law enforcement agencies (f) Courts (g) Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2e (Law enforcement agencies (f) Courts (g) Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sworn police agencies enforce statutory laws, investigate completed crimes, and perform proactive community patrols. Collaborative community policing models address chronic neighborhood problems to deter prospective criminal offenders.
 - **Common Myth:** Police work revolves almost exclusively around high speed vehicle pursuits and dramatic tactical arrests.
@@ -245,7 +245,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2f:** Courts (g) Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2f (Courts (g) Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2f (Courts (g) Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The judicial branch ensures procedural due process while impartially determining criminal liability under statutory standards. Court diversion systems offer alternative sentencing paths to reduce chronic offender recidivism.
 - **Common Myth:** The judicial court system serves only to rubber stamp charges brought by prosecuting attorneys.
@@ -263,7 +263,7 @@
 **[Parent Directive]:** *Groups Working to Prevent Crime. Research how the following groups contribute to crime prevention and share your findings with your*
 **Official Requirement 2g:** Corrections and rehabilitation programs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 17, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 2g (Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 2g (Corrections and rehabilitation programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Correctional systems manage custodial confinement while administering psychological counseling, educational advancement, and job training. Successful post-release reintegration programs directly lower long term community recidivism rates.
 - **Common Myth:** Correctional facilities exist purely for punitive warehousing rather than behavioral reform or vocational education.
@@ -289,7 +289,7 @@
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Conduct investigative case research through academic databases and archived news rather than visiting active crime scenes.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Crime Prevention Req 3 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 3a (With your parent or guardian's permission and the approval of your counselor, research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 3a (With your parent or guardian's permission and the approval of your counselor, research), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts examine news coverage across property, personal, and financial offenses to understand public safety dynamics. Comparative research demonstrates how journalistic framing shapes neighborhood crime perceptions versus actual police statistics.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -310,7 +310,7 @@
 #### Req 3b: Criminal Justice Case Tracking
 **Official Requirement 3b:** Record notes on which law enforcement agencies and courts were involved in the pursuit of justice for the victims and the accused person, why you think these crimes were committed, and what could be done to prevent similar crimes. Review your research with your counselor.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 49)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 3b Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 3b (Record notes on which law enforcement agencies and courts were involved in the pursuit of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 3b (Record notes on which law enforcement agencies and courts were involved in the pursuit of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Documenting legal proceedings exposes the collaborative handoffs between investigating officers, prosecuting attorneys, and defense counsel. Case evaluations reveal how victim advocacy programs and judicial restitution restore impacted community members.
 - **Common Myth:** A single responding patrol officer manages every step from crime scene processing through trial sentencing.
@@ -379,7 +379,7 @@
 #### Req 4b: Residential Security Survey Fieldwork
 **Official Requirement 4b:** Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult supervision and following youth protection guidelines using a security checklist in the Crime Prevention merit badge pamphlet or one approved by your counselor.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 4b (Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 4b (Conduct a security survey of a home, a neighborhood, a park, or a camp building with adult), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts conduct comprehensive security audits using official checklists to assess residential entry points, perimeter lighting, and foliage. Evaluating physical hardware and line-of-sight visibility uncovers easily correctable vulnerabilities.
 - **Common Myth:** Home security surveys merely involve verifying that front door key locks turn smoothly inside cylinders.
@@ -397,7 +397,7 @@
 **[Parent Directive]:** *Home and Neighborhood Crime Prevention. Do the following*
 **Official Requirement 4c:** Use information from your survey for requirement 4(b) and the EDGE method to develop a lesson about how a family or Scouts can protect themselves from crime. Review your teaching plan with your counselor, then present your lesson to your family or to Scouts.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 24, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 4c (Use information from your survey for requirement 4(b) and the EDGE method to develop a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 4c (Use information from your survey for requirement 4(b) and the EDGE method to develop a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The EDGE method structures crime prevention training through direct explanation, demonstration, guided practice, and independent mastery. Scouts translate home survey findings into practical safety habits for family and patrol members.
 - **Common Myth:** Scouts master personal safety techniques merely by reading printed checklist pamphlets without practical demonstration.
@@ -420,7 +420,7 @@
 **Official Requirement 5a:** The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention on retail finances, customer service, and reputation.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never attempt to physically detain, pursue, or confront suspected retail shoplifters inside or outside stores.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 5a (The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 5a (The impact of shoplifting and employee theft (also known as shrinkage) and loss prevention), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Retail shrinkage encompasses shoplifting, internal theft, administrative errors, and fraudulent vendor returns. These collective losses erode business margins, reduce payroll budgets, and degrade the local shopping experience.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -443,7 +443,7 @@
 **[Parent Directive]:** *Retail Crime Prevention. Research the following topics and review them with your counselor*
 **Official Requirement 5b:** Techniques used by retail stores to prevent shoplifting.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 54)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 5b (Techniques used by retail stores to prevent shoplifting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 5b (Techniques used by retail stores to prevent shoplifting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern loss prevention pairs electronic security tags and overhead cameras with attentive frontline customer service. Proactive employee engagement removes the privacy that opportunistic shoplifters need to conceal items.
 - **Common Myth:** Retailers rely exclusively on uniformed security guards chasing suspects down public sidewalks to prevent theft.
@@ -467,7 +467,7 @@
 **Official Requirement 6a:** When and how to report a crime or an impending crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Prioritize personal escape to a secure location before attempting to contact emergency dispatchers on 911.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 6a (When and how to report a crime or an impending crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 6a (When and how to report a crime or an impending crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts learn the precise operational threshold between emergency 911 dispatch calls and non-emergency police desk lines. Clear, factual communications regarding suspect descriptions and travel directions maximize officer apprehension capabilities.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -490,7 +490,7 @@
 **[Parent Directive]:** *Reporting Crime. Discuss the following with your counselor*
 **Official Requirement 6b:** The warning signs for child abuse and domestic violence and how to report these situations.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 6b (The warning signs for child abuse and domestic violence and how to report these situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 6b (The warning signs for child abuse and domestic violence and how to report these situations), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Recognizing behavioral withdrawal, unexplained physical injuries, and coercive control patterns identifies vulnerable abuse victims. Scouts understand mandatory reporting pathways through child protective services, school counselors, and crisis hotlines.
 - **Common Myth:** Family privacy boundaries prohibit reporting suspected child abuse or domestic violence to certified welfare authorities.
@@ -508,7 +508,7 @@
 **[Parent Directive]:** *Reporting Crime. Discuss the following with your counselor*
 **Official Requirement 6c:** The three R's of personal safety and protection and how to apply them.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 6c (The three R's of personal safety and protection and how to apply them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 6c (The three R's of personal safety and protection and how to apply them), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The three R's teach youth to recognize dangerous situations, resist inappropriate or abusive behavior, and report incidents immediately. Practicing situational awareness empowers young people to escape hazardous physical and social environments.
 - **Common Myth:** The three R's of personal protection instruct youth to physically fight adult attackers in every situation.
@@ -526,7 +526,7 @@
 **[Parent Directive]:** *Reporting Crime. Discuss the following with your counselor*
 **Official Requirement 6d:** How reporting a crime can help law enforcement provide resources for crime victims.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 8, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 6d (How reporting a crime can help law enforcement provide resources for crime victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 6d (How reporting a crime can help law enforcement provide resources for crime victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Official police incident documentation activates specialized victim advocacy resources, trauma counseling, and state financial restitution. Detailed case reporting helps law enforcement target preventive patrols toward vulnerable neighborhood hotspots.
 - **Common Myth:** Police crime reports serve merely as statistical records without offering practical assistance to injured crime victims.
@@ -550,7 +550,7 @@
 **Official Requirement 7a:** The role that peers play in crime, crime prevention, and experiencing crime (b) How to resist peer influence.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never intervene physically in violent peer fights; immediately alert designated adult leaders and safety personnel.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 7a (The role that peers play in crime, crime prevention, and experiencing crime (b) How to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 7a (The role that peers play in crime, crime prevention, and experiencing crime (b) How to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Peer dynamics shape adolescent decision-making through direct encouragement, perceived norms, and fear of social rejection. Constructive peer leadership protects individuals from predatory recruitment and reinforces legal compliance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -571,7 +571,7 @@
 **[Parent Directive]:** *Peers and Crime. Discuss the following with your counselor*
 **Official Requirement 7b:** How to resist peer influence.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 7b (How to resist peer influence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 7b (How to resist peer influence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mastering assertive refusal strategies enables youth to decline illicit behaviors while maintaining personal safety and dignity. Techniques include offering alternative activities, stating clear personal boundaries, and exiting compromising locations.
 - **Common Myth:** Resisting peer pressure requires aggressive verbal confrontation that publicly insults the person making illegal suggestions.
@@ -589,7 +589,7 @@
 **[Parent Directive]:** *Peers and Crime. Discuss the following with your counselor*
 **Official Requirement 7c:** Bullying and hazing behaviors and signs that a friend may be bullying you or someone else (d) The impact of gangs on communities.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 7c (Bullying and hazing behaviors and signs that a friend may be bullying you or someone else), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 7c (Bullying and hazing behaviors and signs that a friend may be bullying you or someone else), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bullying and hazing involve repeated abusive behaviors driven by power imbalances and organizational coercion. Recognizing the psychological and physical signs of harassment allows bystanders to intervene safely through adult channels.
 - **Common Myth:** Hazing represents a harmless, traditional bonding ritual necessary to build loyalty within sports teams.
@@ -607,7 +607,7 @@
 **[Parent Directive]:** *Peers and Crime. Discuss the following with your counselor*
 **Official Requirement 7d:** The impact of gangs on communities.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 18, p. 42)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 7d (The impact of gangs on communities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 7d (The impact of gangs on communities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Street gangs introduce chronic violence, illicit narcotics distribution, and extortion rackets into residential communities. Gang involvement traps youth in cycles of incarceration, severe physical trauma, and systemic educational disruption.
 - **Common Myth:** Youth street gangs operate primarily as protective social clubs defending neighborhood residents from outside threats.
@@ -631,7 +631,7 @@
 **Official Requirement 8a:** The legal and health consequences of using alcohol, tobacco and vaping products, illegal drugs, and diverted prescription drugs.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never handle unidentified pills, powders, or drug paraphernalia encountered in parks or public restrooms.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 8a (The legal and health consequences of using alcohol, tobacco and vaping products, illegal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 8a (The legal and health consequences of using alcohol, tobacco and vaping products, illegal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Using alcohol, tobacco, vape devices, and illicit pharmaceuticals impairs adolescent brain development and violates statutory laws. Diverting prescription medications constitutes a serious felony offense carrying mandatory juvenile or adult penalties.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -654,7 +654,7 @@
 **[Parent Directive]:** *Substance Use and Crime. Discuss the following with your counselor*
 **Official Requirement 8b:** How substance use contributes to violence and property crime and increases a person's risk of becoming a victim of crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 8b (How substance use contributes to violence and property crime and increases a person's risk), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 8b (How substance use contributes to violence and property crime and increases a person's risk), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Substance abuse directly fuels violent disputes and compels chronic property crimes to fund chemical dependency habits. Intoxicated individuals experience reduced cognitive risk appraisal, severely increasing their vulnerability to predatory physical violence.
 - **Common Myth:** Substance intoxication only leads to nonviolent traffic offenses without raising risk for violent crime victimization.
@@ -672,7 +672,7 @@
 **[Parent Directive]:** *Substance Use and Crime. Discuss the following with your counselor*
 **Official Requirement 8c:** How drug abuse awareness, prevention, and recovery programs help prevent crime.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 8c (How drug abuse awareness, prevention, and recovery programs help prevent crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 8c (How drug abuse awareness, prevention, and recovery programs help prevent crime), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evidence-based substance abuse education and clinical treatment programs reduce the demand driving illicit narcotics trafficking. Structured rehabilitation breaks cycles of criminal recidivism far more effectively than punitive incarceration alone.
 - **Common Myth:** Substance abuse rehabilitation facilities only benefit affluent individuals while failing to reduce broader neighborhood crime.
@@ -690,7 +690,7 @@
 **[Parent Directive]:** *Substance Use and Crime. Discuss the following with your counselor*
 **Official Requirement 8d:** How to get help if you or someone you know needs help with drugs or alcohol.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 51, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 8d (How to get help if you or someone you know needs help with drugs or alcohol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 8d (How to get help if you or someone you know needs help with drugs or alcohol), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigating substance addiction requires accessing confidential medical resources, professional counseling, and local support groups. Scouts identify immediate referral pipelines including school psychologists, medical professionals, and national crisis hotlines.
 - **Common Myth:** Seeking professional help for substance dependency automatically triggers immediate criminal arrest and juvenile detention.
@@ -714,7 +714,7 @@
 **Official Requirement 9a:** How to avoid being the victim of online crimes (b) Common online financial scams (c) Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never click unsolicited hyperlinks in unexpected emails or disclose two-factor authentication codes to anyone.
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9a (How to avoid being the victim of online crimes (b) Common online financial scams (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9a (How to avoid being the victim of online crimes (b) Common online financial scams (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Defending against online crime requires recognizing deceptive web portals, malicious downloads, and unsecured wireless networks. Adopting cautious digital browsing habits insulates personal computer equipment from destructive ransomware and surveillance spyware.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -737,7 +737,7 @@
 **[Parent Directive]:** *Online Crime and You. Discuss the following with your counselor*
 **Official Requirement 9b:** Common online financial scams (c) Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9b (Common online financial scams (c) Effective online security (d) Identity theft and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9b (Common online financial scams (c) Effective online security (d) Identity theft and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cyber fraud schemes utilize fake marketplace listings, fraudulent lottery winnings, and artificial family emergencies to steal money. Recognizing emotional manipulation and pressure tactics allows consumers to stop fraudulent transactions before wiring funds.
 - **Common Myth:** Financial investment scams online are obvious and only fool people who lack basic technical literacy.
@@ -755,7 +755,7 @@
 **[Parent Directive]:** *Online Crime and You. Discuss the following with your counselor*
 **Official Requirement 9c:** Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9c (Effective online security (d) Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9c (Effective online security (d) Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robust cybersecurity combines software patching, automated password managers, and multi-factor authentication across every online profile. Restricting administrative privileges and encrypting sensitive backups isolates systems from devastating unauthorized digital intrusions.
 - **Common Myth:** Reusing a complex password across multiple banking and entertainment websites provides sufficient digital security.
@@ -773,7 +773,7 @@
 **[Parent Directive]:** *Online Crime and You. Discuss the following with your counselor*
 **Official Requirement 9d:** Identity theft and how to prevent it.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9d (Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9d (Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identity thieves exploit stolen Social Security numbers and personal details to fraudulently obtain loans, medical services, and tax refunds. Proactively monitoring credit reports and maintaining credit freezes prevents unauthorized account openings.
 - **Common Myth:** Identity theft only impacts wealthy adults who own multiple real estate properties and credit cards.
@@ -791,7 +791,7 @@
 **[Parent Directive]:** *Online Crime and You. Discuss the following with your counselor*
 **Official Requirement 9e:** How criminals use social media to target victims.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9e (How criminals use social media to target victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9e (How criminals use social media to target victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Malicious actors scour public social media feeds to harvest personal data, track physical locations, and orchestrate targeted burglaries. Diligent privacy configurations and delayed vacation posting prevent criminals from exploiting personal schedules.
 - **Common Myth:** Setting social media profiles to private completely shields personal information from predatory commercial scrapers.
@@ -809,7 +809,7 @@
 **[Parent Directive]:** *Online Crime and You. Discuss the following with your counselor*
 **Official Requirement 9f:** How bullying, texting, and sharing photos can become crimes.
 **Source:** *Official Scouting America Crime Prevention Merit Badge Pamphlet (p. 7, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For crime prevention Requirement 9f (How bullying, texting, and sharing photos can become crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Crime Prevention Requirement 9f (How bullying, texting, and sharing photos can become crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Electronic harassment, non-consensual image distribution, and digital extortion carry severe misdemeanor and felony criminal penalties. Digital communications leave permanent server records that law enforcement investigators subpoena during criminal cyberbullying prosecutions.
 - **Common Myth:** Sharing hurtful memes or unauthorized photos of classmates is merely harmless adolescent teasing outside legal jurisdiction.

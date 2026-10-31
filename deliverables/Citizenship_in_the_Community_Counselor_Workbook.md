@@ -148,7 +148,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2b:** Chart the organization of your local or state government. Show the top offices and tell whether they are elected or appointed.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 14, p. 16)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 2b (Chart the organization of your local or state government. Show the top offices and tell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 2b (Chart the organization of your local or state government. Show the top offices and tell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Creating a structural diagram of local municipal government distinguishes legislative bodies from appointed professional directors. This hierarchy illustrates how administrative departments execute council policies.
 - **Common Myth:** City department heads function independently without oversight from the elected municipal council.
@@ -170,7 +170,7 @@
 **Official Requirement 3a:** Attend an in-person meeting of your city, town, or county council or school board, local court session; OR another state or local governmental meeting approved in advance by your counselor.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Youth protection: Scouts must attend public civic meetings with a parent, guardian, or Two-Deep adult leadership.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 3a (Attend an in-person meeting of your city, town, or county council or school board, local), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 3a (Attend an in-person meeting of your city, town, or county council or school board, local), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing municipal legislative sessions demonstrates how parliamentary law maintains order during public deliberations. Scouts witness firsthand how local ordinances and school policies receive public scrutiny.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -191,7 +191,7 @@
 #### Req 3b: Public Debate Perspective Analysis
 **Official Requirement 3b:** Choose one of the issues discussed at the meeting where a difference of opinions was expressed, and explain to your counselor why you agree with one opinion more than you do another one.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 21, p. 24)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 3b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 3b (Choose one of the issues discussed at the meeting where a difference of opinions was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 3b (Choose one of the issues discussed at the meeting where a difference of opinions was), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Evaluating opposing viewpoints presented at public hearings requires identifying underlying values, costs, and constituent impacts. Scouts articulate reasoned conclusions grounded in community benefit rather than peer bias.
 - **Common Myth:** Civic debate analysis requires agreeing with the final vote outcome chosen by the elected council.
@@ -214,7 +214,7 @@
 **Official Requirement 4a:** Find out which branch of local government is responsible for this issue.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Community Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 4a (Find out which branch of local government is responsible for this issue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 4a (Find out which branch of local government is responsible for this issue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching town charters and departmental directories reveals which branch holds legal authority over local issues. Identifying the correct department ensures citizen advocacy targets the appropriate decision makers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -237,7 +237,7 @@
 **[Parent Directive]:** *Choose an issue that is important to the citizens of your community; then do the following*
 **Official Requirement 4b:** With your counselor's and a parent or guardian's approval, interview one person from the branch of government you identified in requirement 4(a). Ask what is being done about this issue and how young people can help.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 4b (With your counselor's and a parent or guardian's approval, interview one person from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 4b (With your counselor's and a parent or guardian's approval, interview one person from the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing administrative personnel provides insight into active projects, regulatory limitations, and strategic municipal initiatives. Scouts develop professional questioning techniques while gathering objective data on local problem solving.
 - **Common Myth:** Interviewing a government official means advocating aggressively for a personal political outcome.
@@ -254,7 +254,7 @@
 **[Parent Directive]:** *Choose an issue that is important to the citizens of your community; then do the following*
 **Official Requirement 4c:** Share what you have learned with your counselor.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 4c (Share what you have learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 4c (Share what you have learned with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Synthesizing interview responses into a coherent oral report allows Scouts to evaluate government responsiveness. This briefing demonstrates mastery of local government mechanisms to the merit badge counselor.
 - **Common Myth:** A successful presentation only requires summarizing basic biographical details of the interviewed official.
@@ -331,7 +331,7 @@
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** All community service hours require parental permission and Youth Protection compliance.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Citizenship in the Community Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 7a (Identify three charitable organizations outside of Scouting that interest you and bring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 7a (Identify three charitable organizations outside of Scouting that interest you and bring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identifying three charitable groups outside Scouting encourages Scouts to survey the diverse landscape of local volunteer initiatives. These organizations unite volunteers around food security, housing, animal welfare, or environmental restoration.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -354,7 +354,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 7b:** Pick ONE of the organizations you chose for requirement 7(a). Using a variety of resources (including newspapers, flyers and other literature, the internet, volunteers, and employees of the organization), find out more about this organization.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 7b (Pick ONE of the organizations you chose for requirement 7(a). Using a variety of resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 7b (Pick ONE of the organizations you chose for requirement 7(a). Using a variety of resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating a single chosen charity using diverse informational sources reveals how nonprofits manage logistics and personnel. Scouts learn to evaluate annual reports, community outreach materials, and operational expenditure ratios.
 - **Common Myth:** Internet websites provide the only reliable information needed to evaluate a charitable organization.
@@ -371,7 +371,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 7c:** With your counselor's and your parent or guardian's approval, contact the organization you chose for requirement 7(b), and find out what young people can do to help. While working on this merit badge, volunteer at least eight hours of your time for the organization. After your volunteer experience is over, discuss what you have learned with your counselor.
 **Source:** *Official Scouting America Citizenship in the Community Merit Badge Pamphlet (p. 27, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For citizenship in the community Requirement 7c (With your counselor's and your parent or guardian's approval, contact the organization you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Citizenship in the Community Requirement 7c (With your counselor's and your parent or guardian's approval, contact the organization you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Directly coordinating with an approved charity enables Scouts to perform eight hours of meaningful community volunteer service. This practical fieldwork reinforces civic responsibility through personal investment of time and labor.
 - **Common Myth:** Scouts may count service hours completed for school graduation or court mandates toward this badge.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Music%20Bugling.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/music/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -89,7 +89,7 @@
 #### Req 3a: Genre Analysis and Live Listening
 **Official Requirement 3a:** Attend a live performance, or listen to three hours of recordings from any two of the following musical styles: blues, jazz, classical, country, bluegrass, ethnic, gospel, musical theater, opera. Describe the sound of the music and the instruments used. Identify the composers or songwriters, the performers, and the titles of the pieces you heard. If it was a live performance, describe the setting and the reaction of the audience. Discuss your thoughts about the music.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 3a (Attend a live performance, or listen to three hours of recordings from any two of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 3a (Attend a live performance, or listen to three hours of recordings from any two of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comparative listening reveals how tempo, instrumentation, and lyric themes distinguish genres like jazz, opera, and gospel. Live concert attendance demonstrates the direct acoustic interaction between performers and audience.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -113,7 +113,7 @@
 #### Req 3b: Intergenerational Family Music Interview
 **Official Requirement 3b:** Interview an adult member of your family about music. Find out what the most popular music was when he or she was your age. Find out what his or her favorite music is now, and listen to three of your relative's favorite tunes with him or her. How do those favorites sound to you? Had you ever heard any of them? Play three of your favorite songs for your relative, and explain why you like these songs. Ask what he or she thinks of your favorite music.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 3b (Interview an adult member of your family about music. Find out what the most popular music), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 3b (Interview an adult member of your family about music. Find out what the most popular music), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interviewing adult family members reveals how personal memories and historical events connect to specific popular songs. Documenting their current preferences illustrates how musical taste evolves over a person's lifespan.
 - **Common Myth:** Young scouts often imagine older generations only listened to traditional folk music during youth.
@@ -133,7 +133,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3c:** Serve for six months as a member of a school band, choir, or other organized musical group, or perform as a soloist in public six times.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 3c (Serve for six months as a member of a school band, choir, or other organized musical group,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 3c (Serve for six months as a member of a school band, choir, or other organized musical group,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Participating in an organized ensemble builds rhythm synchrony, intonation awareness, and conductor responsiveness over six months. Solo performances develop individual stage poise and memory retention under public scrutiny.
 - **Common Myth:** Scouts sometimes think ensemble members only need to listen to their own individual instrument.
@@ -150,7 +150,7 @@
 #### Req 3d: Influential American Music Figures
 **Official Requirement 3d:** List five people who are important in the history of American music and explain to your counselor why they continue to be influential. Include at least one composer, one performer, one innovator, and one person born more than 100 years ago.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 3d (List five people who are important in the history of American music and explain to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 3d (List five people who are important in the history of American music and explain to your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Studying five American musical pioneers demonstrates how composers, performers, and innovators transformed global music history. Analyzing their enduring legacy explains how individual artistry reshaped national cultural identity.
 - **Common Myth:** Students often believe modern pop stars invented the songwriting structures used in current radio hits.
@@ -171,7 +171,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4a:** Teach three songs to a group of people. Lead them in singing the songs, using proper hand motions.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 4a (Teach three songs to a group of people. Lead them in singing the songs, using proper hand), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 4a (Teach three songs to a group of people. Lead them in singing the songs, using proper hand), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Leading group singing requires selecting appropriate vocal keys, giving clear pitch cues, and maintaining steady tempo patterns. Song leaders utilize visible hand motions to cue entrances, dynamic shifts, and final cutoffs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -193,7 +193,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4b:** Compose and write the score for a piece of music of 12 measures or more, and play this music on an instrument.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 4b (Compose and write the score for a piece of music of 12 measures or more, and play this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 4b (Compose and write the score for a piece of music of 12 measures or more, and play this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Composing twelve measures requires balancing melodic contour with consistent rhythmic notation across standard musical staves. Performing the original score demonstrates the practical translation of written notation into expressive sound.
 - **Common Myth:** New composers assume melodies can wander randomly without adhering to a key signature.
@@ -210,7 +210,7 @@
 #### Req 4c: Traditional Instrument Crafting and Playing
 **Official Requirement 4c:** Make a traditional instrument and learn to play it.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 4c (Make a traditional instrument and learn to play it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 4c (Make a traditional instrument and learn to play it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Constructing traditional folk instruments like cigar box guitars or pan flutes demonstrates physical acoustic principles firsthand. Learning to play the finished instrument requires mastering tuning, finger placement, and resonance control.
 - **Common Myth:** Crafters often believe any box shape will naturally produce rich acoustic instrument resonance.
@@ -260,7 +260,7 @@
 **Official Requirement 6a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Music Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating music careers reveals required university degrees or conservatory credentials, initial gear investments, and advancement trajectories. Industry roles encompass audio production, music therapy, copyright administration, and orchestral performance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -284,7 +284,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 6b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Music Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For music Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Music Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing music as a hobby involves investing in quality instruments, home practice equipment, and community group memberships. Organizations like civic choruses and bluegrass associations offer workshops and jamming sessions for recreational players.
 - **Common Myth:** Amateur musicians often assume expensive professional equipment is required to enjoy home music.

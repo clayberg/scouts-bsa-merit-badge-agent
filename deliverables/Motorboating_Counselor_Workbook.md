@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Motorboating.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/motorboating/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Discuss with your counselor the following hazards you might encounter while motorboating: flammable fuel; carbon monoxide; propellers; collisions; falls overboard; capsize; or running aground. Explain what you should do to anticipate, prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never run the starter or energize electrical switches before sniffing the engine compartment for gasoline fumes.
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 1a (Discuss with your counselor the following hazards you might encounter while motorboating:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 1a (Discuss with your counselor the following hazards you might encounter while motorboating:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Motorboat hazards include volatile fuel vapors, toxic exhaust fumes, propeller strikes, collisions, falls overboard, capsizing, and groundings. Operators must recognize how hull speed, passenger positioning, and blind spots multiply these dynamic water hazards.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Boating First Aid Management
 **Official Requirement 1b:** Explain first aid for injuries or illnesses that could occur while motorboating, including hypothermia, heat reactions, dehydration, motion sickness, bug bites, and blisters.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 1b (Explain first aid for injuries or illnesses that could occur while motorboating, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 1b (Explain first aid for injuries or illnesses that could occur while motorboating, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - First aid on water requires rapid management of hypothermia, heat exhaustion, dehydration, seasickness, insect bites, and friction blisters. Treating environmental exposure promptly prevents impaired crew coordination and shock.
 - **Common Myth:** Hypothermia only threatens boaters during subfreezing winter conditions.
@@ -82,7 +82,7 @@
 #### Req 1c: Safety Afloat Policy Application
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating activities.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 10, p. 14)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to motorboating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouting America Safety Afloat mandates qualified supervision, physical fitness, swimming ability, life jacket use, and buddy systems on motorboats. Disciplined planning and strict operational discipline protect scouts during high power marine excursions.
 - **Common Myth:** Safety Afloat guidelines apply only to human powered craft like canoes and kayaks.
@@ -105,7 +105,7 @@
 **Official Requirement 2a:** Before doing requirement 5, successfully complete the Scouting America swimmer test. Note: See the Swimming merit badge pamphlet for details about the Scouting America swimmer test.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Every scout and adult aboard a motorized craft must wear a properly fitted Coast Guard approved life jacket at all times.
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 2a (Before doing requirement 5, successfully complete the Scouting America swimmer test. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 2a (Before doing requirement 5, successfully complete the Scouting America swimmer test. Note:), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The official swimmer test evaluates endurance through seventy five yards of strong forward strokes, twenty five yards of resting backstroke, and a motionless float. Demonstrating deep water competence ensures scouts stay calm if cast into open water.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -126,7 +126,7 @@
 #### Req 2b: Personal Flotation Device Selection
 **Official Requirement 2b:** Name the different types of personal flotation devices (PFDs), and explain when each type should be used. Show how to choose and properly fit a PFD.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 11, p. 19)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 2b (Name the different types of personal flotation devices (PFDs), and explain when each type), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 2b (Name the different types of personal flotation devices (PFDs), and explain when each type), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal flotation devices vary across offshore, near shore, flotation aid, throwable, and special use categories. Boaters must evaluate buoyancy ratings, inspect structural seams, and adjust side straps to guarantee reliable torso security.
 - **Common Myth:** All Coast Guard approved personal flotation devices turn unconscious wearers face up automatically.
@@ -150,7 +150,7 @@
 **Official Requirement 3a:** Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Turn off the engine completely before allowing swimmers or water skiers near the stern or swim platform.
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 3a (Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 3a (Explain inboard, outboard, and inboard/outboard motors, and the uses and advantages of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Marine propulsion includes exterior outboard packages, inboard engines with separate rudder assemblies, and inboard outboard stern drive combinations. Drivers choose specific configurations based on draft requirements, maintenance accessibility, and steering performance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -172,7 +172,7 @@
 #### Req 3b: Fuel Handling Equipment Placement
 **Official Requirement 3b:** Explain the safety procedures and precautions involving handling fuel and engine servicing, and equipment storage and placement.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 3b (Explain the safety procedures and precautions involving handling fuel and engine servicing,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 3b (Explain the safety procedures and precautions involving handling fuel and engine servicing,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Handling marine fuel demands closing hatches, grounding nozzles, ventilating spaces, and checking fuel lines for leaks. Proper equipment placement balances the center of gravity while keeping emergency gear accessible.
 - **Common Myth:** Fuel tanks can safely be filled while resting inside enclosed boat cockpit spaces.
@@ -189,7 +189,7 @@
 #### Req 3c: Motor Winterization Maintenance Procedure
 **Official Requirement 3c:** Explain how to winterize a boat motor and tell why this procedure is necessary.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 3c (Explain how to winterize a boat motor and tell why this procedure is necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 3c (Explain how to winterize a boat motor and tell why this procedure is necessary), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Winterizing marine engines involves stabilizing fuel, draining internal raw water passages, flushing with non toxic marine antifreeze, and fogging cylinders. This careful process protects mechanical components against freeze cracking and internal corrosion.
 - **Common Myth:** Draining exterior engine water without running non toxic antifreeze adequately protects blocks.
@@ -206,7 +206,7 @@
 #### Req 3d: Swimmer Wake Safety Protocols
 **Official Requirement 3d:** Explain the safety procedures and precautions involving swimmers and skiers in the water, passenger positions underway, and boat wakes.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 53, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 3d (Explain the safety procedures and precautions involving swimmers and skiers in the water,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 3d (Explain the safety procedures and precautions involving swimmers and skiers in the water,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Operating near swimmers requires wide clearance arcs, designated lookouts, and shutting down motors before boarding swimmers. Helmsperson wake awareness protects nearby paddlers, minimizes shoreline erosion, and keeps onboard passengers seated safely.
 - **Common Myth:** Shifting an idling engine into neutral guarantees swimmer safety near the stern.
@@ -229,7 +229,7 @@
 **Official Requirement 4a:** Review how each item of the Scouting America Safety Afloat policy applies, including checking the weather prior to and during time on the water, confirming all required equipment is present and functional, and following a float plan.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never anchor a motorboat from the stern because passing wakes can easily swamp low transom cutouts.
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4a (Review how each item of the Scouting America Safety Afloat policy applies, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4a (Review how each item of the Scouting America Safety Afloat policy applies, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouting America Safety Afloat establishes strict standards for qualified leadership, physical health, life jackets, and weather monitoring. Leaders continuously assess water conditions to abort outings before hazardous fronts arrive.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -251,7 +251,7 @@
 #### Req 4b: Recreational Boating Regulations Mandates
 **Official Requirement 4b:** Explain the rules or laws that apply to recreational boating in your area or state. Have a permit to operate a motorboat, if required by the laws of your state. Discuss how you would find information regarding the boating laws in different states.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4b (Explain the rules or laws that apply to recreational boating in your area or state. Have a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4b (Explain the rules or laws that apply to recreational boating in your area or state. Have a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Recreational boating regulations enforce speed zones, age limits, boater education credentials, and operational rules on public waters. Operators must carry required certificates and heed restricted wake zone markers.
 - **Common Myth:** Driver licenses permit teenagers to operate high powered motorboats without marine certifications.
@@ -268,7 +268,7 @@
 #### Req 4c: Marine Weather Condition Hazards
 **Official Requirement 4c:** Discuss how hazards of weather and heavy water conditions can affect safety and performance in motorboating.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4c (Discuss how hazards of weather and heavy water conditions can affect safety and performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4c (Discuss how hazards of weather and heavy water conditions can affect safety and performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Thunderstorms, squalls, fog, and heavy chop rapidly reduce hull stability, visibility, and helm response. Skiers and drivers must read cloud formations and seek sheltered harbors before gale fronts strike.
 - **Common Myth:** Planing hulls handle steep following waves safely without any throttle adjustments.
@@ -286,7 +286,7 @@
 **[Parent Directive]:** *Show you know safety guidelines for motorboating by doing the following*
 **Official Requirement 4d:** Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning of each point.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4d (Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4d (Promise that you will follow Scouting America Safety Afloat guidelines. Explain the meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Safety Afloat pledge commits participants to strict adherence to leadership, swimming skill, life vest, discipline, and equipment standards. Understanding each tenet ensures personal accountability for every crew member afloat.
 - **Common Myth:** Promising to follow Safety Afloat is merely an optional safety suggestion for skippers.
@@ -302,7 +302,7 @@
 #### Req 4e: Mandatory Vessel Equipment Inventory
 **Official Requirement 4e:** Explain and show the correct use of equipment required by both state and federal regulations to be carried aboard a motorboat.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4e (Explain and show the correct use of equipment required by both state and federal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4e (Explain and show the correct use of equipment required by both state and federal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Federal and state statutes mandate carriage of approved fire extinguishers, signaling devices, sound producers, and throwable cushions. Crew members must know the exact location and rapid deployment of every item.
 - **Common Myth:** Carrying life jackets satisfies all federal safety equipment mandates for powerboats.
@@ -319,7 +319,7 @@
 #### Req 4f: Bilge Ventilation Regulatory Systems
 **Official Requirement 4f:** Explain federal and state rules for a ventilation system, and tell why these rules are required.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4f (Explain federal and state rules for a ventilation system, and tell why these rules are required), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4f (Explain federal and state rules for a ventilation system, and tell why these rules are required), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Vessels with enclosed engine spaces require cowls, ducts, and mechanical exhaust blowers to eliminate heavy gasoline fumes. These regulations eliminate explosive concentrations that ignite from starter motor electrical arcs.
 - **Common Myth:** Bilge ventilation is unnecessary on boats using modern fuel injected inboard engines.
@@ -336,7 +336,7 @@
 #### Req 4g: Vessel Lights Sound Signals
 **Official Requirement 4g:** Explain the use of lights (sight signals) and sound signals on motorboats.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4g (Explain the use of lights (sight signals) and sound signals on motorboats), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4g (Explain the use of lights (sight signals) and sound signals on motorboats), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigation lights reveal a vessel heading, aspect, and right of way status from sunset to sunrise. Sound blasts communicate crossing, meeting, overtaking, and restricted visibility intentions under standard navigation rules.
 - **Common Myth:** Vessel navigation lights exist primarily to illuminate the water ahead like car headlights.
@@ -353,7 +353,7 @@
 #### Req 4h: Ground Tackle Anchoring Mechanics
 **Official Requirement 4h:** Discuss the common types of anchors used in motorboating and under what conditions each would be preferred. Explain proper anchoring techniques.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 8, p. 12)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 4h (Discuss the common types of anchors used in motorboating and under what conditions each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 4h (Discuss the common types of anchors used in motorboating and under what conditions each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Different bottom substrates demand appropriate Danforth, plow, or claw anchor types secured by chain and rode. Calculating correct scope ratios ensures horizontal shank pull for reliable seafloor holding.
 - **Common Myth:** Tying an anchor line to the stern stabilizes the boat against wind and waves.
@@ -376,7 +376,7 @@
 **Official Requirement 5a:** Board and assist others in boarding. Confirm that all passengers on board are wearing properly fitted life jackets.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Attach the engine cut off switch lanyard to your life jacket before turning the ignition key.
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5a (Board and assist others in boarding. Confirm that all passengers on board are wearing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5a (Board and assist others in boarding. Confirm that all passengers on board are wearing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safe boarding requires stepping directly onto cockpit soles while keeping three points of contact. Operators verify that every passenger wears a fastened, properly adjusted life jacket before departure.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -398,7 +398,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5b:** Fuel the boat and complete a safety check.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5b (Fuel the boat and complete a safety check), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5b (Fuel the boat and complete a safety check), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fueling procedures require passenger evacuation, closing all ports, maintaining nozzle contact, and sniffing bilges. Conducting a pre-departure check verifies fuel reserves, fluid levels, steering links, and safety equipment.
 - **Common Myth:** Passengers may remain inside the cabin while the boat refuels at the fuel dock.
@@ -416,7 +416,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5c:** If equipped, attach the engine cut-off switch link and safely start the motor. Get underway from dockside or from a beach launch.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5c (If equipped, attach the engine cut-off switch link and safely start the motor. Get underway), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5c (If equipped, attach the engine cut-off switch link and safely start the motor. Get underway), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Starting engines involves securing the safety switch lanyard, shifting to neutral, operating blowers, and turning ignitions. Leaving docks requires releasing lines in sequence and checking drift before applying forward throttle.
 - **Common Myth:** Engine cut off lanyards are only required on high performance racing powerboats.
@@ -433,7 +433,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5d:** Run a course for at least a mile, showing procedures for overtaking and passing slower vessels, yielding right-of-way, passing oncoming traffic, making turns, reversing direction, and using navigation aids.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5d (Run a course for at least a mile, showing procedures for overtaking and passing slower), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5d (Run a course for at least a mile, showing procedures for overtaking and passing slower), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Running a navigation course demonstrates compliance with maritime crossing, meeting, and overtaking rules of the road. Skiers and operators execute controlled turns, maintain wake awareness, and yield appropriately to unpowered craft.
 - **Common Myth:** The faster motorboat automatically holds the right of way in all crossing situations.
@@ -451,7 +451,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5e:** Stop and secure the boat in position on the open water using anchors. Raise and stow the anchor and get underway.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5e (Stop and secure the boat in position on the open water using anchors. Raise and stow the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5e (Stop and secure the boat in position on the open water using anchors. Raise and stow the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anchoring in open water requires coming into the wind, lowering the ground tackle over the bow, and setting the hook with reverse power. Weighing anchor involves motoring forward slowly over the rode before hoisting and stowing.
 - **Common Myth:** Throwing an anchor far from the bow ensures superior bottom penetration and hold.
@@ -468,7 +468,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5f:** Land or dock the boat, disembark, and assist others in doing the same.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5f (Land or dock the boat, disembark, and assist others in doing the same), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5f (Land or dock the boat, disembark, and assist others in doing the same), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Landing requires approaching slips at low idle speed while compensating for wind drift and current. Crew members step onto docks with mooring lines only after the vessel halts alongside.
 - **Common Myth:** Powering hard into a dock slip before reversing creates safe routine docking stops.
@@ -486,7 +486,7 @@
 **[Parent Directive]:** *With your counselor or other adults on board, demonstrate proper boat-handling procedures and skills by doing the following*
 **Official Requirement 5g:** Moor, dock, or beach the boat and secure all gear.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5g (Moor, dock, or beach the boat and secure all gear), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5g (Moor, dock, or beach the boat and secure all gear), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mooring requires securing bow, stern, and spring lines to docks or pilings with adequate slack for tides. Stowing gear neatly into compartments prevents equipment loss and eliminates cockpit trip hazards.
 - **Common Myth:** Tying a single bow line provides complete security for a docked motorboat.
@@ -503,7 +503,7 @@
 #### Req 5h: Marine Knots Hitches Demonstration
 **Official Requirement 5h:** Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and sheet bend.
 **Source:** *Official Scouting America Motorboating Merit Badge Pamphlet (p. 12, p. 53)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5h Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For motorboating Requirement 5h (Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Motorboating Requirement 5h (Demonstrate knots used in boating: cleating hitch, bowline, clove hitch, anchor bend, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Proficiency in essential knots includes tying the cleat hitch, bowline, clove hitch, anchor bend, and sheet bend. These nautical hitches secure dock lines, anchor rodes, fenders, and joined tow lines under load.
 - **Common Myth:** Piling hitches randomly around a dock cleat provides reliable holding strength for boats.

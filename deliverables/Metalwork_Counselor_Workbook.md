@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Metalwork.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/metalwork/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -65,7 +65,7 @@
 **Official Requirement 2a:** Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are combined to form these alloys.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Secure stock firmly in bench vises before performing manual file hardness or scratch tests.
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 2a (Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 2a (Name two nonferrous alloys used by pre-Iron Age metalworkers. Name the metals that are), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ancient craftsmen smelted copper with tin to cast durable bronze weapons and bronze utilitarian vessels. Brass emerged through smelting copper ores together with zinc-bearing minerals to produce malleable ornamental artifacts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -86,7 +86,7 @@
 #### Req 2b: Modern Ferrous Alloy Varieties
 **Official Requirement 2b:** Name three ferrous alloys used by modern metalworkers.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 2b (Name three ferrous alloys used by modern metalworkers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 2b (Name three ferrous alloys used by modern metalworkers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern structural fabrication relies heavily on carbon steels containing precise proportions of iron and carbon. Stainless steels introduce chromium and nickel to prevent oxidation across demanding architectural and industrial environments.
 - **Common Myth:** All ferrous steels contain identical ingredients and behave identically when heated and struck.
@@ -106,7 +106,7 @@
 **[Parent Directive]:** *Explain the following terms*
 **Official Requirement 2c:** Describe how to work-harden a metal.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 2c (Describe how to work-harden a metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 2c (Describe how to work-harden a metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Striking or bending cold metal distorts its crystalline lattice, generating internal dislocations that restrict atomic slippage. This physical deformation increases yield strength and surface hardness while progressively diminishing ductility.
 - **Common Myth:** Hammering metal when cold makes the material softer and easier to bend further.
@@ -123,7 +123,7 @@
 #### Req 2d: Thermal Annealing Process Methods
 **Official Requirement 2d:** Describe how to anneal a nonferrous and a ferrous metal.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 11, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 2d (Describe how to anneal a nonferrous and a ferrous metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 2d (Describe how to anneal a nonferrous and a ferrous metal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Annealing nonferrous copper requires heating to a dull red followed by immediate water quenching. Ferrous steels require heating above critical transformation temperature followed by very slow cooling in vermiculite.
 - **Common Myth:** Quenching red-hot high-carbon steel in cold water softens the metal for easy bending.
@@ -147,7 +147,7 @@
 **Official Requirement 3a:** Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in the metal, then heavily peen the area along the bend line to work-harden it. Note the amount of effort that is required to overcome the yield point in this unworked piece of metal.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always pick up recently heated metal tongs or test pieces using thick insulated leather gloves.
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 3a (Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 3a (Work-harden a piece of 26- or 28-gauge sheet brass or sheet copper. Put a 45-degree bend in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bending sheet brass or copper introduces mechanical strain along the fold line. Peening this ridge with a ball-peen hammer packs crystal lattice dislocations, raising resistance against further movement.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -170,7 +170,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3b:** Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to remove the 45-degree bend. Note the amount of effort that is required to overcome the yield point.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 3b (Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 3b (Soften the work-hardened piece from requirement 3(a) by annealing it, and then try to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Heating the peened bend zone to dull red enables recrystallization, allowing new strain-free grains to nucleate. Once softened, the sheet bends flat under minimal applied force without cracking.
 - **Common Myth:** An annealed nonferrous plate stays soft even after severe subsequent bending and forming.
@@ -188,7 +188,7 @@
 #### Req 3c: Steel Tempering and Toolmaking
 **Official Requirement 3c:** Make a temper color index from a flat piece of steel. Using hand tools, make and temper a center punch of medium-carbon or high-carbon steel.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 22, p. 37)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 3c (Make a temper color index from a flat piece of steel. Using hand tools, make and temper a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 3c (Make a temper color index from a flat piece of steel. Using hand tools, make and temper a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Grinding and polishing high-carbon tool steel creates a clean surface for observing thermal oxide bands. Heating the punch shank draws temper toward the working point to achieve durability.
 - **Common Myth:** A center punch tip should be left as hard as possible without tempering.
@@ -210,7 +210,7 @@
 **Official Requirement 4a:** Identify three career opportunities that would use skills and knowledge in metalworking. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 4a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Review facility safety policies, emergency shutoff switches, and ventilation systems before touring active metalworking facilities.
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 4a (Identify three career opportunities that would use skills and knowledge in metalworking.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 4a (Identify three career opportunities that would use skills and knowledge in metalworking.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Industrial careers span structural welding, precision machining, and metallurgical quality control inspection. Entering these fields requires vocational diplomas, formal apprenticeships, and rigorous code testing certifications.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -233,7 +233,7 @@
 #### Req 4b: Metalcraft Hobby and Guilds
 **Official Requirement 4b:** Identify how you might use the skills and knowledge in metalworking to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Metalwork Merit Badge Pamphlet (p. 87, p. 88)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For metalwork Requirement 4b (Identify how you might use the skills and knowledge in metalworking to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Metalwork Requirement 4b (Identify how you might use the skills and knowledge in metalworking to pursue a personal), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Amateur metalcraft allows hobbyists to explore decorative blacksmithing, knife making, and artistic jewelry casting. Joining organizations like the Artist-Blacksmith's Association of North America provides structured mentoring and safety workshops.
 - **Common Myth:** Setting up a home metalworking hobby requires purchasing expensive computerized factory machinery.

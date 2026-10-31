@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Plant%20Science.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/plant-science/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -205,7 +205,7 @@
 **Official Requirement 7a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Plant Science Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For plant science Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plant Science Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional agricultural research positions require extensive training in molecular biology, chemistry, and experimental field trial design. Successful agronomists balance field plot data collection with complex statistical analyses to improve crop yield resilience.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -229,7 +229,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Plant Science Merit Badge Pamphlet (p. 88, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For plant science Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Plant Science Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying plant science principles to home gardening promotes lifelong physical health, nutritional self reliance, and mental well being. Non profit botanical societies and university extension programs provide accessible community education, seeds, and volunteer mentorship.
 - **Common Myth:** Practicing botanical horticulture as a personal hobby requires expensive commercial greenhouse equipment.
@@ -569,3 +569,4 @@
 | **2. Explain how you have followed the Leave No Trace Seven Principles and the Outdoor Code while in natural areas during field observation, specimen collection, and identification** | Specimen Stewardship: Photographing rare native blossoms preserves wild genetic stock rather than picking vulnerable plants. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 9):** Lead an interactive counselor discussion verifying that the Scout can articulate real-world examples for Plant Science Requirement 9 (leave no trace and herbarium ethics) before signing the blue card.
+))

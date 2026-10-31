@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/American%20Cultures.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/american-cultures/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -36,7 +36,7 @@
 **[Parent Directive]:** *Do TWO of the following, choosing a different group for each*
 **Official Requirement 1a:** Go to a festival, celebration, or other event identified with one of the groups. Report on what you see and learn.
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american cultures Requirement 1a (Go to a festival, celebration, or other event identified with one of the groups. Report on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Cultures Requirement 1a (Go to a festival, celebration, or other event identified with one of the groups. Report on), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attending a public festival exposes Scouts to ethnic cuisine, traditional dress, and community arts. Documenting these sensory elements clarifies how public celebrations maintain cultural identity.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -58,7 +58,7 @@
 **[Parent Directive]:** *Do TWO of the following, choosing a different group for each*
 **Official Requirement 1b:** Go to a place of worship, school, or other institution identified with one of the groups. Report on what you see and learn.
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american cultures Requirement 1b (Go to a place of worship, school, or other institution identified with one of the groups.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Cultures Requirement 1b (Go to a place of worship, school, or other institution identified with one of the groups.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an unfamiliar house of worship or heritage school demonstrates how institutions transmit language and values. Observers must follow institutional visitor protocols and dress codes respectfully.
 - **Common Myth:** Visitors can enter religious ceremonies unannounced without checking dress codes or photography restrictions.
@@ -77,7 +77,7 @@
 **[Parent Directive]:** *Do TWO of the following, choosing a different group for each*
 **Official Requirement 1c:** Talk with a person from one of the groups about the heritage and traditions of the group. Report on what you learn.
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american cultures Requirement 1c (Talk with a person from one of the groups about the heritage and traditions of the group.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Cultures Requirement 1c (Talk with a person from one of the groups about the heritage and traditions of the group.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conducting an oral history interview connects personal family memories with broader historical migrations and customs. Scouts prepare open-ended questions that encourage narrators to share lived experiences.
 - **Common Myth:** An oral history interview should follow a rigid checklist of rapid factual quiz questions.
@@ -94,7 +94,7 @@
 **[Parent Directive]:** *Do TWO of the following, choosing a different group for each*
 **Official Requirement 1d:** Learn a song, dance, poem, or story that is traditional to one group, and teach it to a group of your friends.
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american cultures Requirement 1d (Learn a song, dance, poem, or story that is traditional to one group, and teach it to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Cultures Requirement 1d (Learn a song, dance, poem, or story that is traditional to one group, and teach it to a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Learning and teaching a cultural song or dance requires understanding the story behind the art form. Accurate instruction honors the creators by explaining the context of the performance.
 - **Common Myth:** Teaching a folk dance requires professional choreography rather than understanding the underlying cultural story.
@@ -112,7 +112,7 @@
 **[Parent Directive]:** *Do TWO of the following, choosing a different group for each*
 **Official Requirement 1e:** Go to a library or museum to see a program or exhibit featuring one group's traditions. Report on what you see and learn.
 **Source:** *Official Scouting America American Cultures Merit Badge Pamphlet (p. 31, p. 32)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For american cultures Requirement 1e (Go to a library or museum to see a program or exhibit featuring one group's traditions.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For American Cultures Requirement 1e (Go to a library or museum to see a program or exhibit featuring one group's traditions.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Museum exhibits and library archives display physical artifacts, archival photographs, and curated historical timelines. Detailed examination of material culture reveals daily life and technological innovations of specific groups.
 - **Common Myth:** Looking quickly at display cases fulfills the research intent without analyzing artifact explanatory placards.

@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while working with robots and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working with robotics.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always disconnect the main battery pack before touching mechanical drivetrains or reconfiguring electronic wiring harnesses.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robotics workspaces present chemical, electrical, and kinetic hazards that require structured mitigation protocols. Scouts must identify potential failure points including runaway code loops and overloaded power circuits.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -49,7 +49,7 @@
 - **Common Myth:** Robotic hazards only exist while electric drive motors receive active operational current.
 - **Pamphlet Fact:** Stored kinetic energy in mechanical linkages and pneumatic cylinders persists after main power loss.
 
-![Pinch Point Hazards diagram illustrating how rotating gears and exposed chain drives trap loose clothing during active system tests.](/assets/pamphlet_images/robotics_p003_img1.png)
+![Technical diagram of pinch point hazards principles and field relationships in Robotics (Requirement 1).](/assets/pamphlet_images/robotics_p003_img1.png)
 
 | Req 1a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -61,7 +61,7 @@
 #### Req 1b: Robotics First Aid Preparedness
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries that could occur while participating in robotics activities and competitions, including cuts, eye injuries, and burns (chemical or heat)
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 26, p. 55)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - First aid preparedness addresses lacerations from sheet metal edges, thermal burns from soldering irons, and eye injuries. Work areas require stocked trauma supplies and clear routes to clean eye rinse stations.
 - **Common Myth:** Burn treatment for alkaline battery contact involves applying petroleum jelly over exposed skin.
@@ -87,7 +87,7 @@
 **Official Requirement 2a:** The kinds of things robots can do and how robots are best used today.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain physical barricades around operating industrial manipulators to prevent blunt force impact injuries.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 2a (The kinds of things robots can do and how robots are best used today), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 2a (The kinds of things robots can do and how robots are best used today), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robots provide immense societal value across extreme environments where human presence poses severe safety risks. Modern automation focuses on dirty, dull, and dangerous tasks ranging from warehouse sorting to pipeline inspection.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -96,7 +96,7 @@
 - **Common Myth:** Robots provide superior economic value when assigned to unpredictable custom artisan repairs.
 - **Pamphlet Fact:** Robotic systems handle dangerous repetitive tasks like chemical tank inspection and radioactive waste sorting.
 
-![Industrial Work Cells diagram illustrating how articulated robot arms weld automotive chassis assemblies with consistent submillimeter positional repeatability.](/assets/pamphlet_images/robotics_p007_img1.png)
+![Technical diagram of industrial work cells principles and field relationships in Robotics (Requirement 2).](/assets/pamphlet_images/robotics_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -110,7 +110,7 @@
 **[Parent Directive]:** *Robotics Industry. Discuss the following with your counselor*
 **Official Requirement 2b:** The similarities and differences between remote-control vehicles, telerobots, and autonomous robots.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 2b (The similarities and differences between remote-control vehicles, telerobots, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 2b (The similarities and differences between remote-control vehicles, telerobots, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Remote control vehicles respond purely to direct operator joystick inputs without local sensor interpretation. Telerobots combine remote human commands with sensory feedback arrays, while autonomous units execute onboard decision routines.
 - **Common Myth:** Remote control vehicles and advanced telerobots operate using identical bidirectional feedback loops.
@@ -130,7 +130,7 @@
 **[Parent Directive]:** *Robotics Industry. Discuss the following with your counselor*
 **Official Requirement 2c:** Three different methods robots can use to move themselves other than wheels or tracks. Describe when it would be appropriate to use each method.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 16, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 2c (Three different methods robots can use to move themselves other than wheels or tracks.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 2c (Three different methods robots can use to move themselves other than wheels or tracks.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Alternative locomotion includes biomimetic legged walkers, peristaltic pipe crawlers, undulating snake forms, and underwater buoyancy thrusters. These non wheeled methods navigate steep climbs, granular sand, liquid conduits, and pipe networks.
 - **Common Myth:** Wheels and continuous rubber tracks represent the most efficient locomotion method across all terrains.
@@ -182,7 +182,7 @@
 **Official Requirement 4a:** With your counselor's approval, choose a task for the robot or robotic subsystem that you plan to build. Include sensor feedback and programming in the task. Document this information in your robot engineering notebook.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Support chassis frames on solid test blocks while testing high current drive motor actuation code.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 4a (With your counselor's approval, choose a task for the robot or robotic subsystem that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 4a (With your counselor's approval, choose a task for the robot or robotic subsystem that you), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Task selection establishes objective functional parameters that guide structural choices, sensor selection, and software logic. The chosen assignment must integrate sensor inputs to alter actuator output actions during runtime.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -204,7 +204,7 @@
 #### Req 4b: Kinematic Design Engineering Documentation
 **Official Requirement 4b:** Design your robot. The robot design should use sensors and programming and have at least 2 degrees of freedom. Document the design in your robot engineering notebook using drawings and a written description.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 4b (Design your robot. The robot design should use sensors and programming and have at least 2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 4b (Design your robot. The robot design should use sensors and programming and have at least 2), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robot design requires establishing kinematic envelopes, calculating gear ratios, and planning sensor placement. Scouts draw detailed diagrams and flowcharts in an engineering notebook before assembling hardware components.
 - **Common Myth:** A simple wheeled rover moving backward and forward possesses two separate degrees of freedom.
@@ -221,7 +221,7 @@
 #### Req 4c: Mechanical Subsystem Chassis Fabrication
 **Official Requirement 4c:** Build a robot or robotic subsystem of your original design to accomplish the task you chose for requirement 4(a).
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 4c (Build a robot or robotic subsystem of your original design to accomplish the task you chose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 4c (Build a robot or robotic subsystem of your original design to accomplish the task you chose), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanical construction translates engineering schematics into rigid hardware using brackets, shafts, fasteners, and drivetrains. Proper assembly ensures reliable power transfer, minimal friction losses, and secure wire routing.
 - **Common Myth:** Fastening components with friction tape or adhesive putty provides durable structural framing for tests.
@@ -277,7 +277,7 @@
 **[Parent Directive]:** *Design, Build, Program, Test. Do the following*
 **Official Requirement 4e:** Test your robot and record the results in your robot engineering notebook. Include suggestions on how you could improve your robot, as well as pictures or sketches of your finished robot.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 4e Quantitative Field Observation & Activity Log
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 4e (Test your robot and record the results in your robot engineering notebook. Include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 4e (Test your robot and record the results in your robot engineering notebook. Include), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - System testing validates code stability, battery discharge performance, and structural resilience across repeated test trials. Scouts log discrepancies between expected and actual performance to guide deliberate mechanical and software improvements.
 - **Common Myth:** A program that runs successfully once on a test bench will perform identically across all arenas.
@@ -299,7 +299,7 @@
 **Official Requirement 5a:** Demonstrate for your counselor the robot you built in requirement 4.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Clear bystanders from the operational perimeter before initiating the live automated demonstration routine.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 5a (Demonstrate for your counselor the robot you built in requirement 4), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 5a (Demonstrate for your counselor the robot you built in requirement 4), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The physical demonstration shows the robot completing its approved task through active sensor feedback and programmed decision branches. Scouts explain each operational phase to the counselor as the robot moves.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -322,7 +322,7 @@
 **[Parent Directive]:** *Demonstrate. Do the following*
 **Official Requirement 5b:** Share your robot engineering notebook with your counselor. Talk about how well your robot accomplished the task, the improvements you would make in your next design, and what you learned about the design process.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 5b (Share your robot engineering notebook with your counselor. Talk about how well your robot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 5b (Share your robot engineering notebook with your counselor. Talk about how well your robot), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The notebook review provides a transparent view of the engineering design process from initial concept to completed build. Scouts discuss lessons learned, structural bottlenecks, and concrete upgrades planned for subsequent robot iterations.
 - **Common Myth:** Engineering notebooks should present only polished clean sketches without messy trial iterations.
@@ -344,7 +344,7 @@
 **Official Requirement 6a:** Attend a robotics competition and report to your counselor what you saw and learned about the competition and how teams are organized and managed.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear approved safety glasses inside competition pit areas and along active tournament arena perimeters.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 6a (Attend a robotics competition and report to your counselor what you saw and learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 6a (Attend a robotics competition and report to your counselor what you saw and learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Observing a live competition reveals tournament pacing, field reset logistics, and real time pit troubleshooting strategies. Scouts analyze how team captains organize pit crews, maintain tool accountability, and strategize with match allies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -367,7 +367,7 @@
 **[Parent Directive]:** *Competitions*
 **Official Requirement 6b:** Learn about three youth robotics competitions. Tell your counselor about these, including the type of competition, time commitment, age of the participants, and how many teams are involved.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 71, p. 75)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 6b (Learn about three youth robotics competitions. Tell your counselor about these, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 6b (Learn about three youth robotics competitions. Tell your counselor about these, including), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Youth robotics programs provide distinct competition frameworks with varying time commitments, team sizes, and engineering freedoms. Researching multiple leagues highlights different design philosophies across custom fabrication and spec kit environments.
 - **Common Myth:** All major competitive robotics leagues use identical parts kits, game manuals, and build rules.
@@ -389,7 +389,7 @@
 **Official Requirement 7a:** Identify three career opportunities that would use skills and knowledge in robotics. Pick one and research the training, education, certification requirements, experience, and expenses associated with entering the field. Research the prospects for employment, starting salary, advancement opportunities and career goals associated with this career. Discuss what you learned with your counselor and whether you might be interested in this career.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Follow workshop ventilation guidelines when 3D printing custom robotic chassis parts or soldering circuits.
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 7a (Identify three career opportunities that would use skills and knowledge in robotics. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 7a (Identify three career opportunities that would use skills and knowledge in robotics. Pick), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robotics careers span mechanical design, embedded firmware programming, computer vision, and industrial automation maintenance. Scouts research educational requirements, industry certifications, expected salary ranges, and necessary technical competencies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -412,7 +412,7 @@
 #### Req 7b: Amateur Robotics Hobby Development
 **Official Requirement 7b:** Identify how you might use the skills and knowledge in robotics to pursue a personal hobby. Research the additional training required, expenses, and affiliation with organizations that would help you maximize the enjoyment and benefit you might gain from it. Discuss what you learned with your counselor and share what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Robotics Merit Badge Pamphlet (p. 31, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For robotics Requirement 7b (Identify how you might use the skills and knowledge in robotics to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Robotics Requirement 7b (Identify how you might use the skills and knowledge in robotics to pursue a personal hobby.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Robotics as a personal hobby leverages open source hardware, desktop three dimensional printers, and online hobbyist communities. Scouts explore affordable entry points, local maker clubs, and safety guidelines for home workshops.
 - **Common Myth:** Amateur robotics hobbies require thousands of dollars in commercial CNC machinery to start.

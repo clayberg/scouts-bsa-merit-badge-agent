@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Action%20Sports.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/action-sports/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in action sports (skateboarding or snowboarding) and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Remove cracked or post-collision helmets from service immediately because internal foam liners crush irreversibly during crashes.
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Riders evaluate blind corners, surface debris, and weather swings to prevent high-velocity collisions before dropping into bowls or runs. Early recognition of environmental hazards allows timely evasion and controlled bailout maneuvers.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Sports First Aid Protocols
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite, dehydration, sunburn, heat exhaustion, heatstroke, blisters, sprains, strains, fractures, head/concussion injuries, and spinal injuries.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 1b (Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 1b (Review prevention, symptoms, and first-aid treatment for hypothermia, frostbite,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Prompt identification of core body temperature changes and musculoskeletal trauma prevents secondary systemic shock. Initial field care focuses on stabilizing the cervical spine, immobilizing injured limbs, and controlling ambient exposure.
 - **Common Myth:** Scouts believe vigorous rubbing of frostbitten fingers effectively restores capillary blood circulation in freezing weather.
@@ -82,7 +82,7 @@
 #### Req 1c: Protective Gear Inspection Protocol
 **Official Requirement 1c:** Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to inspect and fit them properly.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 1c (Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 1c (Show your helmet, wrist guards, knee/elbow pads, boots, and bindings, and explain how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal protective gear must meet certified impact standards and maintain structural integrity across straps, plastic shells, and buckles. Proper sizing ensures foam padding sits firmly over joints without shifting during hard falls.
 - **Common Myth:** Riders assume loose wrist guards and unbuckled chinstraps still absorb fall forces during sudden wipeouts.
@@ -105,7 +105,7 @@
 **Official Requirement 2a:** Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules, and why each rule is vital to rider and bystander safety.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never sit or stop beneath the lip of a jump or inside a blind skate bowl where approaching athletes cannot spot you.
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 2a (Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 2a (Explain the Skier/Snowboarder Responsibility Code or Skatepark Etiquette and Safety Rules,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Resort codes and park guidelines mandate predictable movement, uphill awareness, and immediate clearing of landing pads. Following these rules eliminates erratic crossing lines that trigger catastrophic multi-person wipeouts.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -127,7 +127,7 @@
 #### Req 2b: Rider Conditioning and Mobility
 **Official Requirement 2b:** Demonstrate a warm-up, stretching, and conditioning routine for action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 2b (Demonstrate a warm-up, stretching, and conditioning routine for action sports), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 2b (Demonstrate a warm-up, stretching, and conditioning routine for action sports), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Comprehensive athletic conditioning builds eccentric quad endurance and enhances ankle proprioception against abrupt landings. Regular mobility routines expand functional range of motion and preserve joint alignment under torque.
 - **Common Myth:** Athletes think muscle soreness following a session stems solely from impact rather than inadequate conditioning.
@@ -179,7 +179,7 @@
 **Official Requirement 4a:** Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and controlled stopping (foot braking, heel/toe edge stop, or tail scrape)
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never look down at your board while riding downhill because tracking eye gaze forward stabilizes inner ear equilibrium.
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 4a (Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 4a (Stance (regular vs. goofy), mounting/dismounting, pushing/gliding on flat terrain, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Determining natural stance alignment allows riders to mount the deck smoothly and push without awkward foot rotation. Mastering flat-ground deceleration techniques ensures predictable stops before approaching congested trail intersections or park drops.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -202,7 +202,7 @@
 **[Parent Directive]:** *Choose ONE option (Skateboarding OR Snowboarding) and demonstrate fundamental riding skills*
 **Official Requirement 4b:** Carving turns (frontside and backside), weight transfer, falling safely, and navigating slopes or skatepark transitions under full control.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 4b (Carving turns (frontside and backside), weight transfer, falling safely, and navigating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 4b (Carving turns (frontside and backside), weight transfer, falling safely, and navigating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Progressive pressure transitions between heel and toe edges generate rhythmic carved turns down sloped surfaces. Executing planned knee-slides or shoulder-rolls minimizes kinetic trauma when balance is broken across steep transitions.
 - **Common Myth:** Riders believe catching a downhill edge on snow or concrete is unavoidable during sharp turns.
@@ -229,7 +229,7 @@
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Pre-ride all park features at slow speed before attempting jumps or grinds, checking for rutted lips or iced landings.
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Action Sports Req 5 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 5a (Demonstrate three intermediate maneuvers or tricks approved by your counselor in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 5a (Demonstrate three intermediate maneuvers or tricks approved by your counselor in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts execute approved intermediate maneuvers such as ollies, kickturns, 50-50 grinds, or straight airs under direct counselor supervision. Proper execution demands centered pop, balanced weight transfer along the obstacle, and smooth compression upon landing.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -251,7 +251,7 @@
 #### Req 5b: Resort Stewardship and Careers
 **Official Requirement 5b:** Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and explore careers or volunteer roles (such as National Ski Patrol, adaptive sports instructor, or equipment engineer) in action sports.
 **Source:** *Official Scouting America Action Sports Merit Badge Pamphlet* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5b Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For action sports Requirement 5b (Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Action Sports Requirement 5b (Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community.
 - **Common Myth:** Visitors assume municipal parks and ski resorts have dedicated maintenance crews that handle all trash left.
@@ -266,3 +266,4 @@
 | **3. Req 5b Practical Example & Counselor Conference Verification** | Environmental stewardship requires adhering to designated trails, packing out trash, and respecting wildlife habitats across sensitive alpine ecosystems. Exploring careers in patrol services, adaptive sports, and resort operations builds lifelong service to the riding community. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 5b):** Scout must individually demonstrate Requirement 5b (Explain Leave No Trace and outdoor stewardship principles at mountain resorts and community skateparks, and ex) to the Counselor.
+))

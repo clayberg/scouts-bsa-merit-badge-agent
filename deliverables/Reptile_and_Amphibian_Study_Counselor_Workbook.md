@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Reptile%20Amphibian.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/reptile-and-amphibian-study/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -99,7 +99,7 @@
 **Official Requirement 3a:** Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wash hands thoroughly with soap and water after touching any live amphibian to remove toxic skin secretions before handling gear.
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 3a (Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 3a (Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reptiles reproduce via amniotic eggs on dry land and breathe solely through lungs. Amphibians hatch from shell-less aquatic eggs, undergo metamorphosis, and perform cutaneous respiration.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -122,7 +122,7 @@
 **[Parent Directive]:** *Describe the main differences between (a) Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards*
 **Official Requirement 3b:** Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 3b (Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 3b (Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Alligator mississippiensis inhabits freshwater wetlands across the Southeast with a broad U-shaped rostrum. Crocodylus acutus maintains lingual salt glands and a narrow V-shaped snout in coastal southern Florida.
 - **Common Myth:** Alligators and crocodiles share identical saltwater tolerances and jaw profiles throughout North America.
@@ -140,7 +140,7 @@
 **[Parent Directive]:** *Describe the main differences between (a) Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards*
 **Official Requirement 3c:** Toads and frogs (d) Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 3c (Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 3c (Toads and frogs (d) Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - True toads feature stout bodies adapted for short hops and terrestrial burrowing away from water. Frogs possess slender torsos and extensive webbing between digits for explosive swimming.
 - **Common Myth:** Handling a common terrestrial toad causes human skin to develop contagious warts.
@@ -158,7 +158,7 @@
 **[Parent Directive]:** *Describe the main differences between (a) Amphibians and reptiles (b) Alligators and crocodiles (c) Toads and frogs (d) Snakes and lizards*
 **Official Requirement 3d:** Snakes and lizards.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 3d (Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 3d (Snakes and lizards), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Snakes have flexible lower jaws joined by an elastic ligament and possess specialized wide belly plates. Legless lizards retain rigid mandibular symphyses and visible external ear canals.
 - **Common Myth:** Any elongated, legless reptile encountered in tall grass is automatically a snake.
@@ -296,7 +296,7 @@
 **Official Requirement 8a:** Take custody of one or more reptiles or amphibians in a manner approved by your counselor. Maintain one or more reptiles or amphibians for at least a month. Record food accepted, eating methods, changes in coloration, shedding of skins, and general habits; or keep the eggs of a reptile from the time of laying until hatching; or keep the eggs of an amphibian from the time of laying until their transformation into tadpoles (frogs) or larvae (salamanders). Whichever you choose, keep records of and report to your counselor how you cared for your animal, eggs, or larvae, including lighting, habitat, temperature and humidity maintenance, and any veterinary care requirements. Unless you are the long-term owner, at the conclusion of this study, turn the animal(s) over to another responsible party approved by your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 8a Quantitative Field Observation & Activity Log
 > **Guide to Safe Scouting Warning:** Always wash hands with antibacterial soap after maintaining terrariums to prevent accidental Salmonella bacterial transmission.
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 8a (Take custody of one or more reptiles or amphibians in a manner approved by your counselor.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 8a (Take custody of one or more reptiles or amphibians in a manner approved by your counselor.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Personal custody of a reptile or amphibian requires thirty consecutive days of documented husbandry and counselor approval. Scouts log prey intake, thermal adjustments, humidity levels, and behavioral changes across the maintenance window.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -320,7 +320,7 @@
 #### Req 8b: Institutional Exhibit Specimen Study
 **Official Requirement 8b:** Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium, nature center, local rescue, or other such exhibit (such as your classroom or school). Study the specimen weekly for a period of three months. At each visit, sketch the specimen in its captive habitat and note any changes in its coloration, shedding of skins, and general habits and behavior. Discuss with your counselor how the animal you observed was cared for to include its housing and habitat, how the lighting, temperature, and humidity were maintained, and any veterinary care requirements. Find out, either from information you locate on your own or by talking to the caretaker, what this species eats and what are its native habitat and home range, preferred climate, average life expectancy, and natural predators. Also, identify any human-caused threats to its population and any laws that protect the species and its habitat. After the observation period, share what you have learned with your counselor.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 8b (Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 8b (Choose a reptile or amphibian that you can observe or build at a local zoo, aquarium,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building or observing a specimen at an approved nature center or zoo provides insight into professional zoological care standards. Regular observations document feeding strategies, enrichment items, exhibit lighting cycles, and habitat cleanliness protocols.
 - **Common Myth:** Zoo reptile and amphibian exhibits maintain identical room temperatures and humidity for all display species.
@@ -347,7 +347,7 @@
 **Official Requirement 9a:** Identify at night three kinds of toads or frogs by their voices. Imitate the song of each for your counselor. Stalk each with a flashlight and discover how each sings and from where.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear reflective vests and maintain patrol buddy pairs when conducting night frog call surveys near wetlands.
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 9a (Identify at night three kinds of toads or frogs by their voices. Imitate the song of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 9a (Identify at night three kinds of toads or frogs by their voices. Imitate the song of each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Nocturnal surveys locate singing toads and frogs by isolating individual acoustic signatures at wetland margins. Scouts imitate species-specific calls and observe inflated vocal sacs using low-beam flashlights.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -369,7 +369,7 @@
 #### Req 9b: Visual Herpetofauna Field Survey
 **Official Requirement 9b:** Identify by sight eight species of reptiles or amphibians.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 9b (Identify by sight eight species of reptiles or amphibians), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 9b (Identify by sight eight species of reptiles or amphibians), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Field identification of eight species requires careful observation of wild reptiles and amphibians across distinct habitat niches. Scouts record field notes detailing dorsal markings, snout shapes, and microhabitat locations.
 - **Common Myth:** Every brown woodland snake observed in leaf litter is an ordinary common garter snake.
@@ -389,7 +389,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 9c:** Using visual aids, give a brief talk to a small group on three different reptiles and amphibians.
 **Source:** *Official Scouting America Reptile and Amphibian Study Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For reptile and amphibian study Requirement 9c (Using visual aids, give a brief talk to a small group on three different reptiles and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Reptile and Amphibian Study Requirement 9c (Using visual aids, give a brief talk to a small group on three different reptiles and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Presenting herpetological concepts to a patrol requires structured visual aids, anatomical models, or field photographs. Presentations cover ecological roles, anatomical adaptations, and conservation challenges for three native species.
 - **Common Myth:** Oral talks without physical diagrams or live photographs hold audience attention during technical biology explanations.

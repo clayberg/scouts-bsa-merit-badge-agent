@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Home%20Repairs.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/home-repairs/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while working on home repairs and what you should do to anticipate, mitigate, prevent, and respond to these hazards. Describe the appropriate safety gear and clothing that should be used when working on home repairs.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 10, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear ANSI approved Z87.1 safety glasses and closed toe leather work boots on all repair sites.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working on home), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 1a (Explain to your counselor the most likely hazards you may encounter while working on home), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repairing domestic structures exposes workers to particulate dust, pressurized lines, and mechanical pinch points. Personal protective equipment creates a vital barrier against acute workshop trauma.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -61,7 +61,7 @@
 #### Req 1b: Safe Workshop Operational Practices
 **Official Requirement 1b:** Discuss general precautions related to home repairs. Name at least 10 safe practices that every home repairer should exercise.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 10, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 1b (Discuss general precautions related to home repairs. Name at least 10 safe practices that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 1b (Discuss general precautions related to home repairs. Name at least 10 safe practices that), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Implementing standardized workshop rules minimizes common structural injuries and equipment malfunctions. Orderly tool staging keeps walkways clear of tripping obstacles and hazardous cords.
 - **Common Myth:** Leaving power tools plugged into wall outlets is safe if switches remain turned off.
@@ -85,7 +85,7 @@
 **Official Requirement 2a:** Maintain or recondition a yard tool and show that you know how to clean up and properly store this equipment.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Clamp cutting tools securely in a bench vise before dressing blades with hand files.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2a (Maintain or recondition a yard tool and show that you know how to clean up and properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2a (Maintain or recondition a yard tool and show that you know how to clean up and properly), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scraping rust, filing beveled edges, and applying protective oil prevents corrosion on steel yard implements. Proper seasonal conditioning ensures garden tools slice soil efficiently without handle splintering.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -108,7 +108,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 2b:** Weatherstrip a window or door.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2b (Weatherstrip a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2b (Weatherstrip a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Installing tubular rubber or bronze tension strips around door perimeters eliminates conditioned air loss. Correctly aligned weather seals maintain airtight compression without preventing door latch engagement.
 - **Common Myth:** Thick rubber weatherstripping prevents draft infiltration best regardless of door jamb clearance gaps.
@@ -128,7 +128,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 2c:** Caulk cracks or joints open to the weather.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2c (Caulk cracks or joints open to the weather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2c (Caulk cracks or joints open to the weather), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sealing structural gaps with weather resistant sealants blocks rainwater from penetrating building substrates. Clean joint channels allow backer rods and elastomeric caulking to form flexible moisture seals.
 - **Common Myth:** Silicone caulking sticks permanently to damp unprimed concrete surfaces exposed to direct rain.
@@ -146,7 +146,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 2d:** Repair a break in a concrete or asphalt surface.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2d (Repair a break in a concrete or asphalt surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2d (Repair a break in a concrete or asphalt surface), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Filling pavement crevices prevents freeze and thaw cycles from heaving concrete footings or asphalt driveways. Chiseled edges and latex fortified patching compounds restore durable vehicular weight capacities.
 - **Common Myth:** Pouring thin wet cement mixes over uncleaned asphalt cracks creates a durable bond.
@@ -164,7 +164,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 2e:** Repair or replace the screen in a window or door.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2e (Repair or replace the screen in a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2e (Repair or replace the screen in a window or door), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Replacing punctured window insect screens requires square frames and proper spline tensioning techniques. Proper spline insertion draws fiberglass cloth taut without twisting aluminum frames out of square.
 - **Common Myth:** Stretching replacement window screen mesh tightly by hand before inserting spline prevents bagging.
@@ -182,7 +182,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 2f:** Replace a pane of glass.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 49)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 2f (Replace a pane of glass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 2f (Replace a pane of glass), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Removing broken glass fragments from wood sashes requires chiseling old rock hard putty away cleanly. Driving glazier points into wood frames secures replacement panes before fresh putty is beveled.
 - **Common Myth:** Bedding glass in heavy coats of exterior house paint holds panes firmly in sashes.
@@ -206,7 +206,7 @@
 **Official Requirement 3a:** Install or build equipment for storing tools.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Wear hearing protection and eye shields when cutting structural lumber with circular saws.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3a (Install or build equipment for storing tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3a (Install or build equipment for storing tools), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building custom tool racks keeps sharp chisels and precision layout squares protected from workshop damage. Mounting backing boards directly into wall studs ensures tool racks support heavy metal equipment safely.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -229,7 +229,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3b:** Build a workbench.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3b (Build a workbench), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3b (Build a workbench), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building an ergonomic shop workbench requires heavy timber framing, bolted joints, and level surfaces. Sturdy cross braces prevent the bench from rocking while planing timber or using bench vises.
 - **Common Myth:** Assembling workbench legs with plain drywall screws provides sufficient structural strength against racking.
@@ -249,7 +249,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3c:** Repair a piece of furniture.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3c (Repair a piece of furniture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3c (Repair a piece of furniture), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Restoring broken furniture chairs and tables involves disassembling loose joints and removing old glue. Re-gluing with aliphatic wood glue under bar clamp pressure restores structural rigidity.
 - **Common Myth:** Driving long common wire nails through loose chair rungs stabilizes wobbling joints permanently.
@@ -267,7 +267,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3d:** Paint or varnish a piece of furniture, a door, or trim on a house.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3d (Paint or varnish a piece of furniture, a door, or trim on a house), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3d (Paint or varnish a piece of furniture, a door, or trim on a house), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Refinishing wooden doors, furniture, or architectural trim requires thorough sanding along natural wood grain. Thin, progressive coats of varnish or enamel paint deliver smooth, durable, protective finishes.
 - **Common Myth:** Applying thick coats of oil based polyurethane dries faster than multiple thin brushed layers.
@@ -285,7 +285,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3e:** Repair a sagging door or gate.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3e (Repair a sagging door or gate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3e (Repair a sagging door or gate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sagging wooden gates and passage doors usually result from loosened hinge screws or racked corners. Installing diagonal tension rods or longer hinge screws into framing studs restores free swinging clearance.
 - **Common Myth:** Planing bottom door edges solves sagging gates without addressing loose post hinge hardware.
@@ -303,7 +303,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3f:** Repair a loose step or railing.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3f (Repair a loose step or railing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3f (Repair a loose step or railing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Loose stair steps and loose handrails pose serious fall hazards in residential staircases. Tightening carriage bolts and anchoring new hardwood balusters ensures handrails withstand heavy lateral loads.
 - **Common Myth:** Hammering finishing nails into rotted stair treads cures loose baluster wobbles safely.
@@ -321,7 +321,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 3g:** Repair a fence.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 74, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 3g (Repair a fence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 3g (Repair a fence), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repairing perimeter fences involves replacing rotted posts, resetting rail brackets, and fastening loose pickets. Proper post depth and drainage stone prevent wind shear from blowing fence sections down.
 - **Common Myth:** Pouring wet concrete directly around untreated pine posts protects wood from rotting underground.
@@ -345,7 +345,7 @@
 **Official Requirement 4a:** Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Lock out breaker panels and verify dead circuits using reliable voltage testers before touching conductors.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 4a (Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 4a (Locate a main electrical switch box and know how to replace a fuse or reset a circuit breaker), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigating main service panels requires locating master disconnect breakers and understanding branch load schedules. Safely resetting tripped toggle breakers involves moving levers fully off before snapping them.
   - Navigating main service panels requires locating master disconnect breakers and understanding branch load schedules. Safely resetting tripped toggle breakers involves moving levers fully off before snapping them on.
@@ -369,7 +369,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do TWO of the following*
 **Official Requirement 4b:** Replace an electrical cord or repair a plug or lamp socket.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 4b (Replace an electrical cord or repair a plug or lamp socket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 4b (Replace an electrical cord or repair a plug or lamp socket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixing damaged electrical cords involves cutting back frayed insulation and installing polarized replacement plugs. Correct terminal polarity matches wide neutral prongs to ribbed insulation conductors for household user safety.
 - **Common Myth:** Twisting stranded wire ends loosely around terminal screws without tinning provides durable current flow.
@@ -387,7 +387,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do TWO of the following*
 **Official Requirement 4c:** Install a single-pole light switch.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 4c (Install a single-pole light switch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 4c (Install a single-pole light switch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Installing wall toggle switches requires controlling the hot leg of electrical branch circuits safely. Securing stripped copper conductors under terminal screws ensures uninterrupted grounding and reliable switch contact.
 - **Common Myth:** Connecting incoming hot wires directly to switch neutral terminals operates lighting fixtures normally.
@@ -405,7 +405,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do TWO of the following*
 **Official Requirement 4d:** Replace an electrical wall outlet.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 24, p. 26)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 4d (Replace an electrical wall outlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 4d (Replace an electrical wall outlet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Replacing worn wall outlets restores firm spring contact on cord prongs and prevents overheating. Matching hot wires to brass screws and neutrals to silver screws maintains household circuit polarity.
 - **Common Myth:** Modern grounded three prong wall outlets operate safely without connecting bare copper ground wires.
@@ -429,7 +429,7 @@
 **Official Requirement 5a:** Clear a clogged drain or trap.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Depressurize supply lines by opening downstream faucets before unthreading valve stems or supply fittings.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 5a (Clear a clogged drain or trap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 5a (Clear a clogged drain or trap), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Clearing blocked sink basins requires disassembling curved P-traps or operating manual drum augers. Physical extraction of hair and grease clumps restores gravity flow without corrosive chemicals.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -452,7 +452,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, locate and know how to turn off the main water source*
 **Official Requirement 5b:** Repair a leaky water faucet.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 5b (Repair a leaky water faucet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 5b (Repair a leaky water faucet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rebuilding leaky sink faucets requires disassembling decorative handles and removing internal valve stems. Replacing scratched O-rings, neoprene washers, and brass seats restores water tight valve seals.
 - **Common Myth:** Overtightening leaking faucet handles fixes water drips permanently by compressing brass valves harder.
@@ -470,7 +470,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, locate and know how to turn off the main water source*
 **Official Requirement 5c:** Repair a flush toilet.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 5c (Repair a flush toilet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 5c (Repair a flush toilet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repairing faulty toilet tanks requires diagnosing worn rubber flappers, faulty float valves, or misadjusted chains. Replacing fill valves and setting proper tank water heights prevents continuous freshwater waste.
 - **Common Myth:** Dropping chlorine bleach pucks inside toilet tanks maintains flush valve seals indefinitely.
@@ -488,7 +488,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, locate and know how to turn off the main water source*
 **Official Requirement 5d:** Repair a leaky hose or connector.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 5d (Repair a leaky hose or connector), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 5d (Repair a leaky hose or connector), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Restoring leaky garden hoses requires cutting away split casing cleanly with utility knives. Installing brass compression couplings and fresh vinyl hose washers stops water spraying at connections.
 - **Common Myth:** Wrapping duct tape tightly around leaking garden hoses stops high pressure domestic water leaks.
@@ -506,7 +506,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, locate and know how to turn off the main water source*
 **Official Requirement 5e:** Clean or replace a sprinkler head.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 32, p. 33)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 5e (Clean or replace a sprinkler head), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 5e (Clean or replace a sprinkler head), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintaining underground lawn irrigation involves unscrewing damaged pop up spray heads and clearing sand screens. Aligning adjustable spray arc patterns ensures uniform lawn watering without overspraying hardscapes.
 - **Common Myth:** Wrecked pop up sprinkler bodies must always be excavated instead of replacing internal cores.
@@ -530,7 +530,7 @@
 **Official Requirement 6a:** Paint a wall or ceiling.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Score paper facing with utility knives before tearing damaged drywall to prevent wallboard ripping.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6a (Paint a wall or ceiling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6a (Paint a wall or ceiling), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Painting interior ceilings and walls requires washing grime away and masking architectural moldings with tape. Rolling paint in uniform W patterns prevents roller lap marks across large surface areas.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -553,7 +553,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6b:** Repair or replace damaged tile, linoleum, or vinyl flooring.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6b (Repair or replace damaged tile, linoleum, or vinyl flooring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6b (Repair or replace damaged tile, linoleum, or vinyl flooring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Replacing cracked ceramic tiles or torn vinyl sheets requires scraping away old brittle mastic. Leveling subfloors and pressing new tiles into notched adhesive beds restores flat resilient floors.
 - **Common Myth:** Gluing new vinyl floor tiles directly over broken loose tiles creates smooth level floors.
@@ -571,7 +571,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6c:** Install drapery or curtain rods and then hang drapes or curtains.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6c (Install drapery or curtain rods and then hang drapes or curtains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6c (Install drapery or curtain rods and then hang drapes or curtains), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hanging heavy window drapery requires leveling curtain rods accurately across window frame tops. Securing mounting brackets with toggle bolts or wood screws prevents wall anchor pullout failures.
 - **Common Myth:** Hollow wall plastic friction anchors support heavy velvet blackout drapery rods securely forever.
@@ -589,7 +589,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6d:** Repair a hole in drywall.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6d (Repair a hole in drywall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6d (Repair a hole in drywall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixing holes in gypsum drywall requires installing solid wood backer blocks for large voids. Applying self adhesive mesh tape and multiple coats of joint compound produces invisible repairs.
 - **Common Myth:** Pressing newsprint paper into drywall holes creates solid bases for spackling paste patches.
@@ -607,7 +607,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6e:** Secure a picture, plant hanger, or other object approved by your parent or guardian to drywall using anchors.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6e (Secure a picture, plant hanger, or other object approved by your parent or guardian to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6e (Secure a picture, plant hanger, or other object approved by your parent or guardian to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fastening heavy mirrors or hanging plant brackets requires selecting anchors matched to object weights. Threaded zinc anchors and hollow wall toggle bolts prevent fasteners from ripping through gypsum.
 - **Common Myth:** Driving regular wire nails into hollow drywall holds heavy framed mirrors safely indefinitely.
@@ -625,7 +625,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6f:** Reinforce a picture frame.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6f (Reinforce a picture frame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6f (Reinforce a picture frame), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reinforcing loose picture frames requires squaring corner joints and clamping them with band clamps. Installing metal corner brackets or wooden spline keys prevents framed artwork from falling apart.
 - **Common Myth:** Squeezing white school glue into open picture frame corners permanently repairs broken miters.
@@ -643,7 +643,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6g:** Mend an object made of china, glass, or pottery.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6g (Mend an object made of china, glass, or pottery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6g (Mend an object made of china, glass, or pottery), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mending broken china or glass ornaments involves degreasing fracture surfaces thoroughly with isopropyl alcohol. Applying thin two part clear epoxy and supporting fragments during cure produces smooth repairs.
 - **Common Myth:** Super glue cyanoacrylate bonds broken earthenware dishes permanently despite washing in hot dishwashers.
@@ -661,7 +661,7 @@
 **[Parent Directive]:** *Under the supervision of your parent, guardian, or counselor, do THREE of the following*
 **Official Requirement 6h:** Fix a drawer slide or fix/replace cabinet pulls.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 66, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 6h (Fix a drawer slide or fix/replace cabinet pulls), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 6h (Fix a drawer slide or fix/replace cabinet pulls), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fixing sticking furniture drawers requires aligning ball bearing slides or planing binding wooden drawer sides. Replacing stripped cabinet handle screws with threaded inserts restores tight, wobble-free cabinet hardware.
 - **Common Myth:** Spraying sticky WD-forty oil inside wooden drawer channels permanently lubricates sliding wooden runners.
@@ -687,7 +687,7 @@
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 65)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 7a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** Always verify current building codes and municipal permit requirements before undertaking major structural renovations.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Home Repairs Req 7 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 7a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Investigating careers in residential carpentry, electrical work, or plumbing reveals structured apprenticeship models. Trade professionals earn competitive salaries while mastering local building codes and modern construction technologies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -711,7 +711,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 7b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Home Repairs Merit Badge Pamphlet (p. 45, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For home repairs Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Home Repairs Requirement 7b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Applying home maintenance skills to hobbies enables Scouts to restore vintage furniture and build custom household goods. Engaging with historic preservation groups and community workshops builds practical craftsmanship and creative satisfaction.
 - **Common Myth:** Pursuing woodworking or home restoration as hobbies requires purchasing expensive commercial grade shop machinery upfront.

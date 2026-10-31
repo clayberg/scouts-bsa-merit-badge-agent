@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Surveying.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/surveying/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -68,7 +68,7 @@
 **Official Requirement 2a:** Set an instrument over one of the corners of a five-sided lot laid out by your counselor and sighting one of the other corners for reference and, using radial measurement methods, record the angle turned and the distance measured to each of the remaining corners, as directed by your counselor. Record the angle and distance to five topographic features (trees, shrubs, rocks, etc.) near your work area.
 **Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Scout Workbook Organizer (Activity & Observation Log):** Req 2a Quantitative Field Observation & Activity Log
 > **Guide to Safe Scouting Warning:** Never look through a total station or optical level directly into the sun without approved optical solar filters.
-- **Socratic Prompt (Ask Scouts First):** For surveying Requirement 2a (Set an instrument over one of the corners of a five-sided lot laid out by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Surveying Requirement 2a (Set an instrument over one of the corners of a five-sided lot laid out by your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Setting an optical instrument over a designated corner allows measuring horizontal angles and radial distances to adjacent property markers. Backsighting a second established corner ensures all recorded angles reference a stable azimuthal baseline.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -89,7 +89,7 @@
 #### Req 2b: Satellite Position Distance Comparison
 **Official Requirement 2b:** Measure to three of the same points with GPS measurement and compare the distances between the points measured.
 **Source:** *Official Scouting America Surveying Merit Badge Pamphlet (p. 19, p. 23)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 2b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For surveying Requirement 2b (Measure to three of the same points with GPS measurement and compare the distances between), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Surveying Requirement 2b (Measure to three of the same points with GPS measurement and compare the distances between), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Collecting satellite positioning coordinates at three identical boundary markers provides an independent check against optical total station distances. Comparing ground EDM measurements with computed GPS inverse distances reveals baseline discrepancies caused by canopy interference or multipath errors.
 - **Common Myth:** Beginners often assume recreational hand-held GPS receivers match the millimeter precision of optical surveying instruments.

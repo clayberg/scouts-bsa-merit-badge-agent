@@ -925,16 +925,72 @@ def beautify_slide_storyboard(
                     if cat_c:
                         slide["visual_caption"] = cat_c
             cur_md5 = _file_md5(str(cur_diag))
-            if cur_md5:
-                if used_diagram_md5s.get(cur_md5, 0) >= 1:
-                    # Replace a duplicate image (including across multi-part chunk lead slides like 4a_1, 4a_2)
-                    # if a verified pamphlet image or topic_visual for THIS requirement exists
+            if not hasattr(beautify_slide_storyboard, "_dhash_cache"):
+                beautify_slide_storyboard._dhash_cache = {}
+                try:
+                    import json as _v43_json
+
+                    dh_json_p = Path(__file__).resolve().parent.parent.parent / "data" / "asset_perceptual_hashes.json"
+                    if dh_json_p.exists() and dh_json_p.stat().st_size > 10:
+                        raw_dh_map = _v43_json.loads(dh_json_p.read_text(encoding="utf-8"))
+                        for k_dh, v_dh in raw_dh_map.items():
+                            if isinstance(v_dh, str) and len(v_dh) == 16:
+                                beautify_slide_storyboard._dhash_cache[k_dh] = int(v_dh, 16)
+                except Exception:
+                    pass
+
+            def _get_perceptual_dhash_int(img_p_str: str) -> Optional[int]:
+                if not img_p_str:
+                    return None
+                dc = beautify_slide_storyboard._dhash_cache
+                p_name = Path(img_p_str).name
+                if p_name in dc:
+                    return dc[p_name]
+                if img_p_str in dc:
+                    return dc[img_p_str]
+                try:
+                    from PIL import Image as _PILImage
+
+                    p_obj = Path(img_p_str)
+                    if p_obj.exists() and p_obj.is_file():
+                        with _PILImage.open(p_obj) as _im:
+                            _gr = _im.convert("L").resize((9, 8), _PILImage.Resampling.LANCZOS)
+                            _px = list(_gr.getdata())
+                            _df = 0
+                            for _r in range(8):
+                                _rs = _r * 9
+                                for _c in range(8):
+                                    _df = (_df << 1) | (1 if _px[_rs + _c] > _px[_rs + _c + 1] else 0)
+                            dc[p_name] = _df
+                            dc[img_p_str] = _df
+                            return _df
+                except Exception:
+                    return None
+                return None
+
+            if "_v43_used_dhashes" not in locals():
+                _v43_used_dhashes: list[int] = []
+
+            def _is_dhash_already_used(dh_val: Optional[int]) -> bool:
+                if dh_val is None:
+                    return False
+                return any((dh_val ^ existing_dh).bit_count() <= 8 for existing_dh in _v43_used_dhashes)
+
+            cur_dhash = _get_perceptual_dhash_int(str(cur_diag))
+            is_dup_visual = bool(
+                (cur_md5 and used_diagram_md5s.get(cur_md5, 0) >= 1)
+                or _is_dhash_already_used(cur_dhash)
+            )
+            if cur_md5 or cur_dhash is not None:
+                if is_dup_visual:
+                    # Replace a duplicate or perceptually identical image (dHash Hamming <= 8)
+                    # if a distinct verified pamphlet image or Nano Banana visual for THIS badge/requirement exists
                     pamphlet_dir = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
                     catalog = _load_pamphlet_image_catalog()
                     replacement_found = False
                     if pamphlet_dir.exists() and catalog:
                         for fname, entry in catalog.items():
-                            if not fname.startswith(f"{badge_slug_check}_p") or entry.get("discard"):
+                            if not fname.startswith(f"{badge_slug_check}_") or entry.get("discard") or entry.get("is_synthetic_hero_clone"):
                                 continue
                             entry_r = str(entry.get("req_number") or "").strip()
                             allowed_r = [str(r).strip() for r in (entry.get("req_numbers") or []) if str(r).strip()]
@@ -959,6 +1015,9 @@ def beautify_slide_storyboard(
                                 if not cand.exists() or _is_discardable_pamphlet_image(cand):
                                     continue
                                 cand_md5 = _file_md5(str(cand))
+                                cand_dh = _get_perceptual_dhash_int(str(cand))
+                                if _is_dhash_already_used(cand_dh):
+                                    continue
                                 composed_rep = _compose_pamphlet_visual_card(
                                     raw_img_path=cand,
                                     badge_name=badge_name,
@@ -977,22 +1036,36 @@ def beautify_slide_storyboard(
                                     used_diagram_md5s[cand_md5] = 1
                                     if comp_rep_md5:
                                         used_diagram_md5s[comp_rep_md5] = 1
+                                    if cand_dh is not None:
+                                        _v43_used_dhashes.append(cand_dh)
                                     replacement_found = True
                                     break
                     if not replacement_found:
+                        # Also check custom Nano Banana diagrams & topic visuals for this badge + req
+                        nc_map = _get_nano_banana_catalog()
+                        cand_ai_files = []
                         for tv_tag in (req_slug_check, opt_prefix_check, str(base_req_num).strip()):
-                            if not tv_tag:
-                                continue
-                            cand_tv = AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{tv_tag}_topic_visual.png"
-                            if cand_tv.exists() and cand_tv.stat().st_size >= 35_000:
+                            if tv_tag:
+                                cand_ai_files.append(AI_ILLUSTRATIONS_DIR / f"{badge_slug_check}_req_{tv_tag}_topic_visual.png")
+                        for nc_fname, nc_entry in nc_map.items():
+                            if (
+                                nc_fname.startswith(f"{badge_slug_check}_")
+                                and isinstance(nc_entry, dict)
+                                and str(nc_entry.get("req_number") or "").strip() in (str(req_num).strip(), str(base_req_num).strip())
+                            ):
+                                cand_ai_files.append(AI_ILLUSTRATIONS_DIR / nc_fname)
+                        for cand_tv in cand_ai_files:
+                            if cand_tv.exists() and cand_tv.stat().st_size >= 25_000:
                                 tv_md5 = _file_md5(str(cand_tv))
-                                if tv_md5 and used_diagram_md5s.get(tv_md5, 0) == 0:
+                                tv_dh = _get_perceptual_dhash_int(str(cand_tv))
+                                if tv_md5 and used_diagram_md5s.get(tv_md5, 0) == 0 and not _is_dhash_already_used(tv_dh):
                                     slide["diagram_path"] = str(cand_tv)
                                     slide["ai_hero_image_path"] = str(cand_tv)
                                     slide["visual_source_label"] = "🍌 Nano Banana Visual"
                                     used_diagram_md5s[tv_md5] = 1
+                                    if tv_dh is not None:
+                                        _v43_used_dhashes.append(tv_dh)
                                     replacement_found = True
-                                    nc_map = _get_nano_banana_catalog()
                                     if cand_tv.name in nc_map:
                                         slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
                                             str(nc_map[cand_tv.name].get("caption") or title), badge_name
@@ -1001,10 +1074,102 @@ def beautify_slide_storyboard(
                     if not replacement_found:
                         slide["diagram_path"] = None
                         slide["ai_hero_image_path"] = None
+                        slide["visual_caption"] = ""
                         if slide.get("archetype") in ("SPLIT_VISUAL_EXPLAINER", "FULL_BLEED_IMAGE_EXPLAINER"):
                             slide["archetype"] = "CONCEPT_TEXT_SLIDE"
                 else:
-                    used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
+                    if cur_md5:
+                        used_diagram_md5s[cur_md5] = used_diagram_md5s.get(cur_md5, 0) + 1
+                    if cur_dhash is not None:
+                        _v43_used_dhashes.append(cur_dhash)
+        elif slide.get("archetype") in ("CONCEPT_TEXT_SLIDE", "STEP_BY_STEP_PROCEDURE_4CARD"):
+            # Option 3B Selective Hybrid Expansion:
+            # If this conceptual or hands-on procedure slide has no visual yet, promote it to SPLIT_VISUAL_EXPLAINER
+            # when an unused, non-perceptually-duplicate verified pamphlet figure or custom diagram exists for this requirement!
+            if "_v43_used_dhashes" not in locals():
+                _v43_used_dhashes = []
+            if not hasattr(beautify_slide_storyboard, "_dhash_cache"):
+                beautify_slide_storyboard._dhash_cache = {}
+                try:
+                    import json as _v43_json
+
+                    dh_json_p = Path(__file__).resolve().parent.parent.parent / "data" / "asset_perceptual_hashes.json"
+                    if dh_json_p.exists() and dh_json_p.stat().st_size > 10:
+                        raw_dh_map = _v43_json.loads(dh_json_p.read_text(encoding="utf-8"))
+                        for k_dh, v_dh in raw_dh_map.items():
+                            if isinstance(v_dh, str) and len(v_dh) == 16:
+                                beautify_slide_storyboard._dhash_cache[k_dh] = int(v_dh, 16)
+                except Exception:
+                    pass
+            _dc_opt = beautify_slide_storyboard._dhash_cache
+            pamphlet_dir_opt = AI_ILLUSTRATIONS_DIR.parent / "pamphlet_images"
+            catalog_opt = _load_pamphlet_image_catalog()
+            nc_map_opt = _get_nano_banana_catalog()
+            promoted_opt3b = False
+            if pamphlet_dir_opt.exists() and catalog_opt:
+                for fname_opt, entry_opt in catalog_opt.items():
+                    if not fname_opt.startswith(f"{badge_slug_check}_") or entry_opt.get("discard") or entry_opt.get("is_synthetic_hero_clone"):
+                        continue
+                    all_r_opt = [str(entry_opt.get("req_number") or "").strip()] + [
+                        str(r).strip() for r in (entry_opt.get("req_numbers") or []) if str(r).strip()
+                    ]
+                    if str(req_num).strip() in all_r_opt or str(base_req_num).strip() in all_r_opt:
+                        cand_p_opt = pamphlet_dir_opt / fname_opt
+                        if not cand_p_opt.exists() or _is_discardable_pamphlet_image(cand_p_opt):
+                            continue
+                        c_md5_opt = _file_md5(str(cand_p_opt))
+                        c_dh_opt = _dc_opt.get(fname_opt)
+                        if (
+                            c_md5_opt
+                            and used_diagram_md5s.get(c_md5_opt, 0) == 0
+                            and (c_dh_opt is None or all((c_dh_opt ^ ex_dh).bit_count() > 8 for ex_dh in _v43_used_dhashes))
+                        ):
+                            comp_opt = _compose_pamphlet_visual_card(
+                                raw_img_path=cand_p_opt,
+                                badge_name=badge_name,
+                                req_number=f"{req_num}_opt3b_{idx}",
+                                topic_title=str(entry_opt.get("topic") or title),
+                                pamphlet_page=idx,
+                            )
+                            slide["diagram_path"] = str(comp_opt)
+                            slide["ai_hero_image_path"] = None
+                            slide["archetype"] = "SPLIT_VISUAL_EXPLAINER"
+                            slide["visual_source_label"] = "BSA Handbook Visual"
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                                str(entry_opt.get("caption") or title), badge_name
+                            )
+                            used_diagram_md5s[c_md5_opt] = 1
+                            if c_dh_opt is not None:
+                                _v43_used_dhashes.append(c_dh_opt)
+                            promoted_opt3b = True
+                            break
+            if not promoted_opt3b and nc_map_opt:
+                for nc_fn_opt, nc_en_opt in nc_map_opt.items():
+                    if not nc_fn_opt.startswith(f"{badge_slug_check}_") or not isinstance(nc_en_opt, dict):
+                        continue
+                    if str(nc_en_opt.get("req_number") or "").strip() in (str(req_num).strip(), str(base_req_num).strip()):
+                        cand_nc_opt = AI_ILLUSTRATIONS_DIR / nc_fn_opt
+                        if not cand_nc_opt.exists() or cand_nc_opt.stat().st_size < 25_000:
+                            continue
+                        c_md5_opt = _file_md5(str(cand_nc_opt))
+                        c_dh_opt = _dc_opt.get(nc_fn_opt)
+                        if (
+                            c_md5_opt
+                            and used_diagram_md5s.get(c_md5_opt, 0) == 0
+                            and (c_dh_opt is None or all((c_dh_opt ^ ex_dh).bit_count() > 8 for ex_dh in _v43_used_dhashes))
+                        ):
+                            slide["diagram_path"] = str(cand_nc_opt)
+                            slide["ai_hero_image_path"] = str(cand_nc_opt)
+                            slide["archetype"] = "SPLIT_VISUAL_EXPLAINER"
+                            slide["visual_source_label"] = "🍌 Nano Banana Visual"
+                            slide["visual_caption"] = strip_pamphlet_and_req_caption_prefixes(
+                                str(nc_en_opt.get("caption") or title), badge_name
+                            )
+                            used_diagram_md5s[c_md5_opt] = 1
+                            if c_dh_opt is not None:
+                                _v43_used_dhashes.append(c_dh_opt)
+                            promoted_opt3b = True
+                            break
 
         # Ensure every visual slide's caption is colon-free, complete, unique across the deck, and never duplicates a slide bullet
         if slide.get("diagram_path"):

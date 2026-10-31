@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Scuba%20Diving.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/scuba-diving/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -38,7 +38,7 @@
 **Official Requirement 1a:** Show that you know first aid for injuries or illnesses that could occur while scuba diving, including hypothermia, hyperventilation, squeezes, decompression illness, nitrogen narcosis, motion sickness, fatigue, overexertion, heat reactions, dehydration, injuries by aquatic life, and cuts and scrapes.
 **Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Clinical Signs, First-Aid Treatment & Prevention Matrix
 > **Guide to Safe Scouting Warning:** Never administer oral fluids or allow unassisted walking when evaluating suspected arterial gas embolism.
-- **Socratic Prompt (Ask Scouts First):** For scuba diving Requirement 1a (Show that you know first aid for injuries or illnesses that could occur while scuba diving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scuba Diving Requirement 1a (Show that you know first aid for injuries or illnesses that could occur while scuba diving,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Divers manage barotrauma, narcosis, and decompression illness through vigilant depth monitoring and proper field first aid. Mild nitrogen narcosis resolves upon ascending to shallower depths without requiring recompression therapy.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -60,7 +60,7 @@
 #### Req 1b: Cardiopulmonary Resuscitation for Divers
 **Official Requirement 1b:** Identify the conditions that must exist before performing CPR on a person, and explain how to recognize such conditions. Demonstrate the proper technique for performing CPR using a training device approved by your counselor.
 **Source:** *Official Scouting America Scuba Diving Merit Badge Pamphlet (p. 21, p. 25)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 1b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For scuba diving Requirement 1b (Identify the conditions that must exist before performing CPR on a person, and explain how), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Scuba Diving Requirement 1b (Identify the conditions that must exist before performing CPR on a person, and explain how), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers confirm unresponsiveness and absence of normal breathing before initiating chest compressions on a dry flat surface. Automated external defibrillators require drying the victim's chest completely before pad placement.
 - **Common Myth:** Rescuers believe abdominal thrusts must be performed to drain seawater from submerged drowning victims.

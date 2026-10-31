@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Programming.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/programming/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Position power cords away from walkways and keep open beverage containers off equipment desks to eliminate shock hazards.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Programming Req 1 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 1a (View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 1a (View the Personal Safety Awareness "Digital Safety" video (with your parent or guardian's), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must view required digital safety training materials with parental consent before downloading third party development tools. Protecting personal identity requires restricting public repository metadata and securing local environment variables.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Ergonomics and Injury Prevention
 **Official Requirement 1b:** Discuss first aid and prevention for the types of injuries that could occur during programming activities, including repetitive stress injuries and eyestrain.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 88, p. 89)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur during), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 1b (Discuss first aid and prevention for the types of injuries that could occur during), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preventing repetitive strain injuries requires supporting forearms and maintaining neutral hand positions during coding tasks. Eyestrain mitigations include following the rule of looking away across room distances at regular intervals.
 - **Common Myth:** Screen brightness settings have zero impact on physical eye strain during evening coding sprints.
@@ -113,7 +113,7 @@
 #### Req 3a: Popular Languages and Industries
 **Official Requirement 3a:** Create a list of five popular programming languages in use today and describe which industry or industries they are primarily used in and why.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 3a (Create a list of five popular programming languages in use today and describe which), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 3a (Create a list of five popular programming languages in use today and describe which), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Different languages target specific runtime environments such as web browsers, enterprise servers, and embedded processors. Developers evaluate execution speed, type safety, and ecosystem libraries when selecting languages for production systems.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -135,7 +135,7 @@
 #### Req 3b: Programmed Daily Embedded Devices
 **Official Requirement 3b:** Describe three different programmed devices you rely on every day.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 35, p. 68)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 3b (Describe three different programmed devices you rely on every day), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 3b (Describe three different programmed devices you rely on every day), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Embedded systems power common everyday machinery such as digital washing machines, automotive controllers, and robotic vacuum cleaners. These devices run specialized software loops designed to monitor environmental sensors and actuate physical components.
 - **Common Myth:** Simple household appliances like microwave ovens contain no software or internal computer chips.
@@ -158,7 +158,7 @@
 #### Req 4a: Intellectual Property Protection Types
 **Official Requirement 4a:** Explain the four types of intellectual property used to protect computer programs.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 4a (Explain the four types of intellectual property used to protect computer programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 4a (Explain the four types of intellectual property used to protect computer programs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Four primary frameworks protect computing creations: copyrights protect source text, patents protect novel mechanisms, trademarks protect brand identities, and trade secrets protect private algorithms. Each category serves a distinct legal purpose within commercial software engineering.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -180,7 +180,7 @@
 #### Req 4b: Software Licensing Versus Ownership
 **Official Requirement 4b:** Describe the difference between licensing and owning software.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 4b (Describe the difference between licensing and owning software), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 4b (Describe the difference between licensing and owning software), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Software licenses grant conditional rights to install and run programs without transferring underlying copyright ownership. Commercial users must adhere to seat limits, reverse engineering prohibitions, and redistribution terms specified by the developer.
 - **Common Myth:** Downloading a retail software installer transfers complete copyright ownership to the personal computer owner.
@@ -197,7 +197,7 @@
 #### Req 4c: Software Distribution Models Comparison
 **Official Requirement 4c:** Describe the differences between freeware, open source, and commercial software, and why it is important to respect the terms of use of each.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 84, p. 85)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4c Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 4c (Describe the differences between freeware, open source, and commercial software, and why it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 4c (Describe the differences between freeware, open source, and commercial software, and why it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Freeware permits zero cost execution while keeping source code closed, whereas open source licenses expose source code under defined reuse criteria. Commercial software requires financial purchase and enforces strict proprietary legal restrictions.
 - **Common Myth:** Freeware programs provide open access to their original source code without legal restrictions.
@@ -219,7 +219,7 @@
 **[Parent Directive]:** *Project. With your counselor's guidance, select three different programming languages and development environments. For each subrequirement below, do the following*
 **Official Requirement 5a:** In the first language and environment, write or modify a program, debug and demonstrate, and explain as above.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 5a (In the first language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 5a (In the first language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing the initial project in a visual or beginner friendly environment establishes core algorithmic sequencing skills. Scouts implement user inputs, logic gates, and display outputs while verifying runtime behavior.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -242,7 +242,7 @@
 **[Parent Directive]:** *Project. With your counselor's guidance, select three different programming languages and development environments. For each subrequirement below, do the following*
 **Official Requirement 5b:** In the second language and environment, write or modify a program, debug and demonstrate, and explain as above.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 5b (In the second language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 5b (In the second language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Building the second program in an interpreted language introduces text based syntax formatting and dynamic variable typing. Scouts write modular functions and handle basic runtime error exceptions during testing.
 - **Common Myth:** Scripting languages run instantly because they bypass all internal syntax parsing checks completely.
@@ -260,7 +260,7 @@
 **[Parent Directive]:** *Project. With your counselor's guidance, select three different programming languages and development environments. For each subrequirement below, do the following*
 **Official Requirement 5c:** In the third language and environment, write or modify a program, debug and demonstrate, and explain as above.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 14, p. 18)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 5c (In the third language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 5c (In the third language and environment, write or modify a program, debug and demonstrate,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The third project in a statically compiled language emphasizes explicit memory usage, rigid type declarations, and linker mechanics. Scouts compile source files into executable binaries and validate program performance against requirements.
 - **Common Myth:** Compiled programs always require identical memory footprints regardless of target CPU platform architectures.
@@ -284,7 +284,7 @@
 **Official Requirement 6a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Programming Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Software careers span diverse roles including systems programming, mobile development, data engineering, and network operations. Successful professionals pursue continuous education to keep pace with evolving toolchains and framework standards.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -308,7 +308,7 @@
 **[Parent Directive]:** *Careers. Do ONE of the following*
 **Official Requirement 6b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Programming Merit Badge Pamphlet (p. 78, p. 92)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For programming Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Programming Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Programming empowers hobbyists to automate smart home sensors, participate in competitive robotics, and build indie video games. Joining local maker clubs and open source initiatives provides social connection and lifelong cognitive engagement.
 - **Common Myth:** Programming skills offer zero personal value unless utilized to earn full time corporate employment.

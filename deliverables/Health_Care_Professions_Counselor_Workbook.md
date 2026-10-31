@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Health%20Care%20Professions.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/health-care-professions/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **[Parent Directive]:** *Select three of the professions from Group 1 listed below which interest you, then complete the following*
 **Official Requirement 1a:** Briefly describe to your counselor the roles these professionals play in the delivery of health care.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 1a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 1a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physicians conduct physical examinations, order imaging studies, interpret laboratory panels, and perform complex invasive surgeries. Podiatrists and chiropractors concentrate on lower extremity and spinal biomechanical function to restore mobility.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Medical Licensing Educational Tracks
 **Official Requirement 1b:** Describe to your counselor the educational and licensing requirements for the professionals you selected.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 17)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 1b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 1b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Doctoral practitioners complete four years of professional schooling followed by specialized clinical training programs. State regulatory boards mandate national licensing examinations, criminal background checks, and active malpractice insurance coverage.
 - **Common Myth:** Graduating from an accredited medical school automatically permits immediate independent patient care.
@@ -87,7 +87,7 @@
 **[Parent Directive]:** *Select three of the professions from Group 2 listed below which interest you, then complete the following*
 **Official Requirement 2a:** Briefly describe to your counselor the roles these professionals play in the delivery of health care.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 2a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 2a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Registered nurses coordinate overall inpatient recovery, while certified nursing assistants manage continuous activities of daily living. Physician assistants and nurse midwives conduct physical exams, interpret diagnostics, and formulate individualized care plans.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -109,7 +109,7 @@
 #### Req 2b: Nursing Licensure Educational Pathways
 **Official Requirement 2b:** Describe to your counselor the educational and licensing requirements for the professionals you selected.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 16, p. 27)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 2b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 2b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Licensure pathways range from vocational nursing diplomas and associate degrees to master's level advanced practice credentials. Candidates must graduate from state-approved programs and achieve passing marks on standardized national competency examinations.
 - **Common Myth:** All nursing roles require a four-year bachelor degree before obtaining an initial state license.
@@ -133,7 +133,7 @@
 **[Parent Directive]:** *Select three of the professions from Group 3 listed below which interest you, then complete the following*
 **Official Requirement 3a:** Briefly describe to your counselor the roles these professionals play in the delivery of health care.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 3a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 3a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical therapists restore ambulation and joint biomechanics, while occupational therapists modify tasks and environments for cognitive and sensory recovery. Orthotists and prosthetists work alongside technicians to design, cast, fit, and align corrective biomechanical devices.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -155,7 +155,7 @@
 #### Req 3b: Therapy Credentialing Academic Standards
 **Official Requirement 3b:** Describe to your counselor the educational and licensing requirements for the professionals you selected.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 47, p. 51)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 3b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 3b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Physical and occupational therapists complete accredited clinical doctoral or master's degrees containing extensive clinical internship rotations. Technicians frequently enter the field through specialized vocational associate degrees or supervised laboratory apprenticeships.
 - **Common Myth:** Medical appliance technicians must obtain doctoral degrees before fabricating custom limb braces in laboratories.
@@ -177,7 +177,7 @@
 **[Parent Directive]:** *Select three of the professions from Group 4 listed below which interest you, then complete the following*
 **Official Requirement 4a:** Briefly describe to your counselor the roles these professionals play in the delivery of health care.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 4a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 4a (Briefly describe to your counselor the roles these professionals play in the delivery of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Diagnostic specialists execute clinical lab assays, operate computed tomography equipment, and obtain ultrasound scans to evaluate internal anatomy. Biomedical engineers support these operations by testing, calibrating, and developing life-support machinery and surgical instrumentation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -199,7 +199,7 @@
 #### Req 4b: Technical Licensing Education Requirements
 **Official Requirement 4b:** Describe to your counselor the educational and licensing requirements for the professionals you selected.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 51, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 4b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 4b (Describe to your counselor the educational and licensing requirements for the professionals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Education paths range from focused clinical phlebotomy certifications to master's degrees in biomedical engineering or clinical laboratory science. Technologists maintain professional certification through organizations such as the American Registry of Radiologic Technologists.
 - **Common Myth:** Biomedical engineers must obtain a state medical license before designing implantable cardiovascular pacemakers.
@@ -221,7 +221,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that*
 **Official Requirement 5a:** Why did they choose their particular career.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5a Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5a (Why did they choose their particular career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5a (Why did they choose their particular career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Healthcare professionals often select their fields due to personal encounters with illness, passion for biological sciences, or a service ethic. Discussing initial motivations highlights the dedication needed to complete demanding healthcare training programs.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -244,7 +244,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that*
 **Official Requirement 5b:** What do they most like about their job.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5b (What do they most like about their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5b (What do they most like about their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Practitioners find deep satisfaction in solving complex diagnostic puzzles, witnessing patient recoveries, and forming enduring therapeutic alliances. Understanding job satisfaction helps candidates assess whether a clinical role aligns with their personal values.
 - **Common Myth:** The primary satisfaction in healthcare work comes from working entirely without supervisor oversight.
@@ -262,7 +262,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that*
 **Official Requirement 5c:** What are their biggest challenges in doing their job.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5c (What are their biggest challenges in doing their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5c (What are their biggest challenges in doing their job), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Healthcare workers face substantial challenges including administrative burdens, electronic documentation demands, and emotional stress from patient suffering. Navigating systemic resource constraints and long shifts requires deliberate personal resilience strategies.
 - **Common Myth:** Managing sick patients is the only significant challenge that clinicians encounter during their careers.
@@ -279,7 +279,7 @@
 #### Req 5d: Clinical Tools and Technology
 **Official Requirement 5d:** Identify the tools/instruments that may be used in their jobs.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5d (Identify the tools/instruments that may be used in their jobs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5d (Identify the tools/instruments that may be used in their jobs), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern healthcare delivery depends on diverse equipment ranging from basic diagnostic stethoscopes to advanced electronic health record systems. Each instrument requires precise operational proficiency, routine calibration, and meticulous infection control decontamination.
 - **Common Myth:** Advanced computerized monitors have completely eliminated the need for manual physical assessment tools.
@@ -297,7 +297,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that*
 **Official Requirement 5e:** What has been the most surprising aspect of their career.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 5e Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5e (What has been the most surprising aspect of their career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5e (What has been the most surprising aspect of their career), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professionals often discover that interpersonal communication and business administration play far larger roles than anticipated during school. Learning about surprising career realities prevents idealized assumptions about day-to-day healthcare environments.
 - **Common Myth:** Clinicians spend nearly all their work hours engaged in dramatic emergency lifesaving procedures.
@@ -315,7 +315,7 @@
 **[Parent Directive]:** *Select one career from any of the lists in requirements 1, 2, 3, or 4 and arrange to visit that*
 **Official Requirement 5f:** What continuing education requirements are required to maintain certification.
 **Source:** *Official Scouting America Health Care Professions Merit Badge Pamphlet (p. 7, p. 23)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For health care professions Requirement 5f (What continuing education requirements are required to maintain certification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Health Care Professions Requirement 5f (What continuing education requirements are required to maintain certification), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State licensing boards and professional colleges mandate annual continuing education credits to ensure ongoing clinical competency. Providers complete approved seminars, simulation training, peer reviews, and re-certification examinations throughout their careers.
 - **Common Myth:** Passing an initial licensing board exam permanently certifies a medical professional for life.

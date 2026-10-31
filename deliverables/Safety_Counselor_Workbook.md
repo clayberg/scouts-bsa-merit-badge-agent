@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Safety.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/safety/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -41,7 +41,7 @@
 **Official Requirement 1a:** Explain what safety is and what it means to be safe.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Stop any activity immediately whenever an uncontrolled hazard or unsafe condition appears in the operating area.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 1a (Explain what safety is and what it means to be safe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 1a (Explain what safety is and what it means to be safe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety is an active discipline of anticipating dangers and making deliberate choices to preserve health. Being safe means recognizing personal limitations and maintaining vigilance across all environments.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -63,7 +63,7 @@
 #### Req 1b: Systematic Hazard Management Strategies
 **Official Requirement 1b:** Explain what hazards are and how people manage hazards to reduce risks of harm and to improve safety.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 10, p. 15)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 1b (Explain what hazards are and how people manage hazards to reduce risks of harm and to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 1b (Explain what hazards are and how people manage hazards to reduce risks of harm and to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hazards consist of any biological, chemical, or physical condition capable of inflicting harm on people or property. Managing hazards requires applying standard control hierarchies to reduce vulnerability.
 - **Common Myth:** Warning labels and verbal caution alone suffice to neutralize environmental hazards.
@@ -88,7 +88,7 @@
 **Official Requirement 2a:** Explain common causes of and prevention of home injuries.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never re-enter a burning structure under any circumstances once you have evacuated to the designated assembly point.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2a (Explain common causes of and prevention of home injuries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2a (Explain common causes of and prevention of home injuries), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Domestic injuries most frequently stem from ground-level falls, scalding liquids, poisoning, and blunt strikes. Mitigating these risks involves installing grab bars, anchoring top-heavy furniture, and locking chemical storage cabinets.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -110,7 +110,7 @@
 #### Req 2b: Consumer Fireworks Hazard Awareness
 **Official Requirement 2b:** Discuss the dangers involved with the use of fireworks.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2b (Discuss the dangers involved with the use of fireworks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2b (Discuss the dangers involved with the use of fireworks), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fireworks unleash uncontrolled thermal energy, kinetic blast fragments, and toxic smoke clouds. Professional pyrotechnic displays offer safe entertainment while backyard fireworks cause thousands of emergency room visits annually.
 - **Common Myth:** Handheld sparklers are harmless novelty toys suitable for unsupervised young children.
@@ -129,7 +129,7 @@
 #### Req 2c: Residential Fire Ignition Controls
 **Official Requirement 2c:** Explain common causes of and prevention of home fires.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2c (Explain common causes of and prevention of home fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2c (Explain common causes of and prevention of home fires), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Unattended cooking equipment, overloaded electrical outlets, and uncleaned dryer lint traps represent leading domestic fire causes. Routine maintenance of heating chimneys and vigilant candle supervision drastically reduce accidental structure fires.
 - **Common Myth:** Electrical circuit breakers eliminate all possibility of internal wall wiring overheating and igniting.
@@ -147,7 +147,7 @@
 **[Parent Directive]:** *Family and Home Safety. Do the following*
 **Official Requirement 2d:** Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your counselor, inspect your home or a similar building for hazards with an adult. Review your checklist and findings with your counselor.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2d (Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2d (Using the Home Safety Checklist in the Safety merit badge pamphlet, or one approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conducting an audit of domestic living spaces uncovers hidden slip hazards, non-working alarms, and blocked pathways. Recording structural deficiencies on an approved checklist enables homeowners to prioritize immediate corrective repairs.
 - **Common Myth:** A passing inspection conducted three years ago guarantees current home safety standards.
@@ -164,7 +164,7 @@
 **[Parent Directive]:** *Family and Home Safety. Do the following*
 **Official Requirement 2e:** Develop a fire-escape plan for your home or for a similar building. Include in your drawings exit routes from each room and a meeting place outside. Conduct a fire-escape drill. Review your plan and your drill with your counselor.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2e (Develop a fire-escape plan for your home or for a similar building. Include in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2e (Develop a fire-escape plan for your home or for a similar building. Include in your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A reliable fire escape blueprint plots two unobstructed egress passages out of each living area toward an exterior assembly landmark. Conducting practical timed escape drills ensures every household member reacts instinctively without panic.
 - **Common Myth:** Household members will easily regroup near the front porch during midnight smoky evacuations.
@@ -183,7 +183,7 @@
 **[Parent Directive]:** *Family and Home Safety. Do the following*
 **Official Requirement 2f:** Develop a family emergency action plan for evacuation because of weather or other natural disasters that occur in your area. Using a checklist in the Safety merit badge pamphlet or one approved by your counselor, assemble or inspect an emergency supplies kit. Explain to your counselor how a family would use the plan and the kit supplies in an emergency.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 51, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 2f (Develop a family emergency action plan for evacuation because of weather or other natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 2f (Develop a family emergency action plan for evacuation because of weather or other natural), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Severe weather events require robust evacuation plans tailored to regional threats like floods, tornadoes, or wildfires. Packing portable survival kits and designating out-of-town emergency contacts establishes household resilience during prolonged municipal infrastructure failures.
 - **Common Myth:** Cellular phone networks will remain operational for local voice calls throughout catastrophic natural disasters.
@@ -206,7 +206,7 @@
 **Official Requirement 3a:** Explain common types of crimes that can affect teens.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never confront an active intruder or burglar in your home; retreat to a lockable room and dial emergency dispatch immediately.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 3a (Explain common types of crimes that can affect teens), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 3a (Explain common types of crimes that can affect teens), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Teens are disproportionately exposed to theft, physical bullying, cyber-extortion, and predatory street crimes. Recognizing targeted exploitation methods empowers adolescents to avoid hazardous environments and retain personal safety.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -229,7 +229,7 @@
 **[Parent Directive]:** *Safety from Crime. Do the following*
 **Official Requirement 3b:** Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your counselor, inspect your home or a similar building for crime security measures with an adult. Review your checklist and findings with your counselor.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 22, p. 40)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 3b (Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 3b (Using a Home Security Checklist in the Safety merit badge pamphlet or one approved by your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A systematic home security assessment inspects entry doors, ground-floor windows, garage access points, and exterior illumination. Documenting hardware weaknesses alongside an adult allows families to install strike plate reinforcement and tamper-resistant latches.
 - **Common Myth:** Standard interior spring latch door locks offer adequate protection against forced home entry.
@@ -254,7 +254,7 @@
 **Official Requirement 4a:** How a person would safely exit from public buildings, a hotel, and a stadium in an emergency (b) How and why Scouts would take shelter at camp (c) How should Scouts respond to an active shooter.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** In an active shooter emergency, keep your hands visible, fingers spread, and empty when first encountering law enforcement officers.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 4a (How a person would safely exit from public buildings, a hotel, and a stadium in an), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 4a (How a person would safely exit from public buildings, a hotel, and a stadium in an), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Exiting public arenas, high-rise hotels, and sprawling stadiums requires avoiding stalled elevators and tracking illuminated emergency signs. Counting doors along hotel hallways allows individuals to navigate smoke-filled corridors to fire exits in complete darkness.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -277,7 +277,7 @@
 **[Parent Directive]:** *Safety in Public Places. Explain each of the following to your counselor*
 **Official Requirement 4b:** How and why Scouts would take shelter at camp (c) How should Scouts respond to an active shooter.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 4b (How and why Scouts would take shelter at camp (c) How should Scouts respond to an active), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 4b (How and why Scouts would take shelter at camp (c) How should Scouts respond to an active), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Camp environments expose Scouts to high winds, falling tree limbs, flash flooding, and lightning strikes. Leaders must direct patrols into designated hardened storm structures or low-lying ravines well before squall lines make impact.
 - **Common Myth:** Gathering beneath a tall, isolated tree provides adequate shelter from driving rain and lightning.
@@ -295,7 +295,7 @@
 **[Parent Directive]:** *Safety in Public Places. Explain each of the following to your counselor*
 **Official Requirement 4c:** How should Scouts respond to an active shooter.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 4c (How should Scouts respond to an active shooter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 4c (How should Scouts respond to an active shooter), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Run, Hide, Fight protocol defines the universal civilian response doctrine against active violence in public spaces. Escaping the immediate hazard zone takes precedence, followed by locking and barricading interior rooms when flight is impossible.
 - **Common Myth:** Playing dead in an open corridor is a safe and reliable defensive tactic.
@@ -313,7 +313,7 @@
 **[Parent Directive]:** *Safety in Public Places. Explain each of the following to your counselor*
 **Official Requirement 4d:** The meaning of this saying: "If You See Something, Say Something® ".
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 4d (The meaning of this saying: "If You See Something, Say Something® "), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 4d (The meaning of this saying: "If You See Something, Say Something® "), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The national campaign If You See Something, Say Something trains citizens to recognize observable indicators of terrorism and crime. Reporting unattended parcels, unauthorized access attempts, or surveillance of infrastructure to authorities preserves community safety.
 - **Common Myth:** Reporting suspicious activity requires confronting the suspected individual directly to investigate their intentions.
@@ -336,7 +336,7 @@
 **Official Requirement 5a:** Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow so that everyone is safe at Scouting activities.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** In an emergency involving imminent danger of child abuse, contact local police authorities immediately before notifying council personnel.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 5a (Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 5a (Discuss Scouting America's Safeguarding Youth guidelines that adults and Scouts must follow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mandatory youth protection policies include two-deep adult leadership, no one-on-one contact, and separate accommodations based on age and gender. Adults and youth must strictly adhere to transparent communication guidelines across in-person and digital platforms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -358,7 +358,7 @@
 #### Req 5b: Abuse Recognition and Resistance
 **Official Requirement 5b:** Discuss with your counselor what situations and behaviors would prompt you to Recognize, Resist, and Report a possible abuse situation.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 5b (Discuss with your counselor what situations and behaviors would prompt you to Recognize,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 5b (Discuss with your counselor what situations and behaviors would prompt you to Recognize,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts learn to Recognize boundary crossings, Resist inappropriate physical or emotional pressure, and Report concerns without delay. Grooming behaviors, including secret gift-giving and isolation attempts, violate core safety protocols.
 - **Common Myth:** Abuse always involves sudden physical violence rather than gradual manipulative boundary erosion.
@@ -375,7 +375,7 @@
 #### Req 5c: Mandatory Abuse Reporting Channels
 **Official Requirement 5c:** Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for abuse through the Scouts First Helpline and other means.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 28, p. 29)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 5c (Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 5c (Discuss how you, other Scouts, leaders, and anyone can report situations suspicious for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Any individual who observes or suspects child abuse has a legal and moral obligation to notify professional child welfare authorities. Scouting America maintains the Scouts First Helpline to provide round-the-clock incident intake and counseling.
 - **Common Myth:** Scouts should investigate suspected abuse on their own before sharing allegations with adult authorities.
@@ -399,7 +399,7 @@
 **Official Requirement 6a:** Assault on a street (b) Assault at a restaurant event (c) Sexual assault at a party or on a date.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** If cornered by an aggressive assailant demanding property, surrender material possessions rather than engaging in physical combat.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 6a (Assault on a street (b) Assault at a restaurant event (c) Sexual assault at a party or on a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 6a (Assault on a street (b) Assault at a restaurant event (c) Sexual assault at a party or on a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Street safety relies on purposeful movement, staying on well-lit sidewalks, and avoiding isolated shortcuts. Keeping hands free and ears unobstructed by headphones allows pedestrians to detect approaching threats promptly.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -422,7 +422,7 @@
 **[Parent Directive]:** *Safety from Assault. Explain how to avoid or prevent*
 **Official Requirement 6b:** Assault at a restaurant event (c) Sexual assault at a party or on a date.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 6b (Assault at a restaurant event (c) Sexual assault at a party or on a date), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 6b (Assault at a restaurant event (c) Sexual assault at a party or on a date), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Public dining establishments occasionally host disruptive or alcohol-fueled confrontations. De-escalating by refusing to return hostile stares, paying the bill, and calmly relocating prevents minor disputes from turning into violent physical brawls.
 - **Common Myth:** Defending personal pride by trading insults is necessary when challenged in a public venue.
@@ -440,7 +440,7 @@
 **[Parent Directive]:** *Safety from Assault. Explain how to avoid or prevent*
 **Official Requirement 6c:** Sexual assault at a party or on a date.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 17, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 6c (Sexual assault at a party or on a date), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 6c (Sexual assault at a party or on a date), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preventing sexual assault on dates or at parties involves establishing firm personal boundaries, never leaving drinks unattended, and maintaining independent transportation options. Clear verbal consent must govern all interactions, and any violation justifies instant departure.
 - **Common Myth:** Sexual assault is committed almost exclusively by masked predators hiding in dark alleys.
@@ -464,7 +464,7 @@
 **Official Requirement 7a:** How to avoid being the victim of online crimes (b) Common online financial scams (c) Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never send explicit photos or share passwords with anyone; digital coercion and non-consensual image sharing are felonies.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7a (How to avoid being the victim of online crimes (b) Common online financial scams (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7a (How to avoid being the victim of online crimes (b) Common online financial scams (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cyber-criminals employ spear-phishing, malicious downloads, and remote access trojans to compromise consumer devices. Maintaining updated software firewalls and verifying sender addresses blocks hostile intrusions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -487,7 +487,7 @@
 **[Parent Directive]:** *Online Safety. Discuss the following with your counselor*
 **Official Requirement 7b:** Common online financial scams (c) Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7b (Common online financial scams (c) Effective online security (d) Identity theft and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7b (Common online financial scams (c) Effective online security (d) Identity theft and how to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Online financial fraud targets teens through fake check overpayment schemes, fraudulent peer-to-peer money transfers, and bogus investment groups. Legitimate companies never demand gift card payments or wire transfers for online prizes.
 - **Common Myth:** Peer-to-peer payment applications provide automatic buyer refunds for fraudulent sales transactions.
@@ -505,7 +505,7 @@
 **[Parent Directive]:** *Online Safety. Discuss the following with your counselor*
 **Official Requirement 7c:** Effective online security (d) Identity theft and how to prevent it.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7c (Effective online security (d) Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7c (Effective online security (d) Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Effective cyber defense combines strong unique passwords, multi-factor hardware keys or authenticators, and automated operating system updates. Disabling auto-connect features on public Wi-Fi networks prevents man-in-the-middle data interception.
 - **Common Myth:** Reusing one complex password across multiple non-critical websites carries minimal personal risk.
@@ -523,7 +523,7 @@
 **[Parent Directive]:** *Online Safety. Discuss the following with your counselor*
 **Official Requirement 7d:** Identity theft and how to prevent it.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7d (Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7d (Identity theft and how to prevent it), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Identity thieves exploit stolen Social Security numbers, full legal names, and birth dates to open credit lines and file bogus tax returns. Freezing consumer credit files and shredding sensitive paper mail effectively blocks unauthorized account openings.
 - **Common Myth:** Minors are immune to identity theft because they do not have active credit cards.
@@ -541,7 +541,7 @@
 **[Parent Directive]:** *Online Safety. Discuss the following with your counselor*
 **Official Requirement 7e:** How criminals use social media to target victims.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7e (How criminals use social media to target victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7e (How criminals use social media to target victims), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Predators and thieves harvest personal routine schedules, real-time location data, and school affiliations from social profiles. Configuring strict private audience settings and declining connection requests from unverified individuals eliminates dangerous reconnaissance.
 - **Common Myth:** Posting vacation photos in real time is safe if accounts have under five hundred followers.
@@ -559,7 +559,7 @@
 **[Parent Directive]:** *Online Safety. Discuss the following with your counselor*
 **Official Requirement 7f:** How bullying, texting, and sharing photos can become crimes.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 18, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 7f (How bullying, texting, and sharing photos can become crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 7f (How bullying, texting, and sharing photos can become crimes), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cyberbullying, non-consensual sharing of intimate media, and stalking through text messages constitute serious criminal violations. Digital communications leave permanent server forensic logs that law enforcement agencies routinely subpoena during criminal prosecutions.
 - **Common Myth:** Deleting an aggressive or compromising text message removes it permanently from police forensic investigation.
@@ -583,7 +583,7 @@
 **Official Requirement 8a:** As a pedestrian in a city (b) In a friend's car or truck (c) In a rideshare vehicle (d) On a bus (e) On a subway or train.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** In rideshares, never board an unmarked car until you ask the driver to state your name and confirm the app details.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8a (As a pedestrian in a city (b) In a friend's car or truck (c) In a rideshare vehicle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8a (As a pedestrian in a city (b) In a friend's car or truck (c) In a rideshare vehicle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigating city traffic as a pedestrian requires constant visual checks, obeying crossing signals, and making eye contact with turning motorists. Walking on sidewalks facing oncoming traffic where paths are absent significantly cuts strike hazards.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -606,7 +606,7 @@
 **[Parent Directive]:** *Travel Safety. Explain guidelines for traveling safely*
 **Official Requirement 8b:** In a friend's car or truck (c) In a rideshare vehicle (d) On a bus (e) On a subway or train (f) On a commercial airplane.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8b (In a friend's car or truck (c) In a rideshare vehicle (d) On a bus), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8b (In a friend's car or truck (c) In a rideshare vehicle (d) On a bus), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Traveling in passenger vehicles demands that every occupant wear a seatbelt and refrain from distracting the driver. Passengers must actively refuse rides from operators under the influence of substances or fatigue.
 - **Common Myth:** Sitting in the rear vehicle seat protects unrestrained passengers from ejection during highway rollover crashes.
@@ -624,7 +624,7 @@
 **[Parent Directive]:** *Travel Safety. Explain guidelines for traveling safely*
 **Official Requirement 8c:** In a rideshare vehicle (d) On a bus (e) On a subway or train (f) On a commercial airplane.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8c (In a rideshare vehicle (d) On a bus (e) On a subway or train), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8c (In a rideshare vehicle (d) On a bus (e) On a subway or train), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rideshare safety mandates verifying vehicle make, model, license plate number, and driver photograph before opening passenger doors. Sharing ride status in real time with parents ensures an external record of your travel trajectory.
 - **Common Myth:** Asking a rideshare driver if they are here for you is a foolproof way to identify your ride.
@@ -642,7 +642,7 @@
 **[Parent Directive]:** *Travel Safety. Explain guidelines for traveling safely*
 **Official Requirement 8d:** On a bus (e) On a subway or train (f) On a commercial airplane.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8d (On a bus (e) On a subway or train (f) On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8d (On a bus (e) On a subway or train (f) On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Using municipal buses involves waiting at well-lit stops, keeping bags close, and holding handrails while moving inside the cabin. Commuters should sit near the bus operator whenever traveling during late night hours.
 - **Common Myth:** Crossing directly in front of a stopped transit bus is safe because the driver sees without completing the full BSA pamphlet procedure.
@@ -660,7 +660,7 @@
 **[Parent Directive]:** *Travel Safety. Explain guidelines for traveling safely*
 **Official Requirement 8e:** On a subway or train (f) On a commercial airplane.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8e (On a subway or train (f) On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8e (On a subway or train (f) On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Subway systems feature electrical third-rail hazards and moving train pinch points along platform edges. Commuters must remain back from yellow warning strips and select populated train cars containing emergency intercom controls.
 - **Common Myth:** Dropped phones or backpacks on subway tracks can be quickly retrieved before the next train arrives.
@@ -678,7 +678,7 @@
 **[Parent Directive]:** *Travel Safety. Explain guidelines for traveling safely*
 **Official Requirement 8f:** On a commercial airplane.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 35, p. 38)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 8f (On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 8f (On a commercial airplane), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aviation safety relies on paying attention to crew briefings, reviewing exit locations, and keeping seatbelts buckled in seat compartments. In sudden cabin decompression events, donning personal oxygen masks immediately preserves consciousness to assist others.
 - **Common Myth:** Passenger safety briefings on commercial flights are identical and unnecessary to review on recurring flights.
@@ -704,7 +704,7 @@
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 9a Career & Professional Pathway Investigation Matrix
 > **Guide to Safe Scouting Warning:** When shadowing or touring industrial facilities during career exploration, wear all required personal protective equipment without exception.
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Safety Req 9 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 9a (Explore careers related to Safety merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 9a (Explore careers related to Safety merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pursuing professional safety positions entails earning degrees in occupational health, engineering, or industrial hygiene. Specialists analyze operational incidents, ensure regulatory compliance, and design ergonomic solutions across diverse corporate sectors.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -728,7 +728,7 @@
 **[Parent Directive]:** *Careers. Do ONE of the following*
 **Official Requirement 9b:** Explore how you could use knowledge and skills related to safety to pursue a hobby, lifestyle, or service as a volunteer. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursue this.
 **Source:** *Official Scouting America Safety Merit Badge Pamphlet (p. 77, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For safety Requirement 9b (Explore how you could use knowledge and skills related to safety to pursue a hobby,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Safety Requirement 9b (Explore how you could use knowledge and skills related to safety to pursue a hobby,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Citizens contribute to neighborhood safety through Community Emergency Response Teams, volunteer fire corps, and disaster relief organizations. Participating in organized drills equips volunteers to assist first responders during major crises.
 - **Common Myth:** Volunteer disaster response teams take the place of professional municipal emergency responders.

@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Canoeing.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/canoeing/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -46,7 +46,7 @@
 **Official Requirement 1a:** Review with your counselor the most likely hazards you may encounter while participating in canoeing activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never canoe on rivers where high flow rates or submerged trees create impassable strainers.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 1a (Review with your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 1a (Review with your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Environmental hazards on moving water include river sweepers, low dams, and hydraulic reversals. Paddlers must scout rapids from shore and plot safe passage around submerged obstructions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -68,7 +68,7 @@
 #### Req 1b: Paddling Injury Field Care
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while canoeing: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immersion in cold water demands rapid first aid to prevent shock and progressive hypothermia. Dehydration and friction blisters also require prompt treatment through hydration and protective taping.
 - **Common Myth:** Hypothermia occurs only when air temperatures drop below freezing levels during winter paddling excursions.
@@ -91,7 +91,7 @@
 #### Req 1c: Safety Afloat Protocol Standards
 **Official Requirement 1c:** Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 16, p. 17)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 1c (Discuss the Scouting America Safety Afloat policy. Tell how it applies to canoeing activities), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety Afloat establishes nine specific points ensuring participant physical fitness and constant supervision on the water. Proper adherence guarantees designated buddy pairs and emergency response readiness across all paddling activities.
 - **Common Myth:** Safety Afloat guidelines apply only to moving whitewater trips and unorganized open lake crossings.
@@ -141,7 +141,7 @@
 **Official Requirement 3a:** Name and point out the major parts of a canoe.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not step directly on canoe thwarts or gunwales during loading or balance maneuvers.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 3a (Name and point out the major parts of a canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 3a (Name and point out the major parts of a canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must locate key components including stems, ribs, gunwales, and structural cross thwarts across the craft. Identifying proper seat placement ensures correct trim and stable boat operation on water.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -163,7 +163,7 @@
 #### Req 3b: Hull Hydrodynamic Performance Dynamics
 **Official Requirement 3b:** Describe how the length and shape of a canoe affect its performance.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 27, p. 28)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 3b (Describe how the length and shape of a canoe affect its performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 3b (Describe how the length and shape of a canoe affect its performance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Canoe performance depends on the balance between waterline length, hull flare, and bottom curvature. Symmetrical hulls behave identically when moving forward or backward during complex paddling maneuvers.
 - **Common Myth:** Hull length has no direct relationship with forward speed or water resistance while paddling.
@@ -186,7 +186,7 @@
 **Official Requirement 4a:** Name and point out the parts of a paddle.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never use a cracked paddle shaft that could splinter suddenly under heavy forward stroke loads.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 4a (Name and point out the parts of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 4a (Name and point out the parts of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A paddle features specific zones designed for control, power transmission, and hydrodynamic blade entry. Understanding these parts allows paddlers to maintain equipment and execute precise steering strokes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -208,7 +208,7 @@
 #### Req 4b: Ergonomic Paddle Sizing Methods
 **Official Requirement 4b:** Demonstrate how to correctly size a paddle for a paddler in a sitting position and a kneeling position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 38, p. 43)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 4b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 4b (Demonstrate how to correctly size a paddle for a paddler in a sitting position and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 4b (Demonstrate how to correctly size a paddle for a paddler in a sitting position and a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Accurate paddle fitting ensures ergonomic power application and prevents shoulder fatigue while paddling tandem canoes. Measuring the shaft while sitting or kneeling ensures optimal blade depth in the water.
 - **Common Myth:** Taller individuals always require significantly wider blades to propel a tandem canoe efficiently.
@@ -231,7 +231,7 @@
 **Official Requirement 5a:** Review with your counselor the characteristics of life jackets most appropriate for canoeing and tell why a life jacket must always be worn while paddling.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not paddle without fastening all buckles and straps securely on your lifejacket vest.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 5a (Review with your counselor the characteristics of life jackets most appropriate for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 5a (Review with your counselor the characteristics of life jackets most appropriate for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wearing an approved personal flotation device provides continuous buoyancy during accidental capsizes or medical emergencies. Canoeists select low-profile designs that prevent chafing while allowing complete torso and arm mobility.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -253,7 +253,7 @@
 #### Req 5b: Flotation Device Fitting Procedures
 **Official Requirement 5b:** Demonstrate how to select and properly fit the correct size life jacket.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 5b (Demonstrate how to select and properly fit the correct size life jacket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 5b (Demonstrate how to select and properly fit the correct size life jacket), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers must select lifejackets corresponding to their weight class and adjust straps from waist to shoulders. Testing fit ensures the garment will not slip upward over the head in water.
 - **Common Myth:** Sizing lifejackets depends on chest circumference alone without considering user body weight ratings.
@@ -270,7 +270,7 @@
 #### Req 5c: Auxiliary Safety Gear Readiness
 **Official Requirement 5c:** Review the importance of safety and rescue equipment such as a sound signal device, extra paddle, sponge, bailer, bilge pump, rescue sling, ropes, and throw bag.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 15, p. 79)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 5c (Review the importance of safety and rescue equipment such as a sound signal device, extra), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 5c (Review the importance of safety and rescue equipment such as a sound signal device, extra), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Canoeing expeditions require auxiliary safety tools including audible signaling devices, bailers, sponges, and rescue ropes. Stow rescue gear securely where paddlers can reach it instantly during an emergency.
 - **Common Myth:** An extra paddle is unnecessary on short trips when both paddlers maintain good grips.
@@ -322,7 +322,7 @@
 **Official Requirement 7a:** Safely carry and launch the canoe from a dock or shore (both, if possible)
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always keep your weight centered directly over the keel line when boarding or changing positions.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 7a (Safely carry and launch the canoe from a dock or shore (both, if possible)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 7a (Safely carry and launch the canoe from a dock or shore (both, if possible)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Entering a canoe from a dock or shoreline requires holding gunwales and stepping along the bottom centerline. One paddler steadies the canoe against the shore while the second crew member enters.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -345,7 +345,7 @@
 **[Parent Directive]:** *With a companion, use a properly equipped canoe to demonstrate the following*
 **Official Requirement 7b:** Safely land the canoe on a dock or shore (both, if possible) and return it to its proper storage location.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 7b (Safely land the canoe on a dock or shore (both, if possible) and return it to its proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 7b (Safely land the canoe on a dock or shore (both, if possible) and return it to its proper), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Approaching docks or shorelines requires gentle braking and controlled deceleration within two boat lengths. Once alongside, paddlers disembark one at a time and lift the hull to storage.
 - **Common Myth:** Canoes should ram directly into mud or sand shores at full forward paddling speed.
@@ -362,7 +362,7 @@
 #### Req 7c: Paddler Kneeling Seating Postures
 **Official Requirement 7c:** Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 7c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 7c (Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 7c (Demonstrate kneeling and sitting positions in a canoe and explain the proper use for each), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers utilize sitting positions for comfortable distance cruising in calm flatwater conditions. Kneeling against the bottom bilge secures body weight low, improving stability during rough water.
 - **Common Myth:** Sitting on the seat bench provides superior hull stability in rough choppy waves.
@@ -380,7 +380,7 @@
 **[Parent Directive]:** *With a companion, use a properly equipped canoe to demonstrate the following*
 **Official Requirement 7d:** Change places while afloat in the canoe.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 37, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 7d (Change places while afloat in the canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 7d (Change places while afloat in the canoe), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Changing places afloat requires one paddler to crouch low in the center while the second moves past. Maintaining continuous three-point contact and low body positioning keeps the boat balanced.
 - **Common Myth:** Both paddlers can stand up simultaneously to walk past each other in midships.
@@ -404,7 +404,7 @@
 **Official Requirement 8a:** Safely exit the canoe in deep water without losing contact with the canoe. Reenter the canoe with the assistance of the other paddler without capsizing the boat.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wrap a rescue throw line around your wrists, arms, or fingers under tension.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8a (Safely exit the canoe in deep water without losing contact with the canoe. Reenter the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8a (Safely exit the canoe in deep water without losing contact with the canoe. Reenter the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Deep water reentry demands that the in-boat paddler counterbalances weight while the swimmer kicks flat. The swimmer slides chest-first across the gunwale and rolls into the bottom center.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -426,7 +426,7 @@
 **[Parent Directive]:** *With a companion, use a properly equipped canoe to demonstrate the following*
 **Official Requirement 8b:** Safely perform a controlled capsize of the canoe and demonstrate how staying with a capsized canoe will support both paddlers.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8b (Safely perform a controlled capsize of the canoe and demonstrate how staying with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8b (Safely perform a controlled capsize of the canoe and demonstrate how staying with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Demonstrating a controlled capsize proves that swamped canoes provide ample flotation for both paddlers. Holding the hull ends keeps heads above water without risking trapping beneath inverted thwarts.
 - **Common Myth:** A fully swamped aluminum or composite canoe will sink straight to lake bottoms.
@@ -443,7 +443,7 @@
 #### Req 8c: Swamped Canoe Shore Transport
 **Official Requirement 8c:** Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty the swamped canoe and reenter it.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8c (Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8c (Swim, tow, or push a swamped canoe 50 feet to shallow water. In the shallow water, empty), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Towing or pushing a waterlogged canoe fifty feet requires steady kicking while holding the craft stem. Once in shallow water, paddlers invert and lift the hull to drain contents.
 - **Common Myth:** Swimmers should attempt to swim beside the canoe rather than pushing from ends.
@@ -460,7 +460,7 @@
 **[Parent Directive]:** *With a companion, use a properly equipped canoe to demonstrate the following*
 **Official Requirement 8d:** In deep water, rescue a swamped canoe and its paddlers. After checking that those in the water do not need immediate assistance, empty the swamped canoe and help the paddlers safely reenter their boat without capsizing.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8d (In deep water, rescue a swamped canoe and its paddlers. After checking that those in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8d (In deep water, rescue a swamped canoe and its paddlers. After checking that those in the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Performing a canoe-over-canoe rescue in deep water empties a swamped boat without shore assistance. Rescuers pull the inverted hull across their gunwales, drain it, and launch it right-side up.
 - **Common Myth:** Bailing with a small cup is the fastest method to empty flooded canoes.
@@ -476,7 +476,7 @@
 #### Req 8e: Conscious Swimmer Water Rescue
 **Official Requirement 8e:** Perform a canoe rescue of a conscious swimmer.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8e (Perform a canoe rescue of a conscious swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8e (Perform a canoe rescue of a conscious swimmer), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Approaching a conscious swimmer requires presenting the canoe stem or an extended paddle blade. The swimmer holds the gunwale while being moved to shore or assisted aboard.
 - **Common Myth:** A panicking swimmer should be pulled aboard directly over the center side gunwale.
@@ -494,7 +494,7 @@
 **[Parent Directive]:** *With a companion, use a properly equipped canoe to demonstrate the following*
 **Official Requirement 8f:** Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30 feet away. Show how to repack the bag when done.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 86, p. 94)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8f Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 8f (Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 8f (Using a rescue (throw) bag from shore, lay the line within 3 feet of a conscious swimmer 30), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Throw bags provide rapid shore-based rescue capability for swimmers trapped in moving or open water. Rescuers toss the bag past the target and repack rope without coiling.
 - **Common Myth:** Coiling rescue rope in loops before throwing delivers greater distance and accuracy.
@@ -517,7 +517,7 @@
 **Official Requirement 9a:** Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop, and return to the starting position by pivoting to the left using draw and pushaway strokes or using forward and reverse sweeps staying within 2 boat lengths of the starting position.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 9a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never pry your paddle against gunwales violently enough to risk snapping the shaft.
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9a (Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9a (Pivot (spin) the canoe 180° (half circle) to the right from a stationary position, stop,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pivoting one hundred eighty degrees requires tandem partners to coordinate opposing lateral strokes. The bow executes a draw while the stern executes a pushaway to spin the craft.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -542,7 +542,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9b:** Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting position using the draw and pushaway strokes.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9b (Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9b (Move a canoe sideways (abeam) in one direction for 10 feet and then return to the starting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Moving abeam ten feet sideways requires synchronized draw strokes executed perpendicular to the keel line. Crew members feather blades underwater between power phases to maintain a continuous lateral traverse.
 - **Common Myth:** Moving sideways requires angled diagonal forward paddling strokes into dock edges.
@@ -562,7 +562,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9c:** While in forward motion, stop the canoe within two boat lengths using the backstroke.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9c (While in forward motion, stop the canoe within two boat lengths using the backstroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9c (While in forward motion, stop the canoe within two boat lengths using the backstroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stopping within two boat lengths requires immediate, synchronized backstrokes by both paddlers. Applying firm backward resistance counteracts forward momentum without causing the canoe to yaw.
 - **Common Myth:** Dragging paddles flat alongside the gunwale stops a moving canoe faster than backstroking.
@@ -580,7 +580,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9d:** While in the stern position and without assistance from the bow paddler, paddle in a straight line 15-20 boat lengths using an appropriate steering stroke, e. g., the J-stroke or thumb-down rudder stroke with or without a stern pry.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9d (While in the stern position and without assistance from the bow paddler, paddle in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9d (While in the stern position and without assistance from the bow paddler, paddle in a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The stern paddler maintains straight travel for twenty boat lengths using corrective steering strokes. Executing J-strokes or Canadian strokes counteracts the turning force generated by forward propulsion.
 - **Common Myth:** Steering straight from the stern requires constantly switching paddle sides every few strokes.
@@ -598,7 +598,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9e:** Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as necessary the forward stroke, draw stroke or forward sweep and the stern paddler using an appropriate steering stroke, e. g., the J-stroke or thumb-down rudder stroke with or without a stern pry.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9e (Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9e (Move the canoe in a straight line 15-20 boat lengths with the bow paddler using as), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tandem straight-line cruising requires the bow paddler to set cadence while the stern corrects heading. Both partners apply efficient forward power strokes while keeping the hull trimmed flat.
 - **Common Myth:** The stern paddler should dictate the stroke rate and cadence for tandem crews.
@@ -616,7 +616,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9f:** While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat lengths with the bow paddler using as necessary either the draw stroke or forward sweep and the stern paddler using only the forward stroke. Repeat the maneuver turning the canoe 90° to the left.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9f (While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9f (While maintaining forward motion, turn the canoe 90° in an arc to the right in 5-10 boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Executing a ninety-degree turn while maintaining forward motion requires coordinated sweeping and drawing actions. The bow applies a wide forward sweep or draw while the stern maintains momentum.
 - **Common Myth:** Turning right always requires both paddlers to backpaddle furiously on the right side.
@@ -633,7 +633,7 @@
 **[Parent Directive]:** *With a companion, using a properly equipped canoe to demonstrate the following tandem maneuvers while paddling in unison on opposite*
 **Official Requirement 9g:** Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back stroke, reverse sweep or draw stroke in the bow or the stern.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9g (Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9g (Move the canoe backwards in a straight line 3-4 boat lengths using as necessary the back), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Moving in reverse three to four boat lengths requires synchronized backstrokes and reverse sweeps. Paddlers check behind their path while maintaining heading control without switching paddle sides.
 - **Common Myth:** Backing up requires paddlers to turn their bodies completely around in seats.
@@ -650,7 +650,7 @@
 #### Req 9h: Figure Eight Course Navigation
 **Official Requirement 9h:** Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate strokes including the draw stroke, and the forward and reverse sweeps.
 **Source:** *Official Scouting America Canoeing Merit Badge Pamphlet (p. 51, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For canoeing Requirement 9h (Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Canoeing Requirement 9h (Complete a figure of 8 course around markers 3-4 boat lengths apart using appropriate), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Navigating a figure eight course around spaced markers demonstrates complete control of combined strokes. Paddlers transition smoothly between forward sweeps, reverse sweeps, and draws while maintaining boat momentum.
 - **Common Myth:** A figure eight course can be completed using only basic forward paddling strokes.

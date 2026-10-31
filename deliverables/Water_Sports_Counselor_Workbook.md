@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Water%20Sports.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/water-sports/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -40,7 +40,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter while participating in water sports activities and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Always shut down the boat engine before bringing a fallen skier alongside or onto the swim platform.
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 1a (Explain to your counselor the most likely hazards you may encounter while participating in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Skiing zones present significant dangers like shallow water, docks, swimmer zones, and high-speed wake turbulence. Ski crews mitigate risk through thorough course mapping and establishing wide safety margins from shorelines.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -62,7 +62,7 @@
 #### Req 1b: Water Sports Medical Management
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that could occur while participating in water sports: blisters, cold-water shock and hypothermia, dehydration, heat-related illnesses, sunburn, sprains, strains, minor cuts and bruises, spinal injury, and concussions and head trauma.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Continuous handle friction produces palm blisters while prolonged water exposure induces hypothermia and muscle cramps. Early recognition of shivering, confusion, or skin breakdown allows immediate onshore first aid.
 - **Common Myth:** Cold water shock only occurs in freezing winter lakes during ice-out conditions.
@@ -85,7 +85,7 @@
 #### Req 1c: Safety Afloat Operational Policies
 **Official Requirement 1c:** Review the Scouting America Safety Afloat policy. Tell how it applies to water sports.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 28, p. 32)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 1c (Review the Scouting America Safety Afloat policy. Tell how it applies to water sports), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 1c (Review the Scouting America Safety Afloat policy. Tell how it applies to water sports), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety Afloat mandates qualified supervision, physical fitness, swimming defense, life jackets, and designated rescue equipment. Every water sports activity requires strict adherence to these nine operational points.
 - **Common Myth:** Safety Afloat guidelines apply only to human-powered canoes, kayaks, and rowboats.
@@ -107,7 +107,7 @@
 **Official Requirement 2a:** Discuss with your counselor the characteristics of life jackets most appropriate for water sports, and tell why one must always be worn while waterskiing or wakeboarding. Then demonstrate how to select and fit a life jacket for water sports activities.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 2a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never use an ill-fitting or non-impact-rated life jacket during water sports activities.
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 2a (Discuss with your counselor the characteristics of life jackets most appropriate for water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 2a (Discuss with your counselor the characteristics of life jackets most appropriate for water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Water ski vests feature impact-resistant nylon shells, durable closed-cell foam, and three or four webbed buckle straps. A proper snug fit ensures the jacket stays securely on the body during violent crashes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -128,7 +128,7 @@
 #### Req 2b: Water Sports Safety Code
 **Official Requirement 2b:** Review and discuss the Water Sports Safety Code with your counselor. Promise that you will live up to it and follow it in all water work for this merit badge. Review the safety precautions that must be used by the boat operator in pulling waterskiers and wakeboarders.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 17, p. 41)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 2b (Review and discuss the Water Sports Safety Code with your counselor. Promise that you will), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 2b (Review and discuss the Water Sports Safety Code with your counselor. Promise that you will), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Water Sports Safety Code establishes rules against night skiing, riding boat gunwales, and skiing in shallow areas. Committing to this code protects both participants and non-participating boaters sharing open public waterways.
 - **Common Myth:** The safety code is merely optional advice that boaters can discard on quiet lakes.
@@ -208,7 +208,7 @@
 **Official Requirement 5a:** Show how to enter the water from a boat and make a deepwater start without help.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 5a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Never wrap any part of the towline around hands, wrists, or limbs while skiing.
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 5a (Show how to enter the water from a boat and make a deepwater start without help), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 5a (Show how to enter the water from a boat and make a deepwater start without help), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Entering water safely involves slipping from the swim platform away from the propeller with equipment secured. The skier lets the engine draw them onto a plane while maintaining a tucked position with arms straight.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -231,7 +231,7 @@
 **[Parent Directive]:** *Showing reasonable control while using two skis, one ski, or a wakeboard, do the following*
 **Official Requirement 5b:** Starting from outside the wakes, show you can cross both wakes four times and return to the center of the wake each time, without falling.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 5b (Starting from outside the wakes, show you can cross both wakes four times and return to the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 5b (Starting from outside the wakes, show you can cross both wakes four times and return to the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Crossing wakes requires carving hard outside the rooster tail, leaning into turns, and cutting diagonally across the wake. The skier absorbs the double wake rollers with spring-loaded knees to avoid catching ski edges.
 - **Common Myth:** Skiing directly parallel across wake rollers prevents the ski tips from catching water.
@@ -248,7 +248,7 @@
 #### Req 5c: Obstacle Avoidance and Stopping
 **Official Requirement 5c:** Show you can fall properly to avoid an obstacle. Also show that you can drop handle and coast to a stop without losing your balance.
 **Source:** *Official Scouting America Water Sports Merit Badge Pamphlet (p. 59, p. 69)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For water sports Requirement 5c (Show you can fall properly to avoid an obstacle. Also show that you can drop handle and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Water Sports Requirement 5c (Show you can fall properly to avoid an obstacle. Also show that you can drop handle and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Skiers release the towline immediately to avoid imminent obstacles and slide safely into open water. When stopping, throwing the handle away and coasting prevents entanglement and avoids collisions with docks or shores.
 - **Common Myth:** Skiing directly up to the beach at full speed makes for an impressive landing.

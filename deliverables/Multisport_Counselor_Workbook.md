@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Multisport.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/multisport/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -42,7 +42,7 @@
 **Official Requirement 1a:** Explain to your counselor the most likely hazards you may encounter during multisport activities and what you should do to anticipate, prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Suspend all water segments immediately whenever lightning occurs within ten miles of the course venue.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 1a (Explain to your counselor the most likely hazards you may encounter during multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 1a (Explain to your counselor the most likely hazards you may encounter during multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Anticipating multisport hazards requires analyzing water currents, road debris, and changing weather conditions along each corridor. Prevention strategies integrate visibility vests, course reconnaissance, and continuous hydration planning to eliminate predictable risks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -64,7 +64,7 @@
 #### Req 1b: Multisport Athletic First Aid
 **Official Requirement 1b:** Show that you know first aid for injuries or illnesses that could occur while participating in multisport events, including abrasions, blisters, concussions, contusions, dehydration, hypothermia, overheating, sprains, and strains.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 14, p. 20)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 1b (Show that you know first aid for injuries or illnesses that could occur while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Multisport first aid targets road rash, soft tissue contusions, heat exhaustion, and potential spinal impact trauma. Rapid intervention prevents minor abrasions from developing secondary infections and keeps mild dehydration from escalating to circulatory collapse.
 - **Common Myth:** Mild concussions can be safely walked off if the athlete exhibits no loss of consciousness.
@@ -89,7 +89,7 @@
 **Official Requirement 2a:** Discuss the importance of having a physical examination each year. Discuss why overall health, immunizations, medications, allergies, and medical history are covered during an examination. Tell your counselor when you last underwent a physical examination.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not commence cardiovascular interval training without a signed medical clearance certificate on file.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 2a (Discuss the importance of having a physical examination each year. Discuss why overall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 2a (Discuss the importance of having a physical examination each year. Discuss why overall), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A comprehensive physical examination identifies underlying cardiac anomalies, respiratory restrictions, and joint instabilities prior to strenuous training. Reviewing prescription medications and immunization status ensures safe coordination with event medical teams during emergencies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -111,7 +111,7 @@
 #### Req 2b: Endurance Athlete Health Habits
 **Official Requirement 2b:** Explain the importance of maintaining good health habits, especially during training, and how the use of tobacco products, alcohol, and other harmful substances can negatively affect your health and your performance in athletic activities.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 2b (Explain the importance of maintaining good health habits, especially during training, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 2b (Explain the importance of maintaining good health habits, especially during training, and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Substance avoidance protects respiratory pathways and preserves liver function necessary for efficient carbohydrate metabolism during multi-hour events. Consistent sleep hygiene and recovery protocols allow damaged muscular tissues to rebuild between demanding training sessions.
 - **Common Myth:** Occasional vaping has no measurable impact on long-distance cardiovascular capacity or respiratory endurance.
@@ -130,7 +130,7 @@
 #### Req 2c: Endurance Sports Nutrition Fundamentals
 **Official Requirement 2c:** Define a healthy diet and explain the importance of maintaining a healthy diet.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 23, p. 24)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 2c (Define a healthy diet and explain the importance of maintaining a healthy diet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 2c (Define a healthy diet and explain the importance of maintaining a healthy diet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A balanced endurance diet provides sustained energy through unrefined grains, nutrient-dense vegetables, quality proteins, and essential fats. Proper nutrient intake stabilizes blood glucose levels and accelerates systemic recovery following consecutive sport sessions.
 - **Common Myth:** High-calorie junk food provides optimal fuel for endurance training as long as total caloric intake is high.
@@ -153,7 +153,7 @@
 **Official Requirement 3a:** Discuss with your counselor your level of familiarity and experience with the multisport events (swimming, biking, and running) and the order and distance of each sports segment.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Bicycle helmets must bear CPSC safety certification stickers and remain undamaged by past impacts.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 3a (Discuss with your counselor your level of familiarity and experience with the multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 3a (Discuss with your counselor your level of familiarity and experience with the multisport), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reviewing previous experience in swimming, cycling, and running allows coaches to establish realistic baseline expectations. Understanding distance classifications from sprint to full-distance formats clarifies the cardiovascular adaptations required for each segment.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -175,7 +175,7 @@
 #### Req 3b: Athletic Discipline Strength Assessment
 **Official Requirement 3b:** Explain to your counselor which multisport event (swimming, biking, or running) you feel is your strongest and which you could improve upon the most.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 3b (Explain to your counselor which multisport event (swimming, biking, or running) you feel is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 3b (Explain to your counselor which multisport event (swimming, biking, or running) you feel is), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Objective self-assessment identifies mechanical inefficiencies in weaker disciplines while preserving established cardiovascular advantages. Focused practice on technical limiters yields faster overall finishing improvements than overtraining existing athletic proficiencies.
 - **Common Myth:** Athletes should dedicate almost all training hours exclusively to their single strongest discipline.
@@ -192,7 +192,7 @@
 #### Req 3c: Multisport Essential Gear Selection
 **Official Requirement 3c:** Identify the required equipment for each of the three common multisport events (swimming, biking, and running)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 3c (Identify the required equipment for each of the three common multisport events (swimming,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 3c (Identify the required equipment for each of the three common multisport events (swimming,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor)?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Multisport participation mandates specific protective gear, including anti-fog goggles, approved bicycle helmets, and supportive running footwear. Maintaining properly sized equipment minimizes injury risks and enhances mechanical efficiency across differing terrains and water conditions.
 - **Common Myth:** Any lightweight recreational helmet is acceptable for multisport racing even without certified impact standards.
@@ -210,7 +210,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 3d:** Based on your interests, experience, and discussion with your counselor, select ONE of the following multisport formats to concentrate on for the remaining requirements: triathlon (swimming, biking, and running), duathlon (biking and running), aquathlon (swimming and running), or aquabike (swimming and biking)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 7, p. 53)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 3d (Based on your interests, experience, and discussion with your counselor, select ONE of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 3d (Based on your interests, experience, and discussion with your counselor, select ONE of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Athletes select from triathlon, duathlon, aquathlon, or aquabike formats based on personal physical strengths and facility access. Choosing a specific format guides all subsequent four-week training plans and gear preparation routines.
 - **Common Myth:** The standard triathlon is the only competitive multisport format recognized by international athletic federations.
@@ -425,7 +425,7 @@
 **Official Requirement 5a:** With guidance from your counselor, establish a four-week training plan that combines your chosen multisport format to develop proper techniques, gain self-confidence, and increase endurance. Each session should last at least 25 minutes and include a proper warmup before the session and stretching afterward.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Cease endurance exercise immediately if experiencing chest pain, dizziness, or profound shortness of breath.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 5a (With guidance from your counselor, establish a four-week training plan that combines your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 5a (With guidance from your counselor, establish a four-week training plan that combines your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A balanced four-week multisport schedule combines endurance sessions, technical drills, and rest to promote progressive cardiovascular adaptation. Training frequency must increase gradually to allow connective tissues and muscles time to adapt without breakdown.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -447,7 +447,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5b:** Use a chart or other tracking method to monitor your training and development during this period.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 5b (Use a chart or other tracking method to monitor your training and development during this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 5b (Use a chart or other tracking method to monitor your training and development during this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Training logs track session duration, heart rate response, perceived exertion, and environmental conditions across all workouts. Consistent record-keeping reveals trends in athletic performance and alerts the athlete to early signs of systemic overtraining.
 - **Common Myth:** Subjective feeling alone is more reliable than logging objective distances and times over time.
@@ -465,7 +465,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5c:** Set a personal goal for improvement based on one or more of the following criteria: time, technique, or distance.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 5c (Set a personal goal for improvement based on one or more of the following criteria: time,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 5c (Set a personal goal for improvement based on one or more of the following criteria: time,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Establishing SMART goals focused on technique, pacing discipline, or distance targets channels athletic effort productively. Clear benchmarks motivate daily commitment and provide concrete standards against which four-week progress can be objectively measured.
 - **Common Myth:** Athletic goals must focus exclusively on reducing overall finishing time to be considered valid.
@@ -483,7 +483,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 5d:** At the end of four weeks, discuss your progress with your counselor and tell how your development has affected you mentally and physically.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 44, p. 60)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 5d (At the end of four weeks, discuss your progress with your counselor and tell how your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 5d (At the end of four weeks, discuss your progress with your counselor and tell how your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Concluding a training cycle requires reflective assessment of physical stamina changes, mental grit, and technical skill mastery. Discussing psychological growth and physical adaptations with a counselor solidifies lessons learned throughout the conditioning process.
 - **Common Myth:** Four weeks of physical training only alters skeletal muscle without affecting mental focus.
@@ -534,7 +534,7 @@
 **Official Requirement 7a:** Triathlon (swim 100 m, bike 3 km, and run 1)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Do not exceed personal pacing thresholds early in the event to prevent severe heat stress.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 7a (Triathlon (swim 100 m, bike 3 km, and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 7a (Triathlon (swim 100 m, bike 3 km, and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Triathlon requires finishing a 100-meter swim, 3-kilometer bike, and 1-kilometer run consecutively on the same day. Efficient movement through transition zones one and two demonstrates smooth integration of all three physical disciplines.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -557,7 +557,7 @@
 **[Parent Directive]:** *After completing requirements 1-6, do ONE of the following (complete all of the activities on the same day and consecutively)*
 **Official Requirement 7b:** Duathlon (run 1.5 km, bike 3 km, and run 0.75)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 7b (Duathlon (run 1.5 km, bike 3 km, and run 0.75)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 7b (Duathlon (run 1.5 km, bike 3 km, and run 0.75)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Duathlon combines a 1.5-kilometer run, 3-kilometer bike ride, and final 0.75-kilometer run in consecutive succession. Managing muscular fatigue between running and cycling tests an athlete's pacing discipline and cardiovascular endurance.
 - **Common Myth:** Sprinting the opening duathlon run leg gives an advantage that cycling easily compensates.
@@ -575,7 +575,7 @@
 **[Parent Directive]:** *After completing requirements 1-6, do ONE of the following (complete all of the activities on the same day and consecutively)*
 **Official Requirement 7c:** Aquathlon (swim 100 m and run 1)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 7c (Aquathlon (swim 100 m and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 7c (Aquathlon (swim 100 m and run 1)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aquathlon links a 100-meter open water swim directly to a 1-kilometer run without cycling elements. Quick removal of goggles and swift donning of running shoes ensure a competitive, fluid transition.
 - **Common Myth:** Aquathlon requires no transition practice because bicycles and bike helmets are completely omitted.
@@ -593,7 +593,7 @@
 **[Parent Directive]:** *After completing requirements 1-6, do ONE of the following (complete all of the activities on the same day and consecutively)*
 **Official Requirement 7d:** Aquabike (swim 100 m and bike 3)
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 63, p. 65)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 7d (Aquabike (swim 100 m and bike 3)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 7d (Aquabike (swim 100 m and bike 3)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Aquabike merges a 100-meter swim with an immediate 3-kilometer cycling segment completed consecutively. The athlete focuses on rapid transition from prone swimming posture to aerodynamic cycling efficiency on the road.
 - **Common Myth:** Pedaling in the highest gear at low cadence is the most efficient cycling strategy.
@@ -616,7 +616,7 @@
 **Official Requirement 8a:** Research and identify two ways you can continue participating in multisport after completing this merit badge.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear high-visibility reflective vests when directing race traffic or assisting at roadside aid stations.
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 8a (Research and identify two ways you can continue participating in multisport after), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 8a (Research and identify two ways you can continue participating in multisport after), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts research local athletic clubs, community centers, and scholastic teams that support continued multisport development. Connecting with organized groups provides safe training environments and ongoing mentorship from experienced adult athletes.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -638,7 +638,7 @@
 #### Req 8b: Elite Triathlete Career Analysis
 **Official Requirement 8b:** Research an Olympic, Paralympic, or professional triathlete (past or current). Share information on their background in the sport and what inspires you most about this individual.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 8b (Research an Olympic, Paralympic, or professional triathlete (past or current). Share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 8b (Research an Olympic, Paralympic, or professional triathlete (past or current). Share), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching an elite triathlete highlights how technical discipline, physical sacrifice, and mental determination yield international excellence. Examining their career challenges inspires Scouts to apply similar perseverance within their personal athletic pursuits.
 - **Common Myth:** Olympic and Paralympic triathletes follow identical equipment rules and identical training methodologies.
@@ -654,7 +654,7 @@
 #### Req 8c: Peer Multisport Group Leadership
 **Official Requirement 8c:** Demonstrate leadership by starting a training group and educating your peers on the importance of physical activity, nutrition, and the disciplines of multisport.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 8c (Demonstrate leadership by starting a training group and educating your peers on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 8c (Demonstrate leadership by starting a training group and educating your peers on the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Leading a training group gives Scouts practical experience in organizing workouts, teaching drills, and promoting athletic nutrition. Educating peers on multisport safety builds teamwork, physical fitness, and mutual encouragement within the troop.
 - **Common Myth:** Leadership in athletics requires winning races rather than teaching, organizing, and motivating others.
@@ -672,7 +672,7 @@
 **[Parent Directive]:** *Do TWO of the following and discuss with your counselor*
 **Official Requirement 8d:** Sign up for and participate in a sanctioned multisport event in your area.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 8d (Sign up for and participate in a sanctioned multisport event in your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 8d (Sign up for and participate in a sanctioned multisport event in your area), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Registering for a sanctioned multisport event exposes Scouts to official race rules, course marshals, and competitive sportsmanship. Participating in organized events tests endurance within a supportive, professionally supervised athletic community.
 - **Common Myth:** Sanctioned races are only open to elite professionals and exclude amateur or youth participants.
@@ -690,7 +690,7 @@
 **[Parent Directive]:** *Do TWO of the following and discuss with your counselor*
 **Official Requirement 8e:** Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event.
 **Source:** *Official Scouting America Multisport Merit Badge Pamphlet (p. 45, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For multisport Requirement 8e (Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Multisport Requirement 8e (Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Volunteering at local athletic events reveals the complex logistics, safety oversight, and community support required for racing. Serving competitors at aid stations or finish lines builds humility, civic service, and appreciation for event coordinators.
 - **Common Myth:** Volunteering at a race provides little value compared to competing on the course.
@@ -703,3 +703,4 @@
 | **3. Req 8e Practical Example & Counselor Conference Verification** | Volunteering at local athletic events reveals the complex logistics, safety oversight, and community support required for racing. Serving competitors at aid stations or finish lines builds humility, civic service, and appreciation for event coordinators. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 8e):** Scout must individually discuss Requirement 8e (Volunteer at a local multisport event, running race, biking event, swim meet, or adaptive sporting event) to the Counselor.
+)

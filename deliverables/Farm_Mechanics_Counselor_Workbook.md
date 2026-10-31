@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Farm%20Mechanics.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/farm-mechanics/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -39,7 +39,7 @@
 **Official Requirement 1a:** Discuss with your counselor the safety equipment, tools, and clothing used while checking or repairing farm equipment. Use this equipment, tools, and/or clothing (when needed or called for) in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Remove all rings, wristwatches, and loose clothing before servicing rotating power takeoff shafts or belt drives.
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 1a (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 1a (Discuss with your counselor the safety equipment, tools, and clothing used while checking), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Agricultural mechanics rely on close-fitting coveralls, heavy leather boots, and industrial eye protection to prevent catastrophic entanglement and impact injuries. Technicians must match respirator filter ratings to specific airborne solvents, paint fumes, and diesel exhaust.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -60,7 +60,7 @@
 #### Req 1b: Farm Shop Layout Planning
 **Official Requirement 1b:** Draw a plan showing a well-equipped farm shop. Point out the shop's mandatory safety devices and features.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 1b (Draw a plan showing a well-equipped farm shop. Point out the shop's mandatory safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 1b (Draw a plan showing a well-equipped farm shop. Point out the shop's mandatory safety), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A functional farm service shop features clearly marked walkways, dedicated welding ventilation bays, and illuminated emergency egress routes. Flammable chemical cabinets, eyewash stations, and heavy machinery lifts must follow strict clearance guidelines.
 - **Common Myth:** Shop safety equipment can be stored anywhere as long as workers know where it sits.
@@ -80,7 +80,7 @@
 #### Req 1c: Universal Equipment Safety Symbols
 **Official Requirement 1c:** Find all the universal warning and safety symbols on a piece of equipment and explain what they mean.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 1c (Find all the universal warning and safety symbols on a piece of equipment and explain what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 1c (Find all the universal warning and safety symbols on a piece of equipment and explain what), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Universal safety decals communicate immediate hazard severities through standardized caution yellow, warning orange, and danger red backgrounds. Operators must replace damaged or illegible pictograms immediately to preserve operational warnings.
 - **Common Myth:** Safety decals on agricultural machinery use colors purely for visual brand styling.
@@ -97,7 +97,7 @@
 #### Req 1d: Chemical Safety Data Sheets
 **Official Requirement 1d:** Describe what a safety data sheet (SDS) is and tell why it is used. Obtain the SDS for any engine coolant, oil, grease, fuel, hydraulic or transmission fluid, or other flammable or hazardous materials you use in meeting the requirements for this merit badge.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 38, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 1d (Describe what a safety data sheet (SDS) is and tell why it is used. Obtain the SDS for any), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 1d (Describe what a safety data sheet (SDS) is and tell why it is used. Obtain the SDS for any), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Safety data sheets detail sixteen standardized sections covering chemical composition, handling limits, fire hazards, and spill neutralization methods. Agricultural shops must maintain organized binders containing sheets for all lubricants, fuels, coolants, and cleaners.
 - **Common Myth:** Product labels provide all necessary emergency medical treatment instructions for chemical ingestion.
@@ -120,7 +120,7 @@
 **Official Requirement 2a:** Diesel engine (b) Hydraulic system (c) Transmission or any other power system.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Relieve residual hydraulic line pressure before cracking open any fittings or disconnecting implement quick couplers.
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 2a (Diesel engine (b) Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 2a (Diesel engine (b) Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Four-stroke diesel engines draw fresh air into the cylinder, compress it to extreme pressures, and inject atomized fuel directly into the superheated air mass. Rapid fuel expansion forces the piston downward to rotate the heavy steel crankshaft.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -143,7 +143,7 @@
 **[Parent Directive]:** *Explain how power is produced or transferred in a*
 **Official Requirement 2b:** Hydraulic system (c) Transmission or any other power system.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 2b (Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 2b (Hydraulic system (c) Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hydraulic systems convert mechanical engine rotation into fluid pressure using fixed or variable displacement pumps. Pressurized oil travels through control valves to push linear cylinder pistons or rotate hydraulic drive motors.
 - **Common Myth:** Hydraulic systems compress oil to store energy like a mechanical steel spring.
@@ -163,7 +163,7 @@
 **[Parent Directive]:** *Explain how power is produced or transferred in a*
 **Official Requirement 2c:** Transmission or any other power system.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 56)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 2c (Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 2c (Transmission or any other power system), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Mechanical transmissions employ countershaft gears, synchronizers, or planetary packs to alter torque and speed ratios between engine and drive wheels. Differential units divide torque evenly between drive tires while allowing independent wheel speeds during turns.
 - **Common Myth:** Tractor transmissions only change vehicle travel speed without altering output wheel torque.
@@ -187,7 +187,7 @@
 **Official Requirement 3a:** Replace the handle of any tool found on the farm.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Clamp struck tools in a heavy bench vise before using a file on mushroomed metal heads.
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 3a (Replace the handle of any tool found on the farm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 3a (Replace the handle of any tool found on the farm), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Replacing tool handles involves boring out old wood, shaping the new hickory or ash tenon to fit the tool eye, and driving wedges. Proper grain orientation along the line of swing prevents premature handle fracture under heavy impact.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -210,7 +210,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3b:** Organize a tool rack or a storage system for nails, bolts, nuts, and washers.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 3b (Organize a tool rack or a storage system for nails, bolts, nuts, and washers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 3b (Organize a tool rack or a storage system for nails, bolts, nuts, and washers), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fastener organization relies on divided bins indexed by diameter, thread pitch, length, and grade hardness ratings. Storing washers and nuts adjacent to corresponding bolt diameters speeds emergency field repairs during planting and harvest seasons.
 - **Common Myth:** Hardware diameter determines total fastener load rating regardless of alloy grade markings.
@@ -230,7 +230,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3c:** Using a hand file, properly dress the mushroomed head of a chisel or punch.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 3c (Using a hand file, properly dress the mushroomed head of a chisel or punch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 3c (Using a hand file, properly dress the mushroomed head of a chisel or punch), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Repeated hammer strikes mushroom cold chisel crowns into ragged flanges of brittle, work-hardened steel. Mechanics clamp the chisel in a vise and file the crown back to its original chamfered profile without overheating the metal.
 - **Common Myth:** Hammer heads and cold chisels share identical metal hardness across striking surfaces.
@@ -248,7 +248,7 @@
 **[Parent Directive]:** *Do TWO of the following*
 **Official Requirement 3d:** Using a hand file, correctly dress a screwdriver tip.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 24, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 3d (Using a hand file, correctly dress a screwdriver tip), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 3d (Using a hand file, correctly dress a screwdriver tip), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Worn flat-blade screwdrivers slip out of screw slots, burring fastener heads and endangering hands. Filing the tip square with parallel sides restores crisp engagement with screw drive recesses.
 - **Common Myth:** Tapering screwdriver tips into sharp knife edges helps them enter shallow screw slots.
@@ -272,7 +272,7 @@
 **Official Requirement 4a:** On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the air filter, clean the radiator fins, and replace the fuel filters.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Lock out engine ignitions and lower all hydraulic implements to ground contact before greasing equipment.
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 4a (On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 4a (On an engine-powered machine: Grease all fittings, change the oil and oil filter, clean the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Routine machine servicing entails draining hot crankcase oil, replacing spin-on filters, cleaning dry air filter canisters, and flushing radiator fins. Flushing dirt from grease fittings prior to coupler engagement prevents pumping abrasive grit directly into bearing assemblies.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -295,7 +295,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4b:** For any engine-powered machine, create a preoperational checklist; include checking the engine coolant, engine oil, hydraulic and/or transmission fluid, and battery voltage (using a voltmeter). Using your checklist, conduct a preoperational check of that machinery or equipment.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 4b (For any engine-powered machine, create a preoperational checklist; include checking the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 4b (For any engine-powered machine, create a preoperational checklist; include checking the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preoperational inspections require physical dipstick fluid checks, coolant level verification in expansion tanks, and multimeter battery voltage readings. Verifying tire pressures and hydraulic hose conditions prevents roadside breakdowns and field downtime.
 - **Common Myth:** Dashboard warning lights illuminate immediately when engine oil levels drop below safe thresholds.
@@ -313,7 +313,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4c:** Prepare any farm machine for winter storage.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 56, p. 58)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 4c (Prepare any farm machine for winter storage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 4c (Prepare any farm machine for winter storage), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Preparing farm machines for winter storage involves washing corrosive fertilizers, treating fuel with chemical stabilizers, and fogging cylinders. Relieving tension on rubber drive belts and blocking equipment off tires prevents flat-spotting and ozone cracking.
 - **Common Myth:** Parking machinery under outdoor canvas tarps protects internal engine parts from winter condensation.
@@ -371,7 +371,7 @@
 **Official Requirement 6a:** Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Wear a full-face shield and leather apron when cleaning rusted steel parts on rotating wire-brush wheels.
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 6a (Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 6a (Tightening hydraulic fittings (b) Checking the air filter (c) Cleaning a work piece with a), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Tightening hydraulic fittings requires two matching wrenches to avoid twisting reinforced rubber hoses or damaging connector flare seats. Mechanics hand-thread nuts until snug before applying specified torque to create metal-to-metal high pressure seals.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -394,7 +394,7 @@
 **[Parent Directive]:** *Explain each step in ONE of the following maintenance procedures*
 **Official Requirement 6b:** Checking the air filter (c) Cleaning a work piece with a wire-brush wheel.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 6b (Checking the air filter (c) Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 6b (Checking the air filter (c) Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Air cleaner inspection involves wiping canister seals, checking vacuum restriction gauges, and examining pleated paper elements against bright light. Pinholes or ruptured rubber end gaskets allow abrasive silica dust to enter engine cylinders, destroying rings.
 - **Common Myth:** Washing paper air filter elements with diesel fuel restores factory air flow capacity.
@@ -412,7 +412,7 @@
 **[Parent Directive]:** *Explain each step in ONE of the following maintenance procedures*
 **Official Requirement 6c:** Cleaning a work piece with a wire-brush wheel.
 **Source:** *Official Scouting America Farm Mechanics Merit Badge Pamphlet (p. 50, p. 52)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For farm mechanics Requirement 6c (Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Farm Mechanics Requirement 6c (Cleaning a work piece with a wire-brush wheel), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cleaning rusty components on a motorized wire-brush wheel requires rigid tool rest adjustment within one-eighth inch of bristles. Technicians hold workpieces firmly below wheel centerlines to prevent bristles from snagging metal parts from their grip.
 - **Common Myth:** Worn wire wheels can be operated safely without wheel guards or spark arrestors.

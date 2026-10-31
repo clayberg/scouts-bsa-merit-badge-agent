@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Signs%20Signals%20Codes.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/signs-signals-and-codes/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -96,7 +96,7 @@
 #### Req 3a: Morse Code Transmission Methods
 **Official Requirement 3a:** Describe what Morse code is and the various means by which it can be sent. Spell your first name using Morse code. Send or receive a message of six to 10 words using Morse code.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 3a (Describe what Morse code is and the various means by which it can be sent. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 3a (Describe what Morse code is and the various means by which it can be sent. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Morse code represents textual characters through standardized dit and dah sound pulses or light flashes. Proper transmission depends strictly on rhythmic intervals between individual elements, letters, and complete words.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -118,7 +118,7 @@
 #### Req 3b: American Sign Language Communication
 **Official Requirement 3b:** Describe what American Sign Language (ASL) is and how it is used today. Spell your first name using American Sign Language. Send or receive a message of six to 10 words using ASL.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 3b (Describe what American Sign Language (ASL) is and how it is used today. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 3b (Describe what American Sign Language (ASL) is and how it is used today. Spell your first), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - American Sign Language is a complete, natural language featuring distinct grammar, syntax, and expressive hand movements. Finger spelling supplements established signs to communicate proper nouns, technical terms, and personal names.
 - **Common Myth:** Scouts assume American Sign Language is simply a word for word translation of spoken English.
@@ -139,7 +139,7 @@
 #### Req 4a: Semaphore Flag Communication Principles
 **Official Requirement 4a:** Give your counselor a brief explanation about semaphore, why it is used, how it is used, and where it is used.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 4a (Give your counselor a brief explanation about semaphore, why it is used, how it is used,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 4a (Give your counselor a brief explanation about semaphore, why it is used, how it is used,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Semaphore uses two square flags mounted on short wooden dowels to represent letters by angular positions. Senders position their arms along eight fixed radial angles based on a standard circular clock face.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -161,7 +161,7 @@
 #### Req 4b: Maritime Signal Flag Distinctions
 **Official Requirement 4b:** Explain to your counselor the difference between semaphore flags and nautical flags.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 4b (Explain to your counselor the difference between semaphore flags and nautical flags), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 4b (Explain to your counselor the difference between semaphore flags and nautical flags), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Nautical flags consist of forty distinct colored pennants and banners hoisted on ship rigging lines. Unlike semaphore arm angles, each nautical flag displays unique geometric patterns denoting specific navigational conditions.
 - **Common Myth:** Nautical flags are intended solely for spelling out full sentences word by word during voyages.
@@ -222,7 +222,7 @@
 **[Parent Directive]:** *Explain the braille reading technique and how it helps individuals with sight impairment to communicate. Then do the following*
 **Official Requirement 5a:** Either by sight or by touch, identify the letters of the braille alphabet that spell your name. By sight or touch, decode a braille message at least six words long.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 5a (Either by sight or by touch, identify the letters of the braille alphabet that spell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 5a (Either by sight or by touch, identify the letters of the braille alphabet that spell your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Readers identify braille characters by recognizing dot positions within the standard two by three rectangular grid. Smooth finger scanning across the line reveals character shapes through tactile nerve impulses in fingertips.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -243,7 +243,7 @@
 #### Req 5b: Braille Message Manual Production
 **Official Requirement 5b:** Create a message in braille at least six words long, and share this with your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 7)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 5b (Create a message in braille at least six words long, and share this with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 5b (Create a message in braille at least six words long, and share this with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts create tactile messages using braille slates, styluses, or specialized embossing paper tools. Accurate embossing requires pressing dots into heavy cardstock so raised surfaces appear cleanly on the reverse side.
 - **Common Myth:** Any standard thin notebook paper works effectively for creating durable raised braille dot messages.
@@ -264,7 +264,7 @@
 #### Req 6a: Auditory Warning Signal Systems
 **Official Requirement 6a:** Describe to your counselor six sound-only signals that are in use today. Discuss the pros and cons of using sound signals versus other types of signals.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 6a Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 6a (Describe to your counselor six sound-only signals that are in use today. Discuss the pros), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 6a (Describe to your counselor six sound-only signals that are in use today. Discuss the pros), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sound signals warn individuals about immediate hazards using horns, bells, sirens, and specialized whistle patterns. While effective in darkness and fog, sound provides poor directional tracking across complex mountain topography.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -285,7 +285,7 @@
 #### Req 6b: Silent Patrol Field Formations
 **Official Requirement 6b:** Demonstrate to your counselor six different silent Scout signals. Use these Scout signals to direct the movements and actions of your patrol or troop.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 6b (Demonstrate to your counselor six different silent Scout signals. Use these Scout signals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 6b (Demonstrate to your counselor six different silent Scout signals. Use these Scout signals), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Silent signals utilize hand gestures to convey patrol formation instructions such as single file, spread out, and double time. Scouts must maintain continuous visual contact with their patrol leader to catch silent commands promptly.
 - **Common Myth:** Silent signals can only communicate simple stops rather than complex tactical squad movement changes.
@@ -333,7 +333,7 @@
 **[Parent Directive]:** *For THREE of the following activities, demonstrate five signals each. Tell what the signals mean and why they are used*
 **Official Requirement 8a:** Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 8a (Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 8a (Sports official's hand signs/signals (b) Heavy-equipment operator's hand signals (c)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Referees and umpires communicate infractions, scores, and clock status to players and scorekeepers using distinctive body postures. Clear gestures allow thousands of stadium spectators and television viewers to understand complex rule rulings immediately.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -356,7 +356,7 @@
 **[Parent Directive]:** *For THREE of the following activities, demonstrate five signals each. Tell what the signals mean and why they are used*
 **Official Requirement 8b:** Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 8b (Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 8b (Heavy-equipment operator's hand signals (c) Aircraft carrier catapult crew signals (d)), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Riggers and signal persons guide crane operators and earthmovers through standardized gestures defined by safety regulations. Operators must halt machinery motion immediately if they lose line of sight with their designated signal spotter.
 - **Common Myth:** Crane operators watch the suspended load continuously rather than maintaining eye contact with the signal person.
@@ -374,7 +374,7 @@
 **[Parent Directive]:** *For THREE of the following activities, demonstrate five signals each. Tell what the signals mean and why they are used*
 **Official Requirement 8c:** Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected by you and your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 8c (Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 8c (Aircraft carrier catapult crew signals (d) Cyclist's hand signals (e) An activity selected), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Flight deck directors and catapult officers orchestrate jet launches in extreme noise using exaggerated full body signals. Day and night hand movements confirm aircraft hookup, tensioning, engine run up, and final launch clearance.
 - **Common Myth:** Naval launch officers communicate with fighter jet pilots through open radio cockpit channels before launching.
@@ -392,7 +392,7 @@
 **[Parent Directive]:** *For THREE of the following activities, demonstrate five signals each. Tell what the signals mean and why they are used*
 **Official Requirement 8d:** Cyclist's hand signals (e) An activity selected by you and your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 8d (Cyclist's hand signals (e) An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 8d (Cyclist's hand signals (e) An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cyclists signal turns, lane changes, slowing, and roadway roadkill or pothole hazards to motorists and group riders. Standard arm extensions communicate intentions well before reaching intersections to maintain defensive road safety.
 - **Common Myth:** Cyclists only need to signal when motor vehicles are directly behind them on the roadway.
@@ -410,7 +410,7 @@
 **[Parent Directive]:** *For THREE of the following activities, demonstrate five signals each. Tell what the signals mean and why they are used*
 **Official Requirement 8e:** An activity selected by you and your counselor.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 8e (An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 8e (An activity selected by you and your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts and counselors select specialized domains like scuba diving, wilderness search and rescue, or airport ground marshalling. Demonstrating five standardized signals illustrates how specialized vocations communicate without spoken voice.
 - **Common Myth:** Specialized recreational diving signals vary randomly between different dive resort shops and diving regions.
@@ -431,7 +431,7 @@
 #### Req 9a: Traffic Sign Classification Standards
 **Official Requirement 9a:** Show examples of 10 traffic signs and explain their meaning.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 9a (Show examples of 10 traffic signs and explain their meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 9a (Show examples of 10 traffic signs and explain their meaning), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Traffic signs utilize specific colors, shapes, and symbols to regulate speeds, warn of road hazards, and provide directions. Red indicates stop or prohibition, yellow signifies general warning, and green provides directional navigation guidance.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -454,7 +454,7 @@
 **[Parent Directive]:** *Share with your counselor 10 examples of symbols used in everyday life. Design your own symbol. Share it with your*
 **Official Requirement 9b:** Using a topographical map, explain what a map legend is and discuss its importance. Point out 10 map symbols and explain the meaning of each.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 9b (Using a topographical map, explain what a map legend is and discuss its importance. Point), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 9b (Using a topographical map, explain what a map legend is and discuss its importance. Point), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Topographical legends define the colors and symbols used to portray natural elevations, water bodies, and human infrastructure. Reading contour intervals and cultural markings enables wilderness navigators to identify terrain features before travel.
 - **Common Myth:** Green shading on a topographic map always indicates public park or campground boundary areas.
@@ -472,7 +472,7 @@
 #### Req 9c: Digital Texting Symbol Shorthand
 **Official Requirement 9c:** Discuss text-message symbols and why they are commonly used. Give examples of your favorite 10 text symbols or emoticons. Then see if your parent, guardian, or counselor can identify the meaning or usage of each symbol.
 **Source:** *Official Scouting America Signs, Signals, and Codes Merit Badge Pamphlet (p. 6, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For signs, signals, and codes Requirement 9c (Discuss text-message symbols and why they are commonly used. Give examples of your favorite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Signs, Signals, and Codes Requirement 9c (Discuss text-message symbols and why they are commonly used. Give examples of your favorite), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Text messaging symbols and emoticons convey emotional nuance and concise intent across digital mobile screens. Shorthand acronyms and character glyphs compress conversational meaning to speed communication on handheld devices.
 - **Common Myth:** Text emoticons are purely decorative graphics with no functional role in digital message clarity.

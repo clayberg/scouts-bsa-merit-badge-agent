@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Geology.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/geology/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -507,7 +507,7 @@
 #### Req 5a: Outdoor Code Conservation Principles
 **Official Requirement 5a:** Discuss with your counselor the importance of the Leave No Trace Seven Principles and the Outdoor Code as they relate to the study of geology.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geology Requirement 5a (Discuss with your counselor the importance of the Leave No Trace Seven Principles and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geology Requirement 5a (Discuss with your counselor the importance of the Leave No Trace Seven Principles and the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Outdoor Code and Leave No Trace principles establish an ethical obligation to preserve geological landscapes and prevent irreversible habitat degradation. Scouts consider the cumulative environmental impact of thousands of visitors collecting rock samples from a single public park.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -529,7 +529,7 @@
 #### Req 5b: Specimen Collection Ethics Etiquette
 **Official Requirement 5b:** Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while traveling in natural areas and while collecting rock and fossil specimens for this merit badge.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 68, p. 81)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geology Requirement 5b (Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geology Requirement 5b (Explain how you practiced the Leave No Trace Seven Principles and the Outdoor Code while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Practicing conservation during field expeditions involves staying on durable trails, back-packing all trash, and collecting specimens strictly where legally authorized. Scouts document precise field locations with GPS coordinates and sketches before taking modest samples.
 - **Common Myth:** Field exploration permits hiking off-trail along delicate scree slopes as long as no litter is left.
@@ -553,7 +553,7 @@
 **Official Requirement 6a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 6a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Geology Req 6 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For geology Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geology Requirement 6a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Professional geologists typically require a bachelor of science degree in geology, summer field camp training, and state licensing as a Professional Geologist. Career opportunities span environmental remediation, geotechnical slope engineering, mining, and government geological surveys.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -577,7 +577,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 6b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Geology Merit Badge Pamphlet (p. 89, p. 90)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For geology Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Geology Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips.
 - **Common Myth:** Amateur rock collecting requires expensive industrial machinery and professional chemistry lab access.
@@ -590,3 +590,4 @@
 | **3. Discuss with your counselor what short-term and long-term goals** | Earth science skills enrich lifelong outdoor hobbies including mineral collecting, lapidary gemstone cutting, speleology, and landscape photography. Organizations like the American Federation of Mineralogical Societies provide safety standards and organized field trips. | Verify specific field notes / demonstration |
 
 **Counselor Verification Standard (Req 6b):** Scout must individually prepare Requirement 6b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. R) to the Counselor.
+))))

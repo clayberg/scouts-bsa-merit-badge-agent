@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Shotgun%20Shooting.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/shotgun-shooting/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -35,7 +35,7 @@
 **Official Requirement 1a:** Explain what a projectile is, and why any device that shoots a projectile at high speed must be handled with care and respect, and used only in approved locations.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never point a shotgun at anything you do not intend to shoot, and immediately open the action when a cease-fire is called.
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1a (Explain what a projectile is, and why any device that shoots a projectile at high speed), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A projectile is an object propelled through the air by external force such as expanding gunpowder gases. High velocity shot charges create extensive impact hazards, requiring restricted shooting zones and dense berms.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -57,7 +57,7 @@
 #### Req 1b: Universal Gun Handling Rules
 **Official Requirement 1b:** Explain the basic rules of safe gun handling that apply to all firearms.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1b (Explain the basic rules of safe gun handling that apply to all firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1b (Explain the basic rules of safe gun handling that apply to all firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fundamental safety mandates pointing muzzles downrange, keeping fingers off triggers, and unchambering ammunition until ready to shoot. Mechanical safeties serve as secondary supplements rather than replacements for strict gun handling discipline.
 - **Common Myth:** Engaging the crossbolt safety ensures the shotgun cannot fire under any physical circumstances.
@@ -76,7 +76,7 @@
 #### Req 1c: Home Firearm Access Safety
 **Official Requirement 1c:** Describe how you would react if a friend visiting your home asked to see your or your family's firearm.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1c (Describe how you would react if a friend visiting your home asked to see your or your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1c (Describe how you would react if a friend visiting your home asked to see your or your), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must decline peer requests to handle firearms at home and redirect visitors away from storage areas. If a visitor persists, the Scout must notify a parent or adult guardian immediately.
 - **Common Myth:** Showing a friend an unloaded home shotgun with the action open is harmless curiosity.
@@ -93,7 +93,7 @@
 #### Req 1d: Eye and Ear Protection
 **Official Requirement 1d:** Explain the need for, types, and use of eye protection and hearing protection.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1d (Explain the need for, types, and use of eye protection and hearing protection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1d (Explain the need for, types, and use of eye protection and hearing protection), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High noise levels from shotgun muzzle blasts cause irreversible inner ear trauma requiring earmuffs or formable plugs. Impact resistant safety glasses shield the eyes from unburnt powder flakes, broken clay fragments, and ejector debris.
 - **Common Myth:** Regular foam earplugs eliminate the need to wear safety glasses during clay target shooting.
@@ -110,7 +110,7 @@
 #### Req 1e: Firearm Ownership Legal Frameworks
 **Official Requirement 1e:** Explain the main points of the laws for owning and using guns in your community and state.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1e (Explain the main points of the laws for owning and using guns in your community and state), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1e (Explain the main points of the laws for owning and using guns in your community and state), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Community and state laws dictate who may purchase, store, and transport shotguns across municipal jurisdictions. Compliance requires locking long guns in rigid cases separate from ammunition during vehicular transit.
 - **Common Myth:** State firearm laws are identical across all jurisdictions and allow open carry in vehicles.
@@ -127,7 +127,7 @@
 #### Req 1f: Wildlife Resource Conservation Principles
 **Official Requirement 1f:** Explain how hunting is related to the wise use of renewable wildlife resources.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1f (Explain how hunting is related to the wise use of renewable wildlife resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1f (Explain how hunting is related to the wise use of renewable wildlife resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Modern wildlife management balances game populations against carrying capacities through regulated harvest seasons. Hunters contribute conservation funds through excise taxes on sporting arms and hunting license purchases.
 - **Common Myth:** Hunting depletes game populations without contributing to the overall preservation of regional wildlife habitats.
@@ -182,7 +182,7 @@
 #### Req 1h: Range Hygiene and Sanitation
 **Official Requirement 1h:** Explain to your counselor the proper hygienic guidelines followed while shooting.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1h (Explain to your counselor the proper hygienic guidelines followed while shooting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1h (Explain to your counselor the proper hygienic guidelines followed while shooting), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Discharging shotshell primers and lead shot leaves fine chemical residues on shooters hands and clothing. Shooters must wash with cold water and deleading soap while avoiding eating or face touching on the range.
 - **Common Myth:** Warm water rinses without soap adequately remove heavy metal residues from skin after shooting.
@@ -199,7 +199,7 @@
 #### Req 1i: Shotgun Sporting Disciplines
 **Official Requirement 1i:** List and explain three shotgun sports. Identify places in your community where you could practice these sports, and explain how you can join or be a part of range and target activities.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1i (List and explain three shotgun sports. Identify places in your community where you could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1i (List and explain three shotgun sports. Identify places in your community where you could), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shotgun sports include trap, skeet, and sporting clays, each offering distinct angles, distances, and station presentations. Local gun clubs and scholastic shooting leagues offer structured venues where Scouts practice under qualified coaches.
 - **Common Myth:** Trap, skeet, and sporting clays share identical field geometry and target launch angles.
@@ -215,7 +215,7 @@
 #### Req 1j: Firearm Information Resources
 **Official Requirement 1j:** Discuss with your counselor a list of sources you could contact for information on firearms and their use.
 **Source:** *Official Scouting America Shotgun Shooting Merit Badge Pamphlet (p. 57, p. 86)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 1j Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For shotgun shooting Requirement 1j (Discuss with your counselor a list of sources you could contact for information on firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Shotgun Shooting Requirement 1j (Discuss with your counselor a list of sources you could contact for information on firearms), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts consult accredited shooting organizations, state game commissions, and certified firearms instructors for verified firearm information. These institutional sources distribute technical manuals, range safety bulletins, and local statutory updates.
 - **Common Myth:** Online social video channels provide authoritative safety guidance for handling and operating sporting firearms.

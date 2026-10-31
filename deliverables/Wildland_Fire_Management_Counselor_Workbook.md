@@ -1,8 +1,8 @@
 # Wildland Fire Management Merit Badge - Counselor Facilitation Guide & Class Preparation Workbook
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
-**Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Wildland%20Fire%20Management.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/wildland-fire-management/
+**Official Pamphlet PDF:** None  
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -70,7 +70,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2a:** Commercial forest products (b) Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2a (Commercial forest products (b) Fish and wildlife habitat (c) Soil and water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2a (Commercial forest products (b) Fish and wildlife habitat (c) Soil and water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - High-intensity wildland fires incinerate merchantable timber reserves and destroy seed banks required for natural timber stand regeneration. Post-fire salvage logging yields degraded lumber that commands significantly lower market prices.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -93,7 +93,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2b:** Fish and wildlife habitat (c) Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2b (Fish and wildlife habitat (c) Soil and water (d) Recreation and public use), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2b (Fish and wildlife habitat (c) Soil and water (d) Recreation and public use), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Severe fires eradicate forest canopy cover, leading to elevated stream water temperatures and lethal sediment loading in aquatic spawning beds. Ground-dwelling wildlife species suffer direct mortality and extended displacement due to food chain destruction.
 - **Common Myth:** Wildlife easily escapes fires unharmed and immediately reoccupies burned areas without population declines.
@@ -111,7 +111,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2c:** Soil and water (d) Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2c (Soil and water (d) Recreation and public use (e) Homes, communities, and human resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2c (Soil and water (d) Recreation and public use (e) Homes, communities, and human resources), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Extreme heat volatilizes soil organic compounds, depositing a waxy hydrophobic layer that prevents rain absorption. Unchecked surface runoff transports sediment directly into municipal reservoirs, clouding public drinking water supplies.
 - **Common Myth:** Soil absorbs burned ash quickly, which immediately increases permeability and groundwater filtration rates.
@@ -129,7 +129,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2d:** Recreation and public use (e) Homes, communities, and human resources (f) Air quality and public health.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2d (Recreation and public use (e) Homes, communities, and human resources (f) Air quality and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2d (Recreation and public use (e) Homes, communities, and human resources (f) Air quality and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildfires destroy park campgrounds, historic visitor centers, and wooden bridges across public recreation lands. Forest closures remain in effect for months or years while crews fell dead hazard trees.
 - **Common Myth:** Public recreation lands reopen immediately after active fire lines are extinguished and cool down.
@@ -147,7 +147,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2e:** Homes, communities, and human resources (f) Air quality and public health.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2e (Homes, communities, and human resources (f) Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2e (Homes, communities, and human resources (f) Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Interface conflagrations destroy residential neighborhoods, public water pumping facilities, and essential electrical distribution grids. Displaced populations overwhelm local municipal emergency services, creating long-term regional economic distress.
 - **Common Myth:** Modern suburban building materials provide complete protection against radiant heat and airborne embers.
@@ -165,7 +165,7 @@
 **[Parent Directive]:** *Harms of Wildfire*
 **Official Requirement 2f:** Air quality and public health.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 2f (Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 2f (Air quality and public health), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Combustion releases fine particulate matter and volatile organic compounds that travel thousands of miles downwind. Vulnerable civilian populations face heightened asthma attacks, cardiac emergencies, and premature hospital admissions during smoky conditions.
 - **Common Myth:** Wood smoke consists only of harmless carbon dioxide and steam that dissipates without health effects.
@@ -187,7 +187,7 @@
 **[Parent Directive]:** *Fire as a Management Tool. Discuss with your counselor how prescribed fire is used to accomplish the following*
 **Official Requirement 3a:** Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 3a (Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 3a (Fuel reduction (b) Fish and wildlife habitat enhancement (c) Ecosystem restoration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Prescribed burns consume brush, downed branches, and pine needle litter under humid conditions to limit flame length. Removing surface fuels starves potential wildfires of flammable ladder vegetation.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -210,7 +210,7 @@
 **[Parent Directive]:** *Fire as a Management Tool. Discuss with your counselor how prescribed fire is used to accomplish the following*
 **Official Requirement 3b:** Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 3b (Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 3b (Fish and wildlife habitat enhancement (c) Ecosystem restoration (d) Forest regeneration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Controlled fire opens dense brush thickets, exposing mineral soil for native forage grasses and berry-producing shrubs. Wildlife species rapidly forage on nutritious post-fire sprouts and insects across the open burn patchwork.
 - **Common Myth:** Prescribed burns destroy all local wildlife forage and permanently drive game animals from the forest.
@@ -228,7 +228,7 @@
 **[Parent Directive]:** *Fire as a Management Tool. Discuss with your counselor how prescribed fire is used to accomplish the following*
 **Official Requirement 3c:** Ecosystem restoration (d) Forest regeneration (e) Insect and disease control.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 3c (Ecosystem restoration (d) Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 3c (Ecosystem restoration (d) Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Periodic fire suppresses encroaching non-native brush and allows sun-loving prairie forbs and grasses to dominate. Longleaf pine and oak savannas depend on recurring fire to preserve their distinct species compositions.
 - **Common Myth:** Healthy forest ecosystems maintain peak biodiversity without any natural or human-ignited fire disturbances.
@@ -246,7 +246,7 @@
 **[Parent Directive]:** *Fire as a Management Tool. Discuss with your counselor how prescribed fire is used to accomplish the following*
 **Official Requirement 3d:** Forest regeneration (e) Insect and disease control.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 3d (Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 3d (Forest regeneration (e) Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Fire burns away thick needle litter, exposing bare mineral soil essential for tree seed germination and seedling survival. High temperatures melt resin coats on serotinous cones, showering newly cleared seedbeds with millions of seeds.
 - **Common Myth:** Tree seedlings germinate best under thick, unburned layers of decayed leaf and pine needle litter.
@@ -264,7 +264,7 @@
 **[Parent Directive]:** *Fire as a Management Tool. Discuss with your counselor how prescribed fire is used to accomplish the following*
 **Official Requirement 3e:** Insect and disease control.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 3e (Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 3e (Insect and disease control), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Controlled understory burning sterilizes leaf litter harbouring fungal spores like brown spot needle blight. Fire thins stressed stands, increasing the vigor of residual trees against bark beetle infestations.
 - **Common Myth:** Fires spread tree diseases by weakening all living trees against parasitic fungal and insect infestations.
@@ -374,7 +374,7 @@
 #### Req 5a: Fire Environment Influence Factors
 **Official Requirement 5a:** Discuss with your counselor how the fire environment affects wildland fire behavior. Include examples of the influences of weather, topography, and fuel.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 5a (Discuss with your counselor how the fire environment affects wildland fire behavior.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 5a (Discuss with your counselor how the fire environment affects wildland fire behavior.), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The fire environment triangle consists of fuel characteristics, prevailing weather conditions, and physical terrain features. Winds deliver oxygen, slope preheats uphill brush, and drought lowers vegetative fuel moisture.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -395,7 +395,7 @@
 #### Req 5b: Fire Triangle Suppression Principles
 **Official Requirement 5b:** Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 5b (Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 5b (Explain how a wildfire can be suppressed by removing heat, fuel, or oxygen), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Combustion ceases when one component of the classic fire triangle is completely eliminated from the reaction. Firefighters apply water to absorb heat, throw dirt to starve oxygen, or dig firelines to isolate fuel.
 - **Common Myth:** Water chemically neutralizes the fuel so that wet wood can never ignite under radiant heat.
@@ -412,7 +412,7 @@
 #### Req 5c: Wildfire Parts Anatomy Diagram
 **Official Requirement 5c:** Draw a diagram to illustrate the parts of a wildfire.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 5c (Draw a diagram to illustrate the parts of a wildfire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 5c (Draw a diagram to illustrate the parts of a wildfire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wind and terrain shape wildfires into irregular elliptical forms with distinct operational sections. Firefighters identify the fast-moving head, slower-burning flanks, rear heel, unburned pockets, and dangerous advancing spot fires.
 - **Common Myth:** A wildland fire forms a perfect circle that burns with identical intensity on every side.
@@ -437,7 +437,7 @@
 **Official Requirement 6a:** Discuss with your counselor the personal protective equipment used by wildland firefighters and its use.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never wear synthetic polyester or nylon garments on a wildland fire incident because synthetics melt into skin under radiant heat.
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 6a (Discuss with your counselor the personal protective equipment used by wildland firefighters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 6a (Discuss with your counselor the personal protective equipment used by wildland firefighters), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildland PPE includes flame-resistant Nomex trousers and shirts, shroud-fitted hard hats, leather work gloves, and heavy vibram-soled boots. Each firefighter carries a certified aluminum-clad fire shelter on their chest or waist harness.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -459,7 +459,7 @@
 #### Req 6b: Situational Awareness and LCES
 **Official Requirement 6b:** Discuss the following with your counselor, including why each is an important consideration for maintaining personal safety and situational awareness during wildland fire suppression activities: (1) 10 Standard Firefighting Orders (2) 18 Watch Out Situations (3) Lookouts, Communication, Escape Routes, and Safety Zones (LCES)
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 7, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 6b (Discuss the following with your counselor, including why each is an important consideration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 6b (Discuss the following with your counselor, including why each is an important consideration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Situational awareness requires continuous observation of weather changes, smoke column indicators, and crew fatigue levels. Firefighters identify escape routes and construct safety zones that provide four times the maximum flame length in clearance.
 - **Common Myth:** Deploying a portable fire shelter constitutes a designated primary safety zone during suppression operations.
@@ -605,7 +605,7 @@
 #### Req 7b: Incident Command System Structure
 **Official Requirement 7b:** Draw a diagram of the Incident Command System. Alone or with your team, explain the responsibilities of the Command and General Staff positions on a wildfire incident.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Field Sketch & Diagram Canvas):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 7b (Draw a diagram of the Incident Command System. Alone or with your team, explain the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 7b (Draw a diagram of the Incident Command System. Alone or with your team, explain the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Incident Command System establishes a standardized organizational hierarchy scalable from small spot fires to major disasters. The Incident Commander manages Command Staff while Section Chiefs coordinate tactical operations, future planning, resource logistics, and cost tracking.
 - **Common Myth:** The Incident Commander personally directs all tactical firefighting squads and drives supply delivery trucks directly.
@@ -627,7 +627,7 @@
 #### Req 8a: Hand Tools Line Construction
 **Official Requirement 8a:** Demonstrate the use of three hand tools unique to wildland fire suppression. Use one of these tools to demonstrate how to construct a fireline.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 8a Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 8a (Demonstrate the use of three hand tools unique to wildland fire suppression. Use one of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 8a (Demonstrate the use of three hand tools unique to wildland fire suppression. Use one of), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hand crews construct firelines using specialized tools like the Pulaski, McLeod, and Council rake in a coordinated progression. One tool cuts thick roots and brush while trailing tools scrape loose litter to mineral soil.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -648,7 +648,7 @@
 #### Req 8b: Specialized Heavy Fire Apparatus
 **Official Requirement 8b:** Discuss seven other tools, equipment, or apparatus that are unique to wildland fire suppression and explain how these resources are used.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 8, p. 9)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 8b (Discuss seven other tools, equipment, or apparatus that are unique to wildland fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 8b (Discuss seven other tools, equipment, or apparatus that are unique to wildland fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Wildland firefighting relies on heavy specialized apparatus including bulldozers, tractor-plows, heavy water tenders, and high-clearance brush trucks. Aerial resources drop long-term chemical retardant or foam to cool flaming fronts and slow fire spread for hand crews.
 - **Common Myth:** Chemical fire retardant dropped from aircraft extinguishes burning brush instantly without requiring ground crew mopup.
@@ -672,7 +672,7 @@
 **Official Requirement 9a:** Develop a fire readiness plan for a wildland area with which you are familiar. The plan should include a map showing available resources, water supplies, natural and manmade barriers, and access. The plan should discuss fuel loads, available fire apparatus, structure protection needs, values at risk, medical and evacuation considerations, and potential fire suppression tactics.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Wildland Fire Management Req 9 preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 9a (Develop a fire readiness plan for a wildland area with which you are familiar. The plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 9a (Develop a fire readiness plan for a wildland area with which you are familiar. The plan), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Developing a readiness plan requires mapping local natural firebreaks, surface water supplies, locked gates, and primary road corridors. The plan outlines resource staging locations and emergency evacuation corridors for personnel and nearby residents.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -694,7 +694,7 @@
 #### Req 9b: Forestry Official Agency Consultation
 **Official Requirement 9b:** Visit with a state or federal forestry official or your local fire warden. Discuss the causes of and types of wildland fire that occur in your area. Discuss the prime fire season(s) in your area. Identify the agency responsible for wildland fire suppression in your area. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 9b (Visit with a state or federal forestry official or your local fire warden. Discuss the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 9b (Visit with a state or federal forestry official or your local fire warden. Discuss the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Meeting with state forestry officials or municipal fire wardens provides insight into localized wildfire ignition trends and fire seasons. Officials explain common human cause factors and enforcement mechanisms for municipal open burning ordinances.
 - **Common Myth:** Local fire seasons occur at the exact same calendar dates regardless of regional weather patterns.
@@ -712,7 +712,7 @@
 #### Req 9c: Firewise Interface Home Assessment
 **Official Requirement 9c:** Conduct a Firewise assessment of a home or a building in the wildland-urban interface, which could include a Scout camp building or facility. Identify potential risks and fire hazards. With your counselor's approval, complete a project to reduce the wildfire risk and increase the preparedness of the building. Write a brief report about what you did and learned from the assessment and project.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 9c (Conduct a Firewise assessment of a home or a building in the wildland-urban interface,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 9c (Conduct a Firewise assessment of a home or a building in the wildland-urban interface,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Conducting a Firewise property audit evaluates the structure ignition zone, flammable roof materials, and foundation vegetation clearances. The assessment identifies accumulated combustible debris on decks, unscreened attic vents, and firewood stacks placed against exterior walls.
 - **Common Myth:** A structure assessment focuses only on the interior fire extinguishers and indoor electrical breaker boxes.
@@ -731,7 +731,7 @@
 **[Parent Directive]:** *Taking Action. Do ONE of the following*
 **Official Requirement 9d:** Meet with a Fire Prevention Specialist or a local fire official to learn about fire prevention efforts in your community. From what you learned, prepare a fire prevention message (skit, video, or billboard concept) and share with your counselor and troop (or other group approved by your counselor)
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 9d (Meet with a Fire Prevention Specialist or a local fire official to learn about fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 9d (Meet with a Fire Prevention Specialist or a local fire official to learn about fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Meeting with fire prevention specialists reveals proven public education campaigns designed to curb human-caused wildland ignitions. Scouts design educational posters, social messages, or audio announcements teaching campfire safety and vehicle spark prevention.
 - **Common Myth:** Public fire prevention posters only need catchy slogans without providing concrete safety mitigation actions.
@@ -748,7 +748,7 @@
 **[Parent Directive]:** *Taking Action. Do ONE of the following*
 **Official Requirement 9e:** Meet with a meteorologist or someone familiar with fire weather and discuss the fire weather concerns and typical fire seasons that exist in your area. Discuss the conditions that lead to a Fire Weather Watch or a Red Flag Warning. Discuss what you learned with your counselor.
 **Source:** *Official Scouting America Wildland Fire Management Merit Badge Pamphlet (p. 6, p. 8)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 9e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For wildland fire management Requirement 9e (Meet with a meteorologist or someone familiar with fire weather and discuss the fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Wildland Fire Management Requirement 9e (Meet with a meteorologist or someone familiar with fire weather and discuss the fire), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Consulting with a meteorologist reveals how low relative humidity, dry lightning, and gusty winds raise fire danger. Scouts examine local weather monitoring stations, drought indexes, and atmospheric stability indicators influencing erratic wildland fire behavior.
 - **Common Myth:** Hot sunny days always create extreme fire weather even during calm winds and high humidity.

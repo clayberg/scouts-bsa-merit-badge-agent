@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Kayaking.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/kayaking/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -44,7 +44,7 @@
 **Official Requirement 1a:** Explain to your counselor the hazards you are most likely to encounter while participating in kayaking activities, including weather and water-related hazards, and what you should do to anticipate, help prevent, mitigate, and respond to these hazards.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never paddle downriver toward strainers, fallen logs, or low head dams where trapped hydraulic currents can pin hulls.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 1a (Explain to your counselor the hazards you are most likely to encounter while participating), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - River hazards include sweepers, submerged rocks, and hydraulics that overpower paddling strokes. Scouting America requires portaging around all low head dams and unrated river obstructions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -66,7 +66,7 @@
 #### Req 1b: Paddler First Aid Protocols
 **Official Requirement 1b:** Review prevention, symptoms, and first-aid treatment for the following injuries or illnesses that can occur while kayaking: blisters, cold-water shock and hypothermia, heat-related illnesses, dehydration, sunburn, sprains, and strains.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1b First Aid, Symptoms & Prevention Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 1b (Review prevention, symptoms, and first-aid treatment for the following injuries or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers must prevent friction blisters with loose grip and monitor companions for heat exhaustion or hypothermia. Early treatment requires moving patients to shelter, dry garments, and warm oral fluids.
 - **Common Myth:** Hypothermia occurs exclusively in freezing winter conditions below thirty two degrees.
@@ -89,7 +89,7 @@
 #### Req 1c: Safety Afloat Policy Application
 **Official Requirement 1c:** Review the Scouting America Safety Afloat policy. Explain to your counselor how this applies to kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Symptoms, First Aid & Prevention Matrix):** Req 1c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 1c (Review the Scouting America Safety Afloat policy. Explain to your counselor how this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 1c (Review the Scouting America Safety Afloat policy. Explain to your counselor how this), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The nine points of Safety Afloat provide the administrative safety framework for all Scouting boating activities. Every trip requires trained supervision, physical fitness screening, designated buddy pairs, and continuous equipment inspections.
 - **Common Myth:** Scout patrols can organize independent river trips without adult aquatics leadership.
@@ -138,7 +138,7 @@
 **Official Requirement 3a:** Review the characteristics of life jackets most appropriate for kayaking and understand why one must always be worn while paddling. Then demonstrate how to select and fit a life jacket for kayaking.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 3a Hands-On Skill Station & EDGE Verification Checklist
 > **Guide to Safe Scouting Warning:** Fasten all buckles and cinch adjustment straps snugly before setting foot into the kayak launch area.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 3a (Review the characteristics of life jackets most appropriate for kayaking and understand why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 3a (Review the characteristics of life jackets most appropriate for kayaking and understand why), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddlers select life jackets rated for active paddling that offer large armholes and narrow chest panels. Proper fitting requires sequential strap cinching from the bottom waist belt up through the shoulder harnesses.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -159,7 +159,7 @@
 #### Req 3b: Kayaking Safety Gear Essentials
 **Official Requirement 3b:** Review the importance of safety equipment such as a signal device, extra paddle, sponge, bilge pump, flotation bags, and throw bag.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 14, p. 43)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 3b (Review the importance of safety equipment such as a signal device, extra paddle, sponge,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 3b (Review the importance of safety equipment such as a signal device, extra paddle, sponge,), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Essential safety gear includes sound signaling devices, spare paddles, bailers or pumps, and floating throw bags. These tools allow paddlers to dewater flooded compartments and assist capsized companions during emergencies.
 - **Common Myth:** A whistle is unnecessary if paddlers have strong voices for shouting across water.
@@ -184,7 +184,7 @@
 **Official Requirement 4a:** Name and point out the major parts of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never drag composite or plastic kayaks across abrasive gravel or concrete boat ramps during transport.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 4a (Name and point out the major parts of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 4a (Name and point out the major parts of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts must identify key hull features including bow, stern, gunwales, foot braces, and deck bungees. Familiarity with internal bulkheads and drainage plugs ensures seaworthy vessel configuration before departure.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -206,7 +206,7 @@
 #### Req 4b: Kayak Design and Hull Dynamics
 **Official Requirement 4b:** Review the differences in the design between recreational, whitewater, and sea or touring kayaks. Include how length, width, stability, and rocker are involved in the design of each type.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 4b Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 4b (Review the differences in the design between recreational, whitewater, and sea or touring), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Whitewater kayaks feature heavy rocker and short lengths for fast turns in turbulent rapids. Sea kayaks possess long waterlines, minimal rocker, and narrow beams for efficient long distance tracking.
 - **Common Myth:** Hull width has no bearing on how stable a kayak feels on calm water.
@@ -222,7 +222,7 @@
 #### Req 4c: Kayak Storage and Hull Maintenance
 **Official Requirement 4c:** Explain the care, maintenance, and storage of a kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 29, p. 35)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 4c (Explain the care, maintenance, and storage of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 4c (Explain the care, maintenance, and storage of a kayak), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Maintain kayak hulls by washing away grit, tightening loose deck hardware, and shielding plastic from ultraviolet deterioration. Store hulls supported on padded racks indoors or under breathable protective tarps.
 - **Common Myth:** Leaving kayaks strapped tightly on roof racks all summer protects hull alignment.
@@ -246,7 +246,7 @@
 **Official Requirement 5a:** Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and maintenance of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Avoid planting paddle blades into rocky bottoms to push off, which snaps blades and ferrules.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 5a (Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 5a (Correct methods for the use of a kayak paddle (b) Parts of a paddle (c) The care and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Position hands shoulder width apart with a relaxed control hand grip and loose opposite hand. Rotate the torso smoothly from the hips to pull the power face through water without arm fatigue.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -269,7 +269,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 5b:** Parts of a paddle (c) The care and maintenance of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 5b (Parts of a paddle (c) The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 5b (Parts of a paddle (c) The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Key paddle anatomy includes the shaft, blades, ferrule connection mechanism, throat, and flexible drip rings. Asymmetric blade shapes minimize twisting fluttering forces as the paddle slices through surface water.
 - **Common Myth:** Both sides of an asymmetric kayak paddle blade possess identical hydrodynamic shapes.
@@ -287,7 +287,7 @@
 **[Parent Directive]:** *Discuss the following*
 **Official Requirement 5c:** The care and maintenance of a paddle.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 33, p. 67)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 5c (The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 5c (The care and maintenance of a paddle), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Clean paddle shafts and connection ferrules thoroughly with fresh water after each paddling session. Inspect blades for cracking, nicks, or splintering, and hang paddles vertically in dry storage.
 - **Common Myth:** Paddle shafts require petroleum lubricants inside the ferrule joint to slide together.
@@ -311,7 +311,7 @@
 **Official Requirement 6a:** Safely capsize and perform a wet exit.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain continuous physical contact with both paddle and kayak hull during every wet exit.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 6a (Safely capsize and perform a wet exit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 6a (Safely capsize and perform a wet exit), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Perform wet exits by keeping calm, leaning forward toward the deck, and placing hands on the coaming. Slide the knees out of thigh braces and push the body free of the hull.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -334,7 +334,7 @@
 **[Parent Directive]:** *Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following*
 **Official Requirement 6b:** Reenter the kayak with assistance from a buddy boat.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 6b (Reenter the kayak with assistance from a buddy boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 6b (Reenter the kayak with assistance from a buddy boat), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Buddy reentries require stabilizing the victim kayak by rafting alongside the rescuer deck. The swimmer kicks horizontally to slide their chest across the stern deck before rotating inside.
 - **Common Myth:** Swimmers can leap vertically into a cockpit without capsizing the assisting kayak.
@@ -352,7 +352,7 @@
 **[Parent Directive]:** *Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following*
 **Official Requirement 6c:** Demonstrate a kayak-over-kayak rescue.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6c Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 6c (Demonstrate a kayak-over-kayak rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 6c (Demonstrate a kayak-over-kayak rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers pull the victim boat bow perpendicular across their own cockpit to break water suction. Inverting and sliding the hull back and forth drains water before flipping it upright.
 - **Common Myth:** A fully flooded kayak must be towed all the way to shore.
@@ -370,7 +370,7 @@
 **[Parent Directive]:** *Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following*
 **Official Requirement 6d:** Demonstrate the HELP position.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 6d Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 6d (Demonstrate the HELP position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 6d (Demonstrate the HELP position), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Heat Escape Lessening Posture preserves core temperature during cold water immersion waiting for rescue. Cross wrists tightly over the chest life jacket, press upper arms against ribs, and draw knees together.
 - **Common Myth:** Swimming continuously in freezing water keeps core body temperature warmer than floating.
@@ -388,7 +388,7 @@
 **[Parent Directive]:** *Using a properly equipped kayak with an open cockpit, a sit-on-top, or an inflatable kayak, do the following*
 **Official Requirement 6e:** Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with assistance if needed.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 56, p. 57)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 6e (Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 6e (Capsize the kayak, swim it and the paddle to shore, and empty water from the kayak with), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Hold the bow toggle while swimming side stroke toward shore, towing paddle and swamped boat. In shallow water, pivot the kayak on its side or invert it to dump accumulated water.
 - **Common Myth:** One swimmer can effortlessly carry a waterlogged thirty gallon kayak up sand dunes.
@@ -412,7 +412,7 @@
 **Official Requirement 7a:** Forward stroke (b) Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Slice draw strokes out of water before the blade contacts the kayak hull.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7a (Forward stroke (b) Backstroke (c) Forward sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7a (Forward stroke (b) Backstroke (c) Forward sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Execute forward strokes by winding the torso and planting the blade near the footpegs. Pull the boat past the blade using core abdominal unwinding, releasing at the hip line.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -435,7 +435,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 7b:** Backstroke (c) Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7b (Backstroke (c) Forward sweep (d) Reverse sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7b (Backstroke (c) Forward sweep (d) Reverse sweep), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The backstroke stops forward momentum and propels the kayak backward using the blade reverse face. Rotate shoulders to plant the blade aft and push forward smoothly toward your knees.
 - **Common Myth:** Reverse paddling requires flipping the paddle completely around inside the paddler hands.
@@ -453,7 +453,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 7c:** Forward sweep (d) Reverse sweep (e) Draw stroke (f) Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7c (Forward sweep (d) Reverse sweep (e) Draw stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7c (Forward sweep (d) Reverse sweep (e) Draw stroke), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The forward sweep turns the kayak away from the stroke side through a wide semi circle. Plant the blade near the bow stem and sweep in a wide lateral arc toward stern.
 - **Common Myth:** Forward sweep strokes push the kayak straight ahead while maintaining precise course tracking.
@@ -471,7 +471,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 7d:** Reverse sweep (e) Draw stroke (f) Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7d (Reverse sweep (e) Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7d (Reverse sweep (e) Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Reverse sweeps rotate the kayak bow toward the paddling side from a stationary or moving position. Reach back toward the stern deck and sweep a wide outward arc toward the bow.
 - **Common Myth:** Reverse sweeps spin the boat toward the opposite side of a forward sweep.
@@ -489,7 +489,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 7e:** Draw stroke (f) Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7e (Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7e (Draw stroke (f) Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The draw stroke moves the kayak sideways toward an approaching dock, buddy boat, or shoreline. Reach out broadside, immerse the blade vertically, and draw water directly inward toward your hip.
 - **Common Myth:** Angling the draw paddle shaft horizontally pulls the boat sideways without any tipping.
@@ -507,7 +507,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 7f:** Stern draw.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 75, p. 77)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 7f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 7f (Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 7f (Stern draw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Stern draws act like rudders to correct heading wander without dropping forward boat momentum. Angle the blade face slightly outward near the stern and pull water inward toward centerline.
 - **Common Myth:** Stern draws bring the boat to a dead stop faster than reverse backstrokes.
@@ -531,7 +531,7 @@
 **Official Requirement 8a:** Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while maintaining trim and balance of the kayak.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Scan three boat lengths ahead continuously to avoid shallow sandbars, buoys, and other craft.
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8a (Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8a (Paddle a straight line for 15 to 20 boat lengths using appropriate strokes while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Paddle a straight course for twenty boat lengths by maintaining consistent stroke cadence and vertical shaft angles. Fix your gaze on a distant shoreline landmark to detect and correct minor hull yaw.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -554,7 +554,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8b:** Spin or pivot from a stationary position 180 degrees (half circle) to the right and left within two boat lengths.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8b (Spin or pivot from a stationary position 180 degrees (half circle) to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8b (Spin or pivot from a stationary position 180 degrees (half circle) to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Spin the kayak within two boat lengths by alternating a forward sweep on one side with reverse sweep opposite. Keep the hull level and rotate the torso aggressively to complete the half circle turn.
 - **Common Myth:** A kayak requires forward momentum in order to pivot its hull one hundred eighty degrees.
@@ -572,7 +572,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8c:** Move abeam to the right 10 feet and to the left 10 feet.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8c (Move abeam to the right 10 feet and to the left 10 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8c (Move abeam to the right 10 feet and to the left 10 feet), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Move the boat ten feet sideways to port and starboard using consecutive vertical draw strokes. Slice the blade out or feather it underwater between pulls without bumping against the kayak hull.
 - **Common Myth:** Paddlers can move directly sideways by repeatedly pushing water away from the hull.
@@ -590,7 +590,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8d:** Stop the boat in one boat length.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8d (Stop the boat in one boat length), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8d (Stop the boat in one boat length), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Arrest all forward momentum within a single boat length by applying firm alternating reverse backstrokes. Brace firmly against the footpegs and keep the paddle shaft low to maintain hull balance.
 - **Common Myth:** Trailing the paddle flat in water provides enough drag to stop immediate momentum.
@@ -608,7 +608,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8e:** While maintaining forward motion, turn the kayak 90 degrees to the right and left.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8e (While maintaining forward motion, turn the kayak 90 degrees to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8e (While maintaining forward motion, turn the kayak 90 degrees to the right and left), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Execute a ninety degree turn while maintaining forward speed by initiating an extended forward sweep on the outside. Tilt the kayak slightly away from the turn while continuing forward stroke momentum.
 - **Common Myth:** Kayaks must come to a complete stop before turning ninety degrees into channels.
@@ -626,7 +626,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8f:** Move the kayak backward three to four boat lengths using appropriate and effective reverse strokes.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8f (Move the kayak backward three to four boat lengths using appropriate and effective reverse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8f (Move the kayak backward three to four boat lengths using appropriate and effective reverse), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Propel the kayak backward in a straight line for four boat lengths using balanced reverse strokes. Glance over alternating shoulders between strokes to monitor your course and avoid hazards.
 - **Common Myth:** Paddlers can reverse safely without ever looking behind them toward the stern.
@@ -644,7 +644,7 @@
 **[Parent Directive]:** *As a solo paddler, use a properly equipped kayak to demonstrate the following*
 **Official Requirement 8g:** Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart.
 **Source:** *Official Scouting America Kayaking Merit Badge Pamphlet (p. 67, p. 78)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For kayaking Requirement 8g (Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Kayaking Requirement 8g (Paddle the kayak in a buoyed figure 8 course around markers three to four boat lengths apart), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Steer through a buoyed figure eight course by combining forward strokes with precise turning sweeps around markers. Maintain steady boat trim and carve continuous fluid turns without hitting buoys or stalling.
 - **Common Myth:** Paddlers must maintain high paddling speed to navigate tight figure eight buoy courses.

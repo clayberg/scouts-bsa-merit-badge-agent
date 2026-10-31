@@ -91,7 +91,7 @@
 **Official Requirement 2a:** Earn the Swimming merit badge.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Terminate prerequisite swim testing immediately if a candidate exhibits ragged breathing or failing stroke mechanics.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 2a (Earn the Swimming merit badge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 2a (Earn the Swimming merit badge), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The Swimming merit badge confirms core stroke competence and aquatic safety foundations. Candidates must complete all badge components before enrolling in advanced rescue training.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -100,7 +100,7 @@
 - **Common Myth:** Recreational swimming experience substitutes for formal Swimming merit badge completion records.
 - **Pamphlet Fact:** Swimming merit badge requirements validate survival floating and deep water surface entry skills.
 
-![Prerequisite Badge Completion diagram illustrating how candidates must complete every requirement for the Swimming merit badge first.](/assets/pamphlet_images/lifesaving_p007_img1.png)
+![Technical diagram of prerequisite badge completion principles and field relationships in Lifesaving (Requirement 2).](/assets/pamphlet_images/lifesaving_p007_img1.png)
 
 | Req 2a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@
 #### Req 2b: Continuous Endurance Swim Testing
 **Official Requirement 2b:** Swim continuously for 400 yards using each of the following strokes in a strong manner, in good form with rhythmic breathing, for at least 50 continuous yards: front crawl, sidestroke, breaststroke, and elementary backstroke.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 63)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 2b (Swim continuously for 400 yards using each of the following strokes in a strong manner, in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 2b (Swim continuously for 400 yards using each of the following strokes in a strong manner, in), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Candidates must sustain rhythmic breathing across four distinct competitive and resting strokes. Continuous movement builds the cardiovascular reserve needed for demanding towing maneuvers.
 - **Common Myth:** Any informal stroke style satisfies the four hundred yard endurance prerequisite.
@@ -139,7 +139,7 @@
 **Official Requirement 3a:** Common drowning situations and how to avoid them, such as unfenced residential pools, drop offs, river currents, rip currents, and medical emergencies.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never enter turbulent water or low head dams for swimming rescue attempts.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 3a (Common drowning situations and how to avoid them, such as unfenced residential pools, drop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 3a (Common drowning situations and how to avoid them, such as unfenced residential pools, drop), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Sudden drop offs, river hydraulics, and residential pool gates present unique environmental hazards. Recognizing dynamic water movement helps swimmers avoid dangerous entrapment zones.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -148,7 +148,7 @@
 - **Common Myth:** Residential swimming pools present fewer drowning hazards than uncontrolled open water lakes.
 - **Pamphlet Fact:** Drop offs cause sudden immersion panic in nonswimmers who step off underwater ledges.
 
-![Silent Distress Recognition diagram illustrating how victims often struggle upright without forward propulsion or effective distress calls.](/assets/pamphlet_images/lifesaving_p012_img1.png)
+![Technical diagram of silent distress recognition principles and field relationships in Lifesaving (Requirement 3).](/assets/pamphlet_images/lifesaving_p012_img1.png)
 
 | Req 3a Study Prompt | Key Pamphlet Facts & Definitions | Field Example & Counselor Conference Notes |
 | :--- | :--- | :--- |
@@ -162,7 +162,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 3b:** How to identify persons in the water who need assistance.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 3b (How to identify persons in the water who need assistance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 3b (How to identify persons in the water who need assistance), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Distressed swimmers can call for help while drowning victims focus entirely on breathing. Rescuers monitor head position and arm movements to identify active suffocation struggles.
 - **Common Myth:** Tired swimmers behave identically to victims experiencing the instinctive drowning response.
@@ -182,7 +182,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 3c:** The order of methods in water rescue.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 3c (The order of methods in water rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 3c (The order of methods in water rescue), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers must prioritize reach and throw tactics before launching watercraft or swimming. Direct contact rescues represent the highest risk and must remain the final alternative.
 - **Common Myth:** Entering the water immediately demonstrates superior bravery and faster emergency rescue resolution.
@@ -200,7 +200,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 3d:** How rescue techniques vary depending on the setting and the condition of the person needing assistance.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 3d (How rescue techniques vary depending on the setting and the condition of the person needing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 3d (How rescue techniques vary depending on the setting and the condition of the person needing), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers adjust equipment choices according to surf conditions, river currents, and victim awareness. High current environments necessitate tethered land based throwing bags instead of wading approaches.
 - **Common Myth:** Rescue techniques remain identical regardless of whether emergencies occur in pools or rivers.
@@ -218,7 +218,7 @@
 **[Parent Directive]:** *Explain the following*
 **Official Requirement 3e:** Situations for which in-water rescues should not be undertaken.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 19, p. 59)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 3e (Situations for which in-water rescues should not be undertaken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 3e (Situations for which in-water rescues should not be undertaken), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Extreme current, electrical hazards, and violent surf dictate shoreline operations exclusively. Rescuers preserve personal safety by utilizing watercraft or waiting for specialized emergency personnel.
 - **Common Myth:** Rescuers must enter the water regardless of personal safety during every emergency.
@@ -357,7 +357,7 @@
 **Official Requirement 8a:** Present one aid to a subject, release it, and swim at a safe distance as the subject moves to safety.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Maintain visual contact with the subject throughout entry, approach, and equipment delivery phases.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 8a (Present one aid to a subject, release it, and swim at a safe distance as the subject moves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 8a (Present one aid to a subject, release it, and swim at a safe distance as the subject moves), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Pushing a buoyant aid gives responsive swimmers immediate support so they can kick toward safety. The rescuer swims at a safe distance while providing verbal direction and encouragement.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -380,7 +380,7 @@
 **[Parent Directive]:** *Correctly demonstrate rescues of a conscious practice subject 30 feet from shore in deep water using two types of buoyant*
 **Official Requirement 8b:** In a separate rescue, present the other aid to a subject and use it to tow the subject to safety.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 57, p. 71)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 8b (In a separate rescue, present the other aid to a subject and use it to tow the subject to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 8b (In a separate rescue, present the other aid to a subject and use it to tow the subject to), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The rescuer extends the buoyant device and commands the subject to lock both arms over it. Once secured, the rescuer turns forward and uses powerful kicks to tow the tube to safety.
 - **Common Myth:** Towing a conscious subject with a buoyant tube requires dragging them by the wrist.
@@ -459,7 +459,7 @@
 **Official Requirement 11a:** Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Immediately release contact carries and adopt defensive postures if the subject attempts to climb you.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 11a (Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 11a (Perform an armpit tow for a calm, responsive, tired swimmer resting with a back float), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The armpit tow supports a calm swimmer who can maintain a relaxed back float. The rescuer grasps both armpits from behind and glides backward using elementary backstroke kicks.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -481,7 +481,7 @@
 #### Req 11b: Exhausted Subject Cross-Chest Carry
 **Official Requirement 11b:** Perform a cross-chest carry for an exhausted, responsive subject treading water.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 30, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 11b (Perform a cross-chest carry for an exhausted, responsive subject treading water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 11b (Perform a cross-chest carry for an exhausted, responsive subject treading water), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The cross-chest carry secures an exhausted subject tightly against the rescuer side and hip. One arm locks across the chest beneath the armpit while sidestroke kicks provide propulsion.
 - **Common Myth:** The cross-chest hold compresses the subject windpipe to force complete compliance during tows.
@@ -531,7 +531,7 @@
 **Official Requirement 13a:** Perform an equipment assist using a buoyant aid.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 13a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Protect the victim cervical spine from excessive twisting when turning an unconscious floating subject.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 13a (Perform an equipment assist using a buoyant aid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 13a (Perform an equipment assist using a buoyant aid), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Buoyant aids provide rapid airway elevation without exhausting the rescuer during transport. The rescuer wedges the tube beneath the subject shoulders to keep water away from breathing passages.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -554,7 +554,7 @@
 **[Parent Directive]:** *Perform the following rescues for an unconscious practice subject at or near the surface 30 feet from shore*
 **Official Requirement 13b:** Perform a front approach and wrist tow.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 13b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 13b (Perform a front approach and wrist tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 13b (Perform a front approach and wrist tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The front approach requires grabbing the subject opposite wrist and pulling firmly forward. This rotational force flips the subject from facedown to faceup while towing begins.
 - **Common Myth:** Rescuers should grab the hair or clothing to roll an unconscious subject without completing the full BSA pamphlet procedure.
@@ -572,7 +572,7 @@
 **[Parent Directive]:** *Perform the following rescues for an unconscious practice subject at or near the surface 30 feet from shore*
 **Official Requirement 13c:** Perform a rear approach and armpit tow.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 60, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 13c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 13c (Perform a rear approach and armpit tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 13c (Perform a rear approach and armpit tow), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers slide both hands beneath the subject armpits from behind the shoulders. Grasping the shoulders allows smooth towing while the rescuer kicks backwards toward land.
 - **Common Myth:** Rear approaches take too much time compared to direct head first contact grabs.
@@ -596,7 +596,7 @@
 **Official Requirement 14a:** Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 14a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never hyperventilate before diving because rapid shallow breathing triggers sudden underwater blackout.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 14a (Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 14a (Recover a 10-pound weight in 8 to 10 feet of water using a feetfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The feetfirst surface dive begins with a strong upward breaststroke kick to lift shoulders. As momentum stops, the rescuer sweeps arms upward, driving the body straight down.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -619,7 +619,7 @@
 **[Parent Directive]:** *Discuss with your counselor how to respond if a victim submerges before being reached by a rescuer, and do the following*
 **Official Requirement 14b:** Repeat using a headfirst surface dive.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 31, p. 72)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 14b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 14b (Repeat using a headfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 14b (Repeat using a headfirst surface dive), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Headfirst surface dives utilize tuck or pike positions to direct body weight downward. The rescuer pulls downward with arms and kicks forcefully toward bottom targets.
 - **Common Myth:** Headfirst dives are safe to execute in shallow water with unknown submerged rocks.
@@ -642,7 +642,7 @@
 **Official Requirement 15a:** Discuss the causes, signs, and symptoms of a spinal injury.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 15a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Never twist or bend the neck or spine when rotating a submerged spinal victim.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 15a (Discuss the causes, signs, and symptoms of a spinal injury), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 15a (Discuss the causes, signs, and symptoms of a spinal injury), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Cervical trauma results from diving into shallow pools, boating collisions, or heavy surf impacts. Rescuers monitor for tingling, loss of motor control, and midline vertebral tenderness.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -665,7 +665,7 @@
 **[Parent Directive]:** *Demonstrate management of a spinal injury to your counselor*
 **Official Requirement 15b:** Support a faceup subject in calm water of standing depth.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 15b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 15b (Support a faceup subject in calm water of standing depth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 15b (Support a faceup subject in calm water of standing depth), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers maintain continuous head and neck alignment for faceup subjects in standing depth water. Squeezing the upper arms against the ears immobilizes the cervical vertebrae reliably.
 - **Common Myth:** Rescuers must apply rigid cervical collars while floating before stabilizing the subject arms.
@@ -683,7 +683,7 @@
 **[Parent Directive]:** *Demonstrate management of a spinal injury to your counselor*
 **Official Requirement 15c:** Turn a subject from a facedown to a faceup position in water of standing depth while maintaining support.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 85, p. 87)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 15c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 15c (Turn a subject from a facedown to a faceup position in water of standing depth while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 15c (Turn a subject from a facedown to a faceup position in water of standing depth while), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Facedown victims must be rolled into a faceup position to clear the airway. The rescuer glides the subject forward while rotating their body under an extended arm.
 - **Common Myth:** Turning a facedown spinal victim requires flipping them quickly to restore air access.
@@ -706,7 +706,7 @@
 **Official Requirement 16a:** Describe how to recognize the need for rescue breathing and CPR.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 16a Structured Technical Study & Explanation Matrix
 > **Guide to Safe Scouting Warning:** Dry the victim chest thoroughly before applying automated external defibrillator electrode pads.
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 16a (Describe how to recognize the need for rescue breathing and CPR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 16a (Describe how to recognize the need for rescue breathing and CPR), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Rescuers identify cardiac and respiratory arrest by checking responsiveness and observing chest rise. Gasping or absent respirations mandate immediate activation of emergency medical services and CPR.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -728,7 +728,7 @@
 #### Req 16b: Mannequin CPR Skill Demonstration
 **Official Requirement 16b:** Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the guidance of a current CPR/AED instructor trained by a nationally certified provider.
 **Source:** *Official Scouting America Lifesaving Merit Badge Pamphlet (p. 79, p. 83)* • **Scout Workbook Organizer (Skill Demonstration Checklist):** Req 16b Hands-On Skill Station & EDGE Verification Checklist
-- **Socratic Prompt (Ask Scouts First):** For lifesaving Requirement 16b (Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Lifesaving Requirement 16b (Demonstrate CPR knowledge and skills, including rescue breathing, on a mannequin under the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Scouts demonstrate thirty compressions and two breaths on training mannequins under certified guidance. Proper hand placement and complete chest recoil ensure adequate coronary perfusion pressure.
 - **Common Myth:** Compression only CPR without rescue breaths is optimal for submersion drowning victims.

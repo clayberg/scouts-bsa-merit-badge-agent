@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Law.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/law/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -70,7 +70,7 @@
 **[Parent Directive]:** *Discuss TWO of the following*
 **Official Requirement 2a:** Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the jury system (c) Two famous trials in history.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 2a (Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 2a (Justinian's Code, the Code of Hammurabi, and the Magna Carta (b) The development of the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Ancient legal documents transitioned civilizations from arbitrary executive edicts to standardized written statutory principles. They established precedents for property preservation, standardized penalties, and procedural fairness under the law.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -93,7 +93,7 @@
 **[Parent Directive]:** *Discuss TWO of the following*
 **Official Requirement 2b:** The development of the jury system (c) Two famous trials in history.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 2b (The development of the jury system (c) Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 2b (The development of the jury system (c) Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - The jury system developed through English common law as a fundamental check against executive overreach. It guarantees that criminal guilt or civil liability is determined by a representative panel of peers.
 - **Common Myth:** Juries have always functioned as passive evaluators of courtroom witness testimony throughout history.
@@ -113,7 +113,7 @@
 **[Parent Directive]:** *Discuss TWO of the following*
 **Official Requirement 2c:** Two famous trials in history.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 18, p. 20)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 2c (Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 2c (Two famous trials in history), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Major trials throughout history tested constitutional limits, challenged unjust statutes, and refined evidentiary standards. Examining these courtroom records reveals how legal precedents respond to societal crises and ethical disputes.
 - **Common Myth:** Famous historic trials were merely dramatic public spectacles without lasting structural impacts on jurisprudence.
@@ -215,7 +215,7 @@
 #### Req 6a: Courtroom Session Field Observation
 **Official Requirement 6a:** Attend a session of a civil or criminal court. Write 250 words or more on what you saw.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 6a (Attend a session of a civil or criminal court. Write 250 words or more on what you saw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 6a (Attend a session of a civil or criminal court. Write 250 words or more on what you saw), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attending a live court session exposes Scouts to municipal, state, or federal judicial administration. Observers watch judges manage court dockets, enforce evidentiary rules, and resolve procedural motions.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -236,7 +236,7 @@
 #### Req 6b: Patrol Mock Trial Simulation
 **Official Requirement 6b:** Plan and conduct a mock trial with your troop, school class, or other group. After the trial is over, discuss it with the group.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 57, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 6b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 6b (Plan and conduct a mock trial with your troop, school class, or other group. After the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 6b (Plan and conduct a mock trial with your troop, school class, or other group. After the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Staging a mock trial allows youth to simulate judicial proceedings by examining witnesses and arguing statutory law. Group debriefs afterward reinforce how courtroom rules test factual claims under procedural scrutiny.
 - **Common Myth:** A mock trial is simply an informal classroom debate without procedural restrictions or evidence constraints.
@@ -363,7 +363,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11a:** Administrative (b) Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11a (Administrative (b) Alternative Dispute Resolution (c) Bankruptcy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11a (Administrative (b) Alternative Dispute Resolution (c) Bankruptcy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Administrative law governs the creation, operation, and public oversight of government agencies. It ensures agencies adhere to statutory authority and procedural fairness when issuing regulations.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -386,7 +386,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11b:** Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology (e) Environmental (f) Family.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11b (Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11b (Alternative Dispute Resolution (c) Bankruptcy (d) Biotechnology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Alternative dispute resolution offers collaborative mediation and binding arbitration to resolve disputes outside public courts. These mechanisms reduce litigation expenses, preserve confidentiality, and resolve conflicts more swiftly.
 - **Common Myth:** Alternative dispute resolution processes are completely non-binding informal discussions with zero legal effect.
@@ -404,7 +404,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11c:** Bankruptcy (d) Biotechnology (e) Environmental (f) Family (g) Immigration.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11c Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11c (Bankruptcy (d) Biotechnology (e) Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11c (Bankruptcy (d) Biotechnology (e) Environmental), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Bankruptcy law provides overburdened debtors a fresh financial start while ensuring equitable asset distribution among creditors. Federal bankruptcy courts manage debt reorganization, orderly liquidation, and creditor repayment plans.
 - **Common Myth:** Filing for bankruptcy instantly erases every type of personal debt without any repayment obligation.
@@ -422,7 +422,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11d:** Biotechnology (e) Environmental (f) Family (g) Immigration (h) Information Technology.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11d Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11d (Biotechnology (e) Environmental (f) Family), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11d (Biotechnology (e) Environmental (f) Family), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Biotechnology law addresses the legal and ethical dilemmas arising from genetic research, pharmaceutical innovation, and bioengineering. It balances commercial patent protections against public safety regulations and ethical bioethics standards.
 - **Common Myth:** Biotechnology companies can patent naturally occurring organisms found in nature without human intervention.
@@ -440,7 +440,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11e:** Environmental (f) Family (g) Immigration (h) Information Technology.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11e Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11e (Environmental (f) Family (g) Immigration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11e (Environmental (f) Family (g) Immigration), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Environmental law regulates the impact of human enterprise on air quality, water resources, and endangered species. It enforces statutory pollution standards, cleanup liability, and public environmental impact reporting.
 - **Common Myth:** Environmental laws only penalize corporations after catastrophic ecological disasters have already taken place.
@@ -458,7 +458,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11f:** Family (g) Immigration (h) Information Technology.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11f Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11f (Family (g) Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11f (Family (g) Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Family law addresses legal domestic relationships including marriage, divorce, child custody, adoption, and child support. It emphasizes the welfare of minor children and equitable division of domestic property.
 - **Common Myth:** Divorcing parents have absolute property ownership rights over their children in custody disputes.
@@ -476,7 +476,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11g:** Immigration (h) Information Technology.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11g Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11g (Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11g (Immigration (h) Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Immigration law regulates the legal entry, naturalization, visa categories, and removal of non-citizens. Federal statutes balance national economic needs, border security mandates, and international humanitarian asylum standards.
 - **Common Myth:** Any non-citizen who enters the country can immediately apply for permanent legal residence.
@@ -494,7 +494,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11h:** Information Technology.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11h Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11h (Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11h (Information Technology), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Information technology law governs computer hardware, software licensing, cloud architecture, and unauthorized electronic data access. It establishes legal frameworks for digital contracts, electronic signatures, and cybercrime prosecution.
 - **Common Myth:** Information technology law only applies to large software development companies and network providers.
@@ -512,7 +512,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11i:** Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11i Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11i (Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11i (Intellectual Property (Copyright, Patents, and Trademarks) (j) International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Intellectual property law grants exclusive statutory protections for creative works, innovative inventions, and distinctive commercial trademarks. It encourages scientific innovation and artistic production by protecting economic rights.
 - **Common Myth:** Registering a copyright protects an invention, its brand name, and mechanical functions simultaneously.
@@ -530,7 +530,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11j:** International (k) Privacy.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11j Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11j (International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11j (International (k) Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - International law coordinates diplomatic relations, ocean transit treaties, trade agreements, and humanitarian rules between sovereign states. It relies on multilateral treaties, customs, and international tribunals for diplomatic enforcement.
 - **Common Myth:** A single global police agency actively enforces international court rulings across every sovereign state.
@@ -548,7 +548,7 @@
 **[Parent Directive]:** *Discuss with your counselor the importance in our society of TWO of the following areas of the law or process*
 **Official Requirement 11k:** Privacy.
 **Source:** *Official Scouting America Law Merit Badge Pamphlet (p. 69, p. 70)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 11k Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For law Requirement 11k (Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Law Requirement 11k (Privacy), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Privacy law safeguards personal information against unauthorized commercial monetization, governmental surveillance, and illicit digital interception. It establishes consumer data protection standards, health privacy rules, and electronic communication protections.
 - **Common Myth:** The United States Constitution explicitly mentions the right to digital privacy in written text.

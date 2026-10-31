@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Test%20Lab/Test%20Lab%20to%20Scouts%20BSA%20Merit%20Badges%20FAQs.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/auctioneering/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -122,7 +122,7 @@
 **Official Requirement 4A:** Shadow that auctioneer for a day and discuss with your counselor what you learned about auctioneering and being an auctioneer.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4A Structured Technical Study & Explanation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Auctioneering Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 4A (Shadow that auctioneer for a day and discuss with your counselor what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 4A (Shadow that auctioneer for a day and discuss with your counselor what you learned about), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Shadowing a professional auctioneer reveals the rigorous behind the scenes logistics of lot numbering, consignor contracts, and post sale payment settlement. Scouts observe firsthand how staff prepare the auction gallery hours before the first bidder arrives.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -144,7 +144,7 @@
 #### Req 4B: Live Auction Field Observation
 **Official Requirement 4B:** Attend a live auction of any type. Take notes on what is occurring during the auction and how the auctioneer interacts with the bidders, and discuss them with your counselor.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4B Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 4B (Attend a live auction of any type. Take notes on what is occurring during the auction and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 4B (Attend a live auction of any type. Take notes on what is occurring during the auction and), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Attending a live public auction allows Scouts to witness real time crowd psychology and rapid fire bid spotting in action. Observers track how auctioneers use eye contact, humor, and urgency to stimulate competitive bids.
 - **Common Myth:** Bid spotters only look for bidders who jump up or wave their arms frantically.
@@ -161,7 +161,7 @@
 **[Parent Directive]:** *With permission from your parents or Guardian, contact a professional auctioneer and record an interview with the auctioneer that lasts*
 **Official Requirement 4C:** View an online auction until the sale is concluded and discuss it with your counselor.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 22-27* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4C Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 4C (View an online auction until the sale is concluded and discuss it with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 4C (View an online auction until the sale is concluded and discuss it with your counselor), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Monitoring a virtual auction from start to finish highlights digital cataloging, automated bidding increments, and soft close timer extensions. Scouts observe how digital platforms replicate live auction urgency through countdown timers.
 - **Common Myth:** Online auctions close instantly at a predetermined minute regardless of active last second bids.
@@ -183,7 +183,7 @@
 **[Parent Directive]:** *Discuss with your counselor*
 **Official Requirement 5A:** Types of assets sold at auction.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5A Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 5A (Types of assets sold at auction), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 5A (Types of assets sold at auction), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Asset classes sold at auction encompass agricultural acreage, commercial real estate, industrial machinery, motor vehicles, livestock, and specialty estate items. Valuing these assets demands rigorous market appraisals and condition verification.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -206,7 +206,7 @@
 **[Parent Directive]:** *Discuss with your counselor*
 **Official Requirement 5B:** Types of customers you would be selling these assets for.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 5B Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 5B (Types of customers you would be selling these assets for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 5B (Types of customers you would be selling these assets for), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Auctioneers represent diverse clients including estate executors, bankruptcy trustees, financial institutions, municipal agencies, and retiring business owners. Managing these relationships requires tailored legal contracts and sensitive fiduciary communication.
 - **Common Myth:** Auction clients are simply casual everyday shoppers who want to get rid of junk.
@@ -223,7 +223,7 @@
 #### Req 5C: Auction Delivery Format Selection
 **Official Requirement 5C:** List the types of auction formats and the benefits of each and why an auctioneer might sell something through an online auction versus a live auction versus a simulcast auction.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 28-33* • **Scout Workbook Organizer (2-Column Comparison Table):** Req 5C Technical Comparison Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 5C (List the types of auction formats and the benefits of each and why an auctioneer might sell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 5C (List the types of auction formats and the benefits of each and why an auctioneer might sell), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Auctioneers select live, timed online, or simulcast formats depending on bidder location, inventory transport costs, and market demand. Simulcast merges live crowd enthusiasm with remote global bidding access.
 - **Common Myth:** Simulcast auctions require remote bidders to phone in bids manually to an assistant.
@@ -298,7 +298,7 @@
 **[Parent Directive]:** *Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult*
 **Official Requirement 8A:** Auction Schools (B) Licensing (C) Future Career Paths.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8A Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 8A (Auction Schools (B) Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 8A (Auction Schools (B) Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Accredited auction schools provide intensive courses in chant mechanics, contract drafting, public speaking, and commercial valuation. Students complete simulated sales to build confidence under real time pressure.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -321,7 +321,7 @@
 **[Parent Directive]:** *Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult*
 **Official Requirement 8B:** Licensing (C) Future Career Paths.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 8B Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 8B (Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 8B (Licensing (C) Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - State licensing boards require prospective auctioneers to pass written tests on state statutes, complete apprenticeships, and obtain surety bonds. These regulations safeguard consumers against fraudulent consignment practices.
 - **Common Myth:** Auctioneer licenses issued in one state automatically permit unrestricted sales in all other states.
@@ -341,7 +341,7 @@
 **[Parent Directive]:** *Describe for your counselor the steps you can take to become involved in the auction industry, both as a youth and an adult*
 **Official Requirement 8C:** Future Career Paths.
 **Source:** *Auctioneering Test Lab Resource Guide, pp. 46-51* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 8C Career & Professional Pathway Investigation Matrix
-- **Socratic Prompt (Ask Scouts First):** For auctioneering Requirement 8C (Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Auctioneering Requirement 8C (Future Career Paths), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Auctioneers can pursue diverse career paths specializing in commercial real estate, thoroughbred livestock, collector automobiles, or government asset disposition. Advanced credentials from professional associations enhance credibility.
 - **Common Myth:** Every auctioneer operates as a generalist selling mixed boxes of everyday secondhand merchandise.

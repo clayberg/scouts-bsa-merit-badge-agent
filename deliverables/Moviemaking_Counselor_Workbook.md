@@ -2,7 +2,7 @@
 **Classification:** ELECTIVE MERIT BADGE  
 **Counselor:** Merit Badge Counselor (Scouts BSA Unit / Council)
 **Official Pamphlet PDF:** https://filestore.scouting.org/filestore/Merit_Badge_ReqandRes/Pamphlets/Moviemaking.pdf  
-**Digital Resource Guide (DRG):** https://www.scouting.org/merit-badges/moviemaking/
+**Digital Resource Guide (DRG):** 
 
 > **Guide to Advancement §7.0.3.2 Compliance Notice:** This Counselor Workbook provides Socratic prompts, official pamphlet summaries, expected answer keys, and sign-off verification standards for instructors. Scouts use the companion Fillable Scout Workbook as an optional organizational study aid and are never required to submit a written worksheet when a requirement specifies oral *Explain*, *Discuss*, or *Show* mastery.
 
@@ -63,7 +63,7 @@
 **[Parent Directive]:** *Do the following*
 **Official Requirement 2a:** In a three- or four-paragraph treatment, tell the story you plan to produce, making sure that the treatment conveys a visual picture.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2a Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 2a (In a three- or four-paragraph treatment, tell the story you plan to produce, making sure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 2a (In a three- or four-paragraph treatment, tell the story you plan to produce, making sure), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A treatment presents the complete narrative arc in three or four descriptive paragraphs written in present tense. It emphasizes visible actions, sensory details, and character conflicts without including dialogue formatting.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -85,7 +85,7 @@
 #### Req 2b: Motion Picture Storyboard Creation
 **Official Requirement 2b:** Prepare a storyboard for your motion picture. Note: This can be done with rough sketches and stick figures.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 28, p. 45)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 2b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 2b (Prepare a storyboard for your motion picture. Note: This can be done with rough sketches), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 2b (Prepare a storyboard for your motion picture. Note: This can be done with rough sketches), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Storyboards break down the narrative treatment into individual visual frames representing camera shots. Accompanying captions specify camera movements, focal lengths, sound effects, and character dialogue cues.
 - **Common Myth:** Beginners think every single second of screen time requires a separate hand-drawn storyboard panel.
@@ -278,7 +278,7 @@
 **Official Requirement 3a:** With your parent or guardian's permission and your counselor's approval, visit a film set or television production studio and watch how production work is done.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3a Structured Technical Study & Explanation Matrix
 > **Starting Gate (Counselor Pre-Approval Required):** Counselor Pre-Approval Required - Review your Moviemaking Req 3a preparation with your Merit Badge Counselor before moving to subsequent tasks.
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 3a (With your parent or guardian's permission and your counselor's approval, visit a film set), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 3a (With your parent or guardian's permission and your counselor's approval, visit a film set), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Visiting an active broadcast studio or motion picture set reveals how directors, grips, gaffers, and sound mixers collaborate under strict time limits. Observing live control rooms highlights how multiple camera feeds are switched synchronously during production.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -300,7 +300,7 @@
 #### Req 3b: Zoom Lens Optical Elements
 **Official Requirement 3b:** Explain to your counselor the elements of the zoom lens and three important parts.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 23, p. 25)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 3b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 3b (Explain to your counselor the elements of the zoom lens and three important parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 3b (Explain to your counselor the elements of the zoom lens and three important parts), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - A zoom lens incorporates multiple glass elements that adjust focal length continuously while maintaining sharp image focus across the zoom range. Its primary mechanical components comprise the focusing ring, the zoom control ring, and the adjustable iris diaphragm.
 - **Common Myth:** Students think a zoom lens contains only one movable piece of glass inside the cylinder.
@@ -326,7 +326,7 @@
 **Official Requirement 4a:** Explore careers related to this merit badge. Research one career to learn about the training and education needed, costs, job prospects, salary, job duties, and career advancement. Your research methods may include, with your parent or guardian's permission, an internet or library search, an interview with a professional in the field, or a visit to a location where people in this career work. Discuss with your counselor both your findings and what about this profession might make it an interesting career.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)* • **Scout Workbook Organizer (Career & Profession Exploration Card):** Req 4a Career & Professional Pathway Investigation Matrix
 > **Starting Gate (Parent / Guardian Permission Required):** Parent/Guardian Consent & Review - Review and complete Moviemaking Req 4 with your parent or guardian's approval in compliance with BSA Youth Protection.
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 4a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 4a (Explore careers related to this merit badge. Research one career to learn about the), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Researching a film industry trade requires examining educational paths, equipment investments, union representation, and regional market employment prospects. Candidates assess entry wages alongside long-term advancement potential from assistant positions to department leadership.
 - **Step-by-Step Facilitation & Station Procedure:**
@@ -350,7 +350,7 @@
 **[Parent Directive]:** *Do ONE of the following*
 **Official Requirement 4b:** Explore how you could use knowledge and skills from this merit badge to pursue a hobby or healthy lifestyle. Research any training needed, expenses, and organizations that promote or support it. Discuss with your counselor what short-term and long-term goals you might have if you pursued this.
 **Source:** *Official Scouting America Moviemaking Merit Badge Pamphlet (p. 59, p. 61)* • **Scout Workbook Organizer (Concept & Examples Notes):** Req 4b Structured Technical Study & Explanation Matrix
-- **Socratic Prompt (Ask Scouts First):** For moviemaking Requirement 4b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
+- **Socratic Prompt (Ask Scouts First):** For Moviemaking Requirement 4b (Explore how you could use knowledge and skills from this merit badge to pursue a hobby or), what key BSA pamphlet standard and safety or verification step must you explain or demonstrate to your counselor?
 - **Official Pamphlet Summary & Expected Answer Key:**
   - Filmmaking serves as an engaging hobby that complements outdoor recreation, historical documentation, and family memory preservation. Community cinema groups and local video contests offer creative venues without commercial production pressures.
 - **Common Myth:** Enthusiasts assume pursuing personal videography as a pastime demands purchasing high-end Hollywood camera packages.
